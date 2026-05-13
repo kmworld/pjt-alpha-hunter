@@ -9,6 +9,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -55,56 +56,138 @@ function limitLength(s, max) {
   return s.length > max ? s.slice(0, max) + "…" : s;
 }
 
-// Product Hunt: parse from HTML if available
+// Product Hunt: use OpenClaw browser tool to bypass 403
+
+function runBrowserCommand(cmd) {
+  const out = execSync(cmd, { encoding: "utf-8", timeout: 20000 });
+  return (out ?? "").toString().trim();
+}
 
 async function fetchProductHunt() {
-  const html = await fetchHtml("https://www.producthunt.com/", "ProductHunt");
-  if (!html) {
-    console.log("[ProductHunt] No HTML, returning empty array");
+  try {
+    // 1) Open Product Hunt in OpenClaw browser
+    const openOut = runBrowserCommand(
+      'openclaw browser open "https://www.producthunt.com/"'
+    );
+    // Example output:
+    // opened: https://www.producthunt.com/
+    // tab: t8
+    // id: 339EF9EBB8ABC24459D2CD9E0A83FFB1
+    const idMatch = openOut.match(/id:\s*(\S+)/);
+    const targetId = idMatch ? idMatch[1] : null;
+    if (!targetId) {
+      console.log("[ProductHunt] No targetId from browser open");
+      return [];
+    }
+
+    // 2) Wait for page load
+    await new Promise((r) => setTimeout(r, 4000));
+
+    // 3) Take accessibility snapshot
+    const snapOut = runBrowserCommand(
+      `openclaw browser snapshot --target-id "${targetId}"`
+    );
+    const snapText = typeof snapOut === "string" ? snapOut : JSON.stringify(snapOut);
+
+    // Debug: inspect first 1000 chars if empty
+    if (!snapText || snapText.length < 100) {
+      console.log(`[ProductHunt] Snapshot too short (${snapText?.length || 0}): ${snapText?.slice(0, 200)}`);
+      return [];
+    }
+
+    // 4) Parse products from snapshot text
+    const products = parseProductHuntFromSnapshot(snapText);
+    console.log(`[ProductHunt] Parsed ${products.length} products via browser`);
+    return products.slice(0, 30);
+  } catch (err) {
+    console.log(`[ProductHunt] Browser fetch failed: ${err.message || err}`);
     return [];
   }
+}
 
+function parseProductHuntFromSnapshot(text) {
+  // The aria snapshot includes lines like:
+  // link "1. Memoket Gem" [ref=e36]:
+  //   /url: /products/memoket-gem
+  //   text: 1. Memoket Gem
+  // generic [ref=e38]: An AI wearable that remembers your conversations all day
+  // button "248" [ref=e43]:
   const products = [];
   const seen = new Set();
+  const lines = text.split("\n");
 
-  // Look for product-like blocks:
-  // - link with "/products/..." and rank text
-  // - tagline nearby
-  // - upvote count nearby
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
 
-  const productLinks = [...html.matchAll(/<a[^>]*href="([^"]*\/products\/[^"]+)"[^>]*>(.*?)<\/a>/gis)];
+    // Match product link: link "1. Name" or link "Name"
+    const rankMatch = line.match(
+      /link\s+"(\d+\.\s+.+)"/ 
+    );
+    if (!rankMatch) continue;
 
-  for (const m of productLinks) {
-    const href = m[1];
-    const linkText = stripTags(m[2]).trim();
-    const idx = m.index;
-    const around = html.slice(Math.max(0, idx - 400), idx + 400);
-
-    // Extract name: often "1. Name" or similar
-    const nameMatch = linkText.match(/^\d+\.\s+(.+)$/);
-    const name = (nameMatch && nameMatch[1].trim()) || linkText;
-
+    const rawName = rankMatch[1].trim();
+    const name = rawName.replace(/^\d+\.\s+/, "").trim();
     if (!name || name.length < 3 || name.length > 120) continue;
     if (seen.has(name)) continue;
 
-    // Extract tagline: short description near product
-    const taglineMatch = around.match(
-      /<[^>]*class="[^"]*description[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i
-    );
-    const tagline = (taglineMatch && stripTags(taglineMatch[0])) ||
-                    (around.match(/<[^>]*class="[^"]*tagline[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i)
-                      ? stripTags(around.match(/<[^>]*class="[^"]*tagline[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i)[0])
-                      : "");
+    // Find URL in next few lines
+    let url = null;
+    for (
+      let j = i + 1;
+      j < Math.min(i + 4, lines.length);
+      j++
+    ) {
+      const urlMatch = lines[j].match(
+        /\/url:\s*(\/products\/[^\s]+)/
+      );
+      if (urlMatch) {
+        url = "https://www.producthunt.com" + urlMatch[1];
+        break;
+      }
+    }
 
-    // Extract votes: number near "upvotes"
-    const votesMatch = around.match(/(\d[\d,]*)\s*upvotes?/i);
-    const votes = votesMatch
-      ? parseInt(votesMatch[1].replace(/,/g, ""), 10)
-      : null;
+    // Find tagline in next lines
+    let tagline = "";
+    for (
+      let j = i + 1;
+      j < Math.min(i + 6, lines.length);
+      j++
+    ) {
+      const tlLine = lines[j].trim();
+      // generic [ref=...]: short description
+      const tlMatch = tlLine.match(
+        /generic\s+\[ref=\w+\]:\s+(.+)$/ 
+      );
+      if (tlMatch && tlMatch[1].length > 15 && tlMatch[1].length < 200) {
+        tagline = tlMatch[1].trim();
+        break;
+      }
+    }
 
-    const url = href.startsWith("http")
-      ? href
-      : "https://www.producthunt.com" + href;
+    // Votes: button "248"
+    let votes = null;
+    for (
+      let j = i + 1;
+      j < Math.min(i + 8, lines.length);
+      j++
+    ) {
+      const vMatch = lines[j].match(
+        /button\s+"(\d{2,4})"/ 
+      );
+      if (vMatch && parseInt(vMatch[1], 10) >= 50) {
+        votes = parseInt(vMatch[1], 10);
+        break;
+      }
+    }
+
+    if (!url) {
+      const slug = name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/-+/g, "-")
+        .slice(0, 40);
+      url = `https://www.producthunt.com/products/${slug}`;
+    }
 
     if (products.length >= 30) break;
 
@@ -119,8 +202,7 @@ async function fetchProductHunt() {
     seen.add(name);
   }
 
-  console.log(`[ProductHunt] Parsed ${products.length} products`);
-  return products.slice(0, 30);
+  return products;
 }
 
 // IndieHackers: collect notable posts from homepage

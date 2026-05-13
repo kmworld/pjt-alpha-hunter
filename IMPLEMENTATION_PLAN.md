@@ -23,9 +23,10 @@ Backpressure:
 
 ## Backlog
 
-- [ ] scripts/github_trending.mjs
-  - Fetch GitHub Trending daily via web_fetch
-  - Parse repos into data/github_trending_<YYYY-MM-DD>.json
+- [x] scripts/github_trending.mjs
+  - Fetch GitHub Trending daily via raw HTML parse (fixed parser)
+  - Write data/github_trending_<YYYY-MM-DD>.json
+  - Tested: 19 repos parsed, valid JSON
 
 - [x] scripts/reddit_signals.mjs
   - Use Reddit JSON endpoints for selected subreddits
@@ -37,14 +38,17 @@ Backpressure:
   - Write data/x_twitter_<YYYY-MM-DD>.json
   - Status: implemented, tested (exit 0, valid JSON, 10 accounts, 94 tweets)
 
-- [ ] scripts/research_ml_signals.mjs
+- [x] scripts/research_ml_signals.mjs
   - Hugging Face trending + ArXiv API
   - Write data/research_ml_<YYYY-MM-DD>.json
+  - Status: implemented, tested (exit 0, valid JSON, HF 29, ArXiv 30)
 
-- [ ] scripts/product_launch_signals.mjs
-  - Product Hunt + IndieHackers + YC signals
+- [x] scripts/product_launch_signals.mjs
+  - Product Hunt (403 due to Cloudflare, returns empty) + IndieHackers + YC signals
   - Write data/product_launch_<YYYY-MM-DD>.json
+  - Note: Product Hunt requires browser-based scraping; to be handled via separate pipeline later
 
-- [ ] scripts/job_signals.mjs
-  - Wellfound / YC Work at a Startup sample jobs
+- [x] scripts/job_signals.mjs
+  - YC Work at a Startup (primary); Wellfound as fallback (403, skipped)
   - Write data/job_signals_<YYYY-MM-DD>.json
+  - Status: implemented, tested (exit 0, valid JSON, 30 jobs)

@@ -1,13 +1,218 @@
 {
   "source": "product_launch",
   "date": "2026-05-13",
-  "product_hunt": [],
-  "indiehackers": [
+  "product_hunt": [
     {
-      "title": "In Case You Missed It",
-      "description_short": "",
-      "url": "https://www.indiehackers.com/top/month-of-2026-05"
+      "name": "Memoket Gem",
+      "tagline": "An AI wearable that remembers your conversations all day",
+      "votes": 248,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/memoket-gem"
+    },
+    {
+      "name": "Latitude for Claude Code",
+      "tagline": "See where Claude Code burns tokens. Hit your limits less.",
+      "votes": 213,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/latitude-4"
+    },
+    {
+      "name": "CraftBot with Living UI",
+      "tagline": "Grow your own software that is alive.",
+      "votes": 167,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/craftbot"
+    },
+    {
+      "name": "Googlebook",
+      "tagline": "A new kind of laptop designed for Gemini Intelligence",
+      "votes": 142,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/googlebook-2"
+    },
+    {
+      "name": "Apideck MCP Server",
+      "tagline": "Give AI agents access to real-time data across 200+ apps",
+      "votes": 132,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/apideck"
+    },
+    {
+      "name": "Blaze 2.0",
+      "tagline": "AI marketer for SMBs complete w/ strategy, content, and ads",
+      "votes": 124,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/blaze-5"
+    },
+    {
+      "name": "Frontdesk AI",
+      "tagline": "AI COO to run your business like a Fortune 500 enterprise",
+      "votes": 116,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/frontdesk-ai"
+    },
+    {
+      "name": "Liminary",
+      "tagline": "Ground your AI in saved knowledge as you work",
+      "votes": 111,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/liminary"
+    },
+    {
+      "name": "Claudy",
+      "tagline": "A proper home for Claude Code — multi-session, multi-account",
+      "votes": 100,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/claudy"
+    },
+    {
+      "name": "Pipali",
+      "tagline": "An AI coworker for any computer work",
+      "votes": 98,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/pipali"
+    },
+    {
+      "name": "SideNotes",
+      "tagline": "Take notes on your screen side",
+      "votes": 96,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/sidenotes-3"
+    },
+    {
+      "name": "AI meeting notes by Snaply",
+      "tagline": "Free & Private AI meeting notes for you Mac",
+      "votes": 94,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/ai-dication-by-snaply"
+    },
+    {
+      "name": "LayerProof Matte 2.0",
+      "tagline": "Create high-quality social content at the speed of trends",
+      "votes": 92,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/layerproof-social-content-generation"
+    },
+    {
+      "name": "Whisper Internet Infra AI Context",
+      "tagline": "\"Free MCP for security AI: live BGP, DNS, threat graph\"",
+      "votes": 89,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/whisper-internet-infra-ai-context"
+    },
+    {
+      "name": "Plate",
+      "tagline": "Minimal project management for small teams",
+      "votes": 88,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/plate-4"
+    },
+    {
+      "name": "TipTap",
+      "tagline": "Customers tip support agents that help them the most",
+      "votes": 87,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/tiptap-2"
+    },
+    {
+      "name": "tapcut",
+      "tagline": "The analogue shortcut",
+      "votes": 83,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/tapcut-the-analogue-shortcut"
+    },
+    {
+      "name": "Crade AI",
+      "tagline": "Like ChatGPT, but it sees your screen",
+      "votes": 82,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/crade"
+    },
+    {
+      "name": "Gretl",
+      "tagline": "Visual control pannel for localhosts",
+      "votes": 81,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/gretl-control-panel-for-your-localhost"
+    },
+    {
+      "name": "WhoAmILookingFor",
+      "tagline": "Find the right person in your LinkedIn network",
+      "votes": 81,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/whoamilookingfor"
+    },
+    {
+      "name": "PitchDrop.ai",
+      "tagline": "Turn your pitch into a live, branded URL that wins deals",
+      "votes": 80,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/pitchdrop-ai"
+    },
+    {
+      "name": "Fide Shopify App",
+      "tagline": "Show shoppable UGC videos on your Shopify store",
+      "votes": 79,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shoppable-videos-ugc"
+    },
+    {
+      "name": "Fileloom",
+      "tagline": "A free, ad-free Android viewer for all your files",
+      "votes": 78,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/fileloom-file-viewer"
+    },
+    {
+      "name": "Polygram",
+      "tagline": "AI-native design and coding app to build mobile & web apps",
+      "votes": 76,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/polygram-4"
+    },
+    {
+      "name": "claude-share",
+      "tagline": "Securely share your Claude Code with your friends",
+      "votes": 75,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/claude-share"
+    },
+    {
+      "name": "IndexedAI",
+      "tagline": "Your site scores X/100 for AI agents with next steps",
+      "votes": 74,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/indexedai"
+    },
+    {
+      "name": "Blurto",
+      "tagline": "Sorts your thoughts into tasks, notes, ideas, etc",
+      "votes": 73,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/blurto"
+    },
+    {
+      "name": "Flowsnip",
+      "tagline": "n8n extension to save and reuse workflow snippets in-canvas",
+      "votes": 72,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/flowsnip"
+    },
+    {
+      "name": "Vibespace",
+      "tagline": "Workspace for multi-agent collaboration",
+      "votes": 72,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/vibespace"
+    },
+    {
+      "name": "Zen Reports",
+      "tagline": "See how much traffic your website gets from ChatGPT",
+      "votes": 70,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/zen-reports"
     }
   ],
+  "indiehackers": [],
   "yc": []
 }

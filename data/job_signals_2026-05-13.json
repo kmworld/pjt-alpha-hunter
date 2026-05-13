@@ -1,0 +1,377 @@
+{
+  "source": "job_signals",
+  "date": "2026-05-13",
+  "jobs": [
+    {
+      "title": "Product Engineer, Karat Platform",
+      "company": "Karat Financial",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Los Angeles, CA, US",
+      "salary": "$130K - $170K",
+      "roleType": "Full stack",
+      "companyBatch": "W20",
+      "url": "https://www.workatastartup.com/job/90603"
+    },
+    {
+      "title": "Product Engineer, Post Batch",
+      "company": "Y Combinator",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco, CA",
+      "salary": "$185K - $485K",
+      "roleType": "Full stack",
+      "companyBatch": "",
+      "url": "https://www.workatastartup.com/job/41302"
+    },
+    {
+      "title": "Cloud Engineer (SRE)",
+      "company": "Heroic Labs",
+      "tags": [
+        "infra",
+        "DevOps",
+        "SRE"
+      ],
+      "location": "London, UK / PT / Remote",
+      "salary": "",
+      "roleType": "Devops",
+      "companyBatch": "S15",
+      "url": "https://www.workatastartup.com/job/76248"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Pine Park Health",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Berkeley, CA, US / Remote (San Francisco, CA, US; Berkeley, CA, US; Oakland, CA, US; Fremont, CA, US; Hayward, CA, US)",
+      "salary": "$190K - $215K",
+      "roleType": "Full stack",
+      "companyBatch": "S18",
+      "url": "https://www.workatastartup.com/job/93346"
+    },
+    {
+      "title": "Senior Frontend Developer - Analytics Platform",
+      "company": "Coulomb AI",
+      "tags": [
+        "AI"
+      ],
+      "location": "Bangalore",
+      "salary": "$30K - $40K",
+      "roleType": "Frontend",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/86164"
+    },
+    {
+      "title": "Software Engineer (India)",
+      "company": "Strac",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "Bengaluru, KA, IN / Bengaluru, Karnataka, IN / Pune, MH, IN / Pune, Maharashtra, IN / Mumbai, MH, IN / Mumbai, Maharashtra, IN",
+      "salary": "₹2.5M - ₹5M INR",
+      "roleType": "Full stack",
+      "companyBatch": "W22",
+      "url": "https://www.workatastartup.com/job/87272"
+    },
+    {
+      "title": "Deployed GxP Specialist",
+      "company": "Seal",
+      "tags": [
+        "full stack"
+      ],
+      "location": "London, England, GB",
+      "salary": "£40K - £90K GBP",
+      "roleType": "Full stack",
+      "companyBatch": "S20",
+      "url": "https://www.workatastartup.com/job/88455"
+    },
+    {
+      "title": "New Grad Software Engineer",
+      "company": "Confido",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "NYC Office",
+      "salary": "$150K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/93171"
+    },
+    {
+      "title": "Senior Software Engineer, Backend Integrations",
+      "company": "Flock Safety",
+      "tags": [
+        "backend",
+        "full stack"
+      ],
+      "location": "Atlanta, GA, US / Remote (Atlanta, GA, US)",
+      "salary": "$170K - $250K",
+      "roleType": "Full stack",
+      "companyBatch": "S17",
+      "url": "https://www.workatastartup.com/job/72551"
+    },
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "hotglue",
+      "tags": [
+        "full stack"
+      ],
+      "location": "BR / CO / PE / AR / Remote (BR; CO; PE; AR)",
+      "salary": "$60K - $95K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/48509"
+    },
+    {
+      "title": "Full-Stack Software Engineer",
+      "company": "Athelas",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Mountain View, CA, US",
+      "salary": "$120K - $180K",
+      "roleType": "Full stack",
+      "companyBatch": "S16",
+      "url": "https://www.workatastartup.com/job/67323"
+    },
+    {
+      "title": "Systems Engineer",
+      "company": "Substack",
+      "tags": [
+        "systems engineer",
+        "DevOps"
+      ],
+      "location": "San Francisco, CA, US / New York, NY, US",
+      "salary": "$185K - $225K",
+      "roleType": "Devops",
+      "companyBatch": "W18",
+      "url": "https://www.workatastartup.com/job/81577"
+    },
+    {
+      "title": "Security & Compliance Engineer",
+      "company": "Arist",
+      "tags": [
+        "DevOps"
+      ],
+      "location": "NY, US / Remote (US)",
+      "salary": "$160K - $175K",
+      "roleType": "Devops",
+      "companyBatch": "S20",
+      "url": "https://www.workatastartup.com/job/94535"
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "Runway",
+      "tags": [
+        "full stack"
+      ],
+      "location": "US / GB / AU / ES / FR / MX / DK / SE / IT / PL / CZ / PT / BE / NL / CA / FI / EE / BR / Remote (US; GB; AU; ES; FR; MX; DK; SE; IT; PL; CZ; PT; BE; NL; CA; FI; EE; BR)",
+      "salary": "$80K - $150K",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "url": "https://www.workatastartup.com/job/46511"
+    },
+    {
+      "title": "AI Engineer",
+      "company": "Cyble",
+      "tags": [
+        "AI"
+      ],
+      "location": "Bengaluru, KA, IN / Bengaluru, Karnataka, IN",
+      "salary": "₹1.5M - ₹3M INR",
+      "roleType": "Data science",
+      "companyBatch": "W21",
+      "url": "https://www.workatastartup.com/job/92341"
+    },
+    {
+      "title": "Full Stack Engineer (Java + React + AI-Accelerated Development)",
+      "company": "Stayflexi",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "Tirupati, AP, IN / Tirupati, Andhra Pradesh, IN / Remote (IN)",
+      "salary": "₹40K - ₹50K INR / monthly",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "url": "https://www.workatastartup.com/job/93707"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Nova Credit",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Remote / New York, NY, US / San Francisco, CA, US / Remote (New York, NY, US; San Francisco, CA, US; Los Angeles, CA, US; San Jose, CA, US; Austin, TX, US; Denver, CO, US; Toronto, ON, CA; Toronto, Ontario, CA; NJ, US; Boston, MA, US)",
+      "salary": "$193K - $235K",
+      "roleType": "Full stack",
+      "companyBatch": "S16",
+      "url": "https://www.workatastartup.com/job/94311"
+    },
+    {
+      "title": "Fullstack Engineer",
+      "company": "BoldVoice",
+      "tags": [
+        "full stack"
+      ],
+      "location": "New York, NY",
+      "salary": "$140K - $250K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/45768"
+    },
+    {
+      "title": "iOS Engineer",
+      "company": "Reframe (Glucobit)",
+      "tags": [],
+      "location": "Atlanta, GA, US / Remote (US)",
+      "salary": "$80K - $150K",
+      "roleType": "iOS",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/79904"
+    },
+    {
+      "title": "Engineering Lead",
+      "company": "Caribou",
+      "tags": [
+        "autonomous",
+        "full stack"
+      ],
+      "location": "London / Remote (London, England, GB)",
+      "salary": "£120K - £145K GBP",
+      "roleType": "Full stack",
+      "companyBatch": "W19",
+      "url": "https://www.workatastartup.com/job/93036"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Camber",
+      "tags": [
+        "full stack"
+      ],
+      "location": "New York, NY",
+      "salary": "$180K - $230K",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "url": "https://www.workatastartup.com/job/51104"
+    },
+    {
+      "title": "Senior AI Engineer I",
+      "company": "BillionToOne",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "Menlo Park, CA",
+      "salary": "$174K - $201K",
+      "roleType": "Full stack",
+      "companyBatch": "S17",
+      "url": "https://www.workatastartup.com/job/93975"
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "GoGoGrandparent",
+      "tags": [
+        "backend"
+      ],
+      "location": "Remote",
+      "salary": "$80K - $180K",
+      "roleType": "Backend",
+      "companyBatch": "S16",
+      "url": "https://www.workatastartup.com/job/78968"
+    },
+    {
+      "title": "Senior Full-Stack & DevOps Engineer",
+      "company": "Truss",
+      "tags": [
+        "DevOps"
+      ],
+      "location": "CA / Remote (CA)",
+      "salary": "$150K - $250K CAD",
+      "roleType": "Devops",
+      "companyBatch": "S21",
+      "url": "https://www.workatastartup.com/job/92608"
+    },
+    {
+      "title": "Senior Software Engineer - Former founder preferred",
+      "company": "Turing Labs Inc.",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "Palo Alto, CA / San Francisco, CA, US",
+      "salary": "$130K - $210K",
+      "roleType": "Full stack",
+      "companyBatch": "W20",
+      "url": "https://www.workatastartup.com/job/92246"
+    },
+    {
+      "title": "Senior Software Engineer, Hub Team",
+      "company": "Weekend (fmr. Volley)",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "San Francisco",
+      "salary": "$166K - $228K",
+      "roleType": "Full stack",
+      "companyBatch": "W18",
+      "url": "https://www.workatastartup.com/job/93960"
+    },
+    {
+      "title": "Technical Operations & AI Automation Engineer - (Bangkok/Hybrid)",
+      "company": "Peakflo",
+      "tags": [
+        "AI",
+        "agent",
+        "machine learning"
+      ],
+      "location": "Bangkok, Bangkok, TH / Remote (Bangkok, Bangkok, TH)",
+      "salary": "",
+      "roleType": "Machine learning",
+      "companyBatch": "W22",
+      "url": "https://www.workatastartup.com/job/92435"
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "Hotplate",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco Office",
+      "salary": "$165K - $185K",
+      "roleType": "Full stack",
+      "companyBatch": "S20",
+      "url": "https://www.workatastartup.com/job/89034"
+    },
+    {
+      "title": "Full Stack Product Engineer - Remote/US",
+      "company": "Jiga",
+      "tags": [
+        "full stack"
+      ],
+      "location": "US / Remote (US)",
+      "salary": "$120K - $190K",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "url": "https://www.workatastartup.com/job/44310"
+    },
+    {
+      "title": "Full Stack Developer - Bountiful ",
+      "company": "Bountiful",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco, CA, US",
+      "salary": "$150K - $180K",
+      "roleType": "Full stack",
+      "companyBatch": "W17",
+      "url": "https://www.workatastartup.com/job/53662"
+    }
+  ]
+}
