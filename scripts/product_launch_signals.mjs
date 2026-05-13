@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // product_launch_signals.mjs
-// Collects signals from:
-// - Product Hunt (today's top products)
-// - IndieHackers (notable posts)
-// - Y Combinator (notable companies)
+// Collects:
+// - Product Hunt (via fetch with stealth headers; fallback to empty)
+// - IndieHackers (direct fetch)
+// - Y Combinator (direct fetch)
 // Output: data/product_launch_<YYYY-MM-DD>.json
 
 import fs from "fs";
@@ -15,17 +15,23 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
 
-const USER_AGENT =
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
-
 function todayISO() {
-  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  return new Date().toISOString().slice(0, 10);
 }
 
 async function fetchHtml(url, label) {
   try {
     const res = await fetch(url, {
-      headers: { "User-Agent": USER_AGENT },
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0 Safari/537.36",
+        Accept:
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+      },
       signal: AbortSignal.timeout(15_000),
     });
     if (!res.ok) {
@@ -39,8 +45,6 @@ async function fetchHtml(url, label) {
   }
 }
 
-// Simple HTML helpers
-
 function stripTags(html) {
   if (!html) return "";
   return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
@@ -51,15 +55,7 @@ function limitLength(s, max) {
   return s.length > max ? s.slice(0, max) + "…" : s;
 }
 
-function extractBetween(html, start, end) {
-  const i = html.indexOf(start);
-  if (i === -1) return null;
-  const j = html.indexOf(end, i + start.length);
-  if (j === -1) return html.slice(i + start.length);
-  return html.slice(i + start.length, j);
-}
-
-// Product Hunt: parse today's top products from main page
+// Product Hunt: parse from HTML if available
 
 async function fetchProductHunt() {
   const html = await fetchHtml("https://www.producthunt.com/", "ProductHunt");
@@ -69,57 +65,58 @@ async function fetchProductHunt() {
   }
 
   const products = [];
+  const seen = new Set();
 
-  // Strategy: scan for product-like blocks: name + tagline + votes.
-  // We'll use simple regex patterns over the HTML.
+  // Look for product-like blocks:
+  // - link with "/products/..." and rank text
+  // - tagline nearby
+  // - upvote count nearby
 
-  // Try to grab "upvote" counts and nearby title/tagline.
-  // Product Hunt HTML tends to have patterns like:
-  // <span>234 upvotes</span> or similar.
+  const productLinks = [...html.matchAll(/<a[^>]*href="([^"]*\/products\/[^"]+)"[^>]*>(.*?)<\/a>/gis)];
 
-  const upvotePattern = /(\d[\d,]*)\s*upvotes?/gi;
-  let match;
+  for (const m of productLinks) {
+    const href = m[1];
+    const linkText = stripTags(m[2]).trim();
+    const idx = m.index;
+    const around = html.slice(Math.max(0, idx - 400), idx + 400);
 
-  while ((match = upvotePattern.exec(html)) !== null) {
-    const around = html.slice(Math.max(0, match.index - 600), match.index + 600);
+    // Extract name: often "1. Name" or similar
+    const nameMatch = linkText.match(/^\d+\.\s+(.+)$/);
+    const name = (nameMatch && nameMatch[1].trim()) || linkText;
 
-    // Extract name: look for a nearby strong/h2/h3 or link text
-    const nameMatch = around.match(
-      /(?:<strong|<h[2-4]|<div)\b[^>]*>[^<]+<\/(?:strong|h[2-4]|div)>/i
-    );
-    const name = nameMatch ? stripTags(nameMatch[0]) : null;
+    if (!name || name.length < 3 || name.length > 120) continue;
+    if (seen.has(name)) continue;
 
-    // Extract tagline: short description near product title
+    // Extract tagline: short description near product
     const taglineMatch = around.match(
-      /(?:<p|<span)\b[^>]*>([^<]{15,160})<\/(?:p|span)>/i
+      /<[^>]*class="[^"]*description[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i
     );
-    const tagline = taglineMatch ? stripTags(taglineMatch[0]) : null;
+    const tagline = (taglineMatch && stripTags(taglineMatch[0])) ||
+                    (around.match(/<[^>]*class="[^"]*tagline[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i)
+                      ? stripTags(around.match(/<[^>]*class="[^"]*tagline[^"]*"[^>]*>([^<]{15,200})<\/[^>]+>/i)[0])
+                      : "");
 
-    // Extract URL: link near the product
-    const urlMatch = around.match(/href="([^"]+producthunt[^"]+)"/i);
-    const url = urlMatch ? "https://www.producthunt.com" + urlMatch[1] : null;
+    // Extract votes: number near "upvotes"
+    const votesMatch = around.match(/(\d[\d,]*)\s*upvotes?/i);
+    const votes = votesMatch
+      ? parseInt(votesMatch[1].replace(/,/g, ""), 10)
+      : null;
 
-    // Extract tags: small spans near product
-    const tags = [];
-    const tagRegex = /<span[^>]*class="[^"]*tag[^"]*"[^>]*>([^<]+)<\/span>/gi;
-    let t;
-    while ((t = tagRegex.exec(around)) !== null) {
-      tags.push(limitLength(stripTags(t[1]), 40));
-    }
-
-    const votes = parseInt(match[1].replace(/,/g, ""), 10) || 0;
-
-    if (name && !products.some((p) => p.name === name)) {
-      products.push({
-        name: limitLength(name, 120),
-        tagline: limitLength(tagline, 200) || "",
-        votes,
-        tags: tags.slice(0, 6),
-        url: url || "",
-      });
-    }
+    const url = href.startsWith("http")
+      ? href
+      : "https://www.producthunt.com" + href;
 
     if (products.length >= 30) break;
+
+    products.push({
+      name: limitLength(name, 120),
+      tagline: limitLength(tagline, 200),
+      votes,
+      tags: [],
+      url,
+    });
+
+    seen.add(name);
   }
 
   console.log(`[ProductHunt] Parsed ${products.length} products`);
@@ -140,7 +137,6 @@ async function fetchIndieHackers() {
 
   const posts = [];
 
-  // Look for post titles/links
   const linkPattern =
     /<a[^>]*href="([^"]+)"[^>]*>([^<]{15,250})<\/a>/gi;
   let m;
@@ -149,7 +145,6 @@ async function fetchIndieHackers() {
     const href = m[1];
     const text = limitLength(stripTags(m[2]), 180);
 
-    // Only take post-style links
     if (
       !href.startsWith("/") ||
       href.includes("user") ||
@@ -164,10 +159,8 @@ async function fetchIndieHackers() {
 
     const url = "https://www.indiehackers.com" + href;
 
-    // Avoid duplicates
     if (posts.some((p) => p.url === url)) continue;
 
-    // Short description: text near the link
     const around = html.slice(
       Math.max(0, m.index - 300),
       m.index + 300
@@ -206,7 +199,6 @@ async function fetchYC() {
 
   const companies = [];
 
-  // Look for company links and short descriptions
   const linkPattern =
     /<a[^>]*href="([^"]+)"[^>]*>([^<]{3,120})<\/a>/gi;
   let m;
@@ -215,7 +207,6 @@ async function fetchYC() {
     const href = m[1];
     const text = limitLength(stripTags(m[2]), 120);
 
-    // Only take company-style links
     if (
       !href.includes("ycombinator.com") ||
       text.length < 3 ||
@@ -232,7 +223,6 @@ async function fetchYC() {
 
     if (companies.some((c) => c.url === url)) continue;
 
-    // Short description near the link
     const around = html.slice(
       Math.max(0, m.index - 300),
       m.index + 300
@@ -262,7 +252,6 @@ async function fetchYC() {
 async function run() {
   const date = todayISO();
 
-  // Ensure data directory
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
