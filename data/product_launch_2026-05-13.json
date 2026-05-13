@@ -5,21 +5,21 @@
     {
       "name": "Memoket Gem",
       "tagline": "An AI wearable that remembers your conversations all day",
-      "votes": 259,
+      "votes": 263,
       "tags": [],
       "url": "https://www.producthunt.com/products/memoket-gem"
     },
     {
       "name": "Latitude for Claude Code",
       "tagline": "See where Claude Code burns tokens. Hit your limits less.",
-      "votes": 216,
+      "votes": 220,
       "tags": [],
       "url": "https://www.producthunt.com/products/latitude-4"
     },
     {
       "name": "CraftBot with Living UI",
       "tagline": "Grow your own software that is alive.",
-      "votes": 172,
+      "votes": 173,
       "tags": [],
       "url": "https://www.producthunt.com/products/craftbot"
     },
@@ -31,6 +31,13 @@
       "url": "https://www.producthunt.com/products/googlebook-2"
     },
     {
+      "name": "Blaze 2.0",
+      "tagline": "AI marketer for SMBs complete w/ strategy, content, and ads",
+      "votes": 136,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/blaze-5"
+    },
+    {
       "name": "Apideck MCP Server",
       "tagline": "Give AI agents access to real-time data across 200+ apps",
       "votes": 133,
@@ -38,30 +45,23 @@
       "url": "https://www.producthunt.com/products/apideck"
     },
     {
-      "name": "Blaze 2.0",
-      "tagline": "AI marketer for SMBs complete w/ strategy, content, and ads",
-      "votes": 129,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/blaze-5"
-    },
-    {
       "name": "Frontdesk AI",
       "tagline": "AI COO to run your business like a Fortune 500 enterprise",
-      "votes": 119,
+      "votes": 122,
       "tags": [],
       "url": "https://www.producthunt.com/products/frontdesk-ai"
     },
     {
       "name": "Liminary",
       "tagline": "Ground your AI in saved knowledge as you work",
-      "votes": 115,
+      "votes": 117,
       "tags": [],
       "url": "https://www.producthunt.com/products/liminary"
     },
     {
       "name": "Claudy",
       "tagline": "A proper home for Claude Code — multi-session, multi-account",
-      "votes": 102,
+      "votes": 103,
       "tags": [],
       "url": "https://www.producthunt.com/products/claudy"
     },
@@ -75,7 +75,7 @@
     {
       "name": "SideNotes",
       "tagline": "Take notes on your screen side",
-      "votes": 96,
+      "votes": 97,
       "tags": [],
       "url": "https://www.producthunt.com/products/sidenotes-3"
     },
@@ -89,7 +89,7 @@
     {
       "name": "LayerProof Matte 2.0",
       "tagline": "Create high-quality social content at the speed of trends",
-      "votes": 92,
+      "votes": 94,
       "tags": [],
       "url": "https://www.producthunt.com/products/layerproof-social-content-generation"
     },
@@ -103,7 +103,7 @@
     {
       "name": "Plate",
       "tagline": "Minimal project management for small teams",
-      "votes": 88,
+      "votes": 89,
       "tags": [],
       "url": "https://www.producthunt.com/products/plate-4"
     },
@@ -185,6 +185,13 @@
       "url": "https://www.producthunt.com/products/indexedai"
     },
     {
+      "name": "Vibespace",
+      "tagline": "Workspace for multi-agent collaboration",
+      "votes": 73,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/vibespace"
+    },
+    {
       "name": "Blurto",
       "tagline": "Sorts your thoughts into tasks, notes, ideas, etc",
       "votes": 73,
@@ -197,13 +204,6 @@
       "votes": 72,
       "tags": [],
       "url": "https://www.producthunt.com/products/flowsnip"
-    },
-    {
-      "name": "Vibespace",
-      "tagline": "Workspace for multi-agent collaboration",
-      "votes": 72,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/vibespace"
     },
     {
       "name": "Zen Reports",
