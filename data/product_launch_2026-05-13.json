@@ -5,63 +5,63 @@
     {
       "name": "Memoket Gem",
       "tagline": "An AI wearable that remembers your conversations all day",
-      "votes": 248,
+      "votes": 259,
       "tags": [],
       "url": "https://www.producthunt.com/products/memoket-gem"
     },
     {
       "name": "Latitude for Claude Code",
       "tagline": "See where Claude Code burns tokens. Hit your limits less.",
-      "votes": 213,
+      "votes": 216,
       "tags": [],
       "url": "https://www.producthunt.com/products/latitude-4"
     },
     {
       "name": "CraftBot with Living UI",
       "tagline": "Grow your own software that is alive.",
-      "votes": 167,
+      "votes": 172,
       "tags": [],
       "url": "https://www.producthunt.com/products/craftbot"
     },
     {
       "name": "Googlebook",
       "tagline": "A new kind of laptop designed for Gemini Intelligence",
-      "votes": 142,
+      "votes": 145,
       "tags": [],
       "url": "https://www.producthunt.com/products/googlebook-2"
     },
     {
       "name": "Apideck MCP Server",
       "tagline": "Give AI agents access to real-time data across 200+ apps",
-      "votes": 132,
+      "votes": 133,
       "tags": [],
       "url": "https://www.producthunt.com/products/apideck"
     },
     {
       "name": "Blaze 2.0",
       "tagline": "AI marketer for SMBs complete w/ strategy, content, and ads",
-      "votes": 124,
+      "votes": 129,
       "tags": [],
       "url": "https://www.producthunt.com/products/blaze-5"
     },
     {
       "name": "Frontdesk AI",
       "tagline": "AI COO to run your business like a Fortune 500 enterprise",
-      "votes": 116,
+      "votes": 119,
       "tags": [],
       "url": "https://www.producthunt.com/products/frontdesk-ai"
     },
     {
       "name": "Liminary",
       "tagline": "Ground your AI in saved knowledge as you work",
-      "votes": 111,
+      "votes": 115,
       "tags": [],
       "url": "https://www.producthunt.com/products/liminary"
     },
     {
       "name": "Claudy",
       "tagline": "A proper home for Claude Code — multi-session, multi-account",
-      "votes": 100,
+      "votes": 102,
       "tags": [],
       "url": "https://www.producthunt.com/products/claudy"
     },
@@ -82,7 +82,7 @@
     {
       "name": "AI meeting notes by Snaply",
       "tagline": "Free & Private AI meeting notes for you Mac",
-      "votes": 94,
+      "votes": 96,
       "tags": [],
       "url": "https://www.producthunt.com/products/ai-dication-by-snaply"
     },
@@ -96,7 +96,7 @@
     {
       "name": "Whisper Internet Infra AI Context",
       "tagline": "\"Free MCP for security AI: live BGP, DNS, threat graph\"",
-      "votes": 89,
+      "votes": 90,
       "tags": [],
       "url": "https://www.producthunt.com/products/whisper-internet-infra-ai-context"
     },
@@ -122,25 +122,25 @@
       "url": "https://www.producthunt.com/products/tapcut-the-analogue-shortcut"
     },
     {
+      "name": "WhoAmILookingFor",
+      "tagline": "Find the right person in your LinkedIn network",
+      "votes": 82,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/whoamilookingfor"
+    },
+    {
+      "name": "Gretl",
+      "tagline": "Visual control pannel for localhosts",
+      "votes": 82,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/gretl-control-panel-for-your-localhost"
+    },
+    {
       "name": "Crade AI",
       "tagline": "Like ChatGPT, but it sees your screen",
       "votes": 82,
       "tags": [],
       "url": "https://www.producthunt.com/products/crade"
-    },
-    {
-      "name": "Gretl",
-      "tagline": "Visual control pannel for localhosts",
-      "votes": 81,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/gretl-control-panel-for-your-localhost"
-    },
-    {
-      "name": "WhoAmILookingFor",
-      "tagline": "Find the right person in your LinkedIn network",
-      "votes": 81,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/whoamilookingfor"
     },
     {
       "name": "PitchDrop.ai",
@@ -213,6 +213,12 @@
       "url": "https://www.producthunt.com/products/zen-reports"
     }
   ],
-  "indiehackers": [],
+  "indiehackers": [
+    {
+      "title": "In Case You Missed It",
+      "description_short": "",
+      "url": "https://www.indiehackers.com/top/month-of-2026-05"
+    }
+  ],
   "yc": []
 }

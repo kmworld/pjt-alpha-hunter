@@ -364,4 +364,39 @@
 
 ---
 
+## 9. Daily Pipeline Integration
+
+### Daily Flow (07:40 KST)
+
+Each day the Alpha Hunter pipeline runs in 3 steps:
+
+1. **run_all_signals.mjs**
+   - Runs all 6 signal scripts sequentially.
+   - Continues on individual failures.
+   - Writes: `data/alpha_run_summary_<YYYY-MM-DD>.json`
+   - Command:
+     - `node scripts/run_all_signals.mjs`
+
+2. **alpha_daily_report.mjs**
+   - Reads today’s JSON files from `data/`.
+   - Generates a Markdown report (deep analysis style) into:
+     - `reports/daily/YYYY-MM-DD.md`
+   - Command:
+     - `node scripts/alpha_daily_report.mjs`
+
+3. **alpha_git_commit.mjs**
+   - Commits and pushes the report + data to Git.
+   - Command:
+     - `node scripts/alpha_git_commit.mjs`
+
+### Cron Setup (OpenClaw)
+
+- Scheduled at **07:40 KST (Asia/Seoul)**.
+- Triggered via OpenClaw cron job.
+- Cron job message (conceptual):
+  - "Run Alpha Hunter daily pipeline: run_all_signals → alpha_daily_report → alpha_git_commit."
+- On completion: send summary to Discord #in-depth-talk.
+
+---
+
 

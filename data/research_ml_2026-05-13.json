@@ -62,28 +62,28 @@
       "name": "supertonic-3",
       "likes": 0,
       "tags": [
-        "text-to-speech"
-      ],
-      "url": "https://huggingface.co/Supertone/supertonic-3"
-    },
-    {
-      "id": "google/gemma-4-31B-it-assistant",
-      "name": "gemma-4-31B-it-assistant",
-      "likes": 0,
-      "tags": [
+        "text-to-speech",
         "image-to-video"
       ],
-      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant"
+      "url": "https://huggingface.co/Supertone/supertonic-3"
     },
     {
       "id": "TenStrip/LTX2.3-10Eros",
       "name": "LTX2.3-10Eros",
       "likes": 0,
       "tags": [
-        "image-text-to-text",
         "image-to-video"
       ],
       "url": "https://huggingface.co/TenStrip/LTX2.3-10Eros"
+    },
+    {
+      "id": "google/gemma-4-31B-it-assistant",
+      "name": "gemma-4-31B-it-assistant",
+      "likes": 0,
+      "tags": [
+        "image-text-to-text"
+      ],
+      "url": "https://huggingface.co/google/gemma-4-31B-it-assistant"
     },
     {
       "id": "Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
@@ -125,23 +125,22 @@
       "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
     },
     {
-      "id": "froggeric/Qwen-Fixed-Chat-Templates",
-      "name": "Qwen-Fixed-Chat-Templates",
-      "likes": 0,
-      "tags": [
-        "text-to-image"
-      ],
-      "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
-    },
-    {
       "id": "HiDream-ai/HiDream-O1-Image-Dev",
       "name": "HiDream-O1-Image-Dev",
       "likes": 0,
       "tags": [
-        "text-to-image",
-        "image-text-to-text"
+        "text-to-image"
       ],
       "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image-Dev"
+    },
+    {
+      "id": "froggeric/Qwen-Fixed-Chat-Templates",
+      "name": "Qwen-Fixed-Chat-Templates",
+      "likes": 0,
+      "tags": [
+        "image-text-to-text"
+      ],
+      "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
     },
     {
       "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
@@ -186,7 +185,7 @@
       "name": "gemma-4-31B-it",
       "likes": 0,
       "tags": [
-        "image-to-video"
+        "image-text-to-text"
       ],
       "url": "https://huggingface.co/google/gemma-4-31B-it"
     },
@@ -254,10 +253,21 @@
       "name": "Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "likes": 0,
       "tags": [
-        "text-generation",
-        "image-text-to-text"
+        "image-text-to-text",
+        "image-to-video"
       ],
       "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF"
+    },
+    {
+      "id": "RuneXX/LTX-2.3-Workflows",
+      "name": "LTX-2.3-Workflows",
+      "likes": 0,
+      "tags": [
+        "text-generation",
+        "text-classification",
+        "image-to-video"
+      ],
+      "url": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
     },
     {
       "id": "antirez/deepseek-v4-gguf",
@@ -265,233 +275,11 @@
       "likes": 0,
       "tags": [
         "text-generation",
-        "image-to-video"
+        "text-classification",
+        "question-answering"
       ],
       "url": "https://huggingface.co/antirez/deepseek-v4-gguf"
-    },
-    {
-      "id": "RuneXX/LTX-2.3-Workflows",
-      "name": "LTX-2.3-Workflows",
-      "likes": 0,
-      "tags": [
-        "text-classification",
-        "question-answering",
-        "translation",
-        "image-to-video"
-      ],
-      "url": "https://huggingface.co/RuneXX/LTX-2.3-Workflows"
     }
   ],
-  "arxiv_recent": [
-    {
-      "title": "Multimodal Deep Learning for Flaw Detection in Software Programs",
-      "date": "2020-09-09T20:15:11Z",
-      "authors": "Scott Heidbrink, Kathryn N. Rodhouse, Daniel M. Dunlavy",
-      "abstract_short": "We explore the use of multiple deep learning models for detecting flaws in software programs. Current, standard approaches for flaw detection rely on a single representation of a software program (e.g...",
-      "url": "https://arxiv.org/abs/2009.04549v1"
-    },
-    {
-      "title": "Threats, Vulnerabilities, and Controls of Machine Learning Based Systems: A Survey and Taxonomy",
-      "date": "2023-01-19T02:43:05Z",
-      "authors": "Yusuke Kawamoto, Kazumasa Miyake, Koichi Konishi, Yutaka Oiwa",
-      "abstract_short": "In this article, we propose the Artificial Intelligence Security Taxonomy to systematize the knowledge of threats, vulnerabilities, and security controls of machine-learning-based (ML-based) systems. ...",
-      "url": "https://arxiv.org/abs/2301.07474v2"
-    },
-    {
-      "title": "An Epistemic Approach to the Formal Specification of Statistical Machine Learning",
-      "date": "2020-09-20T17:51:14Z",
-      "authors": "Yusuke Kawamoto",
-      "abstract_short": "We propose an epistemic approach to formalizing statistical properties of machine learning. Specifically, we introduce a formal model for supervised learning based on a Kripke model where each possibl...",
-      "url": "https://arxiv.org/abs/2004.12734v3"
-    },
-    {
-      "title": "DeepCruiser: Automated Guided Testing for Stateful Deep Learning Systems",
-      "date": "2018-12-13T09:49:58Z",
-      "authors": "Xiaoning Du, Xiaofei Xie, Yi Li, Lei Ma, Jianjun Zhao, Yang Liu",
-      "abstract_short": "Deep learning (DL) defines a data-driven programming paradigm that automatically composes the system decision logic from the training data. In company with the data explosion and hardware acceleration...",
-      "url": "https://arxiv.org/abs/1812.05339v1"
-    },
-    {
-      "title": "CodeAttack: Revealing Safety Generalization Challenges of Large Language Models via Code Completion",
-      "date": "2024-09-14T11:41:49Z",
-      "authors": "Qibing Ren, Chang Gao, Jing Shao, Junchi Yan, Xin Tan, Wai Lam, Lizhuang Ma",
-      "abstract_short": "The rapid advancement of Large Language Models (LLMs) has brought about remarkable generative capabilities but also raised concerns about their potential misuse. While strategies like supervised fine-...",
-      "url": "https://arxiv.org/abs/2403.07865v5"
-    },
-    {
-      "title": "Which PPML Would a User Choose? A Structured Decision Support Framework for Developers to Rank PPML Techniques Based on User Acceptance Criteria",
-      "date": "2024-11-11T13:53:33Z",
-      "authors": "Sascha Löbner, Sebastian Pape, Vanessa Bracamonte, Kittiphop Phalakarn",
-      "abstract_short": "Using Privacy-Enhancing Technologies (PETs) for machine learning often influences the characteristics of a machine learning approach, e.g., the needed computational power, timing of the answers or how...",
-      "url": "https://arxiv.org/abs/2411.06995v1"
-    },
-    {
-      "title": "Constrained Decoding for Secure Code Generation",
-      "date": "2024-07-20T19:14:03Z",
-      "authors": "Yanjun Fu, Ethan Baker, Yu Ding, Yizheng Chen",
-      "abstract_short": "Code Large Language Models (Code LLMs) have been increasingly used by developers to boost productivity, but they often generate vulnerable code. Thus, there is an urgent need to ensure that code gener...",
-      "url": "https://arxiv.org/abs/2405.00218v3"
-    },
-    {
-      "title": "Predicting Likely-Vulnerable Code Changes: Machine Learning-based Vulnerability Protections for Android Open Source Project",
-      "date": "2024-05-26T18:17:46Z",
-      "authors": "Keun Soo Yim",
-      "abstract_short": "This paper presents a framework that selectively triggers security reviews for incoming source code changes. Functioning as a review bot within a code review service, the framework can automatically r...",
-      "url": "https://arxiv.org/abs/2405.16655v1"
-    },
-    {
-      "title": "Tady: A Neural Disassembler without Structural Constraint Violations",
-      "date": "2025-06-16T10:11:43Z",
-      "authors": "Siliang Qin, Fengrui Yang, Hao Wang, Bolun Zhang, Zeyu Gao, Chao Zhang, Kai Chen",
-      "abstract_short": "Disassembly is a crucial yet challenging step in binary analysis. While emerging neural disassemblers show promise for efficiency and accuracy, they frequently generate outputs violating fundamental s...",
-      "url": "https://arxiv.org/abs/2506.13323v1"
-    },
-    {
-      "title": "CASCADE: LLM-Powered JavaScript Deobfuscator at Google",
-      "date": "2026-02-25T04:00:38Z",
-      "authors": "Shan Jiang, Pranoy Kovuri, David Tao, Zhixun Tan",
-      "abstract_short": "Software obfuscation, particularly prevalent in JavaScript, hinders code comprehension and analysis, posing significant challenges to software testing, static analysis, and malware detection. This pap...",
-      "url": "https://arxiv.org/abs/2507.17691v2"
-    },
-    {
-      "title": "Differentiated Directional Intervention A Framework for Evading LLM Safety Alignment",
-      "date": "2025-11-24T11:44:59Z",
-      "authors": "Peng Zhang, Peijie Sun",
-      "abstract_short": "Safety alignment instills in Large Language Models (LLMs) a critical capacity to refuse malicious requests. Prior works have modeled this refusal mechanism as a single linear direction in the activati...",
-      "url": "https://arxiv.org/abs/2511.06852v4"
-    },
-    {
-      "title": "Revisiting Pre-trained Language Models for Vulnerability Detection",
-      "date": "2025-11-22T18:09:14Z",
-      "authors": "Youpeng Li, Weiliang Qi, Xuyu Wang, Fuxun Yu, Xinda Wang",
-      "abstract_short": "The rapid advancement of pre-trained language models (PLMs) has demonstrated promising results for various code-related tasks. However, their effectiveness in detecting real-world vulnerabilities rema...",
-      "url": "https://arxiv.org/abs/2507.16887v3"
-    },
-    {
-      "title": "Vulnerabilities of Connectionist AI Applications: Evaluation and Defence",
-      "date": "2020-03-18T12:33:59Z",
-      "authors": "Christian Berghoff, Matthias Neu, Arndt von Twickel",
-      "abstract_short": "This article deals with the IT security of connectionist artificial intelligence (AI) applications, focusing on threats to integrity, one of the three IT security goals. Such threats are for instance ...",
-      "url": "https://arxiv.org/abs/2003.08837v1"
-    },
-    {
-      "title": "CVEfixes: Automated Collection of Vulnerabilities and Their Fixes from Open-Source Software",
-      "date": "2021-07-19T11:34:09Z",
-      "authors": "Guru Prasad Bhandari, Amara Naseer, Leon Moonen",
-      "abstract_short": "Data-driven research on the automated discovery and repair of security vulnerabilities in source code requires comprehensive datasets of real-life vulnerable code and their fixes. To assist in such re...",
-      "url": "https://arxiv.org/abs/2107.08760v1"
-    },
-    {
-      "title": "DeepHunter: Hunting Deep Neural Network Defects via Coverage-Guided Fuzzing",
-      "date": "2018-11-16T05:36:16Z",
-      "authors": "Xiaofei Xie, Lei Ma, Felix Juefei-Xu, Hongxu Chen, Minhui Xue, Bo Li, Yang Liu, Jianjun Zhao, Jianxiong Yin, Simon See",
-      "abstract_short": "In company with the data explosion over the past decade, deep neural network (DNN) based software has experienced unprecedented leap and is becoming the key driving force of many novel industrial appl...",
-      "url": "https://arxiv.org/abs/1809.01266v3"
-    },
-    {
-      "title": "Efficient Query-Based Attack against ML-Based Android Malware Detection under Zero Knowledge Setting",
-      "date": "2023-09-06T11:50:03Z",
-      "authors": "Ping He, Yifan Xia, Xuhong Zhang, Shouling Ji",
-      "abstract_short": "The widespread adoption of the Android operating system has made malicious Android applications an appealing target for attackers. Machine learning-based (ML-based) Android malware detection (AMD) met...",
-      "url": "https://arxiv.org/abs/2309.01866v2"
-    },
-    {
-      "title": "UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing",
-      "date": "2024-02-04T22:48:05Z",
-      "authors": "Yifeng He, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen",
-      "abstract_short": "The remarkable capability of large language models (LLMs) in generating high-quality code has drawn increasing attention in the software testing community. However, existing code LLMs often demonstrat...",
-      "url": "https://arxiv.org/abs/2402.03396v1"
-    },
-    {
-      "title": "CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models",
-      "date": "2023-10-23T14:08:09Z",
-      "authors": "Hossein Hajipour, Keno Hassler, Thorsten Holz, Lea Schönherr, Mario Fritz",
-      "abstract_short": "Large language models (LLMs) for automatic code generation have achieved breakthroughs in several programming tasks. Their advances in competition-level programming problems have made them an essentia...",
-      "url": "https://arxiv.org/abs/2302.04012v2"
-    },
-    {
-      "title": "LeCov: Multi-level Testing Criteria for Large Language Models",
-      "date": "2024-08-20T01:17:54Z",
-      "authors": "Xuan Xie, Jiayang Song, Yuheng Huang, Da Song, Fuyuan Zhang, Felix Juefei-Xu, Lei Ma",
-      "abstract_short": "Large Language Models (LLMs) are widely used in many different domains, but because of their limited interpretability, there are questions about how trustworthy they are in various perspectives, e.g.,...",
-      "url": "https://arxiv.org/abs/2408.10474v1"
-    },
-    {
-      "title": "Deploying Privacy Guardrails for LLMs: A Comparative Analysis of Real-World Applications",
-      "date": "2025-01-21T19:04:53Z",
-      "authors": "Shubhi Asthana, Bing Zhang, Ruchi Mahindru, Chad DeLuca, Anna Lisa Gentile, Sandeep Gopisetty",
-      "abstract_short": "The adoption of Large Language Models (LLMs) has revolutionized AI applications but poses significant challenges in safeguarding user privacy. Ensuring compliance with privacy regulations such as GDPR...",
-      "url": "https://arxiv.org/abs/2501.12456v1"
-    },
-    {
-      "title": "Evaluating LLaMA 3.2 for Software Vulnerability Detection",
-      "date": "2025-03-10T18:47:41Z",
-      "authors": "José Gonçalves, Miguel Silva, Bernardo Cabral, Tiago Dias, Eva Maia, Isabel Praça, Ricardo Severino, Luís Lino Ferreira",
-      "abstract_short": "Deep Learning (DL) has emerged as a powerful tool for vulnerability detection, often outperforming traditional solutions. However, developing effective DL models requires large amounts of real-world d...",
-      "url": "https://arxiv.org/abs/2503.07770v1"
-    },
-    {
-      "title": "subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs",
-      "date": "2016-06-29T01:05:36Z",
-      "authors": "Annamalai Narayanan, Mahinthan Chandramohan, Lihui Chen, Yang Liu, Santhoshkumar Saminathan",
-      "abstract_short": "In this paper, we present subgraph2vec, a novel approach for learning latent representations of rooted subgraphs from large graphs inspired by recent advancements in Deep Learning and Graph Kernels. T...",
-      "url": "https://arxiv.org/abs/1606.08928v1"
-    },
-    {
-      "title": "Automata-Based Steering of Large Language Models for Diverse Structured Generation",
-      "date": "2025-11-14T07:10:23Z",
-      "authors": "Xiaokun Luan, Zeming Wei, Yihao Zhang, Meng Sun",
-      "abstract_short": "Large language models (LLMs) are increasingly tasked with generating structured outputs. While structured generation methods ensure validity, they often lack output diversity, a critical limitation th...",
-      "url": "https://arxiv.org/abs/2511.11018v1"
-    },
-    {
-      "title": "Eliciting Harmful Capabilities by Fine-Tuning On Safeguarded Outputs",
-      "date": "2026-01-20T02:24:44Z",
-      "authors": "Jackson Kaunismaa, Avery Griffin, John Hughes, Christina Q. Knight, Mrinank Sharma, Erik Jones",
-      "abstract_short": "Model developers implement safeguards in frontier models to prevent misuse, for example, by employing classifiers to filter dangerous outputs. In this work, we demonstrate that even robustly safeguard...",
-      "url": "https://arxiv.org/abs/2601.13528v1"
-    },
-    {
-      "title": "Security smells in infrastructure as code: a taxonomy update beyond the seven sins",
-      "date": "2025-09-23T07:55:35Z",
-      "authors": "Aicha War, Serge L. B. Nikiema, Jordan Samhi, Jacques Klein, Tegawende F. Bissyande",
-      "abstract_short": "Infrastructure as Code (IaC) has become essential for modern software management, yet security flaws in IaC scripts can have severe consequences, as exemplified by the recurring exploits of Cloud Web ...",
-      "url": "https://arxiv.org/abs/2509.18761v1"
-    },
-    {
-      "title": "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
-      "date": "2025-10-27T03:04:50Z",
-      "authors": "Simin Chen, Jinjun Peng, Yixin He, Junfeng Yang, Baishakhi Ray",
-      "abstract_short": "Deep learning (DL) compilers are core infrastructure in modern DL systems, offering flexibility and scalability beyond vendor-specific libraries. This work uncovers a fundamental vulnerability in thei...",
-      "url": "https://arxiv.org/abs/2509.11173v3"
-    },
-    {
-      "title": "Software Vulnerability Detection Using a Lightweight Graph Neural Network",
-      "date": "2026-03-31T03:31:41Z",
-      "authors": "Miles Farmer, Ekincan Ufuktepe, Anne Watson, Hialo Muniz Carvalho, Vadim Okun, Zineb Maasaoui, Kannappan Palaniappan",
-      "abstract_short": "Large Language Models (LLMs) have emerged as a popular choice in vulnerability detection studies given their foundational capabilities, open source availability, and variety of models, but have limite...",
-      "url": "https://arxiv.org/abs/2603.29216v1"
-    },
-    {
-      "title": "TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories",
-      "date": "2026-04-08T15:46:14Z",
-      "authors": "Yen-Shan Chen, Sian-Yao Huang, Cheng-Lin Yang, Yun-Nung Chen",
-      "abstract_short": "As large language models (LLMs) evolve from static chatbots into autonomous agents, the primary vulnerability surface shifts from final outputs to intermediate execution traces. While safety guardrail...",
-      "url": "https://arxiv.org/abs/2604.07223v1"
-    },
-    {
-      "title": "Towards Logical Specification of Statistical Machine Learning",
-      "date": "2020-03-28T14:30:40Z",
-      "authors": "Yusuke Kawamoto",
-      "abstract_short": "We introduce a logical approach to formalizing statistical properties of machine learning. Specifically, we propose a formal model for statistical classification based on a Kripke model, and formalize...",
-      "url": "https://arxiv.org/abs/1907.10327v2"
-    },
-    {
-      "title": "A Survey on Data-driven Software Vulnerability Assessment and Prioritization",
-      "date": "2022-04-04T01:23:13Z",
-      "authors": "Triet H. M. Le, Huaming Chen, M. Ali Babar",
-      "abstract_short": "Software Vulnerabilities (SVs) are increasing in complexity and scale, posing great security risks to many software systems. Given the limited resources in practice, SV assessment and prioritization h...",
-      "url": "https://arxiv.org/abs/2107.08364v4"
-    }
-  ]
+  "arxiv_recent": []
 }
