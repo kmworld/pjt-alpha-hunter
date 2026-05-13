@@ -39,6 +39,34 @@ Backpressure:
 - IMPLEMENTATION_PLAN.md
   - Updated with all integration tasks marked completed
 
+- [x] scripts/alpha_deep_context.mjs
+  - New: unified deep-analysis layer
+  - Reads all today's JSON files from data/ (github_trending, hackernews, reddit, research_ml, product_launch, job_signals)
+  - Normalizes into single structured JSON: data/alpha_deep_context_<YYYY-MM-DD>.json
+  - Includes:
+    - sources metadata (counts, validity)
+    - per-source signals (topByStarsToday, topByEngagement, hot_topics, trending_models, top_products, emerging_roles, etc.)
+    - cross_source.overlap_candidates (multi-source validation)
+    - dynamic candidates (5–15 items, scored, with alpha_thesis and risk)
+  - Status: implemented, tested (exit 0, 12 candidates, valid JSON)
+
+- [x] scripts/alpha_daily_report.mjs (Deep Context Mode)
+  - Changed to read ONLY data/alpha_deep_context_<YYYY-MM-DD>.json
+  - Generates Markdown report from unified JSON (not raw data dumps)
+  - Sections: Executive Summary, GitHub, HN, Reddit, Research/ML, Product Launch, Job Signals, Cross-Source Overlap, Alpha Candidates
+  - Status: implemented, tested (exit 0, 16k+ chars, insight-driven)
+
+- [x] Full pipeline validation (Deep Context flow)
+  - Steps executed:
+    - node scripts/run_all_signals.mjs → 6/6 OK
+    - node scripts/alpha_deep_context.mjs → valid JSON, 12 candidates
+    - node scripts/alpha_daily_report.mjs → report generated from deep_context
+    - node scripts/alpha_git_commit.mjs → commit + push OK
+  - Confirmed:
+    - alpha_deep_context_<YYYY-MM-DD>.json exists and is valid
+    - reports/daily/YYYY-MM-DD.md uses deep_context, not raw data dump
+    - Git commit and push succeed
+
 ## Backlog
 
 - [x] scripts/github_trending.mjs
