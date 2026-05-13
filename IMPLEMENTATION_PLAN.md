@@ -1,101 +1,314 @@
-# Implementation Plan — Alpha Hunter Signal Scripts
+# Alpha Hunter — Implementation Plan (Ralph Mode)
 
 Goal:
-Implement 7 independent data collection scripts (Node.js mjs).
-Each script:
-- Fetches from its source
-- Writes structured JSON to data/<source>_<YYYY-MM-DD>.json
-- Uses only built-in Node + fetch (Node 22+)
-- No npm installs unless explicitly approved
+- Improve data quality across all sources.
+- Enrich deep context with alpha theses, risks, cross-source validation.
+- Redesign Alpha Daily Report structure to be more analytical and forward-looking.
+- Turn Alpha Hunter from a scraper into an alpha engine.
 
-Backpressure:
-- For each script: node scripts/<file>.mjs must exit 0 and produce valid JSON.
+---
 
-## In Progress
+## Phase 0: Data Quality Assessment (Completed)
 
-(Start with first task below; move it here when active.)
+- [x] Inspected all `data/*_2026-05-13.json` files.
+- [x] Identified critical gaps per source.
+- [x] Documented in `data_assessment_2026-05-14.md`.
 
-## Completed
+Key findings:
+- alpha_deep_context signal_reason / alpha_thesis / risk are boilerplate.
+- ArXiv pipeline fetches stale papers (2018–2024).
+- Hugging Face likes all zero.
+- GitHub stars always null.
+- Reddit missing permalink and selftext_short.
+- Job signals missing jd_summary and why_signal.
+- Daily report is a listing, not analysis.
 
-- scripts/hn_signals.mjs
-  - Validated: node scripts/hn_signals.mjs exits 0
-  - Output: data/hackernews_2026-05-13.json (top: 46, show_hn: 4)
+---
 
-- scripts/run_all_signals.mjs
-  - Orchestrator: runs all 6 signal scripts sequentially, continues on failure, writes data/alpha_run_summary_<YYYY-MM-DD>.json
-  - Status: implemented, tested (exit 0, summary JSON valid)
+## Phase 1: Data Enrichment (Per-Source Required Fields)
 
-- scripts/alpha_daily_report.mjs
-  - Reads today's JSON files from data/ and generates reports/daily/YYYY-MM-DD.md (deep analysis style, Korean)
-  - Status: implemented, tested (exit 0, report non-empty)
+### 1) github_trending.mjs
 
-- scripts/alpha_git_commit.mjs
-  - Git add, commit ("daily: alpha hunter report YYYY-MM-DD"), and push origin main (best-effort)
-  - Status: implemented, tested (exit 0, push successful)
+- [ ] Fix `stars` to capture total stars (currently always null).
+- [ ] Add:
+  - `topics`: list of repo topics (e.g., ["ai-agents", "llm", "rust"]).
+  - `why_notable`: short reason: "breakout tool", "agent infra", "LLM tooling", etc.
+  - `forks`: number of forks.
+  - `owner_type`: "individual" | "org" | "company" (best-effort heuristic).
+- [ ] Ensure `recent_stars` is stable and accurate.
+- [ ] Output schema (target):
 
-- PIPELINE.md
-  - Updated with "9. Daily Pipeline Integration" section (run_all → report → git commit; cron at 07:40 KST)
+  {
+    "repo": "owner/repo",
+    "description": "...",
+    "language": "...",
+    "stars": 123456,
+    "recent_stars": 1500,
+    "forks": 320,
+    "topics": ["ai-agents", "llm"],
+    "owner_type": "individual",
+    "why_notable": "Extremely high star velocity; likely breakout tool",
+    "url": "https://github.com/owner/repo"
+  }
 
-- IMPLEMENTATION_PLAN.md
-  - Updated with all integration tasks marked completed
+### 2) reddit_signals.mjs
 
-- [x] scripts/alpha_deep_context.mjs
-  - New: unified deep-analysis layer
-  - Reads all today's JSON files from data/ (github_trending, hackernews, reddit, research_ml, product_launch, job_signals)
-  - Normalizes into single structured JSON: data/alpha_deep_context_<YYYY-MM-DD>.json
-  - Includes:
-    - sources metadata (counts, validity)
-    - per-source signals (topByStarsToday, topByEngagement, hot_topics, trending_models, top_products, emerging_roles, etc.)
-    - cross_source.overlap_candidates (multi-source validation)
-    - dynamic candidates (5–15 items, scored, with alpha_thesis and risk)
-  - Status: implemented, tested (exit 0, 12 candidates, valid JSON)
+- [x] Add:
+  - `url` as Reddit post permalink (e.g., https://www.reddit.com/r/.../comments/...).
+  - `selftext_short`: first 1,200 chars of selftext (for discussion/self-posts).
+  - `why_hot`: short rationale based on domain (AI, crypto, security, startup, infra, OSS) plus brief summary.
+- [x] Improve `hot_subreddits`:
+  - Populated via popular/rising scans filtered by alpha-relevant keywords.
+  - Includes `post_count` and `sample_titles`.
+- [ ] Filter or score (next iteration):
+  - Reduce noise from r/startups "I will not promote" posts.
+  - Add `quality_hint`: "discussion" | "news-link" | "self-promo" | "spam-ish".
+- [ ] Output schema (target):
 
-- [x] scripts/alpha_daily_report.mjs (Deep Context Mode)
-  - Changed to read ONLY data/alpha_deep_context_<YYYY-MM-DD>.json
-  - Generates Markdown report from unified JSON (not raw data dumps)
-  - Sections: Executive Summary, GitHub, HN, Reddit, Research/ML, Product Launch, Job Signals, Cross-Source Overlap, Alpha Candidates
-  - Status: implemented, tested (exit 0, 16k+ chars, insight-driven)
+  {
+    "title": "...",
+    "url": "https://external-article.com/...",
+    "permalink": "https://www.reddit.com/r/.../comments/...",
+    "selftext_short": "...",
+    "score": 18746,
+    "comments": 1082,
+    "why_hot": "Major policy/tech shift; high community engagement",
+    "quality_hint": "news-link"
+  }
 
-- [x] Full pipeline validation (Deep Context flow)
-  - Steps executed:
-    - node scripts/run_all_signals.mjs → 6/6 OK
-    - node scripts/alpha_deep_context.mjs → valid JSON, 12 candidates
-    - node scripts/alpha_daily_report.mjs → report generated from deep_context
-    - node scripts/alpha_git_commit.mjs → commit + push OK
-  - Confirmed:
-    - alpha_deep_context_<YYYY-MM-DD>.json exists and is valid
-    - reports/daily/YYYY-MM-DD.md uses deep_context, not raw data dump
-    - Git commit and push succeed
+### 3) hn_signals.mjs
 
-## Backlog
+- [ ] Add:
+  - `category_hint`: "ai-ml", "infra", "security", "crypto", "science", "career", "lifestyle", "other".
+  - `why_hot`: short rationale (e.g., "HN-validated tool", "infrastructure debate", "AI safety concern").
+- [ ] Optionally:
+  - `comment_sample`: 1–2 short comment lines (if feasible).
+- [ ] Output schema (target):
 
-- [x] scripts/github_trending.mjs
-  - Fetch GitHub Trending daily via raw HTML parse (fixed parser)
-  - Write data/github_trending_<YYYY-MM-DD>.json
-  - Tested: 19 repos parsed, valid JSON
+  {
+    "id": 123456,
+    "title": "...",
+    "url": "...",
+    "score": 880,
+    "comments": 1461,
+    "category_hint": "ai-ml",
+    "why_hot": "High engagement HN story; major product launch"
+  }
 
-- [x] scripts/reddit_signals.mjs
-  - Use Reddit JSON endpoints for selected subreddits
-  - Write data/reddit_<YYYY-MM-DD>.json
-  - Status: implemented, tested (exit 0, valid JSON, 6 subreddits)
-  - Now includes hot_subreddits: scans r/all/top + /best.json, filters by tech/AI/crypto/startup keywords, outputs trending subreddits with post_count and sample_titles
+### 4) job_signals.mjs
 
-- [x] scripts/x_signals.mjs
-  - Lightweight X/Twitter scraping via web_fetch for ~10 key accounts
-  - Write data/x_twitter_<YYYY-MM-DD>.json
-  - Status: implemented, tested (exit 0, valid JSON, 10 accounts, 94 tweets)
+- [ ] Add:
+  - `jd_summary`: 1–2 sentence summary (core responsibilities).
+  - `extracted_skills`: list of key skills (e.g., ["Rust", "Kubernetes", "LLMs"]).
+  - `why_signal`: why this job matters (e.g., "AI agent infra demand", "ZK engineer shortage", "edge AI growth").
+  - `company_sector`: "ai-infra", "fintech", "healthtech", "crypto", "infra", "other".
+- [ ] Output schema (target):
 
-- [x] scripts/research_ml_signals.mjs
-  - Hugging Face trending + ArXiv API
-  - Write data/research_ml_<YYYY-MM-DD>.json
-  - Status: implemented, tested (exit 0, valid JSON, HF 29, ArXiv 30)
+  {
+    "title": "Machine Learning Engineer, Physical AI",
+    "company": "Encord",
+    "tags": ["AI", "machine learning"],
+    "location": "San Francisco, CA, US",
+    "salary": "$150K - $200K",
+    "roleType": "Machine learning",
+    "companyBatch": "W21",
+    "jd_summary": "Build ML pipelines for physical AI systems...",
+    "extracted_skills": ["PyTorch", "robotics", "RL"],
+    "company_sector": "ai-infra",
+    "why_signal": "Strong demand for ML engineers in physical AI; indicates growth in embodied AI",
+    "url": "https://www.workatastartup.com/job/..."
+  }
 
-- [x] scripts/product_launch_signals.mjs
-  - Product Hunt (403 due to Cloudflare, returns empty) + IndieHackers + YC signals
-  - Write data/product_launch_<YYYY-MM-DD>.json
-  - Note: Product Hunt requires browser-based scraping; to be handled via separate pipeline later
+### 5) research_ml_signals.mjs (HF + ArXiv)
 
-- [x] scripts/job_signals.mjs
-  - YC Work at a Startup (primary); Wellfound as fallback (403, skipped)
-  - Write data/job_signals_<YYYY-MM-DD>.json
-  - Status: implemented, tested (exit 0, valid JSON, 30 jobs)
+- [ ] Hugging Face:
+  - Fix `likes` scraping (currently all zero).
+  - Add:
+    - `why_notable`: "multimodal reasoning", "on-device TTS", "video generation", etc.
+    - `sector_themes`: list (e.g., ["multimodal", "on-device-ai", "video-gen"]).
+  - Add:
+    - `downloads` (if available).
+- [ ] ArXiv:
+  - Fix to fetch truly recent papers (last 7–14 days).
+  - Add:
+    - `why_notable`: short rationale.
+    - `sector_themes`: e.g., ["ai-agents", "ai-safety", "code-llm", "security"].
+- [ ] HF output schema (target):
+
+  {
+    "id": "deepseek-ai/DeepSeek-V4-Pro",
+    "name": "DeepSeek-V4-Pro",
+    "likes": 1234,
+    "downloads": 56000,
+    "tags": ["conversational"],
+    "sector_themes": ["llm", "reasoning"],
+    "why_notable": "Frontier conversational model; strong HF traction",
+    "url": "..."
+  }
+
+- [ ] ArXiv output schema (target):
+
+  {
+    "title": "...",
+    "date": "2026-05-10T00:00:00Z",
+    "authors": "...",
+    "abstract_short": "...",
+    "sector_themes": ["ai-agents", "ai-safety"],
+    "why_notable": "Directly relevant to AI agent guardrails",
+    "url": "..."
+  }
+
+### 6) product_launch_signals.mjs
+
+- [ ] Add:
+  - `tags`: classify by domain (e.g., ["AI", "DevTools", "Marketing"]).
+  - `why_notable`: short rationale.
+  - `tech_domain`: "ai-agent", "devtools", "marketing", "infra", "consumer", "crypto", "other".
+- [ ] Improve IndieHackers and YC sections:
+  - IndieHackers: fetch real posts.
+  - YC: scrape Work at a Startup highlights or YC Blog.
+- [ ] PH output schema (target):
+
+  {
+    "name": "Memoket Gem",
+    "tagline": "An AI wearable that remembers your conversations all day",
+    "votes": 263,
+    "tags": ["AI", "Hardware", "Consumer"],
+    "tech_domain": "ai-agent",
+    "why_notable": "AI wearable with strong early traction",
+    "url": "..."
+  }
+
+### 7) alpha_deep_context.mjs (Deep Context Upgrade)
+
+- [ ] Replace boilerplate signal_reason with meaningful rationale:
+  - Use per-source enriched fields (why_notable, why_hot, why_signal).
+- [ ] For each candidate:
+  - `alpha_thesis`:
+    - Why this matters in 6–24 months.
+    - What sector/stack it enables.
+  - `risk`:
+    - Concrete risks: hype cycle, regulatory, technical, competition.
+  - `cross_source_links`:
+    - List of other sources that confirm or contradict.
+- [ ] Add:
+  - `sector_themes`: auto-generated themes (e.g., "AI Agent Infra", "On-Device AI", "Physical AI", "ZK / Crypto Infra").
+  - `contrarian_notes`: 1–2 items that challenge the dominant narrative.
+- [ ] Output schema (target, key parts):
+
+  "candidates": [
+    {
+      "id": 1,
+      "name": "mattpocock/skills",
+      "type": "project",
+      "sources": ["github"],
+      "summary": "...",
+      "alpha_thesis": "Defines a new standard for agent skills; if adopted widely, becomes infra for AI workflows.",
+      "risk": "Personal brand dependency; may not generalize beyond early adopters.",
+      "cross_source_links": ["hn_signals", "reddit_r/startups"],
+      "sector_themes": ["ai-agents", "devtools"]
+    }
+  ]
+
+---
+
+## Phase 2: New Alpha Daily Report Skeleton
+
+Replace current listing-style report with an analyst-grade brief.
+
+Structure:
+
+1) Executive Summary
+   - 3–6 bullet insights:
+     - What’s moving today across all sources.
+     - Focus on alpha-relevant patterns, not noise.
+
+2) Sector Themes
+   - 3–6 themes (e.g., "AI Agent Infra", "On-Device AI", "Physical AI", "Crypto Infra", "AI Safety / Alignment").
+   - For each theme:
+     - 2–4 bullets: what’s happening (GitHub, HN, Reddit, HF, jobs).
+     - 1 bullet: why it matters in 6–24 months.
+
+3) Alpha Hypotheses
+   - 3–5 concrete hypotheses:
+     - "If X continues, Y sector will see Z outcome by 2027."
+   - Grounded in today’s signals, not speculation.
+   - Each with:
+     - Rationale (1–2 lines).
+     - Confidence: High / Medium / Low.
+
+4) Key Projects & Tools to Watch
+   - 5–10 items:
+     - Brief reason: why notable, what problem it solves.
+     - Cross-source validation if present.
+
+5) Job & Skill Signals
+   - Emerging roles (3–5).
+   - Emerging skills (3–5).
+   - What they imply about where capital and talent are flowing.
+
+6) Risk & Contrarian View
+   - 2–4 bullets:
+     - What might be overhyped.
+     - Regulatory, technical, or market risks.
+     - "If I had to bet against X, here’s why."
+
+7) Near-Term vs Long-Term
+   - Near-term (0–6 months): actionable signals.
+   - Long-term (6–24 months): structural shifts to monitor.
+
+8) Watchlist
+   - 5–10 "watch closely" items (projects, companies, themes).
+   - Short reason per item.
+
+9) Cross-Source Overlap
+   - Items confirmed by multiple sources:
+     - Higher confidence, call out explicitly.
+
+Constraints:
+- Language: Korean, polite/analytical tone.
+- No raw data dumps; interpret and synthesize.
+- No filler; concise and decision-useful.
+
+---
+
+## Phase 3: Alpha Daily Report Redesign (Implementation)
+
+- [ ] Update `alpha_daily_report.mjs` to:
+  - Use new skeleton (Phase 2).
+  - Generate:
+    - Sector Themes
+    - Alpha Hypotheses
+    - Risk & Contrarian View
+    - Near-Term vs Long-Term
+    - Watchlist
+  - Use enriched fields from Phase 1 and Phase 2.
+- [ ] Ensure:
+  - Output is Korean.
+  - Tone is analyst-grade, not a news digest.
+  - No boilerplate phrases.
+
+---
+
+## Phase 4: Patent Signals (New Data Layer)
+
+- [ ] Design `patent_keywords.json`:
+  - Sectors: AI/ML, Agents, Robotics, Web3, ZK, Bio+AI, Edge/On-Device, Crypto, Infra, Security.
+  - Regions: US, KR, JP, TW.
+- [ ] Implement `scripts/patent_signals.mjs`:
+  - Use Google Patents + (optional) USPTO/KIPO/J-PlatPat/TIPO.
+  - Output: `data/patents_{date}.json`.
+- [ ] Integrate into:
+  - `run_all_signals.mjs`
+  - `alpha_deep_context.mjs` (sector_themes + candidates).
+
+---
+
+## Phase 5: Validation & Iteration
+
+- [ ] Run full pipeline once with enriched fields.
+- [ ] Review:
+  - Deep context quality (signal_reason, alpha_thesis, risk).
+  - Report quality (sector themes, hypotheses, contrarian view).
+- [ ] Adjust prompts/scripts based on quality.
+- [ ] Lock final cron prompt.
