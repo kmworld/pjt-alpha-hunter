@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "generatedAt": "2026-05-14T14:48:35.729Z",
+  "generatedAt": "2026-05-14T15:04:27.966Z",
   "sources": {
     "github_trending": {
       "count": 15,
@@ -12,24 +12,21 @@
       "valid": true
     },
     "reddit": {
-      "totalPosts": 23,
-      "hotSubreddits": [
-        "r/nevertellmetheodds",
-        "r/videos"
-      ],
-      "globalHotPostsCount": 23
+      "totalPosts": 2,
+      "valid": true
     },
     "research_ml": {
       "hfCount": 30,
-      "arxivCount": 0
+      "arxivCount": 0,
+      "valid": true
     },
     "product_launch": {
       "productHuntCount": 30,
-      "indieHackersCount": 1,
-      "ycCount": 0
+      "valid": true
     },
     "job_signals": {
-      "jobsCount": 30
+      "jobsCount": 30,
+      "valid": true
     }
   },
   "signals": {
@@ -42,20 +39,12 @@
           "stars": 7307,
           "recent_stars": 3476,
           "url": "https://github.com/tinyhumansai/openhuman",
-          "is_rising_star": true,
-          "new_this_day": null,
-          "repo_summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +3476 stars today.",
-          "architecture_tech": [
-            "Rust",
-            "go",
-            "react",
-            "rest",
+          "topics": [
             "intelligence",
             "private",
             "extremely"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +3476 stars today."
+          "why_notable": ""
         },
         {
           "repo": "mattpocock/skills",
@@ -64,21 +53,14 @@
           "stars": 81221,
           "recent_stars": 2971,
           "url": "https://github.com/mattpocock/skills",
-          "is_rising_star": null,
-          "new_this_day": null,
-          "repo_summary": "Skills for Real Engineers. Straight from my .claude directory.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +2971 stars today.",
-          "architecture_tech": [
-            "Shell",
-            "typescript",
-            "go",
+          "topics": [
             "skills",
             "engineers",
             "straight",
             "claude",
             "directory"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +2971 stars today."
+          "why_notable": ""
         },
         {
           "repo": "rohitg00/agentmemory",
@@ -87,23 +69,17 @@
           "stars": 8703,
           "recent_stars": 1978,
           "url": "https://github.com/rohitg00/agentmemory",
-          "is_rising_star": true,
-          "new_this_day": null,
-          "repo_summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1978 stars today.",
-          "architecture_tech": [
-            "TypeScript",
-            "go",
-            "mcp",
+          "topics": [
             "agentmemory",
             "agents",
+            "ai",
             "claude",
             "claudecode",
             "codex",
             "copilot",
             "cursor"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1978 stars today."
+          "why_notable": ""
         },
         {
           "repo": "obra/superpowers",
@@ -112,20 +88,14 @@
           "stars": 190757,
           "recent_stars": 1801,
           "url": "https://github.com/obra/superpowers",
-          "is_rising_star": null,
-          "new_this_day": null,
-          "repo_summary": "An agentic skills framework & software development methodology that works.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1801 stars today.",
-          "architecture_tech": [
-            "Shell",
-            "go",
+          "topics": [
             "agentic",
             "skills",
             "framework",
             "software",
             "development"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1801 stars today."
+          "why_notable": ""
         },
         {
           "repo": "ruvnet/RuView",
@@ -134,12 +104,7 @@
           "stars": 55282,
           "recent_stars": 1757,
           "url": "https://github.com/ruvnet/RuView",
-          "is_rising_star": null,
-          "new_this_day": true,
-          "repo_summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1757 stars today.",
-          "architecture_tech": [
-            "Rust",
+          "topics": [
             "agentic-ai",
             "densepose",
             "esp32",
@@ -149,7 +114,7 @@
             "monitoring",
             "pose-estimation"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1757 stars today."
+          "why_notable": ""
         },
         {
           "repo": "CloakHQ/CloakBrowser",
@@ -158,23 +123,17 @@
           "stars": 10402,
           "recent_stars": 1369,
           "url": "https://github.com/CloakHQ/CloakBrowser",
-          "is_rising_star": null,
-          "new_this_day": null,
-          "repo_summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1369 stars today.",
-          "architecture_tech": [
-            "Python",
-            "python",
-            "javascript",
-            "go",
-            "docker",
-            "gpu",
+          "topics": [
             "ai-agents",
             "anti-detect",
             "antidetect-browser",
-            "bot-detection"
+            "bot-detection",
+            "browser-automation",
+            "captcha-bypass",
+            "chromium",
+            "cloudflare"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1369 stars today."
+          "why_notable": ""
         },
         {
           "repo": "github/spec-kit",
@@ -183,13 +142,8 @@
           "stars": 99099,
           "recent_stars": 1240,
           "url": "https://github.com/github/spec-kit",
-          "is_rising_star": null,
-          "new_this_day": null,
-          "repo_summary": "💫 Toolkit to help you get started with Spec-Driven Development",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1240 stars today.",
-          "architecture_tech": [
-            "Python",
-            "go",
+          "topics": [
+            "ai",
             "copilot",
             "development",
             "engineering",
@@ -197,7 +151,7 @@
             "spec",
             "spec-driven"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1240 stars today."
+          "why_notable": ""
         },
         {
           "repo": "supertone-inc/supertonic",
@@ -206,23 +160,17 @@
           "stars": 5057,
           "recent_stars": 1163,
           "url": "https://github.com/supertone-inc/supertonic",
-          "is_rising_star": true,
-          "new_this_day": null,
-          "repo_summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
-          "why_people_care": "Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining +1163 stars today.",
-          "architecture_tech": [
-            "Swift",
-            "python",
-            "go",
-            "tpu",
+          "topics": [
             "cpp",
             "csharp",
+            "go",
             "ios",
             "java",
             "lightweight",
-            "nodejs"
+            "nodejs",
+            "on-device"
           ],
-          "signal_reason": "Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining +1163 stars today."
+          "why_notable": ""
         },
         {
           "repo": "garrytan/gstack",
@@ -231,19 +179,14 @@
           "stars": 96348,
           "recent_stars": 1083,
           "url": "https://github.com/garrytan/gstack",
-          "is_rising_star": null,
-          "new_this_day": true,
-          "repo_summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1083 stars today.",
-          "architecture_tech": [
-            "TypeScript",
+          "topics": [
             "manager",
             "garry",
             "exact",
             "claude",
             "setup"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1083 stars today."
+          "why_notable": ""
         },
         {
           "repo": "K-Dense-AI/scientific-agent-skills",
@@ -252,33 +195,109 @@
           "stars": 21582,
           "recent_stars": 637,
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "is_rising_star": null,
-          "new_this_day": null,
-          "repo_summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
-          "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +637 stars today.",
-          "architecture_tech": [
-            "Python",
-            "python",
-            "go",
+          "topics": [
             "agent-skills",
             "ai-scientist",
             "bioinformatics",
             "chemoinformatics",
             "claude",
             "claude-skills",
-            "claudecode"
+            "claudecode",
+            "clinical-research"
           ],
-          "signal_reason": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +637 stars today."
+          "why_notable": ""
+        },
+        {
+          "repo": "Genymobile/scrcpy",
+          "description": "Display and control your Android device",
+          "language": "C",
+          "stars": 141086,
+          "recent_stars": 589,
+          "url": "https://github.com/Genymobile/scrcpy",
+          "topics": [
+            "android",
+            "c",
+            "ffmpeg",
+            "libav",
+            "mirroring",
+            "recording",
+            "screen",
+            "sdl2"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "shiyu-coder/Kronos",
+          "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "language": "Python",
+          "stars": 24654,
+          "recent_stars": 359,
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "topics": [
+            "kronos",
+            "foundation",
+            "model",
+            "language",
+            "financial"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "influxdata/telegraf",
+          "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+          "language": "Go",
+          "stars": 17134,
+          "recent_stars": 211,
+          "url": "https://github.com/influxdata/telegraf",
+          "topics": [
+            "golang",
+            "hacktoberfest",
+            "influxdb",
+            "json",
+            "kafka",
+            "logs",
+            "metrics",
+            "modbus"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "roboflow/supervision",
+          "description": "We write your reusable computer vision tools. 💜",
+          "language": "Python",
+          "stars": 38757,
+          "recent_stars": 59,
+          "url": "https://github.com/roboflow/supervision",
+          "topics": [
+            "classification",
+            "coco",
+            "computer-vision",
+            "deep-learning",
+            "hacktoberfest",
+            "image-processing",
+            "instance-segmentation",
+            "low-code"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+          "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+          "language": "Python",
+          "stars": 726,
+          "recent_stars": 28,
+          "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+          "topics": [
+            "agents",
+            "llm",
+            "rag",
+            "skills",
+            "video-analytics",
+            "video-search",
+            "vlm"
+          ],
+          "why_notable": ""
         }
-      ],
-      "emerging_stacks": [
-        "Python",
-        "Rust",
-        "Shell",
-        "TypeScript",
-        "Swift",
-        "C",
-        "Go"
       ]
     },
     "hackernews": {
@@ -288,56 +307,105 @@
           "url": "https://googlebook.google/",
           "score": 902,
           "comments": 1517,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
           "title": "I moved my digital stack to Europe",
           "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
           "score": 886,
           "comments": 537,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
           "title": "Restore full BambuNetwork support for Bambu Lab printers",
           "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
           "score": 639,
           "comments": 292,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
           "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
           "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
           "score": 523,
           "comments": 344,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
           "title": "Leaving GitHub for Forgejo",
           "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
           "score": 528,
           "comments": 281,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
           "title": "Setting up a free *.city.state.us locality domain (2025)",
           "url": "https://fredchan.org/blog/locality-domains-guide/",
           "score": 489,
           "comments": 155,
-          "signal_reason": "AI/ML/Agent topic with high HN engagement"
+          "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "Twin brothers wipe 96 government databases minutes after being fired",
           "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
           "score": 303,
           "comments": 228,
-          "signal_reason": "High engagement HN story; broad tech interest"
+          "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
           "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
           "score": 245,
           "comments": 351,
-          "signal_reason": "Crypto/Web3 topic with notable HN discussion"
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "New stainless steel can survive conditions for hydrogen production in seawater",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
+          "score": 296,
+          "comments": 138,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "A History of IDEs at Google",
+          "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+          "score": 271,
+          "comments": 196,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "The US is winning the AI race where it matters most: commercialization",
+          "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+          "score": 164,
+          "comments": 463,
+          "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
+        },
+        {
+          "title": "Open Source Resistance: keep OSS alive on company time",
+          "url": "https://ossresistance.com/",
+          "score": 245,
+          "comments": 78,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "The Emacsification of Software",
+          "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+          "score": 192,
+          "comments": 129,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+          "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+          "score": 175,
+          "comments": 163,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "Reverting the incremental GC in Python 3.14 and 3.15",
+          "url": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
+          "score": 198,
+          "comments": 79,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
         }
       ],
       "show_hn_high_signal": [
@@ -345,284 +413,36 @@
           "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
           "url": "https://github.com/cactus-compute/needle",
           "score": 639,
-          "comments": 183,
-          "signal_reason": "High-score Show HN; notable product interest"
+          "comments": 183
         }
       ]
     },
     "reddit": {
       "hot_topics": [
         {
-          "topic": "General Tech",
+          "topic": "r/nevertellmetheodds",
           "subreddits": [
-            "r/futurology",
-            "r/technology",
-            "r/cybersecurity"
+            "r/nevertellmetheodds"
           ],
-          "sample_titles": [
-            "What current technology do you think people are seriously underestimating right now ?",
-            "Whatever happened to the cloned sheep, Dolly?",
-            "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers",
-            "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password"
-          ],
-          "why_important": "11 posts across 3 subreddits; avg score 5824. Indicates strong community interest in General Tech."
-        },
-        {
-          "topic": "AI/ML/Agents",
-          "subreddits": [
-            "r/futurology",
-            "r/technology",
-            "r/cryptocurrency"
-          ],
-          "sample_titles": [
-            "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence",
-            "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
-            "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
-            "Overworked AI Agents Turn Marxist, Researchers Find"
-          ],
-          "why_important": "10 posts across 3 subreddits; avg score 2678. Indicates strong community interest in AI/ML/Agents."
-        },
-        {
-          "topic": "Crypto/Web3",
-          "subreddits": [
-            "r/cryptocurrency"
-          ],
-          "sample_titles": [
-            "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password",
-            "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve",
-            "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years."
-          ],
-          "why_important": "3 posts across 1 subreddits; avg score 867. Indicates strong community interest in Crypto/Web3."
-        }
-      ],
-      "emerging_subreddits": [
-        {
-          "name": "r/nevertellmetheodds",
-          "post_count": 4,
           "sample_titles": [
             "I wore the same shirt as my Statistics professor the first day of class",
             "I wore the same shirt as my Statistics professor the first day of class",
             "A customer asks a pokemon vendor for a specific card and the vendor jokingly opens a new pack and the card is in there.",
             "I wore the same shirt as my Statistics professor the first day of class"
-          ]
+          ],
+          "why_important": "4 posts; active discussion."
         },
         {
-          "name": "r/videos",
-          "post_count": 3,
+          "topic": "r/videos",
+          "subreddits": [
+            "r/videos"
+          ],
           "sample_titles": [
             "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
             "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
             "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out"
-          ]
-        }
-      ],
-      "global_hot_posts": [
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tc66gv/its_like_we_dont_exist_nearly_50000_lake_tahoe/",
-          "title": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers",
-          "score": 35410,
-          "comments": 2022,
-          "subreddit": "r/technology",
-          "post_summary": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers Kind of amused where I lived a few years ago we were told prepare for rolling blackouts in the summer. Now they are building a data center but “all the water and electricity is cov...",
-          "why_hot": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcmxdf/people_would_rather_have_nuclear_power_plants_in/",
-          "title": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
-          "score": 18843,
-          "comments": 979,
-          "subreddit": "r/technology",
-          "post_summary": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
-          "why_hot": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tca196/claude_helps_man_recover_400000_in_btc_11_years/",
-          "title": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password",
-          "score": 13421,
-          "comments": 543,
-          "subreddit": "r/technology",
-          "post_summary": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000.",
-          "why_hot": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password. relevant to crypto, blockchain, or DeFi ecosystem movements. To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000."
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcudxy/louis_rossmann_taunts_bambu_lab_by_hosting_banned/",
-          "title": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer",
-          "score": 5535,
-          "comments": 280,
-          "subreddit": "r/technology",
-          "post_summary": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your riv...",
-          "why_hot": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge suppo.... relevant to AI, infrastructure, or open-source ecosystem movements. Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your rival's PR disaster into your bran"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tc5muu/tech_layoff_wave_has_already_hit_100000_jobs_this/",
-          "title": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
-          "score": 5041,
-          "comments": 273,
-          "subreddit": "r/technology",
-          "post_summary": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
-          "why_hot": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year. likely drawing attention due to organizational or leadership changes"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcm9w5/scientists_successfully_transfer_longevity_gene/",
-          "title": "Scientists successfully transfer longevity gene and extend lifespan",
-          "score": 2596,
-          "comments": 384,
-          "subreddit": "r/technology",
-          "post_summary": "Scientists successfully transfer longevity gene and extend lifespan Cool. Can't wait in the year 2088 when it's announced that this failed to get any traction besides rats. Good news! You can work longer now! All for the low price of $10,000,000.99...",
-          "why_hot": "Scientists successfully transfer longevity gene and extend lifespan. likely drawing attention as a new launch or announcement"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tc94v7/data_centers_could_account_for_up_to_9_of_texas/",
-          "title": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds",
-          "score": 1772,
-          "comments": 76,
-          "subreddit": "r/technology",
-          "post_summary": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds Looks like Elon was right--social security won't matter when we're all dead.",
-          "why_hot": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds. relevant to cybersecurity and risk tracking. Looks like Elon was right--social security won't matter when we're all dead."
-        },
-        {
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc3zam/microsoft_bitlockerprotected_drives_can_now_be/",
-          "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
-          "score": 1746,
-          "comments": 167,
-          "subreddit": "r/cybersecurity",
-          "post_summary": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor YellowKey is kind of crazy because now, any device that was stolen but protected by BitLocker is now super-compromised, with no recourse. Are cyber response teams...",
-          "why_hot": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an appa.... likely drawing attention due to a security incident or outage"
-        },
-        {
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tca6hk/ai_helps_man_recover_400000_in_bitcoin_11_years/",
-          "title": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password",
-          "score": 1652,
-          "comments": 121,
-          "subreddit": "r/cryptocurrency",
-          "post_summary": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password This guy gave Claude total access to his machine. Wow. It probably searched for clues in history and pieced it together. I doubt it’s as technical as we think. More like a deep sea...",
-          "why_hot": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcbjus/i_work_in_hollywood_everyone_who_used_to_make_tv/",
-          "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
-          "score": 1490,
-          "comments": 153,
-          "subreddit": "r/technology",
-          "post_summary": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI I've just been operating under the assumption that everything connected to the internet is training AI at this point Secretly? Seems like you’re training AI whether you intend to o...",
-          "why_hot": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tc97fl/overworked_ai_agents_turn_marxist_researchers_find/",
-          "title": "Overworked AI Agents Turn Marxist, Researchers Find",
-          "score": 1231,
-          "comments": 159,
-          "subreddit": "r/technology",
-          "post_summary": "Overworked AI Agents Turn Marxist, Researchers Find &gt; In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights. Lol /r/nottheonion material right there Exhibit A...",
-          "why_hot": "Overworked AI Agents Turn Marxist, Researchers Find. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcj3ww/trillions_of_miles_of_data_your_car_is_spying_on/",
-          "title": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning",
-          "score": 1122,
-          "comments": 259,
-          "subreddit": "r/technology",
-          "post_summary": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning We really need some kind of legislation to end this data scraping surveillance.  Nobody wants it. My car is 21 years old and does no spying. Disconcerting, to say the least.  &gt;A...",
-          "why_hot": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning. likely drawing attention due to regulation or policy changes"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tc9qgv/the_balcony_solar_boom_is_coming_to_the_us/",
-          "title": "The balcony solar boom is coming to the US",
-          "score": 1135,
-          "comments": 152,
-          "subreddit": "r/technology",
-          "post_summary": "The balcony solar boom is coming to the US In Germany, we have a federal law that allows them on balconies. Can’t be told no if you put them up. Sadly, here in IL, the electricians union worked hard to scuttle the first att...",
-          "why_hot": "The balcony solar boom is coming to the US. likely drawing attention due to regulation or policy changes"
-        },
-        {
-          "url": "https://www.reddit.com/r/Futurology/comments/1tcj2iu/what_current_technology_do_you_think_people_are/",
-          "title": "What current technology do you think people are seriously underestimating right now ?",
-          "score": 914,
-          "comments": 902,
-          "subreddit": "r/futurology",
-          "post_summary": "What current technology do you think people are seriously underestimating right now ? Everyone talks about AI constantly, but I’m more interested in technologies that are quietly improving in the background without much mainstream attention yet. Could be something p...",
-          "why_hot": "What current technology do you think people are seriously underestimating right now ?. likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tck4qe/sam_altman_forced_to_confront_claims_at_openai/",
-          "title": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing control over OpenAI.",
-          "score": 875,
-          "comments": 50,
-          "subreddit": "r/technology",
-          "post_summary": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing control over OpenAI. How is it possible that in certain circles a “prolific liar” is a welcome addition to any dinner party? Maybe billionaires and techbros are different species aft...",
-          "why_hot": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing contr.... likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8xe9/its_official_pro_crypto_kevin_warsh_will_take_the/",
-          "title": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve",
-          "score": 636,
-          "comments": 294,
-          "subreddit": "r/cryptocurrency",
-          "post_summary": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve Senate voted on May 12: 51-45 and confirmed kevin warsh as the new chairman of federal reserve, plus advancing his nomination for the 4-year chair turn. Well, Powell will say a lon...",
-          "why_hot": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve. likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcg3he/ciscos_stock_pops_17_on_surging_ai_orders_as/",
-          "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
-          "score": 663,
-          "comments": 97,
-          "subreddit": "r/technology",
-          "post_summary": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs So cutting jobs increase stock price? Wonder how this is gonna end All stock value gained over the next 5 business days after a layoff should be paid by the public company to those...",
-          "why_hot": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs. likely drawing attention due to organizational or leadership changes"
-        },
-        {
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc57la/nist_is_surrendering_to_the_amount_of_cves_coming/",
-          "title": "NIST is surrendering to the amount of CVEs coming in",
-          "score": 636,
-          "comments": 56,
-          "subreddit": "r/cybersecurity",
-          "post_summary": "NIST is surrendering to the amount of CVEs coming in https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth NIST can't keep up with the amount of CVEs coming in any more. They are now only...",
-          "why_hot": "NIST is surrendering to the amount of CVEs coming in. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tckpz7/medical_ai_transcriber_for_ontario_doctors/",
-          "title": "Medical AI transcriber for Ontario doctors 'hallucinated,' generated errors: auditor general",
-          "score": 485,
-          "comments": 56,
-          "subreddit": "r/technology",
-          "post_summary": "Medical AI transcriber for Ontario doctors 'hallucinated,' generated errors: auditor general I've been hoping for good voice recognition since the 90s.  And while it certainly has improved, its still full of errors all the time.  Thats before the AI hallucinates for you....",
-          "why_hot": "Medical AI transcriber for Ontario doctors 'hallucinated,' generated errors: auditor general. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/technology/comments/1tcrn6w/microsofts_secret_windows_k2_project_aims_to_fix/",
-          "title": "Microsoft's secret 'Windows K2' project aims to fix what users hate most.",
-          "score": 439,
-          "comments": 260,
-          "subreddit": "r/technology",
-          "post_summary": "Microsoft's secret 'Windows K2' project aims to fix what users hate most. \"potential reduction in ads in start menu\"  So they are still debating that this is not the horrible and hated part of the experience for a paid product, which means this is just h...",
-          "why_hot": "Microsoft's secret 'Windows K2' project aims to fix what users hate most."
-        },
-        {
-          "url": "https://www.reddit.com/r/Futurology/comments/1tc2j04/worlds_first_braincomputer_interface_bci/",
-          "title": "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence",
-          "score": 461,
-          "comments": 48,
-          "subreddit": "r/futurology",
-          "post_summary": "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence",
-          "why_hot": "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence"
-        },
-        {
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcakkm/nasdaq_price_increase_is_3x_bitcoin_increase_over/",
-          "title": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.",
-          "score": 312,
-          "comments": 99,
-          "subreddit": "r/cryptocurrency",
-          "post_summary": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years. Source : [https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100](https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100...",
-          "why_hot": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "url": "https://www.reddit.com/r/Futurology/comments/1tcnk72/whatever_happened_to_the_cloned_sheep_dolly/",
-          "title": "Whatever happened to the cloned sheep, Dolly?",
-          "score": 267,
-          "comments": 144,
-          "subreddit": "r/futurology",
-          "post_summary": "Whatever happened to the cloned sheep, Dolly? I remember when Dolly the sheep was born back on July 5, 1996 as the very first mammal to be successfully cloned.  I distinctly remember freaking out they were gonna be cloning hum...",
-          "why_hot": "Whatever happened to the cloned sheep, Dolly?"
+          ],
+          "why_important": "3 posts; active discussion."
         }
       ]
     },
@@ -646,10 +466,7 @@
             "fp8",
             "region:us"
           ],
-          "sector_themes": [
-            "llm"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf"
+          "why_notable": "Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high"
         },
         {
           "id": "black-forest-labs/FLUX.1-dev",
@@ -666,10 +483,7 @@
             "diffusers:FluxPipeline",
             "region:us"
           ],
-          "sector_themes": [
-            "image-gen"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V"
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
         },
         {
           "id": "stabilityai/stable-diffusion-xl-base-1.0",
@@ -690,10 +504,7 @@
             "deploy:azure",
             "region:us"
           ],
-          "sector_themes": [
-            "image-gen"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V"
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
         },
         {
           "id": "CompVis/stable-diffusion-v1-4",
@@ -714,10 +525,7 @@
             "diffusers:StableDiffusionPipeline",
             "region:us"
           ],
-          "sector_themes": [
-            "image-gen"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V"
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
         },
         {
           "id": "meta-llama/Meta-Llama-3-8B",
@@ -737,10 +545,7 @@
             "endpoints_compatible",
             "region:us"
           ],
-          "sector_themes": [
-            "llm"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf"
+          "why_notable": "Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high"
         },
         {
           "id": "hexgrad/Kokoro-82M",
@@ -756,10 +561,7 @@
             "license:apache-2.0",
             "region:us"
           ],
-          "sector_themes": [
-            "tts-audio"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes in"
+          "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c"
         },
         {
           "id": "meta-llama/Llama-3.1-8B-Instruct",
@@ -786,10 +588,7 @@
             "base_model:meta-llama/Llama-3.1-8B",
             "base_model:finetune:meta-llama/Llama-3.1-8B"
           ],
-          "sector_themes": [
-            "llm"
-          ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf"
+          "why_notable": "Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high"
         },
         {
           "id": "openai/whisper-large-v3",
@@ -816,70 +615,51 @@
             "pl",
             "ca"
           ],
-          "sector_themes": [
-            "tts-audio"
+          "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c"
+        },
+        {
+          "id": "bigscience/bloom",
+          "likes": 5002,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tensorboard",
+            "safetensors",
+            "bloom",
+            "text-generation",
+            "ak",
+            "ar",
+            "as",
+            "bm",
+            "bn",
+            "ca",
+            "code",
+            "en",
+            "es",
+            "eu",
+            "fon",
+            "fr",
+            "gu",
+            "hi"
           ],
-          "why_notable": "Very high likes; likely a major model or breakthrough; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes in"
+          "why_notable": "Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high"
+        },
+        {
+          "id": "stabilityai/stable-diffusion-3-medium",
+          "likes": 4954,
+          "tags": [
+            "diffusion-single-file",
+            "text-to-image",
+            "stable-diffusion",
+            "en",
+            "arxiv:2403.03206",
+            "license:other",
+            "region:us"
+          ],
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indic"
         }
       ],
-      "notable_papers": [
-        {
-          "title": "deepseek-ai/DeepSeek-R1",
-          "why_notable": "HF likes: 13328; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-          "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "sector_themes": [
-            "llm"
-          ]
-        },
-        {
-          "title": "meta-llama/Meta-Llama-3-8B",
-          "why_notable": "HF likes: 6531; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-          "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-          "sector_themes": [
-            "llm"
-          ]
-        },
-        {
-          "title": "meta-llama/Llama-3.1-8B-Instruct",
-          "why_notable": "HF likes: 5823; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-          "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "sector_themes": [
-            "llm"
-          ]
-        },
-        {
-          "title": "openai/whisper-large-v3",
-          "why_notable": "HF likes: 5680; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c",
-          "link": "https://huggingface.co/openai/whisper-large-v3",
-          "sector_themes": [
-            "tts-audio"
-          ]
-        },
-        {
-          "title": "bigscience/bloom",
-          "why_notable": "HF likes: 5002; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-          "link": "https://huggingface.co/bigscience/bloom",
-          "sector_themes": [
-            "llm"
-          ]
-        },
-        {
-          "title": "sentence-transformers/all-MiniLM-L6-v2",
-          "why_notable": "HF likes: 4785; Code-generation model trending; directly relevant to AI-assisted development and tool use. High likes indicate strong co",
-          "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
-          "sector_themes": [
-            "code-llm"
-          ]
-        },
-        {
-          "title": "openai/gpt-oss-120b",
-          "why_notable": "HF likes: 4770; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. High like",
-          "link": "https://huggingface.co/openai/gpt-oss-120b",
-          "sector_themes": [
-            "llm"
-          ]
-        }
-      ]
+      "notable_papers": []
     },
     "product_launch": {
       "top_products": [
@@ -888,56 +668,70 @@
           "tagline": "An AI wearable that remembers your conversations all day",
           "votes": 346,
           "url": "https://www.producthunt.com/products/memoket-gem",
-          "why_notable": "AI/Agent product with market traction"
+          "why_notable": "High traction; AI-native"
         },
         {
           "name": "Latitude for Claude Code",
           "tagline": "See where Claude Code burns tokens. Hit your limits less.",
           "votes": 282,
           "url": "https://www.producthunt.com/products/latitude-4",
-          "why_notable": "Notable product launch with votes/interest"
+          "why_notable": "Strong early interest"
         },
         {
           "name": "CraftBot with Living UI",
           "tagline": "Grow your own software that is alive.",
           "votes": 214,
           "url": "https://www.producthunt.com/products/craftbot",
-          "why_notable": "Notable product launch with votes/interest"
+          "why_notable": "Strong early interest"
         },
         {
           "name": "Frontdesk AI",
           "tagline": "AI COO to run your business like a Fortune 500 enterprise",
           "votes": 198,
           "url": "https://www.producthunt.com/products/frontdesk-ai",
-          "why_notable": "AI/Agent product with market traction"
+          "why_notable": "Strong early interest; AI-native"
         },
         {
           "name": "Googlebook",
           "tagline": "A new kind of laptop designed for Gemini Intelligence",
           "votes": 192,
           "url": "https://www.producthunt.com/products/googlebook-2",
-          "why_notable": "Notable product launch with votes/interest"
+          "why_notable": "Strong early interest"
         },
         {
           "name": "Blaze 2.0",
           "tagline": "AI marketer for SMBs complete w/ strategy, content, and ads",
           "votes": 179,
           "url": "https://www.producthunt.com/products/blaze-5",
-          "why_notable": "AI/Agent product with market traction"
+          "why_notable": "Strong early interest; AI-native"
         },
         {
           "name": "Apideck MCP Server",
           "tagline": "Give AI agents access to real-time data across 200+ apps",
           "votes": 148,
           "url": "https://www.producthunt.com/products/apideck",
-          "why_notable": "AI/Agent product with market traction"
+          "why_notable": "Strong early interest; AI-native"
         },
         {
           "name": "Liminary",
           "tagline": "Ground your AI in saved knowledge as you work",
           "votes": 141,
           "url": "https://www.producthunt.com/products/liminary",
-          "why_notable": "AI/Agent product with market traction"
+          "why_notable": "Strong early interest; AI-native"
+        },
+        {
+          "name": "Claudy",
+          "tagline": "A proper home for Claude Code — multi-session, multi-account",
+          "votes": 124,
+          "url": "https://www.producthunt.com/products/claudy",
+          "why_notable": "Strong early interest"
+        },
+        {
+          "name": "SideNotes",
+          "tagline": "Take notes on your screen side",
+          "votes": 115,
+          "url": "https://www.producthunt.com/products/sidenotes-3",
+          "why_notable": "Strong early interest"
         }
       ]
     },
@@ -950,7 +744,7 @@
             "Runway",
             "Hotplate"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Founding Engineer",
@@ -958,7 +752,7 @@
           "example_companies": [
             "Aqua"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Director of Software",
@@ -966,7 +760,7 @@
           "example_companies": [
             "Albedo"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Cloud Engineer (SRE)",
@@ -974,7 +768,7 @@
           "example_companies": [
             "Heroic Labs"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Full Stack Software Engineer",
@@ -982,7 +776,7 @@
           "example_companies": [
             "hotglue"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Full Stack Developer - Bountiful",
@@ -990,7 +784,7 @@
           "example_companies": [
             "Bountiful"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Software Engineer - Backend & Data (Eastern Europe)",
@@ -998,7 +792,7 @@
           "example_companies": [
             "SPATE"
           ],
-          "why_signal": "Emerging role with niche demand"
+          "why_signal": "Emerging role"
         },
         {
           "role": "Senior/Staff Backend Engineer",
@@ -1006,697 +800,262 @@
           "example_companies": [
             "BlueCargo"
           ],
-          "why_signal": "Emerging role with niche demand"
-        }
-      ],
-      "emerging_skills": [
-        {
-          "skill": "full stack",
-          "count": 19,
-          "example_companies": [
-            "Aqua",
-            "hotglue",
-            "Runway"
-          ],
-          "why_signal": "Multiple postings; strong demand signal"
+          "why_signal": "Emerging role"
         },
         {
-          "skill": "AI",
-          "count": 10,
+          "role": "Senior AI Engineer I",
+          "count": 1,
           "example_companies": [
-            "Aqua",
-            "BillionToOne",
+            "BillionToOne"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Senior Software Engineer, Hub Team",
+          "count": 1,
+          "example_companies": [
             "Weekend (fmr. Volley)"
           ],
-          "why_signal": "Multiple postings; strong demand signal"
-        },
-        {
-          "skill": "backend",
-          "count": 4,
-          "example_companies": [
-            "SPATE",
-            "BlueCargo",
-            "GoGoGrandparent"
-          ],
-          "why_signal": "Multiple postings; strong demand signal"
-        },
-        {
-          "skill": "DevOps",
-          "count": 2,
-          "example_companies": [
-            "Heroic Labs",
-            "Substack"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "ai engineer",
-          "count": 2,
-          "example_companies": [
-            "BillionToOne",
-            "Cyble"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "infra",
-          "count": 1,
-          "example_companies": [
-            "Heroic Labs"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "SRE",
-          "count": 1,
-          "example_companies": [
-            "Heroic Labs"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "agent",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "agents",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "AI Agents",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "machine learning",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "ML",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "ml engineer",
-          "count": 1,
-          "example_companies": [
-            "Triomics"
-          ],
-          "why_signal": "Emerging skill with niche demand"
-        },
-        {
-          "skill": "systems engineer",
-          "count": 1,
-          "example_companies": [
-            "Substack"
-          ],
-          "why_signal": "Emerging skill with niche demand"
+          "why_signal": "Emerging role"
         }
       ]
     }
   },
-  "cross_source": {
-    "overlap_candidates": [
-      {
-        "name": "Googlebook",
-        "sources": [
-          "hackernews",
-          "product_hunt"
-        ],
-        "reason": "HN score: 902; ; Product launch with 192 votes; Notable product launch with votes/interest"
-      }
-    ]
-  },
-  "candidates": [
+  "keyword_clusters": [
     {
-      "id": 1,
+      "name": "AI Coding / DevTools",
+      "count": 21,
+      "sample_terms": [
+        "code(5)",
+        "video(4)",
+        "claude code(4)",
+        "hilarious video(3)",
+        "video calling(3)",
+        "claudecode(2)"
+      ]
+    },
+    {
+      "name": "AI Agent Infra",
+      "count": 20,
+      "sample_terms": [
+        "agents(5)",
+        "agents.(3)",
+        "chinese agents.(3)",
+        "agents. turns(3)",
+        "agentmemory(2)",
+        "agentic(2)",
+        "agent(2)"
+      ]
+    },
+    {
+      "name": "Multimodal",
+      "count": 16,
+      "sample_terms": [
+        "video(4)",
+        "text-to-image(4)",
+        "hilarious video(3)",
+        "video calling(3)",
+        "styletts2-ljspeech(2)"
+      ]
+    },
+    {
+      "name": "On-Device AI",
+      "count": 2,
+      "sample_terms": [
+        "on-device(2)"
+      ]
+    },
+    {
+      "name": "MLOps / Infra",
+      "count": 2,
+      "sample_terms": [
+        "text-generation-inference(2)"
+      ]
+    }
+  ],
+  "new_terms": [
+    {
+      "term": "claude code",
+      "count": 4,
+      "sources": [
+        "github",
+        "product_hunt"
+      ],
+      "definition_hint": "Emerging concept around \"claude code\" detected across multiple sources.",
+      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
+    }
+  ],
+  "cross_source_signals": [
+    {
+      "name": "Googlebook",
+      "sources": [
+        "hn",
+        "product_hunt"
+      ],
+      "strength": "moderate",
+      "count": 2,
+      "summary": "Appears in hn, product_hunt; early cross-validation signal. Worth monitoring for momentum."
+    }
+  ],
+  "alpha_candidates": [
+    {
       "name": "deepseek-ai/DeepSeek-R1",
-      "type": "tech",
+      "type": "model",
       "sources": [
-        "huggingface"
+        "hf"
       ],
-      "summary": "Hugging Face model with 13328 likes; Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf",
-      "alpha_thesis": "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. Key to watch: adoption by devtools and autonomous systems teams.",
+      "alpha_thesis": "DeepSeek-R1는 reasoning 모델로서 open-source 생태계에서 가장 영향력 있는 모델 중 하나. 기업과 연구팀이 실제 agent/agent infra 구축에 이 모델을 backbone으로 채택하고 있음. 6-12개월 내 파생 모델과 fine-tune이 폭발적으로 증가할 것으로 예상.",
       "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
         "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "huggingface"
-      ],
       "sector_themes": [
-        "llm",
-        "ai-agents"
+        "AI Coding / DevTools",
+        "MLOps / Infra"
       ]
     },
     {
-      "id": 2,
       "name": "black-forest-labs/FLUX.1-dev",
-      "type": "tech",
+      "type": "model",
       "sources": [
-        "huggingface"
+        "hf"
       ],
-      "summary": "Hugging Face model with 12799 likes; Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V",
-      "alpha_thesis": "Major diffusion model; already influential. Watch for derivatives and fine-tunes that enable new creative or product workflows in the next 12 months.",
+      "alpha_thesis": "FLUX.1-dev는 이미지 생성 모델 중 현재 가장 높은 community likes를 기록 중. Stable Diffusion 이후 가장 의미 있는 open-weight image model. 12개월 내 AI-native 디자인/마케팅 워크플로우의 표준 backbone이 될 가능성이 높음.",
       "risk": [
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
         "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "huggingface"
-      ],
       "sector_themes": [
-        "image-gen"
+        "Multimodal"
       ]
     },
     {
-      "id": 3,
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "SDXL은 이미 production-ready이며 수많은 파생 모델의 base. 단기 alpha는 아니지만, 새로운 fine-tune/adapter 프로젝트가 이 모델을 기반으로 나올 때마다 watch할 필요가 있음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "CompVis/stable-diffusion-v1-4",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Multimodal 모델로서, AI-native UX(voice, vision, video)의 backbone이 될 수 있음. Latency와 cost가 개선되면, 실제 production agent에 채택될 가능성이 높음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
       "name": "tinyhumansai/openhuman",
       "type": "project",
       "sources": [
         "github"
       ],
-      "summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful. — 3476 stars today; ",
-      "alpha_thesis": "Early-stage project with strong momentum on github. If execution holds, it can shape its niche within 12–24 months—watch for ecosystem integrations.",
+      "alpha_thesis": "openhuman은 'personal AI super intelligence'를 목표로 하는 프로젝트. Rust 기반으로 privacy-first 접근. 개인 AI agent가 on-device에서 실행되는 시나리오에서 중요한 후보. 12-24개월 내 개인 agent 생태계에서 주목할 프로젝트.",
       "risk": [
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Single-team dependency; delays or missteps can stall adoption."
-      ],
-      "cross_source_links": [
-        "github_trending"
+        "Single-source signal; needs cross-validation to confirm real momentum."
       ],
       "sector_themes": []
     },
     {
-      "id": 4,
-      "name": "stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "tech",
+      "name": "meta-llama/Meta-Llama-3-8B",
+      "type": "model",
       "sources": [
-        "huggingface"
+        "hf"
       ],
-      "summary": "Hugging Face model with 7708 likes; Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V",
-      "alpha_thesis": "Major diffusion model; already influential. Watch for derivatives and fine-tunes that enable new creative or product workflows in the next 12 months.",
+      "alpha_thesis": "Meta-Llama-3-8B는 open-source LLM 중 가장 널리 쓰이는 backbone 중 하나. Agent infra, RAG, fine-tuning ecosystem이 이 모델 주위에 집중되어 있음. 단기 alpha는 아니지만, 파생 프로젝트 watch의 기준점.",
       "risk": [
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
         "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "huggingface"
-      ],
       "sector_themes": [
-        "image-gen"
+        "MLOps / Infra"
       ]
     },
     {
-      "id": 5,
-      "name": "CompVis/stable-diffusion-v1-4",
-      "type": "tech",
+      "name": "hexgrad/Kokoro-82M",
+      "type": "model",
       "sources": [
-        "huggingface"
+        "hf"
       ],
-      "summary": "Hugging Face model with 7008 likes; Very high likes; likely a major model or breakthrough; Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. V",
-      "alpha_thesis": "Major diffusion model; already influential. Watch for derivatives and fine-tunes that enable new creative or product workflows in the next 12 months.",
+      "alpha_thesis": "Kokoro는 lightweight TTS 모델로, on-device voice agent의 실현 가능성을 높이는 모델. 82M 파라미터로 실시간 추론이 가능하여, edge AI + voice agent 시나리오에서 중요한 변수.",
       "risk": [
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
         "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "huggingface"
-      ],
       "sector_themes": [
-        "image-gen"
+        "Multimodal"
       ]
     },
     {
-      "id": 6,
-      "name": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "type": "project",
-      "sources": [
-        "hackernews"
-      ],
-      "summary": "Show HN project with 639 upvotes and 183 comments; ",
-      "alpha_thesis": "Early-stage project with strong momentum on hackernews. If execution holds, it can shape its niche within 12–24 months—watch for ecosystem integrations.",
-      "risk": [
-        "Single-team dependency; delays or missteps can stall adoption."
-      ],
-      "cross_source_links": [
-        "hackernews"
-      ],
-      "sector_themes": []
-    },
-    {
-      "id": 7,
       "name": "mattpocock/skills",
       "type": "project",
       "sources": [
         "github"
       ],
-      "summary": "Skills for Real Engineers. Straight from my .claude directory. — 2971 stars today; ",
-      "alpha_thesis": "Early-stage project with strong momentum on github. If execution holds, it can shape its niche within 12–24 months—watch for ecosystem integrations.",
+      "alpha_thesis": "skills는 agentic skills/framework 관련 프로젝트. AI agent가 외부 tool과 연동되는 방식에서 중요한 변수. MCP(Model Context Protocol)나 agent tooling 생태계와 직결.",
       "risk": [
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Single-team dependency; delays or missteps can stall adoption."
-      ],
-      "cross_source_links": [
-        "github_trending"
+        "Single-source signal; needs cross-validation to confirm real momentum."
       ],
       "sector_themes": []
     },
     {
-      "id": 8,
-      "name": "meta-llama/Meta-Llama-3-8B",
-      "type": "tech",
-      "sources": [
-        "huggingface"
-      ],
-      "summary": "Hugging Face model with 6531 likes; Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf",
-      "alpha_thesis": "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. Key to watch: adoption by devtools and autonomous systems teams.",
-      "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Research-to-production gap; may not scale outside controlled environments."
-      ],
-      "cross_source_links": [
-        "huggingface"
-      ],
-      "sector_themes": [
-        "llm",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "hexgrad/Kokoro-82M",
-      "type": "tech",
-      "sources": [
-        "huggingface"
-      ],
-      "summary": "Hugging Face model with 6142 likes; Very high likes; likely a major model or breakthrough; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes in",
-      "alpha_thesis": "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. Key to watch: adoption by devtools and autonomous systems teams.",
-      "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Research-to-production gap; may not scale outside controlled environments."
-      ],
-      "cross_source_links": [
-        "huggingface"
-      ],
-      "sector_themes": [
-        "tts-audio",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "meta-llama/Llama-3.1-8B-Instruct",
-      "type": "tech",
-      "sources": [
-        "huggingface"
-      ],
-      "summary": "Hugging Face model with 5823 likes; Very high likes; likely a major model or breakthrough; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workf",
-      "alpha_thesis": "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. Key to watch: adoption by devtools and autonomous systems teams.",
-      "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Research-to-production gap; may not scale outside controlled environments."
-      ],
-      "cross_source_links": [
-        "huggingface"
-      ],
-      "sector_themes": [
-        "llm",
-        "ai-agents"
-      ]
-    },
-    {
-      "id": 11,
       "name": "openai/whisper-large-v3",
-      "type": "tech",
+      "type": "model",
       "sources": [
-        "huggingface"
+        "hf"
       ],
-      "summary": "Hugging Face model with 5680 likes; Very high likes; likely a major model or breakthrough; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes in",
-      "alpha_thesis": "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. Key to watch: adoption by devtools and autonomous systems teams.",
+      "alpha_thesis": "Whisper-large-v3는 speech-to-text의 de facto 표준. AI voice agent, real-time transcription, accessibility tooling 등 다양한 영역에서 backbone으로 사용 중. 12-24개월 내 voice-first AI UX의 핵심 인프라.",
       "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
         "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "huggingface"
-      ],
       "sector_themes": [
-        "tts-audio",
-        "ai-agents"
+        "Multimodal"
       ]
     },
     {
-      "id": 12,
-      "name": "rohitg00/agentmemory",
-      "type": "project",
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "type": "model",
       "sources": [
-        "github"
+        "hf"
       ],
-      "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks — 1978 stars today; ",
-      "alpha_thesis": "Early traction on github. If adoption continues, this can become key infra for autonomous workflows within 6–18 months, especially for devtools, ops, and agentic apps.",
+      "alpha_thesis": "Llama-3.1-8B-Instruct는 instruction-tuned variant로, agent tool-calling과 RAG 파이프라인에서 널리 사용 중. 실제 production agent의 backbone으로서 영향력이 큼.",
       "risk": [
-        "AI agent hype cycle; many similar tools competing.",
-        "Regulatory risk around AI safety and data privacy may constrain use cases.",
-        "Single-team dependency; delays or missteps can stall adoption."
+        "Research-to-production gap; may not scale outside controlled environments."
       ],
-      "cross_source_links": [
-        "github_trending"
-      ],
-      "sector_themes": [
-        "ai-agents"
-      ]
+      "sector_themes": []
     }
   ],
   "sector_themes": [
-    "claude",
-    "llm",
-    "skills",
-    "image-gen",
-    "agents",
-    "ai",
-    "claudecode",
-    "copilot",
-    "development",
-    "hacktoberfest"
+    {
+      "name": "AI Coding / DevTools",
+      "count": 21,
+      "sources": 2,
+      "outlook": "AI-native devtools will reshape how 80% of code is written within 3 years. Early movers have a distribution moat."
+    },
+    {
+      "name": "AI Agent Infra",
+      "count": 20,
+      "sources": 2,
+      "outlook": "Agent infra is transitioning from demos to production; expect consolidation around 3-5 key frameworks by 2027."
+    },
+    {
+      "name": "Multimodal",
+      "count": 16,
+      "sources": 2,
+      "outlook": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product."
+    }
   ],
   "contrarian_notes": [
-    "AI agent narrative is overheated; many projects claim 'agentic' without real autonomy or distribution advantage."
-  ],
-  "new_concepts": [
-    {
-      "name": "ai coding agent",
-      "description": "1 mentions across 1 source(s).",
-      "sources": [
-        "GitHub"
-      ],
-      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
-    },
-    {
-      "name": "agentic skills",
-      "description": "1 mentions across 1 source(s).",
-      "sources": [
-        "GitHub"
-      ],
-      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
-    },
-    {
-      "name": "spec-driven",
-      "description": "1 mentions across 1 source(s).",
-      "sources": [
-        "GitHub"
-      ],
-      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
-    },
-    {
-      "name": "spec-driven development",
-      "description": "1 mentions across 1 source(s).",
-      "sources": [
-        "GitHub"
-      ],
-      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
-    }
-  ],
-  "notable_papers": [
-    {
-      "title": "deepseek-ai/DeepSeek-R1",
-      "why_notable": "HF likes: 13328; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-      "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-      "sector_themes": [
-        "llm"
-      ]
-    },
-    {
-      "title": "meta-llama/Meta-Llama-3-8B",
-      "why_notable": "HF likes: 6531; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-      "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "sector_themes": [
-        "llm"
-      ]
-    },
-    {
-      "title": "meta-llama/Llama-3.1-8B-Instruct",
-      "why_notable": "HF likes: 5823; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-      "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "sector_themes": [
-        "llm"
-      ]
-    },
-    {
-      "title": "openai/whisper-large-v3",
-      "why_notable": "HF likes: 5680; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c",
-      "link": "https://huggingface.co/openai/whisper-large-v3",
-      "sector_themes": [
-        "tts-audio"
-      ]
-    },
-    {
-      "title": "bigscience/bloom",
-      "why_notable": "HF likes: 5002; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
-      "link": "https://huggingface.co/bigscience/bloom",
-      "sector_themes": [
-        "llm"
-      ]
-    },
-    {
-      "title": "sentence-transformers/all-MiniLM-L6-v2",
-      "why_notable": "HF likes: 4785; Code-generation model trending; directly relevant to AI-assisted development and tool use. High likes indicate strong co",
-      "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
-      "sector_themes": [
-        "code-llm"
-      ]
-    },
-    {
-      "title": "openai/gpt-oss-120b",
-      "why_notable": "HF likes: 4770; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. High like",
-      "link": "https://huggingface.co/openai/gpt-oss-120b",
-      "sector_themes": [
-        "llm"
-      ]
-    }
-  ],
-  "emerging_skills": [
-    {
-      "skill": "full stack",
-      "count": 19,
-      "example_companies": [
-        "Aqua",
-        "hotglue",
-        "Runway"
-      ],
-      "why_signal": "Multiple postings; strong demand signal"
-    },
-    {
-      "skill": "AI",
-      "count": 10,
-      "example_companies": [
-        "Aqua",
-        "BillionToOne",
-        "Weekend (fmr. Volley)"
-      ],
-      "why_signal": "Multiple postings; strong demand signal"
-    },
-    {
-      "skill": "backend",
-      "count": 4,
-      "example_companies": [
-        "SPATE",
-        "BlueCargo",
-        "GoGoGrandparent"
-      ],
-      "why_signal": "Multiple postings; strong demand signal"
-    },
-    {
-      "skill": "DevOps",
-      "count": 2,
-      "example_companies": [
-        "Heroic Labs",
-        "Substack"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "ai engineer",
-      "count": 2,
-      "example_companies": [
-        "BillionToOne",
-        "Cyble"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "infra",
-      "count": 1,
-      "example_companies": [
-        "Heroic Labs"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "SRE",
-      "count": 1,
-      "example_companies": [
-        "Heroic Labs"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "agent",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "agents",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "AI Agents",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "machine learning",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "ML",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "ml engineer",
-      "count": 1,
-      "example_companies": [
-        "Triomics"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    },
-    {
-      "skill": "systems engineer",
-      "count": 1,
-      "example_companies": [
-        "Substack"
-      ],
-      "why_signal": "Emerging skill with niche demand"
-    }
-  ],
-  "alpha_products": [
-    {
-      "name": "Memoket Gem",
-      "what_it_does": "An AI wearable that remembers your conversations all day",
-      "why_interesting": "Product Hunt votes: 346; High traction; AI-native",
-      "cross_source": null
-    },
-    {
-      "name": "Latitude for Claude Code",
-      "what_it_does": "See where Claude Code burns tokens. Hit your limits less.",
-      "why_interesting": "Product Hunt votes: 282; Strong early interest",
-      "cross_source": null
-    },
-    {
-      "name": "CraftBot with Living UI",
-      "what_it_does": "Grow your own software that is alive.",
-      "why_interesting": "Product Hunt votes: 214; Strong early interest",
-      "cross_source": null
-    },
-    {
-      "name": "Frontdesk AI",
-      "what_it_does": "AI COO to run your business like a Fortune 500 enterprise",
-      "why_interesting": "Product Hunt votes: 198; Strong early interest; AI-native",
-      "cross_source": null
-    },
-    {
-      "name": "Googlebook",
-      "what_it_does": "A new kind of laptop designed for Gemini Intelligence",
-      "why_interesting": "Product Hunt votes: 192; Strong early interest",
-      "cross_source": null
-    },
-    {
-      "name": "Blaze 2.0",
-      "what_it_does": "AI marketer for SMBs complete w/ strategy, content, and ads",
-      "why_interesting": "Product Hunt votes: 179; Strong early interest; AI-native",
-      "cross_source": null
-    },
-    {
-      "name": "Apideck MCP Server",
-      "what_it_does": "Give AI agents access to real-time data across 200+ apps",
-      "why_interesting": "Product Hunt votes: 148; Strong early interest; AI-native",
-      "cross_source": null
-    },
-    {
-      "name": "Liminary",
-      "what_it_does": "Ground your AI in saved knowledge as you work",
-      "why_interesting": "Product Hunt votes: 141; Strong early interest; AI-native",
-      "cross_source": null
-    }
-  ],
-  "crypto_ticker_signals": [
-    {
-      "project": "Claude helps man recover $400,000 in BTC 11 years after he g",
-      "signal_type": "reddit_discussion",
-      "why_watch": "Reddit score: 13421; Claude helps man recover $400,000 in BTC 11 years after he got high and forgot p"
-    },
-    {
-      "project": "AI helps man recover $400,000 in Bitcoin 11 years after he g",
-      "signal_type": "reddit_discussion",
-      "why_watch": "Reddit score: 1652; AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot p"
-    },
-    {
-      "project": "It's official! Pro crypto Kevin Warsh will take the chair of",
-      "signal_type": "reddit_discussion",
-      "why_watch": "Reddit score: 636; It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve"
-    },
-    {
-      "project": "Nasdaq % price increase is 3x Bitcoin increase over the last",
-      "signal_type": "reddit_discussion",
-      "why_watch": "Reddit score: 312; Nasdaq % price increase is 3x Bitcoin increase over the last 5 years."
-    }
-  ],
-  "patent_like_signals": [
-    {
-      "concept": "World’s first brain-computer interface (BCI) technology targ",
-      "where_seen": "Reddit",
-      "why_important": "Reddit score: 461; World’s first brain-computer interface (BCI) technology targets high-level brain"
-    }
+    "AI Agent hype vs reality: Most 'agentic' projects are glorified chatbots with tool calling. True autonomy (multi-step, self-correcting, distributed) is rare. Investors should stress-test every agent claim.",
+    "AI coding tools: Everyone claims '10x developer' but most are autocomplete on steroids. The real alpha is in team-level workflows, not individual speedups."
   ]
 }
