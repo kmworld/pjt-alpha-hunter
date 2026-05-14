@@ -241,9 +241,9 @@ Constraints:
 
 ---
 
-## Phase 3: Alpha Daily Report Redesign (Implementation)
+## Phase 3: Alpha Daily Report Redesign (Completed 2026-05-14)
 
-- [ ] Update `alpha_daily_report.mjs` to:
+- [x] Update `alpha_daily_report.mjs` to:
   - Use new skeleton (Phase 2).
   - Generate:
     - Sector Themes
@@ -252,10 +252,17 @@ Constraints:
     - Near-Term vs Long-Term
     - Watchlist
   - Use enriched fields from Phase 1 and Phase 2.
-- [ ] Ensure:
+- [x] Ensure:
   - Output is Korean.
   - Tone is analyst-grade, not a news digest.
   - No boilerplate phrases.
+- [x] Add:
+  - Keyword/theme extraction across all sources (GitHub, HN, Reddit, HF, ArXiv, ProductHunt, Jobs)
+  - Theme frequency and multi-source interpretation
+  - 6–24 month sector implications derived from themes
+  - Alpha candidates with concrete descriptions (not generic reasons)
+  - Risk & contrarian view
+  - Data quality note for transparency
 
 ---
 

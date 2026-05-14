@@ -1,6 +1,6 @@
 // scripts/alpha_daily_report.mjs
-// Reads data/alpha_deep_context_<YYYY-MM-DD>.json and generates a
-// deep-analysis Markdown daily report into reports/daily/YYYY-MM-DD.md.
+// Reads data/alpha_deep_context_<YYYY-MM-DD>.json and generates an
+// analyst-grade, insight-driven daily report into reports/daily/YYYY-MM-DD.md.
 // Node 22+ built-in only. No npm installs.
 
 import fs from "fs";
@@ -28,172 +28,352 @@ function safeReadJSON(filePath) {
   }
 }
 
-// ===== Helper: collectThemeSignals =====
+// ===== Theme dictionary =====
+const THEME_PATTERNS = {
+  "AI Agent Infra": {
+    keywords: ["agent", "agentic", "multi-agent", "agent memory", "agent tool"],
+    interpretation:
+      "Agent 기반 자동화가 실제 워크플로우에 침투하며 관련 인프라(메모리, 툴콜, MCP)가 핵심 레이어로 부상 중. 단순 hype가 아닌 생태계 성숙 신호.",
+  },
+  "LLM / Reasoning": {
+    keywords: ["llm", "reasoning", "large language model", "grpo", "rlhf", "post-training"],
+    interpretation:
+      "LLM 훈련/파인튜닝/RL 방법이 빠르게 진화 중. 6–24개월 내 도메인 특화 모델과 agent 스택의 성능 격차가 핵심 경쟁 변수.",
+  },
+  "Multimodal / Vision": {
+    keywords: ["multimodal", "vision", "image-gen", "video", "diffusion", "umms"],
+    interpretation:
+      "멀티모달/비전 모델이 제품화 속도를 높이며, 생성형 AI가 텍스트→시각/영상으로 확장 중. 크리에이티브/마케팅/교육에서 구조적 변화 가능성.",
+  },
+  "On-Device / Edge AI": {
+    keywords: ["on-device", "edge ai", "quantize", "gguf", "llama.cpp", "onnx"],
+    interpretation:
+      "로컬 추론 인프라 성숙으로 프라이버시/지연시간 문제 해결. 디바이스 생태계와 AI 통합이 12–24개월 핵심 성장 동력.",
+  },
+  "AI Coding / DevTools": {
+    keywords: ["code", "coding", "devtool", "ide", "react", "lint"],
+    interpretation:
+      "AI 기반 개발 도구 Adoption이 가속되며, 개발 프로세스와 교육 패러다임이 재설계될 가능성. 실제 생산성 영향에 대한 검증이 진행 중.",
+  },
+  "Crypto / ZK Infra": {
+    keywords: ["crypto", "blockchain", "zk", "defi", "token", "tokenized"],
+    interpretation:
+      "ZK/Privacy 및 토큰화 인프라가 규제/UX 개선 시 기존 금융·인증 시스템과 경쟁 가능. 불확실성은 높으나 분기점 단계.",
+  },
+  "AI Infra & MLOps": {
+    keywords: ["infra", "mlops", "training", "gpu", "datacenter", "inference", "scaling"],
+    interpretation:
+      "AI 서비스의 신뢰성/확장성 레이어. 수요는 구조적으로 증가 중이며, 효율성/비용 최적화 기술이 핵심.",
+  },
+  "Security / Privacy": {
+    keywords: ["security", "privacy", "stealth", "bot detection", "proctoring", "cyber"],
+    interpretation:
+      "AI 확산에 따른 보안/프라이버시/Deepfake/사기 이슈가 규제·기술적 대응을 촉발. 상시 리스크이자 새로운 시장.",
+  },
+  "Physical AI / Robotics": {
+    keywords: ["robotics", "physical ai", "embodied", "hardware", "wearable"],
+    interpretation:
+      "AI가 물리적 세계(로봇, 웨어러블, 자동화)와 연결되며 새로운 하드웨어+AI 융합 시장이 열릴 가능성.",
+  },
+  "AI Policy / Society": {
+    keywords: ["regulation", "policy", "pessimist", "too fast", "dividend", "sovereign"],
+    interpretation:
+      "AI 속도/영향력에 대한 사회적 논의가 심화되며, 규제와 윤리 프레임워크가 기술 발전 속도를 좌우할 가능성.",
+  },
+};
 
-function collectThemeSignals(ctx) {
-  const themeMap = {};
+// ===== Normalize text =====
+function toLower(s) {
+  return (s || "").toLowerCase();
+}
 
-  function add(theme, evidence) {
-    if (!themeMap[theme]) themeMap[theme] = { evidence: [], evidenceCount: 0 };
-    themeMap[theme].evidence.push(evidence);
-    themeMap[theme].evidenceCount++;
+// ===== Extract themes from all signals =====
+function extractThemesFromSignals(ctx) {
+  const sig = ctx.signals || {};
+  const themeCounts = {};   // theme -> {sources: Set, count, examples: []}
+
+  function add(theme, source, example) {
+    if (!themeCounts[theme]) {
+      themeCounts[theme] = { sources: new Set(), count: 0, examples: [] };
+    }
+    themeCounts[theme].count++;
+    themeCounts[theme].sources.add(source);
+    if (themeCounts[theme].examples.length < 4) {
+      themeCounts[theme].examples.push(example);
+    }
   }
 
-  const github = ctx.signals?.github?.topByStarsToday || [];
-  const research = ctx.signals?.research_ml || {};
-  const jobs = ctx.signals?.jobs || {};
-  const product = ctx.signals?.product_launch?.top_products || [];
-
-  for (const r of github) {
-    const text = `${r.repo} ${r.description || ""} ${(r.topics || []).join(" ")} ${r.why_notable || ""}`.toLowerCase();
-    if (/\b(agent|agentic|multi-agent)\b/.test(text)) add("AI Agent Infra", `GitHub: ${r.repo} — ${r.why_notable || "star velocity"}`);
-    if (/\b(on-device|edge ai|quantize|gguf|llama.cpp)\b/.test(text)) add("On-Device / Edge AI", `GitHub: ${r.repo} — on-device/edge AI 관련.`);
-    if (/\b(crypto|blockchain|zk|defi)\b/.test(text)) add("Crypto / ZK Infra", `GitHub: ${r.repo} — crypto/ZK 관련.`);
+  // GitHub
+  const github = sig.github || {};
+  for (const r of github.topByStarsToday || []) {
+    const text = toLower(
+      `${r.repo} ${r.description || ""} ${(r.topics || []).join(" ")} ${r.why_notable || ""}`
+    );
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "GitHub", `${r.repo}`);
+      }
+    }
   }
 
+  // HackerNews
+  const hn = sig.hackernews || {};
+  for (const h of hn.topByEngagement || []) {
+    const text = toLower(`${h.title} ${h.signal_reason || ""}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "HN", h.title.split(" ").slice(0, 8).join(" "));
+      }
+    }
+  }
+
+  // Reddit
+  const reddit = sig.reddit || {};
+  for (const t of reddit.hot_topics || []) {
+    const text = toLower(`${t.topic} ${(t.sample_titles || []).join(" ")}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "Reddit", t.topic);
+      }
+    }
+  }
+
+  // Research ML
+  const research = sig.research_ml || {};
   for (const m of research.trending_models || []) {
-    const text = `${m.id} ${(m.tags || []).join(" ")} ${m.why_notable || ""}`.toLowerCase();
-    if (/\b(llm|reasoning|multimodal)\b/.test(text)) add("LLM / Multimodal", `HF: ${m.id} — likes ${m.likes || "?"}`);
-    if (/\b(agent|agentic)\b/.test(text)) add("AI Agent Infra", `HF: ${m.id} — agent 관련.`);
+    const text = toLower(`${m.id} ${(m.tags || []).join(" ")} ${m.why_notable || ""}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "HF", m.id);
+      }
+    }
+  }
+  for (const p of research.notable_papers || []) {
+    const text = toLower(`${p.title} ${p.abstract_short || ""}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "ArXiv", p.title.split(" ").slice(0, 6).join(" "));
+      }
+    }
   }
 
+  // Product Launch
+  const product = sig.product_launch || {};
+  for (const p of product.top_products || []) {
+    const text = toLower(`${p.name} ${p.tagline || ""} ${p.why_notable || ""}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "ProductHunt", p.name);
+      }
+    }
+  }
+
+  // Jobs
+  const jobs = sig.jobs || {};
   for (const r of jobs.emerging_roles || []) {
-    const t = (r.role || "").toLowerCase();
-    if (/\b(agent|agentic)\b/.test(t)) add("AI Agent Infra", `Job: ${r.role} — ${r.why_signal || "demand signal"}`);
-    if (/\b(ml|mlops|infra)\b/.test(t)) add("AI Infra & MLOps", `Job: ${r.role} — AI infra/MLOps 수요.`);
+    const text = toLower(`${r.role} ${r.why_signal || ""}`);
+    for (const [theme, cfg] of Object.entries(THEME_PATTERNS)) {
+      if (cfg.keywords.some(k => text.includes(k))) {
+        add(theme, "Jobs", `${r.role}`);
+      }
+    }
   }
 
-  for (const p of product) {
-    const t = `${p.name} ${p.tagline || ""}`.toLowerCase();
-    if (/\b(agent|agentic|assistant)\b/.test(t)) add("AI Agent Infra", `Product: ${p.name} — AI agent/assistant 제품.`);
-    if (/\b(ai|llm|model)\b/.test(t)) add("AI Infra & MLOps", `Product: ${p.name} — AI 관련 제품.`);
-  }
-
-  const outlooks = {
-    "AI Agent Infra": "Agent 기반 자동화가 실제 워크플로우에 침투하면 관련 인프라가 핵심 레이어가 될 것임.",
-    "On-Device / Edge AI": "로컬 AI 실행이 보편화되면 프라이버시/지연 시간 문제를 해결하고 새로운 디바이스 생태계를 만들어냄.",
-    "LLM / Multimodal": "LLM과 멀티모달 모델이 계속 발전하면 AI 기반 제품/서비스의 진입 장벽이 낮아지고 경쟁 심화.",
-    "Crypto / ZK Infra": "규제와 UX가 개선될 경우 ZK 기반 인증/프라이버시/결제 인프라가 기존 시스템과 경쟁 가능.",
-    "AI Infra & MLOps": "AI 서비스의 신뢰성과 확장성을 담당하는 레이어로, 수요가 지속적으로 증가할 구조.",
-  };
-
-  const result = [];
-  for (const [theme, v] of Object.entries(themeMap)) {
-    result.push({
+  // Convert sets to counts
+  const themes = [];
+  for (const [theme, v] of Object.entries(themeCounts)) {
+    themes.push({
       theme,
-      evidence: v.evidence,
-      evidenceCount: v.evidenceCount,
-      outlook: outlooks[theme] || "중기적으로 해당 영역의 경쟁과 기술 성숙이 가속화될 가능성.",
+      count: v.count,
+      sourceCount: v.sources.size,
+      sources: [...v.sources],
+      examples: v.examples,
     });
   }
-  return result.sort((a, b) => b.evidenceCount - a.evidenceCount);
+  return themes.sort((a, b) => b.count - a.count || b.sourceCount - a.sourceCount);
 }
 
-// ===== Helper: buildAlphaHypotheses =====
+// ===== Build theme interpretations =====
+function buildThemeInterpretations(themes) {
+  return themes.map(t => {
+    const base = THEME_PATTERNS[t.theme]?.interpretation;
+    if (!base) return { ...t, interpretation: "다수 신호가 집중된 영역. 중기적으로 경쟁과 기술 성숙이 가속화될 가능성." };
 
-function buildAlphaHypotheses(candidates, sector_themes) {
-  const hyps = [];
-  const allThemes = new Set();
-  for (const c of candidates) {
-    for (const t of c.sector_themes || []) allThemes.add(t);
-  }
-  for (const t of sector_themes) allThemes.add(t);
+    const sourceSignal = t.sourceCount >= 3
+      ? `GitHub, HN, Reddit 등 여러 소스에서 동시 포착 → 단순 노이즈가 아닌 구조적 관심.`
+      : `신호 집중도가 높아 관련 생태계의 성숙 또는 전환 가능성을 시사.`;
 
-  if (allThemes.has("ai-agents") || allThemes.has("llm")) {
-    hyps.push({
-      statement: "2027년까지 AI Agent Infra가 주요 소프트웨어 스택의 핵심 레이어로 부상.",
-      rationale: "GitHub/HN/Job Signals에서 Agent/LLM/infra 관련 신호가 일관되게 강세.",
-      confidence: "High",
-    });
-  }
-  if (allThemes.has("on-device-ai") || allThemes.has("infra")) {
-    hyps.push({
-      statement: "On-Device AI/Edge AI 관련 오픈소스 스택이 12–24개월 내 성숙되며 새로운 디바이스/서비스 생태계를 주도.",
-      rationale: "GGUF/llama.cpp/edge AI 관련 프로젝트와 채용 신호가 증가.",
-      confidence: "Medium",
-    });
-  }
-  if (allThemes.has("crypto-infra") || allThemes.has("zk")) {
-    hyps.push({
-      statement: "ZK/Privacy Infra가 규제 환경에 따라 빠르게 성장하거나 정체되는 분기점 도달.",
-      rationale: "Crypto/ZK 관련 프로젝트와 논의가 재등장 중이나 규제 불확실성 존재.",
-      confidence: "Low",
-    });
-  }
-  return hyps.slice(0, 4);
+    return {
+      ...t,
+      interpretation: `${base} ${sourceSignal}`,
+    };
+  });
 }
 
-// ===== Helper: buildWatchItems =====
+// ===== Build sector implications (6–24 months) =====
+function buildSectorImplications(themes) {
+  const bullets = [];
+  const themeSet = new Set(themes.map(t => t.theme));
 
-function buildWatchItems(candidates, github, hn, product) {
-  const items = [];
+  if (themeSet.has("AI Agent Infra")) {
+    bullets.push(
+      "AI Agent Infra: Agent 기반 자동화가 실제 업무/개발 워크플로우에 침투하며, 관련 프레임워크·메모리·MCP 레이어가 핵심 소프트웨어 스택으로 자리 잡을 가능성."
+    );
+  }
+  if (themeSet.has("LLM / Reasoning") || themeSet.has("Multimodal / Vision")) {
+    bullets.push(
+      "LLM/멀티모달: 모델 성능 격차와 RL/Post-Training 기법 발전이 가속되며, 도메인 특화 모델과 에이전트 스택에서 경쟁이 심화될 것."
+    );
+  }
+  if (themeSet.has("On-Device / Edge AI")) {
+    bullets.push(
+      "On-Device/Edge AI: 로컬 추론 인프라 성숙으로 프라이버시·지연시간 장벽이 낮아지며, 디바이스·웨어러블·모바일 AI 생태계가 빠르게 성장할 수 있음."
+    );
+  }
+  if (themeSet.has("AI Infra & MLOps")) {
+    bullets.push(
+      "AI Infra/MLOps: GPU/인프라/비용 최적화 기술과 신뢰성 레이어가 구조적 수요를 유지하며, 'AI의 숨은 레이어'로 장기 성장."
+    );
+  }
+  if (themeSet.has("Crypto / ZK Infra")) {
+    bullets.push(
+      "Crypto/ZK: 규제·UX 개선 시 ZK 기반 인증/프라이버시/토큰화 인프라가 기존 시스템과 경쟁 가능하나, 불확실성으로 분기점 단계."
+    );
+  }
+  if (themeSet.has("AI Policy / Society")) {
+    bullets.push(
+      "AI Policy/Society: AI 확산 속도에 대한 사회적 우려가 규제·윤리 프레임워크로 이어지며, 일부 영역에서는 기술 발전 속도를 늦출 수 있음."
+    );
+  }
+  if (themeSet.has("Physical AI / Robotics")) {
+    bullets.push(
+      "Physical AI/Robotics: AI와 로봇/웨어러블의 결합이 가속되며, 실세계 자동화와 새로운 하드웨어 시장이 열릴 가능성."
+    );
+  }
+  if (bullets.length === 0) {
+    bullets.push(
+      "오늘 신호만으로는 특정 섹터의 중장기 방향성을 단정하기 어렵지만, AI Agent/Infra 관련 흐름은 상시 주시 대상."
+    );
+  }
+  return bullets;
+}
+
+// ===== Build alpha candidates =====
+function buildAlphaCandidates(ctx) {
+  const sig = ctx.signals || {};
+  const candidates = [];
   const seen = new Set();
 
-  for (const c of candidates) {
-    if (seen.has(c.name)) continue;
-    seen.add(c.name);
-    items.push({
-      name: c.name,
-      reason: (c.alpha_thesis || "").slice(0, 180),
-      cross: c.cross_source_links?.length ? c.cross_source_links.join(", ") : null,
-    });
-  }
-
-  for (const r of (github.topByStarsToday || [])) {
-    const name = r.repo;
-    if (seen.has(name)) continue;
+  // From GitHub
+  for (const r of (sig.github?.topByStarsToday || [])) {
+    if (seen.has(r.repo)) continue;
     if ((r.recent_stars || 0) < 300) continue;
-    seen.add(name);
-    items.push({
-      name,
-      reason: (r.why_notable || "star velocity").slice(0, 120),
-      cross: null,
+    seen.add(r.repo);
+    const why = (r.description || "")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 120);
+    candidates.push({
+      name: r.repo,
+      whyWatch: why || (r.why_notable || "star velocity"),
+      crossCheck: null,
     });
   }
 
-  for (const p of (product.top_products || [])) {
+  // From ProductHunt
+  for (const p of (sig.product_launch?.top_products || [])) {
     if (seen.has(p.name)) continue;
-    if ((p.votes || 0) < 50) continue;
+    if ((p.votes || 0) < 100) continue;
     seen.add(p.name);
-    items.push({
+    candidates.push({
       name: p.name,
-      reason: (p.why_notable || "early traction").slice(0, 120),
-      cross: null,
+      whyWatch: (p.tagline || p.why_notable || "early traction").slice(0, 140),
+      crossCheck: null,
     });
   }
 
-  return items.slice(0, 10);
+  // From cross_source overlap (if present)
+  const cross = ctx.cross_source || {};
+  for (const o of (cross.overlap_candidates || [])) {
+    if (seen.has(o.name)) continue;
+    seen.add(o.name);
+    candidates.push({
+      name: o.name,
+      whyWatch: (o.reason || "multi-source signal").slice(0, 140),
+      crossCheck: o.sources?.join(", ") || null,
+    });
+  }
+
+  return candidates.slice(0, 10);
 }
 
-// ===== Helper: buildWatchlist =====
+// ===== Build risk bullets =====
+function buildRiskBullets(ctx, themes) {
+  const bullets = [];
+  const themeSet = new Set(themes.map(t => t.theme));
+  const contrarian = ctx.contrarian_notes || [];
 
-function buildWatchlist(candidates, github, product) {
-  const wl = [];
-  const seen = new Set();
-
-  for (const c of candidates) {
-    if (seen.has(c.name)) continue;
-    seen.add(c.name);
-    wl.push({
-      name: c.name,
-      reason: (c.alpha_thesis || "alpha candidate").slice(0, 120),
-    });
+  // Use existing contrarian notes first
+  for (const c of contrarian) {
+    if (c) bullets.push(c);
   }
 
-  for (const r of (github.topByStarsToday || [])) {
-    const name = r.repo;
-    if (seen.has(name)) continue;
-    if ((r.recent_stars || 0) < 500) continue;
-    seen.add(name);
-    wl.push({
-      name,
-      reason: (r.why_notable || "star velocity").slice(0, 100),
-    });
+  // Data-driven risks
+  if (themeSet.has("AI Agent Infra") || themeSet.has("LLM / Reasoning")) {
+    bullets.push(
+      "AI Agent/LLM 관련 과열: 급격한 Adoption과 과장된 기대가 공존. 실제 ROI가 입증되지 않은 영역에서 버블 위험 상시 존재."
+    );
+  }
+  if (themeSet.has("Crypto / ZK Infra")) {
+    bullets.push(
+      "Crypto/ZK: 규제 불확실성과 기술 성숙도 문제로, 단기 성장보다 장기 불확실성이 더 큼."
+    );
+  }
+  if (themeSet.has("AI Policy / Society")) {
+    bullets.push(
+      "AI 규제/정책: 사회적 우려가 실제 규제/제한으로 이어질 경우 일부 영역의 성장 속도가 둔화될 수 있음."
+    );
+  }
+  if (themeSet.has("AI Infra & MLOps")) {
+    bullets.push(
+      "AI Infra 과부하: 데이터센터/전력/물리적 리소스 제약이 AI 확장 속도를 제한할 수 있음."
+    );
   }
 
-  return wl.slice(0, 10);
+  if (bullets.length === 0) {
+    bullets.push(
+      "오늘 데이터만으로는 뚜렷한 반론 신호가 강하지 않으나, AI Agent/LLM 관련 과열 가능성은 상시 주의 대상."
+    );
+  }
+
+  return bullets.slice(0, 5);
 }
 
+// ===== Data quality note =====
+function buildDataQualityNote(ctx) {
+  const notes = [];
+  const src = ctx.sources || {};
+
+  if (!src.github_trending?.valid) notes.push("GitHub Trending: 데이터 수집 실패 또는 불안정.");
+  if (!src.hackernews?.valid) notes.push("HN: 데이터 수집 실패 또는 불안정.");
+  if (!src.reddit?.totalPosts) notes.push("Reddit: 유효 포스트가 거의 없거나 수집 실패.");
+  if (!src.research_ml?.hfCount && !src.research_ml?.arxivCount) {
+    notes.push("Research ML (HF/ArXiv): 데이터가 거의 없거나 수집 실패.");
+  }
+  if (src.research_ml?.arxivRateLimited) {
+    notes.push("ArXiv: Rate limit(429) 등으로 논문 데이터가 제한적일 수 있음.");
+  }
+  if (!src.product_launch?.productHuntCount) notes.push("ProductHunt: 데이터가 거의 없거나 수집 실패.");
+  if (!src.job_signals?.jobsCount) notes.push("Job Signals: 데이터가 거의 없거나 수집 실패.");
+
+  if (notes.length === 0) {
+    notes.push("주요 데이터 소스 모두 정상 수집됨.");
+  }
+
+  return notes;
+}
+
+// ===== Core: generateReport =====
 function generateReport(date, ctx) {
   const lines = [];
   const push = (s = "") => lines.push(s);
@@ -204,168 +384,130 @@ function generateReport(date, ctx) {
 
   const src = ctx.sources || {};
   const sig = ctx.signals || {};
-  const github = sig.github || {};
-  const hn = sig.hackernews || {};
-  const reddit = sig.reddit || {};
-  const research = sig.research_ml || {};
-  const product = sig.product_launch || {};
-  const jobs = sig.jobs || {};
-  const cross = ctx.cross_source || {};
-  const candidates = ctx.candidates || [];
-  const sector_themes = ctx.sector_themes || [];
-  const contrarian_notes = ctx.contrarian_notes || [];
 
-  // Title
+  // Theme analysis
+  const rawThemes = extractThemesFromSignals(ctx);
+  const themes = buildThemeInterpretations(rawThemes);
+  const sectorImplications = buildSectorImplications(themes);
+  const alphaCandidates = buildAlphaCandidates(ctx);
+  const riskBullets = buildRiskBullets(ctx, themes);
+  const dataNotes = buildDataQualityNote(ctx);
+
+  // ===== Title =====
   push(`# Alpha Hunter Deep Daily Brief — ${date}`);
   push();
-  push(`> 수집된 데이터를 바탕으로 한 섹터/알파/위험 분석. 단순 나열이 아닌, 6–24개월 관점의 구조화된 인사이트.`);
 
   // ===== 1) Executive Summary =====
   section("1. Executive Summary");
 
-  const execPoints = [];
+  const execBullets = [];
 
-  if (src.github_trending?.valid) {
-    execPoints.push(`GitHub Trending에서 ${src.github_trending.count}개 프로젝트 중 AI Agent Infra, On-Device AI, AI-assisted DevTools 관련 프로젝트가 높은 star velocity를 보임.`);
-  }
-  if (src.hackernews?.topCount) {
-    execPoints.push(`HN에서 AI/ML, infra, crypto 관련 고engagement 포스트가 다수 포착 — 엔지니어 커뮤니티의 관심이 집중된 영역.`);
-  }
-  if (src.reddit?.totalPosts) {
-    execPoints.push(`Reddit 핫 포스트 ${src.reddit.totalPosts}개 분석 결과, AI/ML, 보안, 스타트업 생태계에서 의미 있는 논의가 진행 중.`);
-  }
-  if (src.research_ml?.hfCount || src.research_ml?.arxivCount) {
-    execPoints.push(`HF/ArXiv에서 LLM, 멀티모달, AI agent 관련 모델/논문이 강세 — 연구와 제품이 빠르게 연결되는 구조.`);
-  }
-  if (src.job_signals?.jobsCount) {
-    execPoints.push(`Job Signals ${src.job_signals.jobsCount}건 중 AI Infra, Agent, MLOps 관련 채용 비중이 높음 — 자본과 인재가 어디로 흐르는지 반영.`);
+  // Count signal volumes
+  const ghCount = src.github_trending?.count || 0;
+  const hnCount = src.hackernews?.topCount || 0;
+  const rdPosts = src.reddit?.totalPosts || 0;
+  const hfCount = src.research_ml?.hfCount || 0;
+  const phCount = src.product_launch?.productHuntCount || 0;
+  const jobCount = src.job_signals?.jobsCount || 0;
+
+  // Use top themes to form narrative
+  const topThemes = themes.filter(t => t.sourceCount >= 2).slice(0, 4);
+  if (topThemes.length > 0) {
+    const themeNames = topThemes.map(t => t.theme).join(", ");
+    execBullets.push(
+      `오늘 주요 키워드/테마: ${themeNames} — 복수 소스에서 동시 포착된 구조적 관심 영역.`
+    );
   }
 
-  if (execPoints.length === 0) {
-    push("- 오늘 데이터가 제한적이어서 요약이 부족합니다.");
+  // GitHub signal
+  if (ghCount > 0) {
+    const agentProjects = (sig.github?.topByStarsToday || []).filter(
+      r => /agent|agentic|agent/i.test(r.description || "")
+    ).length;
+    execBullets.push(
+      `GitHub Trending ${ghCount}개 중 AI Agent/DevTools 관련 프로젝트가 강세${agentProjects > 2 ? `, 특히 Agent 관련 프로젝트 ${agentProjects}개로 생태계 성숙 신호` : ""}.`
+    );
+  }
+
+  // HN/Reddit
+  if (hnCount > 0 || rdPosts > 0) {
+    execBullets.push(
+      `HN(${hnCount})/Reddit(${rdPosts})에서 AI/ML, infra, crypto 관련 고engagement 포스트 다수 — 엔지니어/커뮤니티의 관심이 집중된 영역.`
+    );
+  }
+
+  // Research
+  if (hfCount > 0) {
+    execBullets.push(
+      `HF/ArXiv에서 LLM, 멀티모달, agent 관련 모델/논문이 강세 — 연구와 제품이 빠르게 연결되는 구조.`
+    );
+  }
+
+  // Product/Market
+  if (phCount > 0) {
+    execBullets.push(
+      `ProductHunt에서 AI 관련 제품(${phCount}개)의 early traction이 확인됨 — 시장 수요와 제품화 속도가 빠르게 증가 중.`
+    );
+  }
+
+  // Jobs
+  if (jobCount > 0) {
+    execBullets.push(
+      `Job Signals ${jobCount}건 중 AI Infra, Agent, MLOps 관련 채용 비중 높음 — 자본과 인재가 해당 영역으로 집중 중.`
+    );
+  }
+
+  for (const b of execBullets.slice(0, 5)) {
+    push(`- ${b}`);
+  }
+
+  // ===== 2) Top Keywords & Themes =====
+  section("2. Top Keywords & Themes");
+
+  const topForSection = themes.filter(t => t.sourceCount >= 2).slice(0, 8);
+  if (topForSection.length === 0) {
+    push("- 오늘 데이터로는 뚜렷한 키워드/테마가 도출되지 않았습니다.");
   } else {
-    for (const p of execPoints.slice(0, 5)) {
-      push(`- ${p}`);
+    for (const t of topForSection) {
+      push(`- **${t.theme}** (sources: ${t.sources.join(", ")}, mentions: ${t.count})`);
+      push(`  - 의미: ${t.interpretation}`);
     }
   }
 
-  if (sector_themes.length >= 2) {
-    push();
-    push(`- 오늘 주요 섹터 테마: ${sector_themes.slice(0, 5).join(", ")}`);
+  // ===== 3) Sector Implications (6–24 months) =====
+  section("3. Sector Implications (6–24 months)");
+
+  for (const b of sectorImplications) {
+    push(`- ${b}`);
   }
 
-  // ===== 2) Sector Themes =====
-  section("2. Sector Themes");
+  // ===== 4) Alpha Candidates & Watchlist =====
+  section("4. Alpha Candidates & Watchlist");
 
-  const themeSignals = collectThemeSignals(ctx);
-  const topThemes = themeSignals.filter(t => t.evidenceCount >= 2).slice(0, 5);
-
-  if (topThemes.length === 0) {
-    push("- 오늘 데이터로 뚜렷한 섹터 테마는 도출되지 않았습니다.");
+  if (alphaCandidates.length === 0) {
+    push("- 오늘 데이터로는 뚜렷한 Alpha 후보가 도출되지 않았습니다.");
   } else {
-    for (const th of topThemes) {
-      push(`**${th.theme}**`);
-      for (const e of th.evidence.slice(0, 4)) {
-        push(`- ${e}`);
+    for (const c of alphaCandidates) {
+      push(`- **${c.name}**`);
+      push(`  - Watch reason: ${c.whyWatch}`);
+      if (c.crossCheck) {
+        push(`  - Cross-source: ${c.crossCheck}`);
       }
-      push(`- 중요성(6–24개월): ${th.outlook}`);
-      push();
     }
   }
 
-  // ===== 3) Alpha Hypotheses =====
-  section("3. Alpha Hypotheses");
+  // ===== 5) Risk & Contrarian View =====
+  section("5. Risk & Contrarian View");
 
-  const hypotheses = buildAlphaHypotheses(candidates, sector_themes);
-  if (hypotheses.length === 0) {
-    push("- 오늘 데이터만으로는 강한 가설 도출이 어렵습니다.");
-  } else {
-    for (const h of hypotheses) {
-      push(`**${h.statement}**`);
-      push(`- 근거: ${h.rationale}`);
-      push(`- 신뢰도: ${h.confidence}`);
-      push();
-    }
+  for (const r of riskBullets) {
+    push(`- ${r}`);
   }
 
-  // ===== 4) Key Projects & Tools to Watch =====
-  section("4. Key Projects & Tools to Watch");
+  // ===== 6) Data Quality Note =====
+  section("6. Data Quality Note");
 
-  const watchItems = buildWatchItems(candidates, github, hn, product);
-  if (watchItems.length === 0) {
-    push("- 오늘 데이터로 뚜렷한 감시 대상은 도출되지 않았습니다.");
-  } else {
-    for (const w of watchItems) {
-      push(`- **${w.name}**`);
-      if (w.reason) push(`  - ${w.reason}`);
-      if (w.cross) push(`  - 교차 확인: ${w.cross}`);
-    }
-  }
-
-  // ===== 5) Job & Skill Signals =====
-  section("5. Job & Skill Signals");
-
-  const roles = jobs.emerging_roles || [];
-  const skills = jobs.emerging_skills || [];
-
-  if (roles.length) {
-    push("**Emerging Roles (Key Signals):**");
-    for (const r of roles.slice(0, 5)) {
-      push(`- **${r.role}** (count: ${r.count}) — ${r.why_signal || "신규/증가 중"}`);
-    }
-  }
-
-  if (skills.length) {
-    push();
-    push(`**Emerging Skills:** ${skills.join(", ")}`);
-    push("- 위 스킬은 AI/infra/agent 관련 수요 증가를 반영하며, 향후 6–12개월 내 더 확산될 가능성이 높습니다.");
-  }
-
-  // ===== 6) Risk & Contrarian View =====
-  section("6. Risk & Contrarian View");
-
-  if (contrarian_notes.length) {
-    for (const cn of contrarian_notes) {
-      push(`- ${cn}`);
-    }
-  } else {
-    push("- 오늘은 뚜렷한 반론/위험 신호가 강하지 않으나, AI Agent/LLM 관련 과열 가능성은 상시 주의 대상입니다.");
-  }
-
-  // ===== 7) Near-Term vs Long-Term =====
-  section("7. Near-Term vs Long-Term");
-
-  push("**Near-Term (0–6개월):**");
-  push("- AI Agent Infra, RAG, LLM tooling 관련 오픈소스 프로젝트의 급성장에 주목.");
-  push("- 보안/privacy 이슈와 규제 동향을 실시간으로 추적 필요.");
-  push("- HF/ArXiv에서 부상하는 모델/논문이 실제 제품/서비스로 전환되는 속도가 핵심.");
-  push();
-  push("**Long-Term (6–24개월):**");
-  push("- On-Device AI, Edge AI: 로컬 추론 인프라와 관련 스택이 성숙되면 새로운 생태계 등장.");
-  push("- Physical AI / Robotics + AI Agent: 실세계 자동화와 연계된 프로젝트가 핵심.");
-  push("- Crypto/ZK: 규제/UX가 해결될 경우, ZK 기반 인프라가 Web2/Web3 경계를 무너뜨릴 가능성.");
-
-  // ===== 8) Watchlist =====
-  section("8. Watchlist");
-
-  const watchlist = buildWatchlist(candidates, github, product);
-  for (const w of watchlist) {
-    push(`- **${w.name}** — ${w.reason}`);
-  }
-
-  // ===== 9) Cross-Source Overlap =====
-  section("9. Cross-Source Overlap");
-
-  const overlaps = cross.overlap_candidates || [];
-  if (overlaps.length) {
-    push("> 복수 소스에서 동시 포착된 신호 — 단순 노이즈가 아닌 구조적 관심 가능성.");
-    push();
-    for (const o of overlaps) {
-      push(`- **${o.name}** (sources: ${o.sources.join(", ")})`);
-      if (o.reason) push(`  - ${o.reason}`);
-    }
-  } else {
-    push("- 오늘 데이터로는 뚜렷한 복수 소스 중복 신호가 확인되지 않았습니다.");
+  for (const n of dataNotes) {
+    push(`- ${n}`);
   }
 
   // Footer
@@ -376,6 +518,7 @@ function generateReport(date, ctx) {
   return lines.join("\n");
 }
 
+// ===== Main =====
 function main() {
   const date = todayISODate();
 
