@@ -43,7 +43,7 @@ async function fetchHF() {
 
     for (const m of models) {
       const tags = (m.tags || []).filter(Boolean);
-      const [whyNotable, sectorThemes] = inferHFWhyNotable(
+      const [whyNotable, sectorThemes, architecture_type, key_capability] = inferHFWhyNotable(
         tags,
         m.likes || 0,
         m.downloads || 0,
@@ -58,6 +58,8 @@ async function fetchHF() {
         pipeline_tag: m.pipeline_tag || null,
         tags: tags.slice(0, 20), // keep concise
         sector_themes: sectorThemes,
+        architecture_type,
+        key_capability,
         why_notable: whyNotable,
         lastModified: m.lastModified || null,
         url: `https://huggingface.co/${m.id}`,
@@ -73,10 +75,35 @@ async function fetchHF() {
 }
 
 // ---------- HF helpers ----------
+// Requirements: architecture_type, key_capability, why_trending must be specific, not boilerplate.
 function inferHFWhyNotable(tags, likes, downloads, id) {
   const t = (tags || []).join(" ").toLowerCase();
   const themes = [];
   let reason = "";
+  let architecture_type = null;
+  let key_capability = null;
+
+  // Detect architecture hints from tags/id
+  const idLower = (id || "").toLowerCase();
+  if (t.includes("moe") || t.includes("mixture-of-experts") || idLower.includes("moe")) {
+    architecture_type = "Mixture-of-Experts (MoE)";
+  } else if (t.includes("transformer") || idLower.includes("transformer")) {
+    architecture_type = "Transformer";
+  } else if (t.includes("diffusion") || idLower.includes("diffusion")) {
+    architecture_type = "Diffusion";
+  } else if (t.includes("gpt") || idLower.includes("gpt")) {
+    architecture_type = "GPT-style (autoregressive)";
+  } else if (t.includes("llama") || idLower.includes("llama")) {
+    architecture_type = "LLaMA-style (autoregressive)";
+  } else if (t.includes("recurrent") || t.includes("rwkv")) {
+    architecture_type = "Recurrent / RWKV";
+  } else if (t.includes("state-space") || t.includes("mamba")) {
+    architecture_type = "State-space model (SSM)";
+  } else if (t.includes("encoder") || t.includes("bert")) {
+    architecture_type = "Encoder (BERT-style)";
+  } else {
+    architecture_type = "Unknown / unspecified";
+  }
 
   // Classify by primary capability
   if (
@@ -85,6 +112,7 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     t.includes("video-text-to-text")
   ) {
     themes.push("multimodal");
+    key_capability = "Multimodal understanding (text+vision+audio)";
     reason =
       "Multimodal model with strong HF traction; signals progress in cross-modal understanding and agent perception.";
   } else if (
@@ -93,6 +121,7 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     t.includes("video-generation")
   ) {
     themes.push("video-gen");
+    key_capability = "Video generation";
     reason =
       "Video generation model trending; important for content creation, simulation, and immersive AI.";
   } else if (
@@ -101,6 +130,7 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     (t.includes("diffusion") && !t.includes("video"))
   ) {
     themes.push("image-gen");
+    key_capability = "Image generation / diffusion";
     reason =
       "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media.";
   } else if (
@@ -109,6 +139,7 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     t.includes("automatic-speech-recognition")
   ) {
     themes.push("tts-audio");
+    key_capability = "Speech / audio processing";
     reason =
       "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility.";
   } else if (
@@ -117,14 +148,17 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     t.includes("conversational")
   ) {
     themes.push("llm");
+    key_capability = "Text generation / reasoning";
     reason =
-      "Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows.";
+      "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks.";
   } else if (t.includes("code-generation") || t.includes("code")) {
     themes.push("code-llm");
+    key_capability = "Code generation / AI-assisted development";
     reason =
       "Code-generation model trending; directly relevant to AI-assisted development and tool use.";
   } else if (t.includes("reinforcement-learning")) {
     themes.push("rl");
+    key_capability = "Reinforcement learning / control";
     reason =
       "RL-related model; key for agent training, control, and optimization.";
   } else if (
@@ -134,19 +168,22 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
     t.includes("image-classification")
   ) {
     themes.push("computer-vision");
+    key_capability = "Computer vision / perception";
     reason =
       "Vision model trending; important for robotics, autonomous systems, and AI infra.";
   } else if (t.includes("protein-folding") || t.includes("bio")) {
     themes.push("bio-ai");
+    key_capability = "Scientific AI / drug discovery";
     reason =
       "Bio+AI model; relevant for drug discovery, computational biology, and scientific AI.";
   } else {
     themes.push("ml-general");
+    key_capability = "General ML";
     reason =
       "ML model with notable HF traction; worth monitoring for ecosystem impact.";
   }
 
-  // Add engagement context
+  // Add engagement context (concise)
   if (likes >= 5000) {
     reason +=
       " Very high likes indicate strong community validation and likely production relevance.";
@@ -158,7 +195,7 @@ function inferHFWhyNotable(tags, likes, downloads, id) {
       " Moderate likes; early but meaningful interest.";
   }
 
-  return [reason, themes];
+  return [reason, themes, architecture_type, key_capability];
 }
 
 // ---------- ArXiv helpers ----------

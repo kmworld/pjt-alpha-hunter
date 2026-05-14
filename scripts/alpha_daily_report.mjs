@@ -166,6 +166,67 @@ function buildRiskBullets(ctx, themes) {
   return bullets.slice(0, 5);
 }
 
+function extractGHTrendingPatterns(ghTop, ctx) {
+  const patterns = [];
+  const allText = (ghTop || []).map(r =>
+    `${r.repo} ${r.description || ""} ${r.repo_summary || ""} ${r.why_people_care || ""}`
+  ).join(" ").toLowerCase();
+
+  const themeCounts = {};
+
+  function inc(t) {
+    themeCounts[t] = (themeCounts[t] || 0) + 1;
+  }
+
+  // Agent memory / agent infra
+  if (toLower(allText).match(/agent.*(memory|tool|skill|mcp|framework)/)) inc("Agent Infra & Tooling");
+  if (toLower(allText).match(/persistent.*(memory|context)/)) inc("Agent Infra & Tooling");
+
+  // On-device / edge AI
+  if (toLower(allText).match(/on-device|edge.*(ai|inference)/)) inc("On-Device / Edge AI");
+
+  // Spec-driven / AI coding
+  if (toLower(allText).match(/spec-?driven|agentic.*(dev|workflow)/)) inc("Spec-Driven / AI Coding");
+
+  // Multimodal / vision
+  if (toLower(allText).match(/multimodal|vision.*(language|model)/)) inc("Multimodal / Vision AI");
+
+  // Crypto / ZK
+  if (toLower(allText).match(/crypto|zk|blockchain/)) inc("Crypto / ZK Infra");
+
+  // AI security / safety
+  if (toLower(allText).match(/ai.*(security|safety|audit)/)) inc("AI Security / Safety");
+
+  // Infra / MLOps / observability
+  if (toLower(allText).match(/infra|observab|mlops|kubernetes/)) inc("AI Infra & MLOps");
+
+  const topThemes = Object.entries(themeCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3);
+
+  const patternMap = {
+    "Agent Infra & Tooling": "AI Agent의 메모리, 도구 사용, MCP 패턴이 단순 실험을 넘어 실제 인프라로 자리잡는 단계.",
+    "On-Device / Edge AI": "온디바이스 추론과 저비용 추론이 AI 에이전트/모바일 사용 사례의 핵심 제약으로 부상.",
+    "Spec-Driven / AI Coding": "AI 코딩 에이전트 환경에서 ‘Spec-Driven Development’와 에이전트 워크플로우가 새로운 개발 방법론으로 등장.",
+    "Multimodal / Vision AI": "텍스트 중심 AI에서 멀티모달/비전 AI로 빠르게 확장; 에이전트와 연동된 시각적 이해가 다음 단계.",
+    "Crypto / ZK Infra": "Crypto/ZK 인프라가 단순 스펙클레이션이 아닌 실제 프로토콜/기술 기반으로 재구성 중.",
+    "AI Security / Safety": "AI 시스템의 보안/안전/감사가 단순 이슈가 아닌 필수 인프라로 인식되며 관련 도구 수요 증가.",
+    "AI Infra & MLOps": "AI/ML 워크로드가 기존 인프라를 압도하며 모니터링, 확장, 관측성 도구가 핵심 경쟁 요소로 부상.",
+  };
+
+  for (const [theme] of topThemes) {
+    if (patternMap[theme]) {
+      patterns.push(`${theme}: ${patternMap[theme]}`);
+    }
+  }
+
+  if (patterns.length === 0) {
+    patterns.push("오늘 GitHub 신호는 특정 패턴보다는 분산된 관심사로, 개별 프로젝트 단위의 알파 탐색이 더 유용한 날.");
+  }
+
+  return patterns.slice(0, 3);
+}
+
 function buildDataQualityNote(ctx) {
   const notes = [];
   const src = ctx.sources || {};
@@ -210,6 +271,8 @@ function generateReport(date, ctx) {
   const alphaProducts = ctx.alpha_products || [];
   const cryptoSignals = ctx.crypto_ticker_signals || [];
   const patentSignals = ctx.patent_like_signals || [];
+  const redditGlobalHotPosts = ctx.signals?.reddit?.global_hot_posts || [];
+  const redditEmergingSubs = ctx.signals?.reddit?.emerging_subreddits || [];
 
   // ===== Title =====
   push(`# Alpha Hunter Deep Daily Brief — ${date}`);
@@ -270,6 +333,76 @@ function generateReport(date, ctx) {
 
   for (const b of execBullets.slice(0, 5)) {
     push(`- ${b}`);
+  }
+
+  // ===== GitHub Trending (redesigned) =====
+  section("🚀 GitHub Trending — 오늘의 핫 리포 & Rising Stars");
+
+  const ghTop = (sig.github?.topByStarsToday || []);
+
+  // A) Top 10 Rising Stars
+  push();
+  push("**A) Top 10 Rising Stars (오늘 가장 핫한 리포)**");
+  push();
+
+  const top10 = ghTop.slice(0, 10);
+  for (let i = 0; i < top10.length; i++) {
+    const r = top10[i];
+    const summaryLine = (r.repo_summary || r.description || "Trending repo").slice(0, 160);
+    const whyLine = (r.why_people_care || r.signal_reason || "Strong star velocity").slice(0, 160);
+    const techLine = Array.isArray(r.architecture_tech)
+      ? r.architecture_tech.slice(0, 5).join(", ")
+      : (r.language || "");
+
+    push(`- **${i + 1}.** [${r.repo}](${r.url})`);
+    push(`  - **무엇:** ${summaryLine}`);
+    push(`  - **왜 핫:** ${whyLine}`);
+    if (techLine) push(`  - **핵심 기술:** ${techLine}`);
+    push();
+  }
+
+  // B) Deep Dive: New Rising Repos (3-5, README-based)
+  // Filter: is_rising_star or (recent_stars high + new_this_day)
+  const allGhItems = (ctx.signals?.github?.topByStarsToday || []);
+  const risingCandidates = allGhItems
+    .filter(r => {
+      if (r.is_rising_star) return true;
+      if (r.new_this_day && (r.recent_stars || 0) > 300 && (r.stars || 0) < 15000) return true;
+      return false;
+    })
+    .slice(0, 8);
+
+  if (risingCandidates.length >= 3) {
+    push();
+    push("**B) Deep Dive — New Rising Repos (새로 부각된 핵심 프로젝트)**");
+    push();
+
+    for (const r of risingCandidates.slice(0, 5)) {
+      const summary = (r.repo_summary || r.description || "").slice(0, 280);
+      const why = (r.why_people_care || r.signal_reason || "").slice(0, 180);
+      const tech = Array.isArray(r.architecture_tech)
+        ? r.architecture_tech.slice(0, 6).join(", ")
+        : (r.language || "");
+
+      push(`- **${r.repo}** — [GitHub](${r.url})`);
+      push(`  - **소개:** ${summary}`);
+      push(`  - **왜 특별:** ${why}`);
+      if (tech) push(`  - **기술 스택:** ${tech}`);
+      push(`  - **Alpha Hunter 관점:** 초기 단계에서 강세를 보이는 프로젝트. 빠른 Adoption이 이어지면 관련 생태계의 핵심 인프라가 될 가능성이 있음.`);
+      push();
+    }
+  }
+
+  // C) Trending Patterns (stub; extractGHTrendingPatterns not defined yet)
+  const ghPatterns = [];
+  if (ghPatterns.length > 0) {
+    push();
+    push("**C) Trending Patterns (오늘의 GitHub에서 읽히는 패턴)**");
+    push();
+    for (const p of ghPatterns) {
+      push(`- ${p}`);
+    }
+    push();
   }
 
   // ===== 2) Today's Discoveries (New Concepts) =====
@@ -351,15 +484,49 @@ function generateReport(date, ctx) {
     }
   }
 
-  // ===== 8) Risk & Contrarian View =====
-  section("8. Risk & Contrarian View");
+  // ===== 8) Reddit Hot Posts =====
+  section("8. Reddit Hot Posts (Global)");
+
+  const topRedditPosts = (redditGlobalHotPosts || [])
+    .filter(p => p.title && p.url && (p.score || 0) >= 50)
+    .slice(0, 8);
+
+  if (topRedditPosts.length === 0) {
+    push("- 오늘 Reddit 글로벌 핫 포스트가 도출되지 않았습니다.");
+  } else {
+    for (const p of topRedditPosts) {
+      const sub = p.subreddit || "";
+      const score = p.score || 0;
+      const summary = (p.post_summary || "").replace(/\n+/g, " ").trim();
+      const shortSummary = summary.length > 140 ? summary.slice(0, 137).trimEnd() + "..." : summary;
+      push(`- **${(p.title || "").slice(0, 90)}**`);
+      push(`  - ${sub} · 점수: ${score}`);
+      if (shortSummary) push(`  - ${shortSummary}`);
+      push(`  - ${p.url}`);
+    }
+  }
+
+  // Emerging subreddits
+  if (redditEmergingSubs && redditEmergingSubs.length > 0) {
+    push();
+    push("**부상하는 서브레딧**");
+    const show = redditEmergingSubs.slice(0, 4);
+    for (const s of show) {
+      const reason = s.reason || `Multiple hot posts; rising community interest.`;
+      const shortReason = reason.length > 120 ? reason.slice(0, 117) + "..." : reason;
+      push(`- **${s.name}** — ${shortReason}`);
+    }
+  }
+
+  // ===== 9) Risk & Contrarian View =====
+  section("9. Risk & Contrarian View");
 
   for (const r of riskBullets) {
     push(`- ${r}`);
   }
 
-  // ===== 9) Data Quality Note =====
-  section("9. Data Quality Note");
+  // ===== 10) Data Quality Note =====
+  section("10. Data Quality Note");
 
   for (const n of dataNotes) {
     push(`- ${n}`);

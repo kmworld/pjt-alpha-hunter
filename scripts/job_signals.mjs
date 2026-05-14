@@ -38,10 +38,20 @@ const KEYWORDS = [
   "ML",
   "deep learning",
   "autonomous",
+  "RLHF",
+  "RLAIF",
+  "fine-tun",
+  "vector search",
+  "embedding",
+  "rag",
+  "tool-use",
+  "mcp",
   "backend",
   "full stack",
   "DevOps",
   "SRE",
+  "infra engineer",
+  "platform engineer",
 ];
 
 function todayISO() {
@@ -260,28 +270,73 @@ function buildJdSummary(title, company, location, tags, oneLiner) {
   return `A ${core} role at ${company}${loc}.`;
 }
 
+// ---------- Normalize role into a specific AI-role label ----------
+
+function inferSpecificRole(title, context) {
+  const t = (title || "").toLowerCase();
+  const c = (context || "").toLowerCase();
+
+  if ((t.includes("llm") || c.includes("llm")) && (t.includes("engineer") || t.includes("developer"))) {
+    return "LLM Engineer";
+  }
+  if ((t.includes("agent") || t.includes("agentic")) && (t.includes("engineer") || t.includes("developer"))) {
+    return "AI Agent Engineer";
+  }
+  if ((t.includes("rlhf") || t.includes("rlaif")) && (t.includes("engineer") || t.includes("researcher"))) {
+    return "RLHF/RLAIF Engineer";
+  }
+  if ((t.includes("mlops") || t.includes("ml ops")) && (t.includes("engineer") || t.includes("developer"))) {
+    return "MLOps Engineer";
+  }
+  if ((t.includes("infra") || t.includes("platform")) && (t.includes("ai") || c.includes("ai"))) {
+    return "AI Infra Engineer";
+  }
+  if ((t.includes("edge") || t.includes("on-device")) && (t.includes("ai") || t.includes("ml"))) {
+    return "Edge AI Engineer";
+  }
+  if ((t.includes("zk") || t.includes("zero-knowledge")) && (t.includes("engineer") || t.includes("developer"))) {
+    return "ZK Engineer";
+  }
+  if ((t.includes("crypto") || t.includes("web3")) && (t.includes("engineer") || t.includes("developer"))) {
+    return "Crypto/Web3 Engineer";
+  }
+  if ((t.includes("ml") || t.includes("machine learning")) && (t.includes("engineer") || t.includes("researcher"))) {
+    return "ML Engineer";
+  }
+  if ((t.includes("data") || t.includes("analytics")) && (t.includes("engineer") || t.includes("scientist"))) {
+    return "Data/ML Engineer";
+  }
+  return null; // leave as-is if generic
+}
+
 // ---------- Why signal ----------
 
-function buildWhySignal(title, sector) {
+function buildWhySignal(title, sector, specificRole) {
   const t = (title || "").toLowerCase();
 
-  if ((t.includes("agent") || t.includes("agentic")) && (t.includes("ai") || t.includes("infra"))) {
-    return "Rising demand for AI agent infrastructure and orchestration.";
+  if (specificRole === "LLM Engineer") {
+    return "Core LLM talent demand signals strong AI application growth and specialization beyond generic ML.";
   }
-  if (t.includes("llm") || t.includes("large language model")) {
-    return "Core LLM talent demand signals strong AI application growth.";
+  if (specificRole === "AI Agent Engineer") {
+    return "Rising demand for AI agent infrastructure, tool-use, and orchestration skills.";
   }
-  if (t.includes("zk") || t.includes("zero-knowledge")) {
-    return "ZK engineer shortage: early-stage crypto infra talent war.";
+  if (specificRole === "RLHF/RLAIF Engineer") {
+    return "RLHF/RLAIF hiring reflects maturation of alignment, safety, and preference tuning in production.";
   }
-  if (t.includes("depin")) {
-    return "DePIN expansion indicates physical-world crypto infra growth.";
+  if (specificRole === "MLOps Engineer") {
+    return "MLOps demand reflects scaling AI from prototypes to production with robust pipelines.";
   }
-  if (t.includes("edge ai") || t.includes("webgpu")) {
-    return "Edge AI adoption accelerating; niche but high-impact skill set.";
+  if (specificRole === "AI Infra Engineer") {
+    return "AI infra company hiring: capacity, tooling, and observability demand is expanding.";
   }
-  if (t.includes("mlops") || t.includes("ml ops")) {
-    return "MLOps demand reflects scaling AI from prototypes to production.";
+  if (specificRole === "Edge AI Engineer") {
+    return "Edge AI adoption accelerating; niche but high-impact skill set for on-device inference.";
+  }
+  if (specificRole === "ZK Engineer") {
+    return "ZK engineer shortage: early-stage crypto infra talent war around zero-knowledge proofs.";
+  }
+  if (specificRole === "Crypto/Web3 Engineer") {
+    return "Crypto/Web3 hiring indicates protocol-level innovation and funding.";
   }
   if (t.includes("distributed systems")) {
     return "Distributed systems roles signal infra-heavy AI/crypto workloads.";
@@ -313,6 +368,7 @@ function enrichJob(job) {
 
   const sector = classifySector(context);
   const skills = extractKeySkills(context);
+  const specificRole = inferSpecificRole(job.title, context);
   const summary = buildJdSummary(
     job.title,
     job.company,
@@ -320,12 +376,20 @@ function enrichJob(job) {
     job.tags || [],
     job.oneLiner
   );
-  const whySignal = buildWhySignal(job.title, sector);
+  const whySignal = buildWhySignal(job.title, sector, specificRole);
+
+  // role_specifics: short, concrete description of what they actually do
+  const roleSpecifics = specificRole
+    ? `${specificRole} role at ${job.company || "startup"}; ${whySignal}`
+    : `General engineering role at ${job.company || "startup"}; ${whySignal}`;
 
   return {
     ...job,
+    specific_role: specificRole || job.title,
     jd_summary: summary,
     extracted_skills: skills,
+    role_specifics: roleSpecifics,
+    required_stack: skills,
     why_signal: whySignal,
     company_sector: sector,
   };

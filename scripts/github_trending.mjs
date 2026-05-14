@@ -1,17 +1,38 @@
 // scripts/github_trending.mjs
-// Fetch GitHub Trending (daily), enrich with real stars/forks/topics/why_notable.
+// Fetch GitHub Trending (daily), enrich with real stars/forks/topics,
+// README-based analysis, rising-star detection, and "new_this_day" tracking.
 // Node 22+ built-in only. No npm installs.
 
-const URL = "https://github.com/trending?since=daily";
-const MAX_REPOS = 30;
+import fs from "fs";
+import path from "path";
 
-function today() {
+const PROJECT_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const DATA_DIR = path.join(PROJECT_ROOT, "data");
+
+const TRENDING_URL = "https://github.com/trending?since=daily";
+const MAX_REPOS = 30;
+const README_MAX_CHARS = 3000;
+
+// ---------- Date helpers ----------
+
+function todayISO() {
   const d = new Date();
   const yyyy = d.getUTCFullYear();
   const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
   const dd = String(d.getUTCDate()).padStart(2, "0");
   return `${yyyy}-${mm}-${dd}`;
 }
+
+function yesterdayISO() {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - 1);
+  const yyyy = d.getUTCFullYear();
+  const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(d.getUTCDate()).padStart(2, "0");
+  return `${yyyy}-${mm}-${dd}`;
+}
+
+// ---------- Utilities ----------
 
 function parseNumber(s) {
   if (!s) return null;
@@ -20,8 +41,27 @@ function parseNumber(s) {
   return Number.isFinite(n) ? n : null;
 }
 
+function stripTags(s) {
+  return s.replace(/<[^>]+>/g, "").trim();
+}
+
+function safeReadJSON(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch {
+    return null;
+  }
+}
+
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
+}
+
+// ---------- Fetch Trending HTML ----------
+
 async function fetchHTML() {
-  const res = await fetch(URL, {
+  const res = await fetch(TRENDING_URL, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0 Safari/537.36",
@@ -32,10 +72,6 @@ async function fetchHTML() {
     throw new Error(`GitHub Trending fetch failed: ${res.status} ${res.statusText}`);
   }
   return await res.text();
-}
-
-function stripTags(s) {
-  return s.replace(/<[^>]+>/g, "").trim();
 }
 
 function parseTrending(html) {
@@ -97,7 +133,8 @@ function parseTrending(html) {
   return items;
 }
 
-// GitHub API helpers (public, no auth, subject to rate limits)
+// ---------- GitHub API ----------
+
 async function fetchRepoMeta(owner, repo) {
   try {
     const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
@@ -113,7 +150,7 @@ async function fetchRepoMeta(owner, repo) {
       forks: data.forks_count ?? null,
       language: data.language || null,
       description: data.description || null,
-      topics: Array.isArray(data.topics) ? data.topics.slice(0, 8) : null,
+      topics: Array.isArray(data.topics) ? data.topics.slice(0, 10) : [],
       owner: data.owner || null,
     };
   } catch {
@@ -121,86 +158,190 @@ async function fetchRepoMeta(owner, repo) {
   }
 }
 
-// Generate a concise, domain-aware "why_notable" for each repo.
-function generateWhyNotable(repo, description, language, topics, recent_stars) {
-  if (!repo) return "";
-  const lower = (repo + " " + (description || "") + " " + (topics || []).join(" ")).toLowerCase();
-  const signal = recent_stars != null && recent_stars > 0
-    ? `+${recent_stars} stars today`
-    : "rapidly trending";
+// ---------- README fetch ----------
 
-  // AI agents / agent infra
-  if (/\b(agent|agentic|multi-agent|tool-use|tool calling)\b/.test(lower)) {
-    return `AI agent runtime/tooling with strong momentum (${signal}); relevant for autonomous workflows and multi-agent infra.`;
+async function fetchREADME(owner, repo) {
+  const candidates = [
+    `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`,
+    `https://raw.githubusercontent.com/${owner}/${repo}/master/README.md`,
+  ];
+  for (const url of candidates) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": "AlphaHunter-TrendingBot/1.0",
+        },
+      });
+      if (res.ok) {
+        const text = await res.text();
+        return text.slice(0, README_MAX_CHARS);
+      }
+    } catch {
+      // continue
+    }
   }
-  // LLMs, model stacks
-  if (/\b(llm|large language model|llama|gpt|transformer|diffusion)\b/.test(lower)) {
-    return `Core LLM/LLM-stack project gaining traction (${signal}); important for model serving, fine-tuning, or efficiency.`;
-  }
-  // RAG / retrieval
-  if (/\b(rag|retrieval augmented|vector search|semantic search)\b/.test(lower)) {
-    return `RAG/search stack component trending quickly (${signal}); key for production knowledge retrieval pipelines.`;
-  }
-  // Vector DBs
-  if (/\b(vector|ann)\b/.test(lower) && /\b(database|db|store|index)\b/.test(lower)) {
-    return `VectorDB/ANN library with strong interest (${signal}); critical for semantic search and embeddings at scale.`;
-  }
-  // Fine-tuning / training
-  if (/\b(fine-tun|finetune|sft|training)\b/.test(lower)) {
-    return `Fine-tuning/training tool trending (${signal}); valuable for domain-specific model adaptation.`;
-  }
-  // Quantization / inference efficiency
-  if (/\b(quantize|quantization|gguf|llama\.cpp|vllm|tensorrt)\b/.test(lower)) {
-    return `Model quantization/efficiency tool gaining attention (${signal}); enables on-device or low-cost inference.`;
-  }
-  // Security / audit
-  if (/\b(security|audit|vulnerab|exploit|hardening)\b/.test(lower)) {
-    return `Security/auditing tool with rising interest (${signal}); useful for hardening AI, infra, or crypto stacks.`;
-  }
-  // Crypto / Web3 / DePIN
-  if (/\b(crypto|web3|blockchain|token|defi|nft|depin)\b/.test(lower)) {
-    return `Crypto/Web3/DePIN project trending (${signal}); watch for protocol or infra-level alpha.`;
-  }
-  // Infra / containers / Kubernetes
-  if (/\b(infra|kubernetes|k8s|container|docker|telegraf|observab)\b/.test(lower)) {
-    return `Infra/containers/observability project trending (${signal}); relevant for scalable AI/ML deployments.`;
-  }
-  // Devtools / CLIs / IDEs / editors
-  if (/\b(ide|editor|vscode|neovim|devtools|cli|build tool)\b/.test(lower)) {
-    return `Devtools/IDE gaining traction (${signal}); improves dev velocity for AI-native stacks.`;
-  }
-  // Data / ETL / pipelines
-  if (/\b(data|etl|pipeline|streaming)\b/.test(lower)) {
-    return `Data pipeline/ETL tool trending (${signal}); important for training and analytics workflows.`;
-  }
-  // Testing / e2e
-  if (/\b(testing|e2e|playwright|cypress)\b/.test(lower)) {
-    return `Testing framework trending (${signal}); critical for reliable AI/ML and infra systems.`;
-  }
-  // CI/CD
-  if (/\b(ci\/cd|continuous)\b/.test(lower)) {
-    return `CI/CD tool trending (${signal}); key for faster, safer delivery of AI and infra changes.`;
-  }
-  // UI / frontend / design
-  if (/\b(ui|frontend|design|figma|design system)\b/.test(lower)) {
-    return `UI/frontend tool trending (${signal}); relevant for AI-powered apps and design workflows.`;
-  }
-  // Fallback: short and non-generic
-  return `Trending repo with strong momentum (${signal}); worth watching for domain impact.`;
-}
-
-// Lightweight domain classifier
-function classifyDomain(text) {
-  if (/\b(ai|llm|agent|gpt|transformer|diffusion)\b/.test(text)) return "AI/ML";
-  if (/\b(blockchain|web3|smart contract|crypto)\b/.test(text)) return "Crypto/Web3";
-  if (/\b(kubernetes|k8s|container|docker)\b/.test(text)) return "Infra";
-  if (/\b(security|vulnerability|audit)\b/.test(text)) return "Security";
-  if (/\b(tool|cli|devtools|ide)\b/.test(text)) return "DevTools";
-  if (/\b(data|etl|pipeline)\b/.test(text)) return "Data";
   return null;
 }
 
-// Build topics from meta or from title/description (safer fallback)
+// ---------- Owner type ----------
+
+function guessOwnerType(ownerInfo) {
+  const o = (ownerInfo && typeof ownerInfo.login === "string") ? ownerInfo.login.toLowerCase() : "";
+  const knownOrgPrefixes = [
+    "google", "meta", "microsoft", "meta-", "nvidia", "openai", "anthropic",
+    "amazon", "aws", "github", "vercel", "vllm-project", "huggingface",
+    "deepgram", "deepmind", "meta-llama", "mistralai", "cohere-ai",
+  ];
+  if (knownOrgPrefixes.some(p => o.startsWith(p) || o.includes(p))) return "org";
+  if (ownerInfo && ownerInfo.type && typeof ownerInfo.type === "string") {
+    if (ownerInfo.type.toLowerCase() === "organization") return "org";
+  }
+  return "individual";
+}
+
+// ---------- Yesterday tracking ----------
+
+function getYesterdayRepoSet() {
+  const yest = yesterdayISO();
+  const data = safeReadJSON(path.join(DATA_DIR, `github_trending_${yest}.json`));
+  if (!data || !Array.isArray(data.items)) return new Set();
+  return new Set(data.items.map(r => r.repo));
+}
+
+// ---------- Analysis: extract repo_summary, why_people_care, architecture_tech ----------
+
+function analyzeRepo(repo, description, language, topics, stars, recent_stars, readme) {
+  const allText = [repo, description, (topics || []).join(" "), readme].join(" ").toLowerCase();
+
+  // repo_summary: 2-3 line explanation of what it actually does
+  const repo_summary = buildRepoSummary(repo, description, readme, allText);
+
+  // why_people_care: 1-2 line, specific, no boilerplate
+  const why_people_care = buildWhyPeopleCare(repo, description, recent_stars, allText);
+
+  // architecture_tech: key technologies
+  const architecture_tech = extractArchitectureTech(language, topics, allText);
+
+  return { repo_summary, why_people_care, architecture_tech };
+}
+
+function buildRepoSummary(repo, description, readme, allText) {
+  if (!description && !readme) return "Trending repo; limited info available.";
+
+  // Use description as base if strong
+  if (description && description.length > 20) {
+    return description.trim().slice(0, 180);
+  }
+
+  // Use first meaningful lines from README
+  if (readme) {
+    const lines = readme
+      .split("\n")
+      .map(l => l.replace(/[#*`_~]/g, "").trim())
+      .filter(l => l.length > 15 && l.length < 200 && !l.startsWith("![") && !l.startsWith("#"));
+    if (lines.length >= 1) {
+      return lines[0].slice(0, 180);
+    }
+  }
+
+  return "Trending repo; specifics unclear from available metadata.";
+}
+
+function buildWhyPeopleCare(repo, description, recent_stars, allText) {
+  const velocity = (recent_stars || 0) > 0 ? `+${recent_stars} stars today` : "on GitHub Trending";
+
+  // AI agents
+  if (hasAny(allText, ["agent", "agentic", "multi-agent", "mcp", "tool-use", "tool calling"])) {
+    return `Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling ${velocity}.`;
+  }
+  // LLM inference / serving
+  if (hasAny(allText, ["llm", "vllm", "tensorrt", "llama.cpp", "speculat", "inference", "serving"])) {
+    return `Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining ${velocity}.`;
+  }
+  // RAG / retrieval
+  if (hasAny(allText, ["rag", "retrieval augmented", "vector search", "semantic search"])) {
+    return `Production RAG needs reliable retrieval, not demos — this repo is filling that gap with ${velocity}.`;
+  }
+  // Vector DB
+  if (hasAny(allText, ["vector"]) && hasAny(allText, ["database", "db", "store", "index"])) {
+    return `Semantic search and embeddings are exploding; this vector store is riding that wave with ${velocity}.`;
+  }
+  // Fine-tuning / training
+  if (hasAny(allText, ["fine-tun", "finetune", "sft", "rlhf", "grpo"])) {
+    return `Domain-specific fine-tuning is a moat — this tool makes it easier and is attracting ${velocity}.`;
+  }
+  // On-device / quantization
+  if (hasAny(allText, ["quantize", "gguf", "on-device", "edge"])) {
+    return `On-device and low-cost inference are critical for agents and mobile — this project enables that with ${velocity}.`;
+  }
+  // Security
+  if (hasAny(allText, ["security", "audit", "vulnerab", "exploit", "hardening"])) {
+    return `AI and infra stacks are prime targets — defensive tooling is under-supplied, hence ${velocity}.`;
+  }
+  // Crypto / Web3
+  if (hasAny(allText, ["crypto", "web3", "blockchain", "token", "defi", "zk"])) {
+    return `Crypto/Web3 is seeing renewed infra interest — this project is capturing that with ${velocity}.`;
+  }
+  // Infra / K8s / observability
+  if (hasAny(allText, ["infra", "kubernetes", "k8s", "container", "docker", "observab"])) {
+    return `AI/ML workloads are pushing infra to the limit — this tool helps and is pulling ${velocity}.`;
+  }
+  // Devtools / CLIs / IDEs
+  if (hasAny(allText, ["ide", "editor", "vscode", "neovim", "devtools", "cli"])) {
+    return `AI-native dev tools are reshaping how engineers work — this one is resonating with ${velocity}.`;
+  }
+  // Data / ETL
+  if (hasAny(allText, ["data", "etl", "pipeline", "streaming"])) {
+    return `Training, analytics, and agent memory all depend on data pipelines — this is filling that need with ${velocity}.`;
+  }
+  // Testing / e2e
+  if (hasAny(allText, ["testing", "e2e", "playwright", "cypress"])) {
+    return `AI/ML and infra systems need more rigorous testing — this framework is answering that with ${velocity}.`;
+  }
+  // Fallback: still specific, no fluff
+  return `Trending with ${velocity}; worth watching, though specifics are unclear from metadata alone.`;
+}
+
+function extractArchitectureTech(language, topics, allText) {
+  const tech = [];
+  if (language) tech.push(language);
+
+  const topicList = (topics || []).map(t => t.toLowerCase());
+  const knownTechWords = [
+    "rust", "python", "typescript", "javascript", "go", "golang",
+    "react", "next.js", "nextjs", "vue", "svelte", "angular",
+    "pytorch", "tensorflow", "jax", "transformers",
+    "docker", "kubernetes", "k8s",
+    "redis", "postgres", "postgresql", "mongo", "mongodb", "sqlite",
+    "grpc", "rest", "graphql",
+    "webassembly", "wasm",
+    "cuda", "tpu", "gpu",
+    "llama.cpp", "vllm", "tensorrt",
+    "mcp", "model context protocol",
+  ];
+
+  for (const t of knownTechWords) {
+    if (!tech.includes(t) && hasAny(allText, [t])) {
+      tech.push(t);
+    }
+  }
+
+  for (const tp of topicList) {
+    if (!tech.includes(tp) && tp.length > 2 && tp.length < 30 && !tp.includes(" ")) {
+      tech.push(tp);
+    }
+  }
+
+  return tech.slice(0, 10);
+}
+
+function hasAny(text, keywords) {
+  const t = (text || "").toLowerCase();
+  return keywords.some(k => t.includes(k));
+}
+
+// ---------- Derive topics (fallback) ----------
+
 function deriveTopics(metaTopics, description) {
   if (metaTopics && metaTopics.length > 0) return metaTopics;
   if (!description) return [];
@@ -210,7 +351,7 @@ function deriveTopics(metaTopics, description) {
     "their", "what", "which", "where", "when", "how", "new", "way",
     "you", "use", "used", "using", "help", "make", "takes",
     "personal", "simple", "super", "powerful", "easy", "fast", "better",
-    "modern", "next", "future", "own", "own", "open", "open",
+    "modern", "next", "future", "own", "open",
   ]);
   const words = description
     .toLowerCase()
@@ -227,23 +368,10 @@ function deriveTopics(metaTopics, description) {
     .map(([t]) => t);
 }
 
-// Simple heuristic to guess owner type
-function guessOwnerType(ownerInfo, repo) {
-  const o = (ownerInfo && typeof ownerInfo.login === "string") ? ownerInfo.login.toLowerCase() : "";
-  const knownOrgPrefixes = [
-    "google", "meta", "microsoft", "meta-", "nvidia", "openai", "anthropic",
-    "amazon", "aws", "github", "vercel", "vllm-project", "huggingface",
-    "deepgram", "deepmind", "meta-llama", "mistralai", "cohere-ai",
-  ];
-  if (knownOrgPrefixes.some(p => o.startsWith(p) || o.includes(p))) return "org";
-  if (ownerInfo && ownerInfo.type && typeof ownerInfo.type === "string") {
-    if (ownerInfo.type.toLowerCase() === "organization") return "org";
-  }
-  return "individual";
-}
+// ---------- Enrich repos ----------
 
-// Enrich repos with real GitHub data and alpha fields
 async function enrichRepos(repos) {
+  const yesterdaySet = getYesterdayRepoSet();
   const enriched = [];
 
   for (let i = 0; i < repos.length; i++) {
@@ -253,26 +381,42 @@ async function enrichRepos(repos) {
 
     const meta = await fetchRepoMeta(owner, name);
 
-    // stars: prefer API; fallback to existing if any
     const stars = (meta?.stars ?? null) || (r.stars ?? null);
-
     const forks = meta?.forks ?? null;
     const language = meta?.language || r.language || null;
     const description = meta?.description || r.description || "";
 
-    // topics: prefer API topics, capped at 6; fallback to derived
     const apiTopics = (Array.isArray(meta?.topics) ? meta.topics : []);
-    const topics = (apiTopics.length > 0 ? apiTopics.slice(0, 6) : deriveTopics(apiTopics, description).slice(0, 6));
+    const topics = (apiTopics.length > 0 ? apiTopics.slice(0, 8) : deriveTopics(apiTopics, description).slice(0, 6));
 
-    // owner_type
-    const owner_type = guessOwnerType(meta?.owner, r.repo);
+    const owner_type = guessOwnerType(meta?.owner);
 
-    const why_notable = generateWhyNotable(
+    // Rising star: recent_stars > 500 AND total_stars < 10,000 (emerging, not established)
+    const is_rising_star = (r.recent_stars || 0) > 500 && (stars || 0) < 10000;
+
+    // new_this_day: not featured yesterday
+    const new_this_day = !yesterdaySet.has(r.repo);
+
+    // Fetch README for deeper repos (high recent_stars or rising star)
+    let readme = null;
+    const shouldFetchReadme = (r.recent_stars || 0) > 200 || is_rising_star;
+    if (shouldFetchReadme) {
+      try {
+        readme = await fetchREADME(owner, name);
+      } catch {
+        // ignore
+      }
+    }
+
+    // Analyze
+    const { repo_summary, why_people_care, architecture_tech } = analyzeRepo(
       r.repo,
       description,
       language,
       topics,
-      r.recent_stars
+      stars,
+      r.recent_stars,
+      readme
     );
 
     enriched.push({
@@ -285,12 +429,21 @@ async function enrichRepos(repos) {
       forks,
       topics,
       owner_type,
-      why_notable,
+      is_rising_star,
+      new_this_day,
+      repo_summary,
+      why_people_care,
+      architecture_tech,
     });
+
+    // Small delay to be nice to GitHub API
+    if (i % 5 === 4) await sleep(400);
   }
 
   return enriched;
 }
+
+// ---------- Main ----------
 
 async function main() {
   try {
@@ -302,10 +455,10 @@ async function main() {
       process.exit(1);
     }
 
-    console.log(`Parsed ${items.length} repos from Trending; enriching via GitHub API...`);
+    console.log(`Parsed ${items.length} repos from Trending; enriching via GitHub API + README...`);
     const enriched = await enrichRepos(items);
 
-    const date = today();
+    const date = todayISO();
     const out = {
       source: "github_trending",
       date,
@@ -313,17 +466,16 @@ async function main() {
       items: enriched,
     };
 
-    const fs = await import("fs");
-    const path = await import("path");
-    const dataDir = path.default.resolve("data");
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true });
+    if (!fs.existsSync(DATA_DIR)) {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
     }
 
-    const file = path.default.join(dataDir, `github_trending_${date}.json`);
+    const file = path.join(DATA_DIR, `github_trending_${date}.json`);
     fs.writeFileSync(file, JSON.stringify(out, null, 2), "utf-8");
 
-    console.log(`OK: wrote ${file} with ${enriched.length} enriched repos`);
+    const risingStars = enriched.filter(r => r.is_rising_star).length;
+    const newToday = enriched.filter(r => r.new_this_day).length;
+    console.log(`OK: wrote ${file} with ${enriched.length} enriched repos (rising_stars=${risingStars}, new_today=${newToday})`);
   } catch (err) {
     console.error("Error in github_trending.mjs:", err.message || err);
     process.exit(1);

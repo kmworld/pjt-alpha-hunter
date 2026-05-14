@@ -4,48 +4,112 @@
   "period": "daily",
   "items": [
     {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 55282,
+      "recent_stars": 1757,
+      "forks": 7347,
+      "topics": [
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1757 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ]
+    },
+    {
       "repo": "tinyhumansai/openhuman",
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 5618,
-      "recent_stars": 1696,
-      "forks": 460,
+      "stars": 7307,
+      "recent_stars": 3476,
+      "forks": 583,
       "topics": [
         "intelligence",
         "private",
         "extremely"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+1696 stars today); worth watching for domain impact."
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +3476 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "go",
+        "react",
+        "rest",
+        "intelligence",
+        "private",
+        "extremely"
+      ]
     },
     {
       "repo": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars": 7715,
-      "recent_stars": 1379,
-      "forks": 661,
+      "stars": 8703,
+      "recent_stars": 1978,
+      "forks": 722,
       "topics": [
         "agentmemory",
         "agents",
         "ai",
         "claude",
         "claudecode",
-        "codex"
+        "codex",
+        "copilot",
+        "cursor"
       ],
       "owner_type": "individual",
-      "why_notable": "Trending repo with strong momentum (+1379 stars today); worth watching for domain impact."
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1978 stars today.",
+      "architecture_tech": [
+        "TypeScript",
+        "go",
+        "mcp",
+        "agentmemory",
+        "agents",
+        "claude",
+        "claudecode",
+        "codex",
+        "copilot",
+        "cursor"
+      ]
     },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 189571,
-      "recent_stars": 1401,
-      "forks": 16870,
+      "stars": 190757,
+      "recent_stars": 1801,
+      "forks": 16957,
       "topics": [
         "agentic",
         "skills",
@@ -54,165 +118,306 @@
         "development"
       ],
       "owner_type": "individual",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+1401 stars today); relevant for autonomous workflows and multi-agent infra."
-    },
-    {
-      "repo": "yikart/AiToEarn",
-      "url": "https://github.com/yikart/AiToEarn",
-      "description": "Let's use AI to Earn!",
-      "language": "TypeScript",
-      "stars": 12969,
-      "recent_stars": 981,
-      "forks": 2235,
-      "topics": [
-        "auto-publish",
-        "douyin",
-        "douyin-api",
-        "electron-app",
-        "electron-react",
-        "kuaishou"
-      ],
-      "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+981 stars today); worth watching for domain impact."
-    },
-    {
-      "repo": "influxdata/telegraf",
-      "url": "https://github.com/influxdata/telegraf",
-      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
-      "language": "Go",
-      "stars": 17012,
-      "recent_stars": 13,
-      "forks": 5779,
-      "topics": [
-        "golang",
-        "hacktoberfest",
-        "influxdb",
-        "json",
-        "kafka",
-        "logs"
-      ],
-      "owner_type": "org",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+13 stars today); relevant for autonomous workflows and multi-agent infra."
-    },
-    {
-      "repo": "millionco/react-doctor",
-      "url": "https://github.com/millionco/react-doctor",
-      "description": "Your agent writes bad React. This catches it",
-      "language": "TypeScript",
-      "stars": 9300,
-      "recent_stars": 604,
-      "forks": 289,
-      "topics": [
-        "agents",
-        "code-review",
-        "doctor",
-        "react",
-        "skill"
-      ],
-      "owner_type": "org",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+604 stars today); relevant for autonomous workflows and multi-agent infra."
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "An agentic skills framework & software development methodology that works.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1801 stars today.",
+      "architecture_tech": [
+        "Shell",
+        "go",
+        "agentic",
+        "skills",
+        "framework",
+        "software",
+        "development"
+      ]
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "stars": 21152,
-      "recent_stars": 99,
-      "forks": 2330,
+      "stars": 21582,
+      "recent_stars": 637,
+      "forks": 2361,
       "topics": [
         "agent-skills",
         "ai-scientist",
         "bioinformatics",
         "chemoinformatics",
         "claude",
-        "claude-skills"
+        "claude-skills",
+        "claudecode",
+        "clinical-research"
       ],
       "owner_type": "org",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+99 stars today); relevant for autonomous workflows and multi-agent infra."
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +637 stars today.",
+      "architecture_tech": [
+        "Python",
+        "python",
+        "go",
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode"
+      ]
     },
     {
-      "repo": "danielmiessler/Personal_AI_Infrastructure",
-      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
-      "language": "TypeScript",
-      "stars": 13389,
-      "recent_stars": 435,
-      "forks": 1871,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 24654,
+      "recent_stars": 359,
+      "forks": 4323,
       "topics": [
-        "ai",
-        "augmentation",
-        "humans",
-        "productivity"
+        "kronos",
+        "foundation",
+        "model",
+        "language",
+        "financial"
       ],
       "owner_type": "individual",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+435 stars today); relevant for autonomous workflows and multi-agent infra."
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "why_people_care": "Production RAG needs reliable retrieval, not demos — this repo is filling that gap with +359 stars today.",
+      "architecture_tech": [
+        "Python",
+        "go",
+        "kronos",
+        "foundation",
+        "model",
+        "language",
+        "financial"
+      ]
+    },
+    {
+      "repo": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 38757,
+      "recent_stars": 59,
+      "forks": 3476,
+      "topics": [
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "We write your reusable computer vision tools. 💜",
+      "why_people_care": "Trending with +59 stars today; worth watching, though specifics are unclear from metadata alone.",
+      "architecture_tech": [
+        "Python",
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code"
+      ]
+    },
+    {
+      "repo": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17134,
+      "recent_stars": 211,
+      "forks": 5788,
+      "topics": [
+        "golang",
+        "hacktoberfest",
+        "influxdb",
+        "json",
+        "kafka",
+        "logs",
+        "metrics",
+        "modbus"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +211 stars today.",
+      "architecture_tech": [
+        "Go",
+        "go",
+        "golang",
+        "docker",
+        "tpu",
+        "hacktoberfest",
+        "influxdb",
+        "json",
+        "kafka",
+        "logs"
+      ]
     },
     {
       "repo": "supertone-inc/supertonic",
       "url": "https://github.com/supertone-inc/supertonic",
       "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
       "language": "Swift",
-      "stars": 4386,
-      "recent_stars": 859,
-      "forks": 445,
+      "stars": 5057,
+      "recent_stars": 1163,
+      "forks": 491,
       "topics": [
         "cpp",
         "csharp",
         "go",
         "ios",
         "java",
-        "lightweight"
+        "lightweight",
+        "nodejs",
+        "on-device"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+859 stars today); worth watching for domain impact."
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "why_people_care": "Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining +1163 stars today.",
+      "architecture_tech": [
+        "Swift",
+        "python",
+        "go",
+        "tpu",
+        "cpp",
+        "csharp",
+        "ios",
+        "java",
+        "lightweight",
+        "nodejs"
+      ]
+    },
+    {
+      "repo": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "stars": 141086,
+      "recent_stars": 589,
+      "forks": 13035,
+      "topics": [
+        "android",
+        "c",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Display and control your Android device",
+      "why_people_care": "AI and infra stacks are prime targets — defensive tooling is under-supplied, hence +589 stars today.",
+      "architecture_tech": [
+        "C",
+        "go",
+        "android",
+        "ffmpeg",
+        "libav",
+        "mirroring",
+        "recording",
+        "screen",
+        "sdl2"
+      ]
+    },
+    {
+      "repo": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "stars": 726,
+      "recent_stars": 28,
+      "forks": 239,
+      "topics": [
+        "agents",
+        "llm",
+        "rag",
+        "skills",
+        "video-analytics",
+        "video-search",
+        "vlm"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +28 stars today.",
+      "architecture_tech": [
+        "Python",
+        "gpu",
+        "agents",
+        "llm",
+        "rag",
+        "skills",
+        "video-analytics",
+        "video-search",
+        "vlm"
+      ]
     },
     {
       "repo": "CloakHQ/CloakBrowser",
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars": 9552,
-      "recent_stars": 1835,
-      "forks": 709,
+      "stars": 10402,
+      "recent_stars": 1369,
+      "forks": 782,
       "topics": [
         "ai-agents",
         "anti-detect",
         "antidetect-browser",
         "bot-detection",
         "browser-automation",
-        "captcha-bypass"
+        "captcha-bypass",
+        "chromium",
+        "cloudflare"
       ],
       "owner_type": "org",
-      "why_notable": "Testing framework trending (+1835 stars today); critical for reliable AI/ML and infra systems."
-    },
-    {
-      "repo": "Greedeks/GTweak",
-      "url": "https://github.com/Greedeks/GTweak",
-      "description": "Portable Tool for an Ideal Windows Setup",
-      "language": "C#",
-      "stars": 933,
-      "recent_stars": 75,
-      "forks": 78,
-      "topics": [
-        "activator",
-        "debloat",
-        "disable-services",
-        "disable-windows-defender",
-        "disable-windows-services",
-        "hwid"
-      ],
-      "owner_type": "individual",
-      "why_notable": "Trending repo with strong momentum (+75 stars today); worth watching for domain impact."
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1369 stars today.",
+      "architecture_tech": [
+        "Python",
+        "python",
+        "javascript",
+        "go",
+        "docker",
+        "gpu",
+        "ai-agents",
+        "anti-detect",
+        "antidetect-browser",
+        "bot-detection"
+      ]
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "stars": 79097,
-      "recent_stars": 3392,
-      "forks": 6814,
+      "stars": 81221,
+      "recent_stars": 2971,
+      "forks": 7007,
       "topics": [
         "skills",
         "engineers",
@@ -221,137 +426,82 @@
         "directory"
       ],
       "owner_type": "individual",
-      "why_notable": "Trending repo with strong momentum (+3392 stars today); worth watching for domain impact."
-    },
-    {
-      "repo": "ArthurBrussee/brush",
-      "url": "https://github.com/ArthurBrussee/brush",
-      "description": "3D Reconstruction for all",
-      "language": "Rust",
-      "stars": 4374,
-      "recent_stars": 81,
-      "forks": 234,
-      "topics": [
-        "gaussian-splatting",
-        "graphics",
-        "reconstruction"
-      ],
-      "owner_type": "individual",
-      "why_notable": "Trending repo with strong momentum (+81 stars today); worth watching for domain impact."
-    },
-    {
-      "repo": "imthenachoman/How-To-Secure-A-Linux-Server",
-      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
-      "description": "An evolving how-to guide for securing a Linux server.",
-      "language": null,
-      "stars": 27104,
-      "recent_stars": 234,
-      "forks": 1774,
-      "topics": [
-        "cc-by-sa",
-        "hardening",
-        "hardening-steps",
-        "linux",
-        "linux-server",
-        "security"
-      ],
-      "owner_type": "individual",
-      "why_notable": "Security/auditing tool with rising interest (+234 stars today); useful for hardening AI, infra, or crypto stacks."
-    },
-    {
-      "repo": "apernet/hysteria",
-      "url": "https://github.com/apernet/hysteria",
-      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
-      "language": "Go",
-      "stars": 20625,
-      "recent_stars": 485,
-      "forks": 2135,
-      "topics": [
-        "censorship-circumvention",
-        "golang",
-        "http-proxy",
-        "hysteria",
-        "proxy",
-        "quic"
-      ],
-      "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+485 stars today); worth watching for domain impact."
-    },
-    {
-      "repo": "rasbt/LLMs-from-scratch",
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "language": "Jupyter Notebook",
-      "stars": 94481,
-      "recent_stars": 821,
-      "forks": 14483,
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "chatbot",
-        "chatgpt",
-        "deep-learning",
-        "from-scratch"
-      ],
-      "owner_type": "individual",
-      "why_notable": "Core LLM/LLM-stack project gaining traction (+821 stars today); important for model serving, fine-tuning, or efficiency."
-    },
-    {
-      "repo": "ton-blockchain/acton",
-      "url": "https://github.com/ton-blockchain/acton",
-      "description": "Toolchain for TON smart contract development and beyond",
-      "language": "Rust",
-      "stars": 217,
-      "recent_stars": 18,
-      "forks": 29,
-      "topics": [
-        "mtonga",
-        "rust",
-        "tolk",
-        "ton",
-        "ton-blockchain",
-        "tooling"
-      ],
-      "owner_type": "org",
-      "why_notable": "Crypto/Web3/DePIN project trending (+18 stars today); watch for protocol or infra-level alpha."
-    },
-    {
-      "repo": "trycua/cua",
-      "url": "https://github.com/trycua/cua",
-      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
-      "language": "HTML",
-      "stars": 16557,
-      "recent_stars": 245,
-      "forks": 1040,
-      "topics": [
-        "agent",
-        "ai-agent",
-        "apple",
-        "computer-use",
-        "computer-use-agent",
-        "containerization"
-      ],
-      "owner_type": "org",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+245 stars today); relevant for autonomous workflows and multi-agent infra."
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Skills for Real Engineers. Straight from my .claude directory.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +2971 stars today.",
+      "architecture_tech": [
+        "Shell",
+        "typescript",
+        "go",
+        "skills",
+        "engineers",
+        "straight",
+        "claude",
+        "directory"
+      ]
     },
     {
       "repo": "github/spec-kit",
       "url": "https://github.com/github/spec-kit",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "stars": 98420,
-      "recent_stars": 1120,
-      "forks": 8573,
+      "stars": 99099,
+      "recent_stars": 1240,
+      "forks": 8632,
       "topics": [
         "ai",
         "copilot",
         "development",
         "engineering",
         "prd",
-        "spec"
+        "spec",
+        "spec-driven"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+1120 stars today); worth watching for domain impact."
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1240 stars today.",
+      "architecture_tech": [
+        "Python",
+        "go",
+        "copilot",
+        "development",
+        "engineering",
+        "prd",
+        "spec",
+        "spec-driven"
+      ]
+    },
+    {
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 96348,
+      "recent_stars": 1083,
+      "forks": 14323,
+      "topics": [
+        "manager",
+        "garry",
+        "exact",
+        "claude",
+        "setup"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1083 stars today.",
+      "architecture_tech": [
+        "TypeScript",
+        "manager",
+        "garry",
+        "exact",
+        "claude",
+        "setup"
+      ]
     }
   ]
 }

@@ -241,6 +241,7 @@ async function scanPopularRising() {
   const endpoints = [
     "https://www.reddit.com/r/all/top.json?t=day&limit=50",
     "https://www.reddit.com/best.json?t=day&limit=50",
+    "https://www.reddit.com/r/popular/top.json?t=day&limit=50",
   ];
 
   for (const url of endpoints) {
@@ -291,6 +292,89 @@ async function scanPopularRising() {
   return hotSubreddits;
 }
 
+function buildPostSummary(title, selftextShort, whyHot) {
+  const t = (title || "").trim();
+  const s = (selftextShort || "").trim();
+  const lines = [];
+
+  if (t.length > 0) {
+    lines.push(t);
+  }
+
+  if (s && s.length > 20) {
+    const snippet = s.replace(/\n+/g, " ").trim();
+    const cut = snippet.length > 180 ? snippet.slice(0, 180).trimEnd() + "..." : snippet;
+    if (!t.toLowerCase().includes(cut.toLowerCase().slice(0, 40))) {
+      lines.push(cut);
+    }
+  }
+
+  if (whyHot && whyHot.length > 10 && !t.toLowerCase().includes(whyHot.toLowerCase().slice(0, 40))) {
+    lines.push(whyHot);
+  }
+
+  // Keep to 2-4 lines max, under 320 chars total
+  let out = lines.join(" ").trim();
+  if (out.length > 320) {
+    out = out.slice(0, 317).trimEnd() + "...";
+  }
+  return out || t;
+}
+
+function buildGlobalHotPosts(allSubreddits) {
+  const allPosts = [];
+
+  for (const sub of allSubreddits) {
+    const name = sub.name || "";
+    for (const p of sub.posts || []) {
+      allPosts.push({
+        ...p,
+        subreddit: name,
+      });
+    }
+  }
+
+  // Sort by engagement-weighted score: score * 1 + comments * 0.2
+  allPosts.sort((a, b) => {
+    const scoreA = (a.score || 0) + (a.comments || 0) * 0.2;
+    const scoreB = (b.score || 0) + (b.comments || 0) * 0.2;
+    return scoreB - scoreA;
+  });
+
+  // Take top 30
+  const top30 = allPosts.slice(0, 30);
+
+  return top30.map(p => ({
+    url: p.url || "",
+    title: p.title || "",
+    score: p.score || 0,
+    comments: p.comments || 0,
+    subreddit: p.subreddit || "",
+    post_summary: buildPostSummary(p.title, p.selftext_short, p.why_hot),
+    why_hot: p.why_hot || "",
+  }));
+}
+
+function buildEmergingSubreddits(hotSubreddits) {
+  if (!hotSubreddits || hotSubreddits.length === 0) return [];
+
+  // Filter to those with multiple hot posts and AI/tech/crypto/startup flavor
+  const result = hotSubreddits
+    .filter(s => s.post_count >= 2)
+    .slice(0, 6)
+    .map(s => {
+      const reason =
+        `Multiple hot posts (${s.post_count}) in AI/tech/crypto/startup spaces; rising community interest.`;
+      return {
+        name: s.name,
+        reason,
+        sample_posts: (s.sample_titles || []).slice(0, 3),
+      };
+    });
+
+  return result;
+}
+
 (async () => {
   const subreddits = [];
   let anySuccess = false;
@@ -316,11 +400,17 @@ async function scanPopularRising() {
     process.exit(1);
   }
 
+  // 3) Build global hot posts and emerging subreddits
+  const globalHotPosts = buildGlobalHotPosts(subreddits);
+  const emergingSubreddits = buildEmergingSubreddits(hotSubreddits);
+
   const payload = {
     source: "reddit",
     date: DATE_STR,
     subreddits,
     hot_subreddits: hotSubreddits,
+    global_hot_posts: globalHotPosts,
+    emerging_subreddits: emergingSubreddits,
   };
 
   // Ensure data directory exists

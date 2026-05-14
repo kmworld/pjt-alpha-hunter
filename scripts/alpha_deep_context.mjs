@@ -221,6 +221,8 @@ function buildDeepContext(date) {
   const hnShow = hn?.sections?.show_hn || [];
   const redditSubs = reddit?.subreddits || [];
   const redditHot = reddit?.hot_subreddits || [];
+  const redditGlobalHotPosts = reddit?.global_hot_posts || [];
+  const redditEmergingSubreddits = reddit?.emerging_subreddits || redditHot;
   const hfModels = research?.huggingface_trending || [];
   const arxivPapers = research?.arxiv_recent || [];
   const phProducts = product?.product_hunt || [];
@@ -241,6 +243,7 @@ function buildDeepContext(date) {
     reddit: {
       totalPosts: redditSubs.reduce((s, sb) => s + (sb.posts || []).length, 0),
       hotSubreddits: redditHot.map(s => s.name),
+      globalHotPostsCount: redditGlobalHotPosts.length,
     },
     research_ml: {
       hfCount: hfModels.length,
@@ -258,20 +261,23 @@ function buildDeepContext(date) {
 
   // ===== GitHub signals =====
 
-  // Top by stars_today
+  // Top by stars_today (use enriched fields when available)
   const ghSorted = [...ghItems].sort((a, b) => (b.recent_stars || 0) - (a.recent_stars || 0));
   const topByStarsToday = ghSorted
     .filter(r => (r.recent_stars || 0) >= 100)
     .slice(0, 10)
     .map(r => {
-      const text = `${r.repo} ${r.description || ""}`;
-      let reason = "";
-      if (hasAny(text, AI_AGENT_KW)) reason = "AI/Agent-related project with strong daily star velocity";
-      else if (hasAny(text, WEB3_KW)) reason = "Web3/crypto/blockchain project gaining traction";
-      else if (hasAny(text, INFRA_KW)) reason = "Dev infra/tooling with notable adoption";
-      else if ((r.recent_stars || 0) >= 1000) reason = "Extremely high star velocity; likely breakout tool";
-      else if ((r.recent_stars || 0) >= 500) reason = "High star velocity; strong community interest";
-      else reason = "Notable daily star count on GitHub Trending";
+      const text = `${r.repo} ${r.description || ""} ${r.why_people_care || ""}`;
+      const reason = r.why_people_care
+        ? r.why_people_care
+        : (() => {
+            if (hasAny(text, AI_AGENT_KW)) return "AI/Agent-related project with strong daily star velocity";
+            if (hasAny(text, WEB3_KW)) return "Web3/crypto/blockchain project gaining traction";
+            if (hasAny(text, INFRA_KW)) return "Dev infra/tooling with notable adoption";
+            if ((r.recent_stars || 0) >= 1000) return "Extremely high star velocity; likely breakout tool";
+            if ((r.recent_stars || 0) >= 500) return "High star velocity; strong community interest";
+            return "Notable daily star count on GitHub Trending";
+          })();
       return {
         repo: r.repo,
         description: shortReason(r.description),
@@ -279,6 +285,11 @@ function buildDeepContext(date) {
         stars: r.stars || null,
         recent_stars: r.recent_stars || null,
         url: r.url,
+        is_rising_star: r.is_rising_star || null,
+        new_this_day: r.new_this_day || null,
+        repo_summary: r.repo_summary || null,
+        why_people_care: shortReason(r.why_people_care || reason),
+        architecture_tech: r.architecture_tech || null,
         signal_reason: shortReason(reason),
       };
     });
@@ -772,6 +783,7 @@ function buildDeepContext(date) {
       reddit: {
         hot_topics: hotTopics,
         emerging_subreddits: emergingSubreddits,
+        global_hot_posts: redditGlobalHotPosts,
       },
       research_ml: {
         trending_models: trendingModels,
