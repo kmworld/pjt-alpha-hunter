@@ -227,14 +227,15 @@ function inferArxivWhyNotable(title, abstractShort) {
 
 // ---------- ArXiv Recent Papers (last 14 days) ----------
 async function fetchArxiv() {
-  // Longer delay to reduce rate-limit risk
-  await new Promise((r) => setTimeout(r, 5000));
+  // Increased delay between HF and ArXiv to avoid 429 rate-limiting
+  await new Promise((r) => setTimeout(r, 10000));
 
-  const baseQuery = "cat:cs.AI+OR+cat:cs.LG";
-  const url = `https://export.arxiv.org/api/query?search_query=${baseQuery}&sortBy=submittedDate&sortOrder=descending&max_results=10`;
+  // Smaller, focused query to reduce load and chance of 429
+  const baseQuery = "cat:cs.AI";
+  const url = `https://export.arxiv.org/api/query?search_query=${baseQuery}&sortBy=submittedDate&sortOrder=descending&max_results=8`;
 
   const resp = await fetch(url, {
-    signal: AbortSignal.timeout(15_000),
+    signal: AbortSignal.timeout(20_000),
   });
 
   if (!resp.ok) {
