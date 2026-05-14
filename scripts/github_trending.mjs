@@ -121,77 +121,72 @@ async function fetchRepoMeta(owner, repo) {
   }
 }
 
-// Generate short, domain-aware "why_notable" from context
+// Generate a concise, domain-aware "why_notable" for each repo.
 function generateWhyNotable(repo, description, language, topics, recent_stars) {
   if (!repo) return "";
   const lower = (repo + " " + (description || "") + " " + (topics || []).join(" ")).toLowerCase();
-  const lang = (language || "").toLowerCase();
-
-  const domain = classifyDomain(lower);
   const signal = recent_stars != null && recent_stars > 0
     ? `+${recent_stars} stars today`
     : "rapidly trending";
 
-  if (lower.includes("agent") || lower.includes("agentic") || lower.includes("ai assistant")) {
+  // AI agents / agent infra
+  if (/\b(agent|agentic|multi-agent|tool-use|tool calling)\b/.test(lower)) {
     return `AI agent runtime/tooling with strong momentum (${signal}); relevant for autonomous workflows and multi-agent infra.`;
   }
-  if (lower.includes("llm") || lower.includes("large language model") || lower.includes("llama")) {
+  // LLMs, model stacks
+  if (/\b(llm|large language model|llama|gpt|transformer|diffusion)\b/.test(lower)) {
     return `Core LLM/LLM-stack project gaining traction (${signal}); important for model serving, fine-tuning, or efficiency.`;
   }
-  if (lower.includes("rag") || lower.includes("retrieval augmented")) {
+  // RAG / retrieval
+  if (/\b(rag|retrieval augmented|vector search|semantic search)\b/.test(lower)) {
     return `RAG/search stack component trending quickly (${signal}); key for production knowledge retrieval pipelines.`;
   }
-  if (lower.includes("vector") && (lower.includes("database") || lower.includes("db"))) {
+  // Vector DBs
+  if (/\b(vector|ann)\b/.test(lower) && /\b(database|db|store|index)\b/.test(lower)) {
     return `VectorDB/ANN library with strong interest (${signal}); critical for semantic search and embeddings at scale.`;
   }
-  if (lower.includes("fine-tun") || lower.includes("finetune") || lower.includes("sft")) {
+  // Fine-tuning / training
+  if (/\b(fine-tun|finetune|sft|training)\b/.test(lower)) {
     return `Fine-tuning/training tool trending (${signal}); valuable for domain-specific model adaptation.`;
   }
-  if (lower.includes("quantize") || lower.includes("quantization") || lower.includes("gguf") || lower.includes("llama.cpp")) {
+  // Quantization / inference efficiency
+  if (/\b(quantize|quantization|gguf|llama\.cpp|vllm|tensorrt)\b/.test(lower)) {
     return `Model quantization/efficiency tool gaining attention (${signal}); enables on-device or low-cost inference.`;
   }
-  if (lower.includes("security") || lower.includes("audit") || lower.includes("vulnerab")) {
+  // Security / audit
+  if (/\b(security|audit|vulnerab|exploit|hardening)\b/.test(lower)) {
     return `Security/auditing tool with rising interest (${signal}); useful for hardening AI, infra, or crypto stacks.`;
   }
-  if (lower.includes("crypto") || lower.includes("web3") || lower.includes("blockchain")) {
-    return `Crypto/Web3 project trending (${signal}); watch for protocol or infra-level alpha.`;
+  // Crypto / Web3 / DePIN
+  if (/\b(crypto|web3|blockchain|token|defi|nft|depin)\b/.test(lower)) {
+    return `Crypto/Web3/DePIN project trending (${signal}); watch for protocol or infra-level alpha.`;
   }
-  if (lower.includes("depin") || lower.includes("depin") || lower.includes("depin") || lower.includes("depin")) {
-    return `DePIN/infra-related project trending (${signal}); potential for physical-digital infrastructure plays.`;
+  // Infra / containers / Kubernetes
+  if (/\b(infra|kubernetes|k8s|container|docker|telegraf|observab)\b/.test(lower)) {
+    return `Infra/containers/observability project trending (${signal}); relevant for scalable AI/ML deployments.`;
   }
-  if (lower.includes("infra") || lower.includes("kubernetes") || lower.includes("container")) {
-    return `Infra/containers project trending (${signal}); relevant for scalable AI/ML deployments.`;
+  // Devtools / CLIs / IDEs / editors
+  if (/\b(ide|editor|vscode|neovim|devtools|cli|build tool)\b/.test(lower)) {
+    return `Devtools/IDE gaining traction (${signal}); improves dev velocity for AI-native stacks.`;
   }
-  if (lower.includes("devtools") || lower.includes("cli") || lower.includes("build tool")) {
-    return `Devtools/CLI gaining traction (${signal}); improves dev velocity for AI-native stacks.`;
-  }
-  if (lower.includes("data") && (lower.includes("pipeline") || lower.includes("etl"))) {
+  // Data / ETL / pipelines
+  if (/\b(data|etl|pipeline|streaming)\b/.test(lower)) {
     return `Data pipeline/ETL tool trending (${signal}); important for training and analytics workflows.`;
   }
-  if (lower.includes("testing") || lower.includes("test") || lower.includes("e2e")) {
+  // Testing / e2e
+  if (/\b(testing|e2e|playwright|cypress)\b/.test(lower)) {
     return `Testing framework trending (${signal}); critical for reliable AI/ML and infra systems.`;
   }
-  if (lower.includes("ci") || lower.includes("cd") || lower.includes("pipeline")) {
+  // CI/CD
+  if (/\b(ci\/cd|continuous)\b/.test(lower)) {
     return `CI/CD tool trending (${signal}); key for faster, safer delivery of AI and infra changes.`;
   }
-  if (lower.includes("monitor") || lower.includes("observab") || lower.includes("telemetry")) {
-    return `Observability/monitoring tool trending (${signal}); essential for AI system reliability.`;
-  }
-  if (lower.includes("dashboard") || lower.includes("analytics") || lower.includes("metrics")) {
-    return `Analytics/observability tool trending (${signal}); useful for AI ops and business metrics.`;
-  }
-  if (lower.includes("ui") || lower.includes("frontend") || lower.includes("design") || lower.includes("figma")) {
+  // UI / frontend / design
+  if (/\b(ui|frontend|design|figma|design system)\b/.test(lower)) {
     return `UI/frontend tool trending (${signal}); relevant for AI-powered apps and design workflows.`;
   }
-  if (lower.includes("editor") || lower.includes("ide") || lower.includes("vscode") || lower.includes("neovim")) {
-    return `Editor/IDE tool trending (${signal}); important for developer productivity and AI-assisted coding.`;
-  }
-  if (lower.includes("python") || lower.includes("javascript") || lower.includes("typescript") || lower.includes("rust")) {
-    return `Dev tool in ${lang || "popular runtime"} trending (${signal}); broad impact on developer workflows.`;
-  }
-
-  // Generic fallback, still useful
-  return `Trending repo with strong momentum (${signal}); ${domain ? "fits " + domain + " landscape." : "worth watching for domain impact."}`;
+  // Fallback: short and non-generic
+  return `Trending repo with strong momentum (${signal}); worth watching for domain impact.`;
 }
 
 // Lightweight domain classifier
@@ -205,7 +200,7 @@ function classifyDomain(text) {
   return null;
 }
 
-// Build topics from meta or from title/description
+// Build topics from meta or from title/description (safer fallback)
 function deriveTopics(metaTopics, description) {
   if (metaTopics && metaTopics.length > 0) return metaTopics;
   if (!description) return [];
@@ -214,12 +209,14 @@ function deriveTopics(metaTopics, description) {
     "like", "just", "more", "most", "also", "very", "such", "each",
     "their", "what", "which", "where", "when", "how", "new", "way",
     "you", "use", "used", "using", "help", "make", "takes",
+    "personal", "simple", "super", "powerful", "easy", "fast", "better",
+    "modern", "next", "future", "own", "own", "open", "open",
   ]);
   const words = description
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, " ")
     .split(/\s+/)
-    .filter(w => w.length > 3 && !stopWords.has(w));
+    .filter(w => w.length > 4 && !stopWords.has(w));
   const counts = {};
   for (const w of words) {
     counts[w] = (counts[w] || 0) + 1;

@@ -64,33 +64,67 @@ async function fetchJson(url) {
   }
 }
 
+async function fetchTopComments(permalink) {
+  if (!permalink) return null;
+  const url = `https://www.reddit.com${permalink}.json`;
+  const json = await fetchJson(url);
+  if (!json || !Array.isArray(json) || json.length < 2) return null;
+  // json[1] is comments array
+  const comments = (json[1]?.data?.children || [])
+    .map(c => c.data?.body || "")
+    .filter(b => b.trim().length > 30);
+  if (comments.length === 0) return null;
+  // Take up to 5 comments, total up to 600 chars
+  const taken = comments.slice(0, 5);
+  let out = "";
+  for (const c of taken) {
+    if (out.length + c.length + 20 > 600) break;
+    if (out) out += "\n\n";
+    out += c.trim();
+  }
+  return out.trim();
+}
+
 async function fetchSubreddit(sub) {
   const url = `https://www.reddit.com/r/${sub}/top.json?t=day&limit=30`;
   const json = await fetchJson(url);
   if (!json || !json.data?.children) return null;
 
-  const posts = (json.data.children || []).map((c) => {
+  const posts = [];
+
+  for (const c of (json.data.children || [])) {
     const d = c.data;
-    // Prefer Reddit post permalink (stable link to the discussion)
     const redditPostUrl = (d.permalink
       ? `https://www.reddit.com${d.permalink}`
       : d.url || "");
 
-    // Take selftext (post body) for richer analysis; limit length
     const selftext = (d.selftext || "").trim();
-    const selftextShort = selftext.length > 1200 ? selftext.slice(0, 1200) : selftext;
+    const isLinkPost = !selftext || selftext.length < 20;
+    let selftextShort = null;
+
+    if (!isLinkPost) {
+      selftextShort = selftext.length > 1200 ? selftext.slice(0, 1200) : selftext;
+    } else if (d.num_comments && d.num_comments > 0) {
+      // For link posts with comments, fetch top comments as context
+      try {
+        selftextShort = await fetchTopComments(d.permalink);
+      } catch {
+        // ignore errors, keep null
+      }
+    }
 
     const whyHot = buildWhyHot(d.title, selftextShort);
 
-    return {
+    posts.push({
       title: d.title || "",
       url: redditPostUrl,
       score: d.score ?? 0,
       comments: d.num_comments ?? 0,
+      link_post: isLinkPost,
       selftext_short: selftextShort || null,
       why_hot: whyHot || null,
-    };
-  });
+    });
+  }
 
   return { name: `r/${sub}`, posts };
 }
@@ -111,44 +145,78 @@ function hasKeyword(text) {
 function buildWhyHot(title, selftextShort) {
   const t = (title || "").trim();
   const s = (selftextShort || "").trim();
-  const lower = (t + " " + s).toLowerCase();
+  const text = (t + " " + s).trim();
+  const lower = text.toLowerCase();
 
-  // Domain hints
-  const isAI = /\b(artificial\s+intelligence|ai|llm|gpt|diffusion|diffuser|transformer|deep\s+learning|ml|foundation\s+model|multimodal|agentic|agent|ai\s+infra|ai\s+chip|ai\s+runtime|ai\s+observability|ai\s+agent)\b/.test(lower);
-  const isCrypto = /\b(crypto|bitcoin|btc|eth|ethereum|sol|solana|web3|defi|nft|dao|chainlink|stablecoin|zksync|zk-rollup|layer2|layer\s*2|rollup)\b/.test(lower);
-  const isCyber = /\b(cybersecurity|exploit|vulnerability|cve|zero-day|0-day|phishing|ransomware|data\s+leak|breach|patch|security\s+research)\b/.test(lower);
-  const isStartup = /\b(startup|y\s*combinator|yc|fund(ing|raiser)|valuation|acquisition|exit|seed|series\s*[a-z])\b/.test(lower);
-  const isInfra = /\b(infra|cloud|kubernetes|k8s|serverless|edge|observability|logging|telemetry|sre|platform\s+engineering|devops|ci\/cd)\b/.test(lower);
-  const isOSS = /\b(open\s*source|oss|contribut|pull\s*request|fork|maintainer)\b/.test(lower);
+  // Detect key themes (only as internal signals, not printed verbatim)
+  const hasAI = /\b(ai|llm|gpt|diffusion|transformer|deep\s+learning|ml|foundation\s+model|multimodal|agentic|agent)\b/.test(lower);
+  const hasCrypto = /\b(crypto|bitcoin|btc|eth|ethereum|sol|solana|web3|defi|nft|dao|stablecoin|rollup)\b/.test(lower);
+  const hasSecurity = /\b(cybersecurity|exploit|vulnerability|cve|zero-day|0-day|phishing|ransomware|data\s+leak|breach|security)\b/.test(lower);
+  const hasStartup = /\b(startup|y\s*combinator|yc|fund|seed|series\s*[a-z]|valuation|acquisition|exit|layoff|fired)\b/.test(lower);
+  const hasInfra = /\b(infra|cloud|kubernetes|k8s|serverless|edge|observability|telemetry|sre|devops|ci\/cd)\b/.test(lower);
+  const hasOSS = /\b(open\s*source|oss|contribut|pull\s*request|fork|maintainer)\b/.test(lower);
 
-  // Build concise why_hot (1–2 lines, no fluff)
-  const reasons = [];
+  // Detect event-type signals
+  const isLaunch = /\b(launch|launching|released|release|announced|announcing|debuted)\b/.test(lower);
+  const isIncident = /\b(breach|leak|exploit|vulnerability|zero-day|ransomware|incident|outage|down|downtime)\b/.test(lower);
+  const isMoney = /\b(fund|raised|valuation|acqui|ipo|listing|token|raise|seed|series)\b/.test(lower);
+  const isRegulation = /\b(regulat|ban|restriction|policy|law|legislation|compliance|ftc|sec|eu\s+ai)\b/.test(lower);
+  const isOrgChange = /\b(layoff|fire|fired|cut|downsize|quit|resign|stepping\s+down|ceo)\b/.test(lower);
+  const isHype = /\b(breakthrough|disrupt|major|big|huge|massive|critical|urgent)\b/.test(lower);
 
-  if (isAI) reasons.push("AI / ML / agent ecosystem relevance");
-  if (isCrypto) reasons.push("crypto / blockchain / DeFi signal");
-  if (isCyber) reasons.push("security / exploit / risk indicator");
-  if (isStartup) reasons.push("startup / funding / market movement");
-  if (isInfra) reasons.push("infra / operations / tooling shift");
-  if (isOSS) reasons.push("open-source project traction");
+  // Build a concise, specific explanation (1–2 lines)
+  // Strategy: describe what the post is about and why it's hot, without generic labels
 
-  // Fallback if no domain detected but still potentially interesting
-  if (reasons.length === 0) {
-    if (/\b(breakthrough|disrupt|major|big|huge|massive|critical|urgent|announced|launch)\b/.test(lower)) {
-      reasons.push("high-impact announcement or event");
-    } else {
-      reasons.push("trending discussion with potential alpha");
+  let why = "";
+
+  // If title already tells the story clearly, anchor on that
+  if (t.length > 20 && t.length < 150) {
+    why = t;
+  } else if (t.length >= 150) {
+    why = t.slice(0, 140).trim().replace(/\s+$/, "") + "...";
+  } else {
+    // Very short title: fall back to neutral summary
+    why = "Trending discussion";
+  }
+
+  // Add a short contextual note only if we detect a clear signal
+  const notes = [];
+
+  if (isIncident) {
+    notes.push("likely drawing attention due to a security incident or outage");
+  } else if (isMoney) {
+    notes.push("likely drawing attention due to funding, valuation, or market movement");
+  } else if (isLaunch) {
+    notes.push("likely drawing attention as a new launch or announcement");
+  } else if (isRegulation) {
+    notes.push("likely drawing attention due to regulation or policy changes");
+  } else if (isOrgChange) {
+    notes.push("likely drawing attention due to organizational or leadership changes");
+  } else if (isHype) {
+    notes.push("likely drawing attention due to a high-impact or controversial development");
+  } else if (hasAI || hasInfra || hasOSS) {
+    notes.push("relevant to AI, infrastructure, or open-source ecosystem movements");
+  } else if (hasCrypto) {
+    notes.push("relevant to crypto, blockchain, or DeFi ecosystem movements");
+  } else if (hasSecurity) {
+    notes.push("relevant to cybersecurity and risk tracking");
+  } else if (hasStartup) {
+    notes.push("relevant to startup ecosystem and funding activity");
+  }
+
+  if (notes.length > 0) {
+    why = why + ". " + notes.join("; ");
+  }
+
+  // If we have rich selftext/comments, include a short snippet to add depth
+  if (s && s.length > 40 && s.length <= 160) {
+    const snippet = s.trim().replace(/\n+/g, " ").slice(0, 140);
+    if (!why.toLowerCase().includes(snippet.toLowerCase().slice(0, 60))) {
+      why = why + ". " + snippet;
     }
   }
 
-  const domain = reasons.join("; ");
-
-  // Short summary of what it is
-  let summary = t;
-  if (s && s.length > 40) {
-    summary = `${t}. ${s.slice(0, 120).trim().replace(/\n+/g, " ")}`;
-  }
-
-  return `${domain}. ${summary}`.trim();
+  return why.trim();
 }
 
 async function scanPopularRising() {

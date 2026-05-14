@@ -8,27 +8,25 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "language": "Rust",
-      "stars": 5420,
+      "stars": 5514,
       "recent_stars": 1696,
-      "forks": 452,
+      "forks": 455,
       "topics": [
-        "personal",
-        "super",
         "intelligence",
         "private",
-        "simple"
+        "extremely"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+1696 stars today); fits AI/ML landscape."
+      "why_notable": "Trending repo with strong momentum (+1696 stars today); worth watching for domain impact."
     },
     {
       "repo": "rohitg00/agentmemory",
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars": 7588,
+      "stars": 7643,
       "recent_stars": 1379,
-      "forks": 656,
+      "forks": 659,
       "topics": [
         "agentmemory",
         "agents",
@@ -38,14 +36,14 @@
         "codex"
       ],
       "owner_type": "individual",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+1379 stars today); relevant for autonomous workflows and multi-agent infra."
+      "why_notable": "Trending repo with strong momentum (+1379 stars today); worth watching for domain impact."
     },
     {
       "repo": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 189481,
+      "stars": 189520,
       "recent_stars": 1401,
       "forks": 16865,
       "topics": [
@@ -63,9 +61,9 @@
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "stars": 12894,
+      "stars": 12918,
       "recent_stars": 981,
-      "forks": 2221,
+      "forks": 2224,
       "topics": [
         "auto-publish",
         "douyin",
@@ -75,16 +73,16 @@
         "kuaishou"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+981 stars today); fits AI/ML landscape."
+      "why_notable": "Trending repo with strong momentum (+981 stars today); worth watching for domain impact."
     },
     {
       "repo": "influxdata/telegraf",
       "url": "https://github.com/influxdata/telegraf",
       "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
       "language": "Go",
-      "stars": 16993,
+      "stars": 16999,
       "recent_stars": 13,
-      "forks": 5777,
+      "forks": 5778,
       "topics": [
         "golang",
         "hacktoberfest",
@@ -101,7 +99,7 @@
       "url": "https://github.com/millionco/react-doctor",
       "description": "Your agent writes bad React. This catches it",
       "language": "TypeScript",
-      "stars": 9263,
+      "stars": 9280,
       "recent_stars": 604,
       "forks": 288,
       "topics": [
@@ -119,9 +117,9 @@
       "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "language": "Python",
-      "stars": 21107,
+      "stars": 21122,
       "recent_stars": 99,
-      "forks": 2321,
+      "forks": 2325,
       "topics": [
         "agent-skills",
         "ai-scientist",
@@ -138,9 +136,9 @@
       "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
       "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
       "language": "TypeScript",
-      "stars": 13349,
+      "stars": 13368,
       "recent_stars": 435,
-      "forks": 1864,
+      "forks": 1866,
       "topics": [
         "ai",
         "augmentation",
@@ -155,9 +153,9 @@
       "url": "https://github.com/supertone-inc/supertonic",
       "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
       "language": "Swift",
-      "stars": 4331,
+      "stars": 4353,
       "recent_stars": 859,
-      "forks": 440,
+      "forks": 442,
       "topics": [
         "cpp",
         "csharp",
@@ -174,7 +172,7 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars": 9474,
+      "stars": 9505,
       "recent_stars": 1835,
       "forks": 704,
       "topics": [
@@ -186,16 +184,16 @@
         "captcha-bypass"
       ],
       "owner_type": "org",
-      "why_notable": "AI agent runtime/tooling with strong momentum (+1835 stars today); relevant for autonomous workflows and multi-agent infra."
+      "why_notable": "Testing framework trending (+1835 stars today); critical for reliable AI/ML and infra systems."
     },
     {
       "repo": "Greedeks/GTweak",
       "url": "https://github.com/Greedeks/GTweak",
       "description": "Portable Tool for an Ideal Windows Setup",
       "language": "C#",
-      "stars": 917,
+      "stars": 924,
       "recent_stars": 75,
-      "forks": 77,
+      "forks": 78,
       "topics": [
         "activator",
         "debloat",
@@ -205,22 +203,22 @@
         "hwid"
       ],
       "owner_type": "individual",
-      "why_notable": "Editor/IDE tool trending (+75 stars today); important for developer productivity and AI-assisted coding."
+      "why_notable": "Trending repo with strong momentum (+75 stars today); worth watching for domain impact."
     },
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "stars": 78912,
+      "stars": 78992,
       "recent_stars": 3392,
-      "forks": 6796,
+      "forks": 6802,
       "topics": [
         "skills",
-        "real",
         "engineers",
         "straight",
-        "claude"
+        "claude",
+        "directory"
       ],
       "owner_type": "individual",
       "why_notable": "Trending repo with strong momentum (+3392 stars today); worth watching for domain impact."
@@ -230,7 +228,7 @@
       "url": "https://github.com/ArthurBrussee/brush",
       "description": "3D Reconstruction for all",
       "language": "Rust",
-      "stars": 4357,
+      "stars": 4363,
       "recent_stars": 81,
       "forks": 234,
       "topics": [
@@ -246,7 +244,7 @@
       "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
       "description": "An evolving how-to guide for securing a Linux server.",
       "language": null,
-      "stars": 27078,
+      "stars": 27089,
       "recent_stars": 234,
       "forks": 1774,
       "topics": [
@@ -265,7 +263,7 @@
       "url": "https://github.com/apernet/hysteria",
       "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
       "language": "Go",
-      "stars": 20606,
+      "stars": 20617,
       "recent_stars": 485,
       "forks": 2131,
       "topics": [
@@ -277,14 +275,14 @@
         "quic"
       ],
       "owner_type": "org",
-      "why_notable": "CI/CD tool trending (+485 stars today); key for faster, safer delivery of AI and infra changes."
+      "why_notable": "Trending repo with strong momentum (+485 stars today); worth watching for domain impact."
     },
     {
       "repo": "rasbt/LLMs-from-scratch",
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "language": "Jupyter Notebook",
-      "stars": 94442,
+      "stars": 94462,
       "recent_stars": 821,
       "forks": 14482,
       "topics": [
@@ -303,7 +301,7 @@
       "url": "https://github.com/ton-blockchain/acton",
       "description": "Toolchain for TON smart contract development and beyond",
       "language": "Rust",
-      "stars": 202,
+      "stars": 206,
       "recent_stars": 18,
       "forks": 29,
       "topics": [
@@ -315,14 +313,14 @@
         "tooling"
       ],
       "owner_type": "org",
-      "why_notable": "Crypto/Web3 project trending (+18 stars today); watch for protocol or infra-level alpha."
+      "why_notable": "Crypto/Web3/DePIN project trending (+18 stars today); watch for protocol or infra-level alpha."
     },
     {
       "repo": "trycua/cua",
       "url": "https://github.com/trycua/cua",
       "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
       "language": "HTML",
-      "stars": 16533,
+      "stars": 16541,
       "recent_stars": 245,
       "forks": 1040,
       "topics": [
@@ -341,9 +339,9 @@
       "url": "https://github.com/github/spec-kit",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
-      "stars": 98338,
+      "stars": 98379,
       "recent_stars": 1120,
-      "forks": 8566,
+      "forks": 8567,
       "topics": [
         "ai",
         "copilot",
@@ -353,7 +351,7 @@
         "spec"
       ],
       "owner_type": "org",
-      "why_notable": "Trending repo with strong momentum (+1120 stars today); fits AI/ML landscape."
+      "why_notable": "Trending repo with strong momentum (+1120 stars today); worth watching for domain impact."
     }
   ]
 }
