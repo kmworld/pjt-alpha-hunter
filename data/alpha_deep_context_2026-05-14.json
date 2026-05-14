@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "generatedAt": "2026-05-14T01:45:53.329Z",
+  "generatedAt": "2026-05-14T13:48:41.700Z",
   "sources": {
     "github_trending": {
       "count": 19,
@@ -19,7 +19,7 @@
     },
     "research_ml": {
       "hfCount": 30,
-      "arxivCount": 30
+      "arxivCount": 0
     },
     "product_launch": {
       "productHuntCount": 30,
@@ -471,46 +471,60 @@
       ],
       "notable_papers": [
         {
-          "title": "AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward",
-          "authors": "Runhui Huang, Jie Wu, Rui Yang, Zhe Liu, Hengshuang Zhao",
-          "abstract_short": "In this paper, we propose AlphaGRPO, a novel framework that applies Group Relative Policy Optimization (GRPO) to AR-Diffusion Unified Multimodal Models (UMMs) to enhance multimodal generation capabili",
-          "url": "https://arxiv.org/abs/2605.12495v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "deepseek-ai/DeepSeek-R1",
+          "why_notable": "HF likes: 13328; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+          "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+          "sector_themes": [
+            "llm"
+          ]
         },
         {
-          "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
-          "authors": "Di Wu, Zixiang Ji, Asmi Kawatkar, Bryan Kwan, Jia-Chen Gu, Nanyun Peng, Kai-Wei Chang",
-          "abstract_short": "Long-term memory is crucial for agents in specialized web environments, where success depends on recalling interface affordances, state dynamics, workflows, and recurring failure modes. However, exist",
-          "url": "https://arxiv.org/abs/2605.12493v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "meta-llama/Meta-Llama-3-8B",
+          "why_notable": "HF likes: 6531; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+          "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+          "sector_themes": [
+            "llm"
+          ]
         },
         {
-          "title": "Elastic Attention Cores for Scalable Vision Transformers",
-          "authors": "Alan Z. Song, Yinjie Chen, Mu Nan, Rui Zhang, Jiahang Cao, Weijian Mai, Muquan Yu, Hossein Adeli, Deva Ramanan, Michael J. Tarr, Andrew F. Luo",
-          "abstract_short": "Vision Transformers (ViTs) achieve strong data-driven scaling by leveraging all-to-all self-attention. However, this flexibility incurs a computational cost that scales quadratically with image resolu",
-          "url": "https://arxiv.org/abs/2605.12491v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "meta-llama/Llama-3.1-8B-Instruct",
+          "why_notable": "HF likes: 5823; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+          "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "sector_themes": [
+            "llm"
+          ]
         },
         {
-          "title": "Task-Adaptive Embedding Refinement via Test-time LLM Guidance",
-          "authors": "Ariel Gera, Shir Ashury-Tahan, Gal Bloch, Ohad Eytan, Assaf Toledo",
-          "abstract_short": "We explore the effectiveness of an LLM-guided query refinement paradigm for extending the usability of embedding models to challenging zero-shot search and classification tasks. Our approach refines t",
-          "url": "https://arxiv.org/abs/2605.12487v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "openai/whisper-large-v3",
+          "why_notable": "HF likes: 5680; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c",
+          "link": "https://huggingface.co/openai/whisper-large-v3",
+          "sector_themes": [
+            "tts-audio"
+          ]
         },
         {
-          "title": "Learning, Fast and Slow: Towards LLMs That Adapt Continually",
-          "authors": "Rishabh Tiwari, Kusha Sareen, Lakshya A Agrawal, Joseph E. Gonzalez, Matei Zaharia, Kurt Keutzer, Inderjit S Dhillon, Rishabh Agarwal, Devvrit Khatri",
-          "abstract_short": "Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can resul",
-          "url": "https://arxiv.org/abs/2605.12484v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "bigscience/bloom",
+          "why_notable": "HF likes: 5002; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+          "link": "https://huggingface.co/bigscience/bloom",
+          "sector_themes": [
+            "llm"
+          ]
         },
         {
-          "title": "Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training",
-          "authors": "Yuanda Xu, Hejian Sang, Zhengze Zhou, Ran He, Zhipeng Wang, Alborz Geramifard",
-          "abstract_short": "In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that w",
-          "url": "https://arxiv.org/abs/2605.12483v1",
-          "why_notable": "Relevant to current AI/ML/Agent research trends."
+          "title": "sentence-transformers/all-MiniLM-L6-v2",
+          "why_notable": "HF likes: 4785; Code-generation model trending; directly relevant to AI-assisted development and tool use. High likes indicate strong co",
+          "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+          "sector_themes": [
+            "code-llm"
+          ]
+        },
+        {
+          "title": "openai/gpt-oss-120b",
+          "why_notable": "HF likes: 4770; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. High like",
+          "link": "https://huggingface.co/openai/gpt-oss-120b",
+          "sector_themes": [
+            "llm"
+          ]
         }
       ]
     },
@@ -643,18 +657,126 @@
         }
       ],
       "emerging_skills": [
-        "full stack",
-        "AI",
-        "backend",
-        "DevOps",
-        "infra",
-        "SRE",
-        "agent",
-        "agents",
-        "AI Agents",
-        "machine learning",
-        "ML",
-        "systems engineer"
+        {
+          "skill": "full stack",
+          "count": 19,
+          "example_companies": [
+            "Aqua",
+            "hotglue",
+            "Runway"
+          ],
+          "why_signal": "Multiple postings; strong demand signal"
+        },
+        {
+          "skill": "AI",
+          "count": 10,
+          "example_companies": [
+            "Aqua",
+            "BillionToOne",
+            "Weekend (fmr. Volley)"
+          ],
+          "why_signal": "Multiple postings; strong demand signal"
+        },
+        {
+          "skill": "backend",
+          "count": 4,
+          "example_companies": [
+            "SPATE",
+            "BlueCargo",
+            "GoGoGrandparent"
+          ],
+          "why_signal": "Multiple postings; strong demand signal"
+        },
+        {
+          "skill": "DevOps",
+          "count": 2,
+          "example_companies": [
+            "Heroic Labs",
+            "Substack"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "ai engineer",
+          "count": 2,
+          "example_companies": [
+            "BillionToOne",
+            "Cyble"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "infra",
+          "count": 1,
+          "example_companies": [
+            "Heroic Labs"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "SRE",
+          "count": 1,
+          "example_companies": [
+            "Heroic Labs"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "agent",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "agents",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "AI Agents",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "machine learning",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "ML",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "ml engineer",
+          "count": 1,
+          "example_companies": [
+            "Triomics"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        },
+        {
+          "skill": "systems engineer",
+          "count": 1,
+          "example_companies": [
+            "Substack"
+          ],
+          "why_signal": "Emerging skill with niche demand"
+        }
       ]
     }
   },
@@ -931,5 +1053,311 @@
   ],
   "contrarian_notes": [
     "AI agent narrative is overheated; many projects claim 'agentic' without real autonomy or distribution advantage."
+  ],
+  "new_concepts": [
+    {
+      "name": "agentic skills",
+      "description": "1 mentions across 1 source(s).",
+      "sources": [
+        "GitHub"
+      ],
+      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
+    },
+    {
+      "name": "ai coding agent",
+      "description": "1 mentions across 1 source(s).",
+      "sources": [
+        "GitHub"
+      ],
+      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
+    },
+    {
+      "name": "spec-driven",
+      "description": "1 mentions across 1 source(s).",
+      "sources": [
+        "GitHub"
+      ],
+      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
+    },
+    {
+      "name": "spec-driven development",
+      "description": "1 mentions across 1 source(s).",
+      "sources": [
+        "GitHub"
+      ],
+      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
+    },
+    {
+      "name": "ai infra",
+      "description": "1 mentions across 1 source(s).",
+      "sources": [
+        "GitHub"
+      ],
+      "why_important": "Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer."
+    }
+  ],
+  "notable_papers": [
+    {
+      "title": "deepseek-ai/DeepSeek-R1",
+      "why_notable": "HF likes: 13328; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+      "link": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "sector_themes": [
+        "llm"
+      ]
+    },
+    {
+      "title": "meta-llama/Meta-Llama-3-8B",
+      "why_notable": "HF likes: 6531; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+      "link": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "sector_themes": [
+        "llm"
+      ]
+    },
+    {
+      "title": "meta-llama/Llama-3.1-8B-Instruct",
+      "why_notable": "HF likes: 5823; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+      "link": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "sector_themes": [
+        "llm"
+      ]
+    },
+    {
+      "title": "openai/whisper-large-v3",
+      "why_notable": "HF likes: 5680; TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c",
+      "link": "https://huggingface.co/openai/whisper-large-v3",
+      "sector_themes": [
+        "tts-audio"
+      ]
+    },
+    {
+      "title": "bigscience/bloom",
+      "why_notable": "HF likes: 5002; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. Very high",
+      "link": "https://huggingface.co/bigscience/bloom",
+      "sector_themes": [
+        "llm"
+      ]
+    },
+    {
+      "title": "sentence-transformers/all-MiniLM-L6-v2",
+      "why_notable": "HF likes: 4785; Code-generation model trending; directly relevant to AI-assisted development and tool use. High likes indicate strong co",
+      "link": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "sector_themes": [
+        "code-llm"
+      ]
+    },
+    {
+      "title": "openai/gpt-oss-120b",
+      "why_notable": "HF likes: 4770; Conversational/text-generation model with high HF traction; relevant for agent stacks and assistant workflows. High like",
+      "link": "https://huggingface.co/openai/gpt-oss-120b",
+      "sector_themes": [
+        "llm"
+      ]
+    }
+  ],
+  "emerging_skills": [
+    {
+      "skill": "full stack",
+      "count": 19,
+      "example_companies": [
+        "Aqua",
+        "hotglue",
+        "Runway"
+      ],
+      "why_signal": "Multiple postings; strong demand signal"
+    },
+    {
+      "skill": "AI",
+      "count": 10,
+      "example_companies": [
+        "Aqua",
+        "BillionToOne",
+        "Weekend (fmr. Volley)"
+      ],
+      "why_signal": "Multiple postings; strong demand signal"
+    },
+    {
+      "skill": "backend",
+      "count": 4,
+      "example_companies": [
+        "SPATE",
+        "BlueCargo",
+        "GoGoGrandparent"
+      ],
+      "why_signal": "Multiple postings; strong demand signal"
+    },
+    {
+      "skill": "DevOps",
+      "count": 2,
+      "example_companies": [
+        "Heroic Labs",
+        "Substack"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "ai engineer",
+      "count": 2,
+      "example_companies": [
+        "BillionToOne",
+        "Cyble"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "infra",
+      "count": 1,
+      "example_companies": [
+        "Heroic Labs"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "SRE",
+      "count": 1,
+      "example_companies": [
+        "Heroic Labs"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "agent",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "agents",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "AI Agents",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "machine learning",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "ML",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "ml engineer",
+      "count": 1,
+      "example_companies": [
+        "Triomics"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    },
+    {
+      "skill": "systems engineer",
+      "count": 1,
+      "example_companies": [
+        "Substack"
+      ],
+      "why_signal": "Emerging skill with niche demand"
+    }
+  ],
+  "alpha_products": [
+    {
+      "name": "Memoket Gem",
+      "what_it_does": "An AI wearable that remembers your conversations all day",
+      "why_interesting": "Product Hunt votes: 346; High traction; AI-native",
+      "cross_source": null
+    },
+    {
+      "name": "Latitude for Claude Code",
+      "what_it_does": "See where Claude Code burns tokens. Hit your limits less.",
+      "why_interesting": "Product Hunt votes: 282; Strong early interest",
+      "cross_source": null
+    },
+    {
+      "name": "CraftBot with Living UI",
+      "what_it_does": "Grow your own software that is alive.",
+      "why_interesting": "Product Hunt votes: 214; Strong early interest",
+      "cross_source": null
+    },
+    {
+      "name": "Frontdesk AI",
+      "what_it_does": "AI COO to run your business like a Fortune 500 enterprise",
+      "why_interesting": "Product Hunt votes: 198; Strong early interest; AI-native",
+      "cross_source": null
+    },
+    {
+      "name": "Googlebook",
+      "what_it_does": "A new kind of laptop designed for Gemini Intelligence",
+      "why_interesting": "Product Hunt votes: 192; Strong early interest",
+      "cross_source": null
+    },
+    {
+      "name": "Blaze 2.0",
+      "what_it_does": "AI marketer for SMBs complete w/ strategy, content, and ads",
+      "why_interesting": "Product Hunt votes: 179; Strong early interest; AI-native",
+      "cross_source": null
+    },
+    {
+      "name": "Apideck MCP Server",
+      "what_it_does": "Give AI agents access to real-time data across 200+ apps",
+      "why_interesting": "Product Hunt votes: 148; Strong early interest; AI-native",
+      "cross_source": null
+    },
+    {
+      "name": "Liminary",
+      "what_it_does": "Ground your AI in saved knowledge as you work",
+      "why_interesting": "Product Hunt votes: 141; Strong early interest; AI-native",
+      "cross_source": null
+    }
+  ],
+  "crypto_ticker_signals": [
+    {
+      "project": "Claude helps man recover $400,000 in BTC 11 years after he g",
+      "signal_type": "reddit_discussion",
+      "why_watch": "Reddit score: 8258; Claude helps man recover $400,000 in BTC 11 years after he got high and forgot p"
+    },
+    {
+      "project": "AI helps man recover $400,000 in Bitcoin 11 years after he g",
+      "signal_type": "reddit_discussion",
+      "why_watch": "Reddit score: 782; AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot p"
+    },
+    {
+      "project": "It's official! Pro crypto Kevin Warsh will take the chair of",
+      "signal_type": "reddit_discussion",
+      "why_watch": "Reddit score: 440; It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve"
+    },
+    {
+      "project": "Nasdaq % price increase is 3x Bitcoin increase over the last",
+      "signal_type": "reddit_discussion",
+      "why_watch": "Reddit score: 159; Nasdaq % price increase is 3x Bitcoin increase over the last 5 years."
+    },
+    {
+      "project": "JPMorgan Files to Launch Tokenized Money Market Fund on Ethe",
+      "signal_type": "reddit_discussion",
+      "why_watch": "Reddit score: 111; JPMorgan Files to Launch Tokenized Money Market Fund on Ethereum"
+    }
+  ],
+  "patent_like_signals": [
+    {
+      "concept": "World’s first brain-computer interface (BCI) technology targ",
+      "where_seen": "Reddit",
+      "why_important": "Reddit score: 379; World’s first brain-computer interface (BCI) technology targets high-level brain"
+    }
   ]
 }

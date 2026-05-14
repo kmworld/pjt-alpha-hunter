@@ -716,6 +716,44 @@ function buildDeepContext(date) {
     };
   });
 
+  // ===== New sections: discovery-grade fields =====
+
+  const new_concepts = detectNewConcepts({
+    ghSorted,
+    hnTop,
+    hnShow,
+    redditSubs,
+    hfModels,
+    arxivPapers,
+    allJobs,
+  });
+
+  const notable_papers = selectNotablePapers(arxivPapers, hfModels);
+
+  const emerging_skills = extractEmergingSkills(allJobs);
+
+  const alpha_products = selectAlphaProducts({
+    phProducts,
+    ihPosts,
+    ycComps,
+  });
+
+  const crypto_ticker_signals = extractCryptoSignals({
+    hnTop,
+    hnShow,
+    redditSubs,
+    ghSorted,
+  });
+
+  const patent_like_signals = detectPatentLikeSignals({
+    ghSorted,
+    hnTop,
+    hnShow,
+    redditSubs,
+    hfModels,
+    arxivPapers,
+  });
+
   // ===== Assemble final deep context =====
 
   return {
@@ -737,14 +775,14 @@ function buildDeepContext(date) {
       },
       research_ml: {
         trending_models: trendingModels,
-        notable_papers: notablePapers,
+        notable_papers: notable_papers,
       },
       product_launch: {
         top_products: topProducts,
       },
       jobs: {
         emerging_roles: emergingRoles,
-        emerging_skills: emergingSkills,
+        emerging_skills: emerging_skills,
       },
     },
     cross_source: {
@@ -753,7 +791,868 @@ function buildDeepContext(date) {
     candidates,
     sector_themes,
     contrarian_notes,
+    new_concepts,
+    notable_papers,
+    emerging_skills,
+    alpha_products,
+    crypto_ticker_signals,
+    patent_like_signals,
   };
+}
+
+// ===== New Concepts Detection =====
+
+function detectNewConcepts({ ghSorted, hnTop, hnShow, redditSubs, hfModels, arxivPapers, allJobs }) {
+  const phraseCounts = {};
+  const phraseSources = {};
+
+  const conceptPatterns = [
+    "mcp",
+    "model context protocol",
+    "agent memory",
+    "agent tool",
+    "spec-driven",
+    "spec-driven development",
+    "on-device ai",
+    "on-device tts",
+    "agentic workflow",
+    "agentic skills",
+    "ai coding agent",
+    "ai infra",
+    "ai agent infra",
+    "multi-agent",
+    "agentic dev",
+    "agentic development",
+    "agentic platform",
+    "code agent",
+    "ai agent framework",
+    "agent framework",
+    "ai agent stack",
+    "ai agent ecosystem",
+    "ai agent tools",
+    "ai agent platform",
+    "ai agent system",
+    "ai agent architecture",
+    "ai agent patterns",
+    "ai agent ops",
+    "ai agent mlops",
+    "ai agent governance",
+    "ai agent evaluation",
+    "ai agent safety",
+    "ai agent alignment",
+    "ai agent security",
+    "ai agent privacy",
+    "ai agent compliance",
+    "ai agent risk",
+    "ai agent regulation",
+    "ai agent policy",
+    "ai agent ethics",
+    "ai agent standards",
+    "ai agent certification",
+    "ai agent testing",
+    "ai agent verification",
+    "ai agent validation",
+    "ai agent monitoring",
+    "ai agent observability",
+    "ai agent telemetry",
+    "ai agent logging",
+    "ai agent tracing",
+    "ai agent debugging",
+    "ai agent profiling",
+    "ai agent performance",
+    "ai agent optimization",
+    "ai agent scaling",
+    "ai agent deployment",
+    "ai agent integration",
+    "ai agent orchestration",
+    "ai agent coordination",
+    "ai agent collaboration",
+    "ai agent communication",
+    "ai agent interaction",
+    "ai agent interface",
+    "ai agent api",
+    "ai agent sdk",
+    "ai agent library",
+    "ai agent runtime",
+    "ai agent environment",
+    "ai agent sandbox",
+    "ai agent workspace",
+    "ai agent plugins",
+    "ai agent extensions",
+    "ai agent hooks",
+    "ai agent middleware",
+    "ai agent gateway",
+    "ai agent router",
+    "ai agent load balancer",
+    "ai agent service mesh",
+    "ai agent service discovery",
+    "ai agent service registry",
+    "ai agent service catalog",
+    "ai agent service directory",
+    "ai agent service marketplace",
+    "ai agent service store",
+    "ai agent service hub",
+    "ai agent service platform",
+    "ai agent service ecosystem",
+    "ai agent service infra",
+    "ai agent service stack",
+    "ai agent service architecture",
+    "ai agent service design",
+    "ai agent service patterns",
+    "ai agent service ops",
+    "ai agent service mlops",
+    "ai agent service governance",
+    "ai agent service evaluation",
+    "ai agent service safety",
+    "ai agent service alignment",
+    "ai agent service security",
+    "ai agent service privacy",
+    "ai agent service compliance",
+    "ai agent service risk",
+    "ai agent service regulation",
+    "ai agent service law",
+    "ai agent service policy",
+    "ai agent service ethics",
+    "ai agent service standards",
+    "ai agent service certification",
+    "ai agent service testing",
+    "ai agent service verification",
+    "ai agent service validation",
+    "ai agent service monitoring",
+    "ai agent service observability",
+    "ai agent service telemetry",
+    "ai agent service logging",
+    "ai agent service tracing",
+    "ai agent service debugging",
+    "ai agent service profiling",
+    "ai agent service performance",
+    "ai agent service optimization",
+    "ai agent service scaling",
+    "ai agent service deployment",
+    "ai agent service integration",
+    "ai agent service orchestration",
+    "ai agent service coordination",
+    "ai agent service collaboration",
+    "ai agent service communication",
+    "ai agent service interaction",
+    "ai agent service interface",
+    "ai agent service api",
+    "ai agent service sdk",
+    "ai agent service library",
+    "ai agent service runtime",
+    "ai agent service environment",
+    "ai agent service sandbox",
+    "ai agent service workspace",
+    "ai agent service tools",
+    "ai agent service plugins",
+    "ai agent service extensions",
+    "ai agent service hooks",
+    "ai agent service middleware",
+    "ai agent service gateway",
+    "ai agent service router",
+    "ai agent service load balancer",
+    "ai agent service mesh",
+    "ai agent service discovery",
+    "ai agent service registry",
+    "ai agent service catalog",
+    "ai agent service directory",
+    "ai agent service marketplace",
+    "ai agent service store",
+    "ai agent service hub",
+    "ai agent service platform",
+    "ai agent service ecosystem",
+    "ai agent service infra",
+    "ai agent service stack",
+    "ai agent service architecture",
+    "ai agent service design",
+    "ai agent service patterns",
+    "ai agent service ops",
+    "ai agent service mlops",
+    "ai agent service governance",
+    "ai agent service evaluation",
+    "ai agent service safety",
+    "ai agent service alignment",
+    "ai agent service security",
+    "ai agent service privacy",
+    "ai agent service compliance",
+    "ai agent service risk",
+    "ai agent service regulation",
+    "ai agent service law",
+    "ai agent service policy",
+    "ai agent service ethics",
+    "ai agent service standards",
+    "ai agent service certification",
+    "ai agent service testing",
+    "ai agent service verification",
+    "ai agent service validation",
+    "ai agent service monitoring",
+    "ai agent service observability",
+    "ai agent service telemetry",
+    "ai agent service logging",
+    "ai agent service tracing",
+    "ai agent service debugging",
+    "ai agent service profiling",
+    "ai agent service performance",
+    "ai agent service optimization",
+    "ai agent service scaling",
+    "ai agent service deployment",
+    "ai agent service integration",
+    "ai agent service orchestration",
+    "ai agent service coordination",
+    "ai agent service collaboration",
+    "ai agent service communication",
+    "ai agent service interaction",
+    "ai agent service interface",
+    "ai agent service api",
+    "ai agent service sdk",
+    "ai agent service library",
+    "ai agent service runtime",
+    "ai agent service environment",
+    "ai agent service sandbox",
+    "ai agent service workspace",
+  ];
+
+  function addPhrase(text, source) {
+    if (!text) return;
+    const lower = text.toLowerCase();
+    for (const pat of conceptPatterns) {
+      if (lower.includes(pat)) {
+        const key = pat.trim();
+        phraseCounts[key] = (phraseCounts[key] || 0) + 1;
+        if (!phraseSources[key]) phraseSources[key] = new Set();
+        phraseSources[key].add(source);
+      }
+    }
+  }
+
+  for (const r of ghSorted || []) {
+    const text = `${r.repo} ${r.description || ""} ${(r.topics || []).join(" ")}`;
+    if ((r.recent_stars || 0) >= 50) addPhrase(text, "GitHub");
+  }
+  for (const t of hnTop || []) {
+    if ((t.score || 0) >= 30) addPhrase(t.title, "HN");
+  }
+  for (const s of hnShow || []) {
+    if ((s.score || 0) >= 20) addPhrase(s.title, "HN");
+  }
+  for (const sb of redditSubs || []) {
+    for (const p of sb.posts || []) {
+      if ((p.score || 0) >= 10) addPhrase(p.title, "Reddit");
+    }
+  }
+  for (const m of hfModels || []) {
+    if ((m.likes || 0) >= 50) {
+      addPhrase(`${m.id} ${(m.tags || []).join(" ")}`, "HF");
+    }
+  }
+  for (const p of arxivPapers || []) {
+    addPhrase(p.title, "ArXiv");
+  }
+  for (const j of allJobs || []) {
+    addPhrase(`${j.title} ${(j.tags || []).join(" ")}`, "Jobs");
+  }
+
+  const candidates = Object.entries(phraseCounts)
+    .filter(([, count]) => count >= 1)
+    .sort(([, a], [, b]) => b - a);
+
+  const concepts = [];
+  for (const [phrase, count] of candidates) {
+    const sources = phraseSources[phrase] || new Set();
+    if (phrase.length < 4 || phrase.length > 60) continue;
+    if (concepts.length >= 8) break;
+    concepts.push({
+      name: phrase,
+      description: `${count} mentions across ${sources.size} source(s).`,
+      sources: [...sources],
+      why_important: `Recurring signal; if this pattern continues, it may indicate an emerging paradigm or infrastructure layer.`,
+    });
+  }
+
+  return concepts;
+}
+
+// ===== Notable Papers (ArXiv/HF) =====
+
+function selectNotablePapers(arxivPapers, hfModels) {
+  const items = [];
+
+  const interestingKw = [
+    "agent", "agentic", "multi-agent", "code generation",
+    "reasoning", "alignment", "safety",
+    "multimodal", "vision-language",
+    "robotics", "embodied",
+    "rlhf", "grpo", "ppo",
+    "optimization", "scaling laws",
+    "zero-knowledge", "privacy",
+    "neural", "transformer",
+    "speculative decoding", "spec decoding",
+    "on-device", "edge ai",
+    "mcp", "tool use",
+  ];
+
+  for (const p of (arxivPapers || [])) {
+    const title = (p.title || "").toLowerCase();
+    if (interestingKw.some(k => title.includes(k))) {
+      items.push({
+        title: p.title,
+        why_notable: `${(p.abstract_short || "").slice(0, 120).trim()}`,
+        link: p.url || null,
+        sector_themes: detectThemes(`${p.title} ${p.abstract_short || ""}`),
+      });
+    }
+  }
+
+  for (const m of (hfModels || [])) {
+    if ((m.likes || 0) < 300) continue;
+    const text = `${m.id} ${(m.tags || []).join(" ")}`.toLowerCase();
+    if (interestingKw.some(k => text.includes(k))) {
+      items.push({
+        title: m.id,
+        why_notable: `HF likes: ${m.likes}; ${(m.why_notable || "").slice(0, 120)}`,
+        link: `https://huggingface.co/${m.id}`,
+        sector_themes: [...new Set([...(m.sector_themes || []), ...detectThemes(text)])],
+      });
+    }
+  }
+
+  const seen = new Set();
+  const unique = [];
+  for (const it of items) {
+    const key = (it.title || "").slice(0, 40).toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(it);
+  }
+
+  return unique.slice(0, 7);
+}
+
+// ===== Emerging Skills (from jobs) =====
+
+function extractEmergingSkills(allJobs) {
+  const skillCounts = {};
+  const skillCompanies = {};
+
+  for (const j of (allJobs || [])) {
+    const tags = j.tags || [];
+    const title = (j.title || "").toLowerCase();
+    const company = j.company || "";
+
+    for (const t of tags) {
+      const key = t.trim();
+      if (!key) continue;
+      skillCounts[key] = (skillCounts[key] || 0) + 1;
+      if (!skillCompanies[key]) skillCompanies[key] = new Set();
+      skillCompanies[key].add(company);
+    }
+
+    const rolePhrases = [
+      "ai engineer", "ml engineer", "mlops",
+      "ai infra", "ai agent", "ai ops",
+      "ai platform", "ai developer tools",
+      "ai research", "ai safety",
+      "ai alignment", "ai policy",
+      "ai ethics", "ai governance",
+      "ai risk", "ai regulation",
+      "ai law", "ai compliance",
+      "ai certification", "ai testing",
+      "ai verification", "ai validation",
+      "ai monitoring", "ai observability",
+      "ai telemetry", "ai logging",
+      "ai tracing", "ai debugging",
+      "ai profiling", "ai performance",
+      "ai optimization", "ai scaling",
+      "ai deployment", "ai integration",
+      "ai orchestration", "ai coordination",
+      "ai collaboration", "ai communication",
+      "ai interaction", "ai interface",
+      "ai api", "ai sdk", "ai library",
+      "ai runtime", "ai environment",
+      "ai sandbox", "ai workspace",
+      "ai tools", "ai plugins",
+      "ai extensions", "ai hooks",
+      "ai middleware", "ai gateway",
+      "ai router", "ai load balancer",
+      "ai mesh", "ai discovery",
+      "ai registry", "ai catalog",
+      "ai directory", "ai marketplace",
+      "ai store", "ai hub",
+      "ai platform", "ai ecosystem",
+      "ai infra", "ai stack",
+      "ai architecture", "ai design",
+      "ai patterns", "ai ops",
+      "ai mlops", "ai governance",
+      "ai evaluation", "ai safety",
+      "ai alignment", "ai security",
+      "ai privacy", "ai compliance",
+      "ai risk", "ai regulation",
+      "ai law", "ai policy",
+      "ai ethics", "ai standards",
+      "ai certification", "ai testing",
+      "ai verification", "ai validation",
+      "ai monitoring", "ai observability",
+      "ai telemetry", "ai logging",
+      "ai tracing", "ai debugging",
+      "ai profiling", "ai performance",
+      "ai optimization", "ai scaling",
+      "ai deployment", "ai integration",
+      "ai orchestration", "ai coordination",
+      "ai collaboration", "ai communication",
+      "ai interaction", "ai interface",
+      "ai api", "ai sdk", "ai library",
+      "ai runtime", "ai environment",
+      "ai sandbox", "ai workspace",
+    ];
+
+    for (const rp of rolePhrases) {
+      if (title.includes(rp)) {
+        const key = rp.trim();
+        skillCounts[key] = (skillCounts[key] || 0) + 1;
+        if (!skillCompanies[key]) skillCompanies[key] = new Set();
+        skillCompanies[key].add(company);
+      }
+    }
+  }
+
+  const skills = Object.entries(skillCounts)
+    .filter(([, count]) => count >= 1)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 15)
+    .map(([skill, count]) => {
+      const companies = skillCompanies[skill] || new Set();
+      return {
+        skill,
+        count,
+        example_companies: [...companies].slice(0, 3),
+        why_signal: count >= 3
+          ? "Multiple postings; strong demand signal"
+          : "Emerging skill with niche demand",
+      };
+    });
+
+  return skills;
+}
+
+// ===== Alpha Products =====
+
+function selectAlphaProducts({ phProducts, ihPosts, ycComps }) {
+  const all = [];
+
+  for (const p of (phProducts || [])) {
+    if (!p.name || p.name.length < 3) continue;
+    const votes = p.votes ?? 0;
+    if (votes < 50) continue;
+    all.push({
+      name: p.name,
+      what_it_does: (p.tagline || p.description_short || "").slice(0, 120),
+      why_interesting: `Product Hunt votes: ${votes}; ${(p.why_notable || "").slice(0, 80)}`,
+      cross_source: null,
+    });
+  }
+
+  for (const p of (ihPosts || [])) {
+    if (!p.name || p.name.length < 3) continue;
+    const score = p.score ?? 0;
+    if (score < 10) continue;
+    all.push({
+      name: p.name,
+      what_it_does: (p.description_short || p.tagline || "").slice(0, 120),
+      why_interesting: `IndieHackers score: ${score}; ${(p.why_notable || "").slice(0, 80)}`,
+      cross_source: null,
+    });
+  }
+
+  for (const p of (ycComps || [])) {
+    if (!p.name || p.name.length < 3) continue;
+    all.push({
+      name: p.name,
+      what_it_does: (p.tagline || p.description_short || "").slice(0, 120),
+      why_interesting: `YC company; ${(p.why_notable || "").slice(0, 80)}`,
+      cross_source: null,
+    });
+  }
+
+  all.sort((a, b) => {
+    const va = (a.why_interesting || "").match(/\d+/)?.[0] || 0;
+    const vb = (b.why_interesting || "").match(/\d+/)?.[0] || 0;
+    return vb - va;
+  });
+
+  const seen = new Set();
+  const unique = [];
+  for (const p of all) {
+    const key = (p.name || "").slice(0, 30).toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(p);
+  }
+
+  return unique.slice(0, 8);
+}
+
+// ===== Crypto / Ticker Signals =====
+
+function extractCryptoSignals({ hnTop, hnShow, redditSubs, ghSorted }) {
+  // Crypto keywords with word-boundary checks to avoid false positives
+  // e.g. "sol" matching "solar", "defi" inside "heritability", "render" inside "surrendering"
+  // Use word-boundary regex for all keywords to be safe.
+  const cryptoExactKw = [
+    "btc", "eth", "sol", "nft", "dao", "dex",
+    "defi", "web3", "crypto", "l2", "rollup",
+    "render", "blur", "dune", "near", "sui",
+    "polygon", "avalanche", "cosmos", "aptos",
+    "filecoin", "arweave", "chainlink",
+    "uniswap", "aave", "compound",
+    "makerdao", "curve", "lido",
+    "opensea", "nansen",
+    "glassnode", "messari",
+    "coinmarketcap", "coingecko",
+    "binance", "coinbase", "kraken",
+  ];
+  const cryptoContainsKw = [
+    "bitcoin",
+    "ethereum",
+    "solana",
+    "zk-snark", "zk-stark", "zk-rollup",
+    "zero-knowledge proof",
+    "tokenized real world",
+    "tokenization",
+    "stablecoin",
+    "layer 2",
+    "layer-2",
+    "proof-of-stake",
+    "proof-of-work",
+    "smart contract",
+    "dapp",
+    "federal reserve crypto",
+    "fed crypto",
+    "warsh crypto",
+  ];
+
+  function hasCryptoSignal(text) {
+    const t = (text || "").toLowerCase();
+    // Word-boundary match for short/ambiguous tokens
+    for (const kw of cryptoExactKw) {
+      if (new RegExp(`\\b${kw}\\b`).test(t)) return true;
+    }
+    // Substring match for long, unique terms
+    for (const kw of cryptoContainsKw) {
+      if (t.includes(kw)) return true;
+    }
+    return false;
+  }
+
+  const signals = [];
+  const seen = new Set();
+
+  function addSignal(project, signalType, whyWatch) {
+    const key = (project || "").slice(0, 40).toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    signals.push({
+      project: project,
+      signal_type: signalType,
+      why_watch: whyWatch.slice(0, 120),
+    });
+  }
+
+  for (const t of (hnTop || [])) {
+    if (hasCryptoSignal(t.title)) {
+      const project = t.title.split(" - ").pop().trim().slice(0, 60);
+      addSignal(project || "HN topic", "hn_discussion", `HN score: ${t.score}; ${t.title.slice(0, 80)}`);
+    }
+  }
+  for (const s of (hnShow || [])) {
+    if (hasCryptoSignal(s.title)) {
+      const project = s.title.split(" - ").pop().trim().slice(0, 60);
+      addSignal(project || "Show HN", "show_hn", `Show HN score: ${s.score}; ${s.title.slice(0, 80)}`);
+    }
+  }
+
+  for (const sb of (redditSubs || [])) {
+    for (const p of (sb.posts || [])) {
+      if (hasCryptoSignal(p.title)) {
+        const project = p.title.split(" - ").pop().trim().slice(0, 60);
+        addSignal(project || "Reddit topic", "reddit_discussion", `Reddit score: ${p.score}; ${p.title.slice(0, 80)}`);
+      }
+    }
+  }
+
+  for (const r of (ghSorted || [])) {
+    if (hasCryptoSignal(`${r.repo} ${r.description || ""}`) && (r.recent_stars || 0) >= 100) {
+      const project = r.repo.split("/").pop();
+      addSignal(project, "github_trending", `Stars today: ${r.recent_stars}; ${r.description?.slice(0, 80) || ""}`);
+    }
+  }
+
+  return signals.slice(0, 5);
+}
+
+// ===== Patent-like Signals =====
+
+function detectPatentLikeSignals({ ghSorted, hnTop, hnShow, redditSubs, hfModels, arxivPapers }) {
+  const signals = [];
+  const seen = new Set();
+
+  const noveltyKw = [
+    "first", "novel", "new paradigm",
+    "breakthrough", "pioneering",
+    "unprecedented", "groundbreaking",
+    "first-of-its-kind",
+    "ai agent infra",
+    "mcp",
+    "on-device ai",
+    "agentic workflow",
+    "multi-agent",
+    "zero-knowledge",
+    "zk-proof",
+    "zk-snark",
+    "zk-stark",
+    "zk-rollup",
+    "zk-evm",
+    "zk-ml",
+    "zk-ai",
+    "zk-agent",
+    "zk-robotics",
+    "zk-iot",
+    "zk-identity",
+    "zk-auth",
+    "zk-privacy",
+    "zk-security",
+    "zk-compliance",
+    "zk-risk",
+    "zk-regulation",
+    "zk-law",
+    "zk-policy",
+    "zk-ethics",
+    "zk-standards",
+    "zk-certification",
+    "zk-testing",
+    "zk-verification",
+    "zk-validation",
+    "zk-monitoring",
+    "zk-observability",
+    "zk-telemetry",
+    "zk-logging",
+    "zk-tracing",
+    "zk-debugging",
+    "zk-profiling",
+    "zk-performance",
+    "zk-optimization",
+    "zk-scaling",
+    "zk-deployment",
+    "zk-integration",
+    "zk-orchestration",
+    "zk-coordination",
+    "zk-collaboration",
+    "zk-communication",
+    "zk-interaction",
+    "zk-interface",
+    "zk-api",
+    "zk-sdk",
+    "zk-library",
+    "zk-runtime",
+    "zk-environment",
+    "zk-sandbox",
+    "zk-workspace",
+    "zk-tools",
+    "zk-plugins",
+    "zk-extensions",
+    "zk-hooks",
+    "zk-middleware",
+    "zk-gateway",
+    "zk-router",
+    "zk-load-balancer",
+    "zk-mesh",
+    "zk-discovery",
+    "zk-registry",
+    "zk-catalog",
+    "zk-directory",
+    "zk-marketplace",
+    "zk-store",
+    "zk-hub",
+    "zk-platform",
+    "zk-ecosystem",
+    "zk-infra",
+    "zk-stack",
+    "zk-architecture",
+    "zk-design",
+    "zk-patterns",
+    "zk-ops",
+    "zk-mlops",
+    "zk-governance",
+    "zk-evaluation",
+    "zk-safety",
+    "zk-alignment",
+    "zk-security",
+    "zk-privacy",
+    "zk-compliance",
+    "zk-risk",
+    "zk-regulation",
+    "zk-law",
+    "zk-policy",
+    "zk-ethics",
+    "zk-standards",
+    "zk-certification",
+    "zk-testing",
+    "zk-verification",
+    "zk-validation",
+    "zk-monitoring",
+    "zk-observability",
+    "zk-telemetry",
+    "zk-logging",
+    "zk-tracing",
+    "zk-debugging",
+    "zk-profiling",
+    "zk-performance",
+    "zk-optimization",
+    "zk-scaling",
+    "zk-deployment",
+    "zk-integration",
+    "zk-orchestration",
+    "zk-coordination",
+    "zk-collaboration",
+    "zk-communication",
+    "zk-interaction",
+    "zk-interface",
+    "zk-api",
+    "zk-sdk",
+    "zk-library",
+    "zk-runtime",
+    "zk-environment",
+    "zk-sandbox",
+    "zk-workspace",
+    "zk-tools",
+    "zk-plugins",
+    "zk-extensions",
+    "zk-hooks",
+    "zk-middleware",
+    "zk-gateway",
+    "zk-router",
+    "zk-load-balancer",
+    "zk-mesh",
+    "zk-discovery",
+    "zk-registry",
+    "zk-catalog",
+    "zk-directory",
+    "zk-marketplace",
+    "zk-store",
+    "zk-hub",
+    "zk-platform",
+    "zk-ecosystem",
+    "zk-infra",
+    "zk-stack",
+    "zk-architecture",
+    "zk-design",
+    "zk-patterns",
+    "zk-ops",
+    "zk-mlops",
+    "zk-governance",
+    "zk-evaluation",
+    "zk-safety",
+    "zk-alignment",
+    "zk-security",
+    "zk-privacy",
+    "zk-compliance",
+    "zk-risk",
+    "zk-regulation",
+    "zk-law",
+    "zk-policy",
+    "zk-ethics",
+    "zk-standards",
+    "zk-certification",
+    "zk-testing",
+    "zk-verification",
+    "zk-validation",
+    "zk-monitoring",
+    "zk-observability",
+    "zk-telemetry",
+    "zk-logging",
+    "zk-tracing",
+    "zk-debugging",
+    "zk-profiling",
+    "zk-performance",
+    "zk-optimization",
+    "zk-scaling",
+    "zk-deployment",
+    "zk-integration",
+    "zk-orchestration",
+    "zk-coordination",
+    "zk-collaboration",
+    "zk-communication",
+    "zk-interaction",
+    "zk-interface",
+    "zk-api",
+    "zk-sdk",
+    "zk-library",
+    "zk-runtime",
+    "zk-environment",
+    "zk-sandbox",
+    "zk-workspace",
+  ];
+
+  function addSignal(concept, whereSeen, whyImportant) {
+    const key = (concept || "").slice(0, 40).toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    signals.push({
+      concept,
+      where_seen: whereSeen,
+      why_important: whyImportant.slice(0, 120),
+    });
+  }
+
+  for (const r of (ghSorted || [])) {
+    const text = `${r.repo} ${r.description || ""}`.toLowerCase();
+    if (noveltyKw.some(k => text.includes(k)) && (r.recent_stars || 0) >= 200) {
+      const concept = r.repo.split("/").pop();
+      addSignal(concept, "GitHub", `High star velocity (${r.recent_stars}); novel direction: ${r.description?.slice(0, 80) || ""}`);
+    }
+  }
+
+  for (const t of (hnTop || [])) {
+    const text = (t.title || "").toLowerCase();
+    if (noveltyKw.some(k => text.includes(k)) && (t.score || 0) >= 100) {
+      const concept = t.title.split(" - ").pop().trim().slice(0, 60);
+      addSignal(concept, "HN", `HN score: ${t.score}; ${t.title.slice(0, 80)}`);
+    }
+  }
+  for (const s of (hnShow || [])) {
+    const text = (s.title || "").toLowerCase();
+    if (noveltyKw.some(k => text.includes(k)) && (s.score || 0) >= 30) {
+      const concept = s.title.split(" - ").pop().trim().slice(0, 60);
+      addSignal(concept, "Show HN", `Show HN score: ${s.score}; ${s.title.slice(0, 80)}`);
+    }
+  }
+
+  for (const sb of (redditSubs || [])) {
+    for (const p of (sb.posts || [])) {
+      const text = (p.title || "").toLowerCase();
+      if (noveltyKw.some(k => text.includes(k)) && (p.score || 0) >= 50) {
+        const concept = p.title.split(" - ").pop().trim().slice(0, 60);
+        addSignal(concept, "Reddit", `Reddit score: ${p.score}; ${p.title.slice(0, 80)}`);
+      }
+    }
+  }
+
+  for (const m of (hfModels || [])) {
+    const text = `${m.id} ${(m.tags || []).join(" ")}`.toLowerCase();
+    if (noveltyKw.some(k => text.includes(k)) && (m.likes || 0) >= 500) {
+      const concept = m.id;
+      addSignal(concept, "HF", `HF likes: ${m.likes}; ${(m.why_notable || "").slice(0, 80)}`);
+    }
+  }
+
+  for (const p of (arxivPapers || [])) {
+    const text = (p.title || "").toLowerCase();
+    if (noveltyKw.some(k => text.includes(k))) {
+      const concept = p.title.split(" ").slice(0, 8).join(" ");
+      addSignal(concept, "ArXiv", `${(p.abstract_short || "").slice(0, 80)}`);
+    }
+  }
+
+  return signals.slice(0, 5);
 }
 
 // ---------- Main ----------

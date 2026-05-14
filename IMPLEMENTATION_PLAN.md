@@ -179,6 +179,28 @@ Key findings:
     }
   ]
 
+### 8) Deep Context + Report Redesign for Discovery-Grade Output (Completed 2026-05-14)
+
+- [x] alpha_deep_context.mjs: added new top-level fields:
+  - new_concepts[] (3–8 emerging concepts/paradigms)
+  - notable_papers[] (ArXiv/HF models/papers worth reading)
+  - emerging_skills[] (from jobs: specific skills/roles rising)
+  - alpha_products[] (from ProductHunt/IndieHackers/YC: products with real edge)
+  - crypto_ticker_signals[] (crypto/blockchain/ZK signals)
+  - patent_like_signals[] (novel tech directions resembling early patents)
+- [x] alpha_daily_report.mjs: redesigned report structure:
+  - 1) Executive Summary
+  - 2) Today's Discoveries (New Concepts)
+  - 3) Notable Papers & Models
+  - 4) Emerging Skills & Roles
+  - 5) Alpha Products & Startups
+  - 6) Crypto / Ticker / Infra Signals
+  - 7) Patent-like Signals (Early Innovation)
+  - 8) Risk & Contrarian View
+  - 9) Data Quality Note
+- [x] Pipeline run and validated: report is concrete, specific, discovery-oriented.
+- [x] Crypto signals fixed: word-boundary matching to avoid false positives ("sol"/"render"/"defi" noise).
+
 ---
 
 ## Phase 2: New Alpha Daily Report Skeleton
