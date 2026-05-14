@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "generatedAt": "2026-05-14T01:43:53.302Z",
+  "generatedAt": "2026-05-14T01:45:53.329Z",
   "sources": {
     "github_trending": {
       "count": 19,
@@ -37,7 +37,7 @@
           "repo": "mattpocock/skills",
           "description": "Skills for Real Engineers. Straight from my .claude directory.",
           "language": "Shell",
-          "stars": 78992,
+          "stars": 79097,
           "recent_stars": 3392,
           "url": "https://github.com/mattpocock/skills",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -46,7 +46,7 @@
           "repo": "CloakHQ/CloakBrowser",
           "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
           "language": "Python",
-          "stars": 9505,
+          "stars": 9552,
           "recent_stars": 1835,
           "url": "https://github.com/CloakHQ/CloakBrowser",
           "signal_reason": "Extremely high star velocity; likely breakout tool"
@@ -55,7 +55,7 @@
           "repo": "tinyhumansai/openhuman",
           "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
           "language": "Rust",
-          "stars": 5514,
+          "stars": 5618,
           "recent_stars": 1696,
           "url": "https://github.com/tinyhumansai/openhuman",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -64,7 +64,7 @@
           "repo": "obra/superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "language": "Shell",
-          "stars": 189520,
+          "stars": 189571,
           "recent_stars": 1401,
           "url": "https://github.com/obra/superpowers",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -73,7 +73,7 @@
           "repo": "rohitg00/agentmemory",
           "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
           "language": "TypeScript",
-          "stars": 7643,
+          "stars": 7715,
           "recent_stars": 1379,
           "url": "https://github.com/rohitg00/agentmemory",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -82,7 +82,7 @@
           "repo": "github/spec-kit",
           "description": "💫 Toolkit to help you get started with Spec-Driven Development",
           "language": "Python",
-          "stars": 98379,
+          "stars": 98420,
           "recent_stars": 1120,
           "url": "https://github.com/github/spec-kit",
           "signal_reason": "Extremely high star velocity; likely breakout tool"
@@ -91,7 +91,7 @@
           "repo": "yikart/AiToEarn",
           "description": "Let's use AI to Earn!",
           "language": "TypeScript",
-          "stars": 12918,
+          "stars": 12969,
           "recent_stars": 981,
           "url": "https://github.com/yikart/AiToEarn",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -100,7 +100,7 @@
           "repo": "supertone-inc/supertonic",
           "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
           "language": "Swift",
-          "stars": 4353,
+          "stars": 4386,
           "recent_stars": 859,
           "url": "https://github.com/supertone-inc/supertonic",
           "signal_reason": "Web3/crypto/blockchain project gaining traction"
@@ -109,7 +109,7 @@
           "repo": "rasbt/LLMs-from-scratch",
           "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
           "language": "Jupyter Notebook",
-          "stars": 94462,
+          "stars": 94481,
           "recent_stars": 821,
           "url": "https://github.com/rasbt/LLMs-from-scratch",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -118,7 +118,7 @@
           "repo": "millionco/react-doctor",
           "description": "Your agent writes bad React. This catches it",
           "language": "TypeScript",
-          "stars": 9280,
+          "stars": 9300,
           "recent_stars": 604,
           "url": "https://github.com/millionco/react-doctor",
           "signal_reason": "AI/Agent-related project with strong daily star velocity"
@@ -141,65 +141,65 @@
           "title": "Googlebook",
           "url": "https://googlebook.google/",
           "score": 902,
-          "comments": 1516,
+          "comments": 1517,
           "signal_reason": "High engagement HN story; broad tech interest"
         },
         {
           "title": "I moved my digital stack to Europe",
           "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
-          "score": 877,
-          "comments": 532,
+          "score": 886,
+          "comments": 537,
           "signal_reason": "High engagement HN story; broad tech interest"
         },
         {
           "title": "Restore full BambuNetwork support for Bambu Lab printers",
           "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
-          "score": 638,
+          "score": 639,
           "comments": 292,
-          "signal_reason": "High engagement HN story; broad tech interest"
-        },
-        {
-          "title": "Leaving GitHub for Forgejo",
-          "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
-          "score": 520,
-          "comments": 279,
           "signal_reason": "High engagement HN story; broad tech interest"
         },
         {
           "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
           "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
-          "score": 490,
-          "comments": 319,
+          "score": 523,
+          "comments": 344,
+          "signal_reason": "High engagement HN story; broad tech interest"
+        },
+        {
+          "title": "Leaving GitHub for Forgejo",
+          "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
+          "score": 528,
+          "comments": 281,
           "signal_reason": "High engagement HN story; broad tech interest"
         },
         {
           "title": "Setting up a free *.city.state.us locality domain (2025)",
           "url": "https://fredchan.org/blog/locality-domains-guide/",
-          "score": 471,
-          "comments": 153,
+          "score": 489,
+          "comments": 155,
           "signal_reason": "AI/ML/Agent topic with high HN engagement"
-        },
-        {
-          "title": "Kickstarter is forced to ban adult content by payment processors",
-          "url": "https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648",
-          "score": 346,
-          "comments": 251,
-          "signal_reason": "High engagement HN story; broad tech interest"
         },
         {
           "title": "Twin brothers wipe 96 government databases minutes after being fired",
           "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
-          "score": 285,
-          "comments": 215,
+          "score": 303,
+          "comments": 228,
           "signal_reason": "High engagement HN story; broad tech interest"
+        },
+        {
+          "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
+          "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
+          "score": 245,
+          "comments": 351,
+          "signal_reason": "Crypto/Web3 topic with notable HN discussion"
         }
       ],
       "show_hn_high_signal": [
         {
           "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
           "url": "https://github.com/cactus-compute/needle",
-          "score": 636,
-          "comments": 182,
+          "score": 639,
+          "comments": 183,
           "signal_reason": "High-score Show HN; notable product interest"
         }
       ]
@@ -220,7 +220,7 @@
             "Software Developers Say AI Is Rotting Their Brains",
             "Most Americans say AI development is moving too fast and twice as many are AI pessimists as AI optimists"
           ],
-          "why_important": "11 posts across 4 subreddits; avg score 3414. Indicates strong community interest in AI/ML/Agents."
+          "why_important": "11 posts across 4 subreddits; avg score 3481. Indicates strong community interest in AI/ML/Agents."
         },
         {
           "topic": "General Tech",
@@ -234,7 +234,7 @@
             "Twin brothers wipe 96 gov’t databases minutes after being fired",
             "As the U.S. starves it of oil, Cuba is pulling off one of the fastest solar revolutions on the planet — with China’s help"
           ],
-          "why_important": "11 posts across 2 subreddits; avg score 8796. Indicates strong community interest in General Tech."
+          "why_important": "11 posts across 2 subreddits; avg score 9046. Indicates strong community interest in General Tech."
         },
         {
           "topic": "Crypto/Web3",
@@ -247,7 +247,7 @@
             "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.",
             "JPMorgan Files to Launch Tokenized Money Market Fund on Ethereum"
           ],
-          "why_important": "4 posts across 1 subreddits; avg score 343. Indicates strong community interest in Crypto/Web3."
+          "why_important": "4 posts across 1 subreddits; avg score 373. Indicates strong community interest in Crypto/Web3."
         },
         {
           "topic": "Dev Infra/Ops",
@@ -259,7 +259,7 @@
             "South Korean official proposes 'citizen dividend' payouts from AI windfall — markets spooked by suggestion AI revenue should be redistributed to citizens",
             "Microsoft France's legal affairs director told the French Senate, under oath, that he can't guarantee European \"sovereign cloud\" data stays out of US reach"
           ],
-          "why_important": "2 posts across 2 subreddits; avg score 639. Indicates strong community interest in Dev Infra/Ops."
+          "why_important": "2 posts across 2 subreddits; avg score 649. Indicates strong community interest in Dev Infra/Ops."
         }
       ],
       "emerging_subreddits": [
@@ -526,7 +526,7 @@
         {
           "name": "Latitude for Claude Code",
           "tagline": "See where Claude Code burns tokens. Hit your limits less.",
-          "votes": 280,
+          "votes": 282,
           "url": "https://www.producthunt.com/products/latitude-4",
           "why_notable": "Notable product launch with votes/interest"
         },
@@ -540,7 +540,7 @@
         {
           "name": "Frontdesk AI",
           "tagline": "AI COO to run your business like a Fortune 500 enterprise",
-          "votes": 197,
+          "votes": 198,
           "url": "https://www.producthunt.com/products/frontdesk-ai",
           "why_notable": "AI/Agent product with market traction"
         },
@@ -586,59 +586,58 @@
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Senior Software Engineer",
-          "count": 2,
+          "role": "Founding Engineer",
+          "count": 1,
           "example_companies": [
-            "Nova Credit",
-            "Camber"
+            "Aqua"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Design-Focused React Native Engineer",
+          "role": "Director of Software",
           "count": 1,
           "example_companies": [
-            "Truss"
+            "Albedo"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "AI Engineer, Quality",
+          "role": "Cloud Engineer (SRE)",
           "count": 1,
           "example_companies": [
-            "Fieldguide"
+            "Heroic Labs"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Full Stack Engineer (Java + React + AI-Accelerated Development)",
+          "role": "Full Stack Software Engineer",
           "count": 1,
           "example_companies": [
-            "Stayflexi"
+            "hotglue"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Deployed GxP Specialist",
+          "role": "Full Stack Developer - Bountiful",
           "count": 1,
           "example_companies": [
-            "Seal"
+            "Bountiful"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Backend Engineer",
+          "role": "Software Engineer - Backend & Data (Eastern Europe)",
           "count": 1,
           "example_companies": [
-            "GoGoGrandparent"
+            "SPATE"
           ],
           "why_signal": "Emerging role with niche demand"
         },
         {
-          "role": "Senior Fullstack Engineer",
+          "role": "Senior/Staff Backend Engineer",
           "count": 1,
           "example_companies": [
-            "Laylo"
+            "BlueCargo"
           ],
           "why_signal": "Emerging role with niche demand"
         }
@@ -649,7 +648,13 @@
         "backend",
         "DevOps",
         "infra",
-        "SRE"
+        "SRE",
+        "agent",
+        "agents",
+        "AI Agents",
+        "machine learning",
+        "ML",
+        "systems engineer"
       ]
     }
   },
@@ -773,7 +778,7 @@
       "sources": [
         "hackernews"
       ],
-      "summary": "Show HN project with 636 upvotes and 182 comments; ",
+      "summary": "Show HN project with 639 upvotes and 183 comments; ",
       "alpha_thesis": "Early-stage project with strong momentum on hackernews. If execution holds, it can shape its niche within 12–24 months—watch for ecosystem integrations.",
       "risk": [
         "Single-team dependency; delays or missteps can stall adoption."

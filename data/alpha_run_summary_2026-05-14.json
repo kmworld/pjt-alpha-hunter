@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-14",
+  "runAt": "2026-05-14T01:44:45.176Z",
+  "scripts": {
+    "github_trending": {
+      "status": "ok",
+      "file": null
+    },
+    "hn_signals": {
+      "status": "ok",
+      "file": null
+    },
+    "reddit_signals": {
+      "status": "ok",
+      "file": null
+    },
+    "research_ml_signals": {
+      "status": "ok",
+      "file": null
+    },
+    "product_launch_signals": {
+      "status": "ok",
+      "file": null
+    },
+    "job_signals": {
+      "status": "ok",
+      "file": null
+    }
+  }
+}

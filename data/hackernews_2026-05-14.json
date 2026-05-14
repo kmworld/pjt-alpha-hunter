@@ -4,56 +4,74 @@
   "sections": {
     "top": [
       {
+        "id": 48129561,
+        "title": "The Other Half of AI Safety",
+        "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+        "score": 38,
+        "comments": 34,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
+      },
+      {
         "id": 48087887,
         "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
         "url": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
-        "score": 490,
-        "comments": 319,
+        "score": 523,
+        "comments": 344,
         "category_hint": "other",
-        "why_hot": "Strong HN engagement; likely important development in other."
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+      },
+      {
+        "id": 48129694,
+        "title": "Scorched Earth 2000 is back",
+        "url": "http://www.scorch2000.com/web/",
+        "score": 18,
+        "comments": 9,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
         "id": 48122635,
         "title": "Setting up a free *.city.state.us locality domain (2025)",
         "url": "https://fredchan.org/blog/locality-domains-guide/",
-        "score": 471,
-        "comments": 153,
+        "score": 489,
+        "comments": 155,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other."
-      },
-      {
-        "id": 48129561,
-        "title": "The Other Half of AI Safety",
-        "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
-        "score": 7,
-        "comments": 2,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
       },
       {
         "id": 48073979,
         "title": "A History of IDEs at Google",
         "url": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
-        "score": 256,
-        "comments": 189,
+        "score": 271,
+        "comments": 196,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other."
-      },
-      {
-        "id": 48096760,
-        "title": "Chess puzzle I found in my dad's old book",
-        "url": "https://ardoedo.it/kempelen/",
-        "score": 68,
-        "comments": 23,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
         "id": 48095782,
         "title": "Marco Polo: Finding a friend with only distance and motion",
         "url": "https://www.jackhogan.me/blog/marco-polo",
-        "score": 25,
-        "comments": 3,
+        "score": 35,
+        "comments": 4,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48096760,
+        "title": "Chess puzzle I found in my dad's old book",
+        "url": "https://ardoedo.it/kempelen/",
+        "score": 81,
+        "comments": 28,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48118727,
+        "title": "The Emacsification of Software",
+        "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+        "score": 192,
+        "comments": 129,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -61,35 +79,17 @@
         "id": 48126848,
         "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
         "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
-        "score": 224,
-        "comments": 310,
+        "score": 245,
+        "comments": 351,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other."
-      },
-      {
-        "id": 48118727,
-        "title": "The Emacsification of Software",
-        "url": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
-        "score": 180,
-        "comments": 115,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
         "id": 48080755,
         "title": "Xs of Y – roguelike that names itself every run. Written in 4kLoC",
         "url": "https://github.com/nooga/xsofy",
-        "score": 152,
-        "comments": 65,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48124436,
-        "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
-        "url": "https://www.tryardent.com/",
-        "score": 63,
-        "comments": 26,
+        "score": 159,
+        "comments": 69,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -97,17 +97,17 @@
         "id": 48115438,
         "title": "Twin brothers wipe 96 government databases minutes after being fired",
         "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
-        "score": 285,
-        "comments": 215,
+        "score": 303,
+        "comments": 228,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other."
       },
       {
-        "id": 48123546,
-        "title": "S-100 Virtual Workbench",
-        "url": "https://grantmestrength.github.io/S100/",
-        "score": 96,
-        "comments": 20,
+        "id": 48124436,
+        "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
+        "url": "https://www.tryardent.com/",
+        "score": 65,
+        "comments": 29,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -115,17 +115,17 @@
         "id": 48121929,
         "title": "The US is winning the AI race where it matters most: commercialization",
         "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
-        "score": 158,
-        "comments": 435,
+        "score": 164,
+        "comments": 463,
         "category_hint": "ai-ml",
         "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
       },
       {
-        "id": 48128003,
-        "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-        "url": null,
-        "score": 136,
-        "comments": 56,
+        "id": 48123546,
+        "title": "S-100 Virtual Workbench",
+        "url": "https://grantmestrength.github.io/S100/",
+        "score": 100,
+        "comments": 20,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -133,98 +133,8 @@
         "id": 48077924,
         "title": "Reverting the incremental GC in Python 3.14 and 3.15",
         "url": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
-        "score": 194,
-        "comments": 75,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48125557,
-        "title": "A sentimental tour of late 1990s and early 2000s hacking tools",
-        "url": "https://andreafortuna.org/2026/05/13/amarcord/",
-        "score": 43,
-        "comments": 14,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48089921,
-        "title": "New stainless steel can survive conditions for hydrogen production in seawater",
-        "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
-        "score": 292,
-        "comments": 137,
-        "category_hint": "other",
-        "why_hot": "Strong HN engagement; likely important development in other."
-      },
-      {
-        "id": 48126981,
-        "title": "Meta won't let you block its AI account on Threads",
-        "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-        "score": 98,
-        "comments": 32,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
-      },
-      {
-        "id": 48093578,
-        "title": "An idiot's guide to lead optimisation for proteins",
-        "url": "https://magnusross.github.io/posts/protein-lead-optimisation-1/",
-        "score": 138,
-        "comments": 14,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48121266,
-        "title": "Leaving GitHub for Forgejo",
-        "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
-        "score": 520,
-        "comments": 279,
-        "category_hint": "other",
-        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
-      },
-      {
-        "id": 48091812,
-        "title": "Preserving Fisher-Price Pixter",
-        "url": "https://dmitry.gr/?r=05.Projects&proj=37.%20Pixter",
-        "score": 203,
-        "comments": 43,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48127815,
-        "title": "Medicare's new payment model is built for AI. Most of the tech world has no idea",
-        "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
-        "score": 46,
-        "comments": 28,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
-      },
-      {
-        "id": 48120629,
-        "title": "I moved my digital stack to Europe",
-        "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
-        "score": 877,
-        "comments": 532,
-        "category_hint": "other",
-        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
-      },
-      {
-        "id": 48126156,
-        "title": "Making the news available at no cost is a victory",
-        "url": "https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/",
-        "score": 102,
-        "comments": 107,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48128842,
-        "title": "Intercom changes name to Fin",
-        "url": "https://www.intercom.com/blog/today-intercom-becomes-fin/",
-        "score": 18,
-        "comments": 20,
+        "score": 198,
+        "comments": 79,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -232,26 +142,98 @@
         "id": 48085423,
         "title": "After 3 decades of splendid scientific communication, this one's for you, Ned",
         "url": "https://www.adn.com/alaska-news/science/2026/05/08/after-3-decades-of-splendid-scientific-communication-this-ones-for-you-ned/",
-        "score": 8,
+        "score": 13,
         "comments": 0,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48083622,
-        "title": "Comparing a 1980s memory map to the Raspi Pico",
-        "url": "https://medium.com/@noborutakahashi/a-40-year-old-memory-map-comparable-to-todays-raspberry-pi-pico-932c4309260d",
-        "score": 18,
+        "id": 48107473,
+        "title": "The Age of the Amplifier",
+        "url": "https://www.construction-physics.com/p/the-age-of-the-amplifier",
+        "score": 5,
         "comments": 0,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48095680,
-        "title": "Exploring 8 Shaft Weaving",
-        "url": "https://algorithmicpattern.org/2026/03/11/exploring-8-shaft-weaving/",
-        "score": 19,
-        "comments": 1,
+        "id": 48125557,
+        "title": "A sentimental tour of late 1990s and early 2000s hacking tools",
+        "url": "https://andreafortuna.org/2026/05/13/amarcord/",
+        "score": 46,
+        "comments": 16,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48128003,
+        "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+        "url": null,
+        "score": 162,
+        "comments": 59,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48093578,
+        "title": "An idiot's guide to lead optimisation for proteins",
+        "url": "https://magnusross.github.io/posts/protein-lead-optimisation-1/",
+        "score": 140,
+        "comments": 16,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48126981,
+        "title": "Meta won't let you block its AI account on Threads",
+        "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+        "score": 108,
+        "comments": 44,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
+      },
+      {
+        "id": 48121266,
+        "title": "Leaving GitHub for Forgejo",
+        "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo/",
+        "score": 528,
+        "comments": 281,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+      },
+      {
+        "id": 48091812,
+        "title": "Preserving Fisher-Price Pixter",
+        "url": "https://dmitry.gr/?r=05.Projects&proj=37.%20Pixter",
+        "score": 207,
+        "comments": 44,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48120629,
+        "title": "I moved my digital stack to Europe",
+        "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
+        "score": 886,
+        "comments": 537,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+      },
+      {
+        "id": 48127815,
+        "title": "Medicare's new payment model is built for AI. Most of the tech world has no idea",
+        "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+        "score": 53,
+        "comments": 31,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends."
+      },
+      {
+        "id": 48126156,
+        "title": "Making the news available at no cost is a victory",
+        "url": "https://www.sltrib.com/opinion/commentary/2026/05/12/just-days-tribune-reporting/",
+        "score": 109,
+        "comments": 112,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -265,38 +247,38 @@
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48094986,
-        "title": "How can Apple deal with the memory shortage?",
-        "url": "https://asymco.com/2026/05/11/the-great-memory-panic-of-2026/",
-        "score": 71,
-        "comments": 56,
+        "id": 48083622,
+        "title": "Comparing a 1980s memory map to the Raspi Pico",
+        "url": "https://medium.com/@noborutakahashi/a-40-year-old-memory-map-comparable-to-todays-raspberry-pi-pico-932c4309260d",
+        "score": 21,
+        "comments": 0,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48127889,
-        "title": "A desire for a loud car correlates with higher scores on psychopathy and sadism",
-        "url": "https://cipp.ug.edu.pl/A-desire-for-a-loud-car-with-a-modified-muffler-is-predicted-by-being-a-man-and-higher,162006,0,2.html",
-        "score": 41,
-        "comments": 11,
+        "id": 48129789,
+        "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
+        "url": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
+        "score": 7,
+        "comments": 0,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48125617,
-        "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
-        "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
-        "score": 136,
-        "comments": 137,
+        "id": 48095680,
+        "title": "Exploring 8 Shaft Weaving",
+        "url": "https://algorithmicpattern.org/2026/03/11/exploring-8-shaft-weaving/",
+        "score": 21,
+        "comments": 1,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48123015,
-        "title": "Open Source Resistance: keep OSS alive on company time",
-        "url": "https://ossresistance.com/",
-        "score": 244,
-        "comments": 78,
+        "id": 48128842,
+        "title": "Intercom changes name to Fin",
+        "url": "https://www.intercom.com/blog/today-intercom-becomes-fin/",
+        "score": 19,
+        "comments": 29,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -304,8 +286,35 @@
         "id": 48119326,
         "title": "Cost of enum-to-string: C++26 reflection vs. the old ways",
         "url": "https://vittorioromeo.com/index/blog/refl_enum_to_string.html",
-        "score": 78,
-        "comments": 110,
+        "score": 79,
+        "comments": 112,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48123015,
+        "title": "Open Source Resistance: keep OSS alive on company time",
+        "url": "https://ossresistance.com/",
+        "score": 245,
+        "comments": 78,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48127889,
+        "title": "A desire for a loud car correlates with higher scores on psychopathy and sadism",
+        "url": "https://cipp.ug.edu.pl/A-desire-for-a-loud-car-with-a-modified-muffler-is-predicted-by-being-a-man-and-higher,162006,0,2.html",
+        "score": 48,
+        "comments": 11,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48094986,
+        "title": "How can Apple deal with the memory shortage?",
+        "url": "https://asymco.com/2026/05/11/the-great-memory-panic-of-2026/",
+        "score": 71,
+        "comments": 59,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -313,17 +322,35 @@
         "id": 48078452,
         "title": "Web Server on a Nintendo Wii",
         "url": "http://wii.sjmulder.nl/",
-        "score": 93,
-        "comments": 35,
+        "score": 95,
+        "comments": 34,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48128165,
-        "title": "Sleep linked to slower ageing: study pinpoints the right amount",
-        "url": "https://www.nature.com/articles/d41586-026-01506-8",
-        "score": 19,
-        "comments": 0,
+        "id": 48125617,
+        "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+        "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+        "score": 139,
+        "comments": 145,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48089921,
+        "title": "New stainless steel can survive conditions for hydrogen production in seawater",
+        "url": "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
+        "score": 296,
+        "comments": 138,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other."
+      },
+      {
+        "id": 48120351,
+        "title": "Using OR-Tools CP-SAT for Scheduling Problems",
+        "url": "https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html",
+        "score": 76,
+        "comments": 28,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -337,38 +364,11 @@
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48120351,
-        "title": "Using OR-Tools CP-SAT for Scheduling Problems",
-        "url": "https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html",
-        "score": 76,
-        "comments": 28,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48126000,
-        "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
-        "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
-        "score": 166,
-        "comments": 146,
-        "category_hint": "lifestyle",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48076342,
-        "title": "Nailing jelly to a wall: is it possible? (2005)",
-        "url": "https://greem.co.uk/otherbits/jelly.html",
-        "score": 74,
-        "comments": 29,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
-      },
-      {
-        "id": 48127469,
-        "title": "I was asked to install malware during a fake interview",
-        "url": "https://ashishb.net/security/contagious-interview/",
-        "score": 33,
-        "comments": 1,
+        "id": 48128165,
+        "title": "Sleep linked to slower ageing: study pinpoints the right amount",
+        "url": "https://www.nature.com/articles/d41586-026-01506-8",
+        "score": 20,
+        "comments": 0,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
@@ -376,10 +376,37 @@
         "id": 48116064,
         "title": "When “idle” isn't idle: how a Linux kernel optimization became a QUIC bug",
         "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
-        "score": 154,
-        "comments": 32,
+        "score": 155,
+        "comments": 33,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48076342,
+        "title": "Nailing jelly to a wall: is it possible? (2005)",
+        "url": "https://greem.co.uk/otherbits/jelly.html",
+        "score": 75,
+        "comments": 31,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+      },
+      {
+        "id": 48115127,
+        "title": "Restore full BambuNetwork support for Bambu Lab printers",
+        "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+        "score": 639,
+        "comments": 292,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+      },
+      {
+        "id": 48111545,
+        "title": "Googlebook",
+        "url": "https://googlebook.google/",
+        "score": 902,
+        "comments": 1517,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
       },
       {
         "id": 48109772,
@@ -391,56 +418,29 @@
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48115127,
-        "title": "Restore full BambuNetwork support for Bambu Lab printers",
-        "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
-        "score": 638,
-        "comments": 292,
-        "category_hint": "other",
-        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
-      },
-      {
-        "id": 48123198,
-        "title": "Kickstarter is forced to ban adult content by payment processors",
-        "url": "https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648",
-        "score": 346,
-        "comments": 251,
-        "category_hint": "other",
-        "why_hot": "Strong HN engagement; likely important development in other."
-      },
-      {
-        "id": 48111545,
-        "title": "Googlebook",
-        "url": "https://googlebook.google/",
-        "score": 902,
-        "comments": 1516,
-        "category_hint": "other",
-        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
-      },
-      {
-        "id": 48129146,
-        "title": "Marx's Theory of Alianation of Labor",
-        "url": "https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation",
-        "score": 11,
-        "comments": 4,
-        "category_hint": "other",
+        "id": 48126000,
+        "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
+        "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+        "score": 175,
+        "comments": 163,
+        "category_hint": "lifestyle",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       },
       {
-        "id": 48091898,
-        "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
-        "url": "https://github.com/tracewayapp/traceway",
-        "score": 167,
-        "comments": 59,
-        "category_hint": "infra",
-        "why_hot": "Infra/DevOps topic with HN traction; signals shifts in tooling or architecture."
+        "id": 48129552,
+        "title": "Proton's password manager passes audit by top security firm – Proton",
+        "url": "https://proton.me/business/blog/proton-pass-audit-2026",
+        "score": 6,
+        "comments": 1,
+        "category_hint": "security",
+        "why_hot": "Security incident or tool with high HN interest; may affect infra or AI safety."
       },
       {
-        "id": 48111243,
-        "title": "As researchers age, they produce less disruptive work",
-        "url": "https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650",
-        "score": 141,
-        "comments": 134,
+        "id": 48127469,
+        "title": "I was asked to install malware during a fake interview",
+        "url": "https://ashishb.net/security/contagious-interview/",
+        "score": 34,
+        "comments": 2,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion."
       }
@@ -450,8 +450,8 @@
         "id": 48111896,
         "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
         "url": "https://github.com/cactus-compute/needle",
-        "score": 636,
-        "comments": 182,
+        "score": 639,
+        "comments": 183,
         "category_hint": "other",
         "why_hot": "High-engagement Show HN; strong community validation for a new tool/product."
       }

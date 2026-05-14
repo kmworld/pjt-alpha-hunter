@@ -151,22 +151,19 @@ Key findings:
     "url": "..."
   }
 
-### 7) alpha_deep_context.mjs (Deep Context Upgrade)
+### 7) alpha_deep_context.mjs (Deep Context Upgrade) (Completed)
 
-- [ ] Replace boilerplate signal_reason with meaningful rationale:
-  - Use per-source enriched fields (why_notable, why_hot, why_signal).
-- [ ] For each candidate:
-  - `alpha_thesis`:
-    - Why this matters in 6–24 months.
-    - What sector/stack it enables.
-  - `risk`:
-    - Concrete risks: hype cycle, regulatory, technical, competition.
-  - `cross_source_links`:
-    - List of other sources that confirm or contradict.
-- [ ] Add:
-  - `sector_themes`: auto-generated themes (e.g., "AI Agent Infra", "On-Device AI", "Physical AI", "ZK / Crypto Infra").
-  - `contrarian_notes`: 1–2 items that challenge the dominant narrative.
-- [ ] Output schema (target, key parts):
+- [x] Replace boilerplate signal_reason with meaningful rationale.
+- [x] Per candidate:
+  - [x] `alpha_thesis`: 2–4 lines, 6–24 month horizon, sector/stack impact.
+  - [x] `risk`: concrete risks (hype, regulation, tech, competition).
+  - [x] `cross_source_links`: other sources that confirm/contradict.
+  - [x] `sector_themes`: 2–4 themes per candidate.
+- [x] Added:
+  - [x] `sector_themes`: auto-generated from all signals.
+  - [x] `contrarian_notes`: 1–2 challenging observations.
+- [x] Output schema matches target.
+- [x] Validated with 2026-05-14 run.
 
   "candidates": [
     {

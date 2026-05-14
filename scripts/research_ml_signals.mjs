@@ -227,14 +227,30 @@ function inferArxivWhyNotable(title, abstractShort) {
 
 // ---------- ArXiv Recent Papers (last 14 days) ----------
 async function fetchArxiv() {
+  // Longer delay to reduce rate-limit risk
+  await new Promise((r) => setTimeout(r, 5000));
+
+  const baseQuery = "cat:cs.AI+OR+cat:cs.LG";
+  const url = `https://export.arxiv.org/api/query?search_query=${baseQuery}&sortBy=submittedDate&sortOrder=descending&max_results=10`;
+
+  const resp = await fetch(url, {
+    signal: AbortSignal.timeout(15_000),
+  });
+
+  if (!resp.ok) {
+    console.error(`ArXiv fetch failed: ${resp.status}`);
+    return;
+  }
+
+  const xml = await resp.text();
   try {
     // Use broad AI/ML categories, sorted by submit date, limited to recent.
     const baseQuery =
       "cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.MA+OR+cat:cs.SE";
-    const url = `https://export.arxiv.org/api/query?search_query=${baseQuery}&sortBy=submittedDate&sortOrder=descending&max_results=80`;
+    const url = `https://export.arxiv.org/api/query?search_query=${baseQuery}&sortBy=submittedDate&sortOrder=descending&max_results=30`;
 
     const resp = await fetch(url, {
-      signal: AbortSignal.timeout(25_000),
+      signal: AbortSignal.timeout(40_000),
     });
 
     if (!resp.ok) {
