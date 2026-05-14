@@ -329,6 +329,110 @@ async function fetchYC() {
   return companies.slice(0, 20);
 }
 
+// Enrichment helpers: tags, why_notable, tech_domain
+
+function classifyTechDomain(text) {
+  const t = (text || "").toLowerCase();
+  const aiWords = [
+    "ai", "ai agent", "ai-powered", "generative ai", "llm", "language model",
+    "artificial intelligence", "ai assistant", "ai-native", "ai workflow",
+    "claude", "gpt", "copilot", "chatgpt", "deepseek", "gemini",
+  ];
+  const devWords = [
+    "developer tool", "devtools", "sdk", "api", "cli", "build system",
+    "compiler", "debugger", "runtime", "observability", "monitoring",
+    "ci/cd", "infrastructure", "infra", "containers", "kubernetes",
+    "serverless", "cloud", "platform", "backend", "database",
+    "code", "coding", "refactor", "deploy", "workflow",
+    "typescript", "javascript", "python", "rust", "go", "java",
+    "terminal", "ide", "editor", "dev",
+  ];
+  const mktWords = [
+    "marketing", "seo", "ads", "email marketing", "growth", "crm",
+    "sales", "lead gen", "conversion", "funnel", "content marketing",
+  ];
+  const cryptoWords = [
+    "crypto", "web3", "blockchain", "defi", "nft", "wallet",
+    "solana", "ethereum", "bitcoin", "on-chain", "decentralized",
+    "dapp", "dao", "web3",
+  ];
+  const consumerWords = [
+    "social", "messaging", "chat", "video", "music", "photo",
+    "lifestyle", "fitness", "wellness", "dating", "community",
+    "productivity", "notes", "task", "planner",
+  ];
+
+  let aiScore = 0, devScore = 0, mktScore = 0, cryptoScore = 0, consumerScore = 0;
+  for (const w of aiWords) if (t.includes(w)) aiScore += 2;
+  for (const w of devWords) if (t.includes(w)) devScore += 1;
+  for (const w of mktWords) if (t.includes(w)) mktScore += 1;
+  for (const w of cryptoWords) if (t.includes(w)) cryptoScore += 2;
+  for (const w of consumerWords) if (t.includes(w)) consumerScore += 1;
+
+  const max = Math.max(aiScore, devScore, mktScore, cryptoScore, consumerScore, 0);
+  if (max === 0) return "other";
+  if (aiScore === max) return "ai-agent";
+  if (devScore === max) return "devtools";
+  if (mktScore === max) return "marketing";
+  if (cryptoScore === max) return "crypto";
+  if (consumerScore === max) return "consumer";
+  return "other";
+}
+
+function generateTags(text) {
+  const t = (text || "").toLowerCase();
+  const tags = new Set();
+  const addIf = (cond, tag) => { if (cond) tags.add(tag); };
+
+  addIf(t.includes("ai") || t.includes("agent") || t.includes("llm") || t.includes("claude") || t.includes("gpt"), "AI");
+  addIf(t.includes("dev") || t.includes("developer") || t.includes("sdk") || t.includes("api") || t.includes("code"), "DevTools");
+  addIf(t.includes("marketing") || t.includes("seo") || t.includes("ads"), "Marketing");
+  addIf(t.includes("infra") || t.includes("cloud") || t.includes("serverless") || t.includes("kubernetes"), "Infrastructure");
+  addIf(t.includes("crypto") || t.includes("web3") || t.includes("blockchain"), "Crypto/Web3");
+  addIf(t.includes("saas") || t.includes("platform"), "SaaS");
+  addIf(t.includes("startup"), "Startup");
+  addIf(t.includes("productivity") || t.includes("workflow"), "Productivity");
+  addIf(t.includes("analytics") || t.includes("metrics"), "Analytics");
+  addIf(t.includes("design") || t.includes("ui"), "Design");
+  addIf(t.includes("open source") || t.includes("oss"), "Open Source");
+  addIf(t.includes("finance") || t.includes("fintech") || t.includes("payments"), "Finance");
+  addIf(t.includes("security") || t.includes("auth"), "Security");
+  addIf(t.includes("wearable") || t.includes("hardware"), "Hardware");
+  addIf(t.includes("ui") || t.includes("living ui") || t.includes("interface"), "UX/UI");
+
+  const arr = [...tags];
+  return arr.length > 5 ? arr.slice(0, 5) : arr;
+}
+
+function generateWhyNotable(item) {
+  const text = [item.name || item.title, item.tagline || item.description_short].join(" ").toLowerCase();
+  const votes = item.votes || 0;
+  const parts = [];
+
+  if (votes >= 300) parts.push("High traction");
+  else if (votes >= 100) parts.push("Strong early interest");
+
+  if (text.includes("ai") || text.includes("agent")) parts.push("AI-native");
+  if (text.includes("yc") || text.includes("y combinator")) parts.push("YC-backed");
+  if (text.includes("open source")) parts.push("Open-source friendly");
+
+  if (parts.length === 0) {
+    if (text.includes("ai")) parts.push("Emerging AI tool");
+    else parts.push("Notable new launch");
+  }
+
+  const base = parts.join("; ");
+  return base.length > 140 ? base.slice(0, 140) + "…" : base;
+}
+
+function enrichItem(item, source) {
+  const text = [item.name || item.title, item.tagline || item.description_short || ""].join(" ");
+  const tech_domain = classifyTechDomain(text);
+  const tags = generateTags(text);
+  const why_notable = generateWhyNotable(item);
+  return { ...item, tech_domain, tags, why_notable };
+}
+
 // Main
 
 async function run() {
@@ -352,12 +456,16 @@ async function run() {
     process.exit(1);
   }
 
+  const enrichedProductHunt = product_hunt.map((p) => enrichItem(p, "product_hunt"));
+  const enrichedIndieHackers = indiehackers.map((p) => enrichItem(p, "indiehackers"));
+  const enrichedYC = yc.map((p) => enrichItem(p, "yc"));
+
   const payload = {
     source: "product_launch",
     date,
-    product_hunt,
-    indiehackers,
-    yc,
+    product_hunt: enrichedProductHunt,
+    indiehackers: enrichedIndieHackers,
+    yc: enrichedYC,
   };
 
   const outPath = path.join(dataDir, `product_launch_${date}.json`);

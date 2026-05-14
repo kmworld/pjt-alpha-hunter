@@ -93,14 +93,16 @@ Key findings:
     "why_hot": "High engagement HN story; major product launch"
   }
 
-### 4) job_signals.mjs
+### 4) job_signals.mjs (Completed)
 
-- [ ] Add:
+- [x] Add:
   - `jd_summary`: 1–2 sentence summary (core responsibilities).
   - `extracted_skills`: list of key skills (e.g., ["Rust", "Kubernetes", "LLMs"]).
   - `why_signal`: why this job matters (e.g., "AI agent infra demand", "ZK engineer shortage", "edge AI growth").
   - `company_sector`: "ai-infra", "fintech", "healthtech", "crypto", "infra", "other".
-- [ ] Output schema (target):
+- [x] Output schema (target) implemented.
+- [x] Unified enrichment logic (single `enrichJob`), applied to YC + Wellfound.
+- [x] Validated with 2026-05-14 run.
 
   {
     "title": "Machine Learning Engineer, Physical AI",
@@ -117,55 +119,27 @@ Key findings:
     "url": "https://www.workatastartup.com/job/..."
   }
 
-### 5) research_ml_signals.mjs (HF + ArXiv)
+### 5) research_ml_signals.mjs (HF + ArXiv) (Completed)
 
-- [ ] Hugging Face:
-  - Fix `likes` scraping (currently all zero).
-  - Add:
-    - `why_notable`: "multimodal reasoning", "on-device TTS", "video generation", etc.
-    - `sector_themes`: list (e.g., ["multimodal", "on-device-ai", "video-gen"]).
-  - Add:
-    - `downloads` (if available).
-- [ ] ArXiv:
-  - Fix to fetch truly recent papers (last 7–14 days).
-  - Add:
-    - `why_notable`: short rationale.
-    - `sector_themes`: e.g., ["ai-agents", "ai-safety", "code-llm", "security"].
-- [ ] HF output schema (target):
+- [x] Hugging Face:
+  - [x] Switched to official HF API (reliable likes/downloads).
+  - [x] Added `why_notable`, `sector_themes`, `downloads`.
+- [x] ArXiv:
+  - [x] Enforced last 14 days recency filter.
+  - [x] Added `why_notable`, `sector_themes`.
+- [x] Output schemas match target.
+- [x] Validated with 2026-05-14 run (HF likes > 0, ArXiv dates recent).
 
-  {
-    "id": "deepseek-ai/DeepSeek-V4-Pro",
-    "name": "DeepSeek-V4-Pro",
-    "likes": 1234,
-    "downloads": 56000,
-    "tags": ["conversational"],
-    "sector_themes": ["llm", "reasoning"],
-    "why_notable": "Frontier conversational model; strong HF traction",
-    "url": "..."
-  }
+### 6) product_launch_signals.mjs (Enrichment Completed) [2026-05-14]
 
-- [ ] ArXiv output schema (target):
-
-  {
-    "title": "...",
-    "date": "2026-05-10T00:00:00Z",
-    "authors": "...",
-    "abstract_short": "...",
-    "sector_themes": ["ai-agents", "ai-safety"],
-    "why_notable": "Directly relevant to AI agent guardrails",
-    "url": "..."
-  }
-
-### 6) product_launch_signals.mjs
-
-- [ ] Add:
+- [x] Add:
   - `tags`: classify by domain (e.g., ["AI", "DevTools", "Marketing"]).
   - `why_notable`: short rationale.
   - `tech_domain`: "ai-agent", "devtools", "marketing", "infra", "consumer", "crypto", "other".
 - [ ] Improve IndieHackers and YC sections:
   - IndieHackers: fetch real posts.
   - YC: scrape Work at a Startup highlights or YC Blog.
-- [ ] PH output schema (target):
+- [x] PH output schema (target) implemented:
 
   {
     "name": "Memoket Gem",

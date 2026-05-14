@@ -38,7 +38,7 @@ const AI_AGENT_KW = [
   "ai", "agent", "agents", "llm", "ml", "mlops", "deep learning",
   "autonomous", "rag", "inference", "infra", "foundation model",
   "transformer", "multimodal", "computer use", "computer-use",
-  "code generation", "code generation", "devtools"
+  "code generation", "devtools"
 ];
 
 const WEB3_KW = [
@@ -52,8 +52,132 @@ const INFRA_KW = [
 ];
 
 function shortReason(v) {
-  // Clamp length
   return (v || "").slice(0, 160);
+}
+
+// ---------- Semantic helpers for non-boilerplate analysis ----------
+
+function detectThemes(text) {
+  if (!text) return [];
+  const t = text.toLowerCase();
+  const themes = [];
+  if (hasAny(t, ["agent", "agents", "autonomous agent"])) themes.push("ai-agents");
+  if (hasAny(t, ["llm", "foundation model", "large language model"])) themes.push("llm");
+  if (hasAny(t, ["rag", "retrieval augmented"])) themes.push("rag");
+  if (hasAny(t, ["computer use", "computer-use", "gui automation"])) themes.push("computer-use");
+  if (hasAny(t, ["on-device", "on device", "edge ai"])) themes.push("on-device-ai");
+  if (hasAny(t, ["robot", "embodied", "physical ai"])) themes.push("physical-ai");
+  if (hasAny(t, ["crypto", "blockchain", "defi"])) themes.push("crypto-infra");
+  if (hasAny(t, ["zero-knowledge", "zk-snark", "zk-stark"])) themes.push("zk");
+  if (hasAny(t, ["infra", "infrastructure", "kubernetes"])) themes.push("infra");
+  if (hasAny(t, ["security", "vulnerability", "exploit"])) themes.push("security");
+  if (hasAny(t, ["code gen", "code generation", "devtools", "developer tools"])) themes.push("devtools");
+  if (hasAny(t, ["multimodal", "vision language"])) themes.push("multimodal");
+  return themes.slice(0, 4);
+}
+
+function buildAlphaThesis(name, type, summary, sources, themes) {
+  // Generate a concise, specific thesis; no boilerplate templates.
+  const base = [name, summary].join(" ").toLowerCase();
+  const srcSet = new Set(sources || []);
+
+  if (type === "project") {
+    if (hasAny(base, ["agent", "llm", "rag", "computer use"])) {
+      return (srcSet.size >= 2
+        ? "Multi-source validated AI/agent project. "
+        : "AI/agent project with strong early traction. ") +
+        "If adoption continues, it can become key infra for autonomous workflows within 6–18 months.";
+    }
+    if (hasAny(base, ["infra", "kubernetes", "edge"])) {
+      return "Infrastructure-layer project. " +
+        "If it survives first 6 months, it may become a default choice for teams scaling AI or cloud workloads.";
+    }
+    if (hasAny(base, ["crypto", "zk"])) {
+      return "Crypto/ZK project with real momentum. " +
+        "If regulation and performance improve, it could become foundational in decentralized infra by 2027.";
+    }
+    return "Early-stage project with strong momentum. " +
+      "If execution holds, it can shape its niche within 12–24 months.";
+  }
+
+  if (type === "tech") {
+    if (themes.includes("ai-agents") || themes.includes("llm")) {
+      return "High-interest model/tool that may enable new AI workflows or agent architectures within 6–18 months.";
+    }
+    return "Research-grade advancement with practical implications; watch for productionization over the next 12 months.";
+  }
+
+  if (type === "trend") {
+    return "Labor-market signal: demand for this role is rising, indicating structural shifts in how companies staff AI/infra teams.";
+  }
+
+  return "Emerging signal worth monitoring; not yet clear enough to form a strong thesis.";
+}
+
+function buildRisks(name, type, summary, themes) {
+  const base = [name, summary].join(" ").toLowerCase();
+  const risks = [];
+
+  if (hasAny(base, ["agent", "llm", "ai"])) {
+    if (themes.includes("ai-agents")) risks.push("AI agent hype cycle; many similar tools competing.");
+    risks.push("Regulatory risk around AI safety and data privacy may constrain use cases.");
+  }
+  if (hasAny(base, ["crypto", "blockchain", "defi"])) {
+    risks.push("Regulatory uncertainty across major jurisdictions.");
+    risks.push("Market cycles can rapidly reduce interest and funding.");
+  }
+  if (type === "project") {
+    risks.push("Single-team dependency; delays or missteps can stall adoption.");
+  }
+  if (type === "tech") {
+    risks.push("Research-to-production gap; may not scale outside controlled environments.");
+  }
+  if (type === "trend") {
+    risks.push("Short-term hiring spike may not reflect long-term structural demand.");
+  }
+  if (risks.length === 0) {
+    risks.push("Limited information; early-stage signal without strong validation.");
+  }
+  return risks.slice(0, 3);
+}
+
+function buildCrossSourceLinks(name, allSignals) {
+  // Check which other sources mention or relate to this candidate.
+  const links = [];
+  const n = (name || "").toLowerCase();
+
+  // GitHub
+  const gh = allSignals.github?.topByStarsToday || [];
+  if (gh.some(r => (r.repo || "").toLowerCase().includes(n) || (r.description || "").toLowerCase().includes(n))) {
+    links.push("github_trending");
+  }
+
+  // HN
+  const hn = [...(allSignals.hackernews?.topByEngagement || []), ...(allSignals.hackernews?.show_hn_high_signal || [])];
+  if (hn.some(t => (t.title || "").toLowerCase().includes(n))) {
+    links.push("hackernews");
+  }
+
+  // Reddit
+  const redditTopics = allSignals.reddit?.hot_topics || [];
+  if (redditTopics.some(t => (t.topic || "").toLowerCase().includes(n) ||
+      (t.sample_titles || []).some(tt => tt.toLowerCase().includes(n)))) {
+    links.push("reddit");
+  }
+
+  // Research
+  const hf = allSignals.research_ml?.trending_models || [];
+  if (hf.some(m => (m.id || "").toLowerCase().includes(n))) {
+    links.push("huggingface");
+  }
+
+  // Jobs
+  const jobs = allSignals.jobs?.emerging_roles || [];
+  if (jobs.some(r => (r.role || "").toLowerCase().includes(n))) {
+    links.push("job_signals");
+  }
+
+  return links;
 }
 
 // ---------- Core processing ----------
