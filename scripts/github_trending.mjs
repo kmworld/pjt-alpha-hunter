@@ -7,7 +7,7 @@ import fs from "fs";
 import path from "path";
 
 const PROJECT_ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-const DATA_DIR = path.join(PROJECT_ROOT, "data");
+const DATA_DIR = path.join(PROJECT_ROOT, "data"); // base; date subfolder created per run
 
 const TRENDING_URL = "https://github.com/trending?since=daily";
 const MAX_REPOS = 30;
@@ -203,7 +203,8 @@ function guessOwnerType(ownerInfo) {
 
 function getYesterdayRepoSet() {
   const yest = yesterdayISO();
-  const data = safeReadJSON(path.join(DATA_DIR, `github_trending_${yest}.json`));
+  const yestDir = path.join(DATA_DIR, yest);
+  const data = safeReadJSON(path.join(yestDir, `github_trending.json`));
   if (!data || !Array.isArray(data.items)) return new Set();
   return new Set(data.items.map(r => r.repo));
 }
@@ -459,6 +460,11 @@ async function main() {
     const enriched = await enrichRepos(items);
 
     const date = todayISO();
+    const dateDir = path.join(DATA_DIR, date);
+    if (!fs.existsSync(dateDir)) {
+      fs.mkdirSync(dateDir, { recursive: true });
+    }
+
     const out = {
       source: "github_trending",
       date,
@@ -466,11 +472,7 @@ async function main() {
       items: enriched,
     };
 
-    if (!fs.existsSync(DATA_DIR)) {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
-    }
-
-    const file = path.join(DATA_DIR, `github_trending_${date}.json`);
+    const file = path.join(dateDir, `github_trending.json`);
     fs.writeFileSync(file, JSON.stringify(out, null, 2), "utf-8");
 
     const risingStars = enriched.filter(r => r.is_rising_star).length;

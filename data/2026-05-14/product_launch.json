@@ -1,0 +1,351 @@
+{
+  "source": "product_launch",
+  "date": "2026-05-14",
+  "product_hunt": [
+    {
+      "name": "Spellar 3.0",
+      "tagline": "AI Meeting companion with cross-meeting memory",
+      "votes": 267,
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "url": "https://www.producthunt.com/products/spellar",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Naptick AI",
+      "tagline": "Al sleep companion that helps fall asleep without struggle",
+      "votes": 222,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/naptick-ai-sleep-companion",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Tendem by Toloka",
+      "tagline": "AI platform to hand off any task to a human expert",
+      "votes": 160,
+      "tags": [
+        "AI",
+        "SaaS"
+      ],
+      "url": "https://www.producthunt.com/products/tendem-by-toloka",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Theneo",
+      "tagline": "The API management platform for humans and agents",
+      "votes": 144,
+      "tags": [
+        "AI",
+        "DevTools",
+        "SaaS"
+      ],
+      "url": "https://www.producthunt.com/products/theneo",
+      "tech_domain": "devtools",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Causo for Fundraising",
+      "tagline": "Pitch the right VCs, skip the grind",
+      "votes": 123,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/causo-hub-free-tools-for-fundraising",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Instants by Instagram",
+      "tagline": "Send disappearing, unedited photos to Close Friends",
+      "votes": 117,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/instagram",
+      "tech_domain": "consumer",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "Notion Developer Platform",
+      "tagline": "Build on Notion, not just inside it",
+      "votes": 114,
+      "tags": [
+        "DevTools",
+        "SaaS",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/notion",
+      "tech_domain": "devtools",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "Resend Automations",
+      "tagline": "Build event-driven email flows",
+      "votes": 105,
+      "tags": [
+        "AI",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/resend",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Fei Design Mode",
+      "tagline": "Directly edit and tweak UI pixels live with AI agents",
+      "votes": 103,
+      "tags": [
+        "AI",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/autonomyai",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Asteroid",
+      "tagline": "Computer use agent builder for Browser, Linux and Windows",
+      "votes": 103,
+      "tags": [
+        "AI",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/asteroid-3",
+      "tech_domain": "other",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Raindrop Workshop",
+      "tagline": "Open source, free, local debugger for AI agents",
+      "votes": 95,
+      "tags": [
+        "AI",
+        "Open Source"
+      ],
+      "url": "https://www.producthunt.com/products/raindrop",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native; Open-source friendly"
+    },
+    {
+      "name": "Pressmaster.ai",
+      "tagline": "Thought leadership AI for founders and teams",
+      "votes": 88,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/pressmaster-ai",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Openclaw OS",
+      "tagline": "Turn one-off chats into persistent, usable apps",
+      "votes": 88,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/thesys",
+      "tech_domain": "consumer",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Edit Mind",
+      "tagline": "Search videos like you'd describe to a friend - 100% local",
+      "votes": 86,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/edit-mind-3",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Open Browser Use",
+      "tagline": "Open-source browser automation for local AI agents",
+      "votes": 84,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/open-browser-use",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "OptimizeGEO.ai",
+      "tagline": "Agentic GEO platform for AI search visibility",
+      "votes": 81,
+      "tags": [
+        "AI",
+        "SaaS"
+      ],
+      "url": "https://www.producthunt.com/products/optimizegeo-ai",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Indigo",
+      "tagline": "Stay in touch with your people on Bluesky and Mastodon",
+      "votes": 80,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/indigo-2",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Enjo Help Center",
+      "tagline": "AI auto-builds your help centers that learn from your team",
+      "votes": 80,
+      "tags": [
+        "AI",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/enjo-help-center",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Open Computer Use",
+      "tagline": "Open-source Computer Use MCP for AI agents",
+      "votes": 78,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/open-computer-use",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "AURIXA",
+      "tagline": "Your AI companion that is always present and deeply attuned",
+      "votes": 76,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/replit",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "DoDocs inc",
+      "tagline": "AI OS automating accounting docs & reconciliation",
+      "votes": 74,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/invoice-matchpoint-by-dodocs-ai",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "c15t 2.0",
+      "tagline": "Dev-first cookie banners that don't slow your site",
+      "votes": 72,
+      "tags": [
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/c15t",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Woleet",
+      "tagline": "Bitcoin-anchored proof that documents are authentic",
+      "votes": 71,
+      "tags": [
+        "Security"
+      ],
+      "url": "https://www.producthunt.com/products/woleet-sign",
+      "tech_domain": "crypto",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Sherloq",
+      "tagline": "Know which LinkedIn prospect is warm - right now",
+      "votes": 71,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/sherloq-2",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Comie.dev",
+      "tagline": "Production context for AI with logs, DBs, and error tracking",
+      "votes": 71,
+      "tags": [
+        "AI",
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/comie-dev",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "FoodFix",
+      "tagline": "Fixing the broken journey for homecooks, creators & brands.",
+      "votes": 71,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/foodfix-tech-ltd",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Tellme",
+      "tagline": "The conversational layer for the real world",
+      "votes": 70,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/tellme-4",
+      "tech_domain": "ai-agent",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Lumox",
+      "tagline": "Mirror iOS to Mac",
+      "votes": 70,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/lumox-mirror-ios-to-mac",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "DealSync",
+      "tagline": "End the email tennis and run deals from one workspace",
+      "votes": 70,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/dealsync-ltd",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Volume",
+      "tagline": "Open banking checkout for one-click payments",
+      "votes": 69,
+      "tags": [
+        "Finance"
+      ],
+      "url": "https://www.producthunt.com/products/volume-13",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    }
+  ],
+  "indiehackers": [
+    {
+      "title": "In Case You Missed It",
+      "description_short": "",
+      "url": "https://www.indiehackers.com/top/month-of-2026-05",
+      "tech_domain": "other",
+      "tags": [],
+      "why_notable": "Notable new launch"
+    }
+  ],
+  "yc": []
+}

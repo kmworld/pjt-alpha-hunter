@@ -437,9 +437,10 @@ function enrichItem(item, source) {
 
 async function run() {
   const date = todayISO();
+  const dateDir = path.join(dataDir, date);
 
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
+  if (!fs.existsSync(dateDir)) {
+    fs.mkdirSync(dateDir, { recursive: true });
   }
 
   const [product_hunt, indiehackers, yc] = await Promise.all([
@@ -468,7 +469,7 @@ async function run() {
     yc: enrichedYC,
   };
 
-  const outPath = path.join(dataDir, `product_launch_${date}.json`);
+  const outPath = path.join(dateDir, `product_launch.json`);
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), "utf-8");
   console.log(
     `[product_launch] Wrote → ${outPath} (PH:${product_hunt.length}, IH:${indiehackers.length}, YC:${yc.length})`

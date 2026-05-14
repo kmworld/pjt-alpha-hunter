@@ -724,12 +724,13 @@ function buildContrarianNotes(ctx) {
 // ===================== MAIN =====================
 
 function buildDeepContext(date) {
-  const gh = safeReadJSON(path.join(DATA_DIR, `github_trending_${date}.json`));
-  const hn = safeReadJSON(path.join(DATA_DIR, `hackernews_${date}.json`));
-  const reddit = safeReadJSON(path.join(DATA_DIR, `reddit_${date}.json`));
-  const research = safeReadJSON(path.join(DATA_DIR, `research_ml_${date}.json`));
-  const product = safeReadJSON(path.join(DATA_DIR, `product_launch_${date}.json`));
-  const jobs = safeReadJSON(path.join(DATA_DIR, `job_signals_${date}.json`));
+  const dateDir = path.join(DATA_DIR, date);
+  const gh = safeReadJSON(path.join(dateDir, `github_trending.json`));
+  const hn = safeReadJSON(path.join(dateDir, `hackernews.json`));
+  const reddit = safeReadJSON(path.join(dateDir, `reddit.json`));
+  const research = safeReadJSON(path.join(dateDir, `research_ml.json`));
+  const product = safeReadJSON(path.join(dateDir, `product_launch.json`));
+  const jobs = safeReadJSON(path.join(dateDir, `job_signals.json`));
 
   // Pass raw signals through (report uses them)
   const rawSignals = {
@@ -869,7 +870,11 @@ function main() {
 
   const ctx = buildDeepContext(date);
 
-  const outPath = path.join(DATA_DIR, `alpha_deep_context_${date}.json`);
+  const dateDir = path.join(DATA_DIR, date);
+  if (!fs.existsSync(dateDir)) {
+    fs.mkdirSync(dateDir, { recursive: true });
+  }
+  const outPath = path.join(dateDir, `alpha_deep_context.json`);
   fs.writeFileSync(outPath, JSON.stringify(ctx, null, 2), "utf-8");
 
   console.log(`[deep_context] Written to: ${outPath}`);

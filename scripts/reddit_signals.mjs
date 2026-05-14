@@ -413,16 +413,17 @@ function buildEmergingSubreddits(hotSubreddits) {
     emerging_subreddits: emergingSubreddits,
   };
 
-  // Ensure data directory exists
+  // Ensure date-based data directory exists
   const fs = await import("fs");
   const path = await import("path");
   const rootDir = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-  const outDir = path.join(rootDir, "data");
+  const dataDir = path.join(rootDir, "data");
+  const outDir = path.join(dataDir, DATE_STR);
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }
 
-  const fullPath = path.join(outDir, `reddit_${DATE_STR}.json`);
+  const fullPath = path.join(outDir, `reddit.json`);
   fs.writeFileSync(fullPath, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`[reddit] Written to: ${fullPath}`);
 })();

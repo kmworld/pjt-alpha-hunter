@@ -199,7 +199,8 @@ function main() {
   const date = todayISODate();
   console.log(`[alpha_report] Generating VC-grade daily report for ${date}`);
 
-  const deepCtxFile = path.join(DATA_DIR, `alpha_deep_context_${date}.json`);
+  const dateDir = path.join(DATA_DIR, date);
+  const deepCtxFile = path.join(dateDir, `alpha_deep_context.json`);
   const ctx = safeReadJSON(deepCtxFile);
 
   if (!ctx) {

@@ -1,0 +1,492 @@
+{
+  "source": "reddit",
+  "date": "2026-05-14",
+  "subreddits": [
+    {
+      "name": "r/futurology",
+      "posts": [
+        {
+          "title": "What current technology do you think people are seriously underestimating right now ?",
+          "url": "https://www.reddit.com/r/Futurology/comments/1tcj2iu/what_current_technology_do_you_think_people_are/",
+          "score": 964,
+          "comments": 929,
+          "link_post": false,
+          "selftext_short": "Everyone talks about AI constantly, but I’m more interested in technologies that are quietly improving in the background without much mainstream attention yet.\n\nCould be something practical, weird, or even something most people would consider boring right now but potentially huge later on.",
+          "why_hot": "What current technology do you think people are seriously underestimating right now ?. likely drawing attention due to a high-impact or controversial development"
+        },
+        {
+          "title": "Whatever happened to the cloned sheep, Dolly?",
+          "url": "https://www.reddit.com/r/Futurology/comments/1tcnk72/whatever_happened_to_the_cloned_sheep_dolly/",
+          "score": 288,
+          "comments": 150,
+          "link_post": false,
+          "selftext_short": "I remember when Dolly the sheep was born back on July 5, 1996 as the very first mammal to be successfully cloned.  I distinctly remember freaking out they were gonna be cloning humans in a few years.  Sadly, Dolly only lived to be 6 years old when she could’ve had a lifespan of 12 years if she was a normal born sheep. \n\nFrom google:  “She was created at the Roslin Institute in Scotland and made history as the first mammal to be successfully cloned from an adult somatic cell”\n\nCan someone update everyone as to the latest advances in cloning technology,, and any laws that are impacting it?",
+          "why_hot": "Whatever happened to the cloned sheep, Dolly?"
+        }
+      ]
+    },
+    {
+      "name": "r/technology",
+      "posts": [
+        {
+          "title": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers",
+          "url": "https://www.reddit.com/r/technology/comments/1tc66gv/its_like_we_dont_exist_nearly_50000_lake_tahoe/",
+          "score": 35650,
+          "comments": 2035,
+          "link_post": true,
+          "selftext_short": "Kind of amused where I lived a few years ago we were told prepare for rolling blackouts in the summer. Now they are building a data center but “all the water and electricity is covered”…. \n\nPress X to doubt.\n\nThis is a situation where having investigative reporters would be really nice.\n\nMan, this whole data center thing seems like it might not be such a good idea\n\nMy favorite thing is how Republicans claimed our grid could not support electric cars, but data centers perfectly fine.",
+          "why_hot": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers"
+        },
+        {
+          "title": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
+          "url": "https://www.reddit.com/r/technology/comments/1tcmxdf/people_would_rather_have_nuclear_power_plants_in/",
+          "score": 20204,
+          "comments": 1056,
+          "link_post": true,
+          "selftext_short": null,
+          "why_hot": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers. relevant to AI, infrastructure, or open-source ecosystem movements"
+        },
+        {
+          "title": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password",
+          "url": "https://www.reddit.com/r/technology/comments/1tca196/claude_helps_man_recover_400000_in_btc_11_years/",
+          "score": 13582,
+          "comments": 547,
+          "link_post": true,
+          "selftext_short": "To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000.",
+          "why_hot": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password. relevant to crypto, blockchain, or DeFi ecosystem movements. To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000."
+        },
+        {
+          "title": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer",
+          "url": "https://www.reddit.com/r/technology/comments/1tcudxy/louis_rossmann_taunts_bambu_lab_by_hosting_banned/",
+          "score": 6998,
+          "comments": 343,
+          "link_post": true,
+          "selftext_short": "Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your rival's PR disaster into your brand story.",
+          "why_hot": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge suppo.... relevant to AI, infrastructure, or open-source ecosystem movements. Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your rival's PR disaster into your bran"
+        },
+        {
+          "title": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
+          "url": "https://www.reddit.com/r/technology/comments/1tc5muu/tech_layoff_wave_has_already_hit_100000_jobs_this/",
+          "score": 5064,
+          "comments": 273,
+          "link_post": true,
+          "selftext_short": null,
+          "why_hot": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year. likely drawing attention due to organizational or leadership changes"
+        },
+        {
+          "title": "Scientists successfully transfer longevity gene and extend lifespan",
+          "url": "https://www.reddit.com/r/technology/comments/1tcm9w5/scientists_successfully_transfer_longevity_gene/",
+          "score": 2726,
+          "comments": 401,
+          "link_post": true,
+          "selftext_short": "Cool. Can't wait in the year 2088 when it's announced that this failed to get any traction besides rats.\n\nGood news! You can work longer now!\n\nAll for the low price of $10,000,000.99.\n\nGreat. This will be gatekept by the rich. Cool. Now we can have Congressional reps who live into triple digits.\n\nSince no one mentioned it yet on this thread:\n\nI call dibs",
+          "why_hot": "Scientists successfully transfer longevity gene and extend lifespan. likely drawing attention as a new launch or announcement"
+        },
+        {
+          "title": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds",
+          "url": "https://www.reddit.com/r/technology/comments/1tc94v7/data_centers_could_account_for_up_to_9_of_texas/",
+          "score": 1782,
+          "comments": 76,
+          "link_post": true,
+          "selftext_short": "Looks like Elon was right--social security won't matter when we're all dead.",
+          "why_hot": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds. relevant to cybersecurity and risk tracking. Looks like Elon was right--social security won't matter when we're all dead."
+        },
+        {
+          "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
+          "url": "https://www.reddit.com/r/technology/comments/1tcbjus/i_work_in_hollywood_everyone_who_used_to_make_tv/",
+          "score": 1509,
+          "comments": 156,
+          "link_post": true,
+          "selftext_short": "I've just been operating under the assumption that everything connected to the internet is training AI at this point\n\nSecretly? Seems like you’re training AI whether you intend to or not",
+          "why_hot": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI. relevant to AI, infrastructure, or open-source ecosystem movements"
+        },
+        {
+          "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+          "url": "https://www.reddit.com/r/technology/comments/1tc97fl/overworked_ai_agents_turn_marxist_researchers_find/",
+          "score": 1244,
+          "comments": 160,
+          "link_post": true,
+          "selftext_short": "&gt; In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.\n\nLol /r/nottheonion material right there\n\nExhibit A that they are simply mirrors to their training data. Humans when overworked will eventually adopt similar stances.\n\nWe got an AI Marxist revolution before GTA 6\n\nSo you're telling me AI agents trained on the comments posted by overworked humans regurgitate the sentiments of overworked humans?\n\nColor me surprised. /s\n\nDO NOT ANTHROPOMORPHIZE THE TOKEN PREDICTION MACHINE",
+          "why_hot": "Overworked AI Agents Turn Marxist, Researchers Find. likely drawing attention due to funding, valuation, or market movement"
+        },
+        {
+          "title": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning",
+          "url": "https://www.reddit.com/r/technology/comments/1tcj3ww/trillions_of_miles_of_data_your_car_is_spying_on/",
+          "score": 1147,
+          "comments": 268,
+          "link_post": true,
+          "selftext_short": "My car is 21 years old and does no spying.\n\nWe really need some kind of legislation to end this data scraping surveillance.  Nobody wants it.\n\nDisconcerting, to say the least. \n\n&gt;Also, LOL: \"Insurance companies could decide to charge you less because you're such a good driver.\"",
+          "why_hot": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning. likely drawing attention due to regulation or policy changes"
+        },
+        {
+          "title": "The balcony solar boom is coming to the US",
+          "url": "https://www.reddit.com/r/technology/comments/1tc9qgv/the_balcony_solar_boom_is_coming_to_the_us/",
+          "score": 1142,
+          "comments": 157,
+          "link_post": true,
+          "selftext_short": "In Germany, we have a federal law that allows them on balconies. Can’t be told no if you put them up.\n\nSadly, here in IL, the electricians union worked hard to scuttle the first attempt at getting them legalized.\n\nHow bad are the punishments if you buy it without knowing the law. At some point people are going to do what people are going to do. Plenty smoke pot recreationally without legalization and electricity is a huge bill going into the summer.",
+          "why_hot": "The balcony solar boom is coming to the US. likely drawing attention due to regulation or policy changes"
+        },
+        {
+          "title": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing control over OpenAI.",
+          "url": "https://www.reddit.com/r/technology/comments/1tck4qe/sam_altman_forced_to_confront_claims_at_openai/",
+          "score": 908,
+          "comments": 51,
+          "link_post": true,
+          "selftext_short": "How is it possible that in certain circles a “prolific liar” is a welcome addition to any dinner party? Maybe billionaires and techbros are different species after all.\n\nTech-bro is shown to be a massive douchebag.\n\nIn other news, water still wet, grass still green.\n\nAll I can think of is Sam Altman as John Lovett's SNL Pathological Liar character. \"Yeah, that's the ticket!\"\n\nMost C-level people are prolific liars",
+          "why_hot": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing contr.... likely drawing attention due to a high-impact or controversial development"
+        },
+        {
+          "title": "The AI Layoff Bill Is Coming Due, And CTOs Are Going To Pay It Twice",
+          "url": "https://www.reddit.com/r/technology/comments/1tcxr3m/the_ai_layoff_bill_is_coming_due_and_ctos_are/",
+          "score": 691,
+          "comments": 79,
+          "link_post": true,
+          "selftext_short": null,
+          "why_hot": "The AI Layoff Bill Is Coming Due, And CTOs Are Going To Pay It Twice. likely drawing attention due to organizational or leadership changes"
+        },
+        {
+          "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
+          "url": "https://www.reddit.com/r/technology/comments/1tcg3he/ciscos_stock_pops_17_on_surging_ai_orders_as/",
+          "score": 670,
+          "comments": 97,
+          "link_post": true,
+          "selftext_short": "So cutting jobs increase stock price? Wonder how this is gonna end\n\nAll stock value gained over the next 5 business days after a layoff should be paid by the public company to those it laid off\n\nHow many times are we gonna experience this before everything shatters into a million pieces?\n\nCompany goes balls deep on AI, layoffs in droves, stock increases \n\nRinse and repeat\n\nQuarterly earnings grew like &lt; 10% year on year but stock doubled\n\nAutomating Cisco APIs with Codex is the one of most insanely reckless ways to insure human eradication I've ever seen.",
+          "why_hot": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs. likely drawing attention due to organizational or leadership changes"
+        },
+        {
+          "title": "Microsoft confirms Windows 11 has been downgrading graphics drivers, reveals when a fix is coming",
+          "url": "https://www.reddit.com/r/technology/comments/1tcz0ca/microsoft_confirms_windows_11_has_been/",
+          "score": 600,
+          "comments": 81,
+          "link_post": true,
+          "selftext_short": "That “winning back trust” should start any day now\n\nthis has been happening for years.  if you install the newest drivers for something and they aren't in the windows UDDM database, windows will download the \"current\" UDDM accepted driver and install that over whatever driver you have.  the only way that has been to stop this was to disallow windows to update drivers from the internet after the initial install.\n\nMust be part of that “at least 30% of code written by copilot” lmao\n\nWe pay for the OS but it looks like “we are the product” anyway.",
+          "why_hot": "Microsoft confirms Windows 11 has been downgrading graphics drivers, reveals when a fix is coming"
+        }
+      ]
+    },
+    {
+      "name": "r/startups",
+      "posts": [
+        {
+          "title": "HR got offended and left the call because I asked about revenue? I will not promote",
+          "url": "https://www.reddit.com/r/startups/comments/1tcvmhu/hr_got_offended_and_left_the_call_because_i_asked/",
+          "score": 109,
+          "comments": 91,
+          "link_post": false,
+          "selftext_short": "Had a 10-min interview for an AI/ML drone startup today. Terms were 2 months unpaid, then maybe a stipend later if I'm \"adequate.\" I only did it for the practice.\n\nAt the end, I asked what their revenue model is. The HR guy got super defensive, asked \"Are you a partner? How can you ask that?\" and just left the meeting. The manager stayed and just said \"Sorry, we can’t share that.\"\n\nIs asking about revenue taboo for interns? The aerospace/drone niche is cool, so I just wanted to see if they were actually stable or had potential before I even considered working for free. I think I dodged a red flag lol.",
+          "why_hot": "HR got offended and left the call because I asked about revenue? I will not promote. relevant to AI, infrastructure, or open-source ecosystem movements"
+        }
+      ]
+    },
+    {
+      "name": "r/opensource",
+      "posts": []
+    },
+    {
+      "name": "r/cybersecurity",
+      "posts": [
+        {
+          "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc3zam/microsoft_bitlockerprotected_drives_can_now_be/",
+          "score": 1777,
+          "comments": 171,
+          "link_post": true,
+          "selftext_short": "YellowKey is kind of crazy because now, any device that was stolen but protected by BitLocker is now super-compromised, with no recourse.\n\nAre cyber response teams going back thru all their prior incidents like this from years ago and reengaging? Jesus Christ\n\nSo this just saved the guy on /r/sysadmin who locked the entire company into a reboot loop the other day and Kevin had wiped the usb stick with the bitlocker keys?",
+          "why_hot": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an appa.... likely drawing attention due to a security incident or outage"
+        },
+        {
+          "title": "NIST is surrendering to the amount of CVEs coming in",
+          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc57la/nist_is_surrendering_to_the_amount_of_cves_coming/",
+          "score": 641,
+          "comments": 56,
+          "link_post": false,
+          "selftext_short": "https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth\n\nNIST can't keep up with the amount of CVEs coming in any more. They are now only reviewing \"important\"CVEs. Pretty much only if they affect the government, or if they are already known! This is going to leave close to 90% of their CVEs not reviewed. \n\nSo what do you all think of this? I think this enforces AI is not taking our jobs any time soon as look how undermanned NIST is. \n\nEdit \nI tossed in the AI part because it's exhausting how many times I hear, is AI going to take your job?! No, it's not",
+          "why_hot": "NIST is surrendering to the amount of CVEs coming in. relevant to AI, infrastructure, or open-source ecosystem movements"
+        }
+      ]
+    },
+    {
+      "name": "r/cryptocurrency",
+      "posts": [
+        {
+          "title": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tca6hk/ai_helps_man_recover_400000_in_bitcoin_11_years/",
+          "score": 1684,
+          "comments": 126,
+          "link_post": true,
+          "selftext_short": "This guy gave Claude total access to his machine.\n\nWow.\n\nIt probably searched for clues in history and pieced it together. I doubt it’s as technical as we think. More like a deep search finder",
+          "why_hot": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password. relevant to AI, infrastructure, or open-source ecosystem movements"
+        },
+        {
+          "title": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8xe9/its_official_pro_crypto_kevin_warsh_will_take_the/",
+          "score": 639,
+          "comments": 295,
+          "link_post": false,
+          "selftext_short": "Senate voted on May 12: 51-45 and confirmed kevin warsh as the new chairman of federal reserve, plus advancing his nomination for the 4-year chair turn.\n\nWell, Powell will say a long goodbye on may 15. What do you think of the impact on the overall crypto markets? There is some really good news coming from the industry lately. First mastercard partnership with big crypto companies and now we have pro crypto guy in the office \n\nLink: [https://x.com/WatcherGuru/status/2054631950619443426?s=20](https://x.com/WatcherGuru/status/2054631950619443426?s=20)",
+          "why_hot": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve. likely drawing attention due to a high-impact or controversial development"
+        },
+        {
+          "title": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcakkm/nasdaq_price_increase_is_3x_bitcoin_increase_over/",
+          "score": 331,
+          "comments": 100,
+          "link_post": false,
+          "selftext_short": "Source : [https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100](https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100)\n\nPrice change for Bitcoin is 43.8% while  the Nasdaq has inreased by 132.8%.  More broadly the S+P 500 performance is also more than double that of  Bitcoin.  \n\nSource : [https://www.justetf.com/en/asset-comparisons/index-comparisons/sp-500-vs-bitcoin](https://www.justetf.com/en/asset-comparisons/index-comparisons/sp-500-vs-bitcoin)\n\nKinda begs the question, what happened to Bitcoin?  I guess the answer is AI happenned to everything.",
+          "why_hot": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.. relevant to AI, infrastructure, or open-source ecosystem movements"
+        }
+      ]
+    }
+  ],
+  "hot_subreddits": [
+    {
+      "name": "r/nevertellmetheodds",
+      "post_count": 4,
+      "sample_titles": [
+        "I wore the same shirt as my Statistics professor the first day of class",
+        "I wore the same shirt as my Statistics professor the first day of class",
+        "A customer asks a pokemon vendor for a specific card and the vendor jokingly opens a new pack and the card is in there.",
+        "I wore the same shirt as my Statistics professor the first day of class"
+      ]
+    },
+    {
+      "name": "r/videos",
+      "post_count": 3,
+      "sample_titles": [
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out"
+      ]
+    }
+  ],
+  "global_hot_posts": [
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tc66gv/its_like_we_dont_exist_nearly_50000_lake_tahoe/",
+      "title": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers",
+      "score": 35650,
+      "comments": 2035,
+      "subreddit": "r/technology",
+      "post_summary": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers Kind of amused where I lived a few years ago we were told prepare for rolling blackouts in the summer. Now they are building a data center but “all the water and electricity is cov...",
+      "why_hot": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcmxdf/people_would_rather_have_nuclear_power_plants_in/",
+      "title": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
+      "score": 20204,
+      "comments": 1056,
+      "subreddit": "r/technology",
+      "post_summary": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers",
+      "why_hot": "People Would Rather Have Nuclear Power Plants In Their Area Than AI Data Centers. relevant to AI, infrastructure, or open-source ecosystem movements"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tca196/claude_helps_man_recover_400000_in_btc_11_years/",
+      "title": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password",
+      "score": 13582,
+      "comments": 547,
+      "subreddit": "r/technology",
+      "post_summary": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000.",
+      "why_hot": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password. relevant to crypto, blockchain, or DeFi ecosystem movements. To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000."
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcudxy/louis_rossmann_taunts_bambu_lab_by_hosting_banned/",
+      "title": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer",
+      "score": 6998,
+      "comments": 343,
+      "subreddit": "r/technology",
+      "post_summary": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge support and boycotts, Snapmaker donates equipment to embattled developer Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your riv...",
+      "why_hot": "Louis Rossmann taunts Bambu Lab by hosting banned 3D Printer firmware fork, dares $1 billion company to sue him — more creators pledge suppo.... relevant to AI, infrastructure, or open-source ecosystem movements. Snapmaker donating equipment to the developer is the best competitive move I've seen this year. Turn your rival's PR disaster into your bran"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tc5muu/tech_layoff_wave_has_already_hit_100000_jobs_this/",
+      "title": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
+      "score": 5064,
+      "comments": 273,
+      "subreddit": "r/technology",
+      "post_summary": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
+      "why_hot": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year. likely drawing attention due to organizational or leadership changes"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcm9w5/scientists_successfully_transfer_longevity_gene/",
+      "title": "Scientists successfully transfer longevity gene and extend lifespan",
+      "score": 2726,
+      "comments": 401,
+      "subreddit": "r/technology",
+      "post_summary": "Scientists successfully transfer longevity gene and extend lifespan Cool. Can't wait in the year 2088 when it's announced that this failed to get any traction besides rats. Good news! You can work longer now! All for the low price of $10,000,000.99...",
+      "why_hot": "Scientists successfully transfer longevity gene and extend lifespan. likely drawing attention as a new launch or announcement"
+    },
+    {
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1tc3zam/microsoft_bitlockerprotected_drives_can_now_be/",
+      "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
+      "score": 1777,
+      "comments": 171,
+      "subreddit": "r/cybersecurity",
+      "post_summary": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor YellowKey is kind of crazy because now, any device that was stolen but protected by BitLocker is now super-compromised, with no recourse. Are cyber response teams...",
+      "why_hot": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an appa.... likely drawing attention due to a security incident or outage"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tc94v7/data_centers_could_account_for_up_to_9_of_texas/",
+      "title": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds",
+      "score": 1782,
+      "comments": 76,
+      "subreddit": "r/technology",
+      "post_summary": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds Looks like Elon was right--social security won't matter when we're all dead.",
+      "why_hot": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds. relevant to cybersecurity and risk tracking. Looks like Elon was right--social security won't matter when we're all dead."
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tca6hk/ai_helps_man_recover_400000_in_bitcoin_11_years/",
+      "title": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password",
+      "score": 1684,
+      "comments": 126,
+      "subreddit": "r/cryptocurrency",
+      "post_summary": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password This guy gave Claude total access to his machine. Wow. It probably searched for clues in history and pieced it together. I doubt it’s as technical as we think. More like a deep sea...",
+      "why_hot": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password. relevant to AI, infrastructure, or open-source ecosystem movements"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcbjus/i_work_in_hollywood_everyone_who_used_to_make_tv/",
+      "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
+      "score": 1509,
+      "comments": 156,
+      "subreddit": "r/technology",
+      "post_summary": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI I've just been operating under the assumption that everything connected to the internet is training AI at this point Secretly? Seems like you’re training AI whether you intend to o...",
+      "why_hot": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI. relevant to AI, infrastructure, or open-source ecosystem movements"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tc97fl/overworked_ai_agents_turn_marxist_researchers_find/",
+      "title": "Overworked AI Agents Turn Marxist, Researchers Find",
+      "score": 1244,
+      "comments": 160,
+      "subreddit": "r/technology",
+      "post_summary": "Overworked AI Agents Turn Marxist, Researchers Find &gt; In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights. Lol /r/nottheonion material right there Exhibit A...",
+      "why_hot": "Overworked AI Agents Turn Marxist, Researchers Find. likely drawing attention due to funding, valuation, or market movement"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcj3ww/trillions_of_miles_of_data_your_car_is_spying_on/",
+      "title": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning",
+      "score": 1147,
+      "comments": 268,
+      "subreddit": "r/technology",
+      "post_summary": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning My car is 21 years old and does no spying. We really need some kind of legislation to end this data scraping surveillance.  Nobody wants it. Disconcerting, to say the least.  &gt;A...",
+      "why_hot": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning. likely drawing attention due to regulation or policy changes"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tc9qgv/the_balcony_solar_boom_is_coming_to_the_us/",
+      "title": "The balcony solar boom is coming to the US",
+      "score": 1142,
+      "comments": 157,
+      "subreddit": "r/technology",
+      "post_summary": "The balcony solar boom is coming to the US In Germany, we have a federal law that allows them on balconies. Can’t be told no if you put them up. Sadly, here in IL, the electricians union worked hard to scuttle the first att...",
+      "why_hot": "The balcony solar boom is coming to the US. likely drawing attention due to regulation or policy changes"
+    },
+    {
+      "url": "https://www.reddit.com/r/Futurology/comments/1tcj2iu/what_current_technology_do_you_think_people_are/",
+      "title": "What current technology do you think people are seriously underestimating right now ?",
+      "score": 964,
+      "comments": 929,
+      "subreddit": "r/futurology",
+      "post_summary": "What current technology do you think people are seriously underestimating right now ? Everyone talks about AI constantly, but I’m more interested in technologies that are quietly improving in the background without much mainstream attention yet. Could be something p...",
+      "why_hot": "What current technology do you think people are seriously underestimating right now ?. likely drawing attention due to a high-impact or controversial development"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tck4qe/sam_altman_forced_to_confront_claims_at_openai/",
+      "title": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing control over OpenAI.",
+      "score": 908,
+      "comments": 51,
+      "subreddit": "r/technology",
+      "post_summary": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing control over OpenAI. How is it possible that in certain circles a “prolific liar” is a welcome addition to any dinner party? Maybe billionaires and techbros are different species aft...",
+      "why_hot": "Sam Altman forced to confront claims at OpenAI trial that he's a prolific liar | “Very painful”: Altman relives his reaction to losing contr.... likely drawing attention due to a high-impact or controversial development"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcxr3m/the_ai_layoff_bill_is_coming_due_and_ctos_are/",
+      "title": "The AI Layoff Bill Is Coming Due, And CTOs Are Going To Pay It Twice",
+      "score": 691,
+      "comments": 79,
+      "subreddit": "r/technology",
+      "post_summary": "The AI Layoff Bill Is Coming Due, And CTOs Are Going To Pay It Twice",
+      "why_hot": "The AI Layoff Bill Is Coming Due, And CTOs Are Going To Pay It Twice. likely drawing attention due to organizational or leadership changes"
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8xe9/its_official_pro_crypto_kevin_warsh_will_take_the/",
+      "title": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve",
+      "score": 639,
+      "comments": 295,
+      "subreddit": "r/cryptocurrency",
+      "post_summary": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve Senate voted on May 12: 51-45 and confirmed kevin warsh as the new chairman of federal reserve, plus advancing his nomination for the 4-year chair turn. Well, Powell will say a lon...",
+      "why_hot": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve. likely drawing attention due to a high-impact or controversial development"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcg3he/ciscos_stock_pops_17_on_surging_ai_orders_as/",
+      "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
+      "score": 670,
+      "comments": 97,
+      "subreddit": "r/technology",
+      "post_summary": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs So cutting jobs increase stock price? Wonder how this is gonna end All stock value gained over the next 5 business days after a layoff should be paid by the public company to those...",
+      "why_hot": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs. likely drawing attention due to organizational or leadership changes"
+    },
+    {
+      "url": "https://www.reddit.com/r/cybersecurity/comments/1tc57la/nist_is_surrendering_to_the_amount_of_cves_coming/",
+      "title": "NIST is surrendering to the amount of CVEs coming in",
+      "score": 641,
+      "comments": 56,
+      "subreddit": "r/cybersecurity",
+      "post_summary": "NIST is surrendering to the amount of CVEs coming in https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth NIST can't keep up with the amount of CVEs coming in any more. They are now only...",
+      "why_hot": "NIST is surrendering to the amount of CVEs coming in. relevant to AI, infrastructure, or open-source ecosystem movements"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1tcz0ca/microsoft_confirms_windows_11_has_been/",
+      "title": "Microsoft confirms Windows 11 has been downgrading graphics drivers, reveals when a fix is coming",
+      "score": 600,
+      "comments": 81,
+      "subreddit": "r/technology",
+      "post_summary": "Microsoft confirms Windows 11 has been downgrading graphics drivers, reveals when a fix is coming That “winning back trust” should start any day now this has been happening for years.  if you install the newest drivers for something and they aren't in the windows UDDM database,...",
+      "why_hot": "Microsoft confirms Windows 11 has been downgrading graphics drivers, reveals when a fix is coming"
+    },
+    {
+      "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcakkm/nasdaq_price_increase_is_3x_bitcoin_increase_over/",
+      "title": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.",
+      "score": 331,
+      "comments": 100,
+      "subreddit": "r/cryptocurrency",
+      "post_summary": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years. Source : [https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100](https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100...",
+      "why_hot": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.. relevant to AI, infrastructure, or open-source ecosystem movements"
+    },
+    {
+      "url": "https://www.reddit.com/r/Futurology/comments/1tcnk72/whatever_happened_to_the_cloned_sheep_dolly/",
+      "title": "Whatever happened to the cloned sheep, Dolly?",
+      "score": 288,
+      "comments": 150,
+      "subreddit": "r/futurology",
+      "post_summary": "Whatever happened to the cloned sheep, Dolly? I remember when Dolly the sheep was born back on July 5, 1996 as the very first mammal to be successfully cloned.  I distinctly remember freaking out they were gonna be cloning hum...",
+      "why_hot": "Whatever happened to the cloned sheep, Dolly?"
+    },
+    {
+      "url": "https://www.reddit.com/r/startups/comments/1tcvmhu/hr_got_offended_and_left_the_call_because_i_asked/",
+      "title": "HR got offended and left the call because I asked about revenue? I will not promote",
+      "score": 109,
+      "comments": 91,
+      "subreddit": "r/startups",
+      "post_summary": "HR got offended and left the call because I asked about revenue? I will not promote Had a 10-min interview for an AI/ML drone startup today. Terms were 2 months unpaid, then maybe a stipend later if I'm \"adequate.\" I only did it for the practice. At the end, I ask...",
+      "why_hot": "HR got offended and left the call because I asked about revenue? I will not promote. relevant to AI, infrastructure, or open-source ecosystem movements"
+    }
+  ],
+  "emerging_subreddits": [
+    {
+      "name": "r/nevertellmetheodds",
+      "reason": "Multiple hot posts (4) in AI/tech/crypto/startup spaces; rising community interest.",
+      "sample_posts": [
+        "I wore the same shirt as my Statistics professor the first day of class",
+        "I wore the same shirt as my Statistics professor the first day of class",
+        "A customer asks a pokemon vendor for a specific card and the vendor jokingly opens a new pack and the card is in there."
+      ]
+    },
+    {
+      "name": "r/videos",
+      "reason": "Multiple hot posts (3) in AI/tech/crypto/startup spaces; rising community interest.",
+      "sample_posts": [
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out",
+        "Billionaire Kevin O'leary says 2 people fighting data centers in Utah are Chinese agents. Turns out its just 2 local girls in Utah, they make a hilarious video calling him the fuck out"
+      ]
+    }
+  ]
+}

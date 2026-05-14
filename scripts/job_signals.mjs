@@ -557,9 +557,10 @@ async function fetchWellfound() {
 
 async function run() {
   const date = todayISO();
+  const dateDir = path.join(dataDir, date);
 
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
+  if (!fs.existsSync(dateDir)) {
+    fs.mkdirSync(dateDir, { recursive: true });
   }
 
   const allJobs = [];
@@ -604,7 +605,7 @@ async function run() {
     jobs: allJobs,
   };
 
-  const outPath = path.join(dataDir, `job_signals_${date}.json`);
+  const outPath = path.join(dateDir, `job_signals.json`);
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`[Jobs] Wrote ${allJobs.length} jobs → ${outPath}`);
 }

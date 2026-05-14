@@ -5,7 +5,9 @@
 // - Adds why_notable and sector_themes for alpha-quality signals.
 
 const today = new Date().toISOString().slice(0, 10);
-const outPath = `data/research_ml_${today}.json`;
+const DATA_DIR = "data";
+const DATE_DIR = `data/${today}`; // date-based subfolder
+const outPath = `${DATE_DIR}/research_ml.json`;
 
 const result = {
   source: "research_ml",
@@ -387,7 +389,7 @@ async function fetchArxiv() {
     }
 
     const fs = await import("fs");
-    fs.mkdirSync("data", { recursive: true });
+    fs.mkdirSync(DATE_DIR, { recursive: true });
     fs.writeFileSync(outPath, JSON.stringify(result, null, 2), "utf-8");
     console.log(`Written to ${outPath}`);
     process.exit(0);

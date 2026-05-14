@@ -34,6 +34,14 @@ const SCRIPTS = [
     name: "job_signals",
     file: "scripts/job_signals.mjs",
   },
+  {
+    name: "alpha_deep_context",
+    file: "scripts/alpha_deep_context.mjs",
+  },
+  {
+    name: "alpha_daily_report",
+    file: "scripts/alpha_daily_report.mjs",
+  },
 ];
 
 function todayISODate() {
@@ -92,11 +100,12 @@ function main() {
   };
 
   const dataDir = path.join(PROJECT_ROOT, "data");
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
+  const dateDir = path.join(dataDir, date);
+  if (!fs.existsSync(dateDir)) {
+    fs.mkdirSync(dateDir, { recursive: true });
   }
 
-  const summaryFile = path.join(dataDir, `alpha_run_summary_${date}.json`);
+  const summaryFile = path.join(dateDir, `alpha_run_summary.json`);
   fs.writeFileSync(summaryFile, JSON.stringify(summary, null, 2), "utf-8");
 
   console.log(`[run_all] Summary written to: ${summaryFile}`);

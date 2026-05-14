@@ -112,10 +112,11 @@ function buildWhyHot(title, score, comments, category) {
 
 async function run() {
   const date = todayISO();
+  const dateDir = path.join(dataDir, date);
 
-  // Ensure data directory
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
+  // Ensure date-based data directory
+  if (!fs.existsSync(dateDir)) {
+    fs.mkdirSync(dateDir, { recursive: true });
   }
 
   // 1. Get top story IDs
@@ -171,7 +172,7 @@ async function run() {
     },
   };
 
-  const outPath = path.join(dataDir, `hackernews_${date}.json`);
+  const outPath = path.join(dateDir, `hackernews.json`);
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`[HN] Wrote ${top.length} top + ${showHn.length} Show HN → ${outPath}`);
 }
