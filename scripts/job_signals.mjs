@@ -79,6 +79,64 @@ function extractTags(text) {
   return [...tags];
 }
 
+// ---------- Helper functions for job enrichment ----------
+
+function buildJdSummary(title, oneLiner) {
+  if (!title) return null;
+  const base = title.replace(/\s+/g, " ").trim();
+  if (!oneLiner) return base;
+  const combined = `${base} at ${oneLiner}`;
+  if (combined.length <= 160) return combined;
+  return combined.slice(0, 160).trim();
+}
+
+function buildExtractedSkills(context, tags) {
+  if (!context) return tags || [];
+  const lower = context.toLowerCase();
+  const skills = new Set(tags || []);
+  const candidates = [
+    "Python", "TypeScript", "Go", "Rust", "C++", "Kubernetes", "K8s",
+    "React", "Next.js", "GraphQL", "PostgreSQL", "Redis",
+    "Docker", "Terraform", "AWS", "GCP", "Azure",
+    "PyTorch", "TensorFlow", "JAX", "Hugging Face",
+    "LLM", "LLMs", "AI", "ML", "MLOps",
+    "Agents", "AI Agents", "Agent Frameworks",
+    "ZK", "Zero-knowledge", "Cryptography",
+    "Edge AI", "WebGPU", "WebAssembly", "Wasm",
+    "Distributed Systems", "Microservices",
+    "Observability", "Logging", "Monitoring",
+    "Full Stack", "Backend", "Frontend", "DevOps", "SRE",
+  ];
+  for (const s of candidates) {
+    if (lower.includes(s.toLowerCase())) skills.add(s);
+  }
+  return [...skills].slice(0, 6);
+}
+
+function classifyCompanySector(company, oneLiner, context) {
+  const c = (company + " " + (oneLiner || "") + " " + context).toLowerCase();
+  if (/(ai|ml|machine learning|llm|agent|agentic|autonomous)/.test(c)) return "ai-infra";
+  if (/(fintech|banking|payments|trading|finance|crypto|blockchain|defi|web3)/.test(c)) return "fintech";
+  if (/(health|bio|med|pharma|clinical|genomics)/.test(c)) return "healthtech";
+  if (/(crypto|bitcoin|ethereum|solana|zk|zero-knowledge|web3)/.test(c)) return "crypto";
+  if (/(infra|cloud|k8s|container|network|edge|observability)/.test(c)) return "infra";
+  return "other";
+}
+
+function buildWhySignal(title, sector) {
+  const t = (title || "").toLowerCase();
+  if (/(ai|llm|agent|agentic|ml|machine learning)/.test(t)) {
+    return `Strong demand for AI/ML talent in ${sector || "emerging stack"}; signals ongoing investment in AI infrastructure and agents.`;
+  }
+  if (/(crypto|blockchain|zk|defi|web3)/.test(t)) {
+    return `Growing demand in crypto/Web3 roles; indicates maturing ecosystem and infra needs.`;
+  }
+  if (/(infra|kubernetes|edge|observability|sre)/.test(t)) {
+    return `Infra/SRE demand rising; companies scaling AI/ML or distributed workloads.`;
+  }
+  return `Emerging role in ${sector || "tech"}; talent demand reflects new problem areas.`;
+}
+
 // ---------- YC Work at a Startup (embedded JSON in HTML) ----------
 
 async function fetchYCWorkAtStartup() {
@@ -151,11 +209,15 @@ async function fetchYCWorkAtStartup() {
     const salary = j.salary || "";
     const companyBatch = j.companyBatch || "";
 
-    const tags = extractTags(
-      `${title} ${company} ${oneLiner} ${roleType}`
-    );
+    const context = `${title} ${company} ${oneLiner} ${roleType}`;
+    const tags = extractTags(context);
 
     if (!title || !company) continue;
+
+    const jdSummary = buildJdSummary(title, oneLiner);
+    const extractedSkills = buildExtractedSkills(context, tags);
+    const companySector = classifyCompanySector(company, oneLiner, context);
+    const whySignal = buildWhySignal(title, companySector);
 
     jobs.push({
       title,
@@ -165,6 +227,10 @@ async function fetchYCWorkAtStartup() {
       salary,
       roleType,
       companyBatch,
+      jd_summary: jdSummary,
+      extracted_skills: extractedSkills,
+      company_sector: companySector,
+      why_signal: whySignal,
       url: `https://www.workatastartup.com/job/${j.id}`,
     });
   }

@@ -76,14 +76,12 @@ Key findings:
     "quality_hint": "news-link"
   }
 
-### 3) hn_signals.mjs
+### 3) hn_signals.mjs (Completed)
 
-- [ ] Add:
+- [x] Add:
   - `category_hint`: "ai-ml", "infra", "security", "crypto", "science", "career", "lifestyle", "other".
   - `why_hot`: short rationale (e.g., "HN-validated tool", "infrastructure debate", "AI safety concern").
-- [ ] Optionally:
-  - `comment_sample`: 1–2 short comment lines (if feasible).
-- [ ] Output schema (target):
+- [x] Output schema (target) implemented:
 
   {
     "id": 123456,
