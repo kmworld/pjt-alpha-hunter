@@ -27,16 +27,16 @@ Key findings:
 
 ## Phase 1: Data Enrichment (Per-Source Required Fields)
 
-### 1) github_trending.mjs
+### 1) github_trending.mjs (Completed)
 
-- [ ] Fix `stars` to capture total stars (currently always null).
-- [ ] Add:
-  - `topics`: list of repo topics (e.g., ["ai-agents", "llm", "rust"]).
-  - `why_notable`: short reason: "breakout tool", "agent infra", "LLM tooling", etc.
-  - `forks`: number of forks.
-  - `owner_type`: "individual" | "org" | "company" (best-effort heuristic).
-- [ ] Ensure `recent_stars` is stable and accurate.
-- [ ] Output schema (target):
+- [x] Fix `stars` to capture total stars from GitHub API (`stargazers_count`); no longer null.
+- [x] Add:
+  - `topics`: up to 6 topics from GitHub API (fallback to derived from description).
+  - `why_notable`: short, domain-aware rationale (AI/ML, infra, crypto, security, devtools, etc.).
+  - `forks`: number of forks from GitHub API.
+  - `owner_type`: "org" | "individual" via heuristic + owner.type.
+- [x] Ensure `recent_stars` is stable and accurate (from HTML).
+- [x] Output schema matches target:
 
   {
     "repo": "owner/repo",
