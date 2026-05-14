@@ -91,9 +91,23 @@ async function fetchSubreddit(sub) {
   if (!json || !json.data?.children) return null;
 
   const posts = [];
+  const MIN_SCORE = 100;
+  const MIN_COMMENTS = 15;
+  const MAX_POSTS = 15;
 
-  for (const c of (json.data.children || [])) {
+  // Sort by score descending; we want hot posts only
+  const sorted = (json.data.children || []).slice().sort((a, b) => (b.data.score || 0) - (a.data.score || 0));
+
+  for (const c of sorted) {
+    if (posts.length >= MAX_POSTS) break;
     const d = c.data;
+
+    const score = d.score ?? 0;
+    const comments = d.num_comments ?? 0;
+
+    // Skip low-engagement posts
+    if (score < MIN_SCORE || comments < MIN_COMMENTS) continue;
+
     const redditPostUrl = (d.permalink
       ? `https://www.reddit.com${d.permalink}`
       : d.url || "");
@@ -104,7 +118,7 @@ async function fetchSubreddit(sub) {
 
     if (!isLinkPost) {
       selftextShort = selftext.length > 1200 ? selftext.slice(0, 1200) : selftext;
-    } else if (d.num_comments && d.num_comments > 0) {
+    } else if (comments > 0) {
       // For link posts with comments, fetch top comments as context
       try {
         selftextShort = await fetchTopComments(d.permalink);
@@ -118,8 +132,8 @@ async function fetchSubreddit(sub) {
     posts.push({
       title: d.title || "",
       url: redditPostUrl,
-      score: d.score ?? 0,
-      comments: d.num_comments ?? 0,
+      score,
+      comments,
       link_post: isLinkPost,
       selftext_short: selftextShort || null,
       why_hot: whyHot || null,

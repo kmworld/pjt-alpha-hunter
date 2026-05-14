@@ -8,29 +8,11 @@
         {
           "title": "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence",
           "url": "https://www.reddit.com/r/Futurology/comments/1tc2j04/worlds_first_braincomputer_interface_bci/",
-          "score": 358,
+          "score": 362,
           "comments": 37,
           "link_post": true,
           "selftext_short": null,
           "why_hot": "World’s first brain-computer interface (BCI) technology targets high-level brain function to restore independence"
-        },
-        {
-          "title": "Sometimes I wonder if we were born too early… or maybe at the perfect time.",
-          "url": "https://www.reddit.com/r/Futurology/comments/1tbo54c/sometimes_i_wonder_if_we_were_born_too_early_or/",
-          "score": 0,
-          "comments": 39,
-          "link_post": false,
-          "selftext_short": "Right now we’re probably living through the weird transition phase of humanity. We grew up watching the world slowly evolve — from dial-up internet, DVDs, bicycles, and petrol bikes… to AI that can talk like humans, electric dirt bikes, self-driving cars, humanoid robots, and technology that would’ve sounded impossible just 10 years ago.\n\nBut imagine being born 20–50 years later.\n\nYou might live to 500 years old because AI and medicine finally solve aging. Diseases that kill people today could become as harmless as the flu. People might replace organs like changing phone batteries. AI could end up doing most jobs while humans focus on creativity, entertainment, or maybe just existing. Maybe people will have robot assistants, brain chips, or even upload their minds digitally one day.\n\nSounds amazing… but also kind of unfair for us.\n\nMost of us today will probably live 70–90 years if we’re lucky. Meanwhile future generations might live for centuries. Imagine meeting someone born in 2300 and they casually mention they lived through multiple eras of society, watched countries disappear, saw Mars become colonised, got married 10 times across 180 years, and have descendants spread across",
-          "why_hot": "Sometimes I wonder if we were born too early… or maybe at the perfect time.. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "We are living through a very rare technological convergence that our governments wont survive.",
-          "url": "https://www.reddit.com/r/Futurology/comments/1tboxym/we_are_living_through_a_very_rare_technological/",
-          "score": 0,
-          "comments": 49,
-          "link_post": false,
-          "selftext_short": "So my world view is our civilization really runs on 5 things.\n\ninformation infrastructure, how we record our information, our transgenerational memory.\n\nmarket infrastructure, the underpinning of finance, how we record our promises to one another.\n\ncommunications, logistics and energy networks, \n\nWith these 5 things combined, we can organize to transform disorder to order. Shape our environmnet and build our civilization.\n\nI think we are at the first time where technological disruption is happening to all 5. And convergence is when big change happens. For example, internet was a convergence of information infra and communication networks, databases and tcp/ip, massive disruption.\n\nindustrial revolution is when communications, logistics and energy networks all flip, and we know from history how disruptive that is.\n\nLast time information and market infrastructure changed was in 1450, the reformation, and our governance institutions had to be rebuilt. A period of change far greater than the industrial revolution. Governments didnt survive these. My theory of why that is, is when information and market infra improves suddenly, the cost of organizing large groups of people, essentially ",
-          "why_hot": "We are living through a very rare technological convergence that our governments wont survive.. likely drawing attention due to a high-impact or controversial development"
         }
       ]
     },
@@ -38,28 +20,28 @@
       "name": "r/technology",
       "posts": [
         {
-          "title": "Data center drained 30 million gallons of water without reporting or paying for it, investigation reveals",
-          "url": "https://www.reddit.com/r/technology/comments/1tby9bn/data_center_drained_30_million_gallons_of_water/",
-          "score": 25769,
-          "comments": 770,
-          "link_post": true,
-          "selftext_short": "Sure is cool we’re letting all these tech bros ruin the planet even faster than the fossil fuel industry.\n\nWe make power stations build on rivers, lakes, or build reservoirs. And yet the guys can just take ground water....\n\nEven oil refineries who need cooling water loops dont take ground water.. \n\nWhy do data centers get a pass?\n\nSo they stole 30 million gallons. Sounds like they should be prosecuted as such. \n\nIf I stole 30 *thousand* gallons I'd see the inside of a cell.",
-          "why_hot": "Data center drained 30 million gallons of water without reporting or paying for it, investigation reveals"
-        },
-        {
           "title": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers",
           "url": "https://www.reddit.com/r/technology/comments/1tc66gv/its_like_we_dont_exist_nearly_50000_lake_tahoe/",
-          "score": 25690,
-          "comments": 1662,
+          "score": 25849,
+          "comments": 1670,
           "link_post": true,
           "selftext_short": "Kind of amused where I lived a few years ago we were told prepare for rolling blackouts in the summer. Now they are building a data center but “all the water and electricity is covered”…. \n\nPress X to doubt.\n\nMy favorite thing is how Republicans claimed our grid could not support electric cars, but data centers perfectly fine.\n\nMan, this whole data center thing seems like it might not be such a good idea\n\nSo people are going without power so the aristocracy can take all our jobs away, is that right…",
           "why_hot": "'It's like we don't exist': Nearly 50,000 Lake Tahoe residents face power loss as utility redirects lines to data centers"
         },
         {
+          "title": "Data center drained 30 million gallons of water without reporting or paying for it, investigation reveals",
+          "url": "https://www.reddit.com/r/technology/comments/1tby9bn/data_center_drained_30_million_gallons_of_water/",
+          "score": 25813,
+          "comments": 771,
+          "link_post": true,
+          "selftext_short": "Sure is cool we’re letting all these tech bros ruin the planet even faster than the fossil fuel industry.\n\nWe make power stations build on rivers, lakes, or build reservoirs. And yet the guys can just take ground water....\n\nEven oil refineries who need cooling water loops dont take ground water.. \n\nWhy do data centers get a pass?\n\nSo they stole 30 million gallons. Sounds like they should be prosecuted as such. \n\nIf I stole 30 *thousand* gallons I'd see the inside of a cell.",
+          "why_hot": "Data center drained 30 million gallons of water without reporting or paying for it, investigation reveals"
+        },
+        {
           "title": "‘Irresponsible’: backlash as Utah approves datacenter twice the size of Manhattan",
           "url": "https://www.reddit.com/r/technology/comments/1tby0nw/irresponsible_backlash_as_utah_approves/",
-          "score": 25687,
-          "comments": 2048,
+          "score": 25735,
+          "comments": 2047,
           "link_post": true,
           "selftext_short": "&gt; The proposed project is backed by Kevin O’Leary\n\nWell that tells me all I need to know.\n\nThe data center itself is horrible, but what really scaring me is that it seems like politicians both local and federal are officially going full Autocrat and are literally ignoring the citizenry with astonishing brazeness and regularity now.\n\n\\&gt; Last week, the project was approved by the county’s commissioners, despite thousands of objections lodged by Utah residents\n\nI love living in a country where elected officials don’t give a fuck about what their constituents want",
           "why_hot": "‘Irresponsible’: backlash as Utah approves datacenter twice the size of Manhattan"
@@ -67,7 +49,7 @@
         {
           "title": "Twin brothers wipe 96 gov’t databases minutes after being fired",
           "url": "https://www.reddit.com/r/technology/comments/1tbmwj3/twin_brothers_wipe_96_govt_databases_minutes/",
-          "score": 21452,
+          "score": 21455,
           "comments": 1076,
           "link_post": true,
           "selftext_short": "&gt;On Feb. 1, 2025, Muneeb Akhter asked Sohaib Akhter for the plaintext password of an individual who submitted a complaint to the Equal Employment Opportunity Commission’s Public Portal, which was maintained by the Akhters’ employer. Sohaib Akhter conducted a database query on the EEOC database and then provided the password to Muneeb Akhter. That password was subsequently used to access that individual’s email account without authorization.\n\nNow HOLD the fuck up. DC is contracting companies that store passwords UNHASHED?? Plaintext?? What kind of clownshow is this?",
@@ -76,8 +58,8 @@
         {
           "title": "As the U.S. starves it of oil, Cuba is pulling off one of the fastest solar revolutions on the planet — with China’s help",
           "url": "https://www.reddit.com/r/technology/comments/1tc0jml/as_the_us_starves_it_of_oil_cuba_is_pulling_off/",
-          "score": 8967,
-          "comments": 320,
+          "score": 9000,
+          "comments": 321,
           "link_post": true,
           "selftext_short": "The irony is that sanctions intended to increase pressure may end up accelerating Cuba's renewable independence\n\nI believe that Donald Trump's contribution to the adoption of renewable energy will go down in history as his greatest achievement.\n\nThe US regime is helping everybody modernize and improve their supply systems by making the US a terrible trade partner.  Good job, Trump.\n\nTrump is possibly doing more to get the world off oil dependency than any liberal/progressive/Democrat/pro-environment politician ever dreamed of doing. ***Ironically***.",
           "why_hot": "As the U.S. starves it of oil, Cuba is pulling off one of the fastest solar revolutions on the planet — with China’s help. likely drawing attention due to a security incident or outage"
@@ -85,8 +67,8 @@
         {
           "title": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password",
           "url": "https://www.reddit.com/r/technology/comments/1tca196/claude_helps_man_recover_400000_in_btc_11_years/",
-          "score": 7614,
-          "comments": 352,
+          "score": 7695,
+          "comments": 354,
           "link_post": true,
           "selftext_short": "To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000.",
           "why_hot": "Claude helps man recover $400,000 in BTC 11 years after he got high and forgot password. relevant to crypto, blockchain, or DeFi ecosystem movements. To be honest the guys lucky he got high because he probably would have sold it when I hit $1,000 a coin or something or $5,000 or 10,000."
@@ -94,8 +76,8 @@
         {
           "title": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year",
           "url": "https://www.reddit.com/r/technology/comments/1tc5muu/tech_layoff_wave_has_already_hit_100000_jobs_this/",
-          "score": 3495,
-          "comments": 220,
+          "score": 3509,
+          "comments": 221,
           "link_post": true,
           "selftext_short": "corporations DONT CARE ABOUT YOU. \n\nLook out for yourself",
           "why_hot": "Tech Layoff Wave Has Already Hit 100,000 Jobs This Year. likely drawing attention due to organizational or leadership changes. corporations DONT CARE ABOUT YOU.  Look out for yourself"
@@ -103,7 +85,7 @@
         {
           "title": "Software Developers Say AI Is Rotting Their Brains",
           "url": "https://www.reddit.com/r/technology/comments/1tbzz8u/software_developers_say_ai_is_rotting_their_brains/",
-          "score": 2675,
+          "score": 2685,
           "comments": 339,
           "link_post": true,
           "selftext_short": "Software developers aren't the only ones\n\nAs intended. I am around teens and they ask ChatGPT to do everything for them. Reading comprehension, listening comprehension and any kind of higher cognition skills are out the window. They just never develop them.",
@@ -121,8 +103,8 @@
         {
           "title": "Amazon employees are inflating AI usage to top leaderboards and impress managers",
           "url": "https://www.reddit.com/r/technology/comments/1tbq90c/amazon_employees_are_inflating_ai_usage_to_top/",
-          "score": 2005,
-          "comments": 154,
+          "score": 2016,
+          "comments": 155,
           "link_post": true,
           "selftext_short": "This is what happens when companies start measuring “AI usage” instead of measuring whether the work actually improved. People will optimize for the metric they’re judged on, even if the metric itself is meaningless.",
           "why_hot": "Amazon employees are inflating AI usage to top leaderboards and impress managers. relevant to AI, infrastructure, or open-source ecosystem movements"
@@ -130,7 +112,7 @@
         {
           "title": "Data centers could account for up to 9% of Texas water use by 2040, UT Austin report finds",
           "url": "https://www.reddit.com/r/technology/comments/1tc94v7/data_centers_could_account_for_up_to_9_of_texas/",
-          "score": 1059,
+          "score": 1067,
           "comments": 58,
           "link_post": true,
           "selftext_short": "Looks like Elon was right--social security won't matter when we're all dead.",
@@ -139,8 +121,8 @@
         {
           "title": "Seven in 10 Americans oppose constructing data centers for AI in their local area, including nearly half who are strongly opposed. Barely a quarter favor these projects, with 7% strongly in favor",
           "url": "https://www.reddit.com/r/technology/comments/1tbypz4/seven_in_10_americans_oppose_constructing_data/",
-          "score": 1039,
-          "comments": 139,
+          "score": 1046,
+          "comments": 140,
           "link_post": true,
           "selftext_short": "How many people are opposed to building them anywhere, not just their “local area”?\n\nAI centers are unwilling to build the necessary infrastructure to support them, sapping resources from the community, and polluting it to boot. They could build out electrical and hydro infrastructure and put systems in place to prevent pollution, no one would really care.\n\nThese AI centers just don't want to pay the actual cost of running them.",
           "why_hot": "Seven in 10 Americans oppose constructing data centers for AI in their local area, including nearly half who are strongly opposed. Barely a.... relevant to AI, infrastructure, or open-source ecosystem movements"
@@ -148,7 +130,7 @@
         {
           "title": "South Korean official proposes 'citizen dividend' payouts from AI windfall — markets spooked by suggestion AI revenue should be redistributed to citizens",
           "url": "https://www.reddit.com/r/technology/comments/1tbwex4/south_korean_official_proposes_citizen_dividend/",
-          "score": 930,
+          "score": 940,
           "comments": 39,
           "link_post": true,
           "selftext_short": "We've seen these proposals before, and they usually get watered down into corporate tax breaks with \"job creation\" promises that never materialize. Proposing it is easy for an official looking for votes, but actually implementing a dividend from companies as powerful as Samsung is a whole different ballgame. I guess i'll believe it when the first check clearss..\n\nThat’s just UBI with extra steps.\n\nFuck the markets. \n\nThe ultimate achievement of Capitalism is a product that is so profitable and disruptive that it either kills Capitalism... or kills all but the 1%.",
@@ -157,7 +139,7 @@
         {
           "title": "The balcony solar boom is coming to the US",
           "url": "https://www.reddit.com/r/technology/comments/1tc9qgv/the_balcony_solar_boom_is_coming_to_the_us/",
-          "score": 720,
+          "score": 733,
           "comments": 103,
           "link_post": true,
           "selftext_short": "In Germany, we have a federal law that allows them on balconies. Can’t be told no if you put them up.\n\nSadly, here in IL, the electricians union worked hard to scuttle the first attempt at getting them legalized.\n\nHow bad are the punishments if you buy it without knowing the law. At some point people are going to do what people are going to do. Plenty smoke pot recreationally without legalization and electricity is a huge bill going into the summer.",
@@ -166,356 +148,21 @@
         {
           "title": "Overworked AI Agents Turn Marxist, Researchers Find",
           "url": "https://www.reddit.com/r/technology/comments/1tc97fl/overworked_ai_agents_turn_marxist_researchers_find/",
-          "score": 725,
-          "comments": 115,
+          "score": 733,
+          "comments": 116,
           "link_post": true,
           "selftext_short": "Exhibit A that they are simply mirrors to their training data. Humans when overworked will eventually adopt similar stances.\n\n&gt; In a recent experiment, mistreated AI agents started grumbling about inequality and calling for collective bargaining rights.\n\nLol /r/nottheonion material right there\n\nWe got an AI Marxist revolution before GTA 6\n\nSo you're telling me AI agents trained on the comments posted by overworked humans regurgitate the sentiments of overworked humans?\n\nColor me surprised. /s",
           "why_hot": "Overworked AI Agents Turn Marxist, Researchers Find. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Exclusive: Meta employees launch protest against mouse-tracking tech at US offices",
-          "url": "https://www.reddit.com/r/technology/comments/1tbqy2p/exclusive_meta_employees_launch_protest_against/",
-          "score": 723,
-          "comments": 55,
-          "link_post": true,
-          "selftext_short": "So employees who willingly work for a company that doesn't respect users' privacy are suddenly butthurt that the same company doesn't respect their privacy?\n\nSkeletor's troops blindsided over abhorrent work conditions, launch protest\n\nIn the EU that would be illegal, but Americans don't like data privacy and work place rights, I guess...\n\nI was wondering why these Meta employees didn't cause any backlash. I mean who would stand quiet for such things.\n\nCorporate trust levels are reaching \"wiggle the mouse every 5 minutes\" territory.",
-          "why_hot": "Exclusive: Meta employees launch protest against mouse-tracking tech at US offices. likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI",
-          "url": "https://www.reddit.com/r/technology/comments/1tcbjus/i_work_in_hollywood_everyone_who_used_to_make_tv/",
-          "score": 689,
-          "comments": 89,
-          "link_post": true,
-          "selftext_short": "I've just been operating under the assumption that everything connected to the internet is training AI at this point\n\nSecretly? Seems like you’re training AI whether you intend to or not",
-          "why_hot": "I Work in Hollywood. Everyone Who Used to Make TV Is Now Secretly Training AI. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever",
-          "url": "https://www.reddit.com/r/technology/comments/1tbs1p3/smart_glasses_are_an_invasion_of_privacy_metas/",
-          "score": 439,
-          "comments": 101,
-          "link_post": true,
-          "selftext_short": "What does better than “ever” really mean?\n\nThey are Christmas come early for creeps\n\nYou relinquish your right to privacy once you step outside your private home. There is no privacy in public. \n\nHowever, that doesn’t give the right for creeps to record everything from work, doctor visits, bathrooms or just being an asshole on the street fishing for interactions, usually arguments, with strangers",
-          "why_hot": "Smart glasses are 'an invasion of privacy' - Meta's are selling better than ever"
-        },
-        {
-          "title": "Exclusive: LinkedIn planning to lay off 5% of staff in latest tech-sector cuts, source says",
-          "url": "https://www.reddit.com/r/technology/comments/1tc1fav/exclusive_linkedin_planning_to_lay_off_5_of_staff/",
-          "score": 397,
-          "comments": 86,
-          "link_post": true,
-          "selftext_short": "WHAT GETTING LAID OFF FROM LINKEDIN TAUGHT ME ABOUT B2B SALES\n\nex-LinkedIn people posting for jobs on LinkedIn is some next level shit\n\nLinkedIn should first figure out a way to filter out the AI slop posted on their site. I genuinely can't stand it. Nothing is worth reading there.\n\nLet me guess, more than 75%  of code is written by AI, so we don't need people anymore.\n\nI’d rather shoot myself in the dick than spend more than 1 minute on LinkedIn reading very clearly AI write ups about how someone saved 10 minutes using Claude agents.",
-          "why_hot": "Exclusive: LinkedIn planning to lay off 5% of staff in latest tech-sector cuts, source says. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Walmart cuts 1,000 roles to simplify operations, Reuters reports",
-          "url": "https://www.reddit.com/r/technology/comments/1tby6e0/walmart_cuts_1000_roles_to_simplify_operations/",
-          "score": 286,
-          "comments": 49,
-          "link_post": true,
-          "selftext_short": "&gt;”…as it woos higher income shoppers.”  \n\nGood luck with that\n\nLast week I spent twenty minutes looking for an associate to unlock a case so I could buy a twelve dollar usb adapter. \n\nBiddeford Walmart, yo.",
-          "why_hot": "Walmart cuts 1,000 roles to simplify operations, Reuters reports"
-        },
-        {
-          "title": "Meta is using its own employees' activity to train AI, and laying off 8,000 of them at the same time",
-          "url": "https://www.reddit.com/r/technology/comments/1tbzbg2/meta_is_using_its_own_employees_activity_to_train/",
-          "score": 284,
-          "comments": 41,
-          "link_post": true,
-          "selftext_short": "Such a joyous company to work for\n\nFuck Meta.   \nAll my homies hate Meta.\n\nI have seen a few jobs recently in the creative space where the job is to train an AI to do your job…\n\nThank the policiticians you voted for who allowed this to happen.\n\n\"We trained AI to ask AI questions...\"",
-          "why_hot": "Meta is using its own employees' activity to train AI, and laying off 8,000 of them at the same time. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "US bank discloses security lapse after sharing customer data with AI app",
-          "url": "https://www.reddit.com/r/technology/comments/1tbyx37/us_bank_discloses_security_lapse_after_sharing/",
-          "score": 226,
-          "comments": 21,
-          "link_post": true,
-          "selftext_short": "In case you’re wondering which bank \n\n&gt; Community Bank, which operates in Pennsylvania, Ohio, and West Virginia, disclosed a cybersecurity incident that exposed customers’ names, dates of birth, and Social Security numbers.\n\nBank: \"We value your trust.\"   \nAlso Bank: uploads all customer data to ChatGPT on a Tuesday morning",
-          "why_hot": "US bank discloses security lapse after sharing customer data with AI app. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "PCOS Is Officially Renamed, After Decades of Misinformation",
-          "url": "https://www.reddit.com/r/technology/comments/1tcgsah/pcos_is_officially_renamed_after_decades_of/",
-          "score": 197,
-          "comments": 23,
-          "link_post": true,
-          "selftext_short": "Polyendocrine metabolic ovarian syndrome (PMOS)\n\nDammit ScienceAlert, if PMOS is the correct name, use it in the title.\n\nI clicked on the article and thought, 'What does *that* have to do with a personal computer operating system?!?!'\n\nhow does renaming it change anything. it still has the same symptoms, the same diagnostic criteria, treatment options and is still incurable",
-          "why_hot": "PCOS Is Officially Renamed, After Decades of Misinformation"
-        },
-        {
-          "title": "'I applied to be pope': Losing grip on reality while using ChatGPT",
-          "url": "https://www.reddit.com/r/technology/comments/1tcarw6/i_applied_to_be_pope_losing_grip_on_reality_while/",
-          "score": 199,
-          "comments": 50,
-          "link_post": true,
-          "selftext_short": "I was named Pope once, back in 2017. I hear it was a multi-level clerical error.\n\ninteresting article! I can’t fathom what it’s like to be so susceptible to something like chat bots. I wonder if the same people who are susceptible to hypnosis are the same as those who are vulnerable to losing touch with reality and their relationships with AI.",
-          "why_hot": "'I applied to be pope': Losing grip on reality while using ChatGPT. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Amid looming layoffs, Meta workers accuse company of turning staff into AI training data",
-          "url": "https://www.reddit.com/r/technology/comments/1tbr4hy/amid_looming_layoffs_meta_workers_accuse_company/",
-          "score": 187,
-          "comments": 20,
-          "link_post": true,
-          "selftext_short": "People seriously believed a CEO that looks like a robot had empathy?\n\nOh. The leopards are about to feast.\n\nFuck em. They should've known better\n\nHappening all over the place. The main point of these AI requirements is to teach computers how to do our jobs. \n\nIt probably won’t work in a lot of cases. But it’s absolutely the goal.\n\nIs it really accusing when Meta has literally said that is the purpose?",
-          "why_hot": "Amid looming layoffs, Meta workers accuse company of turning staff into AI training data. likely drawing attention due to organizational or leadership changes"
-        },
-        {
-          "title": "Datacentres using 6% of electricity supply in UK and US, research says | Industry body says energy consumption driven by AI up 15% globally in two years as it warns of societal backlash",
-          "url": "https://www.reddit.com/r/technology/comments/1tbyo7d/datacentres_using_6_of_electricity_supply_in_uk/",
-          "score": 144,
-          "comments": 19,
-          "link_post": true,
-          "selftext_short": "Meanwhile Sweden is building a green steel mill instead. At least that should result in more jobs.\n\nThey should pay for their own electricity and be fined for environmental, air, and noise pollution.",
-          "why_hot": "Datacentres using 6% of electricity supply in UK and US, research says | Industry body says energy consumption driven by AI up 15% globally.... relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
-          "url": "https://www.reddit.com/r/technology/comments/1tcg3he/ciscos_stock_pops_17_on_surging_ai_orders_as/",
-          "score": 140,
-          "comments": 21,
-          "link_post": true,
-          "selftext_short": "Quarterly earnings grew like &lt; 10% year on year but stock doubled\n\nIf this was exactly the same margins announcements growth etc .... But saas... Dump 25 percent\n\nAutomating Cisco APIs with Codex is the one of most insanely reckless ways to insure human eradication I've ever seen.",
-          "why_hot": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "China unveils lithium-sulphur battery for far longer drone flights",
-          "url": "https://www.reddit.com/r/technology/comments/1tc4o1d/china_unveils_lithiumsulphur_battery_for_far/",
-          "score": 134,
-          "comments": 19,
-          "link_post": true,
-          "selftext_short": "Honestly drone tech advancing this fast while battery tech keeps improving at the same time is both impressive and slightly terrifying lol.\n\nSure, mix an oxidant that lowers ignition temperature with another volatile substance for an application that generates heat. Smart. Can’t possibly go wrong.",
-          "why_hot": "China unveils lithium-sulphur battery for far longer drone flights"
-        },
-        {
-          "title": "AI-powered hacking has exploded into industrial-scale threat, Google says",
-          "url": "https://www.reddit.com/r/technology/comments/1tcfate/aipowered_hacking_has_exploded_into/",
-          "score": 121,
-          "comments": 20,
-          "link_post": true,
-          "selftext_short": "AI is extremely good at repetitive tasks. Hacking is mostly that. Makes sense that it’s well positioned to wreak havoc. Of course, regulation is about 10 steps behind technology as usual, and the companies developing the tech have eyes too wide with investor dollars to pump the breaks for even a second despite the systemic risks they’re building. So in this, like so many things, we’re drag racing towards a precipice with no plan as to what happens if we fly right off it.\n\nBecause no one saw that comming..\n\nthats what happens when you push too fast forward",
-          "why_hot": "AI-powered hacking has exploded into industrial-scale threat, Google says. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Why does the Googlebook exist?",
-          "url": "https://www.reddit.com/r/technology/comments/1tc1orc/why_does_the_googlebook_exist/",
-          "score": 110,
-          "comments": 85,
-          "link_post": true,
-          "selftext_short": "Google products always feel like they’re either incredibly useful or five months away from being discontinued.\n\nI should put a remindme that this thing will end on \"killedbygoogle\" before the end of next year.",
-          "why_hot": "Why does the Googlebook exist?"
         }
       ]
     },
     {
       "name": "r/startups",
-      "posts": [
-        {
-          "title": "how do you cope with uncertainty when your startup starts falling apart? [i will not promote]",
-          "url": "https://www.reddit.com/r/startups/comments/1tbwz6t/how_do_you_cope_with_uncertainty_when_your/",
-          "score": 44,
-          "comments": 68,
-          "link_post": false,
-          "selftext_short": "i left my full time job to start a company because i deeply cared about the problem i am solving.\n\nit’s been around a year now. before building, i tried to validate the problem with few enterprises and they were actually eager to buy the solution if i built it. I did unpaid pilot with 3 enterprises. i put my own money and free credits to train the model and make the whole thing work.\n\nnow the strange thing is, the product is working but it doesn’t seem like a problem for them anymore. people are not replying, or they are saying it’s not priority right now. I have almost no runway left. my family is pressuring me to take a job, and i understand them also. but i still want to do startup and build something.\n\ni am not writing this for sympathy. i know i made mistakes, maybe unpaid pilots were a mistake, maybe i took verbal interest too seriously. For people who have gone through this, how do you know when to keep going and when to accept that it’s not working?\n\nhow do you cope mentally when something you spent one year on might fail? should i take a job and continue on side, or should i still try to push for some more time?",
-          "why_hot": "how do you cope with uncertainty when your startup starts falling apart? [i will not promote]. relevant to startup ecosystem and funding activity"
-        },
-        {
-          "title": "I was about to publish my app but saw someone did it before me&lt;i will not promote&gt;",
-          "url": "https://www.reddit.com/r/startups/comments/1tbr75z/i_was_about_to_publish_my_app_but_saw_someone_did/",
-          "score": 11,
-          "comments": 28,
-          "link_post": false,
-          "selftext_short": "so i made a social media app. I saw the need for it and was confident about the scope. But as i was about to publish i saw an ad on instagram. the app was similar to mine with 80 percent of the same idea. it had launched 1.5 years ago and is in 3 cities and has recieved significant funding. I was very excitied to lauch my app but now i am not sure. should i move forward?",
-          "why_hot": "I was about to publish my app but saw someone did it before me&lt;i will not promote&gt;"
-        },
-        {
-          "title": "Raising for a technically hard and risky startup (I will not promote)",
-          "url": "https://www.reddit.com/r/startups/comments/1tbn9cs/raising_for_a_technically_hard_and_risky_startup/",
-          "score": 9,
-          "comments": 30,
-          "link_post": false,
-          "selftext_short": "My startup is building deep tech hardware in defense/ocean tech, but we are having a hard time getting through to pre-seed investors. The ones I've had conversations with so far either don't lead, or the ones who do say we are \"too early\", which I take to mean we are too technically risky still. I guess they can just be saying a nice \"no\", but some even tell me they love what we are doing, but to come back later.\n\nNot really sure how to fix this since we have already proved the core tech works and have backing from the DOE. I tell investors this and show them a demo of our core tech working. It's just not feasible to build an MVP from this without investment.\n\nI wasn't really expecting this reaction either because we have won over a dozen pitches/competitions and get great feedback on our business. We also get solicited by our target customers pretty frequently too. Of course they want more proof before making commitments, but they are willing to pilot with us when we get to that point.\n\nAnyway, I'm not really sure what to do to break through to investors. I guess I thought with all the pitch competition wins that my messaging was good, but perhaps something isn't translating to ac",
-          "why_hot": "Raising for a technically hard and risky startup (I will not promote). likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "[I will not promote] 9 months of content marketing for my SaaS and here's what nobody tells you",
-          "url": "https://www.reddit.com/r/startups/comments/1tc5ey5/i_will_not_promote_9_months_of_content_marketing/",
-          "score": 6,
-          "comments": 9,
-          "link_post": false,
-          "selftext_short": "Everyone says content compounds. Ok yes well. Write consistently, SEO kicks in, leads start coming in passively. Nobody tells you it takes so much longer than you think, and that most of what you write will do basically nothing.\n\nI spent the first 4 months convinced I was building something. Published regularly, optimized for keywords, shared everything on LinkedIn. Traffic was flat. Not declining, just completely indifferent to my existence.\n\nHere's what I actually learned along the way.\n\n**Writing for search volume is almost always the wrong starting point.** I was targeting keywords with 2,000 monthly searches. The articles ranked eventually and brought in people who bounced immediately. The articles that actually converted came from typing the exact phrase a frustrated customer had used in a support ticket into Google and writing the piece nobody had bothered to write yet.\n\n**Distribution is the part everyone skips.** I assumed good content would find its audience. It doesn't. The articles that drove real traffic were the ones I put in front of the right communities manually : specific subreddits, Slack groups, niche newsletters. Wrote 3 posts a week for a month and seeded each",
-          "why_hot": "[I will not promote] 9 months of content marketing for my SaaS and here's what nobody tells you"
-        },
-        {
-          "title": "Brand activation for startups, is it worth the investment or too expensive? i will not promote",
-          "url": "https://www.reddit.com/r/startups/comments/1tby24c/brand_activation_for_startups_is_it_worth_the/",
-          "score": 7,
-          "comments": 14,
-          "link_post": false,
-          "selftext_short": "Most of us are bootstrapping or running on tight budgets, so we usually stick to digital ads, content, and growth hacks. I’ve been seeing a lot of brand activation work for startups and emerging brands done by BRC and it’s making me rethink things. They’ve been creating some really impressive immersive experiences, turning spaces into living brand homes, building attractions that become destinations, and designing moments that feel more like culture than marketing. I’ve seen them do this for everything from spirits brands scaling up to innovative education and consumer projects that started smaller.\n\nIt seems like a strong activation can cut through the noise, create real emotional loyalty, and get organic word-of-mouth that paid ads just can’t match. The architecture + immersive design combo they use looks like a potential unfair advantage in crowded markets.\n\nHas anyone here as a founder tried proper brand activation?\n\nDid it actually help with awareness, customer acquisition, or even fundraising? Or is it still mostly for bigger companies with deeper pockets?",
-          "why_hot": "Brand activation for startups, is it worth the investment or too expensive? i will not promote. likely drawing attention due to organizational or leadership changes"
-        },
-        {
-          "title": "Legitimate online channels to find investors and founders sharing the same vision and mission, in this “I will not promote” era",
-          "url": "https://www.reddit.com/r/startups/comments/1tbxg9f/legitimate_online_channels_to_find_investors_and/",
-          "score": 6,
-          "comments": 16,
-          "link_post": false,
-          "selftext_short": "I understand that many subs suffer from spams and ai generated content, and i understand the need of “i will not promote” being implemented. But it seems all the launch platforms will hardly make your voice heard without serious paid marketing. So if you have a working product, an active user base, and proven traction, and you are a true believer in monetization at the later stages….how would you discover investors who share the same vision and would like to invest in the project?",
-          "why_hot": "Legitimate online channels to find investors and founders sharing the same vision and mission, in this “I will not promote” era. likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "[I will not promote]. What do people usually do with fully developed e-commerce websites after a project/business doesn’t move forward? (Drastically failed)",
-          "url": "https://www.reddit.com/r/startups/comments/1tbp0o4/i_will_not_promote_what_do_people_usually_do_with/",
-          "score": 5,
-          "comments": 15,
-          "link_post": false,
-          "selftext_short": "I am a web developer and I tried my best to start a e-commerce and built a fully custom coded ecommerce website for my own brand, but the business failed quickly due to poor marketing and due to increase in import prices because of war. Now I am wondering if there is a market for selling production-ready custom ecommerce websites. The project itself is mostly complete, including the frontend, backend structure, responsive design, and core store functionality.\n\nIt is not built on shopify or wix  it is a custom setup.\n\nNow I am trying to figure out what developers or founders usually do in this situation:\n\n\\---&gt;repurpose the codebase\n\n\\---&gt;sell the project privately,\n\n\\---&gt;convert it into a saas idea,\n\nor just reuse parts of it in future projects?\n\nWould genuinely like to hear how others handle unused but production-ready projects after a business plan changes or fails.",
-          "why_hot": "[I will not promote]. What do people usually do with fully developed e-commerce websites after a project/business doesn’t move forward? (Dra..."
-        },
-        {
-          "title": "[I will not promote] The issue is not offshore talent. It is weak structure.",
-          "url": "https://www.reddit.com/r/startups/comments/1tc0gsq/i_will_not_promote_the_issue_is_not_offshore/",
-          "score": 5,
-          "comments": 7,
-          "link_post": false,
-          "selftext_short": "After spending 20+ years in the Philippine outsourcing industry, l think a lot of companies misunderstand why offshore setups fail.\n\nMost of the time it is not because the talent is bad. \n\nIt's because the structure around the team is weak.\n\nThings usually look fine when there are only a few people offshore. But once the offshore team becomes important to operations, problems start showing up fast. \n\nYou start seeing:\n\nUnclear accountability  \nDependency on specific people  \nMessy contractor setups  \nRetention issues  \nLack of continuity and processes  \nWeak management cadence  \nSlow decision speed\n\nA lot of founders think they have a hiring issue when really they have an operational structure issue.\n\nThe Philippines has amazing talent. I have seen it firsthand for decades.\n\nBut good talent without proper structure eventually becomes fragile at scale.",
-          "why_hot": "[I will not promote] The issue is not offshore talent. It is weak structure."
-        },
-        {
-          "title": "I used to celebrate fast growth. Now I pay more attention to how much chaos came with it (i will not promote)",
-          "url": "https://www.reddit.com/r/startups/comments/1tblyg5/i_used_to_celebrate_fast_growth_now_i_pay_more/",
-          "score": 2,
-          "comments": 5,
-          "link_post": false,
-          "selftext_short": "Early on, every spike in orders felt exciting. More sales, more messages, more momentum. I thought that automatically meant things were working.\n\nWhat I didn’t expect was how fast small problems multiplied too. Supplier replies started getting missed. Tiny customer issues piled up in the inbox. One delayed shipment somehow turned into three separate conversations across email and WhatsApp.\n\nNothing was technically “broken,” but it stopped feeling clean really fast. I think I used to associate growth with stability. Lately it’s felt more like growth just reveals how messy your operations already are.",
-          "why_hot": "I used to celebrate fast growth. Now I pay more attention to how much chaos came with it (i will not promote)"
-        },
-        {
-          "title": "i've got certain amount of money and want to go all-in into shipping ios apps. what services besides claude should i pay attention to? I will not promote",
-          "url": "https://www.reddit.com/r/startups/comments/1tc94u3/ive_got_certain_amount_of_money_and_want_to_go/",
-          "score": 3,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "For the past year i shipped one app and worked at app studio but i noticed that im getting super constrained by the claude limits. \n\nSaw a video of one guy who shipped nice looking non ai slop app in one hour by generating images via gpt and videos with seedance via higgsfield. \n\nCurious what paid tools/services other indie iOS founders consider worth paying for today.\n\nEspecially interested in:  \n\\-coding/dev workflow  \n\\-UI/design  \n\\-video generation  \n\\-ASO",
-          "why_hot": "i've got certain amount of money and want to go all-in into shipping ios apps. what services besides claude should i pay attention to? I wil.... relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "I'm a hardworking person after 9 - 5,  NEED ADVICE, I will not promote",
-          "url": "https://www.reddit.com/r/startups/comments/1tc4r5h/im_a_hardworking_person_after_9_5_need_advice_i/",
-          "score": 2,
-          "comments": 6,
-          "link_post": false,
-          "selftext_short": "I’ve been thinking a lot after a previous discussion here, and honestly a lot of the replies changed how I see startups.\n\nI’m a senior software engineer and solutions architect. I worked across multiple industries over the years, including large sectors like real estate and data center infrastructure. But the reality is: I mostly operated on the technical side, not deeply inside business operations or day-to-day workflows where painful problems become obvious.\n\nAnd now I feel stuck between two worlds.\n\nOn one side:  \nI don’t want to build another shallow AI wrapper, cheap SaaS, or bulk-generated product just to “ship fast.” The market already feels flooded with low-quality tools that disappear after a few months, and I care a lot about building solid systems with real value.\n\nOn the other side:  \nEvery serious problem I discover seems to require either:\n\n* huge capital,\n* industry connections,\n* domain expertise,\n* regulatory knowledge,\n* or a very large team.\n\nWhat makes this harder is the current startup environment.\n\nIt feels almost impossible in 2026 to raise funding without traction, pilots, or customers first. Which means you need an MVP before funding.\n\nBut building real MVP",
-          "why_hot": "I'm a hardworking person after 9 - 5,  NEED ADVICE, I will not promote. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "I made something for a company however they did not end up paying. I want to approach competitor companies but im not too sure how to go about it. Advice is much appreciated. i will not promote.",
-          "url": "https://www.reddit.com/r/startups/comments/1tblhqy/i_made_something_for_a_company_however_they_did/",
-          "score": 2,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "Like the title says, I made a tool that i do now believe is revolutionising for that industry cause its so tailored to that niche in the market. Now, the company that i was building this for wanted the complete app to themselves, with me not being in the loop or even mentioned in the making of it which i just wasn't happy with of course. So the deal fell through. now im thinking i can approach the many competitors literally right next to these guys but they are all pretty big companies and im not sure who im supposed to even pitch it to. if i call the main number who do i ask for? where do i get pointed to? if its a medium sized company i doubt they have any team specifically for future advancement calls haha. Any advice on how i can approach the competitors?",
-          "why_hot": "I made something for a company however they did not end up paying. I want to approach competitor companies but im not too sure how to go abo.... likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "title": "Startup friendly virtual card issuing companies (i will not promote)",
-          "url": "https://www.reddit.com/r/startups/comments/1tbl0ta/startup_friendly_virtual_card_issuing_companies_i/",
-          "score": 2,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "Does anyone know a US-friendly reloadable virtual Visa/Mastercard API with real transaction webhooks?\n\nNeed:  \n\\- create/assign reloadable virtual cards  \n\\- fund/reload from platform balance  \n\\- Apple Pay / Google Pay if possible  \n\\- transaction-level webhooks for auths, declines, settlements, refunds, reversals  \n\\- secure card detail display/API  \n\\- beta/startup friendly pricing\n\nMost providers I’ve found are either enterprise-only, rewards/payout-only, or don’t expose real card spend webhooks. Any leads?",
-          "why_hot": "Startup friendly virtual card issuing companies (i will not promote). likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Is meta ads reliable? I will not promote.",
-          "url": "https://www.reddit.com/r/startups/comments/1tcagl4/is_meta_ads_reliable_i_will_not_promote/",
-          "score": 1,
-          "comments": 4,
-          "link_post": false,
-          "selftext_short": "I'm working on a B2C web app and recently ran a test with Meta ads. I spent almost $100 and didn't get a single signup, despite the ad video performing well. \n\nWhen I selected \"landing page views\" as my goal, my CTR was over 2%, but the vast majority of those visitors left the site within one second. I track activity with a separate analytics tool and know one second isn't enough time to judge the landing page content.\n\n​I then switched my goal to 'Reach.' I reached 4x more people for a cheaper price, but got zero clicks. This seems suspicious to me because when I showed the same ad to 200 IG followers, I got 10+ users and 2 signups. Why did I get zero results after reaching 5,000+ people through Meta ads? Is this bot traffic, or is there something I'm doing wrong?",
-          "why_hot": "Is meta ads reliable? I will not promote."
-        },
-        {
-          "title": "Idea (I will not promote)",
-          "url": "https://www.reddit.com/r/startups/comments/1tbl0on/idea_i_will_not_promote/",
-          "score": 1,
-          "comments": 2,
-          "link_post": false,
-          "selftext_short": "The Problem  \nLongevity clinics, concierge practices, and functional medicine providers are flying blind between patient visits. They order labs, patients come in, get results, and then nothing until the next appointment 6–12 months later. There’s no continuous visibility into how a patient’s biomarkers are trending between visits.\n\nThe Idea  \nA B2B platform that gives clinics a remote monitoring layer for patient biomarkers. Patients test at home, results flow into a provider dashboard, AI flags trends and outliers, and the clinic can intervene proactively instead of reactively.  \nThink of it as the operating system for a longevity clinic’s patient monitoring workflow.\n\nThe Market  \n\\-Concierge/longevity medicine is a $20B market growing \\~10% annually  \n\\-Function Health just raised $298M at a $2.5B valuation on the DTC side\n\nWhat are we missing?",
-          "why_hot": "Idea (I will not promote). likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "I turned Paul Graham's 230 essays and 52500 tweets into 7 podcast episodes on finding and evaluating startup ideas (I will not promote)",
-          "url": "https://www.reddit.com/r/startups/comments/1tbxrbc/i_turned_paul_grahams_230_essays_and_52500_tweets/",
-          "score": 0,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "Got rejected by YC 6 times. A friend who just got in this batch told me I was stuck in a failure loop, and the only way out was to actually read everything PG has written.\n\nSo I did. 230 essays, dozens of talks, 10+ interviews, and 52,500 tweets, and turned it into a 7-episode podcast on finding and evaluating startup ideas. It keeps his actual thinking and mental models, not just the takeaways.\n\nPG has had a big influence on me so I hope this gets more people into his ideas without the months of reading.\n\nIf you don't have time to listen, sharing it would help someone else stuck in the same loop. Let me know if there's something I can do to make the post more useful.",
-          "why_hot": "I turned Paul Graham's 230 essays and 52500 tweets into 7 podcast episodes on finding and evaluating startup ideas (I will not promote). likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "title": "I made something for a company however they did not end up paying. I want to approach competitor companies but im not too sure how to go about it. Advice is much appreciated. i will not promote.",
-          "url": "https://www.reddit.com/r/startups/comments/1tblnm1/i_made_something_for_a_company_however_they_did/",
-          "score": 0,
-          "comments": 22,
-          "link_post": false,
-          "selftext_short": "Like the title says, I made a tool that i do now believe is revolutionising for that industry cause its so tailored to that niche in the market. Now, the company that i was building this for wanted the complete app to themselves, with me not being in the loop or even mentioned in the making of it which i just wasn't happy with of course. So the deal fell through. now im thinking i can approach the many competitors literally right next to these guys but they are all pretty big companies and im not sure who im supposed to even pitch it to. if i call the main number who do i ask for? where do i get pointed to? if its a medium sized company i doubt they have any team specifically for future advancement calls haha. Any advice on how i can approach the competitors?",
-          "why_hot": "I made something for a company however they did not end up paying. I want to approach competitor companies but im not too sure how to go abo.... likely drawing attention due to a high-impact or controversial development"
-        }
-      ]
+      "posts": []
     },
     {
       "name": "r/opensource",
-      "posts": [
-        {
-          "title": "Sovereign Tech Fund invests over €1 million in KDE software development",
-          "url": "https://www.reddit.com/r/opensource/comments/1tbvkk0/sovereign_tech_fund_invests_over_1_million_in_kde/",
-          "score": 14,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Sovereign Tech Fund invests over €1 million in KDE software development. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Radicle: A better, peer-to-peer, home for Open Source",
-          "url": "https://www.reddit.com/r/opensource/comments/1tc2gvq/radicle_a_better_peertopeer_home_for_open_source/",
-          "score": 3,
-          "comments": 1,
-          "link_post": false,
-          "selftext_short": "Yes, this is essentialy a \"product demo\", but I feel like even if this particular startup were to go extinct, it's worth sharing to inspire people to change their thinking about how version control for (at least community-driven) open source should look like.\n\nGit was never meant to become \"hubified\", we probably shouldn't have let every forge make it into another centralised site.\n\n&gt; The future of Open Source Software (OSS) as a global public good is at risk. The need for a resilient, community-owned alternative has never been more urgent: OSS may have \"taken over the world\", but... did someone take control of OSS itself in the process, locking it into a proprietary platform, controlled by a single vendor? Is this still a sustainable path today, in the time of trade wars, volatile tariffs, GenAI mandates and countries fighting for data sovereignty?\n\n&gt; This talk will introduce you to Radicle, a new, decentralized code forge that's built on a peer-to-peer architecture.\nWe'll explore how Radicle works and how it extends Git to create a secure and resilient network for code collaboration. We'll cover its peer-to-peer replication protocol, its decentralized identity system, and i",
-          "why_hot": "Radicle: A better, peer-to-peer, home for Open Source. likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "title": "Unifi Protect alternative",
-          "url": "https://www.reddit.com/r/opensource/comments/1tcholq/unifi_protect_alternative/",
-          "score": 1,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "Are there any remarkable open source alternatives (or vendors who are pretty open in that topic) to Unifi Protect door access?",
-          "why_hot": "Unifi Protect alternative. relevant to AI, infrastructure, or open-source ecosystem movements. Are there any remarkable open source alternatives (or vendors who are pretty open in that topic) to Unifi Protect door access?"
-        },
-        {
-          "title": "USAF just launched their AMS GRA and A-GRA reference architectures to the public.",
-          "url": "https://www.reddit.com/r/opensource/comments/1tchdoi/usaf_just_launched_their_ams_gra_and_agra/",
-          "score": 1,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "Be on the lookout for Prometheus Flame next month. \n\n$$$ for small businesses. \n\nOfficial communication on the footer of the page.",
-          "why_hot": "USAF just launched their AMS GRA and A-GRA reference architectures to the public.. Be on the lookout for Prometheus Flame next month.  $$$ for small businesses.  Official communication on the footer of the page."
-        },
-        {
-          "title": "Time Squirrel is a MIT-licensed native macOS timer. Local Markdown/JSON history, no accounts, no cloud.",
-          "url": "https://www.reddit.com/r/opensource/comments/1tbl66f/time_squirrel_is_a_mitlicensed_native_macos_timer/",
-          "score": 0,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "Time Squirrel is a native macOS timer that saves session history as readable local files. MIT license. GitHub Releases only.\n\nWhat it does: stopwatch and countdown modes, named laps, repeating interval alerts, per-session Markdown notes with live preview, menu bar icon with active session indicator, first-class VoiceOver, and reduced-motion support.\n\nWhat it doesn't do: no cloud sync, no accounts, no subscriptions, no telemetry, no team features. The scope is intentional and narrow.\n\nData is saved to \\~/Documents/TimeSquirrel/ by default as a pair of `.md` and `.json` files. You control the folder; the app doesn't care what syncs it.\n\nIssues and pull requests welcome, the features and design document in the repo defines the scope before you propose additions.\n\nGitHub: [https://github.com/Ventura-Nomadica/time-squirrel](https://github.com/Ventura-Nomadica/time-squirrel)",
-          "why_hot": "Time Squirrel is a MIT-licensed native macOS timer. Local Markdown/JSON history, no accounts, no cloud.. relevant to AI, infrastructure, or open-source ecosystem movements"
-        }
-      ]
+      "posts": []
     },
     {
       "name": "r/cybersecurity",
@@ -523,7 +170,7 @@
         {
           "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tc3zam/microsoft_bitlockerprotected_drives_can_now_be/",
-          "score": 1155,
+          "score": 1160,
           "comments": 126,
           "link_post": true,
           "selftext_short": "YellowKey is kind of crazy because now, any device that was stolen but protected by BitLocker is now super-compromised, with no recourse.\n\nAre cyber response teams going back thru all their prior incidents like this from years ago and reengaging? Jesus Christ\n\nSo this just saved the guy on /r/sysadmin who locked the entire company into a reboot loop the other day and Kevin had wiped the usb stick with the bitlocker keys?",
@@ -532,7 +179,7 @@
         {
           "title": "NIST is surrendering to the amount of CVEs coming in",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tc57la/nist_is_surrendering_to_the_amount_of_cves_coming/",
-          "score": 424,
+          "score": 422,
           "comments": 43,
           "link_post": false,
           "selftext_short": "https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth\n\nNIST can't keep up with the amount of CVEs coming in any more. They are now only reviewing \"important\"CVEs. Pretty much only if they affect the government, or if they are already known! This is going to leave close to 90% of their CVEs not reviewed. \n\nSo what do you all think of this? I think this enforces AI is not taking our jobs any time soon as look how undermanned NIST is.",
@@ -541,7 +188,7 @@
         {
           "title": "Microsoft France's legal affairs director told the French Senate, under oath, that he can't guarantee European \"sovereign cloud\" data stays out of US reach",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tbrc39/microsoft_frances_legal_affairs_director_told_the/",
-          "score": 334,
+          "score": 338,
           "comments": 27,
           "link_post": false,
           "selftext_short": "June 18, 2025. Anton Carniaux, Microsoft France's director of public and legal affairs. French Senate inquiry into public procurement and digital sovereignty. Senators asked him point-blank whether he could guarantee that data stored in Microsoft's sovereign cloud offering would never reach US authorities.\n\nHe said no. Under oath.\n\nThe reason is the US CLOUD Act from 2018. American companies have to comply with valid US legal requests for data regardless of where the servers physically sit. Microsoft, Amazon and Google all lobbied for that law back then. Same three now running the \"European sovereign cloud\" campaigns — Microsoft's \"European Digital Sovereignty Commitments\" launched early 2025, AWS and Google with their own variants right after. Doesn't matter what the product is called. The legal pipe runs back to Washington.\n\nSimon Uzenat, who chaired the Senate committee, called Microsoft's transparency reports on US data requests \"purely declarative.\" No external verification, no oversight. Marketing kept running anyway.\n\nCarniaux is the cleanest public admission but not the only one. The Commission just awarded a €180M sovereign cloud tender in April 2026 — one of the four winn",
@@ -550,7 +197,7 @@
         {
           "title": "Golden years for cyber security about to start?",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tc1mi0/golden_years_for_cyber_security_about_to_start/",
-          "score": 183,
+          "score": 184,
           "comments": 91,
           "link_post": false,
           "selftext_short": "Anyone else thinking the insane levels of cyber attacks that are about to happen driven by AI will produce a massive investment wave in cybersecurity? Or will it now be easier on the defence because of AI? Genuinely interested in what people think.",
@@ -559,236 +206,11 @@
         {
           "title": "China is going dark to develop its own Mythos, German cyber chief fears",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tbryew/china_is_going_dark_to_develop_its_own_mythos/",
-          "score": 127,
+          "score": 129,
           "comments": 23,
           "link_post": true,
           "selftext_short": "Oh they havent \"been dark\" so far? what?\n\n\"Its going dark\".. I hate the headlines trend. Is that supposed to be poesy or what? Can't trust anything anymore\n\nLol. What a dumbass. The \"Going to\" and then magnified by the total lack of comprehension re: agentic systems. FFS. When can we replace executives with AI?\n\nAnd it'll still be overrated and overhyped lol, but probably less power hungry than the OG\n\nNext up, [It's after dark now](https://youtu.be/ESdogL0Muhw?si=27mwcvlxVzP-6iYi)",
           "why_hot": "China is going dark to develop its own Mythos, German cyber chief fears. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Malware crew TeamPCP open-sources its Shai-Hulud worm on GitHub",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbsocr/malware_crew_teampcp_opensources_its_shaihulud/",
-          "score": 96,
-          "comments": 5,
-          "link_post": true,
-          "selftext_short": "&gt; \"TeamPCP isn’t just spreading malware anymore – they’re spreading capability. By going open source, they’ve handed any willing actor the tools to build their own variant. The copycats are already here,”\n\n❌ Ox opined    \n✔️ chatGPT opined\n\nAside from this article, this should be painfully obvious. Like 2017 obvious.\n\nLmao I’m not convinced uploading to a GitHub repo is at all meaningful. \n\nGetting a copy of the code was never a problem: it’s a worm in a non-compiled language, literally everyone infected has a copy.",
-          "why_hot": "Malware crew TeamPCP open-sources its Shai-Hulud worm on GitHub. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "How worried should we be about AI powered cyberattacks?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbl9yf/how_worried_should_we_be_about_ai_powered/",
-          "score": 41,
-          "comments": 62,
-          "link_post": false,
-          "selftext_short": "With everything getting smarter and AI being everywhere now, I've been wondering how big of a threat AI powered cyberattacks really are. Is it just media hype or are these attacks actually happening in the wild? Also, how the hell do you even defend against something like that? Feels like AI would be way faster at finding weaknesses than a human could keep up with. If anyone works in cybersecurity, I'd love to hear what you’re seeing.",
-          "why_hot": "How worried should we be about AI powered cyberattacks?. likely drawing attention due to a high-impact or controversial development"
-        },
-        {
-          "title": "Claude Mythos technical breakdown: CVE-2026-4747 ROP chain, OpenBSD SACK integer overflow, Linux 1-bit OOB-to-root, and what AISLE's reproductions actually showed",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbvxti/claude_mythos_technical_breakdown_cve20264747_rop/",
-          "score": 23,
-          "comments": 5,
-          "link_post": true,
-          "selftext_short": "why are there so many slop promotion posts on this sub we don't need another slop analysis of mythos",
-          "why_hot": "Claude Mythos technical breakdown: CVE-2026-4747 ROP chain, OpenBSD SACK integer overflow, Linux 1-bit OOB-to-root, and what AISLE's reprodu.... relevant to cybersecurity and risk tracking. why are there so many slop promotion posts on this sub we don't need another slop analysis of mythos"
-        },
-        {
-          "title": "CISSP / CCSP training - Experienced engineer",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tcdkpa/cissp_ccsp_training_experienced_engineer/",
-          "score": 12,
-          "comments": 15,
-          "link_post": false,
-          "selftext_short": "Greetings - I'm currently researching both these certs (CISSP and CCSP). I'm strongly leaning towards CISSP as it seems to be more universally recognized. \n\nAll the posts I'm seeing about people who passed have a long laundry list of trainings and materials. I'm a tad confused which ones to use. To give you a background I have 10+ years working in the cloud and backend software/devops engineering. I've held AWS SA, CloudOps and Dev associate certs and have experience with basic cloud, Linux OS and network security. I already have a CISSP co-worker who would be able to sign off on the experience requirement. \n\nGiven this background whats 1 or two online trainings that would relaibly cover all modules and maybe 1 practice test that yall could recommend\n\nWould appreciate any other tips for prep. I hope to take the cert in a month or so (I prefer short term intense prep than prepping over a long time). Cheers!",
-          "why_hot": "CISSP / CCSP training - Experienced engineer. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "a leak from \"the gentleman\" ransomware group confirms Infostealers were often used to establish initial access",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc206b/a_leak_from_the_gentleman_ransomware_group/",
-          "score": 12,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "A recent internal data leak from “The Gentlemen” ransomware-as-a-service (RaaS) group has provided the cybersecurity community with a rare, unfiltered look into their daily operations. Exposed on underground forums, the internal communications shed light on exactly how ransomware affiliates organize, breach, and extort global organizations.\n\nBut among the many technical details revealed in Checkpoint Research’s comprehensive analysis (“Thus Spoke… The Gentlemen”), one operational pattern stands out prominently: their heavy reliance on infostealer credential logs for initial access.",
-          "why_hot": "a leak from \"the gentleman\" ransomware group confirms Infostealers were often used to establish initial access. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "AI-Generated Fake Marketplaces Are Poisoning Search Results and Stealing Card Data",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbuiux/aigenerated_fake_marketplaces_are_poisoning/",
-          "score": 11,
-          "comments": 3,
-          "link_post": true,
-          "selftext_short": "I can't believe we're going to deal with this shit in 2026💀 wouldn't it be better if there's such a tool to remove AI slops?",
-          "why_hot": "AI-Generated Fake Marketplaces Are Poisoning Search Results and Stealing Card Data. relevant to AI, infrastructure, or open-source ecosystem movements. I can't believe we're going to deal with this shit in 2026💀 wouldn't it be better if there's such a tool to remove AI slops?"
-        },
-        {
-          "title": "Is it realistic to move from Tech Risk/GRC into technical cybersecurity?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbsimp/is_it_realistic_to_move_from_tech_riskgrc_into/",
-          "score": 10,
-          "comments": 12,
-          "link_post": false,
-          "selftext_short": "I’m about to start a role in Technology Risk &amp; Compliance at a bank, but in the long term I’m more interested in moving into technical cybersecurity (application security, cloud security, security engineering, etc.).\n\nHow realistic is this transition internally or externally? Do companies actually hire people from tech risk/compliance backgrounds into more technical cyber roles?\n\nI have a software/engineering background and I’m planning to keep improving my technical skills alongside the job.\n\nWould love to hear from people who made a similar transition or worked with others who did.",
-          "why_hot": "Is it realistic to move from Tech Risk/GRC into technical cybersecurity?. likely drawing attention due to regulation or policy changes"
-        },
-        {
-          "title": "Are certifications worth it, or do practical skills matter more?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbw4mf/are_certifications_worth_it_or_do_practical/",
-          "score": 8,
-          "comments": 33,
-          "link_post": false,
-          "selftext_short": "Are online certifications worth it, or do practical skills matter more?",
-          "why_hot": "Are certifications worth it, or do practical skills matter more?. Are online certifications worth it, or do practical skills matter more?"
-        },
-        {
-          "title": "Military Veteran looking to get into the Cyber Field",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc4rqc/military_veteran_looking_to_get_into_the_cyber/",
-          "score": 7,
-          "comments": 23,
-          "link_post": false,
-          "selftext_short": "I have a background in Physical security and want to jump into the cyber world. What’s some significant certifications that I need to acquire and also other advice to get jobs. How is the Gov tech side of this path?",
-          "why_hot": "Military Veteran looking to get into the Cyber Field. relevant to cybersecurity and risk tracking"
-        },
-        {
-          "title": "Vulnerability in Canvas/Instructure Support Tickets had part in breach?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tccrlc/vulnerability_in_canvasinstructure_support/",
-          "score": 6,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "Re: their 5/13/26 incident update: [https://www.instructure.com/incident\\_update](https://www.instructure.com/incident_update)\n\n* *We also identified a vulnerability regarding support tickets in our Free for Teacher environment that was exploited. We temporarily disabled Free for Teacher while we complete a full security review. We know that's disruptive, and we didn't make that call lightly. But keeping the entire Canvas platform secure has to come first.*\n\nDoes anyone have any more information on this? Trying to prevent it from happening other places",
-          "why_hot": "Vulnerability in Canvas/Instructure Support Tickets had part in breach?. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "Fragnesia made public as latest Linux local privilege escalation vulnerability",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc5xy7/fragnesia_made_public_as_latest_linux_local/",
-          "score": 6,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Fragnesia made public as latest Linux local privilege escalation vulnerability. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "FamousSparrow's evolved DLL sideloading - execution gated behind the host app's normal control flow",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc1mw3/famoussparrows_evolved_dll_sideloading_execution/",
-          "score": 6,
-          "comments": 1,
-          "link_post": false,
-          "selftext_short": "**TL;DR: Bitdefender Labs tracked a multi-wave intrusion targeting an Azerbaijani oil and gas company from late December 2025 through late February 2026. This research documents expansion of Chinese APT activity against South Caucasus energy infrastructure, attributed with moderate-to-high confidence to FamousSparrow (overlapping with the Earth Estries threat ecosystem).**\n\n  \nThe new DLL sideloading variant is the interesting bit. Standard sideloading fires the payload from `DllMain` or a single export — sandboxes catch it. This one splits logic across two exports:\n\n* `Init` patches `StartServiceCtrlDispatcherW` in memory and exits\n* Host binary runs its normal startup, eventually calls `ComMain, which is`routed through the patched API into the loader and decrypts+executes the Deed RAT\n\nNo anti-VM, no debugger checks, just an implicit requirement that the host be exercised normally. Run the DLL alone or hit one export in a sandbox and the malware looks inert.\n\nChinese APTs are known to share new and successful techniques across the ecosystem. We saw it play out very clearly with \"traditional\" DLL sideloading - once it proved effective, it spread across basically every Chinese APT ",
-          "why_hot": "FamousSparrow's evolved DLL sideloading - execution gated behind the host app's normal control flow. relevant to startup ecosystem and funding activity"
-        },
-        {
-          "title": "What to do after security+",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbuqq7/what_to_do_after_security/",
-          "score": 4,
-          "comments": 4,
-          "link_post": false,
-          "selftext_short": "Hello everyone,\n\nI passed my security+ exam yesterday. And officially certified now. And wanted to ask where do I go from here. \n\nOne thing I've discovered through my journey in Cybersecurity is I like working with servers. so was thinking of getting certs related to those. \n\nAnd I also would like to get internships (and then hopefully a job) as a sysadmin. \n\nSo any help would be appreciated.",
-          "why_hot": "What to do after security+. relevant to cybersecurity and risk tracking"
-        },
-        {
-          "title": "Joined a new company: GRC landscape advice",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc25i4/joined_a_new_company_grc_landscape_advice/",
-          "score": 4,
-          "comments": 11,
-          "link_post": false,
-          "selftext_short": "I recently joined a new company as a Security Project Manager. Their previous GRC team (contractor?)  used a tool called Onspring which is a bit outdated. Recently, I learned that that company would like to move either to another tool that is more affordable or creating our own internal library using standard tools such as Jira, Confluence, databases, spreadsheets, PowerBI (for visualization).  \n  \nGood idea or bad idea? If we do this transition, what would we lose that we can't reproduce in another place/tool? Are tools like this absolutely required? What do you all use for functions such as submitting evidence to auditors or asset management, etc....?\n\nIf you were in my shoes, what would you do?\n\nAny thoughts are welcomed!",
-          "why_hot": "Joined a new company: GRC landscape advice. relevant to cybersecurity and risk tracking"
-        },
-        {
-          "title": "Cyebrsecurity Startup Advice",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbmo9v/cyebrsecurity_startup_advice/",
-          "score": 4,
-          "comments": 15,
-          "link_post": false,
-          "selftext_short": "I’m currently a cybersecurity student and have been thinking a lot about how fast AI and cloud security are evolving. It feels like there are still huge gaps in cloud and AI security and how could I take these gaps and turn it into a startup.\n\nMost MSSPs still seem heavily focused on traditional SOC and compliance work, which made me start thinking about whether there’s a big opportunity for more modern AI and cloud-focused security services.\n\nI also keep wondering whether it makes more sense to start as a specialized MSSP first to understand real customer pain points and later turn repeated workflows into a SaaS platform, or if it’s better to immediately focus on building a SaaS security product even though that could take years before getting traction.\n\nI enjoy building things and researching security problems, and it genuinely feels like this space is still very early with a lot of unsolved problems. Curious what others think the biggest opportunities are right now in AI/cloud security startups and I would appreciate any advice!",
-          "why_hot": "Cyebrsecurity Startup Advice. likely drawing attention due to regulation or policy changes"
-        },
-        {
-          "title": "Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tcgzcv/microsofts_new_multimodel_agentic_security_system/",
-          "score": 3,
-          "comments": 2,
-          "link_post": true,
-          "selftext_short": "That's a lot of buzzwords for an ad.\n\nyawn\n\nAnthropic's marketing of Mythos has all these other companies scrambling to do the same. Nobody is talking about GPT-5.5 despite it apparently being the just as good as Mythos.",
-          "why_hot": "Microsoft’s new multi-model agentic security system tops leading industry benchmark. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Microsoft MDASH Deployment Identifies 16 Windows Flaws via 100+ AI Agents",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tcf0ln/microsoft_mdash_deployment_identifies_16_windows/",
-          "score": 3,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Microsoft MDASH Deployment Identifies 16 Windows Flaws via 100+ AI Agents. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Anyone else got a bunch of emails leaked by Samsung?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc9qlg/anyone_else_got_a_bunch_of_emails_leaked_by/",
-          "score": 4,
-          "comments": 4,
-          "link_post": false,
-          "selftext_short": "I'm subscribed to Samsung US newsletter (apparently). Earlier today I received an email from an email address I did not recognized. When I looked at it, it was a Gmail user responding to the newsletter. Upon looking further, I realized that the email had a list of email addresses all together in the TO field \n\nHere is the email details:\n\nMessage ID:   &lt;[redacted]@us-west-2.amazonses.com&gt;\nCreated on:   13 May 2026 at 02:03 (Delivered after 8 seconds)\nFrom:         Samsung USA &lt;orders@shopping.us.samsung.com&gt;\nTo:           [50 recipients — mix of @gmail.com, @yahoo.com, and \n              various corporate/personal domains, alphabetically \n              unrelated, no obvious mailing list pattern]\nSubject:      Your membership journey begins here\nSPF:          PASS with IP 54.240.27.210\nDKIM:         PASS with domain samsung.com\nDMARC:        PASS\n\n\nHave any of you received the same email? I only had 50 email addresses which I suspect where part of a batch. So there should be other people who received the same email with a different set of email addresses",
-          "why_hot": "Anyone else got a bunch of emails leaked by Samsung?"
-        },
-        {
-          "title": "Apple Supplier Foxconn in Taiwan Confirms Cyberattack After Ransomware Gang Claims 8TB Data Theft",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbvw7p/apple_supplier_foxconn_in_taiwan_confirms/",
-          "score": 3,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Apple Supplier Foxconn in Taiwan Confirms Cyberattack After Ransomware Gang Claims 8TB Data Theft. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "what lab to learn zero trust?",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tcaejj/what_lab_to_learn_zero_trust/",
-          "score": 2,
-          "comments": 4,
-          "link_post": false,
-          "selftext_short": "Hi all, I'm reading the Zero Trust O'Reilly book, but it's all a bit conceptual. I have no real life experience with networking, so it's a bit hard to visualise what is meant with the concepts. I googled for labs to learn but it seems there are a lot. What labs would you recommend? I have lots of experience with cloud, docker, linux, etc etc so technical stuff is not a problem.",
-          "why_hot": "what lab to learn zero trust?. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
-          "title": "Removing admin rights",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc23lh/removing_admin_rights/",
-          "score": 2,
-          "comments": 16,
-          "link_post": false,
-          "selftext_short": "We are trying to remove admin privileges for all users..however, we have some software that auto updates, and it will fail if they do not have admin rights. Specifically,  the one we are having issues with, updates the software with \"catalogs\" with up to date price information. We have been going back and forth with the vendor and they are not helpful.\n\nWe really need to remove admin rights to users. Has anyone had similar issues and how did you solve it?",
-          "why_hot": "Removing admin rights"
-        },
-        {
-          "title": "Detecting CopyFail and DirtyFrag by thinking outside the box",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tc1j0j/detecting_copyfail_and_dirtyfrag_by_thinking/",
-          "score": 2,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "A deep dive into detecting two recent Linux local privilege escalation vulnerabilities — CopyFail (CVE-2026-31431) and DirtyFrag (CVE-2026-43284, CVE-2026-43500) — both of which abuse the kernel page cache through splice() and specific socket subsystems (AF\\_ALG, UDP\\_ENCAP\\_ESPINUDP, RxRPC). The post explains why the common detection approaches (blocking entire socket families or watching for specific file paths) are too broad or too easily bypassed, then walks through a behavior-based detection strategy using eBPF LSM hooks on security\\_socket\\_setsockopt, tracking per-task call frequency and option values to identify the abnormal patterns that exploits produce but legitimate workloads never do. Includes annotated eBPF code for both detections and a discussion of evasion mitigations.",
-          "why_hot": "Detecting CopyFail and DirtyFrag by thinking outside the box. relevant to cybersecurity and risk tracking"
-        },
-        {
-          "title": "[Tool Release] IOCX – deterministic IOC extraction engine (static‑only, PE‑aware, plugin‑extensible)",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbw3o7/tool_release_iocx_deterministic_ioc_extraction/",
-          "score": 2,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "I’ve been working on a static IOC extraction engine designed for adversarial environments, and the new website just went live with examples, architecture diagrams, and a quickstart.  \n\nIOCX focuses on:  \n\n* deterministic extraction (no regex guessing)  \n* PE‑aware static analysis  \n* plugin‑based enrichment (e.g., registry persistence detection)  \n* safe, sandbox‑free operation\n\nRepo: [https://github.com/iocx-dev/iocx](https://github.com/iocx-dev/iocx)\n\nSite: [https://iocx.dev](https://iocx.dev)\n\nWould appreciate feedback from anyone working in DFIR, malware analysis, or threat intel. Happy to answer technical questions.",
-          "why_hot": "[Tool Release] IOCX – deterministic IOC extraction engine (static‑only, PE‑aware, plugin‑extensible). likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "Access approvals happen over Slack dm and I don't know how to present that to an auditor",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbs2ht/access_approvals_happen_over_slack_dm_and_i_dont/",
-          "score": 2,
-          "comments": 6,
-          "link_post": false,
-          "selftext_short": "We're about three months out from our SOC2 Type 2 audit and I've been mapping our access control processes to the trust service criteria. The formal process on paper is: access request submitted, manager approves, IT provisions. What actually happens is: employee messages their manager on Slack, manager says \"yeah go ahead\" or forwards it to IT directly, IT provisions it. The ticket in our ITSM tool gets created after the fact if at all.\n\nI've got maybe 60 to 70 percent of our access grants from the last 12 months with no formal approval record. Some of them have a Slack DM screenshot someone thought to save. Most don't. Slack message history on our plan only goes back 90 days anyway so anything older than that is just gone.\n\nThe accesses themselves are probably fine. The people who got them needed them, the managers knew about it, nobody did anything wrong. But I can't prove any of that to an auditor in a format they'll accept. I'm trying to figure out if there's a way to reconstruct enough of a paper trail to get through this audit while also fixing the process going forward, or if I just need to walk in and disclose the gap and hope the auditor is reasonable about it.\n\nHas anyon",
-          "why_hot": "Access approvals happen over Slack dm and I don't know how to present that to an auditor"
-        },
-        {
-          "title": "New Exim BDAT bug shows why “just patch the mail server” is still not simple",
-          "url": "https://www.reddit.com/r/cybersecurity/comments/1tbrjsh/new_exim_bdat_bug_shows_why_just_patch_the_mail/",
-          "score": 2,
-          "comments": 0,
-          "link_post": false,
-          "selftext_short": "Another Exim issue dropped, and this one is worth paying attention to if you still have internet-facing mail infrastructure.\n\nCVE-2026-45185 affects Exim 4.97 through 4.99.2, but only GnuTLS builds. The bug is in BDAT message body handling and can lead to memory corruption, with potential code execution. OpenSSL builds are not affected, and the fix is in 4.99.3. The uncomfortable part is that Exim says there are no real mitigations that resolve it, so this is basically a patch situation.\n\nWhat I find interesting here is not just the bug itself. It is how often old, boring infrastructure like MTAs still ends up being a high-value attack surface.\n\nMail servers sit exposed, handle weird protocol edge cases, process untrusted input all day, and often run in environments where nobody wants to touch them unless mail breaks.\n\nI was thinking, how teams here are handling Exim/Postfix/etc. in 2026.\n\nYou guys are still running your own mail stack, or has this kind of recurring MTA risk pushed you fully toward managed email infrastructure?",
-          "why_hot": "New Exim BDAT bug shows why “just patch the mail server” is still not simple. relevant to AI, infrastructure, or open-source ecosystem movements"
         }
       ]
     },
@@ -798,7 +220,7 @@
         {
           "title": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tca6hk/ai_helps_man_recover_400000_in_bitcoin_11_years/",
-          "score": 703,
+          "score": 705,
           "comments": 62,
           "link_post": true,
           "selftext_short": "This guy gave Claude total access to his machine.\n\nWow.\n\nIt probably searched for clues in history and pieced it together. I doubt it’s as technical as we think. More like a deep search finder\n\nNever give your seed phrase or password to AI.",
@@ -807,8 +229,8 @@
         {
           "title": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8xe9/its_official_pro_crypto_kevin_warsh_will_take_the/",
-          "score": 407,
-          "comments": 226,
+          "score": 409,
+          "comments": 228,
           "link_post": false,
           "selftext_short": "Senate voted on May 12: 51-45 and confirmed kevin warsh as the new chairman of federal reserve, plus advancing his nomination for the 4-year chair turn.\n\nWell, Powell will say a long goodbye on may 15. What do you think of the impact on the overall crypto markets? There is some really good news coming from the industry lately. First mastercard partnership with big crypto companies and now we have pro crypto guy in the office \n\nLink: [https://x.com/WatcherGuru/status/2054631950619443426?s=20](https://x.com/WatcherGuru/status/2054631950619443426?s=20)",
           "why_hot": "It's official! Pro crypto Kevin Warsh will take the chair of the federal reserve. likely drawing attention due to a high-impact or controversial development"
@@ -816,254 +238,20 @@
         {
           "title": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcakkm/nasdaq_price_increase_is_3x_bitcoin_increase_over/",
-          "score": 147,
+          "score": 149,
           "comments": 63,
           "link_post": false,
           "selftext_short": "Source : [https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100](https://www.justetf.com/en/asset-comparisons/index-comparisons/bitcoin-vs-nasdaq-100)\n\nPrice change for Bitcoin is 43.8% while  the Nasdaq has inreased by 132.8%.  More broadly the S+P 500 performance is also more than double that of  Bitcoin.  \n\nSource : [https://www.justetf.com/en/asset-comparisons/index-comparisons/sp-500-vs-bitcoin](https://www.justetf.com/en/asset-comparisons/index-comparisons/sp-500-vs-bitcoin)\n\nKinda begs the question, what happened to Bitcoin?  I guess the answer is AI happenned to everything.",
           "why_hot": "Nasdaq % price increase is 3x Bitcoin increase over the last 5 years.. relevant to AI, infrastructure, or open-source ecosystem movements"
         },
         {
-          "title": "Banks Helped Write the CLARITY Act's Stablecoin Rule. Now They're Trying to Kill It.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbwrsg/banks_helped_write_the_clarity_acts_stablecoin/",
-          "score": 143,
-          "comments": 14,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Banks Helped Write the CLARITY Act's Stablecoin Rule. Now They're Trying to Kill It.. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
           "title": "JPMorgan Files to Launch Tokenized Money Market Fund on Ethereum",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbpspv/jpmorgan_files_to_launch_tokenized_money_market/",
-          "score": 108,
+          "score": 110,
           "comments": 19,
           "link_post": true,
           "selftext_short": "Criminal bankers exploiting crypto.\n\nThis won’t make eth pump at all. Completely useless.  \nCrypto was supposed to replace the banks.\n\nShould have rather selected Solana instead of ETH.",
           "why_hot": "JPMorgan Files to Launch Tokenized Money Market Fund on Ethereum. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Anthropic warns unauthorized stock sales are void as tokenized markets price trillion dollar valuation",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc07lr/anthropic_warns_unauthorized_stock_sales_are_void/",
-          "score": 92,
-          "comments": 1,
-          "link_post": true,
-          "selftext_short": "Unauthorized secondary markets pricing fantasy valuations - a tale as old as time.",
-          "why_hot": "Anthropic warns unauthorized stock sales are void as tokenized markets price trillion dollar valuation. likely drawing attention due to funding, valuation, or market movement. Unauthorized secondary markets pricing fantasy valuations - a tale as old as time."
-        },
-        {
-          "title": "Senators file over 100 amendments to crypto bill ahead of markup",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbqwbq/senators_file_over_100_amendments_to_crypto_bill/",
-          "score": 46,
-          "comments": 11,
-          "link_post": true,
-          "selftext_short": "Oh yeah, they’ll get through all that on a Thursday, no problem.\n\nThe US needs stablecoin rewards of some kind so it can create a buyer for its debt.\n\nI will personally donate money to the worst offenders on this list regardless if they are Republican or Democrat. Fuck these assholes.\n\nedited to add: I meant donate to the challengers of the worst offenders.\n\nWhy bother? Trump will ignore whatever is in the bill and make $TRUMP the only legal tender.\n\nCan we add articles of impeachment into it as well please?",
-          "why_hot": "Senators file over 100 amendments to crypto bill ahead of markup. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Clarity Act text just dropped and the conflict of interest part is mysteriously missing",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbxqx8/clarity_act_text_just_dropped_and_the_conflict_of/",
-          "score": 44,
-          "comments": 15,
-          "link_post": false,
-          "selftext_short": "The Senate Banking Committee finally released the full Clarity Act text before this week's hearing. Cool. Except the conflict of interest section, you know, the part everyone actually wants to see, isn't there. Apparently, it's \"not under their jurisdiction.\"\n\nWhite House wants July 4. Gillibrand says August. Still needs 60 Senate votes. Classic.\n\nFeels like a group project where everyone does the easy slides and leaves the hard part for \"someone else.\" Anyone actually think this passes before midterms?",
-          "why_hot": "Clarity Act text just dropped and the conflict of interest part is mysteriously missing. likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "Most crypto cards are just debit cards with extra steps and maybe that is the problem",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc4z29/most_crypto_cards_are_just_debit_cards_with_extra/",
-          "score": 38,
-          "comments": 25,
-          "link_post": false,
-          "selftext_short": "i know this is going to annoy some people, but most crypto cards still do not feel like real crypto adoption to me.\n\nthey feel like off ramps with better branding.\n\nyou hold crypto, then somewhere in the middle it still becomes fiat, touches a card network, and gets spent through the same old rails. maybe the app looks more modern. maybe the rewards are different. maybe the card has a nicer name.\n\nbut from the user side, a lot of it still feels like a debit card with extra steps.\n\nsell this, top up that, check which country is supported, hope the merchant accepts the card, hope the card does not get declined because it looks prepaid, then later figure out what fees or spread you actually paid.\n\ni am not saying these cards are useless. honestly, some of them are very useful.\n\nif you get paid in stables, travel a lot, or keep money across different wallets and exchanges, having a card layer can be way less annoying than doing the full exchange to bank to card dance every time.\n\nbut i think we oversell what this is.\n\na crypto card that lets me buy coffee is not automatically mainstream adoption. it might just be a cleaner way to exit into regular payment rails.\n\nand maybe that is fine",
-          "why_hot": "Most crypto cards are just debit cards with extra steps and maybe that is the problem. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Earned large amount of USDT in a country where crypto is illegal. What are my options to convert and receive it in bank legally?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc3ofj/earned_large_amount_of_usdt_in_a_country_where/",
-          "score": 37,
-          "comments": 150,
-          "link_post": false,
-          "selftext_short": "Hey everyone,\n\nI'm hoping to get some practical advice from people who've dealt with cross-border crypto situations.\n\nBackground:\n\nI earned large amount of USDT in a country where crypto is illegal. All of this was earned and I went through full KYC on Binance. I have complete transaction history.\n\nUntil and unless I trade crypto in this country I don’t think I will be in any problem. So I want to convert this crypto into cash and deposit into my bank account.\n\nQuestions I need help with:\n\n\\- Has anyone successfully converted crypto and received funds via SWIFT remittance by going in another country where it’s legal? What did you tell your bank?\n\n\\- Which countries have the cleanest process for a one-time large conversion as a tourist?\n\n\\- Are there any exchanges that will directly wire to my bank account from a remote USDT deposit?\n\n\\- What documentation should I prepare to show my bank on receipt in my home country?\n\nAll I want to do is convert my crypto into legal money since crypto is illegal in my country. Any advice from people who've navigated similar situations would be massively appreciated.\n\nThanks",
-          "why_hot": "Earned large amount of USDT in a country where crypto is illegal. What are my options to convert and receive it in bank legally?. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Clarity Act committee vote tomorrow (May 14, 2026) - is this finally the beginning of real crypto regulation in the US or just more political noise?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8u0o/clarity_act_committee_vote_tomorrow_may_14_2026/",
-          "score": 28,
-          "comments": 9,
-          "link_post": true,
-          "selftext_short": "The fact the US is even debating comprehensive crypto regulation means the industry already survived the “it’s going to zero” phase.\n\nGovernments don’t build frameworks around things they think are irrelevant.",
-          "why_hot": "Clarity Act committee vote tomorrow (May 14, 2026) - is this finally the beginning of real crypto regulation in the US or just more political noise?. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Just getting into Crypto",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc09xd/just_getting_into_crypto/",
-          "score": 17,
-          "comments": 36,
-          "link_post": false,
-          "selftext_short": "Hi! I know uneducated people like myself probably stop in here and ask all the time, whats a good starting point for buying crypto? I know ill never get into something good like bitcoin, but I would like to buy a few coins, and just let them sit for a couple of years, like a low interest CD. (Thats the only thing I could think to relate too, as I am completely uneducated on the ways of finance outside of normal stuffs)\n\nSo yeah, what are yall buying to hold on too? Does yhis even work like that? Would it benefit me to buy some into bitcoin at small purchase intervals, like $100 or less. Or to buy lots of coins from different \"suppliers\". Im not trying to get rich! \n\nThanks so much.",
-          "why_hot": "Just getting into Crypto. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Changelly's currency exchange is a scam.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc0xl8/changellys_currency_exchange_is_a_scam/",
-          "score": 17,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "Changelly's currency exchange is a scam. They're willing to offer lower exchange rates for small amounts. But when you increase your amount, they freeze your funds and use KYC (Know Your Customer) as an excuse to keep asking you to submit information repeatedly.\n\nChangelly is always hiding the most crucial part of the refund process. Their KYC requirements exceed legal standards. All assessment criteria are determined by themselves. No one can complete and immediately refund your money.\n\nDoes anyone know where I can report them? I want to take them to court.",
-          "why_hot": "Changelly's currency exchange is a scam."
-        },
-        {
-          "title": "Transferring cryptocurrency from a foreign exchange to a Thai exchange；Is it taxable?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbm555/transferring_cryptocurrency_from_a_foreign/",
-          "score": 16,
-          "comments": 16,
-          "link_post": false,
-          "selftext_short": "Hello,\n\nI am a tax resident of Thailand, staying in the country for more than 183 days per year.\n\nI understand that Thailand follows a remittance-based taxation system. My question is: if I transfer Bitcoin or Ethereum from a foreign exchange (such as Bybit) to a Thai exchange (such as Binance TH), will this transfer be subject to Thai income tax?\n\nI would like to clarify if the act of moving crypto between wallets is considered \"taxable remittance\" even before it is sold for Thai Baht.\n\nMy understanding is as follows: Since transferring cryptocurrency is merely a \"movement of assets,\" simply sending Bitcoin from one wallet to another should not trigger any tax liability.\n\nHowever, I have another concern. Where did the funds used to purchase that cryptocurrency come from in the first place?\n\nWas it from taxable income, or from funds that have already been taxed? If the Thai Revenue Department questions the source of these funds, how am I supposed to prove it? Does anyone even have the means to provide such proof? How are others handling this situation?",
-          "why_hot": "Transferring cryptocurrency from a foreign exchange to a Thai exchange；Is it taxable?. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "JPMorgan Launches Ethereum Treasury Fund as Charles Schwab Expands Crypto Trading",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbvck6/jpmorgan_launches_ethereum_treasury_fund_as/",
-          "score": 15,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "JPMorgan Launches Ethereum Treasury Fund as Charles Schwab Expands Crypto Trading. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Loosening Automod Rules - The Worst Idea Ever?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tblc8w/loosening_automod_rules_the_worst_idea_ever/",
-          "score": 14,
-          "comments": 32,
-          "link_post": false,
-          "selftext_short": "**3**06,803 characters\n\n4481 lines\n\nThis is how large the r/CryptoCurrency auto-moderator ruleset has grown.\n\nOver the past 12 months, auto-moderator has performed 911,000 actions across thousands of users. Participating on r/CryptoCurrency has never been more difficult for new users and existing users alike.\n\nCan we be a community if we can't communicate?\n\n**But how did we get here?**\n\n* [Money makes people stupid, users were creating shilling campaigns.](https://www.reddit.com/r/CryptoCurrency/comments/85ow78/three_new_rule_changes_on_rcryptocurrency/?share_id=TbV7m545w8dRvHyVpX17x&amp;utm_content=2&amp;utm_medium=ios_app&amp;utm_name=ioscss&amp;utm_source=share&amp;utm_term=1)\n* [DOA votes were used to solve complicated problems and we created complicated rules. ](https://www.reddit.com/r/CryptoCurrency/comments/oy7mva/algorithmic_limit_for_number_of_coin_posts/)\n* [We even banned the memes...](https://www.reddit.com/r/CryptoCurrency/comments/lyjxdb/psa_memes_are_now_banned/)\n\n  \nOver time we shifted from the internet's largest free speech crypto forum to the yahoo front page of crypto news.\n\nSo here's the deal. We're reworking auto-mod and loosening the belt starting today.\n\nWe",
-          "why_hot": "Loosening Automod Rules - The Worst Idea Ever?. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Is Exodus currently broken for anyone else? Frozen price graphs, only changing within recent hours.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc8jfe/is_exodus_currently_broken_for_anyone_else_frozen/",
-          "score": 10,
-          "comments": 2,
-          "link_post": false,
-          "selftext_short": "Exodus price graphs appear to be completely frozen across several hours with no movement at all. This issue seems isolated to Exodus itself, as the charts display normally on other platforms (ex. Google and/or CoinMarketCap).\n\nRealistically, it doesn't make sense for the price history to remain completely static with zero change, since crypto trading runs 24/7 and should naturally produce at least minor fluctuations in each coin’s value over time. Restarting Exodus doesn't resolve it either, leading me to believe it may be on the platform's end, perhaps a supplier whom they pull data from?\n\nPlease let me know if anyone else is experiencing this.",
-          "why_hot": "Is Exodus currently broken for anyone else? Frozen price graphs, only changing within recent hours.. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Weex forcibly closed my long-term futures position, their own announcement said \"assets will not be affected,\" denied my $4,273 compensation claim, then ignored my final demand. Full documentation inside",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc85ic/weex_forcibly_closed_my_longterm_futures_position/",
-          "score": 9,
-          "comments": 8,
-          "link_post": false,
-          "selftext_short": "I held a long-term DEGEN/USDT futures position on Weex. I wasn't actively trading. This was a long-term hold and I checked the account infrequently. On April 27, 2026 at 3:19 AM, Weex's system closed my position without any action on my part. My order history explicitly labels it as a 'System order.'\n\nHere's what makes this egregious:\n\n**1. Their own announcement contradicts what happened.** The delisting announcement states 'your account assets will not be affected.' My account lost $4,273.6965. They later reinterpreted this statement after the fact to protect themselves.\n\n**2. No notification of any kind received.** Weex claims push notifications are their standard channel. I received none. More importantly, they had my email address and used it throughout my dispute. They never sent a single email warning about a delisting that would forcibly close my position. For a long-term holder who doesn't log in daily, email is the only reliable alert channel. They chose not to use it.\n\n**3. They closed my position 10 hours ahead of their own stated schedule.** Position opening suspension was announced for 1:00 PM UTC+8. My position was closed at 3:00 AM UTC+8 — 10 hours earlier with no e",
-          "why_hot": "Weex forcibly closed my long-term futures position, their own announcement said \"assets will not be affected,\" denied my $4,273 compensation.... likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "JPMorgan Deepens Tokenization Push With Second Ethereum Fund",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbsrzt/jpmorgan_deepens_tokenization_push_with_second/",
-          "score": 8,
-          "comments": 1,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "JPMorgan Deepens Tokenization Push With Second Ethereum Fund. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Transit Finance Hacked Again: Cross-Chain DeFi Protocol Loses $1.88 Million in Latest Exploit",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc64hw/transit_finance_hacked_again_crosschain_defi/",
-          "score": 7,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Transit Finance Hacked Again: Cross-Chain DeFi Protocol Loses $1.88 Million in Latest Exploit. likely drawing attention due to a security incident or outage"
-        },
-        {
-          "title": "Binance has blocked $10.5 billion in scam attempts with AI. However, it’s less than 2% of Binance’s user base.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc3vg4/binance_has_blocked_105_billion_in_scam_attempts/",
-          "score": 7,
-          "comments": 2,
-          "link_post": true,
-          "selftext_short": "Should be up to the user to not get scammed",
-          "why_hot": "Binance has blocked $10.5 billion in scam attempts with AI. However, it’s less than 2% of Binance’s user base.. relevant to AI, infrastructure, or open-source ecosystem movements. Should be up to the user to not get scammed"
-        },
-        {
-          "title": "Coinbase wallet is holding my assets hostage",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbs19c/coinbase_wallet_is_holding_my_assets_hostage/",
-          "score": 5,
-          "comments": 30,
-          "link_post": false,
-          "selftext_short": "My Coinbase wallet stopped communicating with any Apps (including Coinbase) about 3 weeks ago. All I have gotten from Coinbase is empty promises about ‘escalating this to our Engineering team’. I can see my assets, and access the wallet, but smart contracts cannot settle and assets cannot be transferred to other wallets or DEXs. My investments have stalled and I am now making losses because I can’t move assets. Is this a theme with Coinbase wallets? Is complaining to the ombudsman my only solution?",
-          "why_hot": "Coinbase wallet is holding my assets hostage"
-        },
-        {
-          "title": "Best exchange to dump New Ecash BTC fork?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcay5t/best_exchange_to_dump_new_ecash_btc_fork/",
-          "score": 2,
-          "comments": 3,
-          "link_post": false,
-          "selftext_short": "Not sure who is following, but Paul Sztorc is launching a BTC forked shitcoin called Ecash. Never mind that there already is a coin called Ecash (BCH fork from 5y ago). Aaand, Paul is stealing Satoshi's coins and giving them to \"early investors\". I'm guessing with 99.9999% certainty that this coin will go quickly to zero, as even Paul says he isn't selling his BTC for his new coin. \n\nBitcoin forks were trendy 10 years ago but now they're mostly instant shitcoins. It seems like Paul thinks he has clout as a cryptographer, but a scam is a scam. \n\nSo... I need an exchange that will support this fork and allow the coin to be traded as soon as it lists. Dump for BTC or BCH and move on.",
-          "why_hot": "Best exchange to dump New Ecash BTC fork?. likely drawing attention as a new launch or announcement"
-        },
-        {
-          "title": "Nevada regulators push back after prediction market conference blames them for move",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbua7m/nevada_regulators_push_back_after_prediction/",
-          "score": 3,
-          "comments": 0,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Nevada regulators push back after prediction market conference blames them for move"
-        },
-        {
-          "title": "BNB Chain RWA TVL surpasses $4B, reaching a new all-time high",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbogqo/bnb_chain_rwa_tvl_surpasses_4b_reaching_a_new/",
-          "score": 3,
-          "comments": 1,
-          "link_post": true,
-          "selftext_short": "Yes, because Binance manipulates the price as much as possible. Always sending Eth, Solana and rising alts to winter-mute to suppress bull-runs (never BNB). Talk about a centralized chain.",
-          "why_hot": "BNB Chain RWA TVL surpasses $4B, reaching a new all-time high. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Best fireproof safe?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcdkid/best_fireproof_safe/",
-          "score": 2,
-          "comments": 2,
-          "link_post": false,
-          "selftext_short": "Best fireproof safe?\n\nI want a fireproof safe so I can store my seed phrase for my crypto wallet. I have a metal backup but it’s only fire ‘resistant’ so I don’t know if it would hold up to a proper house fire. I might also like something sturdy since I live in an area with tornados \n\nAny advice is appreciated even negative criticism lol \n\nFYI I’m using the Trezor safe 3 model \n\nI decided against a safe deposit box because I don’t want a bank employee getting access\n\nI also would like water resistant I guess?",
-          "why_hot": "Trending discussion. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Ledger shelves U.S. IPO plans as crypto market conditions deteriorate",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcboel/ledger_shelves_us_ipo_plans_as_crypto_market/",
-          "score": 2,
-          "comments": 3,
-          "link_post": true,
-          "selftext_short": "Deteriorate? We just regained 80k",
-          "why_hot": "Ledger shelves U.S. IPO plans as crypto market conditions deteriorate. likely drawing attention due to funding, valuation, or market movement"
-        },
-        {
-          "title": "Are tokenized stocks finally becoming useful?",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tbpn4k/are_tokenized_stocks_finally_becoming_useful/",
-          "score": 2,
-          "comments": 8,
-          "link_post": false,
-          "selftext_short": "A few years ago tokenized stocks felt more like a “crypto buzzword” than an actual product people would use seriously.\n\nBut lately I’ve been noticing more traders paying attention again, mostly because the gap between traditional markets and crypto keeps shrinking. People already trade BTC, gold, forex, and perpetuals in the same apps now, so tokenized equities almost feel like the next logical step.\n\nWhat changed my opinion a bit was seeing some exchanges improve accessibility around them instead of treating them like a side feature. I tested a few platforms recently and the experience is definitely smoother than it used to be. BingX in particular surprised me because the integration with other markets felt less fragmented compared to older attempts I tried years back. Looked out for similar features on Bitget and Bybit but not seen it yet.\n\nStill, I’m unsure whether tokenized stocks solve a real investing problem or if they mainly appeal to active traders who want everything inside one ecosystem.\n\nThe advantages seem obvious:\n\n  easier access globally \n\n  crypto-native trading experience \n\n  potentially faster settlement \n\n  exposure without traditional brokerage friction \n\n \n\nBu",
-          "why_hot": "Are tokenized stocks finally becoming useful?. relevant to crypto, blockchain, or DeFi ecosystem movements"
-        },
-        {
-          "title": "Paper Trading vs My Real Trade",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tcar3j/paper_trading_vs_my_real_trade/",
-          "score": 1,
-          "comments": 1,
-          "link_post": true,
-          "selftext_short": "Source: [https://x.com/naiivememe/status/2054554000972804224](https://x.com/naiivememe/status/2054554000972804224)",
-          "why_hot": "Paper Trading vs My Real Trade. Source: [https://x.com/naiivememe/status/2054554000972804224](https://x.com/naiivememe/status/2054554000972804224)"
-        },
-        {
-          "title": "Quantum-Proofing Bitcoin Is a 'Coordination Issue', Not a Technical One: Fireblocks CEO",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tc3oo5/quantumproofing_bitcoin_is_a_coordination_issue/",
-          "score": 1,
-          "comments": 1,
-          "link_post": true,
-          "selftext_short": null,
-          "why_hot": "Quantum-Proofing Bitcoin Is a 'Coordination Issue', Not a Technical One: Fireblocks CEO. likely drawing attention due to organizational or leadership changes"
         }
       ]
     }
