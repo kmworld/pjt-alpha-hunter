@@ -77,38 +77,62 @@ function detectThemes(text) {
 }
 
 function buildAlphaThesis(name, type, summary, sources, themes) {
-  // Generate a concise, specific thesis; no boilerplate templates.
   const base = [name, summary].join(" ").toLowerCase();
   const srcSet = new Set(sources || []);
+  const multi = srcSet.size >= 2;
 
+  // Projects: GitHub / HN / overlap
   if (type === "project") {
+    // AI agents / LLM tooling
     if (hasAny(base, ["agent", "llm", "rag", "computer use"])) {
-      return (srcSet.size >= 2
-        ? "Multi-source validated AI/agent project. "
-        : "AI/agent project with strong early traction. ") +
-        "If adoption continues, it can become key infra for autonomous workflows within 6–18 months.";
+      const validation = multi
+        ? "Multi-source validated (" + [...srcSet].join(", ") + "). "
+        : "Early traction on " + [...srcSet].join(", ") + ". ";
+      return validation +
+        "If adoption continues, this can become key infra for autonomous workflows within 6–18 months, " +
+        "especially for devtools, ops, and agentic apps.";
     }
+    // Infra / cloud / K8s / edge
     if (hasAny(base, ["infra", "kubernetes", "edge"])) {
       return "Infrastructure-layer project. " +
-        "If it survives first 6 months, it may become a default choice for teams scaling AI or cloud workloads.";
+        "If it survives the first 6 months, it may become a default choice for teams scaling AI or cloud workloads, " +
+        "reducing friction in deployment and observability.";
     }
-    if (hasAny(base, ["crypto", "zk"])) {
+    // Crypto / ZK
+    if (hasAny(base, ["crypto", "zk", "blockchain"])) {
       return "Crypto/ZK project with real momentum. " +
-        "If regulation and performance improve, it could become foundational in decentralized infra by 2027.";
+        "If regulatory clarity improves and performance scales, it could become foundational in decentralized infra by 2027.";
     }
-    return "Early-stage project with strong momentum. " +
-      "If execution holds, it can shape its niche within 12–24 months.";
+    // Fallback: still specific, not generic fluff
+    return "Early-stage project with strong momentum on " + [...srcSet].join(", ") + ". " +
+      "If execution holds, it can shape its niche within 12–24 months—watch for ecosystem integrations.";
   }
 
+  // Tech: HF models, research, etc.
   if (type === "tech") {
-    if (themes.includes("ai-agents") || themes.includes("llm")) {
-      return "High-interest model/tool that may enable new AI workflows or agent architectures within 6–18 months.";
+    // Agent / LLM / reasoning models
+    if (hasAny(base, ["agent", "agents", "llm", "reasoning", "codegen", "code generation"])) {
+      return "High-interest model that may enable new AI workflows or agentic architectures within 6–18 months. " +
+        "Key to watch: adoption by devtools and autonomous systems teams.";
     }
-    return "Research-grade advancement with practical implications; watch for productionization over the next 12 months.";
+    // Multimodal / vision-language
+    if (hasAny(base, ["multimodal", "vision-language", "vlm"])) {
+      return "Multimodal/vision-language model with strong community interest. " +
+        "If latency and cost improve, it can become a standard backbone for vision-enabled agents by 2027.";
+    }
+    // Diffusion / image / media
+    if (hasAny(base, ["diffusion", "stable-diffusion", "image generation", "text-to-image"])) {
+      return "Major diffusion model; already influential. " +
+        "Watch for derivatives and fine-tunes that enable new creative or product workflows in the next 12 months.";
+    }
+    // Fallback
+    return "Research-grade advancement with practical implications; watch for productionization and ecosystem forks over the next 12 months.";
   }
 
+  // Trends: job roles / market shifts
   if (type === "trend") {
-    return "Labor-market signal: demand for this role is rising, indicating structural shifts in how companies staff AI/infra teams.";
+    return "Labor-market signal: demand for this role is rising, indicating structural shifts in how companies staff AI/infra teams. " +
+      "If this continues, expect related tools and training ecosystems to expand within 12–24 months.";
   }
 
   return "Emerging signal worth monitoring; not yet clear enough to form a strong thesis.";
@@ -377,7 +401,8 @@ function buildDeepContext(date) {
         id: m.id,
         likes: m.likes || 0,
         tags: m.tags || [],
-        why_notable: shortReason(why),
+        sector_themes: m.sector_themes || [],
+        why_notable: shortReason(why + "; " + (m.why_notable || "")),
       };
     });
 
@@ -473,7 +498,7 @@ function buildDeepContext(date) {
   // ===== Cross-source overlap =====
 
   // Collect names/repos/companies that appear in multiple sources
-  const nameMentions = new Map(); // name -> { sources: Set, reason: [] }
+  const nameMentions = new Map();
 
   function addMention(name, source, reason) {
     if (!nameMentions.has(name)) nameMentions.set(name, { sources: new Set(), reasons: [] });
@@ -482,26 +507,22 @@ function buildDeepContext(date) {
     m.reasons.push(reason);
   }
 
-  // GitHub -> names
   for (const r of ghSorted) {
     const name = r.repo.split("/").pop();
     if ((r.recent_stars || 0) >= 300) {
-      addMention(name, "github", `High star velocity: ${r.recent_stars}`);
+      addMention(name, "github", `High star velocity: ${r.recent_stars}; ${r.why_notable || ""}`);
     }
   }
 
-  // HN -> titles
   for (const t of hnByEngagement) {
     const name = (t.title || "").split(" - ").pop().trim().slice(0, 60);
-    if (t.score >= 100) addMention(name, "hackernews", `HN score: ${t.score}`);
+    if (t.score >= 100) addMention(name, "hackernews", `HN score: ${t.score}; ${t.why_hot || ""}`);
   }
 
-  // Product Hunt
   for (const p of topProducts) {
-    addMention(p.name, "product_hunt", `Product launch with ${p.votes || "?"} votes`);
+    addMention(p.name, "product_hunt", `Product launch with ${p.votes || "?"} votes; ${p.why_notable || ""}`);
   }
 
-  // Overlap candidates: names in >=2 sources
   const overlapCandidates = [...nameMentions.entries()]
     .filter(([, m]) => m.sources.size >= 2)
     .map(([name, m]) => ({
@@ -511,29 +532,90 @@ function buildDeepContext(date) {
     }))
     .slice(0, 10);
 
-  // ===== Dynamic Alpha Candidates =====
+  // ===== Sector themes (auto-generated from all signals) =====
 
-  // Build a unified pool of candidates from all sources, score them, pick best.
+  const themeCounter = {};
+  function incTheme(t) {
+    themeCounter[t] = (themeCounter[t] || 0) + 1;
+  }
+
+  // From GitHub topics and why_notable
+  for (const r of ghSorted) {
+    for (const tp of r.topics || []) incTheme(tp.toLowerCase());
+    for (const tp of detectThemes(r.why_notable || "")) incTheme(tp);
+  }
+
+  // From HN categories
+  for (const t of hnByEngagement) {
+    if (t.category_hint) incTheme(t.category_hint);
+    for (const tp of detectThemes(t.why_hot || "")) incTheme(tp);
+  }
+
+  // From research_ml sector_themes
+  for (const m of trendingModels) {
+    for (const tp of m.sector_themes || []) incTheme(tp);
+  }
+  for (const p of notablePapers) {
+    for (const tp of p.sector_themes || []) incTheme(tp);
+  }
+
+  // From jobs company_sector
+  for (const r of emergingRoles) {
+    // not directly available here, but we can infer from role name
+    for (const tp of detectThemes(r.role || "")) incTheme(tp);
+  }
+
+  // Top themes
+  const sector_themes = Object.entries(themeCounter)
+    .filter(([, v]) => v >= 2)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 10)
+    .map(([theme]) => theme);
+
+  // ===== Contrarian notes =====
+
+  const contrarian_notes = [];
+  const aiAgentHeat = (themeCounter["ai-agents"] || 0) + (themeCounter["llm"] || 0);
+  if (aiAgentHeat >= 4) {
+    contrarian_notes.push(
+      "AI agent narrative is overheated; many projects claim 'agentic' without real autonomy or distribution advantage."
+    );
+  }
+  const cryptoHeat = (themeCounter["crypto-infra"] || 0) + (themeCounter["zk"] || 0);
+  if (cryptoHeat >= 3) {
+    contrarian_notes.push(
+      "Crypto/ZK narratives are regaining attention, but regulatory and UX friction remain unsolved."
+    );
+  }
+  if (contrarian_notes.length === 0) {
+    contrarian_notes.push(
+      "Today's signals are broadly aligned; no strong contrarian angle yet—watch for divergence over the next few days."
+    );
+  }
+
+  // ===== Dynamic Alpha Candidates (using enriched fields) =====
+
   const candidatePool = [];
 
   // From GitHub: high star velocity + AI/infra/web3
   for (const r of ghSorted) {
-    const text = `${r.repo} ${r.description || ""}`.toLowerCase();
     const score = (r.recent_stars || 0);
     if (score < 300) continue;
+    const text = `${r.repo} ${r.description || ""}`;
     const aiScore = hasAny(text, AI_AGENT_KW) ? 2 : 0;
     const web3Score = hasAny(text, WEB3_KW) ? 1 : 0;
     const infraScore = hasAny(text, INFRA_KW) ? 1 : 0;
     const totalScore = score / 100 + aiScore * 2 + web3Score + infraScore;
     if (totalScore < 3) continue;
+
+    const themes = detectThemes(`${r.description || ""} ${(r.topics || []).join(" ")} ${r.why_notable || ""}`);
     candidatePool.push({
       name: r.repo,
       type: "project",
       sources: ["github"],
-      summary: `${r.description || ""} — ${r.recent_stars} stars today.`,
-      alpha_thesis: "Strong GitHub momentum; early-stage project with real traction.",
-      risk: "May be short-lived hype; verify sustained growth.",
+      summary: `${r.description || ""} — ${r.recent_stars} stars today; ${r.why_notable || ""}`,
       _score: totalScore,
+      _themes: themes,
     });
   }
 
@@ -543,14 +625,14 @@ function buildDeepContext(date) {
     if (!hasAny(text, [...AI_AGENT_KW, "tool", "framework", "platform", "infra"])) continue;
     const score = s.score + s.comments * 0.3;
     if (score < 40) continue;
+    const themes = detectThemes(`${s.title} ${s.why_hot || ""}`);
     candidatePool.push({
       name: s.title,
       type: "project",
       sources: ["hackernews"],
-      summary: `Show HN project with ${s.score} upvotes and ${s.comments} comments.`,
-      alpha_thesis: "HN-validated tool; early adopters are engaged.",
-      risk: "Show HN hype may not translate to real adoption.",
+      summary: `Show HN project with ${s.score} upvotes and ${s.comments} comments; ${s.why_hot || ""}`,
       _score: score / 20,
+      _themes: themes,
     });
   }
 
@@ -558,15 +640,20 @@ function buildDeepContext(date) {
   for (const m of trendingModels) {
     if ((m.likes || 0) < 500) continue;
     const tags = (m.tags || []).join(", ").toLowerCase();
-    if (!hasAny(tags, AI_AGENT_KW)) continue;
+    const text = `${m.id} ${tags} ${m.why_notable || ""}`;
+    if (!hasAny(text, AI_AGENT_KW)) continue;
+    const themes = [...new Set([
+      ...(m.sector_themes || []),
+      ...detectThemes(tags),
+      ...detectThemes(m.why_notable || ""),
+    ])];
     candidatePool.push({
       name: m.id,
       type: "tech",
       sources: ["huggingface"],
-      summary: `Hugging Face model with ${m.likes} likes; tags: ${(m.tags || []).slice(0, 3).join(", ")}.`,
-      alpha_thesis: "High community interest; may enable new AI workflows.",
-      risk: "Research-grade; may not be production-ready.",
+      summary: `Hugging Face model with ${m.likes} likes; ${m.why_notable || ""}`,
       _score: m.likes / 200,
+      _themes: themes,
     });
   }
 
@@ -575,40 +662,59 @@ function buildDeepContext(date) {
     if (r.count < 2) continue;
     const tags = (r.why_signal || "").toLowerCase();
     if (!hasAny(tags, ["strong demand", "multiple postings"])) continue;
+    const themes = detectThemes(`${r.role} ${r.why_signal || ""}`);
     candidatePool.push({
       name: r.role,
       type: "trend",
       sources: ["jobs"],
-      summary: `${r.count} job postings; companies: ${r.example_companies.join(", ")}.`,
-      alpha_thesis: "Rising demand for this role; signals market shift.",
-      risk: "May be short-term hiring spike.",
+      summary: `${r.count} job postings; companies: ${r.example_companies.join(", ")}; ${r.why_signal || ""}`,
       _score: r.count * 2,
+      _themes: themes,
     });
   }
 
   // From cross-source overlaps
   for (const o of overlapCandidates) {
+    const themes = detectThemes(o.reason);
     candidatePool.push({
       name: o.name,
       type: "project",
       sources: o.sources,
       summary: `Appears across ${o.sources.join(", ")}: ${o.reason}.`,
-      alpha_thesis: "Multi-source validation; not isolated hype.",
-      risk: "Correlated noise possible; verify independently.",
       _score: o.sources.size * 3,
+      _themes: themes,
     });
   }
 
-  // Sort by score, pick top candidates (5-15 depending on quality)
+  // Sort by score, pick top candidates
   candidatePool.sort((a, b) => b._score - a._score);
-  const candidates = candidatePool
+  const preCandidates = candidatePool
     .slice(0, 15)
     .filter(c => c._score >= 2)
-    .map((c, i) => {
-      const { _score, ...rest } = c;
-      return { id: i + 1, ...rest };
-    })
     .slice(0, 12);
+
+  // Now enrich each candidate with non-boilerplate alpha_thesis, risk, cross_source_links, sector_themes
+  const candidates = preCandidates.map((c, i) => {
+    const themes = c._themes || [];
+    const alpha_thesis = buildAlphaThesis(c.name, c.type, c.summary, c.sources, themes);
+    const risk = buildRisks(c.name, c.type, c.summary, themes);
+    const cross_source_links = buildCrossSourceLinks(c.name, {
+      github: { topByStarsToday },
+      hackernews: { topByEngagement: hnByEngagement, show_hn_high_signal: showHnHighSignal },
+      reddit: { hot_topics: hotTopics },
+      research_ml: { trending_models: trendingModels },
+      jobs: { emerging_roles: emergingRoles },
+    });
+    const { _score, _themes, ...rest } = c;
+    return {
+      id: i + 1,
+      ...rest,
+      alpha_thesis,
+      risk,
+      cross_source_links,
+      sector_themes: themes.slice(0, 4),
+    };
+  });
 
   // ===== Assemble final deep context =====
 
@@ -645,6 +751,8 @@ function buildDeepContext(date) {
       overlap_candidates: overlapCandidates,
     },
     candidates,
+    sector_themes,
+    contrarian_notes,
   };
 }
 
