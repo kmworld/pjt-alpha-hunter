@@ -1,0 +1,1414 @@
+{
+  "source": "hackernews",
+  "date": "2026-05-15",
+  "sections": {
+    "top": [
+      {
+        "id": 48138136,
+        "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+        "url": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/",
+        "score": 544,
+        "comments": 335,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "nurple",
+            "text": "&gt; Even after the modem is removed, if you connect your phone to the car via Bluetooth then the car will use your phone as an internet connection and send all the same telemetry data back to Toyota. However, if you use a wired USB connection then it does not"
+          },
+          {
+            "by": "lucisferre",
+            "text": "I have the same car and want to do this, but not for the reasons the author noted but because the GPS unit in the car is broken when paired with Carplay and has the wrong compass heading causing navigation to be completely useless. I have reported this to Toyo"
+          },
+          {
+            "by": "everdrive",
+            "text": "The 2024 Ford Maverick has a single fuse for the telematics unit that you can remove without throwing a code or an error. No idea if this remained true after the 2025-2026 refresh, but worth knowing. https:&#x2F;&#x2F;www.mavericktruckclub.com&#x2F;forum&#x2F;"
+          },
+          {
+            "by": "ezfe",
+            "text": "Just a note about Toyota specifically - There are many blog posts and articles out there alleging that Toyota shares your data with insurance companies. As I own two Toyota&#x27;s I have read through these carefully and consistently the theme is that the owner"
+          },
+          {
+            "by": "eigencoder",
+            "text": "&gt; Important: Even after the modem is removed, if you connect your phone to the car via Bluetooth then the car will use your phone as an internet connection and send all the same telemetry data back to Toyota. How is this the case? I thought bluetooth was ju"
+          },
+          {
+            "by": "s3p",
+            "text": "I would like everyone to know that if you have a brand new Kia, the process is even easier. I spent $20 on the Kia service manual access (didn&#x27;t even know that was a thing until I read OP&#x27;s post) it finally figured it out. Modern Kias with the CCNC c"
+          },
+          {
+            "by": "Barbing",
+            "text": "&gt; Unfortunately I think it’s only a matter of time before the modem and GPS become more deeply integrated into the car (making this blog post infeasible), or cars have more drastic failure modes when the modem&#x2F;GPS is removed, or anti-right-to-repair la"
+          },
+          {
+            "by": "a-dub",
+            "text": "&gt; Strong Federal privacy laws would make posts like this unnecessary, that’s the world I’d rather live in. yes. there ought to be a right to reasonable expectation of behavioral privacy where if it&#x27;s not obvious and intrinsic to function that behavior "
+          },
+          {
+            "by": "venussnatch",
+            "text": "What is the suspected method of Bluetooth communication? Afaik phones do not share their internet blindly to Bluetooth devices."
+          },
+          {
+            "by": "cbdevidal",
+            "text": "I was looking into this with Teslas. Apparently the car will not be bricked if you cut the antenna wires. They are in the side mirrors (both sides) and the wires are exposed when you pull the interior door panels. If you then charge only at home you’re even mo"
+          },
+          {
+            "by": "ezfe",
+            "text": "&gt; Even after the modem is removed, if you connect your phone to the car via Bluetooth then the car will use your phone as an internet connection and send all the same telemetry data back to Toyota What is the basis for this claim? I&#x27;ve never heard of t"
+          },
+          {
+            "by": "rdiddly",
+            "text": "Thanks - Seeing how easy this was, encouraged me to do the same for my Subaru. The info and parts were easy enough to find. Interestingly, Subaru itself used to make a DCM bypass kit for its cars. When AT&amp;T shut down its 3G network, Subaru was stuck replac"
+          },
+          {
+            "by": "mono442",
+            "text": "Modern cars are horrible. I recently discovered that all new cars sold in the EU constantly beep at you for supposedly speeding, even though the system doesn’t work well, and it has to be turned off every time you start the car."
+          },
+          {
+            "by": "mistyvales",
+            "text": "I was debating replacing the head unit in my old VW, but I actually like that it has a six-disc CD changer, SD card slot (32GB max, with support for MP3, WAV, etc.), 40-pin iPod connection, and regular AUX in. I use my phone with a USB-C DAC and have never fel"
+          },
+          {
+            "by": "Cider9986",
+            "text": "Related: Can I disable all data collection from my vehicle? (rivian.com) 760 points 14 days ago 361 comments ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47967786 )"
+          },
+          {
+            "by": "alentred",
+            "text": "Buy Nissan instead, they will do that for you free of charge. I own 2021 Nissan Leaf and Nissan sent me an email early this year telling that the communication infrastructure costs too much for them and they are taking it down. Jokes aside, I am seriously piss"
+          },
+          {
+            "by": "DarkmSparks",
+            "text": "I&#x27;m still just refusing to buy this garbage in the first place. All these car manufacturers pushing this horrorshow deserve to go under. Tbh it looks like most will soon...."
+          },
+          {
+            "by": "dbavaria",
+            "text": "Apps like Spotify in my Volvo are convinced I am in New Jersey while I&#x27;m on the opposite coast. On one hand I like that inaccurate data is being peddled to advertisers but at the same time I would actually prefer regionally relevant ads if I have to liste"
+          },
+          {
+            "by": "lqstuart",
+            "text": "This is really cool. One of my favorite parts of the internet is getting to see these kinds of projects by people who aren&#x27;t afraid to tear into stuff and take it apart and put it back together. But you do all that for privacy... and then you use CarPlay?"
+          },
+          {
+            "by": "jmward01",
+            "text": "We need more posts like this. I&#x27;d love a follow-up where instead of removing it injects fake data to the system. I am tired of passively being digitally assaulted. If they are going to do this to me without my knowing consent I want to fight back."
+          }
+        ]
+      },
+      {
+        "id": 48142108,
+        "title": "A few words on DS4",
+        "url": "https://antirez.com/news/165",
+        "score": 75,
+        "comments": 23,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "A few words on DS4 - &lt;antirez&gt; &lt;antirez&gt; A few words on DS4 antirez 1 hour ago. 24103 views. I didn’t expect DwarfStar 4 ( https://github.com/antirez/ds4 ) to become so popular so fast. It is clear that there was a need for single-model integration focused local AI experience, and that a few things happened together: the release of a quasi-frontier model that is large and fast enough to change the game of local inference, and the fact that it works extremely well with an extremely asymmetric quants recipe of 2/8 bit, so that 96 or 128GB of RAM are enough to run it. And, of course: all the experience produced by the local AI movement in the latest years, that can be leveraged more promptly because of GPT 5.5 (otherwise you can’t build DS4 in one week — and even with all this help you need to know how to gently talk to LLMs). The last week was funny and also tiring, I worked 14 hours per day on average. My normal average is 4/6 since early Redis times, but the first few months of Redis were like that. So, what’s next? Is this a project that starts and ends with DeepSeek v4 Flash? Nope, the model can change over time. The space will be occupied, in my vision, by the best current open weights model that is *practically fast* on a high end Mac or “GPU in a box” gear (like the DGX Spark and other similar setups). I bet that the next contender is DeepSeek v4 Flash itself, in the new checkpoint that will be released and, hopefully, a version specifically tuned for coding,",
+        "comment_highlights": null
+      },
+      {
+        "id": 48139219,
+        "title": "First public macOS kernel memory corruption exploit on Apple M5",
+        "url": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+        "score": 221,
+        "comments": 38,
+        "category_hint": "security",
+        "why_hot": "Security incident or tool with high HN interest; may affect infra or AI safety.",
+        "article_summary": "First public macOS kernel memory corruption exploit on Apple M5 Calif Subscribe Sign in First public macOS kernel memory corruption exploit on Apple M5 Apple spent five years building hardware and software to make memory corruption exploits dramatically harder. Our engineers, working together with Mythos Preview, built a working exploit in five days. May 14, 2026 21 1 Share Early this week, we had a meeting at Apple Park in Cupertino. While there, we also shared with Apple our latest vulnerability research report: the first public macOS kernel memory corruption exploit on M5 silicon, surviving MIE . It was laser printed, in honor of our hacker friends. We wanted to report it in person, instead of getting buried in the submission flood that some unfortunate Pwn2Own participants just experienced. Most respected hackers avoid human interaction whenever possible, so this physical strategy may give us a slight edge in the eternal race for five minutes of fame and glory on Twitter. This is the story of the exploit and our field trip. Full technical details will be shared after Apple fixes the vulnerabilities and attack path. Hopefully it won’t take our beloved company too long. We only budgeted one year of domain registration fees for this attack. Memory corruption remains the most common vulnerability class everywhere, including iOS and macOS. In security, if you can’t fully prevent something, you accept the risk mitigate it by making exploitation more expensive. But mitigations a",
+        "comment_highlights": [
+          {
+            "by": "dgellow",
+            "text": "The world is so not ready for the impact of LLMs on security issues. If true, congrats to the Calif team. It’s likely too technical for me to understand in details but looking forward to reading the 55 pages report"
+          },
+          {
+            "by": "tkel",
+            "text": "Another breathless marketing hype for Mythos. The curl report was much more sober. https:&#x2F;&#x2F;daniel.haxx.se&#x2F;blog&#x2F;2026&#x2F;05&#x2F;11&#x2F;mythos-finds-a-curl-v..."
+          },
+          {
+            "by": "vsgherzi",
+            "text": "unfortunately a little light on the details. I&#x27;m very curious how the bug survived through MTE"
+          },
+          {
+            "by": "yieldcrv",
+            "text": "from what they demonstrated, this seems to only be a $100,000 exploit in Apple&#x27;s bug bounty platform, but if they package it right, it could be a $1.5 million exploit They simply have to show it against a beta version of MacOS, and frame it as unauthorize"
+          },
+          {
+            "by": "AgentME",
+            "text": "First Mozilla, now even Apple is making up fake vulnerabilities to hype up Mythos. &#x2F;sarcasm"
+          },
+          {
+            "by": "commandersaki",
+            "text": "I bought the M5 specifically cause of MIE. Now I feel dumb."
+          },
+          {
+            "by": "bredren",
+            "text": "Did the article get edited? There is not much description of the field trip."
+          }
+        ]
+      },
+      {
+        "id": 48137145,
+        "title": "RTX 5090 and M4 MacBook Air: Can It Game?",
+        "url": "https://scottjg.com/posts/2026-05-05-egpu-mac-gaming/",
+        "score": 463,
+        "comments": 118,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "RTX 5090 + M4 MacBook Air: Can it Game? | Scott's Blog scottjg.com :~ $ posts rss 2026.05.05 · 39min RTX 5090 + M4 MacBook Air: Can it Game? Strap a 600W GPU to your 22W CPU Table of Contents Never tell me the odds What&rsquo;s a Thunderbolt eGPU? What about tinygrad? The existing Linux driver Engineering PCI Passthrough on macOS PCI device basics Mapping PCI BARs DMA DMA on Apple Silicon apple-dma-pci NVIDIA alignment quirk Coalescing mappings Other performance concerns Scheduling Total store ordering Benchmarks CPU comparison Cyberpunk 2077 720p Low 1080p 4K Takeaways GravityMark Shadow of the Tomb Raider Horizon Zero Dawn Remastered Doom (2016) Can it run Crysis? AI Inference Qwen 3.6 Gemma 4 Can I run this? Get notified Conclusion Follow-on Credits What if you could strap a full desktop GPU to your MacBook Air? Turns out, you can. Just a quick FTC required note: When you buy through my links, I may earn a commission. Never tell me the odds # As much as I hate to admit it, step one in most of my projects now is to ask AI about it. Maybe it&rsquo;ll tell me something I don&rsquo;t know. Fortunately, borderline-impractical is kind of my thing. What&rsquo;s a Thunderbolt eGPU? # Ok, so the plan is to plug a big PC gaming GPU, an NVIDIA RTX 5090, into my M4 MacBook Air. To do that, we plug it into a Thunderbolt dock which adapts PCIe to Thunderbolt, and we plug that into a USB-C port. Thunderbolt tunnels PCIe over a USB-C cable, so from the computer&rsquo;s perspective a Thund",
+        "comment_highlights": [
+          {
+            "by": "matthewfcarlson",
+            "text": "I have been bothering the VM team for years for VM GPU pass through. I worked on the Apple Silicon Mac Pro and it would have made way more sense if you could run a linux VM and pass through the GPU that goes inside the case! Sadly, as you can tell, they have n"
+          },
+          {
+            "by": "Aurornis",
+            "text": "Excellent article. The game benchmarks are fun but the LLM improvements are where this gets really interesting for practical use. I love Apple platforms as an approachable way to run local models with a lot of RAM, but their relatively slow prompt processing s"
+          },
+          {
+            "by": "djmips",
+            "text": "&gt; Because OpenGL is not well-supported anymore on macOS, the game is completely unplayable there, even with CrossOver. Ironically, it plays totally fine on a Windows PC, but this is a game you literally can’t play on Mac without this eGPU setup. I understan"
+          },
+          {
+            "by": "divbzero",
+            "text": "This is pretty impressive. My impression was that eGPUs simply do not work with Apple Silicon. ( EDIT: Apple agrees with my impression. “To use an eGPU, a Mac with an Intel processor is required.” And, on top of that, the officially supported eGPUs were all AM"
+          },
+          {
+            "by": "geerlingguy",
+            "text": "I came into the post thinking it would be running a VM through the slow tinygrad driver... but this is much, much better. It&#x27;d be amazing if Apple would provide better support, and allow more than that 1.5 GB window to make this easier. Arm overall has so"
+          },
+          {
+            "by": "mywittyname",
+            "text": "&gt; As much as I hate to admit it, step one in most of my projects now is to ask AI about it. Maybe it’ll tell me something I don’t know. Or, more likely, it will tell you something it doesn&#x27;t know. Reminds me of yesterday, when I was arguing with ChatGP"
+          },
+          {
+            "by": "swiftcoder",
+            "text": "This is proper mad science, love it"
+          },
+          {
+            "by": "delbronski",
+            "text": "Nicely done! Glad to see real hacking is still alive in the age of AI."
+          },
+          {
+            "by": "arjie",
+            "text": "Wait, this is incredible. I have a spare 5090 lying around and run a claw-like on my M4 Mini. Just plugging it into some sort of 3D print frame for stability and plugging it into the TB port might get me a pretty viable tool for local inference. Would need som"
+          },
+          {
+            "by": "coder68",
+            "text": "This seems pretty useful for AI inference if it can pass Apple approval. I&#x27;ve wanted to use my Nvidia GPUs with a Mac Mini, this would enable it to run CUDA directly. Very cool!"
+          },
+          {
+            "by": "frollogaston",
+            "text": "I&#x27;m guessing the x86 emu is cause Windows games are rarely built for ARM, right? Was kinda curious how an ARM VM would fare. Anyway awesome article."
+          },
+          {
+            "by": "bilekas",
+            "text": "I love how its listed as &quot;RTX 5090 Discrete&#x27; Sir that is anything but discrete!"
+          },
+          {
+            "by": "s09dfhks",
+            "text": "what keyboard is that"
+          },
+          {
+            "by": "SamiahAman",
+            "text": "Very nice effort. This has incredible technical depth, particularly in the DMA and QEMU sections. I also like that you didn&#x27;t oversell it as the ideal Mac gaming solution. I found the AI inference results to be the most fascinating. Overall, it was a grea"
+          },
+          {
+            "by": "lenerdenator",
+            "text": "The lack of native games on Apple Silicon is one of the greatest crimes ever committed against computing. I got Fallout 3 working on my M2 MBP as well as it did on Windows back in the day. Temps were cool, battery was decent. If they sold my college years gami"
+          },
+          {
+            "by": "zer0zzz",
+            "text": "Once egpus work on Apple Silicon there will be little reason to own a pc"
+          },
+          {
+            "by": "semiinfinitely",
+            "text": "where did you get a 5090 I will buy it from you"
+          },
+          {
+            "by": "Forgeties79",
+            "text": "&gt; step one in most of my projects now is to ask AI about it. Maybe it’ll tell me something I don’t know. Bingo. This is exactly how I use LLM. I like getting a gut check, seeing what the first recommendations are or if there is some deep flaw in what I thin"
+          }
+        ]
+      },
+      {
+        "id": 48140529,
+        "title": "Codex is now in the ChatGPT mobile app",
+        "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+        "score": 135,
+        "comments": 56,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48138268,
+        "title": "New Nginx Exploit",
+        "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+        "score": 273,
+        "comments": 60,
+        "category_hint": "security",
+        "why_hot": "Security incident or tool with high HN interest; may affect infra or AI safety.",
+        "article_summary": "GitHub - DepthFirstDisclosures/Nginx-Rift: exploit for CVE-2026-42945 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enter",
+        "comment_highlights": [
+          {
+            "by": "RagingCactus",
+            "text": "As a security person it is tiring to see so many people here either directly claim or at least allude to the claim that this is somehow much less scary because the _published_ exploit does not bypass ASLR. The writeup claims there is a way to reliably bypass A"
+          },
+          {
+            "by": "danslo",
+            "text": "This one&#x27;s pretty bad but there are some preconditions. Requires a &quot;rewrite&quot; directive with a questionmark in the replacement string, and then a subsequent &quot;set&quot; directive that references a regex capture group (e.g. set $var $1). Also "
+          },
+          {
+            "by": "neomantra",
+            "text": "The official F5 page is here: https:&#x2F;&#x2F;my.f5.com&#x2F;manage&#x2F;s&#x2F;article&#x2F;K000161019 As noted elsewhere, ASLR protects you. While you are waiting for your affected platform to get the fix, they note the mitigation: &quot;use named captures"
+          },
+          {
+            "by": "jcalvinowens",
+            "text": "The POC disables aslr: https:&#x2F;&#x2F;github.com&#x2F;DepthFirstDisclosures&#x2F;Nginx-Rift&#x2F;blob&#x2F;mai..."
+          },
+          {
+            "by": "ptx",
+            "text": "Is there a good alternative to Apache and Nginx that&#x27;s written in a memory-safe language and not full of security holes? I briefly looked at Jetty (written in Java) and Caddy (written in Go) but they seem to have a history of vulnerabilities of other type"
+          },
+          {
+            "by": "panzi",
+            "text": "Does Debian 12 have this patched? But I guess I&#x27;m not affected if I don&#x27;t use `rewrite` or `set` anywhere?"
+          },
+          {
+            "by": "trilogic",
+            "text": "Good to know, thanks. Wondering how long to the next."
+          },
+          {
+            "by": "ChrisArchitect",
+            "text": "Better links: https:&#x2F;&#x2F;depthfirst.com&#x2F;research&#x2F;nginx-rift-achieving-nginx-r... ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48126029 ) https:&#x2F;&#x2F;depthfirst.com&#x2F;nginx-rift ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;it"
+          },
+          {
+            "by": "geophph",
+            "text": "Someone tell LowLevel"
+          },
+          {
+            "by": "jhatemyjob",
+            "text": "tl;dr If you don&#x27;t use ngx_http_rewrite_module, you&#x27;re fine Honestly it&#x27;s such a weird feature, if you&#x27;re doing complicated redirects like this in nginx where PCRE is necessary, you should do it in your application code. And if you need spe"
+          },
+          {
+            "by": "hetsaraiya",
+            "text": "Just saw this pop up — full public PoC for CVE-2026-42945 (&quot;NGINX Rift&quot;), a heap buffer overflow in NGINX&#x27;s ngx_http_rewrite_module that&#x27;s been there since 0.6.27 (2008). It triggers on a very common pattern: a `rewrite` directive (with an "
+          },
+          {
+            "by": "pjmlp",
+            "text": "Looks into the CVE, ah an heap memory corruption, business as usual."
+          },
+          {
+            "by": "jmaw",
+            "text": "Wow, coming from the webdev world. It is so funny seeing NGINX, one of the widest used web servers in the world, on version 1.x. React is on version 19. Really shows how differently new vs. old software is designed and built, and not necessarily in a good way."
+          }
+        ]
+      },
+      {
+        "id": 48140953,
+        "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
+        "url": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
+        "score": 46,
+        "comments": 12,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Exploiting the Tesla Wall Connector from its charge port connector - Security incident? Suspected breach? 09 71 18 27 69 csirt@synacktiv.com Skip to main content Search Switch Language English Toggle Dropdown English French RSS Github Twitter Linkedin Our offer Penetration Test / Red Team Incident response Reverse-engineering Development Products CSIRT Trainings Join us Publications Posts Advisories Resources The company Contact RSS Github Twitter Linkedin Exploiting the Tesla Wall Connector from its charge port connector - Part 2: bypassing the anti-downgrade Written by David Berard - 12/05/2026 - in Exploit , Reverse-engineering - Download In a previous article , we presented an attack against the Tesla Wall Connector Gen 3 used during Pwn2Own Automotive 2025. The exploit chain relied on a simple fact: there was no anti-downgrade mechanism. Once we could speak UDS over the charging cable, we could just write an old, vulnerable firmware to the passive slot, reboot, and pop the debug shell. Tesla then shipped a firmware update that adds an anti-downgrade check to the update routine. Every firmware image now carries a security ratchet value, and the updater refuses any image whose ratchet is lower than the one stored on the device. This second article describes how this anti-downgrade works, and how we bypassed it by abusing the order of operations between the partition table write and the slot erase, replaying the original Pwn2Own attack on a fully up-to-date charger. This is",
+        "comment_highlights": null
+      },
+      {
+        "id": 48140541,
+        "title": "RISC-V Router",
+        "url": "https://router.start9.com/",
+        "score": 53,
+        "comments": 30,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "RISC-V Router {{ srvModel.title }} 250000 USD Softcap Goal Currently active! 24634.00 USD Raised 0\" class=\"only-for-js\"> {{stat.label}} {{stat.value}} 10% Of Goal Goal resets every {{srvModel.resetEveryAmount}} {{srvModel.resetEvery}} {{srvModel.resetEveryAmount>1?'s': ''}} 89 Contributors Contribute About The RISC-V Router by Start9 makes advanced networking and network security accessible to everyone. Built on a RISC-V processor with an open-source boot stack and operating system, it is the most open router on the market — and the only one designed specifically for the complex needs of home-based self-hosting. Units are expected to ship no later than September 2026. Pre-orders and donations will be used to fund development and are therefore non-refundable. Key Points Maximally Open Source : The Start9 router is built on RISC-V — an open instruction set architecture — with a fully open-source boot stack (OpenSBI, U-Boot), open-source Linux kernel, and published board schematics. User-friendly : Unlike other routers, especially routers with advanced functionality, the Start9 router is accessible to non-technical users. Our modern GUI is easy to use and provides sane defaults for users who just want a plug-and-play experience. StartOS-friendly : StartOS users will be able to link their server to automate port forwarding for streamlined clearnet experience. Hardware Specs Processor : SpacemiT K1 8-core RISC-V chip Memory : 4GB LPDDR4 RAM Storage : 16GB eMMC Ethernet : 1 WAN Gb,",
+        "comment_highlights": null
+      },
+      {
+        "id": 48142553,
+        "title": "Have a Coherent AI Policy",
+        "url": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
+        "score": 8,
+        "comments": 0,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Have a Coherent AI Policy brianmeeker.me Speaking Contact About Have a Coherent AI Policy 2026-05-14 leadership AI My very first job out of college was at a law firm with hundreds of paralegals. They were running an in-house workflow system to manage foreclosure and bankruptcy cases. I lucked into a boom industry when the housing bubble burst. At the peak, we were doing over 100K of each a year. The work was broken down into finely sliced tasks. Paralegals worked out of a queue of tasks, mostly of the same flavor. It was an assembly line for court filings; Taylorism brought to legal work. Before I started, a new executive had been brought in. One of her jobs was to streamline process. Her plan was simple: she was going to stand behind employees with a stopwatch and time how long it took them to complete tasks. KPIs would be set up based on those measurements. This went as well as you would expect. People don’t perform tasks the same way they normally do when an executive is standing behind them with a stopwatch. She quickly learned how worthless this was. All that is a segue to the latest garbage KPI in software engineering, tokenmaxxing, and the AI policy I wrote for my team. WTF is Tokenmaxxing? Tokenmaxxing is the latest fad to come out of management who still, in the Year of our Lord 2026, do not understand that every metric will be gamed. That executive with the stopwatch didn’t understand 20+ years ago and there are clearly leaders today who have not received the memo.",
+        "comment_highlights": null
+      },
+      {
+        "id": 48097786,
+        "title": "Porting 3D Movie Maker to Linux",
+        "url": "https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/",
+        "score": 63,
+        "comments": 11,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Porting 3D Movie Maker to Linux - Ben Stone Online Ben Stone Online About Me Categories Tags RSS Porting 3D Movie Maker to Linux May 9, 2026 blog &nbsp; Software Development &nbsp; Background Static libraries Removing assembly language Boring engineering stuff Replacing Win32 with SDL Drawing the rest of the owl penguin Did you know you can now run Microsoft 3D Movie Maker natively on Linux? Over the last 18 months, I have been working on 3DMMEx , my source port of 3D Movie Maker. One of the goals of my fork is portability. The project recently reached a significant milestone: we can now compile and run on Linux, making 3DMMEx the first known fork of 3D Movie Maker to run outside of Windows! In this post I will explore some of the challenges encountered while porting a 30-year-old multimedia application to a new platform. Now you can make fun animated movies on Linux! Background Back in 2020, I wrote a blog series about reverse engineering Microsoft 3D Movie Maker . Since then, there has been a major development: in May 2022, Microsoft published the full source code for the application . This was quite unexpected - I never thought I would ever get to see the original source code, and was skeptical that it even still existed in Microsoft&rsquo;s archives, but now it&rsquo;s up on GitHub&mldr; and with a permissive MIT license to boot! Before we go too much further I have to say a huge thank you to Alice Averlong (née Foone Turing) for her relentless pursuit of the 3DMM source",
+        "comment_highlights": null
+      },
+      {
+        "id": 48140922,
+        "title": "New arXiv policy: 1-year ban for hallucinated references",
+        "url": "https://twitter.com/tdietterich/status/2055000956144935055",
+        "score": 218,
+        "comments": 60,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp. Something went wrong, but don’t fret — let’s give it another shot. Try again Some privacy related extensions may cause issues on x.com. Please disable them and try again.",
+        "comment_highlights": [
+          {
+            "by": "btown",
+            "text": "&gt; The penalty is a 1-year ban from arXiv followed by the requirement that subsequent arXiv submissions must first be accepted at a reputable peer-reviewed venue. This is incredibly good for science. arXiv is free, but it&#x27;s a privilege not a right! I&#x"
+          },
+          {
+            "by": "imenani",
+            "text": "https:&#x2F;&#x2F;xcancel.com&#x2F;tdietterich&#x2F;status&#x2F;2055000956144935055"
+          },
+          {
+            "by": "noobermin",
+            "text": "Seeing the usual LLM hypers angry replying to this on twitter is such a tell. Just like the comments on the LLM poisoning articles, some people just can&#x27;t accept that some people don&#x27;t like LLMs and get upset when you put any amount of hindrance to t"
+          },
+          {
+            "by": "jszymborski",
+            "text": "Should be more harsh in my opinion."
+          },
+          {
+            "by": "MinimalAction",
+            "text": "There needs be to a careful vetting before such adverse actions. If somebody includes a name and pushed it without express permission, does everyone get the ban? I agree that implemented the right way, this is good."
+          },
+          {
+            "by": "bigfishrunning",
+            "text": "Good; academic literature is in crisis because of all of the slop. Forcing some consequences on easily-detectable hallucinations can only be a good thing"
+          },
+          {
+            "by": "squirrelon",
+            "text": "Had a colleague submit a paper with literal AI slop left in the text, got hit with a nasty revision request. Check your drafts before you submit, people. The reviewers will find it."
+          },
+          {
+            "by": "random3",
+            "text": "It seems a good idea to ban cheating, but how hard is it, especially in new reasoning&#x2F;agents contexts to validate references? The deeper question is whether legitimate AI generated results are allowed or not? Test - In the extreme - think proof of Riemann"
+          }
+        ]
+      },
+      {
+        "id": 48141732,
+        "title": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control",
+        "url": "https://www.openvehicles.com/home",
+        "score": 20,
+        "comments": 5,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Open Vehicle Monitoring System | Open Vehicles Skip to main content Open Vehicles Toggle menu About Us Buy Forums Documentation Users Developers Service Status Search Login Welcome to Open Vehicles Open Source Electric Vehicle Telemetry Monitor your&nbsp;Electric Vehicle from your Phone Get started with OVMS today &nbsp; Live Monitoring We provide&nbsp; live monitoring &nbsp;of vehicle metrics like state of charge, temperatures, tyre pressures and diagnostic fault conditions. We work hard to provide as&nbsp; detailed information &nbsp;about the internals of a vehicle as possible. &nbsp; Alerts We will alert you, via PUSH notifications to your smartphone, to critical conditions and events like a charge abort, battery cell failure or potential theft. &nbsp; Take Control Depending on the vehicle integration we allow you to&nbsp; take control &nbsp;over the charge process, climate control, tuning parameters of the engine and more. Scripting capabilities, including interfacing to external charge control systems, take this to a new level. Animate &nbsp; Web and Phone A&nbsp; built-in Web App &nbsp;user interface and remote control via native cellphone Apps available for&nbsp; Android &nbsp;and&nbsp; iOS . OVMS integrates into home/process automation systems via&nbsp; MQTT &nbsp;and provides data logging to SD card and to a server. &nbsp; Open Source OVMS enables you to add the features you want, working without regional restrictions, and giving you&nbsp; control over your personal",
+        "comment_highlights": null
+      },
+      {
+        "id": 48141191,
+        "title": "Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware",
+        "url": "https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate",
+        "score": 1,
+        "comments": 0,
+        "category_hint": "infra",
+        "why_hot": "Infra/DevOps topic with HN traction; signals shifts in tooling or architecture.",
+        "article_summary": "Senior Developer Advocate at Infracost | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface Safe Find a Co-Founder Startup Jobs Log in Apply Infracost Shift FinOps Left: Proactively Find &amp; Fix Cloud Cost Issues Senior Developer Advocate $180K - $200K • US / CA / Remote (US; CA) Job type Full-time Role Marketing Experience 6+ years Visa US citizen/visa only Connect directly with founders of the best YC-funded startups. Apply to role › Ali Khajeh-Hosseini Founder Ali Khajeh-Hosseini Founder About the role Overview The spend on public cloud is fast approaching $1 trillion per year - we estimate this boundary will be crossed before the turn of the decade. Infrastructure-as-Code (e.g. Terraform, CloudFormation, CDK) and platform engineering have fundamentally changed who makes spending decisions. In the past, only a central team provisioned cloud resources. Now every engineer can provision resources as needed; every engineer has become a buyer. Infracost helps engineers see the cost of their code changes before any money has been spent - we sit in the engineering workflow, show the cost impact, and suggest optimizations. That’s what we mean by “Shift FinOps Left”, and we’ve seen strong pull from engineers who use Infracost in their terminals, CI/CD pipeline",
+        "comment_highlights": null
+      },
+      {
+        "id": 48142188,
+        "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+        "url": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+        "score": 56,
+        "comments": 9,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Ontario auditors find doctors' AI note takers routinely blow basic facts Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD AI + ML Sick and wrong: Ontario auditors find doctors' AI note takers routinely blow basic facts 60% of evaluated AI Scribe systems mixed up prescribed drugs in patient notes, auditors say Brandon Vigliarolo Brandon Vigliarolo Published thu 14 May 2026 // 21:50 UTC The AI systems approved for Ontario healthcare providers routinely missed critical details, inserted incorrect information, and hallucinated content that neither patients nor clinicians mentioned, according to a provincial audit of 20 approved vendors’ systems. The fi",
+        "comment_highlights": null
+      },
+      {
+        "id": 48137553,
+        "title": "HDD Firmware Hacking",
+        "url": "https://icode4.coffee/?p=1465",
+        "score": 119,
+        "comments": 10,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "HDD Firmware Hacking Part 1 &#8211; I Code 4 Coffee I Code 4 Coffee Where coffee turns into code! Menu Downloads Donate About Me Recent Posts HDD Firmware Hacking Part 1 Hacking the Xbox 360 Hypervisor Part 2: The Bad Update Exploit Hacking the Xbox 360 Hypervisor Part 1: System Overview Tony Hawk&#8217;s Pro Strcpy Halo 2 in HD: Pushing the Original Xbox to the Limit github &#038; socials Browse: Home &nbsp; / &nbsp; HDD Firmware Hacking Part 1 HDD Firmware Hacking Part 1 Ryan Miceli / May 14, 2026 / 1 Comment / Embedded , Firmware , HDD Some time last year I was working on an exploit for the Xbox 360 console (which would later turn into the much anticipated softmod) and found myself in need of a way to modify the firmware for a HDD to try and exploit a race condition. This sent me down a rabbit hole of trying to modify the firmware for a few different brands of HDDs and SSDs I had on hand. In this series of blog posts I&#8217;ll cover all the work I did including: dumping and analyzing the firmware, live debugging a HDD via JTAG, modifying the drive firmware, and how I used AI to help with analysis and identifying an unknown MCU architecture. This first post is going to focus on dumping, analyzing, and modifying HDD firmware. Everything in this post was done without the help of AI. In the next post I&#8217;ll cover how I used AI to do similar work on other HDDs/SSDs as well as using it to do black box reverse engineering on an unknown ISA, and giving Claude access to debug",
+        "comment_highlights": null
+      },
+      {
+        "id": 48108621,
+        "title": "Int a = 5; a = a++ + ++a; a =? (2011)",
+        "url": "https://gynvael.coldwind.pl/?id=372",
+        "score": 95,
+        "comments": 150,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "int a = 5; a = a++ + ++a; a = ? - gynvael.coldwind//vx.log --> Available for Consulting and Projects hackArcana (edu+CTF) Return to dashboard &#8682; Sections lang : | RSS : | About me Tools &rarr; YT YouTube (EN) &rarr; D Discord &rarr; M Mastodon &rarr; T Twitter &rarr; GH GitHub My edu+CTF site My consulting company Paged Out! zine Dragon Sector CTF Team Links / Blogs Security/Hacking: j00ru's blog lcamtuf's thing pi3's blog tavis ormandy's site pawel golen's blog zaufana trzecia strona niebezpiecznik sekurak Reverse Eng./Low-Level: security news rev3rsed Programming/Code: adam sawicki Posts Paged Out! prints are here, and so is #7 CFP deadline , CONFidence 2025 is next week , No, CTRL+D in Linux terminal doesn't send EOF signal , New edu platform and 'Sanitization and Validation and Escaping, Oh My!' article , On hackers, hackers, and hilarious misunderstandings , Paged Out! #5 is out , CVEs of SSH talk this Thursday , Debug Log: Internet doesn't work (it was the PSU) , FAQ: The tragedy of low-level exploitation , Solving Hx8 Teaser 2 highlight videos! , &rarr; see all posts on main page // copyright &copy; Gynvael Coldwind // design &amp; art by Xa // logo font (birdman regular) by utopiafonts / Dale Harris /* the author and owner of this blog hereby allows anyone to test the security of this blog (on HTTP level only, the server is not mine, so let's leave it alone ;&gt;), and try to break in (including successful breaks) without any consequences of any kind (DoS attacks",
+        "comment_highlights": [
+          {
+            "by": "susam",
+            "text": "The code in the post seems very similar to the one in my own post from 2010: https:&#x2F;&#x2F;susam.net&#x2F;sequence-points.html int a = 5; a += a++ + a++; I do remember that this particular code snippet (with a = 5, even) used to be popular as an interview "
+          },
+          {
+            "by": "Aardwolf",
+            "text": "What&#x27;s the reason that C didn&#x27;t define the order of this? The horrible undefined behavior of signed integer overflow at least can be explained by the fact that multiple CPU architectures handling those differently existed (though the fact that C even"
+          },
+          {
+            "by": "sangeeth96",
+            "text": "I had to fight through school and university in India with my teachers who believed these were legit questions to ask in written exams. Can&#x27;t 100% blame them since almost all standard-issue textbooks had them and claimed they&#x27;d give predictable outpu"
+          },
+          {
+            "by": "Boxxed",
+            "text": "&gt; The interesting thing here is the Undefined Behavior (UB), well... actually two UBs, thanks to which there are three possible correct answers: 11, 12 and 13. No, if you invoke undefined behavior any result at all is possible."
+          },
+          {
+            "by": "magicalhippo",
+            "text": "Perhaps I&#x27;m just naive and&#x2F;or have forgotten too much C, not that I knew that much, but I&#x27;m a bit perplexed as to why this is UB. It seems like something that should trigger a &quot;we should specify this&quot; reaction when adding these operato"
+          },
+          {
+            "by": "compiler-guy",
+            "text": "With undefined behavior, a conforming compiler can do anything it wants at all, including generating a program that segfaults or something else. But what often happens in practice is that &quot;Bill&#x27;s Fly-By-Night-C-Compiler-originally-written-in-the-mid-"
+          },
+          {
+            "by": "benmmurphy",
+            "text": "hackernews capitalising Int makes this question kind of confusing. Because the question is meant to be about c++ behaviour but `Int` is not a standard c++ type. But Int is not java because java uses Integer and `Int` is not c# because c# has uses the explicit "
+          },
+          {
+            "by": "Timwi",
+            "text": "The statement is valid C#, which has left-to-right execution order and no undefined behavior. The answer is 5 + 7 = 12."
+          },
+          {
+            "by": "tombert",
+            "text": "I have always hated this crap; the fact that I&#x27;m not 100% sure the result of this indicates that maybe the ++ operator (pre or postfix) is something that should be avoided? I don&#x27;t do a lot of C anymore, but even when I did, I always would do increme"
+          },
+          {
+            "by": "HelloNurse",
+            "text": "The final value of a is that if you write this you are fired. It&#x27;s worse than a racist joke."
+          },
+          {
+            "by": "danbruc",
+            "text": "My expectation was none of the four presented. Evaluate left to right, a is five, post-increment, pre-increment, a is seven, 5 + 7 = 12. For right to left I would expect pre-increment, a is six, a is still six, post-increment, a is 7, overwrite with 6 + 6 = 12"
+          },
+          {
+            "by": "p0w3n3d",
+            "text": "On my CS lectures algorithms professor used this pseudo language when writing an algorithm on a whiteboard : I &lt;- I++ On the next hour another professor was giving lecture on C++ programming. I asked him the question: what would happen if we compiled i = i+"
+          },
+          {
+            "by": "Someone",
+            "text": "&gt; The interesting thing here is the Undefined Behavior (UB), well... actually two UBs, thanks to which there are three possible correct answers: 11, 12 and 13. There’s UB, so any answer is possible, isn’t it?"
+          },
+          {
+            "by": "yason",
+            "text": "The only point you can conclude out of these discussions, especially in an interview, that it doesn&#x27;t matter what the answer happens to be on $CC and $ARCH but you wouldn&#x27;t want anyone to write stuff like that in the first place. Failing to recognize"
+          },
+          {
+            "by": "vishnugupta",
+            "text": "I am, thankfully, out of this craziness now but it was fun solving ton of such puzzles from Yashavant Kanetkar books while preparing for campus hiring interviews back in 2000. &quot;Test Your C Skills&quot; in particular. Fun times. https:&#x2F;&#x2F;www.scrib"
+          },
+          {
+            "by": "taylodl",
+            "text": "The trait of an experienced C developer is to avoid creating expressions such as this."
+          },
+          {
+            "by": "deepsun",
+            "text": "Why do you need Java four times in tests? They are all the same. The main, I would say, defining, feature of Java is &quot;no of undefined behavior&quot;. Aka &quot;write once, run everywhere&quot;."
+          },
+          {
+            "by": "adverbly",
+            "text": "&#x2F;sarcastic This is how to keep simpletons out of your code base. Every numeric constant is defined in terms of a different lang quiz. Works well in JS as well of course. const DEFAULT_SELECTION = true + true const BASE_PRICE = 4 * parseInt(0.0000001) cons"
+          },
+          {
+            "by": "pplonski86",
+            "text": "I love such puzzles! I used to use a lot ternary operators in C++ but one day friend of mine told me that I shouldn&#x27;t nest ternary operators too much because code is too complicated to read - he understands code perfectly, he was just worried about younge"
+          },
+          {
+            "by": "Tomte",
+            "text": "Some C++ quiz with ++a and a++? It‘s always about sequence points, or better the lack of sequence points. It‘s the standard technical C++ blog post everybody seems to write."
+          }
+        ]
+      },
+      {
+        "id": 48142193,
+        "title": "More than sixty percent of the United States is experiencing drought conditions",
+        "url": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
+        "score": 46,
+        "comments": 6,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Expert: More than half of U.S. faces worst drought in decades More than 60 percent of the United States is experiencing drought conditions, with more than 20 percent in an extreme drought. Andrew Ellis, a climatologist at Virginia Tech said the current conditions are among the worst in decades because the combination of intensity and aerial coverage is rare. He explained why, who is most impacted, and when we can expect relief. College of Natural Resources and Environment,Impact,Geography,Meteorology,Media Advisory article-page --> Expert: More than half of U.S. faces worst drought in decades | Virginia Tech News | Virginia Tech Skip to main content Skip to search Virginia Tech&reg; home Universal Access Toggle Universal Access Close Universal Access dialog Universal Access Options Report a barrier Accessibility portal Pause all background videos Underline all links Apply Visit Give Shop Hokie Sports Shop Apparel, clothing, gear and merchandise Hokie Shop University Bookstore, merchandise and gifts Hokie Gear Everything you need to know about Hokie gear Hokie License Plates Part of every Virginia Tech plate purchase funds scholarships Resources for Future Students Current Students Parents and Families Faculty and Staff Alumni Industry and Partners News VT News logo Exponentially more --> Browse Categories Categories Submenu Toggle Academics Campus Experience Culture Impact Research Videos News &amp; Stories Magazines Events --> Notices Daily Doodle Tags Subscribe to daily ema",
+        "comment_highlights": null
+      },
+      {
+        "id": 48140730,
+        "title": "Amazonbot is finally respecting robots.txt",
+        "url": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
+        "score": 123,
+        "comments": 26,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Making sure you&#39;re not a bot! Making sure you&#39;re not a bot! Loading... Please wait a moment while we ensure the security of your connection. Protected by Anubis From Techaro . Made with ❤️ in 🇨🇦. Mascot design by CELPHASE . This website is running Anubis version v1.25.0-49-g9f479f5 .",
+        "comment_highlights": null
+      },
+      {
+        "id": 48114673,
+        "title": "Do teachers need advanced degrees?",
+        "url": "https://www.cremieux.xyz/p/do-teachers-need-advanced-degrees",
+        "score": 4,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Do Teachers Need Advanced Degrees? - Cremieux Recueil Cremieux Recueil Subscribe Sign in Do Teachers Need Advanced Degrees? Probably not Cremieux May 08, 2026 76 33 14 Share This was a timed post. The way these work is that if it takes me more than one hour to complete the post, an applet that I made deletes everything I’ve written so far and I abandon the post. You can find my previous timed post here . Our society is obsessed with credentials. People with PhDs, MDs, JDs, and even Ed.Ds are lauded as if the credentials they’ve earned signify that they’re more generally capable than their uncredentialed peers. The fact that they are on average because there’s a correlation between real-world qualification and educational attainment is the kernel of truth that has allowed people to be misled into thinking that the credential, the degree itself, is what matters. But it’s not, and you’ll realize it’s obviously not if you think about it for even a moment: Have you never met a bad doctor? A shoddy lawyer? A barista with a PhD? Nevertheless, laws have been written, policies have been crafted, and decisions have been made on the basis of credentials that frequently don’t even matter and should instead be downweighted in favor of other, fairer and more important criteria. The End of Credentialism? Cremieux · March 15, 2025 Credentialism has polluted the American psyche for generations, and it has impaired the functioning of the job market and the government in the process. At one poi",
+        "comment_highlights": null
+      },
+      {
+        "id": 48139316,
+        "title": "The Power of a Free Popsicle (2018)",
+        "url": "https://www.gsb.stanford.edu/insights/power-free-popsicle",
+        "score": 61,
+        "comments": 26,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The Power of a Free Popsicle | Stanford Graduate School of Business Skip to main content Menu Enter the terms you wish to search for. Insights by Stanford Business Topics Accounting Career &amp; Success Climate &amp; Sustainability Corporate Governance Culture &amp; Society Economics Entrepreneurship Finance &amp; Investing Government &amp; Politics Healthcare Innovation Leadership &amp; Management Marketing Markets &amp; Trade Operations &amp; Logistics Opportunity &amp; Access Technology &amp; AI Culture & Society 6 min read The Power of a Free Popsicle A new book shows the value of memorable defining moments on customer and employee experiences. a person holding a popsicle | iStock/etorres69 February 19, 2018 | by Theodore Kinni Los Angeles boasts plenty of terrific hotels. At this writing, the top three on Tripadvisor are the Beverly Hills Hotel, Hotel Bel-Air, and the Peninsula Beverly Hills. If you can get a room at any of them for under $700 per night, Tripadvisor says you’re getting a “great value.” The fourth name on the list is the Magic Castle Hotel. You can snag a room there for $199, but Tripadvisor doesn’t call that out as a great rate. The Magic Castle Hotel, as Chip Heath , the Thrive Foundation for Youth Professor of Organizational Behavior at Stanford Graduate School of Business, describes it, “is actually a converted two-story apartment complex from the 1950s, painted canary yellow … [with] a pool that might qualify as Olympic size, if the Olympics were bei",
+        "comment_highlights": null
+      },
+      {
+        "id": 48134743,
+        "title": "Computer Hobby Movement in Canada",
+        "url": "https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada",
+        "score": 181,
+        "comments": 69,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Computer Hobby Movement in Canada &middot; Computer Hobby Movement in Canada &middot; York University Computer Museum Canada &nbsp; Skip to main content Login Register Menu Browse Items About Museum Explore Collections Explore Exhibits Narratives: oral histories and interviews Interview with Will Anielewicz Cyberspace art scene of the area code 604 Warez BBS — a glimpse of the digital underground ANSI artists — the interior decorators of the seamy side of cyberspace We can all be elite Mistigris— a collective of equals Regional BBS art scenes The end of an era Mistigris artpacks at a glance Research Canadian Heritage Software Database AES-90 software recovery and emulation NABU Network Reconstruction Project MCM/70 Emulator MIL CPS-1 Emulator AES-90 software recovery and emulation Contribute a document Donate Volunteer Opportunities Contact Us Home York University HP Plotter Art, 1970 Search using this query type: Keyword Boolean Exact match Search only these record types: Item File Collection Exhibit Exhibit Page Simple Page Advanced Search (Items only) Computer Hobby Movement in Canada In the mid-1970s, there were just a few computers in Canadian homes. A decade later, a worldwide personal computing frenzy was on and all kinds of computers for home and personal use were manufactured by the millions. The computer hobby movement—activities of hobbyists interested in computing—was one of the main contributing factors to that sudden change which Computer Hobby Movement in Canad",
+        "comment_highlights": [
+          {
+            "by": "teunispeters",
+            "text": "All of this was so very inaccessible from North Western Canada. (mind, still is, but Internet makes vast gulfs of space seem so much smaller) When I could get there, Heathkit (~1200km south) or Radio Shack (wow do I ever miss them carrying electronics!) were g"
+          },
+          {
+            "by": "cf100clunk",
+            "text": "Sad that there is no mention or depiction of Canada&#x27;s own magazine of that era, &#x27;&#x27;Electron&#x27;&#x27;. It was commonly found alongside the big U.S. electronics periodicals like those shown here. Electron was a mainstay right up to the mid-1970s"
+          },
+          {
+            "by": "buescher",
+            "text": "I got a VIC-20 when I was about 12? Jim Butterfield loomed impossibly large over all things Commodore at that time. One of the first things I typed in on it was his TINYMON, a &lt;1kbyte “monitor” (for some reason resident debuggers were frequently called moni"
+          },
+          {
+            "by": "Yhippa",
+            "text": "I didn&#x27;t grow up in Canada, but I miss these days where the universe of knowledge about computer tech and hardware wasn&#x27;t impossibly large. It was possible to meet with people in meatspace and have real discussions with them. It&#x27;s possible now, "
+          },
+          {
+            "by": "TheCycoONE",
+            "text": "Toronto still has a Pet User Group (TPUG) which runs the World of Commodore conference every year. https:&#x2F;&#x2F;www.tpug.ca&#x2F; It might be the closest thing remaining; though unfortunately I was too young to participate in the hay-day of computer hobby"
+          },
+          {
+            "by": "mewse-hn",
+            "text": "&quot;We will examine this movement by looking at Toronto, the only city in Canada&quot;"
+          }
+        ]
+      },
+      {
+        "id": 48136262,
+        "title": "A message from President Kornbluth about funding and the talent pipeline",
+        "url": "https://president.mit.edu/writing-speeches/video-transcript-message-president-kornbluth-about-funding-and-talent-pipeline",
+        "score": 566,
+        "comments": 633,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "Video transcript: A message from President Kornbluth about funding and the talent pipeline | MIT Office of the President | MIT - Massachusetts Institute of Technology Skip to content ↓ MIT Office of the President Menu Search Search Main navigation Home About Writing &amp; Speeches Strategic Initiatives Photos &amp; Videos Podcasts News Footer Contact Accessibility Breadcrumb Home Writing &amp; Speeches Video transcript: A message from President Kornbluth about funding and the talent pipeline MIT President Sally Kornbluth May 14, 2026 Hello, everyone. It’s been a while since I’ve spoken with you all. But the Institute is facing ongoing challenges in two related areas: funding, and our talent pipeline. So I thought you’d appreciate hearing the facts. First, funding. For more than a year, we’ve all worked on responding to extraordinary new and sustained pressures on our budget (due largely to the heavy new 8% tax on our endowment returns, a burden for MIT and only a few other peer schools). Across the Institute – centrally and in local units – it was clear to everyone that change was imperative, and you all took the challenge head on. That required serious effort and sacrifice. Some units are still working through the process, and I know the cuts have been painful. But please know that your efforts have been incredibly valuable – and I appreciate everything you’ve done to get us here. Through all of this, of course, we’ve kept our eyes on Washington. In February, we heard welcom",
+        "comment_highlights": [
+          {
+            "by": "jrflo",
+            "text": "Besides the people in this thread bemoaning the state of research funding, international students, etc. (all of which are valid), a lot of people are becoming disillusioned with academia. Probably 80% of the recent PhD grads I know are looking to leave academi"
+          },
+          {
+            "by": "jvanderbot",
+            "text": "What a Rorschach blot. Comments range from AI to immigration to doomsday results for USA. The admins statement in TFA speaks more to financial policy and grant declines. Unfunded students are much less likely to accept an admission. That&#x27;s just a fact of "
+          },
+          {
+            "by": "cmiles8",
+            "text": "Academia is about to go through a generational reset. The system is broken and the market only tolerates broken systems for so long. There are a ton of great things that come out of universities but it’s also clear that a model of charging folks well into the "
+          },
+          {
+            "by": "innis226",
+            "text": "I’m a PhD student in India, working in a nano fabrication group. In my group, all my seniors and alumni ahead of me have gone into industry. That seems pretty normal for experimental STEM. But I don’t think that means the PhD was wasted, or that the system onl"
+          },
+          {
+            "by": "999900000999",
+            "text": "It&#x27;s ok. The top colleges are arguably now in China. China is providing free education in many poor African countries. Chinese is one of many subjects offered. Of course, a smart African college student will have no issue learning English, Chinese, as wel"
+          },
+          {
+            "by": "htrp",
+            "text": "MIT Current Graduate Student are 41% international. https:&#x2F;&#x2F;facts.mit.edu&#x2F;enrollment-statistics&#x2F;"
+          },
+          {
+            "by": "quantgenius",
+            "text": "I don&#x27;t know the situation at MIT in particular but overall creating some budgetary pressures for universities is probably a good thing. Every since it became near impossible to discharge student debt due to legislation in the Bush presidency that was des"
+          },
+          {
+            "by": "al_hag",
+            "text": "American science is at risk not because of budget cuts, but because of executive interference https:&#x2F;&#x2F;m.youtube.com&#x2F;watch?v=tiE93b-jT-E&amp;t=60s"
+          },
+          {
+            "by": "softwaredoug",
+            "text": "The real problem is we make it too hard for international researchers to stay here. These high end student visas should have strong paths to permanent residence - maybe even an expectation"
+          },
+          {
+            "by": "B1FF_PSUVM",
+            "text": "&gt; Our Washington Office is working energetically, on both sides of the aisle, Oh."
+          },
+          {
+            "by": "sashank_1509",
+            "text": "“Masters only programs” is a bad hack that needs to be gone. It is just a cash grab from overseas students desperate for a Visa to work in the US. Many of these programs are highly exploitative and leave overseas students with crippling debts and have almost n"
+          },
+          {
+            "by": "dwa3592",
+            "text": "Granted that Academia is very exploitative. My wife is a Post-doc, so I hear these extremely heart breaking stories of how professors have all the power when it comes to graduate students and post docs. But this drop in graduate students is not because of that"
+          },
+          {
+            "by": "JumpCrisscross",
+            "text": "&gt; “Outside of Sloan and the EECS MEng program, still in the midst of admissions, compared with 2024, our departments’ new enrollments for next year are down close to 20%. That means that, in total, outside of Sloan, we could have about 500 fewer graduate st"
+          },
+          {
+            "by": "mrhottakes",
+            "text": "Good. The US is reaping what it sows, and other research institutions will become the new leaders. Stinks for Americans, but the world will be better off overall."
+          },
+          {
+            "by": "contubernio",
+            "text": "I work at a major public research university in Spain. We have five times as many students as MIT, many more personnel, and an annual operating budget that is less than ten percent of that of MIT. Perhaps we return more to society per euro&#x2F;dollar than MIT"
+          },
+          {
+            "by": "realo",
+            "text": "So the current USA administration defunds Science everywhere it can (NOAA, FDA , etc) and even at it&#x27;s roots (MIT , etc). Meanwhile in China ..."
+          },
+          {
+            "by": "simonw",
+            "text": "&quot;due largely to the heavy new 8% tax on our endowment returns, a burden for MIT and only a few other peer schools&quot; I went digging. Turns out that&#x27;s a 2025 &quot;Big Beautiful Bill&quot; thing, which raised that from 1.4% to 8% but only for colle"
+          },
+          {
+            "by": "jrochkind1",
+            "text": "&gt; Relatedly, some federal agencies are discussing the possibility of factoring in geography when they allocate their funds, rather than basing decisions on scientific merit alone. Sounds ironically like &quot;DEI&quot;."
+          },
+          {
+            "by": "spyckie2",
+            "text": "Any other institutions outside of academia that has a 20+ billion endowment that earns 4 billion a year? And 500 grad students at what 50k per year for funding is what 25 million? They really couldn’t hedge the risk with their own money if talent was truly tha"
+          },
+          {
+            "by": "schnitzelstoat",
+            "text": "Education (and research like this example) seem to be one of the highest ROI things you can invest in. It&#x27;s a shame it&#x27;s so often seen as an easy place to make cuts."
+          }
+        ]
+      },
+      {
+        "id": 48138332,
+        "title": "What's in a GGUF, besides the weights – and what's still missing?",
+        "url": "https://nobodywho.ooo/posts/whats-in-a-gguf/",
+        "score": 78,
+        "comments": 38,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "What&#39;s in a GGUF, besides the weights - and what&#39;s still missing? - NobodyWho NobodyWho Home About Blog Docs GitHub Github NobodyWho Home About Blog Documentation GitHub Github What&#39;s in a GGUF, besides the weights - and what&#39;s still missing? GGUF is the file format that llama.cpp uses for language models. The really neat thing about GGUF is that it's just one file. Compare this to a typical safetensors repo on huggingface , where there's a pile of necessary JSON files scattered around - or to a typical ollama model , which is an OCI with layers json, go templates, etc inside. The contents are roughly the same, but GGUF makes it more ergonomic by keeping all this stuff in a single file. But what is this stuff , and does it cover everything needed? Chat Templates Conversational language models are trained on sequences that follow a specific format, that sort of look like a conversation. For instance, Gemma4's format looks like this: &lt;|turn&gt;user Hi there!&lt;turn|&gt; &lt;|turn&gt;model Hi there, how can I help you today?&lt;turn|&gt; ...and LFM2's format template looks like this: &lt;s&gt; &lt;|im_start|&gt;user Hi there!&lt;|im_end|&gt; &lt;|im_start|&gt;assistant Hi there, how can I help you today?&lt;|im_end|&gt; ..and that's just a basic example. It gets significantly more complicated once we start adding fancy features, like how and when to format reasoning blocks, how to present tool descriptions, tool calls and their responses, as well as how to en",
+        "comment_highlights": null
+      },
+      {
+        "id": 48095490,
+        "title": "The Biochemical Beauty of Retatrutide: How GLP-1s Work",
+        "url": "https://acesounderglass.com/2025/10/13/the-biochemical-beauty-of-retatrutide-how-glp-1s-actually-work/",
+        "score": 35,
+        "comments": 32,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The Biochemical Beauty of Retatrutide: How GLP-1s Actually Work &#8211; Aceso Under Glass Skip to content Aceso Under Glass What if we understood more things? Menu About Me Hire Me Talk to Me for an Hour Favorite Posts Monetization The Biochemical Beauty of Retatrutide: How GLP-1s Actually&nbsp;Work On some level, calories in calories out has to be true. But these variables are not independent. Bodies respond to exercise by getting hungry and to calorie deficit by getting tired. Even absent that, bodies know how much food they want, and if you don’t give it to them they will tell you at increasing volume until you give in (not all bodies, of course, but quiet stomachs aren’t the target market for GLP-1s). A new breed of drugs, GLP-1 agonists, offer a way out of the latter trap by telling your body you’ve eaten, even when you haven’t, but leave many people fatigued. The newest GLP-1, retatrutide, may escape that trap too, with a mechanism so beautiful I almost don’t believe it.&nbsp; How Jelly Beans Become Fat Unfortunately in order to understand the beauty of retatrutide, you’re going to have to learn the basics of energy metabolism in the body. I’m sorry. You have probably heard of mitochondria , the power house of the cell. What that means is mitochondria takes in sugar, protein, or (components of) fat and turns them into ATP , which is then used to power chemical reactions in your cells. This is the equivalent of a power plant that uses nuclear, coal, and hydro to power sm",
+        "comment_highlights": null
+      },
+      {
+        "id": 48132488,
+        "title": "Rewrite Bun in Rust has been merged",
+        "url": "https://github.com/oven-sh/bun/pull/30412",
+        "score": 467,
+        "comments": 547,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "sesm",
+            "text": "When announcements say that rewrite took 1 week, I wonder how much time went into preparing this file with very detailed instructions on mapping Zig to Rust idioms: https:&#x2F;&#x2F;github.com&#x2F;oven-sh&#x2F;bun&#x2F;commit&#x2F;46d3bc29f270fa881dd573... O"
+          },
+          {
+            "by": "vitaminCPP",
+            "text": "&gt; +1009257 -4024 Bun is now over 1M lines of Rust code. This is approaching the size of the Rust compiler itself; except that BunJs is mostly a JavaScript interpreter wrapper + a reimplementation of the NodeJS library (Rust STD wrapper). I think BunJS is be"
+          },
+          {
+            "by": "gm678",
+            "text": "$ rg &#x27;unsafe [{]&#x27; src&#x2F; | wc -l 10428 $ rg &#x27;unsafe [{]&#x27; src&#x2F; -l | wc -l 736 Language Files Lines Code Comments Blanks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Rust 1443 929213 732281 116293 80639 Zig 1298 71111"
+          },
+          {
+            "by": "Jarred",
+            "text": "Still writing the blog post about this. Will share more details. For where this is coming from, skim the bugfixes in the Bun v1.3.14 and earlier release notes. Rust won’t catch all of these - leaks from holding references too long and anything that re-enters a"
+          },
+          {
+            "by": "therepanic",
+            "text": "About 9 days ago, Jarred wrote that it was far from certain that this would merge and that it was an overreaction. Ironic."
+          },
+          {
+            "by": "losvedir",
+            "text": "Wow. This is going to be interesting to follow. There&#x27;s absolutely no way any of this code was reviewed, but maybe we&#x27;re in a post-human world now where you can trust the models to write and review the code. This is like Gastown but on a higher profi"
+          },
+          {
+            "by": "xiphias2",
+            "text": "I&#x27;m actually excited for somebody trying experimenting with automated translation, but I&#x27;m afraid this will be lots of backwards compatibility issues. I started looking at the commits, and it&#x27;s basically solving the ,,tests not pass&#x27;&#x27; "
+          },
+          {
+            "by": "sltr",
+            "text": "I will move the handful of my projects that use Bun to something else. I don&#x27;t trust governance that permits this kind of reckless change."
+          },
+          {
+            "by": "weraK10",
+            "text": "As an educational thread, see this one from a week ago where Jarred again deflects from a merge decision and legions of foot soldiers attack anyone who predicted the impending merge: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48073680 Didn&#x27;t age "
+          },
+          {
+            "by": "pl-nerd-9000",
+            "text": "I just skimmed through the porting guide and based on the number of unsafe blocks, this looks like a fairly straight-forward mechanical translation. If that is the case, why didn&#x27;t they just &quot;vibe-code&quot; a Zig-&gt;Rust translator and a small Rust"
+          },
+          {
+            "by": "vermilingua",
+            "text": "Having just migrated all my teams repos to Bun, I feel… stupid. I was already feeling a little nervous by the time of the acquisition but this is pretty rough."
+          },
+          {
+            "by": "eqvinox",
+            "text": "If this goes wrong even in the slightest , the ridicule about a drug dealer getting high on their own supply will be neverending and grim."
+          },
+          {
+            "by": "sensanaty",
+            "text": "Love seeing the tests themselves getting modified, with random `sleep(1)` thrown around in a few of them. This bodes well, I pray some idiot at some large AI co actually ends up using this garbage in prod"
+          },
+          {
+            "by": "wesselbindt",
+            "text": "This kind of frivolous nonsense disqualifies bun from ever being a serious option to me. I&#x27;m not building any kind of software used in a professional setting on 1M lines of unreviewed code."
+          },
+          {
+            "by": "alfanick",
+            "text": "I&#x27;m confused. Never heard of Bun until a few days ago here on HN. It&#x27;s some nodejs wrapper thingy, written in Zig, and someone decided to use LLM to rewrite it in Rust. Is this a big deal? Who is even using this software? Why is this big?"
+          },
+          {
+            "by": "perching_aix",
+            "text": "PR so thick, the page failed to load the first time I opened it, and the comments still continue to fail to load. Absolutely hilarious. Though that may be just GitHub having a normal one, hard to tell these days. 1 009 257 lines added 4024 lines removed 6755 c"
+          },
+          {
+            "by": "dom96",
+            "text": "I&#x27;m curious where this leaves Zig. Bun was the most prominent and biggest project using it. What&#x27;s left?"
+          },
+          {
+            "by": "asciimoo",
+            "text": "Regardless the outcome, this is such a disrespectful move towards the huge amount of contributors who invested time and effort to learn the project and make it better. I hope the zig&#x2F;dev community forks the project and continues the development. I&#x27;d "
+          },
+          {
+            "by": "matt3210",
+            "text": "Anthropic buys bun, makes them spend tokens to convert to rust, nobody understands it anymore, locked into ai now"
+          },
+          {
+            "by": "simonklee",
+            "text": "Say what you want, but for people building products on Bun, this is bad news for the foreseeable future."
+          }
+        ]
+      },
+      {
+        "id": 48100368,
+        "title": "Fossils show millipede and centipede ancestors evolved legs underwater",
+        "url": "https://phys.org/news/2026-05-ancient-sea-fossils-millipede-centipede.html",
+        "score": 73,
+        "comments": 2,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48138913,
+        "title": "DIY open-source ultrasound hardware on the rp2040/rp2350",
+        "url": "http://un0rick.cc/pic0rick",
+        "score": 46,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "pic0rick - un0rick open hardware pic0rick | un0rick open hardware Link un0rick open hardware Menu Welcome! Get started pic0rick Use Cases Pulse-echo Tomography NDT M5stack Platform DIY Boards Research Legacy boards un0rick un0rick hardware un0rick RPi setup un0rick usb setup un0rick Experiment Up to 128Msps un0rick m5stack un0rick Dual NDT lit3rick lit3rick uses Setting the board py_fpga library lit3rick benchmarking uPython lit3rick experiments lit332 More about the lit3-32 MAX14866 PMODs Building together Licenses This site uses Just the Docs , a documentation theme for Jekyll. Search The pic0rick The pic0rick is the current recommended board in the un0rick family. It replaces the FPGA-based designs with an RP2040/RP2350 microcontroller, delivering comparable ultrasound acquisition performance at a fraction of the cost and complexity — with no FPGA toolchains or specialized hardware knowledge required. New to the project? Start with the Getting started guide for a step-by-step walkthrough from unboxing to your first echo. Specifications Parameter Value Microcontroller RP2040 (dual-core Cortex-M0+, 133 MHz). RP2350 also supported ADC 60 Msps, 10-bit resolution TGC amplifier AD8331 — 7.5 dB to 55.5 dB variable gain TGC control MCP4812 SPI DAC Pulse generation Three-level pulser via MD1210 + TC6320 (on pulser PMOD board) Pulse voltage +-25 V (via HV generation board) Input protection HV clipping on receive path PMOD connectors 1x single (pulser), 1x double (VGA, MUX, PSRAM, or",
+        "comment_highlights": null
+      },
+      {
+        "id": 48142312,
+        "title": "ICLR 2026 – Institutional Affiliations Dataset and Analysis",
+        "url": "https://github.com/DmytroLopushanskyy/iclr2026-affiliations",
+        "score": 7,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - DmytroLopushanskyy/iclr2026-affiliations: PDF-derived institutional affiliations for 5,356 ICLR 2026 accepted papers — full pipeline (scrape → parse → render), clean dataset (CSV + XLSX), and treemap charts. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open s",
+        "comment_highlights": null
+      },
+      {
+        "id": 48139148,
+        "title": "AI is making me dumb",
+        "url": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+        "score": 393,
+        "comments": 238,
+        "category_hint": "ai-ml",
+        "why_hot": "Strong HN engagement; likely important development in ai-ml.",
+        "article_summary": "God Damn AI is making me dumb | James Pain&#x27;s Weblog James Pain&#x27;s Weblog God Damn AI is making me dumb 14 May, 2026 It's so god damn tempting to use AI to write. Whether it is articles, code, or documents. I feel like using AI is diminishing my ability to write myself. I didn't necessarily feel I was bad at writing. I used to be a somewhat talented...well...mediocre software developer, but now, the more I use AI, the more I can feel my own skills getting worse. I think the problem feeds on my self-doubt, my imposter syndrome, that I can actually produce the work. However, when I use AI to write, I read it back and think: God damn, this just looks like AI. It doesn't sound or look like me at all. It doesn't say what I want it to say. With coding, I've been using AI entirely for a year or two. I've been entirely prompting and I haven't written a single line of code. I have mostly forgotten how to code, which I find very sad and depressing because coding used to be my life. I'm now teaching myself how to code by hand again. I'm pretty certain that the skills of software development aren't going to entirely disappear with AI. There still need to be people who know how to read and write code. It will be fewer people but certainly there will be people needed. I'm hoping AI might reverse a trend that's been happening over the past 20-30 years, where there's been more demand than supply of software developers. As Robert Martin (Uncle Bob) lectures; before computer science wa",
+        "comment_highlights": [
+          {
+            "by": "Rooster61",
+            "text": "I can&#x27;t relate that much to this. Every time I use AI to write code, I&#x27;m constantly fighting a feeling on the back of my neck that I need to look over everything it has done and supplement&#x2F;alter it with my own code. That ick feeling counteracts "
+          },
+          {
+            "by": "0xbadcafebee",
+            "text": "It is impossible to be made less smart by not manually writing code. If it were possible, you would be stupider every time you go on vacation. Your brain&#x27;s neuronal connections do not die from talking to a chat bot. What&#x27;s actually happened is you to"
+          },
+          {
+            "by": "thisisthenewme",
+            "text": "As a developer, I kind of feel like this all smells like job security. After using LLMs for a while, I have to admit it&#x27;s pretty nice, and I like using it. I&#x27;ve been vibecoding a few apps, and it&#x27;s a good dopamine hit to immediately see your ide"
+          },
+          {
+            "by": "throw4847285",
+            "text": "We talk a lot about the risks of AI in schools, but those same risks apply in any learning environment. I recently started a new job and I find that AI is making it so much harder for me to onboard. I am adjusting to my role much slower than my peers who are u"
+          },
+          {
+            "by": "jasonjei",
+            "text": "I’m not using AI to eliminate thinking but to free me from the rote mundane code writing. AI is perfectly competent at writing code once a prototype is implemented. I do write initial proof of concept crude prototypes (not commented, hardcoded variables, etc),"
+          },
+          {
+            "by": "wayeq",
+            "text": "A counterpoint: Working in &#x2F;plan mode bouncing ideas back and forth with the AI, me catching its wrong assumptions, it filling in knowledge gaps with a clear explanation when needed, is very intellectually stimulating and I think is making me a better eng"
+          },
+          {
+            "by": "comrade1234",
+            "text": "For my current project I&#x27;m coding every day in Java, ruby, and JavaScript. I waste a lot of tokens doing what used to be simple google searches for language differences since I mix up things like the null-safe operator ruby vs jscript or what is the conti"
+          },
+          {
+            "by": "daemonk",
+            "text": "I am getting the exact opposite experience. But it is probably because I am in a domain where code&#x2F;software is a tool, not the product. I find myself learning exponentially faster and more. For example, I am working with spectroscopy hardware currently (r"
+          },
+          {
+            "by": "syl5x",
+            "text": "I feel that few will have the privilege to have the time to write code by hand. And let&#x27;s actually see what we are actually writing, most of the time for me its nothing novel, nothing fancy its the same old create a backend for X, fix some simple bug and "
+          },
+          {
+            "by": "alasano",
+            "text": "The main thing that was dumbing me down (and burning me out) was having to babysit LLMs on anything except basic tasks if I care about code quality&#x2F;structure&#x2F;maintainability. I love coding, it always felt like Legos for adults. Not that Legos aren&#x"
+          },
+          {
+            "by": "gavinh",
+            "text": "When I work with Claude to plan a feature and then review Claude&#x27;s implementation, I don&#x27;t understand the feature as well those I developed without AI assistance. I don&#x27;t recall details of the feature&#x27;s behavior as well, even days later. I "
+          },
+          {
+            "by": "nancyminusone",
+            "text": "Computers read my code, so I don&#x27;t mind upsetting their feelings. But why would anyone use AI to write documents or articles? Do you really respect your recipients so little that you can&#x27;t be bothered to share your own thoughts? I might as well get a"
+          },
+          {
+            "by": "singpolyma3",
+            "text": "I don&#x27;t understand how one even uses &quot;AI to write&quot;. Writing is the act of taking something that&#x27;s been burning in my head for a time and emitting it for others. The LLM doesn&#x27;t know what&#x27;s in my head and therefore cannot write it."
+          },
+          {
+            "by": "WalterBright",
+            "text": "Well, James, forgive me for being so inquisitive; but during the past few weeks, I’ve wondered whether you might be having some second thoughts about the mission."
+          },
+          {
+            "by": "KevinMS",
+            "text": "Since I&#x27;ve never touched AI except for google search results I feel like I&#x27;m in a sci-fi show like Pluribus"
+          },
+          {
+            "by": "DParida08",
+            "text": "The day AI platforms suffer a massive and prolonged outage, it’ll trigger absolute panic and chaos. In many ways we are sacrificing a part of our creativity and independent thinking, but the reality is there’s hardly any alternative now. In a world moving this"
+          },
+          {
+            "by": "HeinrichAQS",
+            "text": "Understand you 100% - thats why I force myself to study maths as a &quot;hobby&quot; at a remote university. Its completly useless these days since I will probably never reach a level where I am better than current frontier models - but it sharpens my own mind"
+          },
+          {
+            "by": "jkkola",
+            "text": "I&#x27;m a data analyst and a bit of a data engineer,which comes with the territory. I maintain some unholy pipelines that I wrote a few years back and they were due for refactoring for a long time. I do the AI-fueled refactoring in the most basic way - paste "
+          },
+          {
+            "by": "winrid",
+            "text": "I don&#x27;t feel this way. I have just been tackling more and larger problems, I think? This week one of many things for example is switching a multi-master KV store for tracking views on individual objects to tiered hyperloglogs that periodically merge. I co"
+          },
+          {
+            "by": "h14h",
+            "text": "I&#x27;m worse at producing code by hand, but feel smarter overall. I&#x27;ve learned an insane amount in a very short period of time, and have been engaging in much more challenging problems. Instead of &quot;what&#x27;s the right syntax for this for loop aga"
+          }
+        ]
+      },
+      {
+        "id": 48109270,
+        "title": "Bare-metal STM32: vector table, linker script, and startup code from scratch",
+        "url": "https://lmilz.dev/blog/2026/04/19/Embedded-Hello-World.html",
+        "score": 7,
+        "comments": 1,
+        "category_hint": "career",
+        "why_hot": "Career/startup discussion; reflects market sentiment or hiring trends.",
+        "article_summary": "When 'Close to the Hardware' Isn't Close Enough | Lars Milz About Me Blog April 19, 2026 embedded c stm32 When 'Close to the Hardware' Isn't Close Enough I recently bought myself an STM32 Nucleo microcontroller board to play around with. What fascinated me was how much more flexible things are at this level, how much more you can do yourself. With an ESP32 that’s not really the case, you’re always tied to ESP-IDF or some other framework. I started with a first simple example, the kind everyone knows and has done before: the famous Hello World . It’s simple, and that’s exactly why it’s useful. You don’t learn a language’s syntax with it, it’s too small for that. You learn how to actually use the language. What file format, how to compile, how to link, how to run the result. That’s why I always reach for Hello World first whenever I pick up a new language or a new environment. It forces me to run the whole build system once before I do anything else. Two things I learned this way that weren’t obvious to me at the start. First: you can learn a surprising amount from a simple example if you take it seriously. Second: simple is almost never really simple. Most things that look easy are easy because someone else hid the complexity for you. The embedded world has a Hello World too: the blinking LED. Most microcontroller boards have an onboard LED that you turn on and off at some frequency. Sounds trivial. And it is, if you use a Hardware Abstraction Layer (HAL) and some ready-made p",
+        "comment_highlights": null
+      },
+      {
+        "id": 48109677,
+        "title": "Wrap Go binaries in Python wheels",
+        "url": "https://github.com/simonw/go-to-wheel",
+        "score": 17,
+        "comments": 11,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - simonw/go-to-wheel: Wrap Go binaries in Python wheels · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise E",
+        "comment_highlights": null
+      },
+      {
+        "id": 48079933,
+        "title": "60fps Video on a CGA? – The GlyphBlaster",
+        "url": "https://martypc.blogspot.com/2026/05/60fps-video-on-cga-glyphblaster.html",
+        "score": 72,
+        "comments": 9,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "60fps Video on a CGA? - The GlyphBlaster Skip to main content Search This Blog Adventures in PC Emulation 60fps Video on a CGA? - The GlyphBlaster Get link Facebook X Pinterest Email Other Apps May 09, 2026 GlyphBlaster The GlyphBlaster in action - is that a cat in text mode?? &nbsp;There's a certain genre of retro-hardware hack that everyone recognizes is technically cheating, but has a certain audaciousness to it that merits respect regardless. I hope that this one falls into that category! A few years ago, I was impressed by TheRasteri's PiPU project - basically, a Raspberry Pi-powered mapper for the NES. Of course, it can play DOOM: The Raspberry Pi Pico and its RP2040 microcontroller have reinvigorated the retro-computing hobby quite a bit, enabling such devices as the PicoGUS , PicoMEM , PicoIDE , and most recently, the OneROM .&nbsp; It was the latter device that got me thinking. I recently used a OneROM to replace the font ROM on my CGA card, and subsequently I was able to replace IBM's classic 8x8 font with a custom one. Here's Frogblock by Polyducks: The \"Frogblock\" font loaded onto a OneROM replacing the CGA's font ROM The programmability of the OneROM intrigued me - especially its plugin system.&nbsp; But I wanted to understand more about the Pico in general, and learn how to program its powerful PIO mode . Since the Pico 2 is out, I've been primarily interested in using that, since it is faster and more capable. After successfully completing one Pico 2-based proj",
+        "comment_highlights": null
+      },
+      {
+        "id": 48093244,
+        "title": "Saying Goodbye to one line of APL",
+        "url": "https://homewithinnowhere.com/posts/2026-05-10-one-line.html",
+        "score": 78,
+        "comments": 24,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Saying Goodbye to one line of APL Home Within Nowhere Home About Archive Saying Goodbye to one line of APL Posted on May 10, 2026 by Kyle Croarkin Tags: apl , graphics , gamedev When was the last time one line of code made you realize how far you’ve come? For context, I’ve been writing a voxel game in Dyalog APL for nearly 7 months now. I started learning APL 9 months ago to be able to do this. Anything that is able to be done in APL I attempt to do purely in APL in a style befitting for APL. This includes Perlin noise terrain generation, converting internal representations of blocks into geometry to be rendered, frustum culling, collision and a lot more. It is currently able to reach &gt;60 FPS on my MacBook with a render distance of 12, with most of the bottlenecks being silly choices from my part as I learn APL while doing this. One line of code in this project that I greatly enjoy is the code that checks what faces of a chunk are exposed so that they can be selected and passed to the vertex buffer for the chunk. I like it so much that I even had a section dedicated to it in my talk at DYNA26 ↑[0]{edges∨solid&gt;⍵}¨0 1 2∘.{⍵⌽[⍺]solid}¯1 1 Very broad, what it does can be broken up like this. We have 2 3d boolean arrays solid and edges of size 16 128 16 that represent whether or not a solid block is found in each position. edges only checks if a solid block is found on the edges of the chunk. 0 1 2∘.{⍵⌽[⍺]solid}¯1 1 shifts the solid array in each of the 3 axes 0 1 2 back and",
+        "comment_highlights": null
+      },
+      {
+        "id": 48140648,
+        "title": "Best \"Brain\" for Agents Is Just Versioned Folders of Markdown Files",
+        "url": "https://extency.com/blog/markdown-versioned-folders-agent-brain-2026",
+        "score": 13,
+        "comments": 6,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The Best &quot;Brain&quot; for Business Agents Is Just Versioned Folders of Markdown Files | Extency Blog Services Blog Tools Why Extency Free Ebook Contact Book a Consultation Back to Blog Engineering The Best &quot;Brain&quot; for Business Agents Is Just Versioned Folders of Markdown Files The AI industry spent millions on vector databases and proprietary memory systems. The winning architecture is simpler: plain markdown files in versioned folders. Here is why GBrain, DiffMem, and a growing wave of production systems are converging on Git-backed markdown as the default agent brain. May 14, 2026 14 min read Extency Team Share For two years, engineers built complex vector databases and proprietary memory systems to give AI agents long-term memory. Then they looked at their production bills, their debugging nightmares, and their still-forgetful agents — and started over with something far simpler. Plain markdown files. In folders. Under Git. This article breaks down why versioned markdown folders are becoming the default brain for serious agent deployments, validated by GBrain (Y Combinator&#x27;s CEO&#x27;s open-sourced system), the DiffMem Hacker News project, enterprise comparison guides, and production community feedback. The Three Failure Modes That Kill Agent Deployments Every company deploying AI agents hits the same wall around month two. First, the session reset. The agent forgets yesterday&#x27;s conversation. By week three, users are retyping the same background pa",
+        "comment_highlights": null
+      },
+      {
+        "id": 48136992,
+        "title": "The conflation of money and things",
+        "url": "https://lithub.com/is-it-even-real-on-the-conflation-of-money-and-things/",
+        "score": 62,
+        "comments": 29,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Literary Hub &raquo; Is It Even Real? On the Conflation of Money and Things Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction and Poetry Short Story From the Novel Poem News and Culture History Science Politics Biography Memoir Food Technology Bookstores and Libraries Film and TV Travel Music Art and Photography The Hub Style Design Sports BUY A HAT Lit Hub Radio The Lit Hub Podcast Awakeners Fiction/Non/Fiction The Critic and Her Publics Windham-Campbell Prizes Podcast Memoir Nation Beyond the Page First Draft: A Dialogue on Writing Thresholds The Cosmic Library Culture Schlock Reading Lists The Best of the Decade Book Marks Best Reviewed Books CrimeReads True Crime The Daily Thrill Log In Craft and Criticism Fiction and Poetry News and Culture Lit Hub Radio Reading Lists Book Marks CrimeReads Log In Is It Even Real? On the Conflation of Money and Things J.W. Mason and Arjun Jayadev Consider How Money Reflects the Physical World Via University of Chicago Press J. W. Mason and Arjun Jayadev May 13, 2026 Walk down any street and look around. The buildings you see will vary in their construction: one, two, or many stories; made of wood, brick, concrete, and steel; heated with oil or gas, cooled with fans and air conditioners; with doors, windows, flat, or peaked roofs. You can give a physical description of them— casual for most of us, more detailed if you’re trained as an architect or engineer. If you could disassemble",
+        "comment_highlights": null
+      },
+      {
+        "id": 48099240,
+        "title": "London's Smallest Public Sculptures",
+        "url": "https://lookup.london/londons-smallest-public-sculptures/",
+        "score": 31,
+        "comments": 5,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "London&#039;s Smallest Public Sculptures London&#039;s Smallest Public Sculptures --> --> --> London Walking Tours See All Tours Belgravia Bankside Bermondsey Bloomsbury City Secret Gardens Deptford Feminist Jack the Ripper Fleet Street Kings Cross National Gallery Seven Dials Smithfield Soho Spitalfields The City Wapping Waterloo Private London Tours Gift Vouchers Guide Book About | Contact London Blog London Walking Tours See All Tours Belgravia Bankside Bermondsey Bloomsbury City Secret Gardens Deptford Feminist Jack the Ripper Fleet Street Kings Cross National Gallery Seven Dials Smithfield Soho Spitalfields The City Wapping Waterloo Private London Tours Gift Vouchers Guide Book About | Contact London Blog London&#8217;s Smallest Public Sculptures Posted on May 11, 2026 in Look Up London 0 Comments One of the greatest thrills of being a tour guide is knowing that you’re walking past something that 90% of Londoners have never noticed before. These are the eight smallest public sculptures you can find in London. Some are (relatively) famous but I’m hoping that one or two might inspire you to hunt them down yourself! My criteria for this entirely personal list was that they must be: Three dimensional (otherwise I would’ve included Ben Wilson’s Chewing Gum and certain fun mosaic pieces) Created as an artwork (not a functional symbol or plaque) Standalone (not part of the decoration of a building) Got any others to add? I would love to hear about them! 1. Philpot Lane Mice The",
+        "comment_highlights": null
+      },
+      {
+        "id": 48139704,
+        "title": "WinUI 3 Performance: A Leap Forward",
+        "url": "https://github.com/microsoft/microsoft-ui-xaml/discussions/11096",
+        "score": 74,
+        "comments": 60,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "WinUI 3 Performance: A Leap Forward · microsoft/microsoft-ui-xaml · Discussion #11096 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending C",
+        "comment_highlights": [
+          {
+            "by": "kristianp",
+            "text": "&gt; benchmarks (like this one: https:&#x2F;&#x2F;github.com&#x2F;Noemata&#x2F;XamlBenchmark ), WinUI 3 is currently measurably slower than both WPF and UWP. WPF is 20+ years old and even it is not native!!!. Older stuff is generally faster because it had to b"
+          },
+          {
+            "by": "tiffanyh",
+            "text": "I run macOS every day, and while I find Apple Silicon shockingly fast - I&#x27;m surprised at how shockingly slow Finder seems to be. This might be off topic, but wish Apple would focused on Finder performance (app loading, window refresh, etc) like this blog "
+          },
+          {
+            "by": "unixhero",
+            "text": "I have BEEN WAITING FOR the calculator (calc.exe) to launch in Windows 11. In my view Microsoft (again) lost its way with 11."
+          },
+          {
+            "by": "wiseowise",
+            "text": "Ironic how in supposedly tech company nobody gives a shit about doing great technical work unless it aligns with some VPs goals."
+          },
+          {
+            "by": "brokencode",
+            "text": "I seriously hope Microsoft consolidates all their Windows app dev on WinUI and invests heavily in making it great. I also wish that they’d make WinUI work on macOS as well similar to Avalonia, but I think they probably won’t."
+          },
+          {
+            "by": "giancarlostoro",
+            "text": "Will any of this translate to Windows programs like File Manager? Whatever their Image viewer is even called? For some ungodly reason, on my last remaining Windows Device, which is a Surface Book 2 (a Microsoft made laptop!) with very vanilla configurations, e"
+          },
+          {
+            "by": "cosmic_cheese",
+            "text": "Nice to see. I wonder how feasible it would be to build a plain C interface… would be nice for building bindings to other languages."
+          },
+          {
+            "by": "the__alchemist",
+            "text": "As someone who builds desktop apps: Is there any reason I would use this over something cross-platform like EGUI? I am kind of over software being OS-specific; this is one of the biggest compatibility mistakes we&#x27;ve made. Along with the related process of"
+          },
+          {
+            "by": "hyperhello",
+            "text": "The user experience is the way it is because they want it to be. This is at best optimizing one small component which as we all know can be done infinitely well and still have a negligible effect on the use of the system."
+          },
+          {
+            "by": "DASD",
+            "text": "How about F# support? Until then, happy to support Avalonia."
+          },
+          {
+            "by": "LoganDark",
+            "text": "The user experience of WinUI 3 isn&#x27;t the worst I&#x27;ve seen but the developer experience is absolutely awful. I tried to make a simple app with it and the number of hacks I needed to get it to look and feel the way I almost wanted was horrible. And the "
+          },
+          {
+            "by": "solarkraft",
+            "text": "Wow, they are actually starting to care about quality. Color me surprised."
+          },
+          {
+            "by": "DParida08",
+            "text": "Not sure how much will this idea fly in today&#x27;s time. I would love to be proven wrong though."
+          }
+        ]
+      },
+      {
+        "id": 48084012,
+        "title": "Leaving the Physical World",
+        "url": "https://www.eff.org/pages/leaving-physical-world",
+        "score": 192,
+        "comments": 82,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Leaving the Physical World | Electronic Frontier Foundation Skip to main content About Contact Press People Opportunities EFF&#039;s 35th Anniversary Issues Free Speech Privacy Creativity and Innovation Transparency International Security Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcast Annual Reports Take Action Action Center Electronic Frontier Alliance Volunteer Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Donate Donate to EFF Giving Societies Shop Sponsorships Other Ways to Give Membership FAQ Donate Donate to EFF Shop Other Ways to Give Email updates on news, actions, and events in your area. Join EFF Lists Copyright (CC BY) Trademark Privacy Policy Thanks Electronic Frontier Foundation Donate If you use technology, this fight is yours. Donate today Electronic Frontier Foundation About Contact Press People Opportunities EFF&#039;s 35th Anniversary Issues Free Speech Privacy Creativity and Innovation Transparency International Security Our Work Deeplinks Blog Press Releases Events Legal Cases Whitepapers Podcast Annual Reports Take Action Action Center Electronic Frontier Alliance Volunteer Tools Privacy Badger Surveillance Self-Defense Certbot Atlas of Surveillance Cover Your Tracks Street Level Surveillance apkeep Donate Donate to EFF Giving Societies Shop Sponsorships Other Ways to Give Membership FAQ Donate Donate to EFF Shop Other Ways to Give Leaving the P",
+        "comment_highlights": [
+          {
+            "by": "jdw64",
+            "text": "Reading this essay brought tears to my eyes. To me, the physical world is a realm permitted only to those with wealth. The author beautifully romanticizes the evaporation of tangible labor, but the physical labor I actually experienced meant unpaid, stolen wag"
+          },
+          {
+            "by": "cb321",
+            "text": "I think this was written in 1994 for this conference https:&#x2F;&#x2F;seclists.org&#x2F;interesting-people&#x2F;1994&#x2F;Mar&#x2F;64 , but I&#x27;m not 100% sure. It refers to &quot;last summer&#x27;s coup in the Soviet Union&quot; which may also date it. Ma"
+          },
+          {
+            "by": "gricardo99",
+            "text": "An incredible, lucid, and beautiful depiction of the burgeoning, inchoate world of cyberspace at the time — voicing an anxiety that echoes even louder today: We humans would be liberated into an Elysian condition of permanent leisure. We’d have nothing to do b"
+          },
+          {
+            "by": "davidwritesbugs",
+            "text": "His &quot;A Declaration of the Independence of Cyberspace&quot; was the most unintentionally comical thing I read at the time. Like his lyrics and prose it was woefully pretentious &amp; leaden. I also met him once. A more unpleasant, up his own ass, person I "
+          },
+          {
+            "by": "dzonga",
+            "text": "&gt; bytes which no one can chew, architecture no one can inhabit, and software which keeps no cold winter wind from anyone&#x27;s bodies. this hits hard. hopefully we can start making physical stuff again &amp; teaching kids how to do so."
+          },
+          {
+            "by": "aidenn0",
+            "text": "&gt; I believe most of this activity is a giant make-work project designed to keep us out of trouble and on the payroll while Asian robots churn out most of the physical things we really need... Asian, yes. Robots, no (or at least not in the sense of the sci-f"
+          },
+          {
+            "by": "layer8",
+            "text": "(1992) (See https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48136937 .)"
+          },
+          {
+            "by": "bpoyner",
+            "text": "He&#x27;s describing my great grandmother&#x27;s childhood in territorial Arizona, down to the riding a horse to a one-room school house. Her family were all tough ranchers living a lifestyle most of us can&#x27;t really comprehend."
+          },
+          {
+            "by": "ynac",
+            "text": "Anyone see a link to the audio &#x2F; video, or better transcription? The text seems to have been transcribed and the typos &#x2F; mistakes are splitting the intended meanings of things. Some of which seem to be causing misunderstandings in here. (Dialup for t"
+          },
+          {
+            "by": "RetroTechie",
+            "text": "Insightful, funny, colorful, visionary in places &amp; not a speck of naivety in sight. Well worth the read. &quot;(..) tending to favor the creation of small, fast-moving, short-lived adhocracies...digitized hunter-gatherer groups roaming the steppes of Cyber"
+          },
+          {
+            "by": "mohamedkoubaa",
+            "text": "Masterclass in navel gazing"
+          },
+          {
+            "by": "deepsun",
+            "text": "There&#x27;s no date in it. What it was written?"
+          },
+          {
+            "by": "pwillia7",
+            "text": "Reminds me of Wendell Berry or even Cormac Mccarthy&#x27;s writing. Great piece."
+          },
+          {
+            "by": "hirvi74",
+            "text": "I lived a similar life to this growing up in TN about 16 years or so ago. I didn&#x27;t necessarily enjoy the labor, the loneliness, etc.. Though, as I age I become more and more thankful for the environment I grew up in. Wrangling horses, dropping trees in th"
+          },
+          {
+            "by": "karel-3d",
+            "text": "(1998) edit: so 1994"
+          },
+          {
+            "by": "actionfromafar",
+            "text": "&quot;While these electronic thickets may afford the best guerrilla jungle that ever harbored discontents, certain kinds of technological development could render it as flat and barren of hiding places as the salt deserts of the American West.&quot;"
+          },
+          {
+            "by": "RickJWagner",
+            "text": "“Here, guns were part of the furniture, and my taciturn neighbors used them on one another with heart-breaking regularity. These domestic killers rarely went to jail, since they could usually remind the jury that the deceased, whom most of the jurors knew, nee"
+          }
+        ]
+      },
+      {
+        "id": 48126241,
+        "title": "EditLens: Quantifying the extent of AI editing in text (2025)",
+        "url": "https://arxiv.org/abs/2510.03154",
+        "score": 25,
+        "comments": 5,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "[2510.03154] EditLens: Quantifying the Extent of AI Editing in Text Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate &gt; cs &gt; arXiv:2510.03154 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search open search GO open navigation menu quick links Login Help Pages About --> Computer Science > Computation and Language arXiv:2510.03154 (cs) [Submitted on 3 Oct 2025] Title: EditLens: Quantifying the Extent of AI Editing in Text Authors: Katherine Thai , Bradley Emi , Elyas Masrour , Mohit Iyyer View a PDF of the paper titled EditLens: Quantifying the Extent of AI Editing in Text, by Katherine Thai and 3 other authors View PDF HTML (experimental) Abstract: A significant proportion of queries to large language models ask them to edit user-provided text, rather than generate new text from scratch. While previous work focuses on detecting fully AI-generated text, we demonstrate that AI-edited text is distinguishable from human-written and AI-generated text. First, we propose using lightweight similarity metrics to quantify the magnitude of AI editing present in a text given the original human-written text and validate these metrics with human annotators. Using these similarity metrics as intermedi",
+        "comment_highlights": null
+      },
+      {
+        "id": 48141234,
+        "title": "Claude for Legal",
+        "url": "https://github.com/anthropics/claude-for-legal",
+        "score": 62,
+        "comments": 64,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collection",
+        "comment_highlights": [
+          {
+            "by": "droidjj",
+            "text": "As a lawyer, I&#x27;m excited about this, but there are two roadblocks that I&#x27;m not sure how Anthropic will navigate: (1) For non-lawyers who use these skills&#x2F;connectors&#x2F;whatchamacallits to try to get legal advice, their communications are not p"
+          },
+          {
+            "by": "unstyledcontent",
+            "text": "Just remember that your AI chat history is not protected like attorney client privilege and can be used as evidence against you in court. If you talk to a lawyer and they use AI, those chats are privileged."
+          },
+          {
+            "by": "Shank",
+            "text": "It seems like they ripped out Lexis, which is probably one of the most important tools for lawyers: https:&#x2F;&#x2F;github.com&#x2F;anthropics&#x2F;claude-for-legal&#x2F;pull&#x2F;5 ."
+          },
+          {
+            "by": "ricardobeat",
+            "text": "&gt; for the legal workflows we see most I&#x27;m a bit bothered by this line. Does it mean this is based on customer&#x27;s sessions? Are they entitled to build knowledge bases for every profession, topic and workflow in the world using customer data?"
+          },
+          {
+            "by": "lostathome",
+            "text": "I wonder what clients would think if they discovered their lawyer uses a chatbot with their confidential story. Even with redaction, patterns still emerge. Certainly I wouldn&#x27;t be happy in any case. I see this as a strong case for private AI, or an in-hou"
+          },
+          {
+            "by": "TrackerFF",
+            "text": "This is why I think many of the current application-layer AI startup valuations are a bit iffy. When the big AI companies like Anthropic start expanding their vertical products, the calculus changes. I&#x27;m just wondering how committed they&#x27;ll be - I gu"
+          },
+          {
+            "by": "IceHegel",
+            "text": "This seems like a shot across the bow for all large Claude API customers, which I&#x27;m sure they saw coming. But still, a TSMC style pure play model provider would win huge business in the space given how many application companies are being eaten by model c"
+          },
+          {
+            "by": "awongh",
+            "text": "How does this compare to the other legal tech ai startup products? Harvey is valued at $11b"
+          },
+          {
+            "by": "vb-8448",
+            "text": "I guess at some point we will have lawyers, attorneys and judges using this stuff ... at the point lawyers will become kinda &quot;seo&quot;&#x2F;&quot;copywriter&quot; experts on how to better trick the others LLM."
+          },
+          {
+            "by": "pawelkomarnicki",
+            "text": "It will be hilarious to see this one play out because ChatGPT and Perplexity already do wonders for small-claim issues like tenancy laws, various personal letters, etc."
+          },
+          {
+            "by": "OkWing99",
+            "text": "Anthropics New Playbook: `&#x2F;loop 2days &#x2F;create-new-{insert-industry}-md-files` This is only for PR. No one checks what&#x27;s in those docs, or if these are real, valid or ethical. The goal here is for all news outlets to pick them up. You&#x27;re not"
+          },
+          {
+            "by": "ares623",
+            "text": "Does anyone find it weird that Anthropic&#x27;s Github org is `anthropics` (with an &#x27;s&#x27;) and the `anthropic` username is owned by some random dude in Australia? Imagine the shenanigans someone can achieve with that user."
+          },
+          {
+            "by": "syngrog66",
+            "text": "if ever there was a domain for an LLM to be sloppy, reckless or emit lies or hallucinations it would be related to law advice and legal documents er, wait"
+          },
+          {
+            "by": "arbirk",
+            "text": "Would use it if it wasn&#x27;t supporting the space wanker"
+          }
+        ]
+      },
+      {
+        "id": 48142038,
+        "title": "Fired hacker twins forget to end Teams recording, capture own crimes",
+        "url": "https://arstechnica.com/tech-policy/2026/05/fired-hacker-twins-forget-to-end-teams-recording-capture-own-crimes/",
+        "score": 20,
+        "comments": 2,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Fired hacker twins forget to end Teams recording, capture own crimes - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Own goal Fired hacker twins forget to end Teams recording, capture own crimes One little mystery—solved. Nate Anderson – May 14, 2026 5:02 pm | 33 Credit: Getty Images Credit: Getty Images Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Minimize to nav Perhaps you remember Muneeb and Sohaib Akhter, the 34-year-old twin brothers we profiled earlier this week . Although they had the tech chops to commit years of petty crimes (like stealing airline miles), what landed them in truly serious trouble was deleting 96 US government databases in the hour after both were fired last year by the same federal IT contractor, Opexus. (Opexus had just found out that both brothers had previously been in prison for cyberfraud.) The pair come off less as cybercriminal masterminds than as galumphing galoots —that is to say, a pair of bumbling oafs who thought t",
+        "comment_highlights": null
+      },
+      {
+        "id": 48141774,
+        "title": "PyTorch simulator refutes an 18-year-old quantum theorem",
+        "url": "https://github.com/lizbeth307/quantum-superactivation-refutation",
+        "score": 4,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - lizbeth307/quantum-superactivation-refutation · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRIS",
+        "comment_highlights": null
+      },
+      {
+        "id": 48142251,
+        "title": "'Millions' of pounds saved by replacing Palantir tech in refugee system",
+        "url": "https://www.bbc.com/news/articles/c2l2j1lxdk5o",
+        "score": 69,
+        "comments": 18,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "UK saves &#x27;millions&#x27; of pounds by ditching Palantir for refugee system Skip to content British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Home News US &amp; Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Culture Film &amp; TV Music Art &amp; Design Style Books Entertainment News Arts Arts in Motion Travel Destinations Africa Antarctica Asia Australia and Pacific Caribbean &amp; Bermuda Central America Europe Middle East North America South America World’s Table Culture &amp; Experiences Adventures The SpeciaList Earth Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video BBC Maestro Discover the World Live Live News Live Sport Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters &#x27;Millions&#x27; of pounds saved by replacing Palantir tech in refugee system 3 hours ago Share Save Add as preferred on Google Chris Vallance Senior technology reporter Getty Images Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for",
+        "comment_highlights": null
+      },
+      {
+        "id": 48141060,
+        "title": "Minimal Structures",
+        "url": "https://chefcinnamon.github.io/memo/posts/minimal-structures/",
+        "score": 8,
+        "comments": 1,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "minimal structures | Memo Box / Memo Box / Posts / minimal structures minimal structures I build organic minimal structures. organic means I let the structure grow, change and adapt by the purpose and usage. I try to build tidy, minimal mvp rather than auto scalable kubernetes infra at the start. I try to fix or improve a very specific, narrow painpoint rather than all in one, broad use cases. I try to be the best, in the list of &ldquo;that specific feature&rdquo; providers, not one of them, or one of the good ones. I am more interested in niche areas. Niche means the idea is more unique with a better outcome than legacy approaches. Crowded category is a signal of higher competition. Competition without having a 10x better solution means probably you are not gonna make it. I try to put less than one week for building mvp and one week for making the first $ from it. 2026-05-14&nbsp; ../",
+        "comment_highlights": null
+      },
+      {
+        "id": 48139142,
+        "title": "OpenData Vector: MIT-Licensed Vector Search on Object Storage",
+        "url": "https://www.opendata.dev/blog/introducing-vector/",
+        "score": 30,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "OpenData Vector: MIT-licensed Vector Search on Object Storage | OpenData home blog docs 148 286 Contents Stateless vector search Vector’s stateless architecture Simple enough to DIY deploy Tradeoffs Benchmarks What’s next OpenData Vector: MIT-licensed Vector Search on Object Storage 2026-05-14 &middot; Rohan Desai vector slatedb search announcement OpenData Vector fills the gap between running pgvector and paying a vendor many multiples of hardware costs to operate a search database for you. MIT-licensed and built on SlateDB , OpenData Vector is a stateless, durable, and highly-available search engine that runs anywhere with access to Object Storage. It is designed to be simple enough to operate yourself, and efficient enough to serve 100M vectors for roughly $350/mo. Stateless vector search There’s growing consensus in the database community that object storage is a “good thing”. The 99.999999999% durability SLAs, the cost efficiency (1/4 storage cost, $0 cross-AZ networking), and the strong consistency are all distributed system nightmares that are solved by object storage. Because of this, over the last decade online systems have steadily increased their dependency on object storage. The first generation systems were tiered , the second were fully disaggregated and the third (and current) generation are stateless . ┏━Gen 1: Tiered Storage━━━━━━━━━━┓ ┏━Gen 2: Disaggregated━━━━━━━━━━━┓ ┃ ┃█ ┃ ┃█ ┃ ╭──────────────────────╮ ┃█ ┃ ╭──────────────────────╮ ┃█ ┃ │ Query │ ┃█ ┃ │ Q",
+        "comment_highlights": null
+      },
+      {
+        "id": 48099688,
+        "title": "The Tree House: A voyage to the source of a backyard dream",
+        "url": "https://www.laphamsquarterly.org/roundtable/tree-house",
+        "score": 66,
+        "comments": 12,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The Tree House | Lapham’s Quarterly Jump to navigation Search form Search My Account Donate Lapham&rsquo;s Quarterly Search form Search --> About Magazine Current Issue All Issues Preamble Essays Voices in Time Contributors Charts &amp; Graphs Conversations Miscellany Maps Quotes Blogs Roundtable Insight and analysis from renowned writers and thinkers. Déjà Vu Is history repeating itself? the Déja Vu blog investigates... Store Podcast Donate Events Subscribe Now Roundtable The Tree House A voyage to the source of a backyard dream. By&nbsp;Robert Moor Monday, April 13, 2026 A Korowai Tree House , by Remi Morawski, 2018. W hen I imagine a life of pure freedom, I tend to picture a tree house. This is an image pulled directly from my childhood in the suburbs of Chicago. But the tree house I envision is not the slapped-together pile of plywood and two-by-fours one usually thinks of when one thinks of a “tree house.” It is a spacious, elegant, gently decaying structure in a far-off jungle. I first saw this tree house in an issue of National Geographic when I was about twelve years old. The cover of that month’s issue featured an image of a mountaineer rappelling down a thin rope into a blue-black tunnel of glacial ice, which normally would have enthralled me. But scanning the table of contents on the right-hand margin, my eye was drawn away from the glacier to another story. The title read, simply, “People of the Trees.” I turned to page 34. The article described a tribe called the",
+        "comment_highlights": null
+      },
+      {
+        "id": 48142404,
+        "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+        "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+        "score": 8,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "mimalloc: A new, high-performance, scalable memory allocator for the modern era - Microsoft Research Skip to main content Research Publications Code &amp; data People Microsoft Research blog Artificial intelligence Audio &amp; acoustics Computer vision Graphics &amp; multimedia Human-computer interaction Human language technologies Search &amp; information retrieval Data platforms and analytics Hardware &amp; devices Programming languages &amp; software engineering Quantum computing Security, privacy &amp; cryptography Systems &amp; networking Algorithms Mathematics Ecology &amp; environment Economics Medical, health &amp; genomics Social sciences Technology for emerging markets Academic programs Events &amp; academic conferences Microsoft Research Forum Behind the Tech podcast Microsoft Research blog Microsoft Research Forum Microsoft Research podcast About Microsoft Research Careers &amp; internships People Emeritus program News &amp; awards Microsoft Research newsletter Africa AI for Science AI Frontiers Asia-Pacific Cambridge Health Futures India Montreal New England New York City Redmond Applied Sciences Mixed Reality &amp; AI - Cambridge Mixed Reality &amp; AI - Zurich Register: Research Forum Microsoft Security Azure Dynamics 365 Microsoft 365 Microsoft Teams Windows 365 Microsoft AI Azure Space Mixed reality Microsoft HoloLens Microsoft Viva Quantum computing Sustainability Education Automotive Financial services Government Healthcare Manufacturing Retail Find a partn",
+        "comment_highlights": null
+      },
+      {
+        "id": 48130679,
+        "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+        "url": "https://github.com/DrCatHicks/learning-opportunities",
+        "score": 217,
+        "comments": 46,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - DrCatHicks/learning-opportunities: A Claude or Codex skill for deliberate skill development during AI-assisted coding · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archi",
+        "comment_highlights": [
+          {
+            "by": "neuralkoi",
+            "text": "I&#x27;m not familiar with Skills, but looking at the repo I find the amount of decorative code&#x2F;text as overkill for what amounts to just the following prompt in a bash script (yikes) executing after a commit is run: {&quot;hookSpecificOutput&quot;:{&quot"
+          },
+          {
+            "by": "skiing_crawling",
+            "text": "I was surprised to learn that some skills don&#x27;t even describe exactly what steps to take or what to do. They just kind of give a motivational speech which I guess primes the model to output better text for a certain task. https:&#x2F;&#x2F;github.com&#x2F"
+          },
+          {
+            "by": "luodaint",
+            "text": "There is an iterative kind which applies specifically to the code-writing agents. Accepting the output of your coding assistant without checking whether it is correct will cause the loss of knowledge about your codebase. Context files, such as CLAUDE.md, migra"
+          },
+          {
+            "by": "zihotki",
+            "text": "No benchmarks and evals present, how do you know it produces better result than &#x2F;create-skill ? Naive testing doesn&#x27;t provide any confidence"
+          },
+          {
+            "by": "rglover",
+            "text": "For those who haven&#x27;t gone down this rabbit hole like me yet: skills are just structured markdown files that describe how to handle a narrow-band task. So, if I write my API endpoints a certain way, the skill would describe that specific process. Later, a"
+          },
+          {
+            "by": "aledevv",
+            "text": "What exactly is the &quot;adaptive dynamic textbook approach&quot; ? Examples? &gt; Generation effect: Accepting generated code and decreasing generating one&#x27;s own code can skip the active processing that builds understanding. Holy truth."
+          },
+          {
+            "by": "aplthrowaway67",
+            "text": "I will never understand why someone would go through all the trouble of developing this cool idea, without bothering to link a demo or include sample output. I see this every day on HN. So the only way I can see what this skill actually looks like is to downlo"
+          },
+          {
+            "by": "areoform",
+            "text": "I really love the idea, I&#x27;ve had Claude make textbooks for me on the fly using open source textbooks and documentation. Is it possible to extend this skill to more generalized areas of learning &#x2F; application? Or, is it domain specific to code?"
+          },
+          {
+            "by": "esalman",
+            "text": "Interesting responses here. I think most are missing the point. For me, the main lesson here is seeing and learning from how others are using skills. Yesterday I was watching a Matt Pocock class on using agents and he was also showing off skills, such as how h"
+          },
+          {
+            "by": "Juvination",
+            "text": "This is a great idea, I&#x27;ve been exploring with it this morning. I&#x27;ve really been feeling the brain drain from using AI to much, and while this isn&#x27;t the fix. I think a few exercises a day can really help."
+          },
+          {
+            "by": "ruguo",
+            "text": "Just tried this skill, pretty interesting. The Q&amp;A at the end actually went surprisingly deep."
+          },
+          {
+            "by": "romanoonhn",
+            "text": "Looks interesting! I know it&#x27;s easy to setup and test it but I&#x27;m on mobile current so I think it&#x27;d be great if there was full-interaction example to better understand how it works."
+          },
+          {
+            "by": "itsafarqueue",
+            "text": "Hey bro I heard you like skills so I put a skill in your oh whatever"
+          },
+          {
+            "by": "Mashimo",
+            "text": "Mhh, interesting. I want to learn Java spring, and probably let ai help me &#x2F; quiz me. I will take a look into the skills for inspiration."
+          }
+        ]
+      }
+    ],
+    "show_hn": [
+      {
+        "id": 48141902,
+        "title": "Show HN: GridTravel- A community based travel app for users to share routes",
+        "url": "https://www.gridtravel.app",
+        "score": 6,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
+        "article_summary": "GridTravel — Guided by locals, designed for you GridTravel About Profile Discover Insights Guidance Features Guided By Locals, Designed For You Transform your trip into a story. From secret alleyway eats to breathtaking vistas, we build the map so you can find the soul of the city. The city, walked by people who live there. GridTravel is a community of locals making the walks they take their friends on into turn-by-turn navigation — with the tips you&#x27;d only know if you knew someone. Your profile, your progress. Get a complete overview of your travel journey — from recently covered routes to downloaded routes — all in one place. 1 Personal Overview Access your profile, routes, and essential details in one clean view. 2 Activity Insights Track your saved routes, downloaded routes, and overall progress in real time. 3 Performance Stats Mileage, cities explored, and real-time progress across every route you&#x27;ve conquered. Discover Your Next Destination Explore trending spots and hidden gems across the globe with our interactive map. Routes crafted by local explorers Filter by foodie, historical, scenic &amp; more Map and list views, side by side Follow paths from your favorite users Get Full Route Insights Explore the full route with stops, tips, and navigation — preview, follow, or download for offline use. Preview every stop before you go Insider tips for each location Download for offline access anywhere Save to follow another day Real-Time Guidance Begin your journey",
+        "comment_highlights": null
+      },
+      {
+        "id": 48133561,
+        "title": "Show HN: Running the second public ODoH relay",
+        "url": "https://numa.rs/blog/posts/odoh-anonymous-dns-without-an-account.html",
+        "score": 112,
+        "comments": 40,
+        "category_hint": "other",
+        "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
+        "article_summary": "Anonymous DNS without an account: shipping ODoH client + relay in one Rust binary — Numa Numa / Blog Anonymous DNS without an account: shipping ODoH client + relay in one Rust binary 2026-04-22 · Razvan Dimescu If you run Pi-hole, AdGuard Home, or any forwarding resolver, every one of your queries goes through one operator who sees both your IP address and the question. If you switch to a recursive resolver like Unbound, your IP gets exposed to every authoritative nameserver instead - .com learns you exist, google.com learns you exist, and so does every CDN edge in the chain. DoH and DoT encrypt the transport ; they don’t change who learns what . Apple’s iCloud Private Relay solved this for Apple users by splitting the path: an ingress proxy sees your IP but not the request, an egress proxy sees the request but not your IP. DNS gets anonymized system-wide, but only with iCloud+ ($0.99/mo), only on iOS/macOS, and only through Apple-curated egress partners. NextDNS, Cloudflare for Families, Quad9 - all the privacy-focused DNS services - require accounts, telemetry, or both. The self-hosted audience effectively had no anonymous-DNS option without an account or a platform lock-in. Hops that see {your IP, your question} {1, 1} → {disjoint} relay sees IP, target sees question Crypto primitives all audited odoh-rs (HPKE) · rustls (TLS) — zero custom Account required none single binary, MIT, default config works ODoH (RFC 9230, “Oblivious DNS over HTTPS”) is the IETF protocol that do",
+        "comment_highlights": null
+      }
+    ]
+  }
+}
