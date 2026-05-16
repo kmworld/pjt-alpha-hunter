@@ -1,0 +1,389 @@
+{
+  "source": "github_trending",
+  "date": "2026-05-15",
+  "period": "daily",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 8636,
+      "recent_stars": 1272,
+      "forks": 712,
+      "topics": [
+        "intelligence",
+        "private",
+        "extremely"
+      ],
+      "owner_type": "org",
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1272 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "go",
+        "react",
+        "intelligence",
+        "private",
+        "extremely"
+      ]
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 192417,
+      "recent_stars": 1646,
+      "forks": 17110,
+      "topics": [
+        "agentic",
+        "skills",
+        "framework",
+        "software",
+        "development"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "An agentic skills framework & software development methodology that works.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1646 stars today.",
+      "architecture_tech": [
+        "Shell",
+        "go",
+        "agentic",
+        "skills",
+        "framework",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 22239,
+      "recent_stars": 643,
+      "forks": 2410,
+      "topics": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode",
+        "clinical-research"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +643 stars today.",
+      "architecture_tech": [
+        "Python",
+        "python",
+        "go",
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode"
+      ]
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 5786,
+      "recent_stars": 712,
+      "forks": 571,
+      "topics": [
+        "cpp",
+        "csharp",
+        "go",
+        "ios",
+        "java",
+        "lightweight",
+        "nodejs",
+        "on-device"
+      ],
+      "owner_type": "org",
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "why_people_care": "Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining +712 stars today.",
+      "architecture_tech": [
+        "Swift",
+        "python",
+        "go",
+        "tpu",
+        "cpp",
+        "csharp",
+        "ios",
+        "java",
+        "lightweight",
+        "nodejs"
+      ]
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 57105,
+      "recent_stars": 1865,
+      "forks": 7504,
+      "topics": [
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1865 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ]
+    },
+    {
+      "repo": "influxdata/telegraf",
+      "url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17340,
+      "recent_stars": 213,
+      "forks": 5801,
+      "topics": [
+        "golang",
+        "hacktoberfest",
+        "influxdb",
+        "json",
+        "kafka",
+        "logs",
+        "metrics",
+        "modbus"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +213 stars today.",
+      "architecture_tech": [
+        "Go",
+        "go",
+        "golang",
+        "docker",
+        "tpu",
+        "hacktoberfest",
+        "influxdb",
+        "json",
+        "kafka",
+        "logs"
+      ]
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 134816,
+      "recent_stars": 625,
+      "forks": 15908,
+      "topics": [
+        "agent-skills"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Public repository for Agent Skills",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +625 stars today.",
+      "architecture_tech": [
+        "Python",
+        "mcp",
+        "agent-skills"
+      ]
+    },
+    {
+      "repo": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+      "language": "TypeScript",
+      "stars": 20790,
+      "recent_stars": 68,
+      "forks": 3392,
+      "topics": [
+        "mcp",
+        "mcp-server",
+        "n8n",
+        "workflows"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +68 stars today.",
+      "architecture_tech": [
+        "TypeScript",
+        "mcp",
+        "mcp-server",
+        "n8n",
+        "workflows"
+      ]
+    },
+    {
+      "repo": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "stars": 1051,
+      "recent_stars": 305,
+      "forks": 257,
+      "topics": [
+        "agents",
+        "llm",
+        "rag",
+        "skills",
+        "video-analytics",
+        "video-search",
+        "vlm"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +305 stars today.",
+      "architecture_tech": [
+        "Python",
+        "gpu",
+        "model context protocol",
+        "agents",
+        "llm",
+        "rag",
+        "skills",
+        "video-analytics",
+        "video-search",
+        "vlm"
+      ]
+    },
+    {
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 90521,
+      "recent_stars": 289,
+      "forks": 4501,
+      "topics": [
+        "bun",
+        "bundler",
+        "javascript",
+        "javascriptcore",
+        "jsx",
+        "nodejs",
+        "npm",
+        "react"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "why_people_care": "AI/ML workloads are pushing infra to the limit — this tool helps and is pulling +289 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "typescript",
+        "javascript",
+        "go",
+        "react",
+        "docker",
+        "bun",
+        "bundler",
+        "javascriptcore",
+        "jsx"
+      ]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 84331,
+      "recent_stars": 3155,
+      "forks": 7309,
+      "topics": [
+        "skills",
+        "engineers",
+        "straight",
+        "claude",
+        "directory"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Skills for Real Engineers. Straight from my .claude directory.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +3155 stars today.",
+      "architecture_tech": [
+        "Shell",
+        "typescript",
+        "go",
+        "skills",
+        "engineers",
+        "straight",
+        "claude",
+        "directory"
+      ]
+    },
+    {
+      "repo": "joeseesun/qiaomu-anything-to-notebooklm",
+      "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "language": "Python",
+      "stars": 2513,
+      "recent_stars": 465,
+      "forks": 262,
+      "topics": [
+        "automation",
+        "claude",
+        "mcp",
+        "notebooklm",
+        "skill"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": true,
+      "repo_summary": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +465 stars today.",
+      "architecture_tech": [
+        "Python",
+        "python",
+        "go",
+        "mcp",
+        "automation",
+        "claude",
+        "notebooklm",
+        "skill"
+      ]
+    }
+  ]
+}

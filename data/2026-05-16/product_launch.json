@@ -1,0 +1,255 @@
+{
+  "source": "product_launch",
+  "date": "2026-05-16",
+  "product_hunt": [
+    {
+      "name": "Loova Agents",
+      "tagline": "Your AI director for creating cinematic videos with ease",
+      "votes": 235,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/loova-agents",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Agentmemory",
+      "tagline": "Persistent memory for Claude Code, Codex & coding agents",
+      "votes": 162,
+      "tags": [
+        "AI",
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/agent-memory-dev",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Raybeam",
+      "tagline": "A better way to screen share on macOS",
+      "votes": 126,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/raybeam",
+      "tech_domain": "other",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "Gemini 3.1 Flash-Lite",
+      "tagline": "Lightweight Gemini model for high-volume AI pipelines",
+      "votes": 125,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/gemini-3-1-flash-lite-2",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "ChatGPT for Personal Finance",
+      "tagline": "Personal finance guidance powered by ChatGPT",
+      "votes": 119,
+      "tags": [
+        "AI",
+        "Design",
+        "Finance",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/openai",
+      "tech_domain": "ai-agent",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "Wring",
+      "tagline": "Developer tools, one menu click away.",
+      "votes": 103,
+      "tags": [
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/wring",
+      "tech_domain": "devtools",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "M5Stack PaperColor",
+      "tagline": "4-inch color E-ink dev board with ESP32 and audio I/O",
+      "votes": 101,
+      "tags": [
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/m5stack",
+      "tech_domain": "devtools",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "OpenHuman",
+      "tagline": "An open source AI harness built with the human in mind",
+      "votes": 477,
+      "tags": [
+        "AI",
+        "Design",
+        "Open Source",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/openhuman",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native; Open-source friendly"
+    },
+    {
+      "name": "HasData",
+      "tagline": "Web scraping service for AI agents",
+      "votes": 407,
+      "tags": [
+        "AI",
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/hasdata",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native"
+    },
+    {
+      "name": "PHBench",
+      "tagline": "Predict the next Series A from a ProductHunt launch",
+      "votes": 349,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/vela-terminal",
+      "tech_domain": "other",
+      "why_notable": "High traction"
+    },
+    {
+      "name": "Lensmor",
+      "tagline": "Turn exhibitor data into pre-booked sales meetings",
+      "votes": 286,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/lensmor-2",
+      "tech_domain": "marketing",
+      "why_notable": "Strong early interest"
+    },
+    {
+      "name": "Agentic Website Builder 2.0 by Lokuma",
+      "tagline": "Design, build, and run your site with a design agent harness",
+      "votes": 178,
+      "tags": [
+        "AI",
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/agentic-website-builder-2-0-by-lokuma",
+      "tech_domain": "other",
+      "why_notable": "Strong early interest; AI-native"
+    },
+    {
+      "name": "Kilo Code v7 for VS Code",
+      "tagline": "Parallel agents, diff reviewer, and multi-model comparisons",
+      "votes": null,
+      "tags": [
+        "AI",
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/kilocode",
+      "tech_domain": "devtools",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "RankSpot",
+      "tagline": "AI SEO Blog driven by deep competitor intelligence",
+      "votes": 647,
+      "tags": [
+        "AI",
+        "Marketing"
+      ],
+      "url": "https://www.producthunt.com/products/rankspot",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native"
+    },
+    {
+      "name": "Velo 2.0",
+      "tagline": "Instantly turn your voice and screen into shareable videos",
+      "votes": 614,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/velo-4",
+      "tech_domain": "devtools",
+      "why_notable": "High traction"
+    },
+    {
+      "name": "Shadow 2.0",
+      "tagline": "The work your meetings create, done before they end",
+      "votes": 540,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shadow-6",
+      "tech_domain": "other",
+      "why_notable": "High traction"
+    },
+    {
+      "name": "Kanwas",
+      "tagline": "An open-source brain for your team",
+      "votes": 506,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/kanwas",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native"
+    },
+    {
+      "name": "Brila",
+      "tagline": "One-page websites from real Google Maps reviews",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/brila-2",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Fathom 3.0",
+      "tagline": "\"AI meeting notes: now bot-free, in ChatGPT & Claude + more\"",
+      "votes": 790,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/fathom",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native"
+    },
+    {
+      "name": "ProdShort",
+      "tagline": "Turn meetings into ready-to-post shorts and posts",
+      "votes": 739,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/prodshort",
+      "tech_domain": "other",
+      "why_notable": "High traction"
+    },
+    {
+      "name": "Velo",
+      "tagline": "Share anything as video messages",
+      "votes": 685,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/velo-4",
+      "tech_domain": "devtools",
+      "why_notable": "High traction"
+    },
+    {
+      "name": "Plurai",
+      "tagline": "Vibe-train evals and guardrails tailored to your use case",
+      "votes": 758,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/plurai",
+      "tech_domain": "ai-agent",
+      "why_notable": "High traction; AI-native"
+    }
+  ],
+  "indiehackers": [
+    {
+      "title": "In Case You Missed It",
+      "description_short": "",
+      "url": "https://www.indiehackers.com/top/month-of-2026-05",
+      "tech_domain": "other",
+      "tags": [],
+      "why_notable": "Notable new launch"
+    }
+  ],
+  "yc": []
+}
