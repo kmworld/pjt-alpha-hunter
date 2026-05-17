@@ -1,0 +1,987 @@
+{
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T00:26:04.326Z",
+  "sources": {
+    "github_trending": {
+      "count": 8,
+      "valid": true
+    },
+    "hackernews": {
+      "topCount": 49,
+      "showHnCount": 1,
+      "valid": true
+    },
+    "reddit": {
+      "totalPosts": 50,
+      "valid": true
+    },
+    "research_ml": {
+      "hfCount": 30,
+      "arxivCount": 30,
+      "valid": true
+    },
+    "product_launch": {
+      "productHuntCount": 22,
+      "valid": true
+    },
+    "job_signals": {
+      "jobsCount": 30,
+      "valid": true
+    }
+  },
+  "signals": {
+    "github": {
+      "topByStarsToday": [
+        {
+          "repo": "tinyhumansai/openhuman",
+          "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "language": "Rust",
+          "stars": 10703,
+          "recent_stars": 1549,
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "topics": [
+            "intelligence",
+            "private",
+            "extremely"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "language": "Shell",
+          "stars": 193995,
+          "recent_stars": 1305,
+          "url": "https://github.com/obra/superpowers",
+          "topics": [
+            "agentic",
+            "skills",
+            "framework",
+            "software",
+            "development"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "ruvnet/RuView",
+          "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "language": "Rust",
+          "stars": 58337,
+          "recent_stars": 1010,
+          "url": "https://github.com/ruvnet/RuView",
+          "topics": [
+            "agentic-ai",
+            "densepose",
+            "esp32",
+            "firmware",
+            "mcu",
+            "mincut",
+            "monitoring",
+            "pose-estimation"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "supertone-inc/supertonic",
+          "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "language": "Swift",
+          "stars": 6868,
+          "recent_stars": 749,
+          "url": "https://github.com/supertone-inc/supertonic",
+          "topics": [
+            "cpp",
+            "csharp",
+            "go",
+            "ios",
+            "java",
+            "lightweight",
+            "nodejs",
+            "on-device"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "K-Dense-AI/scientific-agent-skills",
+          "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "language": "Python",
+          "stars": 23128,
+          "recent_stars": 673,
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "topics": [
+            "agent-skills",
+            "ai-scientist",
+            "bioinformatics",
+            "chemoinformatics",
+            "claude",
+            "claude-skills",
+            "claudecode",
+            "clinical-research"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "colbymchenry/codegraph",
+          "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+          "language": "TypeScript",
+          "stars": 2513,
+          "recent_stars": 416,
+          "url": "https://github.com/colbymchenry/codegraph",
+          "topics": [
+            "fewer",
+            "pre-indexed",
+            "knowledge",
+            "graph",
+            "claude"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "oven-sh/bun",
+          "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+          "language": "Rust",
+          "stars": 91208,
+          "recent_stars": 397,
+          "url": "https://github.com/oven-sh/bun",
+          "topics": [
+            "bun",
+            "bundler",
+            "javascript",
+            "javascriptcore",
+            "jsx",
+            "nodejs",
+            "npm",
+            "react"
+          ],
+          "why_notable": ""
+        },
+        {
+          "repo": "Anil-matcha/Open-Generative-AI",
+          "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filter",
+          "language": "JavaScript",
+          "stars": 14419,
+          "recent_stars": 317,
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "topics": [
+            "ai-art-generator",
+            "ai-image-generation",
+            "ai-video-generation",
+            "creative-tools",
+            "flux-1",
+            "generative-ai",
+            "image-to-video",
+            "javascript"
+          ],
+          "why_notable": ""
+        }
+      ]
+    },
+    "hackernews": {
+      "topByEngagement": [
+        {
+          "title": "I believe there are entire companies right now under AI psychosis",
+          "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+          "score": 1863,
+          "comments": 1051,
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+        },
+        {
+          "title": "Project Gutenberg – keeps getting better",
+          "url": "https://www.gutenberg.org/",
+          "score": 1157,
+          "comments": 272,
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+        },
+        {
+          "title": "Bill to block publishers from killing online games advances in California",
+          "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
+          "score": 563,
+          "comments": 392,
+          "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
+        },
+        {
+          "title": "A 0-click exploit chain for the Pixel 10",
+          "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+          "score": 428,
+          "comments": 227,
+          "why_hot": "Strong HN engagement; likely important development in security."
+        },
+        {
+          "title": "Moving away from Tailwind, and learning to structure my CSS",
+          "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+          "score": 409,
+          "comments": 265,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "Frontier AI has broken the open CTF format",
+          "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+          "score": 332,
+          "comments": 312,
+          "why_hot": "Strong HN engagement; likely important development in ai-ml."
+        },
+        {
+          "title": "The sigmoids won't save you",
+          "url": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+          "score": 285,
+          "comments": 268,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "Fecal transplants for autism deliver success in clinical trials (2019)",
+          "url": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+          "score": 284,
+          "comments": 201,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+          "url": "https://nvlabs.github.io/Sana/WM/",
+          "score": 284,
+          "comments": 119,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "HTML Lists",
+          "url": "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/",
+          "score": 278,
+          "comments": 62,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "Where to buy a non-Apple, non-Google smartphone",
+          "url": "https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681",
+          "score": 224,
+          "comments": 214,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "Accelerando (2005)",
+          "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+          "score": 235,
+          "comments": 136,
+          "why_hot": "Strong HN engagement; likely important development in other."
+        },
+        {
+          "title": "The main thing about P2P meth is that there's so much of it (2021)",
+          "url": "https://dynomight.net/p2p-meth/",
+          "score": 185,
+          "comments": 223,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+          "url": "https://github.com/chiennv2000/orthrus",
+          "score": 217,
+          "comments": 43,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        },
+        {
+          "title": "The bird eye was pushed to an evolutionary extreme",
+          "url": "https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/",
+          "score": 206,
+          "comments": 70,
+          "why_hot": "HN story with meaningful engagement; relevant tech discussion."
+        }
+      ],
+      "show_hn_high_signal": [
+        {
+          "title": "Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol",
+          "url": "https://tangled.org/rocksky.app/rocksky",
+          "score": 51,
+          "comments": 17
+        }
+      ]
+    },
+    "reddit": {
+      "hot_topics": [
+        {
+          "topic": "r/mildlyinfuriating",
+          "subreddits": [
+            "r/mildlyinfuriating"
+          ],
+          "sample_titles": [
+            "How I found out a YT channel I’ve recently gotten into is using AI",
+            "How I found out a YT channel I’ve recently gotten into is using AI"
+          ],
+          "why_important": "2 posts; active discussion."
+        }
+      ]
+    },
+    "research_ml": {
+      "trending_models": [
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "likes": 13332,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "deepseek_v3",
+            "text-generation",
+            "conversational",
+            "custom_code",
+            "arxiv:2501.12948",
+            "license:mit",
+            "eval-results",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "fp8",
+            "region:us"
+          ],
+          "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes in"
+        },
+        {
+          "id": "black-forest-labs/FLUX.1-dev",
+          "likes": 12814,
+          "tags": [
+            "diffusers",
+            "safetensors",
+            "text-to-image",
+            "image-generation",
+            "flux",
+            "en",
+            "license:other",
+            "endpoints_compatible",
+            "diffusers:FluxPipeline",
+            "region:us"
+          ],
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
+        },
+        {
+          "id": "stabilityai/stable-diffusion-xl-base-1.0",
+          "likes": 7714,
+          "tags": [
+            "diffusers",
+            "onnx",
+            "safetensors",
+            "text-to-image",
+            "stable-diffusion",
+            "arxiv:2307.01952",
+            "arxiv:2211.01324",
+            "arxiv:2108.01073",
+            "arxiv:2112.10752",
+            "license:openrail++",
+            "endpoints_compatible",
+            "diffusers:StableDiffusionXLPipeline",
+            "deploy:azure",
+            "region:us"
+          ],
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
+        },
+        {
+          "id": "CompVis/stable-diffusion-v1-4",
+          "likes": 7008,
+          "tags": [
+            "diffusers",
+            "safetensors",
+            "stable-diffusion",
+            "stable-diffusion-diffusers",
+            "text-to-image",
+            "arxiv:2207.12598",
+            "arxiv:2112.10752",
+            "arxiv:2103.00020",
+            "arxiv:2205.11487",
+            "arxiv:1910.09700",
+            "license:creativeml-openrail-m",
+            "endpoints_compatible",
+            "diffusers:StableDiffusionPipeline",
+            "region:us"
+          ],
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes "
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-8B",
+          "likes": 6534,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "llama",
+            "text-generation",
+            "facebook",
+            "meta",
+            "pytorch",
+            "llama-3",
+            "en",
+            "license:llama3",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes in"
+        },
+        {
+          "id": "hexgrad/Kokoro-82M",
+          "likes": 6156,
+          "tags": [
+            "text-to-speech",
+            "en",
+            "arxiv:2306.07691",
+            "arxiv:2203.02395",
+            "base_model:yl4579/StyleTTS2-LJSpeech",
+            "base_model:finetune:yl4579/StyleTTS2-LJSpeech",
+            "doi:10.57967/hf/4329",
+            "license:apache-2.0",
+            "region:us"
+          ],
+          "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c"
+        },
+        {
+          "id": "meta-llama/Llama-3.1-8B-Instruct",
+          "likes": 5840,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "llama",
+            "text-generation",
+            "facebook",
+            "meta",
+            "pytorch",
+            "llama-3",
+            "conversational",
+            "en",
+            "de",
+            "fr",
+            "it",
+            "pt",
+            "hi",
+            "es",
+            "th",
+            "arxiv:2204.05149",
+            "base_model:meta-llama/Llama-3.1-8B",
+            "base_model:finetune:meta-llama/Llama-3.1-8B"
+          ],
+          "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes in"
+        },
+        {
+          "id": "openai/whisper-large-v3",
+          "likes": 5694,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "safetensors",
+            "whisper",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "en",
+            "zh",
+            "de",
+            "es",
+            "ru",
+            "ko",
+            "fr",
+            "ja",
+            "pt",
+            "tr",
+            "pl",
+            "ca"
+          ],
+          "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong c"
+        },
+        {
+          "id": "bigscience/bloom",
+          "likes": 5002,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tensorboard",
+            "safetensors",
+            "bloom",
+            "text-generation",
+            "ak",
+            "ar",
+            "as",
+            "bm",
+            "bn",
+            "ca",
+            "code",
+            "en",
+            "es",
+            "eu",
+            "fon",
+            "fr",
+            "gu",
+            "hi"
+          ],
+          "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes in"
+        },
+        {
+          "id": "stabilityai/stable-diffusion-3-medium",
+          "likes": 4956,
+          "tags": [
+            "diffusion-single-file",
+            "text-to-image",
+            "stable-diffusion",
+            "en",
+            "arxiv:2403.03206",
+            "license:other",
+            "region:us"
+          ],
+          "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indic"
+        }
+      ],
+      "notable_papers": [
+        {
+          "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+          "authors": "Ruozhen He, Meng Wei, Ziyan Yang, Vicente Ordonez",
+          "abstract_short": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long seque",
+          "url": "https://arxiv.org/abs/2605.15199v1",
+          "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions."
+        },
+        {
+          "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+          "authors": "Ziyu Guo, Rain Liu, Xinyan Chen, Pheng-Ann Heng",
+          "abstract_short": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models dur",
+          "url": "https://arxiv.org/abs/2605.15198v1",
+          "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems."
+        },
+        {
+          "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+          "authors": "Xiang Fan, Yuheng Wang, Bohan Fang, Zhongzheng Ren, Ranjay Krishna",
+          "abstract_short": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their dec",
+          "url": "https://arxiv.org/abs/2605.15196v1",
+          "why_notable": "Relevant to AI-assisted code generation, developer tools, and software reliability."
+        },
+        {
+          "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+          "authors": "Shashwat Goel, Nikhil Chandak, Arvindh Arun, Ameya Prabhu, Steffen Staab, Moritz Hardt, Maksym Andriushchenko, Jonas Geiping",
+          "abstract_short": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we",
+          "url": "https://arxiv.org/abs/2605.15188v1",
+          "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems."
+        },
+        {
+          "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+          "authors": "Kaixin Zhu, Yiwen Tang, Yifan Yang, Renrui Zhang, Bohan Zeng, Ziyu Guo, Ruichuan An, Zhou Liu, Qizhi Chen, Delin Qu, Jaehong Yoon, Wentao Zhang",
+          "abstract_short": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite t",
+          "url": "https://arxiv.org/abs/2605.15186v1",
+          "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions."
+        },
+        {
+          "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+          "authors": "Jiaxin Wu, Yihao Pi, Yinling Zhang, Yuheng Li, Xueyan Zou",
+          "abstract_short": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video eva",
+          "url": "https://arxiv.org/abs/2605.15185v1",
+          "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions."
+        },
+        {
+          "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+          "authors": "Sahil Sen, Akhil Kasturi, Elias Lumer, Anmol Gulati, Vamse Kumar Subbiah",
+          "abstract_short": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks ",
+          "url": "https://arxiv.org/abs/2605.15184v1",
+          "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems."
+        },
+        {
+          "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+          "authors": "ML Nissen Gonzalez, Melwina Albuquerque, Laurence Wroe, Jacob Meyer Cohen, Logan Riggs Smith, Thomas Dooms",
+          "abstract_short": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either em",
+          "url": "https://arxiv.org/abs/2605.15183v1",
+          "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions."
+        }
+      ]
+    },
+    "product_launch": {
+      "top_products": [
+        {
+          "name": "Fathom 3.0",
+          "tagline": "\"AI meeting notes: now bot-free, in ChatGPT & Claude + more\"",
+          "votes": 791,
+          "url": "https://www.producthunt.com/products/fathom",
+          "why_notable": "High traction; AI-native"
+        },
+        {
+          "name": "Plurai",
+          "tagline": "Vibe-train evals and guardrails tailored to your use case",
+          "votes": 758,
+          "url": "https://www.producthunt.com/products/plurai",
+          "why_notable": "High traction; AI-native"
+        },
+        {
+          "name": "ProdShort",
+          "tagline": "Turn meetings into ready-to-post shorts and posts",
+          "votes": 739,
+          "url": "https://www.producthunt.com/products/prodshort",
+          "why_notable": "High traction"
+        },
+        {
+          "name": "Velo",
+          "tagline": "Share anything as video messages",
+          "votes": 685,
+          "url": "https://www.producthunt.com/products/velo-4",
+          "why_notable": "High traction"
+        },
+        {
+          "name": "RankSpot",
+          "tagline": "AI SEO Blog driven by deep competitor intelligence",
+          "votes": 648,
+          "url": "https://www.producthunt.com/products/rankspot",
+          "why_notable": "High traction; AI-native"
+        },
+        {
+          "name": "Velo 2.0",
+          "tagline": "Instantly turn your voice and screen into shareable videos",
+          "votes": 616,
+          "url": "https://www.producthunt.com/products/velo-4",
+          "why_notable": "High traction"
+        },
+        {
+          "name": "Shadow 2.0",
+          "tagline": "The work your meetings create, done before they end",
+          "votes": 541,
+          "url": "https://www.producthunt.com/products/shadow-6",
+          "why_notable": "High traction"
+        },
+        {
+          "name": "Kanwas",
+          "tagline": "An open-source brain for your team",
+          "votes": 506,
+          "url": "https://www.producthunt.com/products/kanwas",
+          "why_notable": "High traction; AI-native"
+        },
+        {
+          "name": "OpenHuman",
+          "tagline": "An open source AI harness built with the human in mind",
+          "votes": 488,
+          "url": "https://www.producthunt.com/products/openhuman",
+          "why_notable": "High traction; AI-native; Open-source friendly"
+        },
+        {
+          "name": "HasData",
+          "tagline": "Web scraping service for AI agents",
+          "votes": 418,
+          "url": "https://www.producthunt.com/products/hasdata",
+          "why_notable": "High traction; AI-native"
+        }
+      ]
+    },
+    "jobs": {
+      "emerging_roles": [
+        {
+          "role": "Full Stack Engineer",
+          "count": 2,
+          "example_companies": [
+            "Runway",
+            "Hotplate"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Senior Software Engineer",
+          "count": 2,
+          "example_companies": [
+            "Banner",
+            "Pine Park Health"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "AI Engineer, Quality",
+          "count": 1,
+          "example_companies": [
+            "Fieldguide"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "AI/ML Engineer",
+          "count": 1,
+          "example_companies": [
+            "Noora Health"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Senior/Staff Backend Engineer",
+          "count": 1,
+          "example_companies": [
+            "BlueCargo"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Mobile Engineer (Android)",
+          "count": 1,
+          "example_companies": [
+            "Circle Medical"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Software Engineer, Data Platform",
+          "count": 1,
+          "example_companies": [
+            "OneChronos"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Full Stack Product Engineer",
+          "count": 1,
+          "example_companies": [
+            "Wefunder"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Senior Fullstack Engineer",
+          "count": 1,
+          "example_companies": [
+            "Laylo"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "New Grad Software Engineer",
+          "count": 1,
+          "example_companies": [
+            "Confido"
+          ],
+          "why_signal": "Emerging role"
+        }
+      ]
+    }
+  },
+  "keyword_clusters": [
+    {
+      "name": "Multimodal",
+      "count": 21,
+      "sample_terms": [
+        "video(11)",
+        "text-to-image(4)",
+        "video generation(4)",
+        "styletts2-ljspeech(2)"
+      ]
+    },
+    {
+      "name": "AI Coding / DevTools",
+      "count": 18,
+      "sample_terms": [
+        "video(11)",
+        "video generation(4)",
+        "code(3)"
+      ]
+    },
+    {
+      "name": "AI Agent Infra",
+      "count": 11,
+      "sample_terms": [
+        "agentic(5)",
+        "agents(4)",
+        "agent(2)"
+      ]
+    },
+    {
+      "name": "Crypto / ZK",
+      "count": 4,
+      "sample_terms": [
+        "pre-indexed(2)",
+        "tokens(2)"
+      ]
+    },
+    {
+      "name": "LLM / Reasoning",
+      "count": 2,
+      "sample_terms": [
+        "reasoning(2)"
+      ]
+    },
+    {
+      "name": "On-Device AI",
+      "count": 2,
+      "sample_terms": [
+        "on-device(2)"
+      ]
+    },
+    {
+      "name": "MLOps / Infra",
+      "count": 2,
+      "sample_terms": [
+        "text-generation-inference(2)"
+      ]
+    }
+  ],
+  "new_terms": [],
+  "cross_source_signals": [
+    {
+      "name": "openhuman",
+      "sources": [
+        "github",
+        "product_hunt"
+      ],
+      "strength": "moderate",
+      "count": 2,
+      "summary": "Appears in github, product_hunt; early cross-validation signal. Worth monitoring for momentum."
+    }
+  ],
+  "alpha_candidates": [
+    {
+      "name": "deepseek-ai/DeepSeek-R1",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "DeepSeek-R1는 reasoning 모델로서 open-source 생태계에서 가장 영향력 있는 모델 중 하나. 기업과 연구팀이 실제 agent/agent infra 구축에 이 모델을 backbone으로 채택하고 있음. 6-12개월 내 파생 모델과 fine-tune이 폭발적으로 증가할 것으로 예상.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "AI Coding / DevTools",
+        "MLOps / Infra"
+      ]
+    },
+    {
+      "name": "black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "FLUX.1-dev는 이미지 생성 모델 중 현재 가장 높은 community likes를 기록 중. Stable Diffusion 이후 가장 의미 있는 open-weight image model. 12개월 내 AI-native 디자인/마케팅 워크플로우의 표준 backbone이 될 가능성이 높음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "SDXL은 이미 production-ready이며 수많은 파생 모델의 base. 단기 alpha는 아니지만, 새로운 fine-tune/adapter 프로젝트가 이 모델을 기반으로 나올 때마다 watch할 필요가 있음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "CompVis/stable-diffusion-v1-4",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Multimodal 모델로서, AI-native UX(voice, vision, video)의 backbone이 될 수 있음. Latency와 cost가 개선되면, 실제 production agent에 채택될 가능성이 높음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "meta-llama/Meta-Llama-3-8B",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Meta-Llama-3-8B는 open-source LLM 중 가장 널리 쓰이는 backbone 중 하나. Agent infra, RAG, fine-tuning ecosystem이 이 모델 주위에 집중되어 있음. 단기 alpha는 아니지만, 파생 프로젝트 watch의 기준점.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "MLOps / Infra"
+      ]
+    },
+    {
+      "name": "hexgrad/Kokoro-82M",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Kokoro는 lightweight TTS 모델로, on-device voice agent의 실현 가능성을 높이는 모델. 82M 파라미터로 실시간 추론이 가능하여, edge AI + voice agent 시나리오에서 중요한 변수.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "openai/whisper-large-v3",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Whisper-large-v3는 speech-to-text의 de facto 표준. AI voice agent, real-time transcription, accessibility tooling 등 다양한 영역에서 backbone으로 사용 중. 12-24개월 내 voice-first AI UX의 핵심 인프라.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    },
+    {
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Llama-3.1-8B-Instruct는 instruction-tuned variant로, agent tool-calling과 RAG 파이프라인에서 널리 사용 중. 실제 production agent의 backbone으로서 영향력이 큼.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": []
+    },
+    {
+      "name": "bigscience/bloom",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Research-grade 모델. 실제 alpha는 이 모델을 기반으로 하는 파생 프로젝트에서 나옴. 12개월 내 ecosystem forks를 watch.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "AI Coding / DevTools"
+      ]
+    },
+    {
+      "name": "stabilityai/stable-diffusion-3-medium",
+      "type": "model",
+      "sources": [
+        "hf"
+      ],
+      "alpha_thesis": "Multimodal 모델로서, AI-native UX(voice, vision, video)의 backbone이 될 수 있음. Latency와 cost가 개선되면, 실제 production agent에 채택될 가능성이 높음.",
+      "risk": [
+        "Research-to-production gap; may not scale outside controlled environments."
+      ],
+      "sector_themes": [
+        "Multimodal"
+      ]
+    }
+  ],
+  "sector_themes": [
+    {
+      "name": "Multimodal",
+      "count": 21,
+      "sources": 2,
+      "outlook": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product."
+    },
+    {
+      "name": "AI Coding / DevTools",
+      "count": 18,
+      "sources": 2,
+      "outlook": "AI-native devtools will reshape how 80% of code is written within 3 years. Early movers have a distribution moat."
+    },
+    {
+      "name": "AI Agent Infra",
+      "count": 11,
+      "sources": 2,
+      "outlook": "Agent infra is transitioning from demos to production; expect consolidation around 3-5 key frameworks by 2027."
+    },
+    {
+      "name": "Crypto / ZK",
+      "count": 4,
+      "sources": 2,
+      "outlook": "ZK and crypto infra are regaining attention; long-term viability depends on regulatory clarity and real-world use cases."
+    }
+  ],
+  "contrarian_notes": [
+    "AI Agent hype vs reality: Most 'agentic' projects are glorified chatbots with tool calling. True autonomy (multi-step, self-correcting, distributed) is rare. Investors should stress-test every agent claim.",
+    "AI coding tools: Everyone claims '10x developer' but most are autocomplete on steroids. The real alpha is in team-level workflows, not individual speedups.",
+    "Crypto/ZK narratives are regaining attention, but regulatory and UX friction remain unsolved. Most ZK projects are technically impressive but commercially unproven."
+  ]
+}

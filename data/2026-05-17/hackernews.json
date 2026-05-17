@@ -1,0 +1,2233 @@
+{
+  "source": "hackernews",
+  "date": "2026-05-17",
+  "sections": {
+    "top": [
+      {
+        "id": 48164287,
+        "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+        "url": "https://crates.io/crates/zerostack/1.0.0",
+        "score": 96,
+        "comments": 33,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48164294,
+        "title": "MCP Hello Page",
+        "url": "https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page",
+        "score": 39,
+        "comments": 13,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "MCP Hello Page | Blog | HybridLogic &middot; Personal homepage of Luke Lanchester Hybrid logic Home Content About Search Blogging 434 posts Gaming 277 games Linking 2,336 links Listening 257,880 scrobbles Photographing 11,059 photos Programming 1.3 billion requests Reading 152 books Running 6,819 kilometres Travelling 16,000 miles Updating 31,072 statuses Watching 813 movies Writing 312,988 words Change theme: Blue | Clean | Fields | Zen Blog &raquo; 2026 &raquo; May MCP Hello Page We've started offering an MCP Server for our main $WORK tool. It's been fun, like a weird intersection between deterministic and non-deterministic worlds Despite the fact that MCP is an utterly terrible attempt at a \"specification\", we have hit one annoying issue: customers keep on reporting the MCP server is not working. The reason is simple and it shows the friction between devs vibe-coding a spec and real-world users actually onboarding: if you open mcp.acme.com/mcp in a browser you get a big fat 401 and a raw JSON blob saying Unauthorized. (If authentication isn't required, adjust accordingly.) This is a pain because users open the link, see the error, and immediately drop a support ticket saying the link isn't working. It's not working though because they need to paste it into their client of choice, but no-one thinks that far ahead. The (annoying) solution is to package our server up into a connector/plugin and release it for each and every LLM client out there. This is slow, painful, and a n",
+        "comment_highlights": null
+      },
+      {
+        "id": 48164432,
+        "title": "A nicer voltmeter clock",
+        "url": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+        "score": 26,
+        "comments": 5,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "A nicer voltmeter clock - lcamtuf’s thing lcamtuf’s thing Subscribe Sign in A nicer voltmeter clock Sometimes, electronic circuit design is mostly about wood May 16, 2026 7 1 Share Back in 2019, I built a simple voltmeter clock: The clock, version 1. As the name implies, these clocks use analog panel voltmeters instead of traditional clock faces to display time. I didn’t come up with the idea, so I never really blogged about the design; I just built one and kept it on my office desk. The idea endures, but most of the designs I see on the internet are needlessly complicated and not all that pretty, so when I decided to build a revised design, I figured it might be good to document it better. The process started with a rough mockup in a 3D design program: A mockup of the new design in Rhino3D. For this version of the meter clock, I opted to use three generic, 90° panel voltmeters from Amazon ( link , about $9). I disassembled them, took careful measurements of the faces, and then printed replacement decals on adhesive paper. Printable PDF templates can be found here . Customizing 5 V panel meters. Note that the new hour gauge has 13 divisions, from 0 to 12, while the minute and second templates have 61 divisions, from 00 to 60. This is because I wanted to implement continuous motion for each hand; this meant that at 11:30, the hour dial couldn’t be just stuck at 11; it needed to be moving toward the twelfth division, even if it was never to reach it. In addition to a host of ot",
+        "comment_highlights": null
+      },
+      {
+        "id": 48109756,
+        "title": "A molecule with half-Möbius topology",
+        "url": "https://www.science.org/doi/10.1126/science.aea3321",
+        "score": 54,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48159445,
+        "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+        "url": "https://nvlabs.github.io/Sana/WM/",
+        "score": 284,
+        "comments": 119,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "mccoyb",
+            "text": "I struggle with these world models from the perspective of video games (so this post is a particular perspective). I&#x27;m not a game developer myself, but some of my favorite games carry a deep sense of intentionality. For instance, there is typically not a "
+          },
+          {
+            "by": "jubilanti",
+            "text": "Model weights coming &quot;soon&quot; == currently vaporware. So the weights aren&#x27;t even open, how can this be &quot;open-source&quot;? Everyone is right to be skeptical of this coming from a 2.8B model. Weights or it didn&#x27;t happen."
+          },
+          {
+            "by": "w10-1",
+            "text": "Gist: &gt; 720p, 1-min video generation with 6-DoF camera control As nl said, &gt; The model is out here: https:&#x2F;&#x2F;huggingface.co&#x2F;Efficient-Large-Model&#x2F;SANA-Video_2B_7... README says &quot;intended for research use only&quot; Code license is"
+          },
+          {
+            "by": "mejutoco",
+            "text": "They all look like video games. I guess Unreal Engine is used to create synthetic data for training."
+          },
+          {
+            "by": "resist_futility",
+            "text": "warning: viewing the videos that auto play on that page shot up my downloads to 350Mbps on that page"
+          },
+          {
+            "by": "agentifysh",
+            "text": "Running this on GPU is quite impressive. I see some people expressing discontent and worries but we are early and this is the worst its going to be, I am very excited to see the impact this will have on games"
+          },
+          {
+            "by": "alloyed",
+            "text": "silly question: what&#x27;s &quot;world&quot; about what&#x27;s being generated here? is the an actual abstract representation of physical space (like, eg, a game-engine style scene graph?) or does it just mean &quot;this video generator is more coherent physi"
+          },
+          {
+            "by": "Fischgericht",
+            "text": "So, where is the download? I can&#x27;t find it on Github, and on your web page the download button is disabled. Also, will this run on RTX 4090 with 24GB memory? Thank you!"
+          },
+          {
+            "by": "mkl",
+            "text": "2.6B, but then: &gt; A dedicated 17B long-video refiner sharpens texture, motion, and late-window quality on top of the long-rollout backbone."
+          },
+          {
+            "by": "Incipient",
+            "text": "Outputting video of that quality&#x2F;consistency at 1 minute, for a 2.6B model seems insane?"
+          },
+          {
+            "by": "pferdone",
+            "text": "First video with the guy walking the mountain in snow has consistency issues with the cave entrance. Which is &quot;expected&quot; at this model size?!"
+          },
+          {
+            "by": "joenot443",
+            "text": "What’s the long term utility of world models? There’s no doubt they’re technically impressive, but what does one do with it?"
+          },
+          {
+            "by": "bobkb",
+            "text": "The trouble is the lack of training available to these models compared to the ones like Seedance and Kling who seems to be tapping into their unlimited video inventory. Many models like LTX is technically good but when it comes to slightly different camera mov"
+          },
+          {
+            "by": "maxignol",
+            "text": "I can’t seem to grasp why everyone says only slop gets produced by AI models (and particularly those world models). Imo it’s shit in -&gt; shit out. Great work can be achieved using those. Slop gets produced by careless users."
+          },
+          {
+            "by": "PyWoody",
+            "text": "I tried watching the cave video and I was immediately overcome with nausea. I&#x27;ve never experienced anything like that before in my life. Wild. I can&#x27;t say I&#x27;m looking forward to an AI video future."
+          },
+          {
+            "by": "bilsbie",
+            "text": "What would it take to get this on VR? Anyone looking into it?"
+          },
+          {
+            "by": "CommanderData",
+            "text": "All video models are terrible at consistency. Even closed source ones. Seedance 2.0, Kling 3 are regarded the best closed source video models we have. I have subscribed to a few AI video subreddits, consensus atm is they are good for anything but long form vid"
+          },
+          {
+            "by": "trunkiedozer",
+            "text": "It ain’t open source until it’s released. It’s baitware."
+          },
+          {
+            "by": "agus4nas",
+            "text": "Has anyone actually tested this for robotics simulation? Curious how it handles edge cases in physical environments."
+          }
+        ]
+      },
+      {
+        "id": 48127453,
+        "title": "Content-defined chunking added to Bazel",
+        "url": "https://www.buildbuddy.io/blog/content-defined-chunking/",
+        "score": 17,
+        "comments": 2,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Remote Cache CDC: Reusing Bytes | BuildBuddy Skip to main content Features Build &amp; Test UI Remote Execution Remote Cache Workflows BuildBuddy CLI Resources GitHub Community Security Plugins Team Docs Blog Changelog Pricing Login Sign up Remote Cache CDC: Reusing Bytes Tyler French , Engineer @ BuildBuddy May 1, 2026 · 15 min read The goal: move the changed bytes, not the whole output. BuildBuddy&#x27;s Remote Cache uses Content-Defined Chunking (CDC) to make large build outputs behave more incrementally. When a binary, bundle, package, or archive is mostly unchanged, BuildBuddy can reuse chunks it has already seen instead of re-uploading or re-downloading the entire file. In our Bazel chunking implementation PR , we observed 40% less data uploaded and a 40% smaller disk cache when benchmarked on BuildBuddy&#x27;s own repo. To enable client-side CDC with BuildBuddy, use Bazel 8.7 or 9.1+ and pass --experimental_remote_cache_chunking . Setting the Scene ​ The next frontier for build caching is not just skipping actions. It is skipping bytes. Build caching has come a long way. Instead of rebuilding the world after every edit, Bazel and remote caching let teams reuse action outputs across machines and CI jobs. In practice, builds have moved from something closer to O(size of repo) toward O(size of change). But &quot;size of change&quot; can be misleading. What really matters is the size of the transitive actions affected by the edit. A small source change can still ripple int",
+        "comment_highlights": null
+      },
+      {
+        "id": 48158400,
+        "title": "Moving away from Tailwind, and learning to structure my CSS",
+        "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+        "score": 409,
+        "comments": 265,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "Moving away from Tailwind, and learning to structure my CSS Skip to main content Julia Evans About Talks Projects Mastodon Bluesky Github Favorites TIL Zines RSS Moving away from Tailwind, and learning to structure my CSS • css • May 15, 2026 Hello! 8 years ago, I wrote excitedly about discovering Tailwind . At that time I really had no idea how to structure my CSS code and given the choice between a pile of complete chaos and Tailwind, I was really happy to choose Tailwind. It helped me make a lot of tiny sites! I spent the last week or so migrating a couple of sites away from Tailwind and towards more semantic HTML + vanilla CSS, and it was SO fun and SO interesting, so here are some things I learned! As usual I&rsquo;m not a full-time frontend developer and so all of my CSS learning has happened in fits and starts over many years. it turns out Tailwind taught me a lot When I started thinking about structuring CSS, I was intimidated at first: I&rsquo;m not very good at structuring my CSS! But then I started reading blog posts talking about how to structure CSS (like A whole cascade of layers or How I write CSS in 2024 ) and I realized a couple of things: Every CSS code base has a bunch of different things going on (layouts! fonts! colours! common components!) It&rsquo;s extremely useful to have systems or guidelines to manage each of those things, otherwise things descend into chaos Tailwind has systems for some of these, and I already know those systems! Maybe I can imitat",
+        "comment_highlights": [
+          {
+            "by": "TonyAlicea10",
+            "text": "&gt; I got curious about what writing more semantic HTML would feel like. I&#x27;ve been teaching semantic HTML &#x2F; accessible markup for a long time, and have worked extensively on sites and apps designed for screen readers. The biggest problem with Tailwi"
+          },
+          {
+            "by": "xrd",
+            "text": "I really, really love Julia Evans writing. She writes from a place of vulnerability and honesty. Most people write to sound smart and she writes to say &quot;I don&#x27;t know it all but there are some things I discovered I want to share.&quot; I almost feel l"
+          },
+          {
+            "by": "efortis",
+            "text": "CSS Modules are a simpler solution to cascading problems. They create unique class names, so your classes don&#x27;t clash [1]. And they don&#x27;t have the two main downsides of TW, which are readability [2] and tooling. Tooling for debugging and experimentin"
+          },
+          {
+            "by": "JimDabell",
+            "text": "One thing that has always struck me about Tailwind is that practically every argument its proponents use more or less boils down to “I never learnt CSS beyond a junior level” . It’s super common to hear Tailwind advocates say things like “Without Tailwind, we "
+          },
+          {
+            "by": "bryanhogan",
+            "text": "I have been writing a &quot;clean&quot; web development guide focusing on writing HTML and CSS that scales well: https:&#x2F;&#x2F;webdev.bryanhogan.com&#x2F; Maybe it&#x27;s useful for people here. I don&#x27;t use Tailwind or similar for styling, just CSS wi"
+          },
+          {
+            "by": "simonreiff",
+            "text": "Nice article! I&#x27;m a fan of removing any dependencies on external libraries and writing my own solution from scratch, but there&#x27;s a good reason why I decided not to do so with Tailwind: They offer an optimization for production that ensures that you n"
+          },
+          {
+            "by": "SwiftyBug",
+            "text": "One approach I&#x27;ve been really starting to enjoy is to use use Tailwind alongside scoped styles (in Svelte and Vue). This keeps template pollution minimal while still allowing for the conveniences Tailwind brings: &lt;div class=&quot;counter-component&quot"
+          },
+          {
+            "by": "jakubmazanec",
+            "text": "For me, the main thing I love about Tailwind is that I don&#x27;t have to create ad-hoc class names. No more BEM."
+          },
+          {
+            "by": "KolmogorovComp",
+            "text": "For me Svelte and LLM completely removed my need for Tailwind. Turns out I was using it primarily to avoid CSS collision, and (to me) more logical syntax, rather than the self-imposed constraints."
+          },
+          {
+            "by": "klaussilveira",
+            "text": "It bothers me that SMACSS is from 2011 and was completely ignored. That was the sane way to write CSS. Been doing that for more than 10 years and never had issues redesigning large applications. https:&#x2F;&#x2F;smacss.com&#x2F;"
+          },
+          {
+            "by": "pauxel",
+            "text": "The part I’d miss most from Tailwind is not having to invent semantic-ish names for every wrapper, row, card, inner-card, card-content, etc."
+          },
+          {
+            "by": "pjmlp",
+            "text": "Tailwind crazy adoption is something that makes me happy to nowadays be doing mainly boring stuff in distributed cloud systems and agents, instead of WebUIs."
+          },
+          {
+            "by": "wbadart",
+            "text": "Great writeup! Lately I&#x27;ve been enjoying Open Props[0]. It&#x27;s a library of CSS props&#x2F; variables that helps structure a design system. I like it because it&#x27;s CSS-first, so like OP experienced moving off TW, I&#x27;ve learned more CSS, and it "
+          },
+          {
+            "by": "iovrthoughtthis",
+            "text": "html encodes a tree of objects css applies attributes to objects via graph queries the queries are tightly coupled to the tree. you must work hard to avoid scatter gun edits now. it doesn&#x27;t make much sense to have attributes stores in a separate location "
+          },
+          {
+            "by": "icar",
+            "text": "This feels like reinventing Tailwind, but worse."
+          },
+          {
+            "by": "HungSu",
+            "text": "I&#x27;m observing recurring patterns in Tailwind-only users: they learn a lot of non-transferable and bad habits, especially when the codebase scales up: - Engineers never learn to properly use developer tools to debug CSS - Components get gigantic bloated pi"
+          },
+          {
+            "by": "anydigital",
+            "text": "We also moved away from Tailwind — Pico CSS. It feels like a breath of fresh, modern CSS air. We actually loved it so much that we’ve taken over maintenance of a fork, and just released our Pico successor candidate: https:&#x2F;&#x2F;blades.ninja&#x2F;"
+          },
+          {
+            "by": "ramijames",
+            "text": "I&#x27;m so grateful that people are starting to see that Tailwind is insanity. Just write your class and your CSS as CSS. We don&#x27;t need to pollute templates with endless hard to parse and reason about tailwind nonsense."
+          },
+          {
+            "by": "Alifatisk",
+            "text": "Oh, have we reached the end of the pendulum swing and are now swinging back to ordinary CSS again."
+          },
+          {
+            "by": "stephbook",
+            "text": "I&#x27;m lucky to have learned the web with Angular 2.x It scopes CSS to components by default, and keeps HTML, CSS and JavaScript seperate."
+          }
+        ]
+      },
+      {
+        "id": 48162468,
+        "title": "Halt and Catch Fire",
+        "url": "https://unstack.io/halt-and-catch-fire",
+        "score": 66,
+        "comments": 46,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Halt and Catch Fire Posts About Posts About Posts Halt and Catch Fire By Scott Robinson · May 15, 2026 I have never watched the AMC show Halt and Catch Fire , and for a long time I only knew the title, but nothing about the show. Something about it always reminded me of programmer humor: somewhat dramatic, a little absurd, and weirdly precise. Turns out, the show really is about the computer industry in the 1980s and 1990s, but the phrase itself is much older than the show, and it started as some engineering humor. What it means In the context of computers, Halt and Catch Fire (shortened to HCF ) has been generalized to describe machine-code that causes the CPU to stop doing anything useful, forcing you to only recover by resetting (or power-cycling) the machine. In a pretty literal sense, it &quot;halts&quot; the machine. Sure, the &quot;catch fire&quot; part is a joke, but it&#x27;s not as far-fetched as it might seem. Take the IBM System/360 for example. Apparently when this system would encounter a certain invalid opcode, it would constantly access a specific location in the magnetic core memory, which caused it to get very hot and even catch on fire. Over time, HCF also became a catch-all label for undocumented or invalid opcodes that lock up the processor, intentional test modes that look like a hang, and real hardware bugs (you might even recall that some early Pentium-class chips could be locked up with a carefully chosen illegal instruction, known as the F00F bug - m",
+        "comment_highlights": null
+      },
+      {
+        "id": 48159241,
+        "title": "Accelerando (2005)",
+        "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+        "score": 235,
+        "comments": 136,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "SonnyTark",
+            "text": "Accelerando has prophecies that are coming true and it&#x27;s scary. Spoiler warning in case you want to read it. The first part&#x27;s main character basically has the future version of openclaw running in his glasses that let him dispatch agents to do any ta"
+          },
+          {
+            "by": "utilityhotbar",
+            "text": "This was written in 2005(!) -&gt; &gt; Manfred drains his beer glass, sets it down, stands up, and begins to walk along the main road, phone glued to the side of his head. He wraps his throat mike around the cheap black plastic casing, pipes the input to a sim"
+          },
+          {
+            "by": "jshaqaw",
+            "text": "One of my favorite books but it wasn&#x27;t until I came back to read it 15-20 years later that I realized the whole thing is a tragedy. As a younger man I was high on the futurism. As an older man it&#x27;s evident that in Stross&#x27; telling much of the imp"
+          },
+          {
+            "by": "sohex",
+            "text": "Accelerando and The Quantum Thief by Hannu Rajaniemi (and that series as a whole) are the best examples of how weird the future is going to get I’ve read. Other series like The Culture are amazing too, but the aforementioned feel possible in a way that others "
+          },
+          {
+            "by": "flir",
+            "text": "The first three shorts, when initialy published, had a real &quot;15 minutes into the future&quot; vibe. Substantial ideas thrown away as quick asides gave it that &quot;acceleration&quot; vibe - a society with its finger mashed on the fast forward button. Wil"
+          },
+          {
+            "by": "colinb",
+            "text": "Do I remember correctly that one of the major characters in what we would now call an influencer with always-on video glasses? I think his spectacles get slashdotted at one point. I’m not sure which is the greater anachronism got me. That I didn’t find the ide"
+          },
+          {
+            "by": "FL33TW00D",
+            "text": "Anyone have recommendations on books that can rival the first part of Accelerando in number of prescient ideas about how the near future, pre singularity might look? My own list is: Starmaker by Olaf Stapledon Counting Heads by David Marusek Nexus by Ramez Naa"
+          },
+          {
+            "by": "jahala",
+            "text": "I absolutely LOVE Accelerando. I&#x27;ve recommended it to everyone I meet for years. If you&#x27;re looking for other great sci-fi reads: John Ringo - Live free or die John Varley - Titan (-&gt; Wizard &#x2F; Demon) Charles Stross - Singularity Sky Vernor Vin"
+          },
+          {
+            "by": "moritzwarhier",
+            "text": "Oh, cool, I didn&#x27;t finish it at the time I first read it, linked from HN. But it did seem pretty well-written, the human relationships portrayed (divorced&#x2F;separated main character iirc?) appeared a bit off to me, but much less than in many, many othe"
+          },
+          {
+            "by": "jeingham",
+            "text": "I&#x27;ve read a number of the comments here about Accelerando and other books of the same ilk. I&#x27;m thinking a couple of things, a question and the feeling: What SciFi books are describing what is now thought to be impossibilities all together in spite of"
+          },
+          {
+            "by": "dsr_",
+            "text": "Charlie has said repeatedly that this is SF-horror, not a How-To."
+          },
+          {
+            "by": "okonomiyaki3000",
+            "text": "I love this book! The part about the implication of digitized minds and long distance space travel was really eye-opening. It really makes you understand that, no, aliens are not visiting earth."
+          },
+          {
+            "by": "Hizonner",
+            "text": "I&#x27;m happy to report that my timing attacks have succeeded in accessing this simulation&#x27;s substrate. Lobsters are reviewing my paper."
+          },
+          {
+            "by": "yomismoaqui",
+            "text": "Sorry to hijack the topic (slightly), but after reading all books from The Culture by Iain M. Banks I&#x27;m looking for similar Sci-fi. Any recommendations?"
+          },
+          {
+            "by": "losvedir",
+            "text": "I read this book a few years ago and it was just chock full of interesting ideas. I think I didn&#x27;t really &quot;get&quot; it, or enjoy the story that much but I definitely was impressed by the imagination. Every once in a while I think of random things in"
+          },
+          {
+            "by": "murmansk",
+            "text": "Accelerando is a true masterpiece. Crypto and endless speculation, AI and lobsters, space exploration - all in all just &quot;this is our near future&quot;. TBH, I know of just handful of Sci-Fi novels as fundamental and as let&#x27;s say prophetic as this one"
+          },
+          {
+            "by": "clokkz",
+            "text": "I read this book a while ago, and when I heard about openclaw I immediately thought of the self aware lobster neural network in space."
+          },
+          {
+            "by": "wainstead",
+            "text": "Read this over a decade ago and it’s been on my mind a lot lately. Very timely. The notion of the inner solar system being converted into computronium sounds less and less far-fetched with each passing month."
+          },
+          {
+            "by": "zetalyrae",
+            "text": "I remember reading this as a teenager, and despite being already so steeped in transhumanist ideas that I should have found it very ordinary, I was so excited by it, having never read something like it before, I raved about it to my mother. &quot;... and then "
+          },
+          {
+            "by": "xgbi",
+            "text": "One of the founding books that really blew my mind and drove me on the path of software and hacking. I was 17 in 2005 and discovered it by chance, and I’ve been binging on hard sf since then. Matrix and this were really transformative for me. Also, for the lon"
+          }
+        ]
+      },
+      {
+        "id": 48134784,
+        "title": "The Third Hard Problem",
+        "url": "https://mmapped.blog/posts/48-the-third-hard-problem",
+        "score": 15,
+        "comments": 6,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The third hard problem mmap(blog) Posts Notes Feed The third hard problem ✑ 2026-02-28 glasperlenspiel programming Spaces, trees, and webs File systems Writing Architecture Biology Conclusion According to a classic joke attributed to Phil Karlton , computer science has only two hard problems: naming things and cache invalidation. They are hard because no algorithm can solve them: good names come from empathy and understanding, and cache invalidation requires system thinking and careful analysis. This article describes another such problem, pervasive and insidious yet rarely noticed: mapping a general graph onto a hierarchical structure. I call it tree mapping . Spaces, trees, and webs Our brains evolved to be remarkably good at dealing with physical space. We can intuitively orient ourselves in an unfamiliar city and draw an accurate map of a place we visited decades ago. Naturally, we want to take advantage of this machinery in all aspects of our lives. One of the defining features of a physical space is its hierarchical, localized structure. We perceive each bit of space as self-contained and interacting only with nearby bits, which enables a hierarchical view of the world in which objects form collections that can be understood as a whole: particles form atoms, atoms form molecules, molecules form bodies, and so forth, up to galaxies and superclusters. Hierarchies are so natural to us that they have become our dominant organizing tool. We sort things and ideas into labeled",
+        "comment_highlights": null
+      },
+      {
+        "id": 48157559,
+        "title": "Frontier AI has broken the open CTF format",
+        "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
+        "score": 332,
+        "comments": 312,
+        "category_hint": "ai-ml",
+        "why_hot": "Strong HN engagement; likely important development in ai-ml.",
+        "article_summary": "The CTF scene is dead - kabir.au ~/kabir.au home about projects &gt; blog ≡ ← Blog Opinion / May 1, 2026 The CTF scene is dead . Frontier AI has broken the open CTF format. The scoreboard does not measure human skill cleanly anymore, and the old game is not coming back. What makes me qualified to say this? I started playing CTFs in 2021, the same year I started university. My first CTF was HCKSYD, a 48-hour solo CTF. I full solved it and won in 2 hours. I was completely hooked. That led me to win DownUnderCTF, Australia&#x27;s largest CTF, with Blitzkrieg multiple times. Blitzkrieg was one of Australia&#x27;s strongest teams at the time. I later joined TheHackersCrew, an international top-tier team that was consistently ranked highly on CTFTime, the main global ranking and event calendar the scene uses as its scoreboard. With them, I competed in some of the most prestigious CTFs in the world, consistently placing well within the top 10 until the end of 2025. I am not saying this because I dislike CTFs. I am saying it because CTFs were the thing that made me fall in love with security. They taught me how to learn, gave me a way to measure myself, and introduced me to many of the people I respect most in the field. Watching people pretend the format is still fine is frustrating because the old game is not there anymore. What changed? As AI tools ramped up in capability, especially when GPT-4 first came out, a significant percentage of medium difficulty CTF challenges started be",
+        "comment_highlights": [
+          {
+            "by": "Nifty3929",
+            "text": "Must I beg to have an acronym spelled out a least once, the first time it&#x27;s used? Even if you assume 90% of readers already know, the other 10% (including me, in this case) will thank you, it doesn&#x27;t take much effort, and it expands the reach of your"
+          },
+          {
+            "by": "baq",
+            "text": "Replace ‘CTF’ with ‘high school’ or ‘university’ and you’ve described the total slow motion collapse of education; the only saving grace is that most of it requires in person presence. We’ve figured out the human replacement pipeline it seems, but we haven’t f"
+          },
+          {
+            "by": "hemlock4593",
+            "text": "I feel the post. For me AI has ruined both, playing CTFs and also building CTFs challenges. The most annoying thing to me is the &quot;yeah idk but here is the flag&quot; mentality. Before when playing CTFs with my mates was usually sitting there for hours tac"
+          },
+          {
+            "by": "himata4113",
+            "text": "I was writing an obfuscator recently, I just had the model deobfuscate and optimize the code back to original and I kept improving the obfuscator until it couldn&#x27;t. The funny thing is that after all this I also ended up with a really strong deobfuscator a"
+          },
+          {
+            "by": "tptacek",
+            "text": "A big fraction of the comments on this thread are about the impact of cheating on competitive games. It&#x27;s important to understand that automating CTF challenges isn&#x27;t usually cheating . It&#x27;s normally part of CTF culture. The better teams have to"
+          },
+          {
+            "by": "atleastoptimal",
+            "text": "&gt;The competition is turning into &quot;who can afford to run enough agents, with enough context, for long enough.&quot; This will basically become true for everything."
+          },
+          {
+            "by": "chrismorgan",
+            "text": "Meta: this was submitted with the article’s title “The CTF scene is dead” which I found very easy to understand. It has just been updated to use the subtitle’s first sentence, “Frontier AI has broken the open CTF format”. I find that much harder to grasp, rath"
+          },
+          {
+            "by": "tromp",
+            "text": "https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Capture_the_flag_(cybersecurit... still has no mention of AI, but that will likely change as they increasingly dominate competition."
+          },
+          {
+            "by": "lg5689",
+            "text": "This is happening to other forms of competitive programming too. The most recent AIs have problem solving skills rivaling top humans, and so if AI can&#x27;t be easily banned, the competition is dominated by AI agents. I thought code golf would take longer for"
+          },
+          {
+            "by": "hoyd",
+            "text": "«That feedback loop is breaking. If the visible scoreboard is dominated by teams using AI, a beginner is pushed toward using AI before they have built the instincts the AI is replacing. That is an anti-pattern. It prevents active learning, and active struggle "
+          },
+          {
+            "by": "SirHumphrey",
+            "text": "Competitive programming scene always included offline competition and with AI they are becoming more important (and in general they were more fair even before). If CTFs are to survive, they should probably try to adopt this strategy. You could even go so far t"
+          },
+          {
+            "by": "parasti",
+            "text": "I can&#x27;t help but draw parallels with video games. Aimbots in competitive multiplayer games is a well defined issue: it&#x27;s considered cheating and frowned upon, players caught cheating are banned from the game. Tool-assisted speedruns (TAS) where a pla"
+          },
+          {
+            "by": "Dzugaru",
+            "text": "It&#x27;s not only CTFs. I strongly believe being a programmer at a gamejam like Ludum Dare, or hackathons is pretty much over."
+          },
+          {
+            "by": "rurban",
+            "text": "I don&#x27;t do CTF&#x27;s but took part at the security workshop for fun ~2 years with my Android phone only. I was first with the first simple challenge, but then couldnt continue because my phone was just too limited. But I watched what the others did. And "
+          },
+          {
+            "by": "amingilani",
+            "text": "I don’t think CTFs are dead, they’ll just evolve. The difficulty level will need to be increased or the rules locked down. Just like sports and racing persist despite the existence of performance enhancing drugs and rocket technology. I just did a CTF where I "
+          },
+          {
+            "by": "susam",
+            "text": "I have normally found any sort of timed technical competition intimidating. Even so, about 6 or 7 years ago, after being persuaded by a colleague, I participated in a few CTFs. I am glad I did, back when this type of thing still meant something. I have kept a "
+          },
+          {
+            "by": "tardedmeme",
+            "text": "When I did my first CTF, it was close to the deadline and I thought I had the extracted the flag from the program and the rest of the program was just filler, so I entered the flag, and it told me it was not the flag. It turns out the program multiplies the in"
+          },
+          {
+            "by": "lachiflippi",
+            "text": "The &quot;CTF for fun&quot; aspect has been dead ever since the winning teams had thousands of dollars of rewards waiting for them. Of course people are going to use anything that&#x27;s not explicitly forbidden by the rules to win. Introducing what amounts to"
+          },
+          {
+            "by": "raphman",
+            "text": "Interesting and well written article that mirrors&#x2F;foreshadows how LLMs do and will change other scenes. As I don&#x27;t know much about the CTF scene, I looked for other takes on this topic. Here&#x27;s an article from 2015 about how tool-assistance alrea"
+          },
+          {
+            "by": "kevinsimper",
+            "text": "You could make it offline and with provided laptops only, just like with the competitive CS2 scene."
+          }
+        ]
+      },
+      {
+        "id": 48158506,
+        "title": "δ-mem: Efficient Online Memory for Large Language Models",
+        "url": "https://arxiv.org/abs/2605.12357",
+        "score": 189,
+        "comments": 51,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "[2605.12357] $δ$-mem: Efficient Online Memory for Large Language Models Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate &gt; cs &gt; arXiv:2605.12357 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About --> Computer Science > Artificial Intelligence arXiv:2605.12357 (cs) [Submitted on 12 May 2026] Title: $δ$-mem: Efficient Online Memory for Large Language Models Authors: Jingdi Lei , Di Zhang , Junxian Li , Weida Wang , Kaixuan Fan , Xiang Liu , Qihan Liu , Xiaoteng Ma , Baian Chen , Soujanya Poria View a PDF of the paper titled $\\delta$-mem: Efficient Online Memory for Large Language Models, by Jingdi Lei and 9 other authors View PDF Abstract: Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $\\delta$-mem, a lightweight memory mechanism that augments a frozen full-attention backbone with a compact online state of associative memory. $\\delta$-mem compresses past information into a fixed-size state matrix updated by delta-rule learning, and uses its readout to ge",
+        "comment_highlights": [
+          {
+            "by": "djoldman",
+            "text": "I would love for the standard to be to ALWAYS report the required amount of memory to load and run a model in bytes of RAM alongside any other metrics. I&#x27;d love to see time to first token, token throughput, token latency as well but I&#x27;d settle for me"
+          },
+          {
+            "by": "usernametaken29",
+            "text": "&gt; δ-mem compresses past information into a fixed-size state matrix updated by delta-rule learning This doesn’t solve the capacity problem of memory. You can cram more into one context window, but then again you need to associate them with input queries. Tha"
+          },
+          {
+            "by": "maxignol",
+            "text": "Is there some kind of memory enabling, for instance, an agent to remember guidelines on a repo without having to feed at the beginning of each session 4 markdown files and spending the corresponding tokens each time ?"
+          },
+          {
+            "by": "3form",
+            "text": "Interesting points: - fixed size of the memory seems like a good idea to overcome the current limitations - skimming through the thing, I can&#x27;t find any mention of the cost? - I would need more time to read it in-depth to see if this is legitimate and not"
+          },
+          {
+            "by": "in-silico",
+            "text": "They basically just added DeltaNet hypernetworks to existing LLMs. Nothing super novel or groundbreaking, but a moderately interesting read."
+          },
+          {
+            "by": "raverbashing",
+            "text": "Interesting that the headline is showing Δ-Mem while the paper uses δ-mem Is it a lowercase to uppercase conversion going on here?"
+          },
+          {
+            "by": "DeathArrow",
+            "text": "I see lots of techniques proposed to give LLM the capacity to recall things, I even saw a lot of memory plugins for AI coding agents, I tried some myself. What I want to see is something that was tested and proved in practice to be genuinely useful, especially"
+          },
+          {
+            "by": "ktallett",
+            "text": "The obvious energy saving step would be to utilise previous searches by others. Many of the tasks people do are rather similar, it is such an energy waste to start again each time. (Obviously ignoring the huge energy saver, which is to observe if you even need"
+          },
+          {
+            "by": "semiquaver",
+            "text": "Hmm, this is a case where HN’s title mangling changed the meaning of the title. Lower case delta (δ) is used intentionally. I don’t think HN should automatically modify the casing of non-ascii chars."
+          },
+          {
+            "by": "cubefox",
+            "text": "Papers being voted high on Hacker News are usually uncorrelated with their actual importance. It&#x27;s basically a lottery. There are regularly more interesting papers going semi viral on Twitter."
+          }
+        ]
+      },
+      {
+        "id": 48161997,
+        "title": "Kioxia and Dell cram 10 PB into slim 2RU server",
+        "url": "https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574",
+        "score": 106,
+        "comments": 72,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Kioxia and Dell cram 10 PB into slim 2RU server Jump to main content Search Topics AI&#x2F;ML Architecture Block Composable Containers Container storage Data Management Data Protection Disk File Flash Glossary HCI Media Multicloud NVME Object Public Cloud SCM Security Storage Management Storage Networking Tape Search Block File Object Disk Flash HCI Media Multicloud Storage Networking Tape AI&#x2F;ML BANDF AD Dell-Kioxia teaser. Kioxia and Dell cram 10 PB into slim 2RU server Chris Mellor Chris Mellor Blocks & Files editor Published thu 14 May 2026 // 15:21 UTC Kioxia’s LC9 high-capacity QLC SSD has been used by Dell to populate a 10 TB, all-flash, storage server just 2 RU in height. Dell is already using Kioxia’s LC9 in its PowerEdge servers. It’s now putting 40 LC9 E3.L form factor 245.76 TB NVMe SSDs in its AMD EPYC 9005-powered PowerEdge R7725xd server to produce a 9.8 PB capacity box. The system supports up to 5x 400 Gbps NICs so it can ship data out quickly. Kioxia’s LC9 SSDs Arun Narayanan, SVP Compute and Networking at Dell, said: “The Dell PowerEdge R7725xd combined with Kioxia's high-capacity enterprise SSDs delivers the storage density and power efficiency our customers need to scale AI infrastructure without sacrificing performance.\" BANDF AD There could be 196 PB in a rack fitted with twenty of these severs. Neville Ichhaporia, SVP and GM of the SSD business unit at Kioxia America, said that, with these servers, “customers can deploy massive ingestion streams, sc",
+        "comment_highlights": [
+          {
+            "by": "NitpickLawyer",
+            "text": "There&#x27;s been a lot of talk about orbital DCs lately, but with these levels of density, orbital CDNs might be a more obvious usecase. It would be interesting to see if something like Starlink can use something like this to cache media content and reduce th"
+          },
+          {
+            "by": "Pallav123",
+            "text": "At current enterprise NVMe prices, the drives alone for this must easily push past the $500k to $1M mark. It&#x27;s fascinating to see this level of density, but it’s strictly going to be hyperscaler or high-end defense&#x2F;research budget territory for a lon"
+          },
+          {
+            "by": "fancyfredbot",
+            "text": "The very first sentence of this article mistakes Terabytes and Petabytes. I used to dismiss the entire article as poor quality on seeing a mistake like this. But these days it also feels like an indicator the article was written by a human and might actually h"
+          },
+          {
+            "by": "bombcar",
+            "text": "Full NICs takes about 666 minutes to fill this thing. Satan’s NAS!"
+          },
+          {
+            "by": "ksec",
+            "text": "This is one of the case limited by PCIe speed, sharing it with SSD so Network could only do 5x400Gbps Network. This is on PCIe 5.0, luckily we have 7.0 spec ready and 8.0 is even in 0.5 draft status. If we could somehow increase the density further by 5x, we w"
+          },
+          {
+            "by": "zeristor",
+            "text": "Tell me about the thermals."
+          },
+          {
+            "by": "amelius",
+            "text": "If datacenters start buying these things, will we see consumer harddrives go up in price?"
+          },
+          {
+            "by": "nout",
+            "text": "I could do some cool backups with this bad boy."
+          },
+          {
+            "by": "mmanfrin",
+            "text": "Time for my NAS to get an upgrade."
+          },
+          {
+            "by": "danhon",
+            "text": "Someone please fix the title for this."
+          },
+          {
+            "by": "bitwize",
+            "text": "&quot;Let&#x27;s build a compact, hugely data-dense server that absolutely no one can afford!&quot;"
+          },
+          {
+            "by": "metadat",
+            "text": "Now make it for consumers. Storage capacity per dollar has really stalled."
+          },
+          {
+            "by": "a1o",
+            "text": "Now you put this in a cruise ship and you can move a lot of data"
+          },
+          {
+            "by": "varispeed",
+            "text": "10PB is probably the amount of data a medium sized country can collect about its all citizens (basic details, work history, all taxes, all financial records, all medical records, all police records, all biometric records and more) for their lifetime. I think d"
+          },
+          {
+            "by": "louwrentius",
+            "text": "What would this cost?"
+          },
+          {
+            "by": "reactordev",
+            "text": "Remember that season of Silicon Valley on HBO that was all about “the box”? I feel like we’re in that season."
+          },
+          {
+            "by": "joe_mamba",
+            "text": "Can&#x27;t wait to move my spinning rust NAS to this in 20 years."
+          },
+          {
+            "by": "tesdinger",
+            "text": "All the increases in density are impressive, but they come with the downside of repairability and recycling difficulties. I hope we can still repair this when parts of it break or at least recycle it properly. No matter how high tech it is, eventually this wil"
+          }
+        ]
+      },
+      {
+        "id": 48150431,
+        "title": "Project Gutenberg – keeps getting better",
+        "url": "https://www.gutenberg.org/",
+        "score": 1157,
+        "comments": 272,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "Free eBooks | Project Gutenberg X Go! Donate About ▼ About Project Gutenberg Reading Options & Kindle Contact Us History &amp; Philosophy Help Pages Offline Catalogs Donate Frequently Downloaded Main Categories Reading Lists Search Options Frequently Downloaded Main Categories Project Gutenberg is a library of over 75,000 free eBooks Choose among free epub and Kindle eBooks, download them or read them online. You will find the world's great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy. Newest Releases find more Hungary and Democracy by Cecil J. C. Street Blind trails by W. C. Tuttle The humor of &quot;Bill&quot; Nye by Bill Nye An artist&apos;s life by Harry Harrison Grocers&apos; manual by Anonymous Oikealla uralla by Aapo Pärnänen The contrast, Volume 3 (of 3) by Marquess of Constantine Henry Phipps Normanby The contrast, Volume 2 (of 3) by Marquess of Constantine Henry Phipps Normanby The contrast, Volume 1 (of 3) by Marquess of Constantine Henry Phipps Normanby The coming of the Amazons by Owen Johnson Find Free eBooks Frequently Downloaded : Top 100, or ranked by popularity . Main Categories . The ones you'd find in any large bookstore. Reading Lists . Hand-curated by volunteers. Search Options . By author, title, subject, language, type, popularity, and more. Visit self.gutenberg.org for self-published eBooks at the World Library Foundation. Projec",
+        "comment_highlights": [
+          {
+            "by": "JSeiko",
+            "text": "Hi! I&#x27;m one of the programmers at Gutenberg. We&#x27;ve been improving the site a lot over the past few months (and more is coming!). If you haven&#x27;t visited the page recently, it&#x27;s worth checking out again: https:&#x2F;&#x2F;www.gutenberg.org&#x"
+          },
+          {
+            "by": "throw0101c",
+            "text": "While PG has probably gotten a lot of use and growth with the growth&#x2F;maintreaming of the Internet since the 1990s, (TIL) it started back in 1971: &gt; Michael S. Hart began Project Gutenberg in 1971 with the digitization of the United States Declaration o"
+          },
+          {
+            "by": "drummojg",
+            "text": "The best thing I ever did for my father was to buy him a kindle and an access point and show him how to use Project Gutenberg to get books. He loved the old writings (he being a GED holder who was in the Navy during Korea yet had read the entire Harvard Classi"
+          },
+          {
+            "by": "Someone1234",
+            "text": "I&#x27;m surprised no eBook Reader vendor has a Project Gutenberg &quot;Store.&quot; Where you can just browse Gutenberg, find a book, and just grab it down to the reader. Instead, they either are actively hostile (Kindle), or require the use of Calibre (which"
+          },
+          {
+            "by": "cosmos0072",
+            "text": "From Italy, https:&#x2F;&#x2F;www.gutenberg.org&#x2F; gives a 404 error and https:&#x2F;&#x2F;gutenberg.org&#x2F; opens a very official-looking page stating &quot;police notice. This site is under judicial seizure&quot; and references a sentence number: &quot;"
+          },
+          {
+            "by": "gluejar",
+            "text": "Nice to see so much appreciation for what we do. (I&#x27;m the new-ish executive director.) Any wikipedians reading this, the article about PG is... aging. Last I looked, it said we offered Plucker files. @Jseiko has done some nice work."
+          },
+          {
+            "by": "ssgodderidge",
+            "text": "Looks like the top downloaded book yesterday[0] was Concrete Construction: Methods and Costs by Gillette and Hill.[1] Beat out Moby Dick, Count of Monte Cristo, Frankenstien, Romeo and Juliet, and others. &gt; 23644 downloads in the last 30 days. I wonder if t"
+          },
+          {
+            "by": "fmajid",
+            "text": "Worth mentioning the Project Gutenberg ZIMs. You can download the entire ENglish Gutenberg corpus for about 60GB (English Wikipedia ZIM complete with images is ~120GB): https:&#x2F;&#x2F;ebookfoundation.org&#x2F;openzim.html"
+          },
+          {
+            "by": "thangalin",
+            "text": "Project Gutenberg is a treasure trove, though many technical details defy automatic typesetting of its books. Standard Ebooks takes consistency to an unbelievable level. My post compares various sources of public domain books with an eye on typesetting: https:"
+          },
+          {
+            "by": "kreyenborgi",
+            "text": "Gutenberg is awesome. There is also https:&#x2F;&#x2F;www.fadedpage.com&#x2F; from Canada I think https:&#x2F;&#x2F;runeberg.org&#x2F; from Sweden"
+          },
+          {
+            "by": "litreads",
+            "text": "Deeply grateful for Project Gutenberg &amp; LibriVox! I&#x27;ve been using the text to force-align LibriVox recordings to produce word-by-word synced audiobooks; first stage of this project is a YouTube channel but I could definitely turn this into a mobile re"
+          },
+          {
+            "by": "alexdesouza",
+            "text": "Project Gutenberg is the best. Kudos to the team and to the 1000s years of humans developed it!"
+          },
+          {
+            "by": "vwkd",
+            "text": "Not sure if this is the right place, but the new layout of the German Projekt Gutenberg is missing any download links. For example https:&#x2F;&#x2F;projekt-gutenberg.org&#x2F;authors&#x2F;johann-wolfgang-von-go..."
+          },
+          {
+            "by": "JKCalhoun",
+            "text": "Project Gutenberg had (has?) a tendency toward plaintext that always put me off. (And it has been over a decade I&#x27;m sure since I explored the site—so I am no doubt now misinformed.) I like a styled formatted book—would prefer PDFs. (I know, not a popular "
+          },
+          {
+            "by": "marcellocurto",
+            "text": "one of the last good websites on the web..."
+          },
+          {
+            "by": "aymenfurter",
+            "text": "PG is proof that the best things on the internet are still built by people who just care about the mission."
+          },
+          {
+            "by": "RattlesnakeJake",
+            "text": "As a Kindle user, I still miss the old version of the site. The new one looks great on normal desktop, but the old one was simple enough to load and directly download books on the device&#x27;s built-in browser."
+          },
+          {
+            "by": "seizethecheese",
+            "text": "A big pet peeve of mine with Project Gutenberg was the lack of mobile styling. Looks like it’s been fixed! Awesome."
+          },
+          {
+            "by": "ndr42",
+            "text": "The project was geo-blocked in Germany for a long time: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29024039"
+          },
+          {
+            "by": "mowmiatlas",
+            "text": "Made an app that allows reading PG books as audiobooks on iPhone https:&#x2F;&#x2F;loudreader.io&#x2F;"
+          }
+        ]
+      },
+      {
+        "id": 48158065,
+        "title": "We've made the world too complicated",
+        "url": "https://user8.bearblog.dev/the-world-is-too-complicated/",
+        "score": 169,
+        "comments": 168,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "We&#x27;ve made the world too complicated | User8 User8 Home Blog We&#x27;ve made the world too complicated 16 May, 2026 We've made the world too complicated. I'm writing this with technology I will never fully understand in a building with rooms I can never enter, living in a country dictated by laws I can't control. We spend the majority of our waking hours and lives in an abstract world of compressed life. The moment I walk through my door I'm in a zoning area on a city-owned sidewalk, flanked by ugly metallic monsters, floating through a sea of strangers. Our world is an explosion of environmental harm, manipulation, corruption, and damage to everything around us. This puts us all under a stress we can't consciously notice. Manifesting in the slight clenching our jaws, thinning of our breath, steady incline of our blood pressure. There's a spirit of silent confusion in our mind at all times. The world doesn't make sense. It's always been this way, so we don't even know another way to exist. In the documentary The Thinking Game about Demis Hassabis and Google Deepmind, we are presented with the worldview that AGI offers the best solution to humanity's biggest problems. The ultimate savior from technology. I think we do a very good job at convincing ourselves that we are doing good things, working towards honest goals. Participating in society, discovering new truths, implementing new plans and projects. Seeing how easy it is to manipulate others, it makes sense that we are",
+        "comment_highlights": [
+          {
+            "by": "cdrini",
+            "text": "Thought-provoking write-up. One part of this is the &quot;meaning of human life&quot;. Part of that for me is: humans are the only known lifeform that can look at the stars and try to understand. And, to the best of our understanding, this ability arose from w"
+          },
+          {
+            "by": "terbo",
+            "text": "&quot;And here you find civilized man. Civilized man refused to adapt himself to his environment. Instead he adapted his environment to suit him. So he built cities, roads, vehicles, machinery. And he put up power lines to run his labour-saving devices. But he"
+          },
+          {
+            "by": "keiferski",
+            "text": "I think this feeling of everything being too complex is a natural consequence of work that is done for long-term abstract ends, rather than immediate and local ones. At least I think it is for me. Working remotely for an international software company is great"
+          },
+          {
+            "by": "awwyeah",
+            "text": "I see a lot of &quot;complexity is inherent to existence&quot; type comments. They aren&#x27;t wrong, but they show that OP&#x27;s phenomenology could use a little frame work, so to speak. &quot;We&#x27;ve made the world too complicated&quot; could be fairly s"
+          },
+          {
+            "by": "angrydev",
+            "text": "Oh boy, I don’t know about this one. You are born into a body that is so complicated we will perhaps never understand how all of it works. Our society if anything wrangled so much of the chaos of the natural world. It’s hardly simple to live in a world where y"
+          },
+          {
+            "by": "Procrastes",
+            "text": "This reminds me of the central ideas in Adam Curtis&#x27;s Hypernormalization[1]. I feel the pressure of the complexity, too, but attempting to oversimplify complex things has consequences. &quot;Politicians, financiers and technological utopians, rather than "
+          },
+          {
+            "by": "j_maffe",
+            "text": "&gt; I&#x27;m writing this with technology I will never fully understand in a building with rooms I can never enter, living in a country dictated by laws I can&#x27;t control. We spend the majority of our waking hours and lives in an abstract world of compress"
+          },
+          {
+            "by": "rglover",
+            "text": "The problem is focusing on the world vs what&#x27;s around us (and who). Technological society by definition will always be complicated (that&#x27;s the purpose; to advance the technique [1]). The smaller your area of concern, the smaller your &quot;world,&quo"
+          },
+          {
+            "by": "Paradigm2020",
+            "text": "Kindest advice: read Derek Sivers&#x27;s &quot;how to live&quot;. Think of it as a distilled wisdom and a choose your own adventure book which will give you perspective, options, frustration and probably become a &quot;quake book&quot;. Buy it from his own web"
+          },
+          {
+            "by": "manoDev",
+            "text": "&gt; Our internal intuition about right and wrong seems to leave us at an early age. I think it’s the opposite - Kant did too. But modern way of life don’t leave time and space for people to think about right and wrong. One really has to elevate his spirit to "
+          },
+          {
+            "by": "nritchie",
+            "text": "There is necessary complexity and un-necessary complexity. Often the modern world seems to be layering on un-necessary complexity and frequently this is not to the individual&#x27;s benefit. Consider for one, picking health insurance. It should be easy to line"
+          },
+          {
+            "by": "intralogic",
+            "text": "&quot;To look at the birds, feel the wind and the water in our own hands, and ... nothing more. Eat when we are hungry, laugh when we are happy, cry when we are empty. &quot; I am learning that a &quot;Just this&quot; attitude, like in these words, improves ou"
+          },
+          {
+            "by": "doginasuit",
+            "text": "There is just the tiniest space between feeling bored and feeling overwhelmed. Finding exactly the right amount of stimulation is a challenge. The natural world has a ramp of available information that the brain has evolved to navigate. The modern world wants "
+          },
+          {
+            "by": "proee",
+            "text": "I think the key is to find the right work&#x2F;life balance to maintain a fulfilling life. For the work portion of your life, you should find problems that interest you and people that you enjoy working with. For your life balance, you should connect with natu"
+          },
+          {
+            "by": "hnthrowaway0315",
+            "text": "Well that&#x27;s how you get convenience and comfort. That&#x27;s how you build civilizations. Specialization started many millennium ago, when people probably didn&#x27;t know much, if anything, about other careers. I&#x27;m sure we all want to throw away wor"
+          },
+          {
+            "by": "retired",
+            "text": "I&#x27;m paying someone €500 a year to file my taxes and I just want to go back to trading sea shells. Why do systems have to be so complicated. I have to pay my road tax in bills and I get my change in coins what is that about."
+          },
+          {
+            "by": "irdc",
+            "text": "This argument has been made before by Vernor Vinge in his 1999 novel A Deepness In The Sky : civilisations fall due to the sheer complexity they accumulate. &gt; &quot;They&#x27;ve accepted optimizing pressures for centuries now. Genius and freedom and knowled"
+          },
+          {
+            "by": "hyperadvanced",
+            "text": "I think this is essentially Heidegger’s commentary on technology but reengineered from first principles"
+          },
+          {
+            "by": "KurSix",
+            "text": "Maybe the goal isn&#x27;t to reject complexity entirely, but to be much more suspicious of complexity that gives no corresponding increase in dignity, beauty, autonomy or peace"
+          },
+          {
+            "by": "globnomulous",
+            "text": "Extinctions followed homo sapiens across the planet millennia before the emergence of the technologies that you seem to think make the world &#x27;complicated.&#x27; The Greek work biblos, for book, derives from the name of the region of the Levant (Bublos) th"
+          }
+        ]
+      },
+      {
+        "id": 48129593,
+        "title": "Fame! A Misunderstanding: A new translation of Albert Camus's complete notebooks",
+        "url": "https://lareviewofbooks.org/article/albert-camus-complete-notebooks-ryan-bloom-existentialism-absurd/",
+        "score": 39,
+        "comments": 6,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Fame! A Misunderstanding | Los Angeles Review of Books Los Angeles Review of Books ⇨ Sign In Join Reviews Essays Interviews Quarterly Journal Podcasts Workshops Events Shop About Membership Donate Fame! A Misunderstanding Albert Camus has long been misunderstood, but a new translation of his complete notebooks offers a corrective. By Matthew Lamb May 6, 2026 Philosophy &amp; Religion Fiction The Complete Notebooks by Albert Camus . Translated by Ryan Bloom . University of Chicago Press , 2026. 712 pages. Buy on Bookshop.org Did you know LARB is a reader-supported nonprofit? LARB publishes daily without a paywall as part of our mission to make rigorous, incisive, and engaging writing on every aspect of literature, culture, and the arts freely accessible to the public. Help us continue this work with your tax-deductible donation today! Donate EACH NEW TRANSLATION of a work from a major author should spark a reevaluation of that author’s critical reception and public reputation. Since his death in 1960, a number of posthumously published works by Albert Camus have been translated into English. This has included A Happy Death (1971), his abandoned first novel; The First Man (1994), his unfinished final novel; and several collections of lyrical essays, journalism, lectures, correspondence, and notebooks, covering his entire creative life. And yet the public image of Camus has remained stubbornly unchanged since his initial reception in the 1940s, with each new translation either r",
+        "comment_highlights": null
+      },
+      {
+        "id": 48160914,
+        "title": "PART Telescopes – Bringing radio astronomy within reach of rural schools",
+        "url": "https://parttelescopes.web.app/",
+        "score": 102,
+        "comments": 28,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "The PART Initiative PART Telescopes Home Instructions About Us PART Telescopes Designing low-cost radio telescopes and open software to bring astronomy within reach of rural schools. Instructions Access setup guides and project resources through the documentation menu. We recommend starting with installation instructions, then following the software workflow for recording and processing data from RTL-SDR devices. About Us Our names are Narayan Dwan-Holland, Aliana He, Kevin Fang, Emma Enyu Zhang and Yanfu Fan. As students from Narrabundah College, ACT, and participants of the Science Mentors ACT program, the Project for Accessible Radio Telescopes (PART) is our initiative aimed at designing, manufacturing and distributing telescopes for rural educators and students to support their study of astronomy. We aim to produce a simple but reliable telescope design with a total production and assembly cost under $500.00, capable of recording signals at the 21 cm line, an important frequency band associated with galactic hydrogen. Our design consists of a commercially available weather satellite dish and a conductive plastic base to collect signal, alongside a signal processing system with low-noise amplifiers, bandpass filters, a software-defined radio and a motor system. We seek to manufacture 25 such telescopes to distribute freely among rural high schools and colleges. Due to monetary and accessibility constraints, many rural Australian schools are unable to afford telescopes and",
+        "comment_highlights": null
+      },
+      {
+        "id": 48126431,
+        "title": "3D Gaussian Splatting in a Weekend",
+        "url": "https://bfeldman.me/3dgs-weekend/",
+        "score": 41,
+        "comments": 5,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "3D Gaussian Splatting in a Weekend | Benjamin Feldman Benjamin Feldman Posts Projects Tags 3D Gaussian Splatting in a Weekend May 13, 2026 &nbsp;·&nbsp; 26 min &nbsp;·&nbsp; Benjamin Feldman Introduction Loading a 3DGS scene Adding color: spherical harmonics The Gaussian distribution Reparameterizing the 3D Gaussian distribution Rendering a splat A note on differentiability Projecting the centroid Projecting the covariance matrix Model View Projection Drawing the 2D Gaussian distribution Building the bounding quad Placing the quad: the vertex shader Drawing the quad: the fragment shader Sorting splats Conclusion Appendix Covariance factorization with rotation and scaling Linear transformations of Gaussian vectors References Citation Introduction # 3D Gaussian splatting is a technique that answers this question: given a dataset of pictures of a scene, how can I reconstruct it in 3D? This is achieved using a machine learning algorithm that, for many different camera angles, does the following: render the scene, compare it to the picture taken at the same camera angle, and update the scene to reduce the difference between the rendered image and the ground truth. However, unlike traditional 3D renderers, 3DGS does not use triangles as primitives, but objects called Gaussian splats , making the rendering algorithm unique to 3DGS. In this post, I aim to show how 3D Gaussian splatting works by building a simplified renderer from scratch, in ~1000 lines of code. The main motivation i",
+        "comment_highlights": null
+      },
+      {
+        "id": 48163392,
+        "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+        "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+        "score": 44,
+        "comments": 52,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48159354,
+        "title": "Greek Alphabet Cards",
+        "url": "https://labs.randomquark.com/alphabet_cards/",
+        "score": 94,
+        "comments": 43,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Greek Alphabet Cards — Random Quark Labs Random Quark Labs / Greek Alphabet Cards Side Project · 2026 Greek Alphabet Cards A set of cards I made to help my kids learn the Greek alphabet through visual associations — each object is drawn so that it looks like the letter its name begins with. The Idea We live abroad in China, and Greek is one of three languages my kids are learning. They were three and a half when I started these cards about five months ago, so I wanted something playful to nudge them along. My first attempt was an “A for airplane” -style deck — pictures of objects whose names start with each letter. After printing version one, I had the epiphany: What if the object didn’t just start with the letter — what if it looked like it too? The shape of the letter pulls up the object, and the object’s name pulls up the letter. Research seems to back this up — kids learn the alphabet far faster this way than by rote. Finding the Objects In the beginning I relied on my memory to come up with these associations, but you run out of ideas very quickly. So I got a bit more organised about it: Dictionary I downloaded an entire Greek dictionary that contained not just the words but also a list of words per letter, along with the frequency with which each word appears in Greek text. I used GreekLex , which contains 35,304 Modern Greek words ranging in length between 1 and 22 letters. greeklex.csv · excerpt IDnr Word Length LemmaFreq WordFreq 223 φως 3 125 90.2 224 χαν 3 7 7.4 22",
+        "comment_highlights": null
+      },
+      {
+        "id": 48162882,
+        "title": "Japan’s robot wolf sells out as record bear attacks drive demand",
+        "url": "https://www.independent.co.uk/asia/japan/japan-robot-wolf-bear-attacks-ohta-seiki-b2975670.html",
+        "score": 80,
+        "comments": 43,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Japan’s robot wolf sells out as record bear attacks drive demand: ‘We cannot make them fast enough’ | The Independent Stay up to date with notifications from The Independent Notifications can be managed in browser preferences. Not now Yes please Jump to content Asia Edition Change UK Edition US Edition Edición en Español Sign up to our newsletters Subscribe now Log in / Register Independent Podcasts Newsletters Subscribe Menu News News Bulletin UK US World Global Aid UK Politics Money Brexit Health Business Science Space News Videos Premium Premium Politics Explained Editorials Voices Long Reads News Analysis Today’s Edition Sport Sport Football Formula 1 Rugby Union Cricket Tennis Boxing UFC Horse Racing Cycling Golf Sport Videos Voices Voices Editorials Letters John Rentoul Mary Dejevsky Andrew Grice Sean O’Grady Culture Culture Film TV & Radio Music Games Books Art Photography Theatre & Dance Culture Videos Lifestyle Lifestyle Shopping Beauty Fitness & Wellbeing Tech Food & Drink Fashion Love & Sex Health & Families Royal Family Home Motoring Electric Vehicles Lifestyle Videos IndyBest IndyBest Home & Garden Gadgets & Tech Fashion & Beauty Deals Food & Drink Kids Books Travel & Outdoors Sports & Fitness Travel Travel Hotel Reviews News & Advice Simon Calder Cruises UK Europe USA Asia Australia & New Zealand South America C. America & Caribbean Middle East More Deals Travel Deals Fashion Deals Home & Garden Deals Tech Deals Climate News Climate 100 Electric Vehicles Voices",
+        "comment_highlights": null
+      },
+      {
+        "id": 48110804,
+        "title": "Nearly 50 Years Later, WKRP in Cincinnati Becomes a Real Radio Station",
+        "url": "https://www.openculture.com/2026/05/nearly-50-years-later-wkrp-in-cincinnati-becomes-a-real-radio-station.html",
+        "score": 98,
+        "comments": 62,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Nearly 50 Years Later, WKRP in Cincinnati Becomes a Real Radio Station | Open Culture --> --> --> --> --> --> Nearly 50 Years Later, WKRP in Cincinnati Becomes a Real Radio Station --> The best free cultural &amp; educational media on the web --> --> --> Online Courses Certificates Degrees & Mini-Degrees --> Audio Books Movies Languages --> Podcasts Textbooks --> K-12 K-12 --> eBooks Languages Donate --> --> May 11 --> Nearly 50 Years Later, WKRP in Cincinnati Becomes a Real Radio Station in Music , Television | May 11th, 2026 Leave a Comment --> --> It took near­ly 50 years. WKRP in Cincin­nati is no longer just a TV sit­com. It’s now a real radio sta­tion in Cincin­nati. A Cin­cy-area FM sta­tion, known as “The Oasis,” has adopt­ed the WKRP call let­ters after acquir­ing them from a non­prof­it radio sta­tion in North Car­oli­na. The Raleigh-based sta­tion put the call let­ters up for auc­tion as part of a fundrais­ing effort. And then The Oasis snapped them up. To mark the offi­cial launch last week, the sta­tion played the TV show’s theme song for six straight hours. Mov­ing for­ward, the sta­tion will con­tin­ue play­ing clas­sic rock from the ’60s through the ’80s — much like the music fea­tured on the 1978–82 sit­com. As a bonus, Gary Sandy , who played pro­gram direc­tor Andy Travis , has record­ed pro­mos for the revived WKRP. If the orig­i­nal show was before your time, you can watch some episodes on YouTube . Enjoy… If you would like to sup­port the mis­sion of Ope",
+        "comment_highlights": [
+          {
+            "by": "wishfish",
+            "text": "Radio Retrofit took all the station breaks and song announcements from the show, combined them with the full length songs to create around 6 hours of WKRP radio. 3 hours of Johnny Fever and 3 hours of Venus Flytrap. MP3 downloads available. Really a brilliant "
+          },
+          {
+            "by": "vibrio",
+            "text": "I can’t wait until Thanksgiving."
+          },
+          {
+            "by": "criddell",
+            "text": "It&#x27;s a bummer that the show will never play with original music on some streaming service due to (as I understand it) music licensing problems."
+          },
+          {
+            "by": "jzb",
+            "text": "This is wonderful. I grew up watching WKRP and wanted to be Doctor Johnny Fever when I grew up. Managed to work in radio for a few years part-time, but by then DJing was “here’s a program sheet. Play these songs, exactly” - not the dream of being a DJ doing th"
+          },
+          {
+            "by": "socalgal2",
+            "text": "We also need Station H.A.P.P.Y. Radio"
+          },
+          {
+            "by": "noefingway",
+            "text": "Will Les Nessman be in his &quot;office&quot;?"
+          },
+          {
+            "by": "tanseydavid",
+            "text": "Shout out to Bailey Quarters. I&#x27;m still waiting for your call."
+          },
+          {
+            "by": "JKCalhoun",
+            "text": "That&#x27;s funny, especially since the callsign was part of the humor of the show."
+          },
+          {
+            "by": "snapetom",
+            "text": "Man, a bygone era where TV theme songs were an art in itself."
+          },
+          {
+            "by": "comrade1234",
+            "text": "I think I&#x27;m getting this show mixed up with another. I thought that Phil Hartman was in it but looking at the wiki page he&#x27;s not listed... ah, Phil Hartman was in News Radio. WKRP was almost 20 years earlier. Everyone that watched it is probably dead"
+          }
+        ]
+      },
+      {
+        "id": 48160211,
+        "title": "Accelerate – Embedded language for high-performance array computations",
+        "url": "https://github.com/AccelerateHS/accelerate",
+        "score": 74,
+        "comments": 17,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - AccelerateHS/accelerate: Embedded language for high-performance array computations · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Tren",
+        "comment_highlights": null
+      },
+      {
+        "id": 48160807,
+        "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+        "url": "https://www.seangoedecke.com/steering-vectors/",
+        "score": 200,
+        "comments": 67,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "DeepSeek-V4-Flash means LLM steering is interesting again sean goedecke May 16, 2026 │ ai , steering DeepSeek-V4-Flash means LLM steering is interesting again Ever since Golden Gate Claude I’ve been fascinated with “steering”: the idea that you can guide LLM outputs by directly manipulating the activations of the model mid-flight. DeepSeek V4 Flash I was inspired to write this post by antirez’s recent project DwarfStar 4 , which is a version of llama.cpp that’s been stripped down to run only DeepSeek-V4-Flash. What’s so special about this model? It might be what many engineers have been waiting for: a local model good enough to compete with at least the low end of frontier model agentic coding. Since steering requires a local model, it’s now practical for many engineers to try it out for the first time. And indeed, antirez has baked steering into DwarfStar 4 as a first-class citizen. Right now it’s very rudimentary (basically just the toy “verbosity” example you can replicate via prompting), but the initial release was only eight days ago . I plan to follow this project closely. How steering works The basic idea behind steering is extracting a concept (like “respond tersely”) from the model’s internal brain state, then reaching in during inference and boosting the numerical activations that form that concept. One way you might do this is to feed your model the same set of a hundred prompts twice, once with the normal prompts and once with the words “respond tersely” appended.",
+        "comment_highlights": [
+          {
+            "by": "antirez",
+            "text": "Thank you for posting this! Just a clarification, with DwarfStar steering features I was able to completely remove refusal from DS4. It is only the example dataset (prompt pairs I provide) which is a toy, not the abilities. I thought that who is able to come u"
+          },
+          {
+            "by": "NitpickLawyer",
+            "text": "I&#x27;m surprised the article doesn&#x27;t mention the biggest use of steering vectors, which is the potential to remove refusals from models (a.k.a. abliteration or uncensoring). There was an earlier paper that found that &quot;most refusals are on a single "
+          },
+          {
+            "by": "kamranjon",
+            "text": "The really interesting thing that I think is going on inside of the DS4 repo is exploring all of the interesting knobs that frontier labs have hidden from users, and then thinking about how they can fit into real dev&#x2F;interaction workflows. It&#x27;s reall"
+          },
+          {
+            "by": "wolttam",
+            "text": "&gt; inspired to write this post by antirez’s recent project DwarfStar 4, which is a version of llama.cpp that’s been stripped down to run only DeepSeek-V4-Flash This is not true, it is its own project. Indebted to llama.cpp, sure, but not a stripped down vers"
+          },
+          {
+            "by": "micahwhite",
+            "text": "I used steering to make an AI more radical: Write up: https:&#x2F;&#x2F;www.outcryai.com&#x2F;research&#x2F;shift-a-models-political-i... App: https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;outcry-activist-ai&#x2F;id676208676... This technique has a lo"
+          },
+          {
+            "by": "bel8",
+            "text": "Great article but I&#x27;m confused on one thing. The article claims steering only works in local models, but GitHub Copilot has a &quot;steer with message&quot; feature where I can course correct mid execution. I use it often. I think these are different kind"
+          },
+          {
+            "by": "aswegs8",
+            "text": "How does the model qualify as local? ~192 GB RAM needed sounds a bit much for local."
+          },
+          {
+            "by": "potatoman22",
+            "text": "This reminds me of control vectors, especially this line in the linked DwarfStar repo: &gt; y = y - scale * direction[layer] * dot(direction[layer], y) From https:&#x2F;&#x2F;vgel.me&#x2F;posts&#x2F;representation-engineering&#x2F; &gt; A control vector is a v"
+          },
+          {
+            "by": "amelius",
+            "text": "Sounds more like something for DL research than something you might want to use in practice."
+          },
+          {
+            "by": "dominotw",
+            "text": "&gt; you can already exercise extremely fine-grained control by tweaking the language of your prompt. maybe i suck at prompting but i find it impossible to overcome its biases from training data, post training ect. you can only pattern mine from training data "
+          },
+          {
+            "by": "anonym29",
+            "text": "I know it&#x27;s only tangentially relevant, but I&#x27;ve been baffled by the interest in DeepSeek V4 Flash. It&#x27;s larger, less efficient, and in many cases, performs worse on both objective benchmarks and real world sniff test (admittedly, n=1) than Mini"
+          }
+        ]
+      },
+      {
+        "id": 48153379,
+        "title": "I believe there are entire companies right now under AI psychosis",
+        "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+        "score": 1863,
+        "comments": 1051,
+        "category_hint": "ai-ml",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp. Something went wrong, but don’t fret — let’s give it another shot. Try again Some privacy related extensions may cause issues on x.com. Please disable them and try again.",
+        "comment_highlights": [
+          {
+            "by": "wrxd",
+            "text": "I’m at a FAANG and we have $300&#x2F;day token quota. Personally I don’t use that much of it but management is pushing really hard for it. “the quota has been raised for a reason, use it”. Any task: “have you tried working on it with Claude?”. Every meeting “n"
+          },
+          {
+            "by": "charlotte-fyi",
+            "text": "I feel in a really weird position where I both really dislike what AI is doing to the experience and practice of writing code, to the point where I want a job doing literally anything else besides using the computer, but also think that these tools are extreme"
+          },
+          {
+            "by": "foxfired",
+            "text": "Maybe this is what will turn software engineering into an Engineering field. Right know, prompters are setting up whole company infrastructure. I personally know one. He migrated the companies database to a newer Postgres version. He was successful in the end,"
+          },
+          {
+            "by": "thisisit",
+            "text": "Recently I had a request come through to allow finance analysts to vibe code their apps. During a discussion one of the finance managers let the cat out of the bag. Turns out our CFO had met fellow CFOs at a get together. They talked about how each of them wer"
+          },
+          {
+            "by": "zmmmmm",
+            "text": "I think AI rescue consulting is going to be come a significant mode of high value consulting, similar to specialists who come in to try and deal with a security breach or do data recovery. Purely AI written systems will scale to a point of complexity that no h"
+          },
+          {
+            "by": "miek",
+            "text": "My very large employer has always been glacially slow on modernization and tech adoption. It may now, oddly enough, become a competitive advantage."
+          },
+          {
+            "by": "Simon_O_Rourke",
+            "text": "I&#x27;m just waiting for my current company to have a Sev 1 CritSit so I can document the bejesus out of the root cause and expose our non-technical AI evangelist leadership as the sort of goons most of the senior development staff already suspect. Only by wa"
+          },
+          {
+            "by": "perching_aix",
+            "text": "I&#x27;m going through a mixed experience regarding this, personally. Management is really pushing AI. It&#x27;s obnoxious, and their idea on how it fits into my team&#x27;s job specifically is completely, hilariously detached from reality. On the off chance s"
+          },
+          {
+            "by": "dtnewman",
+            "text": "If you feel this way, you might like my new CLI tool, Burn, Baby, Burn (those tokens) ( https:&#x2F;&#x2F;github.com&#x2F;dtnewman&#x2F;burn-baby-burn&#x2F;tree&#x2F;main ). Show HN here: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48151287"
+          },
+          {
+            "by": "thr0w",
+            "text": "Hard to have sober talk about this since a lot of discourse is AI psychosis vs. AI naysayers. Does software quality seem to have taken a jump in the past few years to anyone? Not to me, seems to be getting worse. Think that&#x27;s a decent signal. Can tell you"
+          },
+          {
+            "by": "kalkin",
+            "text": "I think there&#x27;s a reasonable argument that our entire society right now is under AI psychosis: The stock market keeps going up in the face of the indefinite closure of Hormuz. We&#x27;re investing in datacenters at a scale that only makes sense if AI capa"
+          },
+          {
+            "by": "Groxx",
+            "text": "Bug reports also go down when people lose faith that they will be fixed, because reporting them is often a substantial time commitment. You see it happen pretty regularly as trust in a group&#x2F;company collapses."
+          },
+          {
+            "by": "vadepaysa",
+            "text": "&quot;Just use autoresearch and it will fix your app&#x27;s memory leaks in an hour&quot; is what I was nonchalantly told by someone who has never written a line of code ever. I guess what I relate to the most is how dismissive people get about real software e"
+          },
+          {
+            "by": "gopalv",
+            "text": "The AI psychosis is not the anti-opinion to the use of AI. I use AI coding tools every day, but AI tools have no concept of the future. The selfish thinking that an engineer has when they think &quot;If this breaks in prod, I won&#x27;t be able to fix it. And "
+          },
+          {
+            "by": "trizoza",
+            "text": "You&#x27;re speaking of my company and I&#x27;m forever grateful. I&#x27;m afraid to say this out loud internally because I&#x27;m afraid of the next round of layoffs and I want to keep my job. So I just keep on shipping at a high pace, building massive cognit"
+          },
+          {
+            "by": "impulser_",
+            "text": "I&#x27;m pretty sure he&#x27;s talking about companies and people outsourcing their decision making and thinking to AI and not really about using AI itself. I don&#x27;t think using AI to write code is AI psychosis or bad at all, but if you just prompt the AI "
+          },
+          {
+            "by": "flumpcakes",
+            "text": "There&#x27;s a lot of people writing bad code. With AI being forced top down (with the promise of turning people into 10x-ers), we&#x27;re going to get a lot of people writing bad code 10x faster. I really do worry - I especially worry about security. You thou"
+          },
+          {
+            "by": "jimbokun",
+            "text": "This reminds me of Rich Hickey’s “Simple Made Easy” and his approach in making Clojure. Even before LLMs generating entire programs, complex frameworks allowed developers to write the initial versions of programs very quickly, but at the cost of being hard to "
+          },
+          {
+            "by": "agnosticmantis",
+            "text": "&gt; I lived through the great MTBF vs MTTR (mean-time-between-failure vs. mean-time-to-recovery) reckoning of infrastructure during the transition to cloud and cloud automation. What&#x27;s the historical context for this MTBF vs. MTTR reckoning?"
+          },
+          {
+            "by": "bob1029",
+            "text": "The longer I look at the AI transformation, the more it seems like a people problem than a technology problem. The technology is undeniably there. The people are all over the place. I am watching a 10 person company try to run 3 different AI initiatives in par"
+          }
+        ]
+      },
+      {
+        "id": 48161861,
+        "title": "HTML Lists",
+        "url": "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/",
+        "score": 278,
+        "comments": 62,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "You don&#8217;t know HTML Lists &#8211; Frank M Taylor Skip to content Frank M Taylor blog Projects &#038; Apps NPM jQuery Plugins Front-end HTML5 CSS JavaScript Content Management Tridion Razor Mediator Media Manager Language &amp; Linguistics Prose Short Stories Humor Faith Politics About Me The Blog Resume On the Internet You are here: Home 2026 May 13 You don&#8217;t know HTML Lists May 13, 2026 by paceaux You don&#8217;t know HTML Lists Reading Time: 13 minutes This second installment in the &#8220;You don&#8217;t know HTML&#8221; series is going to be all about the ways that we put collections of things together. We&#8217;re skipping over the MDN and W3Schools introductory pages and instead we&#8217;re going into the kind of stuff you discover after accidentally taking your cousin&#8217;s Ritalin right before you open up the W3C specs. Let&#8217;s dive deep into lists. We&#8217;re not even talking about the ways you can style them. This isn&#8217;t an introduction! I&#8217;m assuming you&#8217;ve got real-world experience writing HTML and this isn&#8217;t your first time searching &#8220;How to make a list.&#8221; What I&#8217;m going to cover are all of the ways you can put collections of content together. So I&#8217;m talking about these kinds of lists: Ordered Unordered Description Menu Control And if you didn&#8217;t know there were five different kinds of lists in HTML, perfect . That must mean you don&#8217;t know HTML ! How Do we Decide Which to Use? No need to a",
+        "comment_highlights": [
+          {
+            "by": "appplication",
+            "text": "This was a fun little read. Just through testing the examples, I also learned datalist does not seem to work well on mobile safari (which is a large enough market I might even say there’s essentially no scenario in which it’s worth using if there’s a compatibi"
+          },
+          {
+            "by": "VladVladikoff",
+            "text": "&gt;What if there’s a bunch of options, but for [reasons] we don’t want a user to be able to select a subset of them? Let’s add the disabled attribute to an optgroup Seems broken in mobile safari, not actually disabled I can still select the disabled items."
+          },
+          {
+            "by": "dzonga",
+            "text": "this was a dope &amp; comprehensive. unfortunately we have a new class of dev&#x27;s that never learned html but went straight for React. Now with LLMs they will never learn HTML. hence they reach for react components where simple html would have been sufficie"
+          },
+          {
+            "by": "montroser",
+            "text": "Good stuff, except don&#x27;t get too excited about `datalist`. It just doesn&#x27;t have enough hooks to be actually useful for anything other than a little prototype."
+          },
+          {
+            "by": "jdw64",
+            "text": "HTML linters actually help distinguish things like that? I&#x27;m curious if there are any linters out there that can enforce this kind of semantic tag selection."
+          },
+          {
+            "by": "nektro",
+            "text": "TIL &lt;menu&gt;, I wonder why more frameworks don&#x27;t make use of it."
+          },
+          {
+            "by": "jimmaswell",
+            "text": "Lots of useful information I wasn&#x27;t aware of after being a front-end lead for years. I&#x27;ll start using these at work for sure."
+          },
+          {
+            "by": "kevinh456",
+            "text": "DL is a definition list not a description list."
+          },
+          {
+            "by": "tuzemec",
+            "text": "Only if we had designers who like the default datalist appearance..."
+          },
+          {
+            "by": "reconnecting",
+            "text": "This is how real HTML magic should look like: &lt;MARQUEE&gt; &lt;OL&gt; &lt;LI&gt;One&lt;&#x2F;LI&gt; &lt;LI&gt;Two&lt;&#x2F;LI&gt; &lt;LI&gt;Three&lt;&#x2F;LI&gt; &lt;&#x2F;OL&gt; &lt;&#x2F;MARQUEE&gt;"
+          },
+          {
+            "by": "WA",
+            "text": "And yet, no native select + search combined, which is a very common kind of list. The datalist is basically unusable, because you don&#x27;t know any of the options."
+          },
+          {
+            "by": "ksec",
+            "text": "Sigh. Just when I was cheering Safari, finally both on Desktop and on Mobile have gotten to the point of good enough. And then to find out the list don&#x27;t work on Safari iOS."
+          },
+          {
+            "by": "zombot",
+            "text": "What I always wanted to know about lists and never dared to ask!"
+          },
+          {
+            "by": "ale",
+            "text": "Now i need one that explains the css counters"
+          },
+          {
+            "by": "einpoklum",
+            "text": "tl;dr: You _do_ know HTML lists, they&#x27;re basicaly like they used to be 20 years ago. But there are HTML form controls which are list-like and this will tell you about them: &lt;select&gt; and &lt;datalist&gt; which have &lt;option&gt; elements and &lt;men"
+          },
+          {
+            "by": "MagicMoonlight",
+            "text": "That’s a really good article. It’s nice to see something which isn’t slop."
+          },
+          {
+            "by": "asveikau",
+            "text": "Title reminds me of Joni Mitchell. I&#x27;ve looked at lists from both sides now From give and take and still somehow It&#x27;s HTML lists&#x27; illusions I recall I really don&#x27;t know HTML lists at all"
+          }
+        ]
+      },
+      {
+        "id": 48132232,
+        "title": "After 8 years, I rewrote my open-source PyTorch curvature library",
+        "url": "https://github.com/noahgolmant/pytorch-hessian-eigenthings",
+        "score": 72,
+        "comments": 1,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - noahgolmant/pytorch-hessian-eigenthings: Efficient PyTorch Hessian eigendecomposition tools! · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES T",
+        "comment_highlights": null
+      },
+      {
+        "id": 48158606,
+        "title": "Futhark by example",
+        "url": "https://futhark-lang.org/examples.html",
+        "score": 108,
+        "comments": 26,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48116935,
+        "title": "Recreation of the 1956 IPL-I version of the Logic Theorist theorem prover",
+        "url": "https://github.com/dmoews/logic-theorist",
+        "score": 18,
+        "comments": 1,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - dmoews/logic-theorist: Recreation of the 1956 IPL-I version of the Logic Theorist theorem prover. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITOR",
+        "comment_highlights": null
+      },
+      {
+        "id": 48159405,
+        "title": "Kyber (YC W23) Is Hiring a Founding Marketer",
+        "url": "https://www.ycombinator.com/companies/kyber/jobs/1rLQAro-founding-marketer-content-community",
+        "score": 1,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Founding Marketer (Content &amp; Community) at Kyber | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface Safe Find a Co-Founder Startup Jobs Log in Apply Kyber Instantly draft, review, and send complex regulatory notices. Founding Marketer (Content &amp; Community) $90K - $130K • 0.01% - 0.10% • New York, NY, US Job type Full-time Role Marketing Experience 3+ years Visa US citizen/visa only Skills Growth design, Marketing design Connect directly with founders of the best YC-funded startups. Apply to role › Arvind Sontha Founder Arvind Sontha Founder About the role About Kyber With Kyber, companies operating in regulated industries can quickly draft, review, and send complex regulatory notices. For example, when Branch Insurance's claims team has to settle a claim, instead of spending hours piecing together evidence to draft a complex notice, they can simply upload the details of the claim to Kyber, auto-generate multiple best in-class drafts, easily assign reviewers, collaborate on notices in real-time, and then send the letter to the individual the notice is for. Kyber not only saves these teams time, it also improves overall quality, accountability, and traceability. About the role We're seeking a Founding Marketer to own and scale our Content &amp; Com",
+        "comment_highlights": null
+      },
+      {
+        "id": 48158494,
+        "title": "Fecal transplants for autism deliver success in clinical trials (2019)",
+        "url": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+        "score": 284,
+        "comments": 201,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "Fecal transplants show success in autism clinical trials, study finds SIGN UP LOG IN HOME HEALTH BIOLOGY CHEMISTRY HISTORY ENVIRONMENT PHYSICS SPACE © 2026 Refractor Menu HOME HEALTH BIOLOGY CHEMISTRY HISTORY ENVIRONMENT PHYSICS SPACE SIGN UP LOG IN Show Search Search Query Submit Search SCIENCE HEALTH SIGN UP HOME ADHD &amp; Autism Fecal transplants for autism deliver success in clinical trials By&nbsp; Rich Haridy ,&nbsp; Nick Lavars April 21, 2025 08:03 pm Facebook Twitter LinkedIn Reddit Email / Fecal transplants for autism deliver success in clinical trials A two-year study on fecal transplants for autism has found they can reduce symptoms by as much as 45&nbsp;percent Arizona State University View 3 Images 1 / 3 New research sheds new light on the connection between&nbsp;gut health and autism Arizona State University/Shireen Dooling 2 / 3 A two-year study on fecal transplants for autism has found they can reduce symptoms by as much as 45&nbsp;percent Arizona State University 3 / 3 The team of ASU researchers behind the new study,&nbsp;left to right,&nbsp;Rosa Krajmalnik-Brown, James Adams, and Dae Wook Kang were inspired to explore the gut-brain connection as it relates to autism symptoms and gastrointestinal issues Arizona State University View gallery - 3 images Scientific research continues to uncover interesting connections between the gut microbiome and human health, including everything from depression to PTSD to autoimmune disease . Another example of this are em",
+        "comment_highlights": [
+          {
+            "by": "directevolve",
+            "text": "Many autistic children have extremely limited diets. For example, a geneticist friend of mine saw a case where an autistic child had been referred for genetic testing because of horrific, chronic, spontaneous wounds on gums and skin. Turned out to be scurvy, b"
+          },
+          {
+            "by": "Arodex",
+            "text": "&gt;Editor&#x27;s note: Readers often ask us for follow-ups on memorable stories. What has happened to this story over the years? This article was originally published in 2019 but it has been re-edited and updated with new information current as of April 7, 20"
+          },
+          {
+            "by": "Aurornis",
+            "text": "I think this is the clinical trial registration: https:&#x2F;&#x2F;clinicaltrials.gov&#x2F;study&#x2F;NCT03408886?tab=results It is marked as having results submitted but quality review has not been completed. N=60 and a placebo group, which is better than the"
+          },
+          {
+            "by": "dathinab",
+            "text": "Grate example of how misleading just reading headlines can be, even if the headline isn&#x27;t intentional misleading&#x2F;click bait. &gt; reduce autism symptoms &gt; chronic gastrointestinal issues are a harsh reality &gt; boosting microbial diversity &gt; w"
+          },
+          {
+            "by": "_puk",
+            "text": "&gt;&gt; In early 2022 Krajmalnik-Brown and colleagues patented a specific bacterial formulation and spun-off a commercial company called Gut-Brain Axis Therapeutics. I was a little surprised to see this. So the university researchers use time and money from t"
+          },
+          {
+            "by": "rattray",
+            "text": "&gt; Prior to the study, 83% of participants had &quot;severe&quot; autism. Two years later, only 17% were rated as severe, 39% as mild or moderate, and incredibly, 44% were below the cut-off for mild ASD. Pretty incredible if true!"
+          },
+          {
+            "by": "delichon",
+            "text": "I got bad chronic constipation after four years as a strict carnivore. I didn&#x27;t get relief just by adding back fiber, but I did by adding fermented foods like kimchi. I wonder if ferments are a more natural way than fecal transplants to repair the gut mic"
+          },
+          {
+            "by": "senfiaj",
+            "text": "I would still be cautious with such findings. Many autistic people are picky eaters, also some of them have issues with peristalsis. This might affect the microbiome as well. While it&#x27;s plausible that it might help a subset of people, we should not overge"
+          },
+          {
+            "by": "geremiiah",
+            "text": "What&#x27;s more plausible? Did they cure low functioning autism in two years? Or did they simpily miscategorize the kids and the kids grew out of their diagnosis as they matured?"
+          },
+          {
+            "by": "dmix",
+            "text": "They also used to think IBD (colitis) was an autoimmune disorder, but now more research is shifting to gut biome and genetics targeting non-immune pathways."
+          },
+          {
+            "by": "tt_dev",
+            "text": "Title is a bit misleading. It’s not a fecal transplant. It’s tablets and powder (for the pitt-hopkins cases) of microbes from fecal donors. Consumes orally. More like fecal food?"
+          },
+          {
+            "by": "mgaunard",
+            "text": "So if I eat somebody else&#x27;s poo I&#x27;ll become more social? An unexpected result for sure."
+          },
+          {
+            "by": "wackget",
+            "text": "First website where I&#x27;ve had to disable first-party JavaScript just to be able to read a text-based article. Even Firefox&#x27;s reader mode was hijacked by their anti-ad-blocker script. Shameful."
+          },
+          {
+            "by": "andy_ppp",
+            "text": "AFAIK fecal transplants do not work well long term, has there been any research in making them more sticky? Lots of things you could trial but I have a feeling it’s the immune system responding to the right bacteria incorrectly…"
+          },
+          {
+            "by": "malwarebytess",
+            "text": "Pretty funny that picky eaters are hobbling their own minds and bodies and giving themselves severe autism. Just stop eating chicken nuggets and french fries, kids. Have some vegetables."
+          },
+          {
+            "by": "manoDev",
+            "text": "I wonder if there’s any study linking C-section birth, autism and microbiota? Or newborns that have to stay in incubators? I understand a newborn gets its microbiota naturally by contact with the mom in the first days, maybe all the sterile environment involve"
+          },
+          {
+            "by": "jimnotgym",
+            "text": "Being told to eat shit has been typical of most of my experience of trying to get normies to understand my mild nuerodiversity. My slightly more serious experience is that in my late 20s I started getting digestive problems and gaining weight. I feel like my n"
+          },
+          {
+            "by": "hcfman",
+            "text": "I’ve heard that fecal transplants are also good for curing former lawyers. The bigger the hose the faster the cure."
+          },
+          {
+            "by": "fgfarben",
+            "text": "What&#x27;s the incidence of autism in country towns without functioning septic systems?"
+          },
+          {
+            "by": "philsnow",
+            "text": "There&#x27;s a greentext that&#x27;s been floating around for a while, I don&#x27;t know the original author and can&#x27;t remember the exact text to search for it, but it&#x27;s along the lines of &gt; my deepest fantasy is that one day I&#x27;ll be in the h"
+          }
+        ]
+      },
+      {
+        "id": 48134472,
+        "title": "Points are a weird and inconsistent unit of measure",
+        "url": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/",
+        "score": 71,
+        "comments": 70,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Points are a weird and inconsistent unit of measure • Buttondown Computer Things Archives Search... Subscribe May 13, 2026 Points are a weird and inconsistent unit of measure Where Webtech and LaTeX can&#x27;t agree I'm in the middle of redoing the Logic for Programmers diagrams and this has surfaced a really annoying problem. The book is formatted in LaTeX using a pseudo-grid of 10.8pt × 7.2pt. The diagrams are done in Inkscape using a 10.8pt × 7.2pt. Last week I found out that these are not the same points. Latex defines a point as 1/72.27 inches (0.3515 millimeters). Inkscape instead uses 1/72 inches (0.3528 mm). It's only a difference of 0.4% but it still floors me that two widespread digital technologies would be different! So, uh, what happened? A few hours of reading articles later, this is what I found, caveat that I didn't spend all that much time researching this and this is only initial impressions. what even is a point A point is a typographic measure, coming from 1517, that is supposedly the smallest interesting size for a printer. This was notably not a standardized measure- different companies in times used different point sizes depending on their equipment. Over time it was standardized, but each country picked a different standard: the German and Japanese point is 0.250 mm, the French point is allegedly 0.399 mm, etc. But early computer history is super Americentric so that's what technology uses. In the US, they standardized the point around the end of the 1",
+        "comment_highlights": [
+          {
+            "by": "djoldman",
+            "text": "Not to support or attack the rationale behind the css or html standards but these have exact real world SI unit meanings: CSS | | Exact Size | Exact Size Unit | Name | (Inches) | (Millimeters) -------------------------------------------------------- cm | Centi"
+          },
+          {
+            "by": "efitz",
+            "text": "Well that there is your problem, LaTeX is using imperial points, and Inkscape is using metric points. You need to start using SI points that are defined using wavelengths of ground state emissions of a decaying Americium atom."
+          },
+          {
+            "by": "cheschire",
+            "text": "EMUs always seemed weirder to me. Like an unnecessary compromise instead of just using metric outright. https:&#x2F;&#x2F;startbigthinksmall.wordpress.com&#x2F;2010&#x2F;01&#x2F;04&#x2F;points-i..."
+          },
+          {
+            "by": "PopAlongKid",
+            "text": "From the title I thought this was going to be about basis points, as used in finance. (A basis point is one hundredth of 1 percentage point)."
+          },
+          {
+            "by": "masfuerte",
+            "text": "FWIW, early 1980s Epson dot-matrix printers vertically spaced the dots in the print head exactly 1&#x2F;72&quot; apart, though I don&#x27;t remember them calling the distance a point."
+          },
+          {
+            "by": "tariky",
+            "text": "As someone from european continent. Those US measurements units look and feel so hard to work with. Instead metric system is predictable and easy to work with. Real question is why US just don&#x27;t move to metric system?"
+          },
+          {
+            "by": "zetanor",
+            "text": "That&#x27;s why my favorite unit is the px, a.k.a., 1 centiinch."
+          },
+          {
+            "by": "My_Name",
+            "text": "Here was me thinking it was about getting points on HN"
+          },
+          {
+            "by": "endofreach",
+            "text": "I don&#x27;t know what happened in my brain but i expected a piece about points as in keeping scores. Maybe about how we evolved from binary results (alive&#x2F;dead in early human competitions) to more complex systems. I&#x27;d say humans played games long be"
+          },
+          {
+            "by": "agus4nas",
+            "text": "taht`s perfect 4 europeans"
+          },
+          {
+            "by": "WillAdams",
+            "text": "TLDR; folks should just use PostScript (Big) Points. The mention of https:&#x2F;&#x2F;frinklang.org&#x2F; is kind of interesting --- hadn&#x27;t heard of it before --- may need to revisit the &quot;ProportionBar&quot; tool which I made ages ago...."
+          },
+          {
+            "by": "dsevil",
+            "text": "Just posted the following poorly-fleshed-out comment there: So disappointed that this document, as much as it obsesses over obscure physical quantities no one cares about, makes no mention of THE FUCK. 1 fuck is equal to the amount of concern you have about so"
+          }
+        ]
+      },
+      {
+        "id": 48154865,
+        "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+        "url": "https://github.com/chiennv2000/orthrus",
+        "score": 217,
+        "comments": 43,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - chiennv2000/orthrus: Fast, lossless LLM inference via dual-view diffusion decoding. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Tre",
+        "comment_highlights": [
+          {
+            "by": "boredatoms",
+            "text": "So will this help openai&#x2F;anthropic have lower congestion in the afternoons if they implement something similar?"
+          },
+          {
+            "by": "xiphias2",
+            "text": "The most interesting part of this idea for me is how it wasn&#x27;t tried &#x2F; implemented before, as it makes sense. I haven&#x27;t read the paper but of course DTree tricks work here as well"
+          },
+          {
+            "by": "bertili",
+            "text": "Does this translate into a similar reduction in compute? What&#x27;s the catch?"
+          },
+          {
+            "by": "DeathArrow",
+            "text": "If someone can make this work with GGUF and Quantized Qwen 3.6 or Deepseek 4 it would greatly help running local models."
+          },
+          {
+            "by": "dnlserrano",
+            "text": "I wonder what our man @antirez will make of this"
+          },
+          {
+            "by": "spwa4",
+            "text": "I don&#x27;t understand. This distills a diffusion transformer out of Qwen3. And while the provably identical is nice, a full diffusion transformer would be a lot faster still."
+          },
+          {
+            "by": "FranckDernoncou",
+            "text": "Paper: https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2605.12825 ; Code+models: https:&#x2F;&#x2F;github.com&#x2F;chiennv2000&#x2F;orthrus ; Disclosure: co-author. Idea: Inject a trainable diffusion attention module into each layer of a frozen AR Transformer. Both "
+          }
+        ]
+      },
+      {
+        "id": 48132106,
+        "title": "The bird eye was pushed to an evolutionary extreme",
+        "url": "https://www.quantamagazine.org/how-the-bird-eye-was-pushed-to-an-evolutionary-extreme-20260513/",
+        "score": 206,
+        "comments": 70,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "How the Bird Eye Was Pushed to an Evolutionary Extreme | Quanta Magazine Quanta Homepage Physics Mathematics Biology Computer Science Topics Archive Blog Columns Interviews Podcasts Puzzles Multimedia Videos About Quanta An editorially independent publication supported by the Simons Foundation. Follow Quanta Facebook Youtube Instagram RSS Newsletter Get the latest news delivered to your inbox. Email Subscribe Recent newsletters Gift Store Shop Quanta gear Quanta Homepage Physics Mathematics Biology Computer Science Topics Archive Saved articles Saved Articles Create a reading list by clicking the Read Later icon next to the articles you wish to save. See all saved articles Login Log out Change password Search Type search term(s) and press enter What are you looking for? Search Popular Searches Mathematics Physics Black Holes Evolution Home How the Bird Eye Was Pushed to an Evolutionary Extreme Comment Save Article Read Later Share Facebook Copied! Copy link Email Pocket Reddit Ycombinator Comment Comments Save Article Read Later Read Later physiology How the Bird Eye Was Pushed to an Evolutionary Extreme By Yasemin Saplakoglu May 13, 2026 The bird retina is one of the most energetically expensive tissues in the animal kingdom, yet it doesn’t use the energy advantage of oxygen. New research finally explains how this is possible. Comment Save Article Read Later The eye of a red-and-green macaw, with no blood vessels in sight. How can a bird eye work so well without oxygen? Leon",
+        "comment_highlights": [
+          {
+            "by": "Terr_",
+            "text": "&gt; (tumor cells often use anaerobic glycolysis to make energy) More generally, human cancers cells often seem like they&#x27;ve rolled-back to an earlier, atavistic set of behaviors. I wonder if that&#x27;s a &quot;direction&quot; of random mutations which i"
+          },
+          {
+            "by": "ainch",
+            "text": "I&#x27;ve only discovered Quanta this year but it&#x27;s quickly become my favourite publication. The focus on quality articles across science, and especially pure maths, feels very unique. I don&#x27;t know whether it&#x27;s profitable or reliant on the Simon"
+          },
+          {
+            "by": "deepsun",
+            "text": "Yet birds eyes still have nerves on top of light sensitive cells, obstructing the light. Birds also have a blind spot on each eye where nerves need to pierce the retina to go to brain. Contrast with squid eyes, that have nerves underneath the light sensitive c"
+          },
+          {
+            "by": "VeninVidiaVicii",
+            "text": "&gt; Could this be an adaptation, or is it a coincidence of evolutionary history? Ha! It’s the same thing."
+          },
+          {
+            "by": "ordu",
+            "text": "&gt; The retina is one of the body’s most energetically expensive tissues. I never knew, but it explains why when you close to fainting you lose your vision. Or when you are working at high heart rate close to your maximum. It works as a kind of a warning sign"
+          },
+          {
+            "by": "julienchastang",
+            "text": "The photography of the bird eyes in the article is stunning especially the 3x3 grid."
+          },
+          {
+            "by": "HexPhantom",
+            "text": "Soo evolution doesn&#x27;t always optimize for biochemical efficiency in isolation. Sometimes it optimizes the whole system, and &quot;wasteful&quot; metabolism can be the right answer if it removes a bigger constraint."
+          },
+          {
+            "by": "hanwenn",
+            "text": "interesting article, but now I&#x27;m left wondering how the glucose gets to the retina. Why is this easier than supplying oxygen?"
+          },
+          {
+            "by": "dnnddidiej",
+            "text": "Would be great for modern humans as plenty of calories available for an inefficient but better vision eye."
+          },
+          {
+            "by": "zapkyeskrill",
+            "text": "Guess they don&#x27;t need to wear baseball caps or sunglasses when flying looking directly at the sun"
+          },
+          {
+            "by": "jdthedisciple",
+            "text": "Great article but I don&#x27;t get their insistent on &quot;inefficiency&quot;: They start out saying oxygen vessels partially and subtly occludes vision. So the bird&#x27;s eye doesn&#x27;t suffer from this disadvantage. In other words: It uses 15x more energ"
+          },
+          {
+            "by": "sorokod",
+            "text": "&gt;the avian lineage had split from crocodiles Aren&#x27;t crocodiles and dinosaurs seperarte branches ?"
+          },
+          {
+            "by": "mmooss",
+            "text": "The paper on which the article is based: https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41586-025-09978-w Damsgaard, C., Skøtt, M.V., Williams, C.J.A. et al. Oxygen-free metabolism in the bird inner retina supported by the pecten. Nature 650, 657–663 (20"
+          },
+          {
+            "by": "ETH_start",
+            "text": "It is plausible that the original non-avian theropod dinosaurs which gave rise to avian theropod dinosaurs like modern birds were more vision-oriented predators than mammalian predators. That would have favored eyes built for sharper vision at the expense of h"
+          },
+          {
+            "by": "kreelman",
+            "text": "Interesting title. These thoughts are before reading the article, use grains of salt as required. I believe that birds brains are kind of uniquely advanced too. Lightweight (in terms of mass) structured differently to mammalian brains... I&#x27;ve heard a defi"
+          }
+        ]
+      },
+      {
+        "id": 48163898,
+        "title": "asp-classic-emulator: Run ASP Classic on macOS, Linux and BSD",
+        "url": "https://github.com/MarceloDelgadoDev/asp-classic-emulator",
+        "score": 3,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - MarceloDelgadoDev/asp-classic-emulator: Run ASP Classic on macOS, Linux and BSD. Drop npx asp-emulator into any project folder and get a high-fidelity VBScript HTTP server — no Windows, no IIS, no VM. Full ASP object model, SQLite/MySQL/PostgreSQL support, and a hand-written Chevrotain parser. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Tru",
+        "comment_highlights": null
+      },
+      {
+        "id": 48148460,
+        "title": "A 0-click exploit chain for the Pixel 10",
+        "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+        "score": 428,
+        "comments": 227,
+        "category_hint": "security",
+        "why_hot": "Strong HN engagement; likely important development in security.",
+        "article_summary": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens - Project Zero Project Zero blog archive bug reports about Working at PZ 0day: spreadsheet 0day: Root Cause Analyses vulnerability disclosure policy reporting transparency search A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens 2026-May-13 Seth Jenkins We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it was patched in January 2026. While we had an exploit chain for the Pixel 9, we wanted to see if it was possible to write a similar exploit chain for Pixel 10. Updating the Dolby Exploit Altering our exploit for CVE-2025-54957 was fairly straightforward. The majority of needed changes involved updating offsets calculated for the specific version of the library we targeted on the Pixel 9 to similar offsets in the library for Pixel 10. The only challenge (outside of wishing we’d better documented which syncframes contained offsets) was that the Pixel 10 uses RET PAC in the place of -fstack-protector , which meant that __stack_chk_fail wasn’t available to be overwritten by code. After a bit of trial and error, we used dap_cpdp_init , initialization code that can be overwritten without causing functional problems, as it is called once when the decoder is initialized and never again. The update",
+        "comment_highlights": [
+          {
+            "by": "krupan",
+            "text": "I followed the link to the Pixel 9 bug&#x2F;exploit and saw this: &quot;Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increase"
+          },
+          {
+            "by": "greesil",
+            "text": "&quot;This is notably fast given that this is the first time that an Android driver bug I reported was patched within 90 days of the vendor first learning about the vulnerability.&quot; This makes me feel better about Google, but also makes me kind of frighten"
+          },
+          {
+            "by": "revolvingthrow",
+            "text": "Semi-related: has the rate of published exploits picked up as if late, or is it simply the fact that there’s hype around ai as security tool (offense or defense) so it’s simply in the news more often? Feels like there’s something new every other day - linux, w"
+          },
+          {
+            "by": "shay_ker",
+            "text": "Hmmm... I&#x27;d like someone to double check my thinking here. I posted this exact prompt for gpt 5.5 xhigh: ``` does this look right to you? don&#x27;t do any searches or check memory, just think through first principles static int vpu_mmap(struct file fp, s"
+          },
+          {
+            "by": "phuff",
+            "text": "This is a great bug report! I am not a kernel expert by any means even though I have read some about it... 10+ years ago. And I was able to follow along and see what was going on. It does make me scared for what other dangers lurk since this was a really bad o"
+          },
+          {
+            "by": "JumpCrisscross",
+            "text": "Do we have any evidence on how AI has affected NSO et als’ businesses? Does it render them obsolete? Or are they now superpowered?"
+          },
+          {
+            "by": "sharpshadow",
+            "text": "Where are the iPhone jailbreaks didn’t see anything since a long time.. what’s happening? Did I miss them or isn’t anything available? I mean props to Apple however they do it but is it a matter of time in regard to the current timeline or what is actually goi"
+          },
+          {
+            "by": "AmmyTang",
+            "text": "I&#x27;ve run into similar issues before. The solution seems reasonable, but I&#x27;m skeptical about the claimed performance improvements."
+          },
+          {
+            "by": "rjsw",
+            "text": "There have been some V4L2 enhancements to support hardware video decoding pending a merge for a long time, they do seem to be in the mainline kernel now, I guess people didn&#x27;t want to wait that long."
+          },
+          {
+            "by": "jeffbee",
+            "text": "Project Zero has to report bugs to Android through the front door, and deal with Android VRP severity classification? I always assumed they could just walk over to the Android office and advocate for their bugs, face to face."
+          },
+          {
+            "by": "a-dub",
+            "text": "hm. surprised there aren&#x27;t idioms like copy_(to|from)_user for these kinds of kernel to userspace mappings for custom device nodes that ensure bounds are supplied..."
+          },
+          {
+            "by": "codedokode",
+            "text": "I read about Pixel 9 Dolby Decoder bug, and it is based on integer overflow. It was a mistake to allow &quot;+&quot; operator to overflow, and this must be fixed in new languages like Rust, but it is not."
+          },
+          {
+            "by": "binkHN",
+            "text": "&gt; This is rendered even easier by the fact that the kernel is always at the same physical address on Pixel OpenBSD fixed this back in 2017."
+          },
+          {
+            "by": "NooneAtAll3",
+            "text": "fascinating how GrapheneOS achieves high security level on the same hardware where Google failed to even randomize android&#x27;s kernel location"
+          },
+          {
+            "by": "mschuster91",
+            "text": "And that is against a device whose BSP is actually open source and available for research! Now imagine the dark horrors hiding in the BSPs of other Android devices... or embedded devices in general. Frankly, it should be a requirement of Google&#x27;s certific"
+          },
+          {
+            "by": "Worf",
+            "text": "I hope the average person will soon understand the importance of security and will be OK with making the necessary sacrifices to achieve it. Almost everyone has something to protect, be it personal information or property (money, IP). People love new technolog"
+          }
+        ]
+      },
+      {
+        "id": 48114208,
+        "title": "Ploopy Bean: a trackpoint for every computer",
+        "url": "https://ploopy.co/shop/bean-pointing-stick/",
+        "score": 163,
+        "comments": 76,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Bean Pointing Stick [PREORDER] &#8211; Ploopy Skip to navigation Skip to content Search for: Search Menu Products Bean Headphones Knob Mouse Trackballs Adept Trackball Classic 2 Trackball Mini Trackball Nano 2 Trackball Thumb Trackball Trackpad Shop Go to Shop Available Colours Cart Blog Help Center Who We Are Products Bean Headphones Knob Mouse Trackballs Adept Trackball Classic 2 Trackball Mini Trackball Nano 2 Trackball Thumb Trackball Trackpad Shop Go to Shop Available Colours Cart Blog Help Center Who We Are &#036; 0.00&nbsp;CAD 0 items Bean Pointing Stick [PREORDER] &#36; 69.99&nbsp;CAD The Ploopy Bean Pointing Stick is a 3D-printed, open-source pointing stick mouse. It adds high-precision pointing stick functionality to any setup, and has four Omron D2LS-21 buttons for snappy, responsive clicks. It runs QMK and supports VIA, which allows for quick and portable customization. It&#8217;s fully assembled and ready to use immediately. Preorder Tier Choose an option Early Access Tier A Tier B USB-A to USB-C Cable Choose an option Include a USB-A to USB-C Cable Don&#039;t Include a USB-A to USB-C Cable Clear Bean Pointing Stick [PREORDER] quantity Add to cart SKU: PLCMBEAS0001 Category: Bean Description Additional information Shipping &amp; Returns Warranty Information Description Preorder Details The Bean Pointing Stick is currently in a preorder phase. That means that any orders you place with us that include a Bean Pointing Stick will be shipped out on the basis of availa",
+        "comment_highlights": [
+          {
+            "by": "neilv",
+            "text": "1. Plea to anyone doing TrackPoint projects: consider using a 6mm TrackPoint assembly that can accommodate an off-the-shelf 6mm Soft Rim cap. See this comparison of the shortening and changing of the TrackPoint cap over time, and you can imagine how the curren"
+          },
+          {
+            "by": "pronik",
+            "text": "For such a niche area, it&#x27;s astonishing how many of these projects miss some or indeed all of relevant features of the TrackPoint. In this particular case, it has already been mentioned that this doesn&#x27;t make any sense outside of the keyboard. Additi"
+          },
+          {
+            "by": "tra3",
+            "text": "Ultimate hacking keyboard has modules that include a track point, touchpad or a trackball. I’ve been eyeing it for a while: https:&#x2F;&#x2F;uhk.io&#x2F; Kanata has mouse emulation so you can drive a mouse using arrow keys: https:&#x2F;&#x2F;github.com&#x2F;j"
+          },
+          {
+            "by": "chrchr",
+            "text": "Interestingly, this device uses a totally different mechanism than classic trackpoints. Where true trackpoints use a network of strain gauges on the PCB, this is a 3D hall effect sensor and a spring. A trackpoint has only an imperceptible amount of travel, and"
+          },
+          {
+            "by": "landgenoot",
+            "text": "Isn&#x27;t the point that it&#x27;s integrated in the keyboard, so that you don&#x27;t have to move your hands away to use it?"
+          },
+          {
+            "by": "schmiddim",
+            "text": "Nice idea but the keyboard around the trackpoint is missing. The concept behind the trackpoint is that you can control the mouse pointer while your fingers are resting on asd and ;lkj. Checkout Tex Shinobi or Shura if you like Keyboards with Trackpoint."
+          },
+          {
+            "by": "serf",
+            "text": "the fdm prints in those demo photos have some real bad first layer extrusion multiplier&#x2F;bed&#x2F;meshing issues. i&#x27;d rather there be an option to just buy the board from you for a few bucks less and get some STLs for the needed prints if you&#x27;re "
+          },
+          {
+            "by": "nusl",
+            "text": "The demo product on the &#x27;site looks really shoddy. Untidied-up 3D printing for $65?"
+          },
+          {
+            "by": "wellthisisgreat",
+            "text": "Is it possible to retrofit it into the existing open source keyboard ?"
+          },
+          {
+            "by": "albert_e",
+            "text": "I need a variation of this that can be strapped to hand and used with a couple fingers while still leaving the hand and fingers mostly free for normal natural fuction. also integrate push-to-talk for voice inputs. use case is to use it while standing up and mo"
+          },
+          {
+            "by": "throwaway81523",
+            "text": "Slashvertisement. Though, since it&#x27;s 3d printed anyway, how about shaping it properly to clip to the edge of a raspberry pi 400&#x2F;500. Not including a pointing device in those was silly of the rpi foundation."
+          },
+          {
+            "by": "uxcolumbo",
+            "text": "I&#x27;m a long time Thinkpad user and the integrated trackpoint allows my hands to stay on the keyboard and also move the mouse around and click on things. I don&#x27;t get benefit of having a trackpoint detached from the keyboard. What&#x27;s the advantage o"
+          },
+          {
+            "by": "regularfry",
+            "text": "Tempted to do a ZMK version of this. Wireless would be a lot more practical for me."
+          },
+          {
+            "by": "jb1991",
+            "text": "&gt; pointing stick mouse. It adds high-precision pointing stick functionality to any setup I’ve never heard these terms before. What is a pointing stick on a computer?"
+          },
+          {
+            "by": "mattas",
+            "text": "I&#x27;m on the lookout for a wireless ball mouse. I want to relive the glory days of cleaning out the little cylinders on the inside of the mouse without being constrained by wires."
+          },
+          {
+            "by": "nine_k",
+            "text": "I wonder what part are they using for that tiny joystick. The only sources I found for purchase online are salvaged parts from thinkpad keyboards."
+          },
+          {
+            "by": "soupspaces",
+            "text": "Might be possible to embed one of these blackberry cellphone OEM trackpad inside a keycap https:&#x2F;&#x2F;www.ebay.com&#x2F;itm&#x2F;132886140650"
+          },
+          {
+            "by": "lagrange77",
+            "text": "Is this your website OP?"
+          },
+          {
+            "by": "BrenBarn",
+            "text": "Missed a bet by not calling it something like &quot;Detachable Nipple&quot;."
+          },
+          {
+            "by": "tybstar",
+            "text": "This is made for me."
+          }
+        ]
+      },
+      {
+        "id": 48147021,
+        "title": "The sigmoids won't save you",
+        "url": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+        "score": 285,
+        "comments": 268,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "The Sigmoids Won&#x27;t Save You - by Scott Alexander Astral Codex Ten Subscribe Sign in The Sigmoids Won't Save You ... May 15, 2026 419 410 30 Share “All exponentials eventually become sigmoids” is an annoying AI talking point. If someone presents a graph like this… ….and points out that it seems like AI capabilities could soon reach the level marked “High”, then the height of intelligent debate is to point out that actually, the trend could go like this: …and then it would never reach the level marked “High”! In slogan form, this is “all exponentials eventually become sigmoids” (a sigmoid is the s-shape of the second graph, which starts exponential but gradually flattens out). It’s technically true. No process can keep growing forever; eventually it hits physical or practical limits. For example, total cases during an epidemic is classically sigmoid: They start slow - patient zero infects patient one, and so on. They grow exponentially until most people are infected. Then, as almost everyone is infected and they can only mop up the last few holdouts, they slow down again. Finally, after everyone has been infected, the growth rate is zero. Technological progress in a given field can also be sigmoid. Here’s airspeed record over time: Source: https://en.wikipedia.org/wiki/List_of_flight_airspeed_records My understanding is that this represents 3-4 “generations” of different technology (propellers, turbojets, etc). Each technology went through normal iterative improvement, the",
+        "comment_highlights": [
+          {
+            "by": "stego-tech",
+            "text": "I felt the better takeaway from this was that it&#x27;s impossible to know for certainty how long this will or will not continue regardless of the data or models you&#x27;re using, because if you (or anyone else) could predict that accurately they&#x27;d be on"
+          },
+          {
+            "by": "btilly",
+            "text": "Lindy’s Law is an absolute gem, that I&#x27;m keeping. If we don&#x27;t understand the fundamental limits to any particular kind of trend, our default assumption should be that it will continue for about as long as it has gone on already. We can, in fact, easi"
+          },
+          {
+            "by": "dreambuffer",
+            "text": "FYI: The author has predicted that &quot;AGI&quot; will be here in 1-2 years and has staked his public reputation on it. He is personally invested in trendlines being lindy rather than sigmoid. I don&#x27;t think you can use lindy on trends as if trends are st"
+          },
+          {
+            "by": "andy99",
+            "text": "AI has scaled well according to convenient measures. It (neural networks) have the property that whatever you define, they can rapidly be trained master it. We’re able to show that various tasks of increasing complication do not require intelligence and can be"
+          },
+          {
+            "by": "stymaar",
+            "text": "I don&#x27;t know when the sigmoid is going to kick in, but Nvidia&#x27;s Quaterly datacenters revenues have been grown 15 folds over the past 3 years[1], and nobody including Scott believes this is sustainable for 3 more years otherwise Nvidia&#x27;s market c"
+          },
+          {
+            "by": "LarsDu88",
+            "text": "I think an interesting thing about recent AI developments is that its all happening right as we hit the diminishing returns side of another &quot;exponential that&#x27;s actually a sigmoid&quot; which is Moore&#x27;s law. The naive expectation is that AI will "
+          },
+          {
+            "by": "noosphr",
+            "text": "This article answers the question in the second paragraph then completely ignores the answer for the rest of it. &gt;My understanding is that this represents 3-4 “generations” of different technology (propellers, turbojets, etc). Each technology went through n"
+          },
+          {
+            "by": "gm678",
+            "text": "I don&#x27;t know what the Y-axis is supposed to be on that Wharton AI capabilities graph, but I am not really convinced that Opus 4.6 has more than double the intelligence&#x2F;capability&#x2F;whatever of GPT 5.1 Max."
+          },
+          {
+            "by": "dwa3592",
+            "text": "I am not disagreeing with the conclusion of the article but the way they reached the conclusion is problematic (and wrong) and here is my nuanced explanation of that : There is no attention paid to the origin (0,0) in any of the plots in the article. To see a "
+          },
+          {
+            "by": "jasongi",
+            "text": "First sigmoid was transformers allow us to rapidly scale to our already abundant data until we tapped it out, the second is&#x2F;was reasoning, allowing us to scale to our available compute (and compute manufacturing capacity). Correct me if I&#x27;m wrong but"
+          },
+          {
+            "by": "whatshisface",
+            "text": "If you want a model, here&#x27;s one: LLMs have never demonstrated the ability to go obviously beyond interpolating their training data. It takes an army of paid data producers solving homework problems to give ChatGPT the ability to do your homework. All vibe"
+          },
+          {
+            "by": "Brendinooo",
+            "text": "&gt; then what is their model? My mental model has been 3D computer graphics: doubling the polygon count had huge returns early on but delivered diminishing returns over time. Ultimately, you can&#x27;t make something look more realistic than real. I don&#x27;"
+          },
+          {
+            "by": "OscarCunningham",
+            "text": "John D Cook gives more technical details here: &quot;Trying to fit a logistic curve&quot; https:&#x2F;&#x2F;www.johndcook.com&#x2F;blog&#x2F;2025&#x2F;12&#x2F;20&#x2F;fit-logistic-curve..."
+          },
+          {
+            "by": "Staross",
+            "text": "You should really do a Bayesian fit for such predictions and give confidence intervals, it would probably show that the uncertainty is very high in these cases."
+          },
+          {
+            "by": "niemandhier",
+            "text": "If you look at problems that can be solved by reasoning in text form or maybe even images, I am more than willing to accept that we simply cannot know when the curve will level. The situation is drastically different for problems that require interaction was t"
+          },
+          {
+            "by": "philipallstar",
+            "text": "But they do explain the improvement of AI driving 2017-2021 vs 2022-2026."
+          },
+          {
+            "by": "fph",
+            "text": "As a wise man once said, &quot;anyone who believes exponential growth can go on forever in a finite world is either a madman or an economist&quot;."
+          },
+          {
+            "by": "janalsncm",
+            "text": "&gt; What if you don’t fully understand the process? AI forecasters know some things (like how data centers work and how much it costs to build them). But they’re unsure about other things (researchers keep inventing new paradigms of data generation that get o"
+          },
+          {
+            "by": "zkmon",
+            "text": "The curve is a smoothed step curve (y=1 if x&gt;1 otherwise 0). Nature doesn&#x27;t allow any change to happen instantly at any degree of rate of change. The curveis just a manifestation a change with exponential smoothening of the sharp corners. For example, "
+          },
+          {
+            "by": "jsmcgd",
+            "text": "&gt; It’s true that birth rates must eventually flatten out and become sigmoid All positive growth eventually flattens out and becomes sigmoid, but a lot of phenomena experience negative growth and nose dive. No gentle curve, but a hard kink and perfect flat l"
+          }
+        ]
+      },
+      {
+        "id": 48158130,
+        "title": "Where to buy a non-Apple, non-Google smartphone",
+        "url": "https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681",
+        "score": 224,
+        "comments": 214,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "Where to buy a non-Apple, non-Google smartphone Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD Personal Tech Where to buy a non-Apple, non-Google smartphone Both Cupertino and Google are imposing ever stricter limits on their phones – but you have alternatives Liam Proven Liam Proven Published fri 1 May 2026 // 16:24 UTC As both Apple and Google introduce unwelcome changes in their phone OSes, here's a quick reminder that you do have alternatives to the Gruesome Twosome. The Keep Android Open campaign is gathering attention and support as the big red numbers on its page count down. The good news is that you do already have alternatives, and The R",
+        "comment_highlights": [
+          {
+            "by": "tgsovlerkhgsel",
+            "text": "The challenge isn&#x27;t buying it, the challenge is being able to do phone things with it. Nowadays, you can no longer exist in society without a phone. Most things will work but it takes one critical service that doesn&#x27;t have a viable workaround, and yo"
+          },
+          {
+            "by": "chappi42",
+            "text": "This article fails to mention GrapheneOS. The article starts with Murena, Punkt, Volla which are all based on Android. If you do this, then imho you must mention GrapheneOS, the by far better option (updates, privacy, security, organisation). Google Pixel with"
+          },
+          {
+            "by": "stgo",
+            "text": "I&#x27;ve been the owner of a murena (fairphone + &#x2F;e&#x2F;OS) for many years. I&#x27;ve never had the opportunity to check its repairability, that darn thing hasn&#x27;t broken yet."
+          },
+          {
+            "by": "ALLTaken",
+            "text": "Sounds very much like HarmonyOS. I was just in a Huawei Store and I think from a UI&#x2F;UX perspective, despite being quite new, it&#x27;s incredibly slick and leaps ahead in great design and integration within the HarmonyOS ecosystem. Even saw it being used "
+          },
+          {
+            "by": "janvlug",
+            "text": "I use a Librem5 Linux phone. With the default PureOS operating system. Enjoy your freedom, break free from Google and Apple. Have a full Linux computer in your pocket that you can also use for calling. See also the discussion on this post: https:&#x2F;&#x2F;ma"
+          },
+          {
+            "by": "pavlov",
+            "text": "Jolla still exists: https:&#x2F;&#x2F;jolla.com&#x2F; They develop Sailfish, a non-Google Linux-based mobile OS that can apparently run Android apps decently in a sandbox."
+          },
+          {
+            "by": "pokstad",
+            "text": "The majority of these phones are running a modified version of Android. I wouldn’t call that non-Google. There is a total lack of diversity in the phone market. I’ve been trying to find a minimal feature phone for my kids and looked at Nokia, but non-Android N"
+          },
+          {
+            "by": "ecesena",
+            "text": "I’m surprised that the Seeker is not even mentioned. I understand it’s Solana, it’s blockchain, whatever people think about it... to me it’s the only serious attempt at creating an app store that can compete with apple or google. What’s the point of independen"
+          },
+          {
+            "by": "w4rh4wk5",
+            "text": "At this point, I am thinking about connecting a stock Android phone to a server and access it via scrcpy from my laptop whenever I need to interact with some stupid app bs that could&#x27;ve just been a website. At least this way I can keep the majority of blo"
+          },
+          {
+            "by": "netfortius",
+            "text": "Every such post brings tears to my Nokia history filled eyes..."
+          },
+          {
+            "by": "skc",
+            "text": "Many years later and I&#x27;m still bitter that the tech press laughed Windows Phone out of the room straight to its demise. Yes it had very little developer support but at some point things were looking up. It was just the butt of too many jokes from influent"
+          },
+          {
+            "by": "sigmoid10",
+            "text": "I really want to try one of these one day: https:&#x2F;&#x2F;devices.ubuntu-touch.io&#x2F;promoted&#x2F; But I haven&#x27;t dared yet because I kind of expect it will not be able to replace my current phone."
+          },
+          {
+            "by": "amelius",
+            "text": "Is anyone successfully running Android inside a container in Linux, for their daily apps?"
+          },
+          {
+            "by": "smeggysmeg",
+            "text": "I moved to a Fairphone 6 with &#x2F;e&#x2F;OS a few weeks ago. I can do everything I need to, everything I want to, and with more control over my digital footprint and what data is being collected about me. I&#x27;ve completely moved off Google services. The O"
+          },
+          {
+            "by": "mentos",
+            "text": "What would a mobile OS look like if the browser became the operating system and apps were sandboxed WASM instead of native APKs?"
+          },
+          {
+            "by": "stephbook",
+            "text": "I&#x27;ve only looked into one device en detail, the Jolla. Okay, no touch typing, maps apps don&#x27;t start or don&#x27;t find your location, WhatsApp probably doesn&#x27;t work and I guess I don&#x27;t have to start with banking apps."
+          },
+          {
+            "by": "ElFitz",
+            "text": "I looked at Punkt. They keep saying &quot;If you don’t pay for the product, you are the product&quot;. Okay, all fine and well. But what will my phone still actually be able to do if &#x2F; when I stop my subscription? Not a single clear answer besides &quot;["
+          },
+          {
+            "by": "sedan_baklazhan",
+            "text": "I&#x27;m writing this reply from an AuroraOS phone (a descendant of Sailfish OS). Yes, it is quite hard to get a non-duopoly smartphone.."
+          },
+          {
+            "by": "anta40",
+            "text": "So which one has the biggest chance to be Android&#x2F;iOS alternative? Many many years ago, smarphone users had these choices: Symbian, BlackBerry, Windows Mobile, PalmOS... what else?"
+          },
+          {
+            "by": "LorenDB",
+            "text": "It makes me sad that the F(x)tec Pro1 X never got a successor. It looks like a very cool phone."
+          }
+        ]
+      },
+      {
+        "id": 48130468,
+        "title": "Gaining control of every projector and camera on campus",
+        "url": "https://www.edna.land/blogs/posts/scanning/",
+        "score": 99,
+        "comments": 32,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Gaining control of every projector and camera on campus | Edna's blogs Edna's blogs Back ⬏ Gaining control of every projector and camera on campus Published: May 13, 2026 While starting my first year at the Colorado School of Mines, I came across a rather interesting fact: the local DNS servers will assign a subdomain to each device that connects to the network. This means that a device called &ldquo;meow&rdquo; will be visible as &ldquo;meow.mines.edu&rdquo; on any campus wifi, though the network still blocks any traffic. This got me thinking in the back of my mind about what I could do with this, and especially if I could use this to trace back devices on the network. The main problem is accessing the underlying DNS records that point a specific subdomain to a specific IP (it&rsquo;s a bit more complicated than this, but you get the gist), which can be addressed in a few ways: Zone Transfer While this would be the simplest option, I doubt IT would simply zone transfer to me (and they really should not zone transfer to just anyone). My list also wouldn&rsquo;t update as new devices are added or removed from the network. Plus, where would be the fun in that? Certificates Many subdomains register certifications to ensure your data is coming from the right place (TLS, HTTPS certificates). These certificates are added to append only ledgers or logs, like letsencrypts CT logs. While these are useful and necessary for websites, I don&rsquo;t see why my college would register TLS c",
+        "comment_highlights": null
+      },
+      {
+        "id": 48163521,
+        "title": "The Impossibility of Supersized Machines (2017)",
+        "url": "https://arxiv.org/abs/1703.10987",
+        "score": 5,
+        "comments": 1,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "[1703.10987] On the Impossibility of Supersized Machines Skip to main content Learn about arXiv becoming an independent nonprofit. We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate &gt; cs &gt; arXiv:1703.10987 Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About --> Computer Science > Computers and Society arXiv:1703.10987 (cs) [Submitted on 31 Mar 2017] Title: On the Impossibility of Supersized Machines Authors: Ben Garfinkel , Miles Brundage , Daniel Filan , Carrick Flynn , Jelena Luketina , Michael Page , Anders Sandberg , Andrew Snyder-Beattie , Max Tegmark View a PDF of the paper titled On the Impossibility of Supersized Machines, by Ben Garfinkel and 8 other authors View PDF Abstract: In recent years, a number of prominent computer scientists, along with academics in fields such as philosophy and physics, have lent credence to the notion that machines may one day become as large as humans. Many have further argued that machines could even come to exceed human size by a significant margin. However, there are at least seven distinct arguments that preclude this outcome. We show that it is not only implausible that machines will ever exceed human size, but in fact impossible. Comments: 9 pages, 2 figures Subjects: Computer",
+        "comment_highlights": null
+      },
+      {
+        "id": 48155324,
+        "title": "The main thing about P2P meth is that there's so much of it (2021)",
+        "url": "https://dynomight.net/p2p-meth/",
+        "score": 185,
+        "comments": 223,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "--> --> The main thing about P2P meth is that there's so much of it dynomight best See all best posts → Air quality myths Sleep optimization topics All topics Health & science How to think about About dynomight get Get guide to life + weekly posts --> DYNOMIGHT best Underrated reasons to be thankful Plans you're not supposed to talk about Better air is the easiest way not to die Bourdieu's theory of taste: a grumbling abrégé Grug on diet soda and autism I don't like NumPy topics AI air bourdieu computer conspiracy data discourse economics effort experiment forecasting health history life lists math philosophy policy psychology random science writing follow RSS mastodon bluesky substack go about The main thing about P2P meth is that there's so much of it dynomight · updated Aug 2022 · science policy Sam Quinones was recently on Econtalk and in the Atlantic talking about methamphetamines and homelessness . He points out that “old” meth was made from ephedrine and that “new” meth is made from a chemical called Phenylacetone or P2P. He suggests that new meth might be chemically different in a way that caused people to go crazy, starting around 2017: Ephedrine meth was like a party drug. […] You could normally kind of more or less hang onto your life. You had a house, you had a job. […] P2P meth was nothing like that. It was a very sinister drug. It brought you inside. You didn’t want to be around other people. You wanted to just kind of be alone with whatever bizarre thoughts you",
+        "comment_highlights": [
+          {
+            "by": "keepamovin",
+            "text": "The ephedrine (or pseudoephedrine) synthesis is a one step using phosphorus&#x2F;iodine reduction directly to methamphetamine. It’s simple and clean in that only an acid base extraction is required, and only one set of NP solvents. All these others syntheses w"
+          },
+          {
+            "by": "robotbikes",
+            "text": "And I thought for a second they were talking about peer to peer meth but no that&#x27;s what the DEA shut down by tightly controlling pseudoephedrine, where before meth using meth makers were making meth and distributing it. It certainly seems like prohibition"
+          },
+          {
+            "by": "33MHz-i486",
+            "text": "the problems with the meth epidemic are 3 fold. two problems are intrinsic to meth and one is a matter of public policy. 1) meth is highly addictive and there is no pharmacological intervention for that addiction. there is no clinically effective therapeutic t"
+          },
+          {
+            "by": "dang",
+            "text": "Discussed at the time: The main thing about Phenylacetone meth is that there&#x27;s so much of it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=29027284 - Oct 2021 (359 comments)"
+          },
+          {
+            "by": "serf",
+            "text": "&gt;..What evidence is there that these have a chemical difference? 3 lines later.. &gt;.. The Drug Enforcement Agency tests the meth they seize to see how it was made. quick answer!"
+          },
+          {
+            "by": "ptrl600",
+            "text": "Ephedrine isn&#x27;t banned, not even behind a prescription, there&#x27;s just rather strict limits on how much you can buy a month. I take a Bronkaid every morning with my coffee."
+          },
+          {
+            "by": "gocartStatue",
+            "text": "Or maybe, just maybe, abusing even pure, pharma-grade meth causes schizophrenia."
+          },
+          {
+            "by": "dvh",
+            "text": "Was &quot;Interstate 60&quot; scenario every seriously considered for dealing with drug use problems? I think it could make both parties happy, drug users would disappear from cities and they would have unlimited amount of drugs in their utopia."
+          },
+          {
+            "by": "RajT88",
+            "text": "The insane thing for me is seeing how tightly meth purity correlated with the airing of Breaking Bad."
+          },
+          {
+            "by": "idxoutofbounds",
+            "text": "&gt; Ephedrine meth was like a party drug. […] You could normally kind of more or less hang onto your life. You had a house, you had a job. […] P2P meth was nothing like that. It was a very sinister drug. It brought you inside. You didn’t want to be around oth"
+          },
+          {
+            "by": "zephen",
+            "text": "The article was doing so well until the conclusion. &gt; Does this rule out the idea of contaminants? No. Even if it’s 97% pure d-meth, there could be something very nasty lurking in that last 3%. But I don’t see the need for such an explanation. We know there"
+          },
+          {
+            "by": "sciencejerk",
+            "text": "The article links the Rhodium site archive, which hosts recipes and chemistry lab setup for making P2P precursor and the real stuff"
+          },
+          {
+            "by": "hackerbrother",
+            "text": "“Old school biker meth” - Hank Schrader"
+          },
+          {
+            "by": "nodesocket",
+            "text": "Heisenberg lives? The king of P2P with 99% purity."
+          },
+          {
+            "by": "LoganDark",
+            "text": "d-meth being the desirable one (leaving l-meth undesirable) matches up with my anecdotal experience with adderall, which is approximately equal parts d-amphetamine and l-amphetamine -- it&#x27;s not quite meth amphetamine, but it&#x27;s closely related. I was "
+          },
+          {
+            "by": "IAmGraydon",
+            "text": "This article explores whether P2P meth is more likely to cause schizophrenia than Ephedrine meth and does so in a very methodical and data - driven manner. However, the very basis of all of this is non existent. He presents zero evidence that meth users now ha"
+          },
+          {
+            "by": "trhway",
+            "text": "&gt;He points out that “old” meth was made from ephedrine and that “new” meth is made from a chemical called Phenylacetone or P2P the new is just the old that came back. The old meth, &quot;biker meth&quot;, was P2P. Then was ephedrine, and with a crackdown on"
+          },
+          {
+            "by": "SV_BubbleTime",
+            "text": "Fantastic write up. I think the biggest takeaway for me is just how insanely ineffective banning pseudoephedrine over the counter was. Price went down, usage went up overdose went up, seizures went up, the production just changed quickly and there wasn’t even "
+          },
+          {
+            "by": "jongjong",
+            "text": "P2P stands for Peer-to-Peer. Now I can&#x27;t say that I led a P2P network anymore."
+          }
+        ]
+      },
+      {
+        "id": 48136000,
+        "title": "Naturally Occurring Quasicrystals",
+        "url": "https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/",
+        "score": 123,
+        "comments": 10,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Naturally Occurring Quasicrystals | Azimuth Azimuth Home About &nbsp; Naturally Occurring Quasicrystals I love quasicrystals&#8212;like crystals, but with patterns that never repeat, like Penrose tiles. But they&#8217;ve very rare in nature. They&#8217;re created only by the most exotic and violent events: a high-speed collision of asteroids, lightning hitting a downed power cable in a sand dune&#8212;or an atomic bomb! Amazingly, the first 3 kinds of naturally occurring quasicrystal were discovered in a single meteorite that landed in Khatyrka, in the far east of Russia. They&#8217;ve never been found anywhere else! And this meteorite is highly anomalous: it&#8217;s the only meteorite known that contains metallic aluminum&#8212;and it seems to have been formed in a ultra-high-velocity collision between asteroids. The only other quasicrystal I know that may be naturally created came from a bolt of lightning hitting a sand dune near a downed power cable in Nebraska. Then there was one found amid the fused desert sand and copper transmission cable left behind by the first atomic bomb test at Trinity, New Mexico. That&#8217;s not quite &#8216;naturally created&#8217;. And that&#8217;s all. As far as I can tell, the rest have been made in labs! Here are the 3 kinds of quasicrystal found in the Khatyrka meteorite, in order of their discovery: &bull; Icosahedrite, Al 63 Cu 24 Fe 13 . By the way, these numbers are percentages, since quasicrystals don&#8217;t have integer-ratio molec",
+        "comment_highlights": null
+      },
+      {
+        "id": 48159790,
+        "title": "My Favorite Bugs: Invalid Surrogate Pairs",
+        "url": "https://george.mand.is/2026/05/my-favorite-bugs-invalid-surrogate-pairs/",
+        "score": 86,
+        "comments": 43,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "My Favorite Bugs: Invalid Surrogate Pairs • George Mandis George Mandis About Words (written) Projects Words (spoken) Hire Get in Touch /dev/random My Favorite Bugs: Invalid Surrogate Pairs May 14th, 2026 • ~2,000 words • 8 minute read If you're in the business of building things that run on computers long enough, I think you will eventually acquire a favorite bug story. This is a short story about mine. I've also built an interactive tool where you can explore the concepts underpinning the heart of this bug. The bug: two emoji enter, none leave I was working on migrating a legacy editor to a more collaborative experience with my team. TipTap on top (itself a wrapper around ProseMirror ), Yjs underneath handling the CRDT magic for real-time syncing. It worked well! Mostly. In our alpha/early release days, when it was still mostly internal and/or early rollout users, sometimes the editor would just stop saving your content. Silently. You'd keep typing and everything looked fine, but your edits stopped syncing to the Yjs document. The next time you opened the page, everything you'd written after the failure point was gone. It was utterly terrifying, very rare and almost impossible to diagnose because we could never recreate it. We really tried! My early suspicions generally revolved around shaky wifi connections and wonky websocket behaviors, but no amount of throttling or turning my wifi on and off seemed to recreate the issue. The experience was surprisingly resilient in thos",
+        "comment_highlights": null
+      },
+      {
+        "id": 48110103,
+        "title": "What Were Ancient Greco-Roman Curse Tablets?",
+        "url": "https://www.history.com/articles/what-were-ancient-roman-curse-tablets",
+        "score": 15,
+        "comments": 11,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "What Were Ancient Greco-Roman Curse Tablets? | HISTORY Open navigation Close navigation Home Shows This Day in History Videos U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution American Revolution Early U.S. Early U.S. Slavery Slavery Civil War Civil War Immigration Immigration Great Depression Great Depression Black History Black History Hispanic History Hispanic History Women’s History Women’s History LGBTQ+ History LGBTQ+ History Native American History Native American History Asian American, Native Hawaiian &amp; Pacific Islander History Asian American, Native Hawaiian &amp; Pacific Islander History U.S. Presidents U.S. Presidents First Ladies First Ladies U.S. Constitution U.S. Constitution U.S. Government and Politics U.S. Government and Politics U.S. States U.S. States Crime Crime World World History World History History from countries and communities across the globe, including the world’s major wars. African History African History Asian History Asian History Cold War Cold War European History European History Exploration Exploration Holocaust Holocaust Industrial Revolution Industrial Revolution Latin American &amp; Caribbean History Latin American &amp; Caribbean History Middle Eastern History Middle Eastern History World War I World War I World War II World War II Vietnam War Vietnam War Eras &amp; Ages Eras &amp; Ages Eras &amp; Ages Fro",
+        "comment_highlights": null
+      },
+      {
+        "id": 48152994,
+        "title": "Bill to block publishers from killing online games advances in California",
+        "url": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
+        "score": 563,
+        "comments": 392,
+        "category_hint": "other",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "Bill to block publishers from killing online games advances in California - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Slow boring of hard boards Bill to block publishers from killing online games advances in California Publishers would have to offer &#8220;independent&#8221; play patch or refunds after server shutdowns. Kyle Orland – May 15, 2026 12:35 pm | 117 Your controller won't literally disintegrate when an online game's servers shut down, but it can feel that way sometimes. Credit: Stop Killing Games Your controller won't literally disintegrate when an online game's servers shut down, but it can feel that way sometimes. Credit: Stop Killing Games Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Minimize to nav A bill focused on maintaining long-term playable access to online games has passed out of the California Assembly’s appropriations committee, setting up a floor vote by the full legislative body. The advancement is a major win for Stop Kill",
+        "comment_highlights": [
+          {
+            "by": "georgeecollins",
+            "text": "It seems like the fair solution to this problem is to open source server code if you are going to cease support for an online game. That way the community has the opportunity to run their own servers if they want to. I also really support giving 60 day notice "
+          },
+          {
+            "by": "tyleo",
+            "text": "I happen to be shutting down an online game right now. https:&#x2F;&#x2F;www.tyleo.com&#x2F;blog&#x2F;sunsetting-rec-room-how-to-give-a... The sad truth is that these things have high operating costs, especially if they need moderation. I would guess this bill"
+          },
+          {
+            "by": "mrandish",
+            "text": "I doubt it&#x27;s possible for legislation to mandate meaningful compliance regarding something as dynamic and rapidly evolving as online games. Despite good intentions, such legislation often results in unintended consequences including distorting the market,"
+          },
+          {
+            "by": "smalley",
+            "text": "This appears to treat subscription style games and free to play with in game purchases differently than other games. I would assume if that law passed the simplest compliance would just be to charge subscriptions and stop selling games directly. It seems like "
+          },
+          {
+            "by": "pavlus",
+            "text": "I think it&#x27;s the right moment to acknowledge that Epic Games handled discontinuation of Unreal series well and responsibly [0] and how standalone servers were good for community. * When GameSpy announced shutdown, patches were released to use Epic release"
+          },
+          {
+            "by": "notJim",
+            "text": "The article is really vague and a bit misleading, but the bill text appears to be surprisingly readable, and honestly not much longer than the article. https:&#x2F;&#x2F;leginfo.legislature.ca.gov&#x2F;faces&#x2F;billTextClient.xhtm..."
+          },
+          {
+            "by": "Reason077",
+            "text": "This happened to me back in 2024 when Supercell abruptly shut down the game “Clash Mini”. Lost $100+ in in-game purchases. They did offer to transfer things to other Supercell games, but that had no value to me as I didn’t play those. I complained to the App S"
+          },
+          {
+            "by": "techteach00",
+            "text": "I&#x27;m on the treadmill so this may appear jumbled. Bought PGA Tour 2k21 for $50. In October the servers shut down completely neutering the game. I think you&#x27;re allowed to play a few courses still. But the career mode, which is why I originally bought t"
+          },
+          {
+            "by": "jfengel",
+            "text": "Do they need to put some funds in escrow? Or will they just shut down the entire company and let the players sue for it. (I know that big publishers won&#x27;t do that, but I&#x27;m sure the lawyers could create shell corporations to solve that problem.) Or th"
+          },
+          {
+            "by": "Figs",
+            "text": "I appreciate the sentiment, but this law looks counter-productive if I&#x27;m reading it right. This is OBVIOUSLY going to push companies to make games into a subscription service to bypass the law even if they wouldn&#x27;t have normally: &gt; (b) This sectio"
+          },
+          {
+            "by": "bitbasher",
+            "text": "Most &quot;gamers&quot; don&#x27;t want to pay $5 for a game you spent 10,000 hours slaving to make. They will complain the game was too short when Steam shows they spent 10+ hours playing it. Now they want more."
+          },
+          {
+            "by": "idorosen",
+            "text": "This bill would likely cause game studios to release games exclusively via subscription plans as an unintended consequence."
+          },
+          {
+            "by": "petterroea",
+            "text": "One thing i think is missing from this discussion is that the problem is larger than just games, and I wish legislation was wider. It&#x27;s good that games are used as an example and flag bearer due to wide appeal, but what about other software that requires "
+          },
+          {
+            "by": "jayd16",
+            "text": "All this will do is move all games to a subscription model with an N-day subscription waver packed in the box."
+          },
+          {
+            "by": "comrade1234",
+            "text": "If the government funds it I&#x27;d love to do maintenance on baldur&#x27;s gate v1 for the rest of my life."
+          },
+          {
+            "by": "braiamp",
+            "text": "Note, this law would affect less than 1% of all games _released_. Just that those happens to be the games that a sizeable part of the population plays. And even then, you spend more tying your game to a online service than not doing so in the first place."
+          },
+          {
+            "by": "okdood64",
+            "text": "This what California&#x27;s political machinery is focused on? Rather than the colossal waste that is the high speed rail project, or rampant corrupt use of State and local funds for social welfare projects?"
+          },
+          {
+            "by": "aeternum",
+            "text": "California is really trying to become Europe with regulation as their primary GDP."
+          },
+          {
+            "by": "thayne",
+            "text": "&gt; the act would not apply to completely free games and games offered “solely for the duration of [a] subscription. Any other game offered for sale in California on or Well, I predict we&#x27;ll start seeing more games offered &quot;solely for the duration o"
+          },
+          {
+            "by": "GloriousKoji",
+            "text": "So what&#x27;s preventing companies from giving games for free and requiring a subscription or one time membership fee for online play? They&#x27;d only be required to refund the full price of the game: $0."
+          }
+        ]
+      },
+      {
+        "id": 48154711,
+        "title": "How to Write to SSDs [pdf]",
+        "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+        "score": 173,
+        "comments": 27,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "lia323",
+            "text": "Hi, I’m the first author of the paper. Thanks for the interest and the kind comments. The extended version is available on arXiv if you’d like more details: https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2603.09927 The appendix includes additional details and FAQ-s"
+          },
+          {
+            "by": "maxi-k",
+            "text": "&gt; we introduce a NoWA (No Write Amplification) pattern that guarantees SSD WAF = 1, even at full device utilization. That they got this to work on regular commodity SSDs (from multiple vendors) is very impressive."
+          },
+          {
+            "by": "user01815-2",
+            "text": "This seems to miss a reference to Zoned XFS, which is the Linux file system that actually looked into this kind of data placement at the file system layer. The paper includes numbers using RocksDB: https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;372578"
+          },
+          {
+            "by": "schobi",
+            "text": "The paper shows a through analysis of write amplification and slowdown&#x2F;wear with large databases (800GB) on a single machine. Databases are MySQL and postgres. As already commended, this can lead to an optimized storage table format for greater performanc"
+          },
+          {
+            "by": "Dwedit",
+            "text": "SMR Hard Drives have very different rules about how you should access them vs conventional hard drives or SSDs. I wonder how much optimizing for SMR drives (Big sequential writes) would also optimize for other drive types."
+          },
+          {
+            "by": "itsthecourier",
+            "text": "this is the kind of research that creates new db types, or super optimized postgres im not sure yet"
+          },
+          {
+            "by": "UltraSane",
+            "text": "Enterprise storage systems solve this problem by having writes go to 8GB or more of NVRAM and then get consolidated and flushed to the SSDs. I wish consumer grade systems used a similar system."
+          },
+          {
+            "by": "dofi4ka",
+            "text": "I feel fooled after clicking on the link and seeing that this PDF is downloading (or just literally writing to my SSD) until I realized that this is the point"
+          }
+        ]
+      },
+      {
+        "id": 48159227,
+        "title": "OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days",
+        "url": "https://twitter.com/steipete/status/2055346265869721905",
+        "score": 139,
+        "comments": 157,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "JavaScript is not available. We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Help Center Terms of Service Privacy Policy Cookie Policy Imprint Ads info © 2026 X Corp. Something went wrong, but don’t fret — let’s give it another shot. Try again Some privacy related extensions may cause issues on x.com. Please disable them and try again.",
+        "comment_highlights": [
+          {
+            "by": "nlawalker",
+            "text": "It’s hilarious to me, seeing that one of the most fundamental challenges and frustrations of the profession of software development is the inability of management to meaningfully measure productivity and resorting to proxy measures, that a huge and vocal commu"
+          },
+          {
+            "by": "mattbrewsbytes",
+            "text": "In the dot com boom there were companies spending like $100+ on ads per $1 of revenue. The cost of customer acquisition was insanely high because of the hype of ecommerce and it was being subsidized by VC and IPO&#x27;s. This AI boom feels similar, a lot of hy"
+          },
+          {
+            "by": "Tiberium",
+            "text": "This is quite a misleading title because this is the raw API cost, but he (obviously) has unlimited usage as an OpenAI employee. Moreover, if you use e.g. the $200 Codex sub, you get about ~$5k-$6k monthly API usage if you spend every week of your usage, if no"
+          },
+          {
+            "by": "Robdel12",
+            "text": "Once you see how much crap they’re running to police the agents on the repo, you’ll ‘get’ the spend https:&#x2F;&#x2F;x.com&#x2F;steipete&#x2F;status&#x2F;2055405041843052792 I won’t lie, if I had the access to this, I’d do the same exact thing."
+          },
+          {
+            "by": "zxornand",
+            "text": "And was he 5x more productive in those 30d than a years worth of a dev making 200k&#x2F;yr? Doubtful lol, dudes killing the environment just for fun at this point."
+          },
+          {
+            "by": "laksgandikota",
+            "text": "We could have hired 5 human engineers and they would never forget the context for the rest of their lives."
+          },
+          {
+            "by": "vslira",
+            "text": "Regardless of one’s opinion about AI, from a product perspective this seems somewhat similar to the dev using his 48gb ram machine and latest iphone to test an app that will be used by consumers with entry-level devices"
+          },
+          {
+            "by": "tom1337890",
+            "text": "After trying openclaw a bit myself, no wonder. Without the best models, capabilities drop significantly. And I guess he has a lot of automations and stuff, which explains the 19&#x27;000 daily spend. I hit my personal spend limit when it cost like 40 USD to ge"
+          },
+          {
+            "by": "Terretta",
+            "text": "The mentioned menu bar app is a MITM (man in the middle) and rightly discloses that it gets all your session creds and uses them, along with keychain and full disk access: Privacy: Reuses existing provider sessions — OAuth, device flow, API keys, browser cooki"
+          },
+          {
+            "by": "mtct88",
+            "text": "It&#x27;s a very peculiar way to flex."
+          },
+          {
+            "by": "wolttam",
+            "text": "Nobody here talking about what this represents for demand on these models, if these numbers aren’t made up. One person using 600B tokens in a month. The most I’ve hit is around 500M tokens and I thought that was a huge amount. We’re going to have some major co"
+          },
+          {
+            "by": "athrow",
+            "text": "What does he have to show for it?"
+          },
+          {
+            "by": "faangguyindia",
+            "text": "how many of those tokens were spent to buy fake stars using fake email signups?"
+          },
+          {
+            "by": "thomasahle",
+            "text": "He used 600B tokens in 30 days. I use more than 150B&#x2F;month with just 15 codex accounts. 60 accounts is &quot;just&quot; $12,000&#x2F;month. So Peter could &quot;save&quot; 100x by using monthly accounts. Of course, he doesn&#x27;t have to, as he works at "
+          },
+          {
+            "by": "yodakohl",
+            "text": "You can look at the output here https:&#x2F;&#x2F;github.com&#x2F;steipete Sample commit from 5 minutes ago https:&#x2F;&#x2F;github.com&#x2F;openclaw&#x2F;crabbox&#x2F;pull&#x2F;113 May 2026: 8,826 commits in 94 repositories"
+          },
+          {
+            "by": "hansmayer",
+            "text": "What product or feature did he build with it and how much ARR did it generate for OpenAI?"
+          },
+          {
+            "by": "malshe",
+            "text": "AI bros love hyping about their insanely inefficient token usage. It&#x27;s become some sort of a dick-measuring contest. And if you work for OpenAI, of course you can claim insane measurements. Just last week I saw a dude boasting about how they used their $2"
+          },
+          {
+            "by": "0gs",
+            "text": "you have to admit: he is not as difficult to project paratechnical admiration onto as sama is. maybe the board wants him to be the next ceo"
+          },
+          {
+            "by": "Philip-J-Fry",
+            "text": "So he&#x27;s spent $20k in one day. There&#x27;s not a chance in hell he&#x27;s actually doing productive work with all these tokens. Grifters gonna grift. What a state of affairs."
+          },
+          {
+            "by": "steve1977",
+            "text": "And what did he create with it?"
+          }
+        ]
+      },
+      {
+        "id": 48149259,
+        "title": "Additive Blending on the Nintendo 64",
+        "url": "https://phoboslab.org/log/2026/05/n64-additive-blending",
+        "score": 164,
+        "comments": 26,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "PhobosLab Blog Games Projects Dominic Szablewski, @phoboslab — Monday, May 4th 2026 Additive Blending on the Nintendo 64 Did you ever wonder why explosions and other effects looked so much cooler on the original PlayStation than they did on the Nintendo 64? “Silent Bomber“ for the PSX “Star Fox 64“ for the N64 The reason is additive blending! Or rather, in the N64 case, the lack thereof. While the N64 actually did support additive blending, it was practically unusable. PSX The PSX supports 4 different blend modes (in addition to just overwriting pixels) to control how sprites and geometry are mixed into the existing frame buffer: 0: (src + dst) / 2 1: src + dst 2: dst - src 3: dst + src/4 The one you see here in Silent Bomber is conceptually the simplest one: src + dst . That is, colors are just added to the existing ones in the frame buffer. | R | G | B | | src (sprite) | 171 | 42 | 226 | | + dst (framebuffer) | 63 | 141 | 170 | | = result | 234 | 183 | 255 | Drawing a sprite over a scene can only ever make it brighter , never darker. Perfect for explosions, plasma beams and magic spells. Importantly, note how the B value in this example adds up to 396 , but the PSX GPU helpfully clamps it to the maximum range of 255 . (Aside: the PSX GPU actually only works in 16bit precision with 5bit color components, so values range from 0 .. 31 ; the math is the same.) N64 The N64's “Reality Display Processor” (the fixed-function rasterizer, short RDP) has a much more flexible way to co",
+        "comment_highlights": [
+          {
+            "by": "1024bits",
+            "text": "Discussed a bit more here in 2017-2018: https:&#x2F;&#x2F;forums.nesdev.org&#x2F;viewtopic.php?t=16414"
+          },
+          {
+            "by": "andrekandre",
+            "text": "&gt; Did you ever wonder why explosions and other effects looked so much cooler on the original PlayStation than they did on the Nintendo 64? yes! fantastic article and now i finally know why ^^"
+          },
+          {
+            "by": "gblargg",
+            "text": "It&#x27;s the same issue you encounter with audio mixing. You have to clamp out-of-range values, even though they don&#x27;t occur a lot. If you don&#x27;t you get awful artifacts, and have to lower everything so that it can never overflow your range."
+          },
+          {
+            "by": "rlopezcc",
+            "text": "RMS interjection reference was chef&#x27;s kiss."
+          },
+          {
+            "by": "aggakake",
+            "text": "Ah, no wonder Turok&#x27;s explosions looked like they were full of pollution!"
+          },
+          {
+            "by": "keyle",
+            "text": "Interesting so the N64 had a more flexible color blending process, and in doing that no clamping. So the &#x27;good explosions&#x27; were possible on N64 if you did the blending+clamp by hand?"
+          },
+          {
+            "by": "applfanboysbgon",
+            "text": "&gt; Did you ever wonder why explosions and other effects looked so much cooler on the original PlayStation than they did on the Nintendo 64? Begging the question, aren&#x27;t we?! Of the examples displayed, I much prefer Star Fox&#x27;s fx to Silent Bomber&#x"
+          },
+          {
+            "by": "omoikane",
+            "text": "See also: https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Saturation_arithmetic"
+          },
+          {
+            "by": "rasz",
+            "text": "You know what else didnt support additive blending? S3 ViRGE decelerator, Matrox Mystique mistake, nor NEC PowerVR PCX 1&#x2F;2, afaik not even Permedia 1&#x2F;2. Another pain point was multiplicative blending missing in even more early 3d accelerators. Then c"
+          },
+          {
+            "by": "atan2",
+            "text": "Posted earlier this week: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48067111"
+          }
+        ]
+      }
+    ],
+    "show_hn": [
+      {
+        "id": 48161881,
+        "title": "Show HN: Rocksky – Music scrobbling and discovery on the AT Protocol",
+        "url": "https://tangled.org/rocksky.app/rocksky",
+        "score": 51,
+        "comments": 17,
+        "category_hint": "other",
+        "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
+        "article_summary": null,
+        "comment_highlights": null
+      }
+    ]
+  }
+}

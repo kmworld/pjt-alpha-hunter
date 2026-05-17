@@ -1,0 +1,273 @@
+{
+  "source": "github_trending",
+  "date": "2026-05-17",
+  "period": "daily",
+  "items": [
+    {
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 91208,
+      "recent_stars": 397,
+      "forks": 4548,
+      "topics": [
+        "bun",
+        "bundler",
+        "javascript",
+        "javascriptcore",
+        "jsx",
+        "nodejs",
+        "npm",
+        "react"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "why_people_care": "AI/ML workloads are pushing infra to the limit — this tool helps and is pulling +397 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "typescript",
+        "javascript",
+        "go",
+        "react",
+        "docker",
+        "bun",
+        "bundler",
+        "javascriptcore",
+        "jsx"
+      ]
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 23128,
+      "recent_stars": 673,
+      "forks": 2487,
+      "topics": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode",
+        "clinical-research"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +673 stars today.",
+      "architecture_tech": [
+        "Python",
+        "python",
+        "go",
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode"
+      ]
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 193995,
+      "recent_stars": 1305,
+      "forks": 17259,
+      "topics": [
+        "agentic",
+        "skills",
+        "framework",
+        "software",
+        "development"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "An agentic skills framework & software development methodology that works.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1305 stars today.",
+      "architecture_tech": [
+        "Shell",
+        "go",
+        "agentic",
+        "skills",
+        "framework",
+        "software",
+        "development"
+      ]
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars": 14419,
+      "recent_stars": 317,
+      "forks": 2515,
+      "topics": [
+        "ai-art-generator",
+        "ai-image-generation",
+        "ai-video-generation",
+        "creative-tools",
+        "flux-1",
+        "generative-ai",
+        "image-to-video",
+        "javascript"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT ",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +317 stars today.",
+      "architecture_tech": [
+        "JavaScript",
+        "javascript",
+        "ai-art-generator",
+        "ai-image-generation",
+        "ai-video-generation",
+        "creative-tools",
+        "flux-1",
+        "generative-ai",
+        "image-to-video"
+      ]
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 6868,
+      "recent_stars": 749,
+      "forks": 706,
+      "topics": [
+        "cpp",
+        "csharp",
+        "go",
+        "ios",
+        "java",
+        "lightweight",
+        "nodejs",
+        "on-device"
+      ],
+      "owner_type": "org",
+      "is_rising_star": true,
+      "new_this_day": false,
+      "repo_summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "why_people_care": "Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining +749 stars today.",
+      "architecture_tech": [
+        "Swift",
+        "python",
+        "go",
+        "tpu",
+        "gpu",
+        "cpp",
+        "csharp",
+        "ios",
+        "java",
+        "lightweight"
+      ]
+    },
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 10703,
+      "recent_stars": 1549,
+      "forks": 920,
+      "topics": [
+        "intelligence",
+        "private",
+        "extremely"
+      ],
+      "owner_type": "org",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1549 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "intelligence",
+        "private",
+        "extremely"
+      ]
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 58337,
+      "recent_stars": 1010,
+      "forks": 7621,
+      "topics": [
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +1010 stars today.",
+      "architecture_tech": [
+        "Rust",
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation"
+      ]
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 2513,
+      "recent_stars": 416,
+      "forks": 208,
+      "topics": [
+        "fewer",
+        "pre-indexed",
+        "knowledge",
+        "graph",
+        "claude"
+      ],
+      "owner_type": "individual",
+      "is_rising_star": false,
+      "new_this_day": false,
+      "repo_summary": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+      "why_people_care": "Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling +416 stars today.",
+      "architecture_tech": [
+        "TypeScript",
+        "rust",
+        "python",
+        "typescript",
+        "go",
+        "fewer",
+        "pre-indexed",
+        "knowledge",
+        "graph",
+        "claude"
+      ]
+    }
+  ]
+}

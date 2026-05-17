@@ -1,0 +1,638 @@
+{
+  "source": "job_signals",
+  "date": "2026-05-17",
+  "jobs": [
+    {
+      "title": "AI Engineer, Quality",
+      "company": "Fieldguide",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "San Francisco, CA or Remote (USA) / Remote (US)",
+      "salary": "$170K - $220K",
+      "roleType": "Full stack",
+      "companyBatch": "S20",
+      "oneLiner": "Vertical AI for Audit & Advisory Firms",
+      "url": "https://www.workatastartup.com/job/90564",
+      "specific_role": "AI Engineer, Quality",
+      "jd_summary": "AI Engineer, Quality at Fieldguide: Vertical AI for Audit & Advisory Firms",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Fieldguide; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "AI/ML Engineer",
+      "company": "Noora Health",
+      "tags": [
+        "AI",
+        "machine learning",
+        "ML"
+      ],
+      "location": "Bengaluru, KA, IN / Bengaluru, Karnataka, IN",
+      "salary": "₹2.5M - ₹3.5M INR",
+      "roleType": "Machine learning",
+      "companyBatch": "W14",
+      "oneLiner": "Training patients and their families with health skills",
+      "url": "https://www.workatastartup.com/job/89072",
+      "specific_role": "ML Engineer",
+      "jd_summary": "AI/ML Engineer at Noora Health: Training patients and their families with health skills",
+      "extracted_skills": [],
+      "role_specifics": "ML Engineer role at Noora Health; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "healthtech"
+    },
+    {
+      "title": "Senior/Staff Backend Engineer",
+      "company": "BlueCargo",
+      "tags": [
+        "backend"
+      ],
+      "location": "New York, NY, US / Culver City, CA, US / Remote (US)",
+      "salary": "$160K - $220K",
+      "roleType": "Backend",
+      "companyBatch": "S18",
+      "oneLiner": "The automated solution for complex freight transactions.",
+      "url": "https://www.workatastartup.com/job/91866",
+      "specific_role": "Senior/Staff Backend Engineer",
+      "jd_summary": "Senior/Staff Backend Engineer at BlueCargo: The automated solution for complex freight transactions.",
+      "extracted_skills": [
+        "Go"
+      ],
+      "role_specifics": "General engineering role at BlueCargo; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [
+        "Go"
+      ],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Mobile Engineer (Android)",
+      "company": "Circle Medical",
+      "tags": [],
+      "location": "Montreal, QC, CA / Montreal, Quebec, CA / Remote (US; CA)",
+      "salary": "$142K - $180K",
+      "roleType": "Android",
+      "companyBatch": "S15",
+      "oneLiner": "Modern primary care via video and in-person",
+      "url": "https://www.workatastartup.com/job/94332",
+      "specific_role": "Mobile Engineer (Android)",
+      "jd_summary": "Mobile Engineer (Android) at Circle Medical: Modern primary care via video and in-person",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Circle Medical; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "healthtech"
+    },
+    {
+      "title": "Software Engineer, Data Platform",
+      "company": "OneChronos",
+      "tags": [],
+      "location": "New York, NY, US / Amsterdam, NH, NL / London, England, GB / Tokyo, JP",
+      "salary": "$115K - $200K",
+      "roleType": "Data science",
+      "companyBatch": "S16",
+      "oneLiner": "The Smart Market for Institutional Investors",
+      "url": "https://www.workatastartup.com/job/66830",
+      "specific_role": "Data/ML Engineer",
+      "jd_summary": "Software Engineer, Data Platform at OneChronos: The Smart Market for Institutional Investors",
+      "extracted_skills": [],
+      "role_specifics": "Data/ML Engineer role at OneChronos; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "Runway",
+      "tags": [
+        "full stack"
+      ],
+      "location": "US / GB / AU / ES / FR / MX / DK / SE / IT / PL / CZ / PT / BE / NL / CA / FI / EE / BR / Remote (US; GB; AU; ES; FR; MX; DK; SE; IT; PL; CZ; PT; BE; NL; CA; FI; EE; BR)",
+      "salary": "$80K - $150K",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "oneLiner": "Easier and more reliable mobile app releases for teams.",
+      "url": "https://www.workatastartup.com/job/46511",
+      "specific_role": "Full Stack Engineer",
+      "jd_summary": "Full Stack Engineer at Runway: Easier and more reliable mobile app releases for teams.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Runway; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "consumer"
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "Hotplate",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco Office",
+      "salary": "$165K - $185K",
+      "roleType": "Full stack",
+      "companyBatch": "S20",
+      "oneLiner": "Online ordering platform for independent chefs and bakers.",
+      "url": "https://www.workatastartup.com/job/89034",
+      "specific_role": "Full Stack Engineer",
+      "jd_summary": "Full Stack Engineer at Hotplate: Online ordering platform for independent chefs and bakers.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Hotplate; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Full Stack Product Engineer",
+      "company": "Wefunder",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco, CA, US",
+      "salary": "$160K - $250K",
+      "roleType": "Full stack",
+      "companyBatch": "W13",
+      "oneLiner": "We're Robinhood for pre-IPO startups. Everyone can invest $100.",
+      "url": "https://www.workatastartup.com/job/69750",
+      "specific_role": "Full Stack Product Engineer",
+      "jd_summary": "Full Stack Product Engineer at Wefunder: We're Robinhood for pre-IPO startups. Everyone can invest $100.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Wefunder; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Senior Fullstack Engineer",
+      "company": "Laylo",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Los Angeles, CA, US / CA, US / Remote (Los Angeles, CA, US; CA, US)",
+      "salary": "$150 - $180K",
+      "roleType": "Full stack",
+      "companyBatch": "S20",
+      "oneLiner": "The CRM powering iconic musicians and events",
+      "url": "https://www.workatastartup.com/job/43636",
+      "specific_role": "Senior Fullstack Engineer",
+      "jd_summary": "Senior Fullstack Engineer at Laylo: The CRM powering iconic musicians and events",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Laylo; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "New Grad Software Engineer",
+      "company": "Confido",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "NYC Office",
+      "salary": "$150K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "oneLiner": "AI-enabled financial automation and intelligence for CPG Brands",
+      "url": "https://www.workatastartup.com/job/93171",
+      "specific_role": "New Grad Software Engineer",
+      "jd_summary": "New Grad Software Engineer at Confido: AI-enabled financial automation and intelligence for CPG Brands",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Confido; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "fintech"
+    },
+    {
+      "title": "Senior Software engineer, Founding team",
+      "company": "Aviator",
+      "tags": [
+        "backend"
+      ],
+      "location": "San Francisco, CA, US",
+      "salary": "$160K - $200K",
+      "roleType": "Backend",
+      "companyBatch": "S21",
+      "oneLiner": "Google-level engineering productivity suite",
+      "url": "https://www.workatastartup.com/job/78100",
+      "specific_role": "Senior Software engineer, Founding team",
+      "jd_summary": "Senior Software engineer, Founding team at Aviator: Google-level engineering productivity suite",
+      "extracted_skills": [
+        "Go"
+      ],
+      "role_specifics": "General engineering role at Aviator; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [
+        "Go"
+      ],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Full-Stack Engineer",
+      "company": "Encord",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "London",
+      "salary": "",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "oneLiner": "The data layer for physical AI",
+      "url": "https://www.workatastartup.com/job/53938",
+      "specific_role": "Full-Stack Engineer",
+      "jd_summary": "Full-Stack Engineer at Encord: The data layer for physical AI",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Encord; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Platform Lead - AI Engineer ",
+      "company": "Storylane",
+      "tags": [
+        "AI",
+        "backend"
+      ],
+      "location": "IN / Remote (IN)",
+      "salary": "",
+      "roleType": "Backend",
+      "companyBatch": "S21",
+      "oneLiner": "Build Interactive Product Demo in 10 mins for SaaS companies",
+      "url": "https://www.workatastartup.com/job/94691",
+      "specific_role": "AI Infra Engineer",
+      "jd_summary": "Platform Lead - AI Engineer  at Storylane: Build Interactive Product Demo in 10 mins for SaaS companies",
+      "extracted_skills": [],
+      "role_specifics": "AI Infra Engineer role at Storylane; AI infra company hiring: capacity, tooling, and observability demand is expanding.",
+      "required_stack": [],
+      "why_signal": "AI infra company hiring: capacity, tooling, and observability demand is expanding.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Product Engineer, Post Batch",
+      "company": "Y Combinator",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco, CA",
+      "salary": "$185K - $485K",
+      "roleType": "Full stack",
+      "companyBatch": "",
+      "oneLiner": "Make something people want.",
+      "url": "https://www.workatastartup.com/job/41302",
+      "specific_role": "Product Engineer, Post Batch",
+      "jd_summary": "Product Engineer, Post Batch at Y Combinator: Make something people want.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Y Combinator; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Design-Focused React Native Engineer",
+      "company": "Truss",
+      "tags": [],
+      "location": "San Francisco, CA, US / Remote (CA)",
+      "salary": "$125K - $175K",
+      "roleType": "Frontend",
+      "companyBatch": "S21",
+      "oneLiner": "Banking for construction",
+      "url": "https://www.workatastartup.com/job/94646",
+      "specific_role": "Design-Focused React Native Engineer",
+      "jd_summary": "Design-Focused React Native Engineer at Truss: Banking for construction",
+      "extracted_skills": [
+        "React"
+      ],
+      "role_specifics": "General engineering role at Truss; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [
+        "React"
+      ],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "fintech"
+    },
+    {
+      "title": "Fullstack Engineer",
+      "company": "BoldVoice",
+      "tags": [
+        "full stack"
+      ],
+      "location": "New York, NY",
+      "salary": "$140K - $250K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "oneLiner": "Speech and accent coaching app for non-native English speakers",
+      "url": "https://www.workatastartup.com/job/45768",
+      "specific_role": "Fullstack Engineer",
+      "jd_summary": "Fullstack Engineer at BoldVoice: Speech and accent coaching app for non-native English speakers",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at BoldVoice; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Full Stack Product Engineer - Remote/US",
+      "company": "Jiga",
+      "tags": [
+        "full stack"
+      ],
+      "location": "US / Remote (US)",
+      "salary": "$120K - $190K",
+      "roleType": "Full stack",
+      "companyBatch": "W21",
+      "oneLiner": "Source better parts by partnering directly with vetted manufacturers",
+      "url": "https://www.workatastartup.com/job/44310",
+      "specific_role": "Full Stack Product Engineer - Remote/US",
+      "jd_summary": "Full Stack Product Engineer - Remote/US at Jiga: Source better parts by partnering directly with vetted manufacturers",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Jiga; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Senior AI Engineer I",
+      "company": "BillionToOne",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "Menlo Park, CA",
+      "salary": "$174K - $201K",
+      "roleType": "Full stack",
+      "companyBatch": "S17",
+      "oneLiner": "The genetic testing platform detecting and measuring disease.",
+      "url": "https://www.workatastartup.com/job/93975",
+      "specific_role": "Senior AI Engineer I",
+      "jd_summary": "Senior AI Engineer I at BillionToOne: The genetic testing platform detecting and measuring disease.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at BillionToOne; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "GoGoGrandparent",
+      "tags": [
+        "backend"
+      ],
+      "location": "Remote",
+      "salary": "$80K - $180K",
+      "roleType": "Backend",
+      "companyBatch": "S16",
+      "oneLiner": "A concierge service for seniors’ rides, meals, meds, home and more.",
+      "url": "https://www.workatastartup.com/job/78968",
+      "specific_role": "Backend Engineer",
+      "jd_summary": "Backend Engineer at GoGoGrandparent: A concierge service for seniors’ rides, meals, meds, home and more.",
+      "extracted_skills": [
+        "Go"
+      ],
+      "role_specifics": "General engineering role at GoGoGrandparent; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [
+        "Go"
+      ],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Senior Software Engineer, Hub Team",
+      "company": "Weekend (fmr. Volley)",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "San Francisco",
+      "salary": "$166K - $228K",
+      "roleType": "Full stack",
+      "companyBatch": "W18",
+      "oneLiner": "AI games and entertainment on TV",
+      "url": "https://www.workatastartup.com/job/93960",
+      "specific_role": "Senior Software Engineer, Hub Team",
+      "jd_summary": "Senior Software Engineer, Hub Team at Weekend (fmr. Volley): AI games and entertainment on TV",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Weekend (fmr. Volley); Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Software Engineer - Backend & Data (Eastern Europe)",
+      "company": "SPATE",
+      "tags": [
+        "backend"
+      ],
+      "location": "RS / RO / MD / BY / PL / CZ / HU / BG / SK / Remote (RS; RO; MD; BY; PL; CZ; HU; BG; SK)",
+      "salary": "€60K - €80K EUR",
+      "roleType": "Backend",
+      "companyBatch": "S18",
+      "oneLiner": "Trends prediction for marketers",
+      "url": "https://www.workatastartup.com/job/94615",
+      "specific_role": "Data/ML Engineer",
+      "jd_summary": "Software Engineer - Backend & Data (Eastern Europe) at SPATE: Trends prediction for marketers",
+      "extracted_skills": [],
+      "role_specifics": "Data/ML Engineer role at SPATE; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Security & Compliance Engineer",
+      "company": "Arist",
+      "tags": [
+        "DevOps"
+      ],
+      "location": "NY, US / Remote (US)",
+      "salary": "$160K - $175K",
+      "roleType": "Devops",
+      "companyBatch": "S20",
+      "oneLiner": "Deliver effective learning at scale ",
+      "url": "https://www.workatastartup.com/job/94535",
+      "specific_role": "Security & Compliance Engineer",
+      "jd_summary": "Security & Compliance Engineer at Arist: Deliver effective learning at scale ",
+      "extracted_skills": [
+        "DevOps"
+      ],
+      "role_specifics": "General engineering role at Arist; Core infra roles suggest scaling needs in cloud and SRE.",
+      "required_stack": [
+        "DevOps"
+      ],
+      "why_signal": "Core infra roles suggest scaling needs in cloud and SRE.",
+      "company_sector": "infra"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Banner",
+      "tags": [
+        "full stack"
+      ],
+      "location": "US / Remote (US)",
+      "salary": "$160 - $200",
+      "roleType": "Full stack",
+      "companyBatch": "S19",
+      "oneLiner": "Banner makes software for CRE owners to manage capital spend",
+      "url": "https://www.workatastartup.com/job/53317",
+      "specific_role": "Senior Software Engineer",
+      "jd_summary": "Senior Software Engineer at Banner: Banner makes software for CRE owners to manage capital spend",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Banner; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Pine Park Health",
+      "tags": [
+        "full stack"
+      ],
+      "location": "Berkeley, CA, US / Remote (San Francisco, CA, US; Berkeley, CA, US; Oakland, CA, US; Fremont, CA, US; Hayward, CA, US)",
+      "salary": "$190K - $215K",
+      "roleType": "Full stack",
+      "companyBatch": "S18",
+      "oneLiner": "We provide primary care in senior living communities.",
+      "url": "https://www.workatastartup.com/job/93346",
+      "specific_role": "Senior Software Engineer",
+      "jd_summary": "Senior Software Engineer at Pine Park Health: We provide primary care in senior living communities.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Pine Park Health; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "healthtech"
+    },
+    {
+      "title": "Head of Developer Relations",
+      "company": "Wasmer",
+      "tags": [
+        "full stack"
+      ],
+      "location": "San Francisco, CA, US",
+      "salary": "$1",
+      "roleType": "Full stack",
+      "companyBatch": "S19",
+      "oneLiner": "The Operating System for Edge Computing",
+      "url": "https://www.workatastartup.com/job/92618",
+      "specific_role": "Head of Developer Relations",
+      "jd_summary": "Head of Developer Relations at Wasmer: The Operating System for Edge Computing",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Wasmer; Core infra roles suggest scaling needs in cloud and SRE.",
+      "required_stack": [],
+      "why_signal": "Core infra roles suggest scaling needs in cloud and SRE.",
+      "company_sector": "infra"
+    },
+    {
+      "title": "Technical Solutions Engineer",
+      "company": "Coast",
+      "tags": [],
+      "location": "New York, NY, US",
+      "salary": "$120K - $175K",
+      "roleType": "Frontend",
+      "companyBatch": "S21",
+      "oneLiner": "Demo Platform for API-First Companies",
+      "url": "https://www.workatastartup.com/job/66888",
+      "specific_role": "Technical Solutions Engineer",
+      "jd_summary": "Technical Solutions Engineer at Coast: Demo Platform for API-First Companies",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Coast; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Senior Software Engineer, Backend Integrations",
+      "company": "Flock Safety",
+      "tags": [
+        "backend",
+        "full stack"
+      ],
+      "location": "Atlanta, GA, US / Remote (Atlanta, GA, US)",
+      "salary": "$170K - $250K",
+      "roleType": "Full stack",
+      "companyBatch": "S17",
+      "oneLiner": "The first public safety operating system that eliminates crime.",
+      "url": "https://www.workatastartup.com/job/72551",
+      "specific_role": "Senior Software Engineer, Backend Integrations",
+      "jd_summary": "Senior Software Engineer, Backend Integrations at Flock Safety: The first public safety operating system that eliminates crime.",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Flock Safety; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Cloud Engineer (SRE)",
+      "company": "Heroic Labs",
+      "tags": [
+        "infra",
+        "DevOps",
+        "SRE"
+      ],
+      "location": "London, UK / PT / Remote",
+      "salary": "",
+      "roleType": "Devops",
+      "companyBatch": "S15",
+      "oneLiner": "Social Infrastructure for Games; Makers of Nakama game server, Satori…",
+      "url": "https://www.workatastartup.com/job/76248",
+      "specific_role": "Cloud Engineer (SRE)",
+      "jd_summary": "Cloud Engineer (SRE) at Heroic Labs: Social Infrastructure for Games; Makers of Nakama game server, Satori…",
+      "extracted_skills": [
+        "SRE",
+        "DevOps"
+      ],
+      "role_specifics": "General engineering role at Heroic Labs; Core infra roles suggest scaling needs in cloud and SRE.",
+      "required_stack": [
+        "SRE",
+        "DevOps"
+      ],
+      "why_signal": "Core infra roles suggest scaling needs in cloud and SRE.",
+      "company_sector": "infra"
+    },
+    {
+      "title": "Founding Engineer",
+      "company": "Aqua",
+      "tags": [
+        "AI",
+        "full stack"
+      ],
+      "location": "New York, NY, US",
+      "salary": "$100K - $160K",
+      "roleType": "Full stack",
+      "companyBatch": "S21",
+      "oneLiner": "The AI-Native Turnkey Alternative Investment Platform (TAIP)",
+      "url": "https://www.workatastartup.com/job/83160",
+      "specific_role": "Founding Engineer",
+      "jd_summary": "Founding Engineer at Aqua: The AI-Native Turnkey Alternative Investment Platform (TAIP)",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Aqua; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    },
+    {
+      "title": "Technical Operations & AI Automation Engineer - (Bangkok/Hybrid)",
+      "company": "Peakflo",
+      "tags": [
+        "AI",
+        "agent",
+        "machine learning"
+      ],
+      "location": "Bangkok, Bangkok, TH / Remote (Bangkok, Bangkok, TH)",
+      "salary": "",
+      "roleType": "Machine learning",
+      "companyBatch": "W22",
+      "oneLiner": "Agentic workflows that automate your back‑office operations",
+      "url": "https://www.workatastartup.com/job/92435",
+      "specific_role": "Technical Operations & AI Automation Engineer - (Bangkok/Hybrid)",
+      "jd_summary": "Technical Operations & AI Automation Engineer - (Bangkok/Hybrid) at Peakflo: Agentic workflows that automate your back‑office operations",
+      "extracted_skills": [],
+      "role_specifics": "General engineering role at Peakflo; Relevant tech stack and domain alignment with alpha opportunities.",
+      "required_stack": [],
+      "why_signal": "Relevant tech stack and domain alignment with alpha opportunities.",
+      "company_sector": "other"
+    }
+  ]
+}

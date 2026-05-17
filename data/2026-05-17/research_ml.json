@@ -1,0 +1,1213 @@
+{
+  "source": "research_ml",
+  "date": "2026-05-17",
+  "huggingface_trending": [
+    {
+      "id": "deepseek-ai/DeepSeek-R1",
+      "name": "DeepSeek-R1",
+      "likes": 13332,
+      "downloads": 3899140,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2501.12948",
+        "license:mit",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-dev",
+      "name": "FLUX.1-dev",
+      "likes": 12814,
+      "downloads": 706330,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-generation",
+        "flux",
+        "en",
+        "license:other",
+        "endpoints_compatible",
+        "diffusers:FluxPipeline",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "name": "stable-diffusion-xl-base-1.0",
+      "likes": 7714,
+      "downloads": 2012438,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "onnx",
+        "safetensors",
+        "text-to-image",
+        "stable-diffusion",
+        "arxiv:2307.01952",
+        "arxiv:2211.01324",
+        "arxiv:2108.01073",
+        "arxiv:2112.10752",
+        "license:openrail++",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionXLPipeline",
+        "deploy:azure",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Diffusion",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+    },
+    {
+      "id": "CompVis/stable-diffusion-v1-4",
+      "name": "stable-diffusion-v1-4",
+      "likes": 7008,
+      "downloads": 645357,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "stable-diffusion",
+        "stable-diffusion-diffusers",
+        "text-to-image",
+        "arxiv:2207.12598",
+        "arxiv:2112.10752",
+        "arxiv:2103.00020",
+        "arxiv:2205.11487",
+        "arxiv:1910.09700",
+        "license:creativeml-openrail-m",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionPipeline",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Diffusion",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B",
+      "name": "Meta-Llama-3-8B",
+      "likes": 6534,
+      "downloads": 2943572,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "en",
+        "license:llama3",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "name": "Kokoro-82M",
+      "likes": 6156,
+      "downloads": 9741743,
+      "pipeline_tag": "text-to-speech",
+      "tags": [
+        "text-to-speech",
+        "en",
+        "arxiv:2306.07691",
+        "arxiv:2203.02395",
+        "base_model:yl4579/StyleTTS2-LJSpeech",
+        "base_model:finetune:yl4579/StyleTTS2-LJSpeech",
+        "doi:10.57967/hf/4329",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "sector_themes": [
+        "tts-audio"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Speech / audio processing",
+      "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+    },
+    {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "name": "Llama-3.1-8B-Instruct",
+      "likes": 5840,
+      "downloads": 10029057,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th",
+        "arxiv:2204.05149",
+        "base_model:meta-llama/Llama-3.1-8B",
+        "base_model:finetune:meta-llama/Llama-3.1-8B"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "name": "whisper-large-v3",
+      "likes": 5694,
+      "downloads": 4932732,
+      "pipeline_tag": "automatic-speech-recognition",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "jax",
+        "safetensors",
+        "whisper",
+        "automatic-speech-recognition",
+        "audio",
+        "hf-asr-leaderboard",
+        "en",
+        "zh",
+        "de",
+        "es",
+        "ru",
+        "ko",
+        "fr",
+        "ja",
+        "pt",
+        "tr",
+        "pl",
+        "ca"
+      ],
+      "sector_themes": [
+        "tts-audio"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Speech / audio processing",
+      "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/openai/whisper-large-v3"
+    },
+    {
+      "id": "bigscience/bloom",
+      "name": "bloom",
+      "likes": 5002,
+      "downloads": 6097,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "tensorboard",
+        "safetensors",
+        "bloom",
+        "text-generation",
+        "ak",
+        "ar",
+        "as",
+        "bm",
+        "bn",
+        "ca",
+        "code",
+        "en",
+        "es",
+        "eu",
+        "fon",
+        "fr",
+        "gu",
+        "hi"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. Very high likes indicate strong community validation and likely production relevance.",
+      "lastModified": null,
+      "url": "https://huggingface.co/bigscience/bloom"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-3-medium",
+      "name": "stable-diffusion-3-medium",
+      "likes": 4956,
+      "downloads": 5741,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusion-single-file",
+        "text-to-image",
+        "stable-diffusion",
+        "en",
+        "arxiv:2403.03206",
+        "license:other",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Diffusion",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3-medium"
+    },
+    {
+      "id": "black-forest-labs/FLUX.1-schnell",
+      "name": "FLUX.1-schnell",
+      "likes": 4879,
+      "downloads": 660418,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "image-generation",
+        "flux",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "diffusers:FluxPipeline",
+        "deploy:azure",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+    },
+    {
+      "id": "sentence-transformers/all-MiniLM-L6-v2",
+      "name": "all-MiniLM-L6-v2",
+      "likes": 4792,
+      "downloads": 259897391,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "tf",
+        "rust",
+        "onnx",
+        "safetensors",
+        "openvino",
+        "bert",
+        "feature-extraction",
+        "sentence-similarity",
+        "transformers",
+        "en",
+        "dataset:s2orc",
+        "dataset:flax-sentence-embeddings/stackexchange_xml",
+        "dataset:ms_marco",
+        "dataset:gooaq",
+        "dataset:yahoo_answers_topics",
+        "dataset:code_search_net",
+        "dataset:search_qa",
+        "dataset:eli5"
+      ],
+      "sector_themes": [
+        "code-llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Code generation / AI-assisted development",
+      "why_notable": "Code-generation model trending; directly relevant to AI-assisted development and tool use. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "likes": 4777,
+      "downloads": 4661369,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt_oss",
+        "text-generation",
+        "vllm",
+        "conversational",
+        "arxiv:2508.10925",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "8-bit",
+        "mxfp4",
+        "deploy:azure",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/openai/gpt-oss-120b"
+    },
+    {
+      "id": "meta-llama/Llama-2-7b-chat-hf",
+      "name": "Llama-2-7b-chat-hf",
+      "likes": 4754,
+      "downloads": 379503,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "llama-2",
+        "conversational",
+        "en",
+        "arxiv:2307.09288",
+        "license:llama2",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "name": "Mixtral-8x7B-Instruct-v0.1",
+      "likes": 4678,
+      "downloads": 626790,
+      "pipeline_tag": null,
+      "tags": [
+        "vllm",
+        "safetensors",
+        "mixtral",
+        "fr",
+        "it",
+        "de",
+        "es",
+        "en",
+        "base_model:mistralai/Mixtral-8x7B-v0.1",
+        "base_model:finetune:mistralai/Mixtral-8x7B-v0.1",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"
+    },
+    {
+      "id": "Tongyi-MAI/Z-Image-Turbo",
+      "name": "Z-Image-Turbo",
+      "likes": 4627,
+      "downloads": 1266913,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "en",
+        "arxiv:2511.22699",
+        "arxiv:2511.22677",
+        "arxiv:2511.13649",
+        "license:apache-2.0",
+        "diffusers:ZImagePipeline",
+        "deploy:azure",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "likes": 4608,
+      "downloads": 7394917,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt_oss",
+        "text-generation",
+        "vllm",
+        "conversational",
+        "arxiv:2508.10925",
+        "license:apache-2.0",
+        "eval-results",
+        "endpoints_compatible",
+        "8-bit",
+        "mxfp4",
+        "deploy:azure",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "name": "Meta-Llama-3-8B-Instruct",
+      "likes": 4521,
+      "downloads": 1705898,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama-3",
+        "conversational",
+        "en",
+        "license:llama3",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:azure"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+    },
+    {
+      "id": "meta-llama/Llama-2-7b",
+      "name": "Llama-2-7b",
+      "likes": 4487,
+      "downloads": 252,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-2",
+        "text-generation",
+        "en",
+        "arxiv:2307.09288",
+        "license:llama2",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "LLaMA-style (autoregressive)",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b"
+    },
+    {
+      "id": "mistralai/Mistral-7B-v0.1",
+      "name": "Mistral-7B-v0.1",
+      "likes": 4087,
+      "downloads": 1062905,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "pretrained",
+        "mistral-common",
+        "en",
+        "arxiv:2310.06825",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "name": "DeepSeek-V3",
+      "likes": 4068,
+      "downloads": 1287758,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v3",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "arxiv:2412.19437",
+        "eval-results",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "fp8",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+    },
+    {
+      "id": "lllyasviel/ControlNet-v1-1",
+      "name": "ControlNet-v1-1",
+      "likes": 4059,
+      "downloads": 0,
+      "pipeline_tag": null,
+      "tags": [
+        "license:openrail",
+        "region:us"
+      ],
+      "sector_themes": [
+        "ml-general"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "General ML",
+      "why_notable": "ML model with notable HF traction; worth monitoring for ecosystem impact. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/lllyasviel/ControlNet-v1-1"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "name": "DeepSeek-V4-Pro",
+      "likes": 3995,
+      "downloads": 2967518,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
+        "conversational",
+        "license:mit",
+        "eval-results",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
+        "region:us"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    {
+      "id": "WarriorMama777/OrangeMixs",
+      "name": "OrangeMixs",
+      "likes": 3906,
+      "downloads": 2458,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "stable-diffusion",
+        "text-to-image",
+        "dataset:Nerfgun3/bad_prompt",
+        "license:creativeml-openrail-m",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionPipeline",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Diffusion",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/WarriorMama777/OrangeMixs"
+    },
+    {
+      "id": "lllyasviel/ControlNet",
+      "name": "ControlNet",
+      "likes": 3813,
+      "downloads": 2,
+      "pipeline_tag": null,
+      "tags": [
+        "license:openrail",
+        "region:us"
+      ],
+      "sector_themes": [
+        "ml-general"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "General ML",
+      "why_notable": "ML model with notable HF traction; worth monitoring for ecosystem impact. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/lllyasviel/ControlNet"
+    },
+    {
+      "id": "deepseek-ai/Janus-Pro-7B",
+      "name": "Janus-Pro-7B",
+      "likes": 3600,
+      "downloads": 30948,
+      "pipeline_tag": "any-to-any",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "multi_modality",
+        "muiltimodal",
+        "text-to-image",
+        "unified-model",
+        "any-to-any",
+        "arxiv:2501.17811",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/deepseek-ai/Janus-Pro-7B"
+    },
+    {
+      "id": "coqui/XTTS-v2",
+      "name": "XTTS-v2",
+      "likes": 3543,
+      "downloads": 8508901,
+      "pipeline_tag": "text-to-speech",
+      "tags": [
+        "coqui",
+        "text-to-speech",
+        "license:other",
+        "region:us"
+      ],
+      "sector_themes": [
+        "tts-audio"
+      ],
+      "architecture_type": "Unknown / unspecified",
+      "key_capability": "Speech / audio processing",
+      "why_notable": "TTS/audio model trending; important for voice AI, agent interfaces, and accessibility. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/coqui/XTTS-v2"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-3.5-large",
+      "name": "stable-diffusion-3.5-large",
+      "likes": 3472,
+      "downloads": 44014,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "stable-diffusion",
+        "en",
+        "arxiv:2403.03206",
+        "license:other",
+        "diffusers:StableDiffusion3Pipeline",
+        "region:us"
+      ],
+      "sector_themes": [
+        "image-gen"
+      ],
+      "architecture_type": "Diffusion",
+      "key_capability": "Image generation / diffusion",
+      "why_notable": "Image generation/diffusion model with strong HF interest; relevant for creative AI and synthetic media. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large"
+    },
+    {
+      "id": "microsoft/phi-2",
+      "name": "phi-2",
+      "likes": 3451,
+      "downloads": 525463,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "phi",
+        "text-generation",
+        "nlp",
+        "code",
+        "en",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us",
+        "deploy:azure"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/microsoft/phi-2"
+    },
+    {
+      "id": "google/gemma-7b",
+      "name": "gemma-7b",
+      "likes": 3319,
+      "downloads": 104404,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gguf",
+        "gemma",
+        "text-generation",
+        "arxiv:2305.14314",
+        "arxiv:2312.11805",
+        "arxiv:2009.03300",
+        "arxiv:1905.07830",
+        "arxiv:1911.11641",
+        "arxiv:1904.09728",
+        "arxiv:1905.10044",
+        "arxiv:1907.10641",
+        "arxiv:1811.00937",
+        "arxiv:1809.02789",
+        "arxiv:1911.01547",
+        "arxiv:1705.03551",
+        "arxiv:2107.03374",
+        "arxiv:2108.07732",
+        "arxiv:2110.14168"
+      ],
+      "sector_themes": [
+        "llm"
+      ],
+      "architecture_type": "Transformer",
+      "key_capability": "Text generation / reasoning",
+      "why_notable": "LLM with high HF traction; relevant for agent stacks, assistant workflows, and reasoning-heavy tasks. High likes indicate strong community validation.",
+      "lastModified": null,
+      "url": "https://huggingface.co/google/gemma-7b"
+    }
+  ],
+  "arxiv_recent": [
+    {
+      "title": "EntityBench: Towards Entity-Consistent Long-Range Multi-Shot Video Generation",
+      "date": "2026-05-14T17:59:55Z",
+      "authors": "Ruozhen He, Meng Wei, Ziyan Yang, Vicente Ordonez",
+      "abstract_short": "Multi-shot video generation extends single-shot generation to coherent visual narratives, yet maintaining consistent characters, objects, and locations across shots remains a challenge over long sequences. Existing evalu...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15199v1"
+    },
+    {
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "date": "2026-05-14T17:59:55Z",
+      "authors": "Ziyu Guo, Rain Liu, Xinyan Chen, Pheng-Ann Heng",
+      "abstract_short": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but t...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15198v1"
+    },
+    {
+      "title": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+      "date": "2026-05-14T17:59:52Z",
+      "authors": "Xiang Fan, Yuheng Wang, Bohan Fang, Zhongzheng Ren, Ranjay Krishna",
+      "abstract_short": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain u...",
+      "sector_themes": [
+        "code-llm"
+      ],
+      "why_notable": "Relevant to AI-assisted code generation, developer tools, and software reliability.",
+      "url": "https://arxiv.org/abs/2605.15196v1"
+    },
+    {
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "date": "2026-05-14T17:59:28Z",
+      "authors": "Shashwat Goel, Nikhil Chandak, Arvindh Arun, Ameya Prabhu, Steffen Staab, Moritz Hardt, Maksym Andriushchenko, Jonas Geiping",
+      "abstract_short": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building gr...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15188v1"
+    },
+    {
+      "title": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+      "date": "2026-05-14T17:59:04Z",
+      "authors": "Kaixin Zhu, Yiwen Tang, Yifan Yang, Renrui Zhang, Bohan Zeng, Ziyu Guo, Ruichuan An, Zhou Liu, Qizhi Chen, Delin Qu, Jaehong Yoon, Wentao Zhang",
+      "abstract_short": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite their strong performa...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15186v1"
+    },
+    {
+      "title": "Quantitative Video World Model Evaluation for Geometric-Consistency",
+      "date": "2026-05-14T17:59:04Z",
+      "authors": "Jiaxin Wu, Yihao Pi, Yinling Zhang, Yuheng Li, Xueyan Zou",
+      "abstract_short": "Generative video models are increasingly studied as implicit world models, yet evaluating whether they produce physically plausible 3D structure and motion remains challenging. Most existing video evaluation pipelines re...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15185v1"
+    },
+    {
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "date": "2026-05-14T17:58:41Z",
+      "authors": "Sahil Sen, Akhil Kasturi, Elias Lumer, Anmol Gulati, Vamse Kumar Subbiah",
+      "abstract_short": "Recent advances in Large Language Model (LLM) agents have enabled complex agentic workflows where models autonomously retrieve information, call tools, and reason over large corpora to complete tasks on behalf of users. ...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15184v1"
+    },
+    {
+      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+      "date": "2026-05-14T17:58:27Z",
+      "authors": "ML Nissen Gonzalez, Melwina Albuquerque, Laurence Wroe, Jacob Meyer Cohen, Logan Riggs Smith, Thomas Dooms",
+      "abstract_short": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either empirical behaviour, l...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15183v1"
+    },
+    {
+      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+      "date": "2026-05-14T17:58:15Z",
+      "authors": "Ellwil Sharma, Arastu Sharma",
+      "abstract_short": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regimes can induce gradie...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15179v1"
+    },
+    {
+      "title": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
+      "date": "2026-05-14T17:57:40Z",
+      "authors": "Shang Zhou, Wenhao Chai, Kaiyuan Liu, Huanzhi Mao, Qiuyang Mang, Jingbo Shang",
+      "abstract_short": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates in parallel is straig...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15177v1"
+    },
+    {
+      "title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
+      "date": "2026-05-14T17:56:22Z",
+      "authors": "Rui Wen, Mark Russinovich, Andrew Paverd, Jun Sakuma, Ahmed Salem",
+      "abstract_short": "Backdoor attacks pose a serious security threat to large language models (LLMs), which are increasingly deployed as general-purpose assistants in safety- and privacy-critical applications. Existing LLM backdoors rely pri...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15172v1"
+    },
+    {
+      "title": "Evidential Reasoning Advances Interpretable Real-World Disease Screening",
+      "date": "2026-05-14T17:56:07Z",
+      "authors": "Chenyu Lian, Hong-Yu Zhou, Jing Qin",
+      "abstract_short": "Disease screening is critical for early detection and timely intervention in clinical practice. However, most current screening models for medical images suffer from limited interpretability and suboptimal performance. T...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15171v1"
+    },
+    {
+      "title": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+      "date": "2026-05-14T17:55:27Z",
+      "authors": "Sayantan Kumar, Shahriar Noroozizadeh, Juyong Kim, Jeremy C. Weiss",
+      "abstract_short": "Reconstructing precise clinical timelines is essential for modeling patient trajectories and forecasting risk in complex, heterogeneous conditions like sepsis. While unstructured clinical narratives offer semantically ri...",
+      "sector_themes": [
+        "ai-safety"
+      ],
+      "why_notable": "Important for AI safety, alignment, or robustness of deployed models.",
+      "url": "https://arxiv.org/abs/2605.15168v1"
+    },
+    {
+      "title": "Position: Behavioural Assurance Cannot Verify the Safety Claims Governance Now Demands",
+      "date": "2026-05-14T17:54:28Z",
+      "authors": "Pratinav Seth, Vinay Kumar Sankarapu",
+      "abstract_short": "This position paper argues that behavioural assurance, even when carefully designed, is being asked to carry safety claims it cannot verify. AI governance frameworks enacted between 2019 and early 2026 require reviewable...",
+      "sector_themes": [
+        "ai-safety"
+      ],
+      "why_notable": "Important for AI safety, alignment, or robustness of deployed models.",
+      "url": "https://arxiv.org/abs/2605.15164v1"
+    },
+    {
+      "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
+      "date": "2026-05-14T17:51:40Z",
+      "authors": "Zhuohang Li, Liqun Huang, Wei Xu, Zhengming Zhu, Nie Lin, Xiao Ma, Xinjun Sheng, Ruoshi Wen",
+      "abstract_short": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Inte...",
+      "sector_themes": [
+        "multimodal"
+      ],
+      "why_notable": "Multimodal research; key for cross-modal AI capabilities and agent perception.",
+      "url": "https://arxiv.org/abs/2605.15157v1"
+    },
+    {
+      "title": "MeMo: Memory as a Model",
+      "date": "2026-05-14T17:51:34Z",
+      "authors": "Ryan Wei Heng Quek, Sanghyuk Lee, Alfred Wei Lun Leong, Arun Verma, Alok Prakash, Nancy F. Chen, Bryan Kian Hsiang Low, Daniela Rus, Armando Solar-Lezama",
+      "abstract_short": "Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15156v1"
+    },
+    {
+      "title": "Self-Distilled Agentic Reinforcement Learning",
+      "date": "2026-05-14T17:51:26Z",
+      "authors": "Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, Jinyang Wu, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen",
+      "abstract_short": "Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillatio...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15155v1"
+    },
+    {
+      "title": "RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution",
+      "date": "2026-05-14T17:51:09Z",
+      "authors": "Lanxin Xiang, Liang Shi, Youhui Ye, Boyu Jiang, Dawei Zhou, Feng Guo",
+      "abstract_short": "Feature attribution analysis is critical for interpreting machine learning models and supporting reliable data-driven decisions. However, feature attribution measures often exhibit stochastic variation: different train--...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15154v1"
+    },
+    {
+      "title": "Pelican-Unified 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action",
+      "date": "2026-05-14T17:50:42Z",
+      "authors": "Yi Zhang, Yinda Chen, Che Liu, Zeyuan Ding, Jin Xu, Shilong Zou, Junwei Liao, Jiayu Hu, Xiancong Ren, Xiaopeng Zhang, Yechi Liu, Haoyuan Shi, Zecong Tang, Haosong Sun, Renwen Cui, Kuishu Wu, Wenhai Liu, Yang Xu, Yingji Zhang, Yidong Wang, Senkang Hu, Jinpeng Lu, Nga Teng Chan, Yechen Wu, Yong Dai, Jian Tang, Xiaozhu Ju",
+      "abstract_short": "We present Pelican-Unified 1.0, the first embodied foundation model trained according to the principle of unification. Pelican-Unified 1.0 uses a single VLM as a unified understanding module, mapping scenes, instructions...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15153v1"
+    },
+    {
+      "title": "Widening the Gap: Exploiting LLM Quantization via Outlier Injection",
+      "date": "2026-05-14T17:50:39Z",
+      "authors": "Xiaohua Zhan, Kazuki Egashira, Robin Staab, Mark Vero, Martin Vechev",
+      "abstract_short": "LLM quantization has become essential for memory-efficient deployment. Recent work has shown that quantization schemes can pose critical security risks: an adversary may release a model that appears benign in full precis...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15152v1"
+    },
+    {
+      "title": "Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution",
+      "date": "2026-05-14T17:44:10Z",
+      "authors": "Saisab Sadhu, Pratinav Seth, Vinay Kumar Sankarapu",
+      "abstract_short": "Standard unlearning evaluations measure behavioral suppression in full precision, immediately after training, despite every deployed language model being quantized first. Recent work has shown that 4-bit post-training qu...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15138v1"
+    },
+    {
+      "title": "Training ML Models with Predictable Failures",
+      "date": "2026-05-14T17:41:52Z",
+      "authors": "Will Schwarzer, Scott Niekum",
+      "abstract_short": "Estimating how often an ML model will fail at deployment scale is central to pre-deployment safety assessment, but a feasible evaluation set is rarely large enough to observe the failures that matter. Jones et al. (2025)...",
+      "sector_themes": [
+        "ai-safety"
+      ],
+      "why_notable": "Important for AI safety, alignment, or robustness of deployed models.",
+      "url": "https://arxiv.org/abs/2605.15134v1"
+    },
+    {
+      "title": "Causal Foundation Models with Continuous Treatments",
+      "date": "2026-05-14T17:40:28Z",
+      "authors": "Christopher Stith, Medha Barath, Vahid Balazadeh, Jesse C. Cresswell, Rahul G. Krishnan",
+      "abstract_short": "Causal inference, estimating causal effects from observational data, is a fundamental tool in many disciplines. Of particular importance across a variety of domains is the continuous treatment setting, where the variable...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15133v1"
+    },
+    {
+      "title": "APWA: A Distributed Architecture for Parallelizable Agentic Workflows",
+      "date": "2026-05-14T17:40:20Z",
+      "authors": "Evan Rose, Tushin Mallick, Matthew D. Laws, Cristina Nita-Rotaru, Alina Oprea",
+      "abstract_short": "Autonomous multi-agent systems based on large language models (LLMs) have demonstrated remarkable abilities in independently solving complex tasks in a wide breadth of application domains. However, these systems hit crit...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15132v1"
+    },
+    {
+      "title": "Natural Synthesis: Outperforming Reactive Synthesis Tools with Large Reasoning Models",
+      "date": "2026-05-14T17:39:58Z",
+      "authors": "Frederik Schmitt, Matthias Cosler, Niklas Metzger, Julian Siber, Vladimir Krsmanovic, Mohamed Ghanem, Bernd Finkbeiner",
+      "abstract_short": "Reactive synthesis, the problem of automatically constructing a hardware circuit from a logical specification, is a long-standing challenge in formal verification. It is elusive for two reasons: It is algorithmically har...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15131v1"
+    },
+    {
+      "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+      "date": "2026-05-14T17:37:52Z",
+      "authors": "Minghao Guo, Qingyue Jiao, Zeru Shi, Yihao Quan, Boxuan Zhang, Danrui Li, Liwei Che, Wujiang Xu, Shilong Liu, Zirui Liu, Mubbasir Kapadia, Vladimir Pavlovic, Jiang Liu, Mengdi Wang, Yiyu Shi, Dimitris N. Metaxas, Ruixiang Tang",
+      "abstract_short": "Long-term agent memory is increasingly multimodal, yet existing evaluations rarely test whether agents preserve the visual evidence needed for later reasoning. In prior work, many visually grounded questions can be answe...",
+      "sector_themes": [
+        "ai-agents"
+      ],
+      "why_notable": "Directly relevant to AI agent design, autonomy, or multi-agent systems.",
+      "url": "https://arxiv.org/abs/2605.15128v1"
+    },
+    {
+      "title": "Understanding How International Students in the U.S. Are Using Conversational AI to Support Cross-Cultural Adaptation",
+      "date": "2026-05-14T17:37:23Z",
+      "authors": "Laleh Nourian, Anisa Callis, Stephanie Patterson, Jadeline Miao, Jamison Heard, Garreth W. Tigwell",
+      "abstract_short": "Moving to a new culture and adapting to a new life, as an international student, can be a stressful experience. In the US, international students face unique overlapping challenges, yet the current support ecosystem, inc...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15127v1"
+    },
+    {
+      "title": "CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios",
+      "date": "2026-05-14T17:35:06Z",
+      "authors": "Michael Baumgartner, David Müller, Agon Serifi, Ruben Grandia, Espen Knoop, Markus Gross, Moritz Bächer",
+      "abstract_short": "Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the n...",
+      "sector_themes": [
+        "ml-general"
+      ],
+      "why_notable": "ML/AI paper with potential impact; worth tracking for emerging directions.",
+      "url": "https://arxiv.org/abs/2605.15122v1"
+    },
+    {
+      "title": "CLOVER: Closed-Loop Value Estimation \\&amp; Ranking for End-to-End Autonomous Driving Planning",
+      "date": "2026-05-14T17:32:18Z",
+      "authors": "Sining Ang, Yuguang Yang, Canyu Chen, Yan Wang",
+      "abstract_short": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a tr...",
+      "sector_themes": [
+        "ai-safety"
+      ],
+      "why_notable": "Important for AI safety, alignment, or robustness of deployed models.",
+      "url": "https://arxiv.org/abs/2605.15120v1"
+    },
+    {
+      "title": "Talk is (Not) Cheap: A Taxonomy and Benchmark Coverage Audit for LLM Attacks",
+      "date": "2026-05-14T17:30:36Z",
+      "authors": "Karthik Raghu Iyer, Yazdan Jamshidi, Nicholas Bray, Alexey A. Shvets",
+      "abstract_short": "We introduce a reusable framework for auditing whether LLM attack benchmarks collectively cover the threat surface: a 4$\\times$6 Target $\\times$ Technique matrix grounded in STRIDE, constructed from a 507-leaf taxonomy -...",
+      "sector_themes": [
+        "llm-reasoning"
+      ],
+      "why_notable": "Relevant to LLM reasoning, alignment, or capability improvements.",
+      "url": "https://arxiv.org/abs/2605.15118v1"
+    }
+  ]
+}
