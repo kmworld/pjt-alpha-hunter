@@ -278,7 +278,7 @@ async function scanPopularRising() {
 
   for (const [sub, count] of subCounts.entries()) {
     if (fixedSet.has(sub)) continue;
-    if (count < 2) continue; // require at least 2 appearances
+    if (count < 1) continue; // lower threshold from 2 to 1 for better coverage
 
     hotSubreddits.push({
       name: sub,

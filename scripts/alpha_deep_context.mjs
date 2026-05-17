@@ -849,7 +849,14 @@ function buildDeepContext(date) {
     sources: {
       github_trending: { count: (gh?.items?.length || 0), valid: !!(gh?.items?.length) },
       hackernews: { topCount: (hn?.sections?.top?.length || 0), showHnCount: (hn?.sections?.show_hn?.length || 0), valid: !!(hn?.sections?.top?.length || hn?.sections?.show_hn?.length) },
-      reddit: { totalPosts: (reddit?.hot_subreddits?.length || 0), valid: !!(reddit?.hot_subreddits?.length) },
+      reddit: {
+        totalPosts: ((reddit?.subreddits || []).reduce((sum, s) => sum + (s.posts?.length || 0), 0) +
+          (reddit?.global_hot_posts?.length || 0)),
+        valid: !!(
+          (reddit?.subreddits || []).some(s => s.posts && s.posts.length > 0) ||
+          (reddit?.global_hot_posts || []).length > 0
+        ),
+      },
       research_ml: { hfCount: (research?.huggingface_trending?.length || 0), arxivCount: (research?.arxiv_recent?.length || 0), valid: !!(research?.huggingface_trending?.length || research?.arxiv_recent?.length) },
       product_launch: { productHuntCount: (product?.product_hunt?.length || 0), valid: !!(product?.product_hunt?.length) },
       job_signals: { jobsCount: (jobs?.jobs?.length || 0), valid: !!(jobs?.jobs?.length) },
