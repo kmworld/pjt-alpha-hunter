@@ -3,6 +3,111 @@
   "date": "2026-05-18",
   "product_hunt": [
     {
+      "name": "Shadow",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shadow-4",
+      "published": "2026-05-08T00:41:32-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LobeHub",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/lobehub",
+      "published": "2026-05-15T02:48:13-07:00",
+      "maker": "Justin Jincaid",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Krea 2",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/krea",
+      "published": "2026-05-17T21:49:16-07:00",
+      "maker": "Zac Zuo",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LandingHero AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/landinghero-ai-2",
+      "published": "2026-04-12T08:46:55-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Agentspan",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/agentspan",
+      "published": "2026-05-14T19:09:00-07:00",
+      "maker": "Nick",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Searchad.ai",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/searchad-ai",
+      "published": "2026-05-16T23:59:00-07:00",
+      "maker": "Ahmet Sülek",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Draft",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/draft-12",
+      "published": "2026-04-29T20:22:16-07:00",
+      "maker": "Jim Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "M1 by Montage",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/montage-3",
+      "published": "2026-05-17T21:05:57-07:00",
+      "maker": "Aarav Makadia",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Origio",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/origio",
+      "published": "2026-05-03T10:25:18-07:00",
+      "maker": "Rohan Chaubey",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
       "name": "Voiser AI",
       "tagline": "",
       "votes": null,
@@ -29,52 +134,6 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Agentspan",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/agentspan",
-      "published": "2026-05-14T19:09:00-07:00",
-      "maker": "Nick",
-      "tech_domain": "other",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Origio",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/origio",
-      "published": "2026-05-03T10:25:18-07:00",
-      "maker": "Rohan Chaubey",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "LobeHub",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/lobehub",
-      "published": "2026-05-15T02:48:13-07:00",
-      "maker": "Justin Jincaid",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "M1 by Montage",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/montage-3",
-      "published": "2026-05-17T21:05:57-07:00",
-      "maker": "Aarav Makadia",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
       "name": "QuickRight",
       "tagline": "",
       "votes": null,
@@ -89,54 +148,6 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Draft",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/draft-12",
-      "published": "2026-04-29T20:22:16-07:00",
-      "maker": "Jim Liu",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "Searchad.ai",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/searchad-ai",
-      "published": "2026-05-16T23:59:00-07:00",
-      "maker": "Ahmet Sülek",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Shadow",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/shadow-4",
-      "published": "2026-05-08T00:41:32-07:00",
-      "maker": "Ben Lang",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "LandingHero AI",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/landinghero-ai-2",
-      "published": "2026-04-12T08:46:55-07:00",
-      "maker": "Ben Lang",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
       "name": "AnyFrame",
       "tagline": "",
       "votes": null,
@@ -144,17 +155,6 @@
       "url": "https://www.producthunt.com/products/anyframe-2",
       "published": "2026-05-17T23:49:44-07:00",
       "maker": "Nishchith Shetty",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "Krea 2",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/krea",
-      "published": "2026-05-17T21:49:16-07:00",
-      "maker": "Zac Zuo",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
