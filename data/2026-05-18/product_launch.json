@@ -1,7 +1,368 @@
 {
   "source": "product_launch",
   "date": "2026-05-18",
-  "product_hunt": [],
+  "product_hunt": [
+    {
+      "name": "Voiser AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+      "published": "2026-05-17T23:28:32-07:00",
+      "maker": "Fatih Sönmez",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "SocLeads 3.0",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "Marketing"
+      ],
+      "url": "https://www.producthunt.com/products/socleads",
+      "published": "2026-04-15T06:27:47-07:00",
+      "maker": "Evgenii Anikin",
+      "tech_domain": "marketing",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Agentspan",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/agentspan",
+      "published": "2026-05-14T19:09:00-07:00",
+      "maker": "Nick",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Origio",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/origio",
+      "published": "2026-05-03T10:25:18-07:00",
+      "maker": "Rohan Chaubey",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LobeHub",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/lobehub",
+      "published": "2026-05-15T02:48:13-07:00",
+      "maker": "Justin Jincaid",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "M1 by Montage",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/montage-3",
+      "published": "2026-05-17T21:05:57-07:00",
+      "maker": "Aarav Makadia",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "QuickRight",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/capture-6",
+      "published": "2026-05-14T23:31:18-07:00",
+      "maker": "Huating Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Draft",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/draft-12",
+      "published": "2026-04-29T20:22:16-07:00",
+      "maker": "Jim Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Searchad.ai",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/searchad-ai",
+      "published": "2026-05-16T23:59:00-07:00",
+      "maker": "Ahmet Sülek",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Shadow",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shadow-4",
+      "published": "2026-05-08T00:41:32-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LandingHero AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/landinghero-ai-2",
+      "published": "2026-04-12T08:46:55-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "AnyFrame",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/anyframe-2",
+      "published": "2026-05-17T23:49:44-07:00",
+      "maker": "Nishchith Shetty",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Krea 2",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/krea",
+      "published": "2026-05-17T21:49:16-07:00",
+      "maker": "Zac Zuo",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "pixserp",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/pixserp",
+      "published": "2026-05-16T05:11:38-07:00",
+      "maker": "Kevin William David",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Moody",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/moody-music-synced-album-wallpaper",
+      "published": "2026-05-17T07:31:31-07:00",
+      "maker": "Veysel Bozkurt",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Triggered Agents by Adaptive",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/triggered-agents-by-adaptive",
+      "published": "2026-04-04T02:50:38-07:00",
+      "maker": "Rohan Chaubey",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "SizzleAir",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/sizzleair",
+      "published": "2026-05-17T06:10:10-07:00",
+      "maker": "Mariusz Jankowski",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Polarity",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/polarity-2",
+      "published": "2026-05-17T20:56:06-07:00",
+      "maker": "Alex U",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "ReactVision Studio",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/reactvision-studio",
+      "published": "2026-05-17T05:40:43-07:00",
+      "maker": "Paul Mit",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Fere AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/fere-ai",
+      "published": "2026-04-30T10:44:29-07:00",
+      "maker": "Aleksandar Blazhev",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Vivago Video Agent",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/viva",
+      "published": "2026-05-13T06:02:37-07:00",
+      "maker": "Chris Messina",
+      "tech_domain": "devtools",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Kirki",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/kirki",
+      "published": "2026-05-16T04:15:00-07:00",
+      "maker": "Kawshar Ahmed",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "SUN-to-Spotify",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/sun-ai",
+      "published": "2025-03-16T22:09:16-07:00",
+      "maker": "Artin Bogdanov",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Files SDK",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "DevTools"
+      ],
+      "url": "https://www.producthunt.com/products/files-sdk",
+      "published": "2026-05-11T01:34:09-07:00",
+      "maker": "fmerian",
+      "tech_domain": "devtools",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Raybeam",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/raybeam",
+      "published": "2026-05-15T21:29:06-07:00",
+      "maker": "Nathan",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Loova Agents",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/loova-agents",
+      "published": "2026-05-09T23:39:10-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Wring",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/wring",
+      "published": "2026-05-15T07:24:23-07:00",
+      "maker": "Ashwani Gupta",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "M5Stack PaperColor",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/m5stack",
+      "published": "2026-05-15T07:37:56-07:00",
+      "maker": "Zac Zuo",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "ChatGPT for Personal Finance",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI",
+        "Finance"
+      ],
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-05-15T12:16:51-07:00",
+      "maker": "Ankit Sharma",
+      "tech_domain": "ai-agent",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Agentmemory",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/agent-memory-dev",
+      "published": "2026-05-11T02:53:56-07:00",
+      "maker": "fmerian",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    }
+  ],
   "indiehackers": [
     {
       "title": "In Case You Missed It",
@@ -12,5 +373,6 @@
       "why_notable": "Notable new launch"
     }
   ],
-  "yc": []
+  "yc": [],
+  "betalist": []
 }

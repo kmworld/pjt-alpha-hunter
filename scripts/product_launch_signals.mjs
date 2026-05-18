@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 // product_launch_signals.mjs
 // Collects:
-// - Product Hunt (via fetch with stealth headers; fallback to empty)
+// - Product Hunt (via public RSS feed — Atom XML, no browser needed)
 // - IndieHackers (direct fetch)
 // - Y Combinator (direct fetch)
+// - BetaList (direct fetch — alternative startup discovery)
 // Output: data/product_launch_<YYYY-MM-DD>.json
 
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { execSync } from "child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -56,156 +56,100 @@ function limitLength(s, max) {
   return s.length > max ? s.slice(0, max) + "…" : s;
 }
 
-// Product Hunt: use OpenClaw browser tool to bypass 403
-
-function runBrowserCommand(cmd) {
-  const out = execSync(cmd, { encoding: "utf-8", timeout: 20000 });
-  return (out ?? "").toString().trim();
-}
+// ===================== Product Hunt: RSS feed (Atom XML) =====================
 
 async function fetchProductHunt() {
   try {
-    // 1) Open Product Hunt in OpenClaw browser
-    const openOut = runBrowserCommand(
-      'openclaw browser open "https://www.producthunt.com/"'
-    );
-    // Example output:
-    // opened: https://www.producthunt.com/
-    // tab: t8
-    // id: 339EF9EBB8ABC24459D2CD9E0A83FFB1
-    const idMatch = openOut.match(/id:\s*(\S+)/);
-    const targetId = idMatch ? idMatch[1] : null;
-    if (!targetId) {
-      console.log("[ProductHunt] No targetId from browser open");
+    const url = "https://www.producthunt.com/feed";
+    const resp = await fetch(url, {
+      headers: { "User-Agent": "AlphaHunter/1.0" },
+      signal: AbortSignal.timeout(15_000),
+    });
+
+    if (!resp.ok) {
+      console.log(`[ProductHunt] HTTP ${resp.status}, returning empty`);
       return [];
     }
 
-    // 2) Wait for page load
-    await new Promise((r) => setTimeout(r, 4000));
-
-    // 3) Take accessibility snapshot
-    const snapOut = runBrowserCommand(
-      `openclaw browser snapshot --target-id "${targetId}"`
-    );
-    const snapText = typeof snapOut === "string" ? snapOut : JSON.stringify(snapOut);
-
-    // Debug: inspect first 1000 chars if empty
-    if (!snapText || snapText.length < 100) {
-      console.log(`[ProductHunt] Snapshot too short (${snapText?.length || 0}): ${snapText?.slice(0, 200)}`);
-      return [];
-    }
-
-    // 4) Parse products from snapshot text
-    const products = parseProductHuntFromSnapshot(snapText);
-    console.log(`[ProductHunt] Parsed ${products.length} products via browser`);
+    const xml = await resp.text();
+    const products = parseProductHuntRSS(xml);
+    console.log(`[ProductHunt] Parsed ${products.length} products via RSS`);
     return products.slice(0, 30);
   } catch (err) {
-    console.log(`[ProductHunt] Browser fetch failed: ${err.message || err}`);
+    console.log(`[ProductHunt] RSS fetch failed: ${err.message || err}`);
     return [];
   }
 }
 
-function parseProductHuntFromSnapshot(text) {
-  // The aria snapshot includes lines like:
-  // link "1. Memoket Gem" [ref=e36]:
-  //   /url: /products/memoket-gem
-  //   text: 1. Memoket Gem
-  // generic [ref=e38]: An AI wearable that remembers your conversations all day
-  // button "248" [ref=e43]:
+function parseProductHuntRSS(xml) {
   const products = [];
   const seen = new Set();
-  const lines = text.split("\n");
 
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
+  // Split by entry tags
+  const entries = xml.split("<entry>");
 
-    // Match product link: link "1. Name" or link "Name"
-    const rankMatch = line.match(
-      /link\s+"(\d+\.\s+.+)"/ 
-    );
-    if (!rankMatch) continue;
-
-    const rawName = rankMatch[1].trim();
-    const name = rawName.replace(/^\d+\.\s+/, "").trim();
+  for (const entry of entries.slice(1)) {
+    // Title
+    const titleMatch = entry.match(/<title>(.*?)<\/title>/);
+    if (!titleMatch) continue;
+    const name = titleMatch[1].trim();
     if (!name || name.length < 3 || name.length > 120) continue;
     if (seen.has(name)) continue;
 
-    // Find URL in next few lines
-    let url = null;
-    for (
-      let j = i + 1;
-      j < Math.min(i + 4, lines.length);
-      j++
-    ) {
-      const urlMatch = lines[j].match(
-        /\/url:\s*(\/products\/[^\s]+)/
-      );
-      if (urlMatch) {
-        url = "https://www.producthunt.com" + urlMatch[1];
-        break;
-      }
-    }
+    // URL
+    const linkMatch = entry.match(/<link[^>]+href="(https:\/\/www\.producthunt\.com\/products\/[^"]+)"[^>]*\/>/);
+    if (!linkMatch) continue;
+    const url = linkMatch[1];
 
-    // Find tagline in next lines
+    // Description from content
+    const contentMatch = entry.match(/<content[^>]>(.*?)<\/content>/s);
     let tagline = "";
-    for (
-      let j = i + 1;
-      j < Math.min(i + 6, lines.length);
-      j++
-    ) {
-      const tlLine = lines[j].trim();
-      // generic [ref=...]: short description
-      const tlMatch = tlLine.match(
-        /generic\s+\[ref=\w+\]:\s+(.+)$/ 
-      );
-      if (tlMatch && tlMatch[1].length > 15 && tlMatch[1].length < 200) {
-        tagline = tlMatch[1].trim();
-        break;
+    if (contentMatch) {
+      // Decode HTML entities first, then extract <p> content
+      let decoded = contentMatch[1]
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&amp;/g, "&")
+        .replace(/&quot;/g, '"')
+        .replace(/&#39;/g, "'");
+      // Extract first <p> tag content
+      const pStart = decoded.indexOf("<p>");
+      const pEnd = decoded.indexOf("</p>", pStart >= 0 ? pStart : 0);
+      if (pStart >= 0 && pEnd > pStart) {
+        tagline = decoded.slice(pStart + 3, pEnd)
+          .replace(/<[^>]+>/g, "")
+          .replace(/\s+/g, " ")
+          .trim();
       }
     }
 
-    // Votes: button "248"
-    let votes = null;
-    for (
-      let j = i + 1;
-      j < Math.min(i + 8, lines.length);
-      j++
-    ) {
-      const vMatch = lines[j].match(
-        /button\s+"(\d{2,4})"/ 
-      );
-      if (vMatch && parseInt(vMatch[1], 10) >= 50) {
-        votes = parseInt(vMatch[1], 10);
-        break;
-      }
-    }
+    // Published date
+    const pubMatch = entry.match(/<published>(.*?)<\/published>/);
+    const published = pubMatch ? pubMatch[1].trim() : null;
 
-    if (!url) {
-      const slug = name
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/-+/g, "-")
-        .slice(0, 40);
-      url = `https://www.producthunt.com/products/${slug}`;
-    }
-
-    if (products.length >= 30) break;
+    // Author
+    const authorMatch = entry.match(/<name>(.*?)<\/name>/);
+    const maker = authorMatch ? authorMatch[1].trim() : null;
 
     products.push({
       name: limitLength(name, 120),
       tagline: limitLength(tagline, 200),
-      votes,
+      votes: null, // RSS doesn't include vote counts
       tags: [],
       url,
+      published,
+      maker,
     });
 
     seen.add(name);
+
+    if (products.length >= 30) break;
   }
 
   return products;
 }
 
-// IndieHackers: collect notable posts from homepage
+// ===================== IndieHackers =====================
 
 async function fetchIndieHackers() {
   const html = await fetchHtml(
@@ -267,7 +211,7 @@ async function fetchIndieHackers() {
   return posts.slice(0, 20);
 }
 
-// Y Combinator: collect notable companies from public page
+// ===================== Y Combinator =====================
 
 async function fetchYC() {
   const html = await fetchHtml(
@@ -329,7 +273,67 @@ async function fetchYC() {
   return companies.slice(0, 20);
 }
 
-// Enrichment helpers: tags, why_notable, tech_domain
+// ===================== BetaList =====================
+
+async function fetchBetaList() {
+  try {
+    const html = await fetchHtml("https://betalist.com/", "BetaList");
+    if (!html) {
+      console.log("[BetaList] No HTML, returning empty array");
+      return [];
+    }
+
+    const startups = [];
+    const seen = new Set();
+
+    // BetaList uses data attributes and structured HTML
+    // Parse startup cards: look for startup names + descriptions
+    const cardPattern = /<a[^>]*href="\/startups\/([^"]+)"[^>]*>([^<]{3,120})<\/a>/gi;
+    let m;
+
+    while ((m = cardPattern.exec(html)) !== null) {
+      const slug = m[1];
+      const title = limitLength(stripTags(m[2]), 120);
+
+      if (!title || title.length < 3 || title.length > 100) continue;
+      if (seen.has(title)) continue;
+
+      const url = `https://betalist.com/startups/${slug}`;
+
+      // Find description in surrounding context
+      const around = html.slice(
+        Math.max(0, m.index - 200),
+        m.index + 400
+      );
+      const descMatch = around.match(
+        /<p[^>]*class="[^"]*desc[^"]*"[^>]*>([^<]{10,220})<\/p>/i
+      ) || around.match(
+        /<p[^>]*>([^<]{15,220})<\/p>/i
+      );
+      const description_short = descMatch
+        ? limitLength(stripTags(descMatch[1]), 200)
+        : "";
+
+      startups.push({
+        title,
+        description_short,
+        url,
+      });
+
+      seen.add(title);
+
+      if (startups.length >= 20) break;
+    }
+
+    console.log(`[BetaList] Parsed ${startups.length} startups`);
+    return startups.slice(0, 20);
+  } catch (err) {
+    console.log(`[BetaList] Error: ${err.message || err}`);
+    return [];
+  }
+}
+
+// ===================== Enrichment helpers =====================
 
 function classifyTechDomain(text) {
   const t = (text || "").toLowerCase();
@@ -433,7 +437,7 @@ function enrichItem(item, source) {
   return { ...item, tech_domain, tags, why_notable };
 }
 
-// Main
+// ===================== Main =====================
 
 async function run() {
   const date = todayISO();
@@ -443,14 +447,15 @@ async function run() {
     fs.mkdirSync(dateDir, { recursive: true });
   }
 
-  const [product_hunt, indiehackers, yc] = await Promise.all([
+  const [product_hunt, indiehackers, yc, betalist] = await Promise.all([
     fetchProductHunt(),
     fetchIndieHackers(),
     fetchYC(),
+    fetchBetaList(),
   ]);
 
   const hasData =
-    product_hunt.length > 0 || indiehackers.length > 0 || yc.length > 0;
+    product_hunt.length > 0 || indiehackers.length > 0 || yc.length > 0 || betalist.length > 0;
 
   if (!hasData) {
     console.log("[product_launch] All sources failed; exiting 1");
@@ -460,6 +465,7 @@ async function run() {
   const enrichedProductHunt = product_hunt.map((p) => enrichItem(p, "product_hunt"));
   const enrichedIndieHackers = indiehackers.map((p) => enrichItem(p, "indiehackers"));
   const enrichedYC = yc.map((p) => enrichItem(p, "yc"));
+  const enrichedBetaList = betalist.map((p) => enrichItem(p, "betalist"));
 
   const payload = {
     source: "product_launch",
@@ -467,12 +473,13 @@ async function run() {
     product_hunt: enrichedProductHunt,
     indiehackers: enrichedIndieHackers,
     yc: enrichedYC,
+    betalist: enrichedBetaList,
   };
 
   const outPath = path.join(dateDir, `product_launch.json`);
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), "utf-8");
   console.log(
-    `[product_launch] Wrote → ${outPath} (PH:${product_hunt.length}, IH:${indiehackers.length}, YC:${yc.length})`
+    `[product_launch] Wrote → ${outPath} (PH:${product_hunt.length}, IH:${indiehackers.length}, YC:${yc.length}, BL:${betalist.length})`
   );
 }
 

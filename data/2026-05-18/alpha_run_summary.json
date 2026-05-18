@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-18",
+  "runAt": "2026-05-18T14:41:24.423Z",
+  "total_duration_ms": 133482,
+  "scripts": {
+    "github_trending": {
+      "status": "ok",
+      "duration_ms": 11708,
+      "error": null
+    },
+    "hn_signals": {
+      "status": "ok",
+      "duration_ms": 66264,
+      "error": null
+    },
+    "reddit_signals": {
+      "status": "ok",
+      "duration_ms": 36785,
+      "error": null
+    },
+    "research_ml": {
+      "status": "ok",
+      "duration_ms": 10272,
+      "error": null
+    },
+    "product_launch": {
+      "status": "ok",
+      "duration_ms": 4666,
+      "error": null
+    },
+    "job_signals": {
+      "status": "ok",
+      "duration_ms": 1572,
+      "error": null
+    },
+    "alpha_deep_context": {
+      "status": "ok",
+      "duration_ms": 105,
+      "error": null
+    },
+    "alpha_daily_report": {
+      "status": "ok",
+      "duration_ms": 52,
+      "error": null
+    },
+    "alpha_git_commit": {
+      "status": "ok",
+      "duration_ms": 2058,
+      "error": null
+    }
+  }
+}
