@@ -115,10 +115,14 @@ function collectAllTokens(ctx) {
   (ctx.signals?.hackernews?.topByEngagement || []).forEach(h => add(h.title));
   (ctx.signals?.hackernews?.show_hn_high_signal || []).forEach(h => add(h.title));
 
-  // Reddit (topics + sample titles)
+  // Reddit: hot topics + actual post titles/summaries
   (ctx.signals?.reddit?.hot_topics || []).forEach(t => {
     add(t.topic);
     (t.sample_titles || []).forEach(tt => add(tt));
+  });
+  // Also ingest all top posts' titles and summaries for keyword clustering, cross-source signals, entities
+  (ctx.signals?.reddit?.topPosts || []).forEach(p => {
+    add(`${p.title} ${(p.post_summary || "")}`);
   });
 
   // Research ML (model id + tags only; no generated why_notable)
@@ -283,9 +287,12 @@ function findTermSources(ctx, term) {
       (h.title || "").toLowerCase().includes(t))) {
     sources.push("hn");
   }
+  // Check reddit: hot topics + actual posts
   if ((ctx.signals?.reddit?.hot_topics || []).some(top =>
       top.topic.toLowerCase().includes(t) ||
-      (top.sample_titles || []).some(tt => tt.toLowerCase().includes(t)))) {
+      (top.sample_titles || []).some(tt => tt.toLowerCase().includes(t))) ||
+      (ctx.signals?.reddit?.topPosts || []).some(p =>
+        `${p.title} ${(p.post_summary || "")}`.toLowerCase().includes(t))) {
     sources.push("reddit");
   }
   if ((ctx.signals?.research_ml?.trending_models || []).some(m =>
@@ -780,6 +787,17 @@ function buildDeepContext(date) {
           sample_titles: (s.sample_titles || []).slice(0, 4),
           why_important: `${s.post_count || 0} posts; active discussion.`,
         })),
+      topPosts: ((reddit?.global_hot_posts || [])
+        .sort((a,b) => (b.score + b.comments*0.2) - (a.score + a.comments*0.2))
+        .slice(0, 25)
+        .map(p => ({
+          title: p.title,
+          url: p.url || null,
+          score: p.score,
+          comments: p.comments,
+          subreddit: p.subreddit || null,
+          post_summary: (p.post_summary || "").slice(0, 200),
+        }))),
     },
     research_ml: {
       trending_models: (research?.huggingface_trending || [])

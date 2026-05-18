@@ -1,0 +1,1990 @@
+{
+  "source": "hackernews",
+  "date": "2026-05-18",
+  "sections": {
+    "top": [
+      {
+        "id": 48135096,
+        "title": "Math Jokes in Alice in Wonderland",
+        "url": "https://storica.club/blog/alice-is-math-jokes/",
+        "score": 63,
+        "comments": 23,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Alice in Wonderland is mostly math jokes — Storica Storica How it works The library Languages Publishing Blog Pricing Get Storica ← Back to blog Cultural Learning May 14, 2026 · 8 min read Alice in Wonderland is mostly math jokes Charles Lutwidge Dodgson taught mathematics at Christ Church, Oxford, for twenty-six years. He wrote textbooks defending Euclid and treatises on symbolic logic. The children&#39;s book he is now famous for is, when you read it as an adult, an extended joke about base-numbering systems, non-Euclidean geometry, and abstract identity, smuggled inside a story about a small girl falling down a hole. Adventure Alice&#39;s Adventures Lewis Carroll Modern Classics Die Verwandlung Franz Kafka Most people remember Alice in Wonderland as a dreamy children's book about a girl, a rabbit, a cat that disappears, and a hatter who hosts a tea party. They forget that the man who wrote it spent the rest of his working life teaching mathematics, and that nearly every famous scene is a joke aimed at his colleagues in the Oxford Senior Common Room. Charles Lutwidge Dodgson was thirty when he wrote Alice. He had been a lecturer in mathematics at Christ Church, Oxford, for six years. He would stay in that post, in the same college, for another twenty-six. He published serious mathematical work under his real name. The Alice books appeared under a pen name because he was embarrassed for his students to know he wrote fiction. The fiction was, in large part, the mathematics in",
+        "comment_highlights": null
+      },
+      {
+        "id": 48177300,
+        "title": "The foundations of a provably secure operating system (PSOS) (1979) [pdf]",
+        "url": "http://www.csl.sri.com/users/neumann/psos.pdf",
+        "score": 75,
+        "comments": 43,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48151990,
+        "title": "The Aperiodic Table",
+        "url": "https://blog.jgc.org/2026/05/the-aperiodic-table.html",
+        "score": 19,
+        "comments": 2,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "John Graham-Cumming's blog: The aperiodic table John Graham-Cumming's blog 2026-05-12 The aperiodic table XKCD 3242 is titled \"The aperiodic table\" and looks like this: Which is cool, but it's not aperiodic like a Penrose tiling . So, with a little (a lot) of help from Claude I create aperiodictable.com your one true resource for the periodic table on a Penrose P3 tiling. Click and drag the canvas to place the periodic table wherever you fancy. Hit Print to print your own Aperiodic Table. It's a single page that's hosted on Cloudflare Pages . at May 12, 2026 Email This BlogThis! Share to X Share to Facebook Share to Pinterest Labels: pseudo-randomness No comments: Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom) Search This Blog Labels anti-spam babbage behind the screens calculators codes and ciphers gnu make hardware machine learning mathematics minitel popfile privacy pseudo-randomness radio retro security the geek atlas well... actually Popular Posts The discreet charm of the infrastructureless Early in the morning in a European city, I awoke and wondered for a moment where I was. The room was totally black apart from a small glow f... If you care about security you might want to move the iPhone Camera app There&#39;s a quirk in the iPhone Camera app that can drive a security conscious iPhone owner crazy: if you touch your finger on the Camera ... There's a ridiculous amount of tech in a disposable vape So, I&#39;m walking through a park when I",
+        "comment_highlights": null
+      },
+      {
+        "id": 48179183,
+        "title": "'We mould trees to grow into the shape of chairs'",
+        "url": "https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
+        "score": 55,
+        "comments": 21,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "&#x27;We mould trees to grow into the shape of chairs&#x27; - BBC News BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC News Menu Home Climate World Asia UK Business Tech Science Entertainment &amp; Arts Health More In Pictures BBC Verify Newsbeat England Regions Derby &#x27;We mould trees to grow into the shape of chairs&#x27; Image caption, The chairs are grown upside down at an orchard in Derbyshire before they are harvested and dried for a year By Sian Filcher , Derby and George Torr , East Midlands Published 9 hours ago A couple have spent the past 20 years experimenting to perfect the practice of moulding trees so they grow into the shape of a chair. Alice and Gavin Munro grow their creations upside down, in a process that they say typically takes between six and nine years, before each item is dried for a year. The process involves training and pruning young tree branches as they grow over specially-made pieces of recycled plastic which help to shape the trees&#x27; growth. Branches are then grafted together at certain points, so that the object grows into one solid piece. Image caption, Each chair can take up to 10 years to be shaped from trees Gavin said the first seed for the project was sown when he was a young boy and saw an overgrown bonsai tree",
+        "comment_highlights": null
+      },
+      {
+        "id": 48178692,
+        "title": "Linux security mailing list 'almost unmanageable'",
+        "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
+        "score": 88,
+        "comments": 37,
+        "category_hint": "security",
+        "why_hot": "Security incident or tool with high HN interest; may affect infra or AI safety.",
+        "article_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD Security Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Multiple researchers using the same tools to find the same bugs are creating ‘unnecessary pain and pointless work’ Simon Sharwood Simon Sharwood APAC Editor Published mon 18 May 2026 // 00:39 UTC Linux kernel boss Linus Torvalds has declared the project’s security mailing list has become “almost entirely unmanageable” due to multiple researchers using AI to find bugs and",
+        "comment_highlights": null
+      },
+      {
+        "id": 48179029,
+        "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
+        "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+        "score": 68,
+        "comments": 27,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Enough with the AI FOMO, go slow-mo, says Domo CDO Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD AI + ML Enough with the AI FOMO, go slow-mo, says Domo CDO You're not the only one annoyed by the hype Thomas Claburn Thomas Claburn Published sun 17 May 2026 // 15:00 UTC A brown snail inches along a wooden plank resting on neatly stacked coins, illustrating the concept of slow economic progress. Copyright (c) 2024 CalypsoArt/Shutterstock. No use without permission. Chris Willis, chief design officer and futurist for data platform biz Domo, wonders why people aren't more annoyed with AI companies. Willis said he was in San Francisco a few weeks ago",
+        "comment_highlights": null
+      },
+      {
+        "id": 48167177,
+        "title": "Porting my 3D points renderer on a ZX Spectrum 48K",
+        "url": "https://github.com/ttsiodras/3D-on-a-ZX-Spectrum-48K/",
+        "score": 49,
+        "comments": 6,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - ttsiodras/3D-on-a-ZX-Spectrum-48K: Porting my 3D points renderer on a ZX Spectrum 48K · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics T",
+        "comment_highlights": null
+      },
+      {
+        "id": 48173429,
+        "title": "GenCAD",
+        "url": "https://gencad.github.io/",
+        "score": 387,
+        "comments": 102,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "GenCAD GenCAD: Image-conditioned Computer-Aided Design Generation with Transformer-based Contrastive Representation and Diffusion Priors Md Ferdous Alam 1 , Faez Ahmed 1 1 Massachusetts Institute of Technology Paper --> arXiv Video Code Data --> GenCAD GenCAD demonstrates AI-based generative CAD models. Interact with the model above. Abstract We present GenCAD, an image-conditional CAD generation model. Our model not only generates the 3D CAD but also the entire parameterized CAD command history, CAD program, as output. The complexity of CAD data structures such as boundary representation (B-rep) makes it difficult to train efficient AI models. Due to the ease of data availability, common approaches often resort to representations like meshes, voxels, or point clouds, which sacrifice the accuracy and modifiability of true CAD models that are critical for engineering tasks, manufacturing and design space exploration. Here we propose GenCAD, an image conditional generative model that generates parametric CAD command sequences, also known as CAD programs, that can be converted to a 3D solid model using a geometry kernel. At the core of GenCAD, we develop a strong representation learning framework for multiple modalities of computational engineering designs. Our proposed GenCAD architecture is a combination of four critical steps; 1) an autoregressive transformer encoder is used for learning the latent representation of the CAD command sequences, 2) a contrastive learning-based m",
+        "comment_highlights": [
+          {
+            "by": "hspeiser",
+            "text": "I spent a few hours trying to get this to work, and I couldn’t get it to produce usable results on anything except the training data, even with very simple drawings. I noticed in the GitHub that they mention it is only around 60% reliable even on their own tra"
+          },
+          {
+            "by": "jrflo",
+            "text": "Neat, but I don&#x27;t really see the utility. The time consuming part of CAD drawing comes from figuring out the correct dimensions of each feature, spacing, sizing, tolerances, etc., and constraining the drawing in a way so that it&#x27;s easy to tweak later"
+          },
+          {
+            "by": "nancyminusone",
+            "text": "If you can get this to read dimensions and apply constraints, you&#x27;ve done it. But that doesn&#x27;t look like the case. Every time I see one of these things,its like whoever worked on it doesn&#x27;t know how to use CAD or understand what CAD is used for."
+          },
+          {
+            "by": "cjtrowbridge",
+            "text": "This has been easy with OpenSCAD for a long time. I have made lots of cool, complex models this way. I built a repo of the prompts I use to show the llm how to do this and it includes many of the models I&#x27;ve created this way... https:&#x2F;&#x2F;github.co"
+          },
+          {
+            "by": "achllle",
+            "text": "I wanted to see how well it performed on real pictures of parts or hand-drawn drawings, but when I tried setting up the docker image, immediately ran into all kinds of dependencies not being installed. The examples make me suspect it doesn&#x27;t work well bey"
+          },
+          {
+            "by": "geuis",
+            "text": "To the author if they happen to see this. Please kill the auto playing video. If someone is listening to something else on their phone this always takes over and interrupts."
+          },
+          {
+            "by": "ecto",
+            "text": "Readers may also enjoy my open source Rust BRep CAD kernel https:&#x2F;&#x2F;github.com&#x2F;ecto&#x2F;vcad or the hosted version at https:&#x2F;&#x2F;vcad.io . I also wrote a bit about what goes into CAD apps! https:&#x2F;&#x2F;campedersen.com&#x2F;tessellati"
+          },
+          {
+            "by": "ponyous",
+            "text": "I&#x27;ve seen this and other attempts like this[0] while exploring improvements for my CAD AI[1]. And I think these are potentially powerful solutions, but none of the current projects&#x2F;weights have enough training (data or time) to make it work on arbitr"
+          },
+          {
+            "by": "ricardobayes",
+            "text": "Anyone finding this interesting will likely also like OpenSCAD - generate 3D CAD models from code. https:&#x2F;&#x2F;openscad.org&#x2F;"
+          },
+          {
+            "by": "clippy99",
+            "text": "Maybe I missed something, if you have the image rendering in the first place, you already (likely) have the CAD. It is a nice demo, but what is the utility?"
+          },
+          {
+            "by": "ugh123",
+            "text": "The examples they show are so basic."
+          },
+          {
+            "by": "mamami",
+            "text": "Ideally it would tie in with an llm, no? Like you would want to be able to say something like &quot;create a design of car suspension subject to x,y,z contrains&quot;"
+          },
+          {
+            "by": "dajt",
+            "text": "I&#x27;m stumped by things like this. The drawing &amp; modelling are not the difficult bit - the CAM programming is. That seems difficult enough that I have not found an open source program to load a 3D model and allow me to set the toolpaths in a UI, never m"
+          },
+          {
+            "by": "knollimar",
+            "text": "It says &quot;can convert cad latents into a sequence of parametric CAD commands&quot; Which CAD program? I&#x27;m confused Am I reading this right? &gt;Most importantly, GenCAD does not merely generate a 3D solid but also the entire CAD program."
+          },
+          {
+            "by": "physicsguy",
+            "text": "This is over a year old now, why post now? There have been other advancements in this area."
+          },
+          {
+            "by": "simpleintheory",
+            "text": "Is this Google-affiliated? The heading font is Product&#x2F;Google Sans which IIRC only Alphabet is allowed to use and the entire webpage seems to be Google-style but neither of the two named researchers seem to be employed by Google?"
+          },
+          {
+            "by": "isaisabella",
+            "text": "The demo seems pretty cool, but also pretty simple. When it comes to complicate models, I afriad it would be hard to generate the accurate 3D model."
+          },
+          {
+            "by": "ironhaven",
+            "text": "A another take on this problem is zoo.dev . They wrote a brand new from scratch cad engine that is driven a custom openscad style language called kcl. Then then have a trained llm that has can generate kcl to either create new parts or act as a llm assistant f"
+          },
+          {
+            "by": "soupspaces",
+            "text": "Wait. Could this be used for videos keeping consistencies across frames? https:&#x2F;&#x2F;youtube.com&#x2F;@thang010146"
+          },
+          {
+            "by": "zkmon",
+            "text": "How are the input images generated?"
+          }
+        ]
+      },
+      {
+        "id": 48175140,
+        "title": "It is time to give up the dualism introduced by the debate on consciousness",
+        "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
+        "score": 187,
+        "comments": 476,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "There Is No ‘Hard Problem Of Consciousness’ - NOEMA Skip to the content &nbsp; Subscribe Published by the Berggruen Institute Topics Technology &amp; the Human Future of Capitalism Philosophy &amp; Culture Climate Crisis Geopolitics &#038; Deglobalization Future of Democracy Digital Society Read Noema In Print Search Go There Is No ‘Hard Problem Of Consciousness’ Consciousness is not separate from the physical world — our “soul” is of the same nature as our body and any other phenomenon of the world. Florian Meissner for Noema Magazine Essay Philosophy &amp; Culture By Carlo Rovelli May 7, 2026 Credits Carlo Rovelli is a theoretical physicist known for his work on quantum gravity, the foundation of quantum mechanics and the nature of space and time. A fierce debate is raging around the slippery notion of consciousness. It retraces a trotted pattern of cultural resistance: We humans are often scared by anything that may disturb our image of ourselves.&nbsp; Famously, Darwin’s realization that we have common ancestors with all living organisms on our planet met ferocious resistance. Many felt confounded or degraded by the idea of sharing a family tree with donkeys.&nbsp;The cultural history of modernity is dotted by similar ideological rearguard battles, wherein old worldviews fight in retreat against novel knowledge to save some concept held dear. Amid the current cultural backlash against progressive ideas, today’s debate on consciousness reflects our human fears of belonging",
+        "comment_highlights": [
+          {
+            "by": "storus",
+            "text": "This article had absolutely no proof of its statements and all it did was use past allegories. We are definitely missing something in our understanding of the world, like before we knew about electromagnetism or radioactivity. There are some mechanisms we know"
+          },
+          {
+            "by": "jwilliams",
+            "text": "Rovelli is arguing (I think) that we need to fundamentally view consciousness as a natural phenomenon - albeit one that is extremely complex and poorly understood. So we ditch the philosophical puzzle and focus on the reality we can perceive and reason on. The"
+          },
+          {
+            "by": "a13o",
+            "text": "It’s going to be a long road, but I think as LLMs and their offspring create more and more convincing arguments for silicon consciousness we will conclude that consciousness is about as real as humours, and we’ve all been p-zombies this whole time. Maybe the l"
+          },
+          {
+            "by": "svnt",
+            "text": "This argument sounds nice at a surface level, but seems deeply incoherent and wrong in a way I haven’t yet put my finger on precisely. How can you say this: &gt; We have souls. We have an inner self. We can treat ourselves as transcendental subjects in the Kan"
+          },
+          {
+            "by": "selcuka",
+            "text": "&gt; This contradicts everything we have learned about nature. It doesn&#x27;t contradict anything. It simply means that there is a gap in our current understanding, which may (or may not [1]) be scientifically explained in the future. The default reflex of th"
+          },
+          {
+            "by": "losvedir",
+            "text": "I once read a comment on here that I found interesting but haven&#x27;t been able to find it again. Basically it flipped the problem on its head. We&#x27;re arguing how you start at the physical substrate and get to consciousness. They argued that you could st"
+          },
+          {
+            "by": "throw7",
+            "text": "Just stating that consciousness is natural phenomenon is begging the question. We get it... you&#x27;re a materialist."
+          },
+          {
+            "by": "zetalyrae",
+            "text": "The first point (analogizing the hard problem to the reaction to Darwinism) is a very common rhetorical move: an analogy and history of ideas, which is convincing to many people, but what does it prove? &gt; A philosophical zombie would claim to know what subj"
+          },
+          {
+            "by": "hackinthebochs",
+            "text": "I&#x27;m not sure where all this discussion about the hard problem is coming from suddenly, or why people continue to struggle to understand it. It&#x27;s really very simple. The hard problem identifies the in principle difficulty in explaining phenomenal cons"
+          },
+          {
+            "by": "MrOrelliOReilly",
+            "text": "This article is pretty slim on details, but I agree with the general argument that dualism is unnecessary to explain phenomenal consciousness. The word &quot;consciousness&quot; has a lot of baggage, which causes us to mislabel cognition as consciousness. [1] "
+          },
+          {
+            "by": "pygy_",
+            "text": "FTA: &gt; Then he declared that there is another distinct problem — why the brain’s behavior is accompanied by experience at all — which he christened the “hard” problem of consciousness. The hard problem isn&#x27;t about &quot;why&quot;, it&#x27;s about &quot"
+          },
+          {
+            "by": "jillesvangurp",
+            "text": "Neal Stephenson touches on this topic in several of his novels. Probably the most concrete of this is &quot;Fall; or Dodge in Hell&quot; which involves a simulation of people&#x27;s scanned brains rediscovering qualia and constructing their own simulated world"
+          },
+          {
+            "by": "maclombardi",
+            "text": "Something worth reading alongside this. https:&#x2F;&#x2F;www.immaculateconstellation.info&#x2F;already-burning&#x2F;"
+          },
+          {
+            "by": "Mikhail_K",
+            "text": "&gt; &quot;But scientific understanding is not extraneous to experience; it is entirely &gt; about experience.&quot; Let us hear about your experience of a wavefunction, Carlo."
+          },
+          {
+            "by": "pasta67",
+            "text": "But there is dualism in our minds - we have two spheres of brains and one of those is in master position over other and synchronize both parts. As a result the enslaved part of our brains is silent watcher. But sometimes brains get damaged and these mechanisms"
+          },
+          {
+            "by": "dainank",
+            "text": "I believe nature is all there is. If we could replicate a human brain several times, and make each &#x27;human brain&#x27; receive the exact same input data (sounds, sights, smells e.t.c.) from the moment they &#x27;exist&#x27; until the end of their lifetime,"
+          },
+          {
+            "by": "hackandthink",
+            "text": "Chalmers: “It is natural to hope that there will be a materialist solution to the hard problem and a reductive explanation of consciousness, just as there have been reductive explanations of many other phenomena in many other domains. But consciousness seems t"
+          },
+          {
+            "by": "sethev",
+            "text": "The Hard Problem strikes me as a &quot;why&quot; question and humans have a poor track record of ever answering a &quot;why&quot; for a foundational question (at least in a way that we can demonstrate to others). Our most successful explanations build up from "
+          },
+          {
+            "by": "nakedneuron",
+            "text": "Boom.. there we go again.. ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=40554217 &gt; Philosophy seems to be concerned with furniture a lot) &gt; If we do not fall into the error of dualism upfront, we can safely speak of &gt; soul and emotions just a"
+          },
+          {
+            "by": "jincongho",
+            "text": "The author is mixing two discussions: soul&#x2F;body dualism and qualia (hard problem). It could be true that there&#x27;s only physical body, but still have the qualia explanatory gap."
+          }
+        ]
+      },
+      {
+        "id": 48155450,
+        "title": "Crystals found inside wreckage from the first nuclear bomb test",
+        "url": "https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/",
+        "score": 131,
+        "comments": 51,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Strange crystals found inside wreckage from the first nuclear bomb test | Scientific American Skip to main content Scientific American May 11, 2026 3 min read Add Us On Google Add SciAm Strange crystals found inside wreckage from the first nuclear bomb test The Trinity bomb test left behind a unique form of matter, and now, scientists have discovered a new chemical structure inside it By Clara Moskowitz edited by Claire Cameron The fireball from the Trinity nuclear test in New Mexico on July 16, 1945. Underwood Archives/Contributor/Getty Images Join Our Community of Science Lovers! Sign Up for Our Free Daily Newsletter Enter your email I agree my information will be processed in accordance with the Scientific American and Springer Nature Limited Privacy Policy . We leverage third party services to both verify and deliver email. By providing your email address, you also consent to having the email address shared with third parties for those purposes. Sign Up Nearly 81 years ago, the first nuclear bomb exploded. The Trinity test, conducted as part of the Manhattan Project in the New Mexico desert, detonated a plutonium bomb that released the energy of 25 kilotons of TNT. When the mushroom cloud faded, a weird, glasslike form of matter was left behind from the melted sand combined with vaporized sensor wires. Scientists called it trinitite. Now researchers have identified a new material within trinitite called a clathrate&mdash;a cagelike chemical lattice that traps other atoms",
+        "comment_highlights": null
+      },
+      {
+        "id": 48179021,
+        "title": "AI eats the world (Spring 26) [pdf]",
+        "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+        "score": 94,
+        "comments": 49,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48168668,
+        "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
+        "url": "https://github.com/tech4bot/rk3562deb",
+        "score": 405,
+        "comments": 204,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "GitHub - tech4bot/rk3562deb · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise plat",
+        "comment_highlights": [
+          {
+            "by": "tomaskafka",
+            "text": "This is exactly what I want from the iPad Pro. Unlock the virtualization support to let me have a debian&#x2F;ubuntu VM with a complete development environment that I could take for holiday to make emergency fixes, and leave the precious MBP at home."
+          },
+          {
+            "by": "erwan577",
+            "text": "Does anyone know how hard it would be to do the same with other tablets like Allwinner A733 ones ? Allwinner is supposed to also have some Linux support."
+          },
+          {
+            "by": "nine_k",
+            "text": "Booting into Debian with most devices fully functional is great. What I&#x27;d like to know is what software runs adequately under it in 4 GB RAM. Web browsing should definitely be possible, but I suppose it&#x27;s limited to very few tabs. Some very lightweig"
+          },
+          {
+            "by": "Evidlo",
+            "text": "People should check out Termux-X11 for desktop Linux in android. Its come a long way since the days of running a VNC server and it runs at nearly native speed"
+          },
+          {
+            "by": "NoboruWataya",
+            "text": "Since it seems AI is pretty good at reverse-engineering stuff like this, is there any educational material on how to use it for that purpose? Seems like it could really help port things like postmarketOS to new devices (and improve support on existing ones)?"
+          },
+          {
+            "by": "non-nil",
+            "text": "I&#x27;m loving these LLM-powered hardware liberation projects! Another one that caught my eye that I&#x27;m hoping to make use of myself is to run Kodi on old Boxee media players: https:&#x2F;&#x2F;github.com&#x2F;yoavmagor&#x2F;boxee-2026-yoavm"
+          },
+          {
+            "by": "shrubble",
+            "text": "Such a system with 4GB is eminently useful for many applications; I have an old Acer Chromebook I installed Linux on and have it sitting in the corner quietly and coolly emulating a VAX system with performance equivalent to a Vaxstation 4000&#x2F;60 or so."
+          },
+          {
+            "by": "cf100clunk",
+            "text": "The situation right now with the Doogee U10 tablet: not commonly available. Once the news gets out about epic breakthroughs on commodity hardware and devices, there&#x27;s unfortunately a likely spike in the purchase cost, even if such devices can be found at "
+          },
+          {
+            "by": "regularfry",
+            "text": "Interesting. I don&#x27;t have the hardware to test it, but: - Bookworm rather than Trixie looks like a conscious choice. Does 13 (either via apt upgrade or direct installation) not work? - What&#x27;s the performance of this hardware like? I&#x27;ve got an ol"
+          },
+          {
+            "by": "jhbadger",
+            "text": "I&#x27;ve actually done something similar with a cheap $50 Amazon Fire tablet -- I installed F-Droid and Termux plus Unexpected Keyboard (software keyboard that has ctrl, alt, tab, and other important techy keys) -- It is actually pretty fun to use for light c"
+          },
+          {
+            "by": "IndianAISupport",
+            "text": "&quot;wOrKsTatIOn&quot; Yeaaaaah joyyyy. The delusion is big indis one."
+          },
+          {
+            "by": "Oxodao",
+            "text": "Is there any way to flash it to internal emmc instead of relying on an SD card. I&#x27;d love a small linux tablet but I don&#x27;t want it to be febrile"
+          },
+          {
+            "by": "Fnoord",
+            "text": "I&#x27;m in the market for a tablet for my kid. Currently using an iPad Pro which cannot be used with Linux, sadly. The iPadOS version on it does not get updates anymore. You might wanna run something like pmOS on it though, with a UI focussed on touchscreen. "
+          },
+          {
+            "by": "roger_",
+            "text": "I love how easy AI makes it to hack devices that otherwise wouldn&#x27;t be worth the time."
+          },
+          {
+            "by": "amingilani",
+            "text": "What was the motivation for this? Why this particular tablet?"
+          },
+          {
+            "by": "deng",
+            "text": "You can&#x27;t release this under MIT license, as it contains a ton of various different things under various different licenses, from GPL to proprietary."
+          },
+          {
+            "by": "1vuio0pswjnm7",
+            "text": "A tablet that can boot from SD card Maybe it could boot NetBSD https:&#x2F;&#x2F;wiki.netbsd.org&#x2F;ports&#x2F;evbarm&#x2F;rockchip&#x2F;"
+          },
+          {
+            "by": "jaspanglia",
+            "text": "Good job how u did it.Feeling very curious to know about it"
+          },
+          {
+            "by": "Writersglen",
+            "text": "Thank you for this outstanding project! Question: Does the virtual keyboard provide all keys necessary to program bash shell scripts and edit Vim files— such as Ctrl+C and ESC, etc. Thanks again, LRP"
+          }
+        ]
+      },
+      {
+        "id": 48178510,
+        "title": "When Kierkegaard Got Cancelled",
+        "url": "https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled",
+        "score": 6,
+        "comments": 4,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "When Kierkegaard Got Cancelled by Daniel Goodman My Account Sign Out My Account Home My Account Subscriptions Newsletters View Cart Subtotal&#58; &dollar; Checkout Sign In Renew Subscribe Magazine Books Podcast Events Latest Books &amp; Culture Education The Good Life Faith &amp; Spirituality Technology Nature &amp; Environment Food and Farming Politics Life in Community Family &amp; Parenting All Topics Email Signup Events Contributors About Us Current Issue Back Issues Customer Service Subscription Options Give a Gift Articles Faith and Spirituality Discipleship When Kierkegaard Got Cancelled Mocked by Copenhagen’s most notorious scandal sheet, Kierkegaard endured months of deeply personal attacks and the silence of friends and allies. By Daniel Goodman April 27, 2026 3 Comments In This Article Article Share 3 Comments Next Article&#58; The Iraqi Christians I Never Saw Read 3 Comments 3 Comments Post a Comment Close Comment ))[\\s\\S]*$\" data-val-required=\"Please enter your comment\" id=\"CommentText\" name=\"CommentText\" rows=\"2\"> Name Email Submit Gary Furnell 14 days ago A terrific article, beautifully written. Kierkegaard, like Pascal, was rich with special insight, the delivery often augmented with wonderful, sardonic humour. matt sinclair 21 days ago Insightful. Thank you Mitch Martina 21 days ago Thanks, Daniel, for this extensive treatment of my favorite author—I learned a good deal I didn't know about Kierkegaard's life. A much-needed reminder of the necessity of passion",
+        "comment_highlights": null
+      },
+      {
+        "id": 48152754,
+        "title": "Ask an Astronaut: 333 hours of Q&A footage with astronauts",
+        "url": "https://askanastronaut.issinrealtime.org/",
+        "score": 175,
+        "comments": 22,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "bfeist",
+            "text": "Nice to see this here. I’m the developer who made this. The idea for this started when I was chatting with co-creator, Dave Charney and we asked, “I wonder if all the questions kids could ask of astronauts have already been asked.” If you select “About this pr"
+          },
+          {
+            "by": "MPSimmons",
+            "text": "I was fortunate enough to be chosen to talk to astronauts on the ISS from the ground and ask them a question, and as far as I can tell from searching this awesome resource, I think my question was unique. I asked Ann McClain and David Saint-Jacques what experi"
+          },
+          {
+            "by": "Rygian",
+            "text": "All the questions about sneeze are either about open air, or Newton&#x27;s third law. Did really no one ask what happens if you sneeze while wearing a spacesuit helmet? Does the visor have a windshield wiper on the inside?"
+          },
+          {
+            "by": "Falimonda",
+            "text": "Why is there a VO&#x2F;translator speaking over the astronaut in some (all?) responses?"
+          },
+          {
+            "by": "anogrebattle",
+            "text": "Very neat project. Just in English though? Any plans for questions in other languages?"
+          },
+          {
+            "by": "7777777phil",
+            "text": "Very neat project - been clicking through it for a while, a bit slow but manageable - hope it holds the weight of the HN front page."
+          },
+          {
+            "by": "jonatanholmgren",
+            "text": "The model doesn&#x27;t seem to load on my computer due to CORS"
+          },
+          {
+            "by": "kleiba2",
+            "text": "Someone&#x27;s gonna turn that into a language model shortly."
+          },
+          {
+            "by": "mmooss",
+            "text": "This is wonderful, thank you. A suggestion, if it&#x27;s possible: Identify the astronauts speaking. (I&#x27;m not sure that can be automated reliably unless it&#x27;s already in video metadata.) Also, the transcript isn&#x27;t keeping up and skips parts. But "
+          },
+          {
+            "by": "nongknot",
+            "text": "what a project for me nerd"
+          },
+          {
+            "by": "inatreecrown2",
+            "text": "This is a nice idea and good example of what is possible with technology!"
+          }
+        ]
+      },
+      {
+        "id": 48151251,
+        "title": "Jank now has its own custom IR",
+        "url": "https://jank-lang.org/blog/2026-05-08-optimization/",
+        "score": 183,
+        "comments": 36,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "jank now has its own custom IR jank blog Home Documentation Sponsor Github Slack Discord jank now has its own custom IR May 08, 2026 · Jeaye Wilkerson Good news, everyone! jank has a new custom intermediate representation (IR) and we're using it to optimize jank to compete with the JVM. We'll dive into more of that today, but first I want to say thank you to my Github sponsors and to Clojurists Together for sponsoring me this whole year. You all are helping a great deal. I am still searching for a way to continue working on jank full-time with an income which will cover rent and groceries, so if you've not yet chipped in a sponsorship, now's a great time! What is an intermediate representation (IR)? Compilers often represent programs as a more abstract set of instructions than a target CPU instruction set can afford. This has a few added benefits. Firstly, the program can be represented in a way which could later be lowered to different CPU architectures, such as x86_64 or arm64. Since intermediate representations are often higher level than CPU architectures, they can generally be more portable. Secondly, IRs can be specifically designed to represent the program in a way which makes writing certain optimizations easier, such as single static assigment (SSA) form. Finally, IR designers get to choose the level of abstraction of the IR to match the semantics they're aiming to represent, which can either make an IR more general or more specific to a certain language. There are m",
+        "comment_highlights": [
+          {
+            "by": "pjmlp",
+            "text": "The natural evolution of compiler toolchains that live long enough on top of LLVM, eventually every one matures into having their own IR. Even clang is now in the process of doing the same. &gt; We&#x27;re going to use Clojure JVM to get our baseline benchmark"
+          },
+          {
+            "by": "christophilus",
+            "text": "&gt; we&#x27;re using it to optimize jank to compete with the JVM The JVM gets a lot of hate, but that is a very high bar. The JVM is a serious piece of kit. I hope Jank succeeds. I&#x27;d love to use it in real projects."
+          },
+          {
+            "by": "lemming",
+            "text": "Great article, as always. There is one thing that I think is important to bear in mind when discussing inlining, especially in the context of Clojure. This is that once a function has been inlined, you can no longer update the definition of that function in th"
+          },
+          {
+            "by": "CalChris",
+            "text": "The natural question is why doesn&#x27;t Jank use MLIR?"
+          },
+          {
+            "by": "srean",
+            "text": "This reminded me of Carp https:&#x2F;&#x2F;carp-lang.github.io&#x2F;carp-docs&#x2F;LanguageGuide.html Has anyone been playing with it on HN ?"
+          },
+          {
+            "by": "mccoyb",
+            "text": "Hoping to understand this better: &gt; Clojure&#x27;s dynamism is granted by a great deal of both polymorphism and indirection, but this means LLVM has very few optimization opportunities when it&#x27;s dealing with the LLVM IR from jank. In my mind, what is h"
+          },
+          {
+            "by": "mocompute",
+            "text": "Probably a stupid question, but is LLVM better at optimising its IR than C compilers are at optimising C? Asked another way, why not use C as an IR, if it&#x27;s compatible with your language semantics?"
+          }
+        ]
+      },
+      {
+        "id": 48177163,
+        "title": "Don't Answer the First Question",
+        "url": "https://lalitm.com/post/dont-answer-the-first-question/",
+        "score": 28,
+        "comments": 15,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Don't answer the first question - Lalit Maganti Lalit Maganti &#215; About RSS Newsletter Don't answer the first question May 16, 2026 · Essay In my work on Perfetto, a performance debugging tool, one question I get often is: “how do I split a Perfetto trace into multiple files?” Instead of answering directly, I say: “there isn’t an easy way to do that, but what’s leading you to collect traces large enough to want to split?” This is one of my golden rules at work. When a user asks me something &ldquo;weird&rdquo;: don&rsquo;t answer the first version of the question . On the surface this might appear like I&rsquo;m talking about the XY problem , but that stops one step short. It treats the user&rsquo;s stated question as a puzzle to decode: figure out what they really meant, answer that, move on. I think we can go much further. Instead, the confusion that produced the wrong question is itself an opening, and the conversation it sparks is valuable to both sides. The user walks away with a better mental model of the tool. I walk away with a clearer picture of where the product confuses people. And sometimes, between us, we figure out that the product itself needs to change. I&rsquo;ve written before about how I can still be a successful engineer while avoiding the spotlight . While that covered the general strategy, this is one of the concrete tactics that makes it work. I should also say this post is aimed at people who build things for other engineers. If you&rsquo;re buildin",
+        "comment_highlights": null
+      },
+      {
+        "id": 48150690,
+        "title": "Build a Radio Wave Detector with Balls of Aluminum Foil",
+        "url": "https://www.wired.com/story/build-a-radio-wave-detector-with-balls-of-aluminum-foil/",
+        "score": 42,
+        "comments": 13,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Build a Radio Wave Detector With Balls of Aluminum Foil! | WIRED Skip to main content Menu SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Rhett Allain Science May 15, 2026 7:00 AM Build a Radio Wave Detector With Balls of Aluminum Foil! Here’s how you can hack together a radio transmitter and receiver out of stuff you have at home—and explore the weirdness of wireless. Photograph: Bettmann/Getty Images Comment Loader Save Story Save this story Comment Loader Save Story Save this story The “Golden Age of Radio” supposedly ended in the ’50s, with the advent of television. But guess what? TV shows were broadcast with radio signals. And today? Radio is everywhere. You have a radio in your car, but maybe you prefer to stream music on your phone. Well, how does the music get to you? Yeah, via radio waves from cell towers. Your GPS runs on radio too. For that matter, so do your home Wi-Fi and Bluetooth. Radio waves are a kind of electromagnetic radiation, just like visible light. But they’re at the bottom end of the spectrum, which makes them harmless to humans because low frequency means low energy. (High-frequency, high-energy radiation like x-rays or gamma rays are another story.) That’s part of the reason radio waves are id",
+        "comment_highlights": null
+      },
+      {
+        "id": 48177716,
+        "title": "NASA still maintains some of the Voyager spacecraft code from the 70s era",
+        "url": "https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their/",
+        "score": 45,
+        "comments": 47,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "NASA still maintains some of the Voyager spacecraft code in a 1970s-era programming language that almost nobody on Earth fully understands anymore, and the handful of engineers who do are now in their 80s Space, science, and the human mind. Since 1995. Subscribe Est. 1995 Space Science Mind &amp; Meaning Long Reads Archive About Space Science Mind &amp; Meaning Long Reads Archive About Search Constellations NASA still maintains some of the Voyager spacecraft code in a 1970s-era programming language that almost nobody on Earth fully understands anymore, and the handful of engineers who do are now in their 80s The popular version of this story has hardened into a fixed shape. NASA still runs the Voyagers on software written in a programming language nobody alive can read, kept going by a handful of engineers all in their eighties, with no one queued up to replace them. By Space Daily Editorial Team · Editorial process Published May 16, 2026 The popular version of this story has hardened into a fixed shape. NASA still runs the Voyagers on software written in a programming language nobody alive can read, kept going by a handful of engineers all in their eighties, with no one queued up to replace them. In our reading of the record, parts of this are accurate. Parts are not. The underlying problem is real, and more specific than the headline suggests. What the spacecraft actually run The Voyager onboard computers run assembly language written for purpose-built General Electric inte",
+        "comment_highlights": null
+      },
+      {
+        "id": 48173962,
+        "title": "WriteUp: 16 Bytes of x86 that turn Matrix rain into sound",
+        "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
+        "score": 171,
+        "comments": 31,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "wake up! 16b wake up! 16b Released at the Outline Demoparty in May 2026, Ommen, NL An exploration of algorithmic density in 16 bytes of x86 assembly. Watch Video Demozoo Entry In the demoscene, exploring what can be achieved within extreme constraints is a rewarding technical challenge. The following 16 bytes of x86 real-mode DOS assembly code represent a careful exercise in algorithmic density. When executed, it utilizes the computer's video memory as a calculation space to draw an infinite Sierpinski fractal, while simultaneously interpreting that geometry as audio data. int 10h ; 2 bytes mov bh, 0xb8 ; 2 bytes mov ds, bx ; 2 bytes L: lodsb ; 1 byte sub si, byte 57 ; 3 bytes xor [si], al ; 2 bytes out 61h, al ; 2 bytes jmp short L ; 2 bytes 1. The Canvas: A Primed Void The code begins with a standard BIOS interrupt: int 10h . This initializes Video Mode 0, establishing a 40x25 text mode grid. The subsequent instructions point the Data Segment ( DS ) to 0xB800 , the physical memory address of the VGA/CGA text buffer. When the BIOS clears the screen during this interrupt, it does not fill the memory with absolute zeroes. In text mode, every character space consists of two bytes: the ASCII character and the color attribute. The BIOS initializes all 2,000 character slots uniformly: the ASCII byte is set to 0x20 (the Space character), and the color byte is set to 0x07 (Light Gray text on a Black background). While the screen appears completely empty, it is actually a canvas prim",
+        "comment_highlights": [
+          {
+            "by": "ObiKenobi",
+            "text": "My most favourite demo is &quot;Freespin&quot; which runs entirely on a floppy drive without a computer. Crazy stuff. https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=zprSxCMlECA"
+          },
+          {
+            "by": "dnnddidiej",
+            "text": "I thought this was going to convert a matrix rain into sound but it does visual and sound. Amazing. And it is almost like a decent track, music is going round in my head now. Is this a program or a secret key that unlocks a beast? Not sure!"
+          },
+          {
+            "by": "simonjgreen",
+            "text": "Quite incredible. This comment is larger."
+          },
+          {
+            "by": "gsliepen",
+            "text": "Seems like this does the reverse of the C64 demo &quot;A Mind Is Born&quot; ( https:&#x2F;&#x2F;linusakesson.net&#x2F;scene&#x2F;a-mind-is-born&#x2F; ): that one is making music first, and simultaneously interprets it as graphics. Of course that C64 demo is hu"
+          },
+          {
+            "by": "briansm",
+            "text": "For a more laid-back chill &#x27;rain&#x27; demo, have a look at &quot;Rainy 32b&quot; 32-byte x86 demo: https:&#x2F;&#x2F;www.pouet.net&#x2F;prod.php?which=86923 https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iCgIQuPHb5w"
+          },
+          {
+            "by": "amenghra",
+            "text": "There are several tiny demos on pouet.net, such as this 32 bytes dragon fractal: https:&#x2F;&#x2F;m.pouet.net&#x2F;prod.php?which=63522 Very impressive what people can craft in an order of magnitude fewer bytes than this comment!"
+          },
+          {
+            "by": "blackle",
+            "text": "The same author wrote a long writeup a number of years back on their other demo &quot;Memories.&quot; It is a great read! http:&#x2F;&#x2F;www.sizecoding.org&#x2F;wiki&#x2F;Memories"
+          },
+          {
+            "by": "mati365",
+            "text": "It must be magic. I don&#x27;t believe it&#x27;s possible in such short snippet of code."
+          },
+          {
+            "by": "userbinator",
+            "text": "Remarkably, sending this entire mixed-data byte directly to system port 61h, which historically manages various low-level motherboard controls, does not disrupt the system. In standard DOS environments and modern emulators, pushing these extra bits to the port"
+          },
+          {
+            "by": "Retr0id",
+            "text": "How does the sierpinski fractal relate to the rain effect?"
+          },
+          {
+            "by": "wanoir",
+            "text": "Very cool! Was super surprised the sound actually sounded coherent, versus something like static or noise. Was it unexpected for you too or do you think there could be property of the computation that would suggest it?"
+          },
+          {
+            "by": "HellMood",
+            "text": "&quot;wake up! 16b&quot; (Outline Demoparty, May 2026, Ommen, NL) is a 16-byte MS-DOS production that uses video memory to calculate a Sierpinski fractal and play it as audio. Video: https:&#x2F;&#x2F;youtu.be&#x2F;MvycyU-kLjg | Pouet: https:&#x2F;&#x2F;www.po"
+          }
+        ]
+      },
+      {
+        "id": 48176762,
+        "title": "Why is Google Maps back to showing old satellite images of Altadena?",
+        "url": "https://www.reddit.com/r/pasadena/s/94BHlkE84r",
+        "score": 78,
+        "comments": 35,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48173268,
+        "title": "Prolog Coding Horror",
+        "url": "https://www.metalevel.at/prolog/horror",
+        "score": 171,
+        "comments": 66,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Prolog Coding Horror Prolog Coding Horror I seemed to hear the whispered cry, \"The horror! The horror!\" (Joseph Conrad, Heart of Darkness ) Why are you here? As a Prolog programmer, you likely have a rebellious streak in&nbsp;you. In many cases, this is what it takes to guide you away from how an entire industry currently tries to solve problems. To focus on what lies&nbsp; beyond . The point of this page is to show you where following this streak is likely not a good&nbsp;idea because the cost is&nbsp;high, and there is no benefit to&nbsp;it. A small number of rules suffices to write great Prolog&nbsp;code. Breaking them will result in programs that are defective in one or more&nbsp;ways. Video : The horror: Losing solutions A Prolog program that terminates and is acceptably efficient can be defective in two major ways: It reports wrong answers. It fails to report intended solutions. Which of these cases is worse? Think about this! Suppose a program is defective only in the first way. Is there anything you can do to still obtain only correct results? Then, suppose a program is defective only in the second way. What are your options to somehow still obtain all solutions that were intended? The primary means to make your programs defective in the second way is to use impure and non-monotonic language constructs. Examples of this are !/0 , (->)/2 and&nbsp; var/1 . A declarative way out is to use clean data&nbsp;structures, constraints like dif/2 , and meta-predicates like&nbsp;",
+        "comment_highlights": [
+          {
+            "by": "schmuhblaster",
+            "text": "As someone who has developed a somewhat weird obsession with Prolog, I can highly recommend Markus Triska&#x27;s other articles on Prolog. His article on meta-interpreters [0] was particularly inspiring for me. [0] https:&#x2F;&#x2F;www.complang.tuwien.ac.at&#"
+          },
+          {
+            "by": "appil",
+            "text": "What do people use Prolog for in the real world? I learned about it on a university course and it seems so esoteric compared to other things on the course. Like something invented just for computer scientists to enjoy."
+          },
+          {
+            "by": "mmastrac",
+            "text": "If you want to understand prolog, you must understand the four-port model: https:&#x2F;&#x2F;grack.com&#x2F;writing&#x2F;school&#x2F;enel553&#x2F;report&#x2F;prolog.html"
+          },
+          {
+            "by": "MikeNotThePope",
+            "text": "I haven’t used Prolog, but I have a little experience with Erlang and a lot with Elixir. As I understand it, the early versions of Erlang were inspired by Prolog. For those with familiarity with both Prolog and Erlang, can you comment on the similarities and d"
+          },
+          {
+            "by": "rtpg",
+            "text": "There&#x27;s something quite illuminating with this first &quot;horror&quot;, where they basically say &quot;it&#x27;s OK to report wrong answers, because you can check the answers&quot;. I don&#x27;t think I&#x27;ve ever felt like it&#x27;s OK for my program "
+          },
+          {
+            "by": "alecthomas",
+            "text": "I&#x27;ve never seen Prolog used at all in the wild, but OPA (and its ancestor, Datalog) are fairly common."
+          },
+          {
+            "by": "crustycoder",
+            "text": "I get what he&#x27;s saying but I think it&#x27;s overstated. I&#x27;d categorise his list as &quot;Things to be careful with&quot; not &quot;Coding horrors&quot;. For example, &quot;The primary means to make your programs defective in this way is to use predi"
+          },
+          {
+            "by": "pocksuppet",
+            "text": "Would a Prolog expert please explain the difference between &gt; and #&gt;, is and #=, and what ! does? The version without ! looks identical to the version with ! except only the ! is removed - is this a joke?"
+          },
+          {
+            "by": "txhwind",
+            "text": "now we may have a more powerful &quot;Prolog&quot; - LLM Agent, though not precise and correct somtimes."
+          }
+        ]
+      },
+      {
+        "id": 48180091,
+        "title": "Actually, Democracy Dies in H.R.",
+        "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+        "score": 12,
+        "comments": 2,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48155936,
+        "title": "Magical Realism: “Northern Exposure” 25 Years Later (2015)",
+        "url": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+        "score": 130,
+        "comments": 73,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "martijn_himself",
+            "text": "I had the privilege to watch this show last year for the first time and I was completely blown away by it. I still think about it from time to time and it is easily my favourite show ever. Every actor is great and every single character in it is likeable (desp"
+          },
+          {
+            "by": "Kon5ole",
+            "text": "Such a great show, but difficult to classify. No drama, action or nailbites, no big belly laughs, more like smiles and chuckles. I was just a little happier after having watched most episodes. Very few shows like that, but Ted Lasso actually reminded me a lot "
+          },
+          {
+            "by": "dools",
+            "text": "This was one of my mother’s favourite shows and we all watched it together as a family when I was a kid. I really enjoyed it too. About 10 years ago I bought the DVDs for my mother for her birthday and we watched some together, it really stood the test of time"
+          },
+          {
+            "by": "erghjunk",
+            "text": "the episode about the ice breaking up - where everyone is acting out of character - is one of my favorite episodes of television. great show."
+          },
+          {
+            "by": "4lx87",
+            "text": "Find the German or UK international DVD release for original music. Region 1 DVDs have replacement music for licensing reasons, and it changes the show for the worse. One of my favorite shows."
+          },
+          {
+            "by": "stuxnet79",
+            "text": "Well I was excited to talk about how Sasha and Digweed produced one of the greatest prog house mixes of all time, but ... I suppose I now have another show to add to my to-watch list."
+          },
+          {
+            "by": "revicon",
+            "text": "This show&#x27;s use of music really made it magical One of my favorite scenes: https:&#x2F;&#x2F;vimeo.com&#x2F;151017533"
+          },
+          {
+            "by": "alexyoung",
+            "text": "There&#x27;s a conversation Chris has in an episode called Heal Thyself, I think, where Maggie buys a washer dryer and won&#x27;t need to go to the laundromat anymore. Chris reflects that in the future we won&#x27;t need a lot of things that are part of societ"
+          },
+          {
+            "by": "RajT88",
+            "text": "I used to date a girl from Anchorage. She said that this show was for, &quot;interesting and thoughtful people&quot;. It didn&#x27;t work out between us, but decades later, I keep trying this show to see if it&#x27;s for me. I feel like one day it might be, if"
+          },
+          {
+            "by": "ArchieScrivener",
+            "text": "Northern Exposure is the otherside Twin Peaks. Hits the same comfy note just at the opposite spectrum."
+          },
+          {
+            "by": "bcl",
+            "text": "Filmed in Roslyn, WA - https:&#x2F;&#x2F;movielandmarks.com&#x2F;#lm-1003"
+          },
+          {
+            "by": "newer_vienna",
+            "text": "Obligatory Borges mention for magical realism. Read his Garden of Forking Paths and Lottery in Babylon. Short stories which leave you with much to think about"
+          },
+          {
+            "by": "j_french",
+            "text": "I had forgotten Northern Exposure existed for 30 years until remembering it recently, and discovering that i had very fond memories of watching it on Irish tv as a teenager. There was something different about it, definitely going to watch it again"
+          },
+          {
+            "by": "caycecan",
+            "text": "Jessie the Bear episode, it ends with Enya&#x27;s &quot;Carribran Blue&quot;, is &quot;The Constant&quot; of the 90s. - I looked it up season 3 episode 18 &quot;The Final Frontier&quot;."
+          },
+          {
+            "by": "noefingway",
+            "text": "&quot;There are four words you need to know to adequately prepare yourself for childbirth. Take notes here, ladies: I...want...my...epidural.&quot;"
+          },
+          {
+            "by": "jurip",
+            "text": "The two leads, Rob Morrow and Janine Turner, are doing a rewatch podcast called Northern Disclosure. They seem to be in season 3 right now. No endorsement, haven&#x27;t tried it myself."
+          },
+          {
+            "by": "liampulles",
+            "text": "The show has its moments - mature, intelligent, human moments found little elsewhere - but its an intelligence that struggles to escape very typical network sitcom trappings. One wishes it had gone a little more in the direction of M.A.S.H. and ditched the pre"
+          },
+          {
+            "by": "pndy",
+            "text": "As many shows or films from that period the title was &quot;customized&quot; in Poland and &quot;Northern Exposure&quot; was known as &quot; Przystanek Alaska &quot; - &quot;Station Alaska&quot;. My dad enjoy it especially credits with moose."
+          },
+          {
+            "by": "mruniverse",
+            "text": "I read it was partly inspired by &quot;Local Hero&quot; (Bill Forsyth movie). The visiting Russian singer felt like a direct lift of the visiting Russian fisherman in &quot;Local Hero&quot;."
+          },
+          {
+            "by": "erhuve",
+            "text": "My 9th grade history teacher showed us S3E6 &quot;The Body in Question&quot; and it really stuck with me all the way through being an important part of my college thesis basically. I never actually watched any other episodes but I still think about Pierre and "
+          }
+        ]
+      },
+      {
+        "id": 48177228,
+        "title": "Where Are the Vibecoded Photoshops?",
+        "url": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
+        "score": 214,
+        "comments": 266,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "erelong",
+            "text": "I think it&#x27;s an interesting conversation; there&#x27;s an assumption that &quot;vibe coding is complete and incapable of creating Photoshop alternatives&quot;. But it&#x27;s more like, still open to debate but sounds likely: how long until vibe coding is "
+          },
+          {
+            "by": "stevex",
+            "text": "I don&#x27;t think that&#x27;s the direction this is going to take. Replacing a mature app with an incredibly wide audience and a million use cases may or may not be possible, but what&#x27;s actually happening is that people are making an app that does exactl"
+          },
+          {
+            "by": "butz",
+            "text": "Just hold your horses, I started vibe coding not only Photoshop, but whole Creative Suite with all the utilities. Sorry to say, but I ran out of tokens this month, so it might take a while until I will be able to take on Adobe. Just sit tight and send positive"
+          },
+          {
+            "by": "darkwater",
+            "text": "I don&#x27;t think most of the commenter so far are getting the real meaning of this post. The post author is calling out the &quot;Where are the vibecoded Photoshops?&quot; folks for empty accusations. The &quot;accusers&quot; in their post are THE people ask"
+          },
+          {
+            "by": "TeMPOraL",
+            "text": "IDK, but I have three or four vibe-coded 0.1%-Photoshops already - small utility apps, all self-contained, client-side, static, zero build-step browser tools, each of them solving a very particular problem for me. Things like, drop an image, get a printable la"
+          },
+          {
+            "by": "egypturnash",
+            "text": "Judging by my glimpses inside Adobe, the vibecoded Photoshop is Photoshop."
+          },
+          {
+            "by": "jofzar",
+            "text": "Im suprised no one has said its because photopea exists? Like of all the products OP could have chosen, photoshop shouldn&#x27;t have been the one that is chosen because it actually has a good clean competitor to it in the &quot;free&quot; category that theore"
+          },
+          {
+            "by": "swiftcoder",
+            "text": "Not quite the direction I expected that to take, but I do agree with the broad strokes. LLMs lowering the cost of code isn&#x27;t exactly solving software development, and is definitely not solving product development."
+          },
+          {
+            "by": "deepsummer",
+            "text": "I think it is too early to answer that question. If I really wanted to, I could &#x27;vibe code&#x27; Photoshop. But my estimate is that it would take me 2 years, as a solo dev. And by &#x27;vibe code&#x27; I mean not write a single line by hand - I would stil"
+          },
+          {
+            "by": "Hard_Space",
+            "text": "I need Photoshop for an almost vanishingly small subset of all the things it is capable of, and this holds true for nearly all &#x27;full-fledged&#x27; software that I use. So what may not be surfacing, in the absence of vibe-coded Photoshops, is the growing l"
+          },
+          {
+            "by": "dnautics",
+            "text": "Photoshop is a kitchen sink. If you are a person using Photoshop and you&#x27;re vibecoding you&#x27;re better off just vibecoding what you need to streamline workflows, reduce human mistakes, have better integration with other business concerns, better ai int"
+          },
+          {
+            "by": "InsideOutSanta",
+            "text": "&quot;If vibecoding is what people say it is, the world should be drowning in vibecoded artifacts right now&quot; It is. Look at GitHub repos. Look at the r&#x2F;selfhosting subreddit. Look at the r&#x2F;macapps subreddit. That doesn&#x27;t mean people are &qu"
+          },
+          {
+            "by": "TrackerFF",
+            "text": "I&#x27;d say that the main challenge for vibe-cloning big and known programs comes down to cost. Plenty of extremely competent devs and companies out there are porting FOSS programs from one language to another, while offloading all the heavy lifting to the AI"
+          },
+          {
+            "by": "fugaziboutit",
+            "text": "I think it was in these forums where I first read that you can gauge AI progress by the velocity at which people move the goalposts."
+          },
+          {
+            "by": "plaidfuji",
+            "text": "If I’m understanding this correctly, it starts by raising this question, then argues that it’s kind of a cheap and meaningless punch-down. I’m not sure I completely agree.. I think these types of questions are more a response to the level of hype around LLMs a"
+          },
+          {
+            "by": "pu_pe",
+            "text": "&gt; There are levels in this work. Level 1 is the typing. Syntax, semicolons, the years memorizing pointer arithmetic and which header file the function lives in. Level 2 is the verifying. The harness. The test suite. The reflex of rejecting the ninety attemp"
+          },
+          {
+            "by": "anticorporate",
+            "text": "That&#x27;s a bit like asking &quot;Where are the vibecoded AWSs?&quot; or &quot;Where are the vibe coded Office 365s?&quot; Can I vibe code an image editor? Sure! I have, actually, just more as a curiosity. I got as far as a simple Canva replacement, and if t"
+          },
+          {
+            "by": "josser",
+            "text": "I occasionally experiment by asking it to write a simple app that can help me count claps using some signal-processing methods (FFT, cross-correlation, MFCC). The result is always the same: a beautiful UI, everything feels smooth and responsive, but the core l"
+          },
+          {
+            "by": "wiether",
+            "text": "&gt; Level 3 is the deciding. What to build at all [...] AI lowered the cost of Level 1. It did not touch Levels 2 or 3. Actually where I get the most impressed working with AI is kind of at Level 3, where I ask for a feature and AI will suggest going further "
+          }
+        ]
+      },
+      {
+        "id": 48173468,
+        "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
+        "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+        "score": 229,
+        "comments": 233,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "Two F-18 fighter jets have crashed during an airshow at Mountain Home Air Force Base Please ensure Javascript is enabled for purposes of website accessibility Skip to main content Close Download the App Get your news faster with our mobile experience Install News News Deputies in Idaho arrest suspected drug dealer after juvenile overdoses The Madison County Sheriff&#x27;s Office says a juvenile’s drug overdose earlier this year prompted an investigation in Sugar City that led to the arrest of a suspec Delta flight bound for Shanghai forced to divert to Seattle due to disruptive passenger SEATTLE (KOMO) &amp;mdash; A Delta Air Lines flight from Los Angeles to Shanghai was forced to divert to Seattle after a passenger became disruptive, the airline confirme Air St. Luke&#x27;s provides support following mid-air collision Mountain Home, Idaho - Air St. Luke&#x27;s says it provided support to the mid-air collision during the Gunfighter Skies Airshow on Sunday.On social media, Air St. L Idaho leaders react to mid-air collision at Mountain Home Air Force Base All four crew members ejected safely after two Navy jets collided and crashed on Sunday during an air show at the Mountain Home Air Force Base, officials said.T Local Nation &amp; World Entertainment Offbeat Election Election Results Videos Most Wanted Traffic Amazing America Livestream Newslinks Question of the Day Armstrong Army Strong Comings and Goings Inside Your World Crisis in the Classroom Beyond The Podium Idaho Photo",
+        "comment_highlights": [
+          {
+            "by": "Waterluvian",
+            "text": "I don’t know anything about anything but it feels kind of amazing that all four ejected with good looking parachutes given the orientation of the conglomerated plane."
+          },
+          {
+            "by": "avalys",
+            "text": "These are pretty expensive and specialized electronic warfare planes that are identical to a regular F18 in aerodynamic performance. Sucks to lose two of them for an airshow display. Isn’t that what the Blue Angels are for?"
+          },
+          {
+            "by": "peteforde",
+            "text": "It&#x27;s crazy to me that Americans feel like they can&#x27;t afford socialized healthcare, but performing tricks in $70M jets is something that must proceed at all costs."
+          },
+          {
+            "by": "ak217",
+            "text": "What are Growlers doing performing aerobatic maneuvers at air shows? They have tens of millions in specialized extra equipment on board. Seems like a poor use of taxpayer money. Send regular F-18s, not the rare expensive ones that look the same."
+          },
+          {
+            "by": "yubblegum",
+            "text": "My god that tv website is chockful of javascript from all over. If you wish to avoid it: https:&#x2F;&#x2F;nitter.net&#x2F;search?f=tweets&amp;q=mountain+home+air"
+          },
+          {
+            "by": "booleanbetrayal",
+            "text": "Since the negative PR effects of exploding planes undermine the intended positive promotional aspects of conducting air shows, we should probably just halt and save money, right?"
+          },
+          {
+            "by": "Riany",
+            "text": "That&#x27;s good that all pilots ejected safely. But what if it fails? Still, losing two specialized aircraft during an airshow feels like very expensive, I doubt if it&#x27;s really worth it to risks these pilots life on it"
+          },
+          {
+            "by": "Groxx",
+            "text": "Is there much of a way to recover from that kind of glomping? Kinda seems like the aerodynamics might hold them together (as the noses are somewhat pointed together), or with enough speed rip them apart chaotically since they&#x27;re a bit skewed (which could "
+          },
+          {
+            "by": "arwhatever",
+            "text": "That maneuver they were attempting looks WILD. Would have been amazing to have pulled of. Or, perhaps to have regularly pulled off until today. I&#x27;m guessing that must be some sort of vectored thrust trickery."
+          },
+          {
+            "by": "tintor",
+            "text": "Four people ejected. What is the purpose of the second person in such plane, at the air show?"
+          },
+          {
+            "by": "gausswho",
+            "text": "What an odd collision. The way they remain in tandem after contact is uncanny, almost as though they were not under direct control."
+          },
+          {
+            "by": "anshumankmr",
+            "text": "That was a gnarly stunt. Glad the pilots survived."
+          },
+          {
+            "by": "amelius",
+            "text": "I wonder how you can make the decision to eject in such a short timespan."
+          },
+          {
+            "by": "Thaxll",
+            "text": "Once again, thanks Martin-Baker, 4 lives saved."
+          },
+          {
+            "by": "dude250711",
+            "text": "Isn&#x27;t making planes fly really close to each other an entirely optional activity?"
+          },
+          {
+            "by": "ProAm",
+            "text": "I cant wait to pay for that with my tax dollars."
+          },
+          {
+            "by": "momo26",
+            "text": "kudos to the Martin-Baker seats and the pilots&#x27; training, ejecting at that low altitude after a collision is incredibly hazardous. Using high-value electronic warfare assets for aerobatics seems like an unnecessary risk when regular Hornets could do the e"
+          }
+        ]
+      },
+      {
+        "id": 48166856,
+        "title": "Ksharp – k version 3 Language Interpreter in C#",
+        "url": "https://github.com/ERufian/ksharp",
+        "score": 47,
+        "comments": 12,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - ERufian/ksharp: Vector calculator and language inspired on K · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enter",
+        "comment_highlights": null
+      },
+      {
+        "id": 48168485,
+        "title": "CUDA Books",
+        "url": "https://github.com/alternbits/awesome-cuda-books",
+        "score": 215,
+        "comments": 54,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - alternbits/awesome-cuda-books: A curated list of best cuda programming books · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending C",
+        "comment_highlights": [
+          {
+            "by": "somethingsome",
+            "text": "Having read or at least skimmed most of those books, I think the best intro is &#x27;CUDA Programming: A Developer&#x27;s Guide to Parallel Computing with GPUs&#x27; Massively Parallel Processors: A Hands-on Approach is not really good in my opinion, many smal"
+          },
+          {
+            "by": "wces",
+            "text": "This is highly condensed video of all important concepts in CUDA from Stephen Jones, one of the CUDA architects: https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=QQceTDjA4f4 Understand everything he talks about and you understand CUDA."
+          },
+          {
+            "by": "dahart",
+            "text": "Regarding the section on Python and high-level CUDA, anyone interested should maybe first take a peek at Warp, which I’m guessing is too new to have a book yet. Warp lets you write CUDA kernels directly in Python, and it’s a breeze to get started. https:&#x2F;"
+          },
+          {
+            "by": "aaqaishtyaq",
+            "text": "I really need to buy nvidia GPUs to be able to learn CUDA."
+          },
+          {
+            "by": "juvoly",
+            "text": "Increasingly (for instance ADSP podcast [1]) those in nvidia&#x27;s inner circle are advocating against writing your own CUDA kernels. (Unless that&#x27;s your full time job at nvidia, that is). [1] https:&#x2F;&#x2F;adspthepodcast.com&#x2F;2024&#x2F;08&#x2F;3"
+          },
+          {
+            "by": "chrsw",
+            "text": "&quot;AI Systems Performance Engineering&quot; might deserve a mention, even though it&#x27;s not strictly CUDA."
+          },
+          {
+            "by": "SkiFreeWin3",
+            "text": "I wish the README had a solid “what cool things you can do with this” right at the top. In this day and age when programming is so accessible, why not have a more tempting pitch than just book titles categorized by difficulty."
+          },
+          {
+            "by": "zparky",
+            "text": "I liked going through https:&#x2F;&#x2F;www.olcf.ornl.gov&#x2F;cuda-training-series&#x2F; for an intro and some fundamentals."
+          },
+          {
+            "by": "saagarjha",
+            "text": "Probably worth noting that writing performant kernels for modern Nvidia hardware looks almost nothing like what the books from 2012 are going to teach you. You can read them for fun if you&#x27;d like but they&#x27;re basically irrelevant."
+          },
+          {
+            "by": "pwython",
+            "text": "First one I clicked on is 404: Programming Massively Parallel Processors: A Hands-on Approach (3rd Edition) https:&#x2F;&#x2F;www.cambridge.org&#x2F;core&#x2F;books&#x2F;programming-in-parallel..."
+          },
+          {
+            "by": "cold_harbor",
+            "text": "for LLM work, reading the Flash Attention and vLLM kernel source taught me more than any book. real code makes memory hierarchy concrete — books stay too abstract."
+          },
+          {
+            "by": "fwx",
+            "text": "Does anyone know of any good resources for the newer paradigms like cuTile?"
+          },
+          {
+            "by": "brcmthrowaway",
+            "text": "Any good MOOCs on Parallel programming&#x2F;NVIDIA?"
+          },
+          {
+            "by": "phoronixrly",
+            "text": "In an age when your company mandates you to raise your productivity right now with hundreds of percentage points using LLMs, how do you find an excuse to sit down and read a book?"
+          }
+        ]
+      },
+      {
+        "id": 48157229,
+        "title": "A Good Lemma Is Worth a Thousand Theorems (2007)",
+        "url": "https://sites.math.rutgers.edu/~zeilberg/Opinion82.html",
+        "score": 76,
+        "comments": 14,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Doron Zeilberger's 82nd Opinion Opinion 82: A Good Lemma is Worth a Thousand Theorems By Doron Zeilberger Written: Aug. 14, 2007. Theorems are nice, but they are usually deadends. A lemma may be \"trivial\", or easy, to prove, once stated, but if it is good, its value far surpasses even the deepest theorems. Wiki has a fairly long list of lemmas , including the powerful Schur's Lemma, Lovasz's Local Lemma, and many others. But my absolute favorite, that lead to at least two Fields medals (so far), is Szemeredi's Regularity Lemma . (see also the beautiful Komlos-Simonovits exposition ). Its significance was lauded in two consecutive MAA Hedrick lectures, last year by Tim Gowers, and this year by Jennifer Chayes. For example, the recent Green-Tao breakthrough, about primes in arithmetic progressions, used a hypergraph extension of Szemeredi's great lemma. Endre Szemeredi is most famous for his theorem , but his lemma is yet more significant. So blessed be the lemmas, for they shall inherit mathematics. Even more important than lemmas are observations , but that is another story. Added Aug. 22, 2007: Vince Vatter kindly pointed my attention to this funny economist's critique of lemmas , but of course for them \"lemmas\" means \"complicated\". Added Aug. 23, 2007: Todd Trimble kindly pointed out the following quote from Paul Taylor (\"Practical Foundations of Mathematics\" ,p. 192): \"Lemmas do the work in mathematics: Theorems, like management, just take the credit. A good lemma also sur",
+        "comment_highlights": null
+      },
+      {
+        "id": 48147091,
+        "title": "Prolog Basics Explained with Pokémon",
+        "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
+        "score": 265,
+        "comments": 46,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Prolog Basics Explained with Pokémon Unplanned Obsolescence Home Blog Talks About RSS Prolog Basics Explained with Pokémon January 05, 2026 The project that inspired this post is a little silly—I am about to describe the mechanics of a children’s video game in great detail—but this particular problem is what finally made Prolog click for me, an epiphany I’ve been hunting for ever since reading Bruce Tate’s “Seven Languages in Seven Weeks.” This exercise has taught me a lot about the kinds of interfaces I’m trying to build in somewhat more practical domains . For certain kinds of relationships, logic programming is by far the most concise and expressive programming system I’ve ever used. To understand why, let’s talk about Pokémon. Pokémon basics Pokémon is a video game series/multimedia franchise/lifestyle brand set in a world where humans live alongside a menagerie of colorful animal characters. “Pokémon” is both the name of the franchise and the generic term for the animal characters themselves, which all have their own individual species names. There are over a thousand distinct species of Pokémon, from Bulbasaur ( #1 ) to Pecharunt ( #1025 ). Popular Pokémon include (from left to right): Pikachu (#25) , Archeops (#567) , and Dipplin (#1101) . I rarely include images on this blog and I am very excited that this post warrants them. There are all sorts of Pokémon games now, but the main series has always been about catching and battling them. During a battle, your team of si",
+        "comment_highlights": [
+          {
+            "by": "jodrellblank",
+            "text": "&gt; &quot; Don&#x27;t be bothered with by the fact that the solutions end with &quot;or false&quot; here. It&#x27;s a function of how the search algorithms work; the solver looked for more solutions, then failed. I&#x27;ll admit, I don&#x27;t totally understa"
+          },
+          {
+            "by": "deosjr",
+            "text": "A while ago I was playing the romhack Run&amp;Bun, which drastically ups the difficulty of Pokemon Emerald. Watching others play, most of the game was doing &#x27;calcs&#x27;: calculating how to approach a battle. This was done using a javascript frontend to a"
+          },
+          {
+            "by": "triska",
+            "text": "Very nice! In the Scryer Prolog discussions, Alex has shared a few ideas and considerations for possible improvements to the Prolog code, including the use of metaprogramming to automatically generate more general relations: https:&#x2F;&#x2F;github.com&#x2F;m"
+          },
+          {
+            "by": "LelouBil",
+            "text": "I always wanted to read about logic programming, and this was a great introduction ! Thank you !"
+          },
+          {
+            "by": "macintux",
+            "text": "It continues to be immensely surprising to me that Joe Armstrong was able to write the initial Erlang implementation in Prolog. I wish I’d asked him about getting a copy of the source code."
+          },
+          {
+            "by": "lagrange77",
+            "text": "When i was in uni, the course teaching Prolog and Lisp was called &quot;Artificial Intelligence for Engineers&quot;."
+          },
+          {
+            "by": "Modified3019",
+            "text": "Was initially nonplussed, but toward the end I realized the choice of pokemon for an example actually works out well for showing how prologue can solve problems. I’m now a bit curious about trying it out somewhere."
+          },
+          {
+            "by": "fl1pper",
+            "text": "I&#x27;m not familiar with Pokemon universe :( Can somebody please explain Pokemon using Prolog?"
+          },
+          {
+            "by": "Almondsetat",
+            "text": "Are there public tournaments of games like Pokemon where contestants have to compete with eachother using a specific class of algorithms (e.g., logic programming, neural nets, linear programming, etc.)?"
+          },
+          {
+            "by": "stellartux",
+            "text": "If this is your article, you have a typo in learns_priority&#x2F;3, &quot;move_priority #&gt; 0&quot; should be &quot;P #&gt; 0&quot;."
+          },
+          {
+            "by": "Joker_vD",
+            "text": "&gt; Then query it like so: SELECT DISTINCT pokemon, special_attack FROM pokemon as p WHERE p.special_attack &gt; 120 AND EXISTS ( SELECT 1 FROM pokemon_moves as pm WHERE p.pokemon_name = pm.pokemon_name AND move = &#x27;freezedry&#x27; ) AND EXISTS ( SELECT 1"
+          },
+          {
+            "by": "cluckindan",
+            "text": "”I am about to describe the mechanics of a children’s video game in great detail” Prolog must be an adult programming language :)"
+          },
+          {
+            "by": "admeliora01",
+            "text": "Love this use case, makes me want to implement something similar for Magic the Gathering. I love using scryfall, but I think a more cli first approach with descriptive rules would suffice much better for brewing in eternal formats like Commander with ever grow"
+          },
+          {
+            "by": "zombot",
+            "text": "Are there pokémon with backtracking and unification traits? Those could do real Prolog!"
+          },
+          {
+            "by": "Fokamul",
+            "text": "Where &quot;Getting C&amp;D from Nintendo for a blog post&quot; fits in?"
+          },
+          {
+            "by": "SilentM68",
+            "text": "That&#x27;s very helpful &amp; easy to follow. Do you have an Odin tutorial that&#x27;s as easy to digest? Sol"
+          }
+        ]
+      },
+      {
+        "id": 48140556,
+        "title": "Hindenburg’s Smoking Room",
+        "url": "https://www.airships.net/hindenburg-smoking-room/",
+        "score": 220,
+        "comments": 179,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": "Hindenburg&#039;s Smoking Room | Airships.net Airships.net The Graf Zeppelin, Hindenburg, U.S. Navy Airships, and other Dirigibles Blog Hindenburg Graf Zeppelin U.S. Navy Airships The First Zeppelins About/Contact Search for: Hindenburg&#8217;s Smoking Room Yes, there really was a smoking room on the Hindenburg &#8230; even though the zeppelin was inflated with 7 million cubic feet of highly flammable hydrogen gas. Pressurized Smoking Room aboard the Hindenburg, showing the airlock doors. The smoking room was kept at a higher pressure than the rest of the ship so that no leaking hydrogen could enter the room, and the smoking room was separated from the rest of the passenger section by a double-door airlock. The smoking room was closely monitored at all times by a member of the zeppelin&#8217;s staff, and only one electric lighter was provided; no matches, lighters, or other open flames were allowed anywhere on the airship. In reality, the pressurization of the smoking room may have been as much for public relations as for safety. The smoking room was located on B Deck, at the bottom of the ship, and since hydrogen is lighter than air any leaking gas would have escaped upward. (It would have been very unlikely that free hydrogen could have settled downward to the level of the smoking room, and only a leak at the very bottom of the cell adjoining the smoking room in Bay 12 would have posed any significant risk.) The real danger of allowing smoking on a hydrogen airship &#8212;",
+        "comment_highlights": [
+          {
+            "by": "gwbas1c",
+            "text": "One interesting lesson from airships is about disruption and how people take old assumptions into new paradigms. Today we&#x27;re used to being on plans for short periods of time. We get on, sit down, wait, and then arrive at our destination. Airships came abo"
+          },
+          {
+            "by": "Waterluvian",
+            "text": "It’s really amazing just what extent people went to in order to smoke. Apparently people smoked on submarines for a while. And planes. And everywhere else. Smoking is just such a disease and it feels like only now are we kind of getting a handle on it."
+          },
+          {
+            "by": "CapitalistCartr",
+            "text": "When I was a kid, back eons ago, smoking was everywhere . People who didn&#x27;t smoke had ashtrays for guests. Telling people to not smoke was simply not a thing. When I was about 16, some family friends put a small sign on their front door requesting people "
+          },
+          {
+            "by": "pseingatl",
+            "text": "If you wait until age 60 before you start smoking, you&#x27;ll get all the benefits of nicotine--weight loss, more energy, appetite suppression--and you won&#x27;t live long enough to develop tobacco-related disease."
+          },
+          {
+            "by": "doginasuit",
+            "text": "This story reminds me of the game Oxygen Not Included. &gt; The smoking room was kept at a higher pressure than the rest of the ship so that no leaking hydrogen could enter the room I haven&#x27;t yet played any other game where air pressure in a room relative"
+          },
+          {
+            "by": "keiferski",
+            "text": "I don’t know if it would help anyone else, but personally, watching the movie The Insider kind of permanently put me off from smoking. Jeffrey Wigand is&#x2F;was an incredibly inspiring figure and I think of him every time I see cigarettes. https:&#x2F;&#x2F;y"
+          },
+          {
+            "by": "lynguist",
+            "text": "https:&#x2F;&#x2F;www.icao.int&#x2F;sites&#x2F;default&#x2F;files&#x2F;postalhistory&#x2F;aviat... Catapult mail service In the years immediately preceding Hindenburg (1928-1935), state of the art mail delivery service catapulted airplanes with mail while the "
+          },
+          {
+            "by": "Barbing",
+            "text": "Last paragraph: &gt;The smoking room was perhaps the most popular room on the ship, which is not surprising at a time when so many people smoked, but its popularity was no doubt enhanced because it was also the location of the [Hindenburg’s bar](link). That’s "
+          },
+          {
+            "by": "stmw",
+            "text": "Truly a better time - today we worry about using Rust &#x27;unsafe&#x27; too often. They had a smoking room on a hydrogen airship! &#x2F;j"
+          },
+          {
+            "by": "BXLE_1-1-BitIs1",
+            "text": "Back in the 50&#x27;s tonsillectomies were a regular rite of passage for kids, especially in colder places where kids spent more time indoors exposed to smoke. A couple years after moving from Maiibu to Toronto, I had the surgery."
+          },
+          {
+            "by": "ziofill",
+            "text": "For those who are interested: a very recent Stuff You Should Know podcast episode was about the Hindenburg disaster: https:&#x2F;&#x2F;stuffyoushouldknow.com&#x2F;episode&#x2F;the-hindenburg-disast..."
+          },
+          {
+            "by": "paulorlando",
+            "text": "I remember years ago movie theaters in Hong Kong allowed smoking. If I remember right, it wasn&#x27;t in the back, like on planes, but the seats to the one side of the center aisle."
+          },
+          {
+            "by": "pbronez",
+            "text": "This is a really lovely website. I had no idea that stamp collectors were a critical market for airships! &gt; The polar journey, like other zeppelin flights, was largely financed by stamp collectors; Graf Zeppelin carried approximately 50,000 letters sent by "
+          },
+          {
+            "by": "u1hcw9nx",
+            "text": "Hindenburg was originally designed to use helium, but The US banned the export of helium. Helium was rare and expensive to manufacture and only the US made it in sufficient quantities."
+          },
+          {
+            "by": "quijoteuniv",
+            "text": "I will use this as a metaphor of humanity!"
+          },
+          {
+            "by": "lanstin",
+            "text": "That sweet sweet nicotine."
+          },
+          {
+            "by": "mschuster91",
+            "text": "&gt; The real danger of allowing smoking on a hydrogen airship — and the reason it was strictly confined to the closely monitored smoking room — was the risk of a fire; I&#x27;d say... contrary, allowing smoking in a dedicated controlled place was the safer op"
+          },
+          {
+            "by": "brcmthrowaway",
+            "text": "Is there any truth of Nicotine being a nootropic?"
+          }
+        ]
+      },
+      {
+        "id": 48168221,
+        "title": "I don't think AI will make your processes go faster",
+        "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+        "score": 634,
+        "comments": 425,
+        "category_hint": "ai-ml",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "I don't think AI will make your processes go faster Home LinkedIn fvb. AI RSS Contact Home LinkedIn AI RSS Contact search icon Type something to search.. to navigate to select ESC to close 15 May 2026 • 5 min read I don't think AI will make your processes go faster Business-Layer Processes I have the feeling that every organization out there is, at least partially, focusing on process optimization, something that often happens when the market is down. These days there is also the AI angle to the entire thing, and the unrealistic expectations that follow it. To come fully prepared for this, I&rsquo;ve decided to re-read two absolute classics in this space: The Toyota way & The Goal 1 . I&rsquo;ve read both of these books in college, but re-reading them made me realize that a lot of these process optimization exercises are too simplistic in nature, and often misunderstand what to focus on. The visual bottleneck Let me show what I mean. gantt title Project Timeline dateFormat YYYY-MM-DD section Scoping Feature exploration :s1, 2024-01-01, 10d Budget scoping :s2, after s1, 3d Legal :s3, after s1, 10d Documenting :s4, after s3, 5d section Development Exploration :d1, after s4, 25d Software Development :d2, after d1, 70d Documentation :d3, after d2, 5d section Deployment Deployment :dp1, after d2, 5d Hyper-care :dp2, after dp1, 10d This is a Gantt chart for demonstration purposes, normally you would look at BPMN. Showing a Gantt makes the point easier. If you take a look at this Ga",
+        "comment_highlights": [
+          {
+            "by": "angarg12",
+            "text": "&gt; This exact thing is what software developers have been begging for since the beginning of the profession: Receiving a detailed outline of the problem and what the end result should look like. &gt; This is often the part that slows down software developmen"
+          },
+          {
+            "by": "phyzix5761",
+            "text": "I think when LLMs first came out people thought they could just say something like, &quot;Make a Facebook clone&quot;. But now we&#x27;re realizing we need to be more exact with our requirements and define things better. That has always been the bottle neck in"
+          },
+          {
+            "by": "kj4211cash",
+            "text": "On the one hand, this is a clean post that explains exactly what a lot of us have been thinking and seeing on the job at large organizations doing tech work. Dear Author, I agree with you 110% and want everybody else to come to understand what you have written"
+          },
+          {
+            "by": "ddosmax556",
+            "text": "This article assumes that AI only has an impact on the development phase which is certainly not true. It can speed up every part of the step. Including ideation, legal, documentation, development, and deployment. Ideation: Throw ideas back &amp; forth, cross r"
+          },
+          {
+            "by": "somenameforme",
+            "text": "I think there&#x27;s an interesting dichotomy. I find that for things I&#x27;m already capable at, LLMs are relatively inconsequential. But for things I&#x27;m no good at, it&#x27;s a huge game changer. For a large company, that&#x27;s going to be able to hire"
+          },
+          {
+            "by": "siliconc0w",
+            "text": "People don&#x27;t really understand that non-trivial software development isn&#x27;t even 50% coding. The coding step is generally the &#x27;easiest&#x27; part and given to Junior developers. In a large org most product changes span multiple systems and human "
+          },
+          {
+            "by": "shalmanese",
+            "text": "This is all substantially correct and gives us hints as to where to focus for AI to make the processes go faster. Eg: I had a product manager say to me that he envisions a future where any meeting with stakeholders that does not result in an interactive protot"
+          },
+          {
+            "by": "p2detar",
+            "text": "&gt; Yes, AI can generate code quickly (whether that’s a good thing is open for debate), but that doesn’t mean it’s generating the correct code. No, the code is actually almost always correct. The way it’s added is probably not what you’re going to like, if yo"
+          },
+          {
+            "by": "0xbadcafebee",
+            "text": "The Gantt shown is an example of Waterfall, or some other method where there&#x27;s a final destination for the software. 99.999% of software today is not made that way. In modern software development, there is no destination. On a 2-week basis, the business d"
+          },
+          {
+            "by": "usernametaken29",
+            "text": "Instead of mandatory AI workshops simply cancel all meetings with more than 3 people and no written agenda. Instead block the meeting time for productive work. That’ll be 2000$ of advisory fees for the insane productivity gains I just unlocked you. You’re welc"
+          },
+          {
+            "by": "bartimus",
+            "text": "The best analogy that made sense to me is that we used to have pistols and now we all got handed machine guns. You can fire far more, far faster, but it becomes much harder to operate accurately without collateral damage."
+          },
+          {
+            "by": "par",
+            "text": "While this is all true and we keep beating this dead horse, the other reality is that while it may not take less time, it certainly takes less people now. And that can&#x27;t be ignored."
+          },
+          {
+            "by": "gwbas1c",
+            "text": "I&#x27;ve found that AI is extremely useful when coding: For example, a task that used to take 3 days I can now do in about a day, in part because I can do things like have the agent write tests, or because I can have the agent start from some higher-level ins"
+          },
+          {
+            "by": "sillysaurusx",
+            "text": "I actually have data on this. I’ve been building sharc, a Common Lisp port of Hacker News. https:&#x2F;&#x2F;www.github.com&#x2F;shawwn&#x2F;sharc If that sounds familiar, it’s because it’s what dang did over the course of several years. It’s taken a few weeks"
+          },
+          {
+            "by": "giancarlostoro",
+            "text": "AI is not supposed to bypass the process, but it can speed up things nonetheless, it can help with refactoring, writing boilerplate, finding errors you never even spotted before, and things that linters cannot catch. I see so many comments that seem to me like"
+          },
+          {
+            "by": "ryanmcbride",
+            "text": "Been having conversations like this with a client I&#x27;ve worked with. They get approved by corporate for us to use claude and ask how much faster we&#x27;ll be able to move with it. I tell them &quot;Us engineers will probably be able to deliver some of our"
+          },
+          {
+            "by": "ivansmf",
+            "text": "The article severely underestimates deployment times for large, world wide services. Usually the strategy is to have a smaller &quot;blast radius&quot; for deployments and going in stages that are also usually time bound (&quot;let it bake&quot;). It also does"
+          },
+          {
+            "by": "adam_patarino",
+            "text": "&gt; Every software developer knows that you can’t make projects go faster just by typing faster. If that were the case we would all be taking typing lessons. So well said. AI is unveiling how the bureaucracy is the slow part."
+          },
+          {
+            "by": "pu_pe",
+            "text": "Some organizations added a ton of process around software development because it is expensive and risky. They require a ton of approvals and sign-offs, then some managing overhead on top to check if their investment is on the right track. This approval process"
+          },
+          {
+            "by": "Yokohiii",
+            "text": "Delivering more complete details for a task at hand is a noble goal, but there is a problem. Programming is a logical circuit breaker. There is a wide range of incompleteness that halts development or puts the solutions in an unpublishable state. A product per"
+          }
+        ]
+      },
+      {
+        "id": 48179219,
+        "title": "The era of free money may have ended",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/g7-long-bond-stress-intensifies-2026-05-13/",
+        "score": 7,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48178255,
+        "title": "Utah lawmakers form united front in push to ban prediction markets",
+        "url": "https://www.theguardian.com/us-news/2026/may/18/you-can-bet-on-it-utah-lawmakers-form-united-front-in-push-to-ban-prediction-markets",
+        "score": 86,
+        "comments": 62,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "‘You can bet on it’: Utah lawmakers form united front in push to ban prediction markets | Prediction markets | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Skip to navigation Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV &amp; radio Art &amp; design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love &amp; sex Health &amp; fitness Home &amp; garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today&#x27;s paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Europe US news Americas Asia Australia Middle East Africa Inequali",
+        "comment_highlights": [
+          {
+            "by": "jackp96",
+            "text": "Neither conservative nor Mormon, but online gambling is an addictive scourge that ruins lives, and I&#x27;d love to see it banned broadly. And go ahead and ban paid loot boxes as well. I don&#x27;t love casinos or lotteries, but at least there&#x27;s the frict"
+          },
+          {
+            "by": "lizknope",
+            "text": "I&#x27;d like to first see all advertisements for gambling banned. Then lets take a look at the data after 1-2 years. Or if you allow it put a warning like the surgeon generals warning on tobacco. Clearly state that most people lose money. Smoking is legal but"
+          },
+          {
+            "by": "throwaw12",
+            "text": "Coming soon: * researchers found that prediction markets are actually good for your wellbeing * lobby group is lobbying to fight against Utah lawmakers who are working against the wellbeing of people in Utah"
+          },
+          {
+            "by": "jcfrei",
+            "text": "I&#x27;m surprised prediction markets don&#x27;t get more support here on HN. There&#x27;s a lot of benefit in having a probability estimate for various kinds of events. One example of many: https:&#x2F;&#x2F;polymarket.com&#x2F;event&#x2F;may-2026-temperature"
+          },
+          {
+            "by": "Sol-",
+            "text": "Shame that prediction markets seem to have failed a bit, since they seem in principle like a good idea. You force participants to have skin in the game and remove the usual mood affiliation and ideological bias that afflicts the professional commentariat in th"
+          },
+          {
+            "by": "WarmWash",
+            "text": "I think they should be legal, but the amount of marketing and pushing around them is so bad. It&#x27;s like you make something legal, and some group of people try as hard as possible to push the limit as far as they can, and in turn ruin for everyone."
+          },
+          {
+            "by": "carabiner",
+            "text": "As I get older I&#x27;m starting to realize, the Christians were right about everything."
+          },
+          {
+            "by": "exabrial",
+            "text": "can we stop calling them &quot;prediction markets&quot; and please call them what they actually are: gambling"
+          }
+        ]
+      },
+      {
+        "id": 48133293,
+        "title": "High-Entropy Alloy",
+        "url": "https://en.wikipedia.org/wiki/High-entropy_alloy",
+        "score": 143,
+        "comments": 24,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "High-entropy alloy - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Development 2 Definition 3 The four core effects of HEAs Toggle The four core effects of HEAs subsection 3.1 High entropy effect 3.2 Severe lattice distortion effect 3.3 Sluggish diffusion effect 3.4 Cocktail effect 4 Alloy design Toggle Alloy design subsection 4.1 Phase formation 4.2 Thermodynamic mechanisms 4.3 Kinetic mechanisms 5 Deformation and strengthening mechanisms Toggle Deformation and strengthening mechanisms subsection 5.1 Other properties 6 Synthesis 7 Modeling and simulation 8 Phase diagram generation 9 Properties and potential uses Toggle Properties and potential uses subsection 9.1 Mechanical 9.2 Electrical and magnetic 9.3 Thermal Stability 9.4 Other 10 High-entropy alloy films (HEAFs) Toggle High-entropy alloy films (HEAFs) subsection 10.1 Introduction 10.2 Hardness and related modulus values 11 High-entropy ultra-high temperature ceramics 12 Characterization Toggle Characterization subsection 12.1 Imaging using electron microscopy techniques 12.2 Crystallographic analysis using electron- and X-ray-based methods 12.3 Compositional analysis using electron microscopy",
+        "comment_highlights": null
+      },
+      {
+        "id": 48141960,
+        "title": "Cannibalistic attacks between gray seals leave telltale “corkscrew” injuries",
+        "url": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
+        "score": 74,
+        "comments": 32,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48160964,
+        "title": "Profunctor Equipment in Haskell",
+        "url": "https://bartoszmilewski.com/2026/05/16/profunctor-equipment-in-haskell/",
+        "score": 35,
+        "comments": 13,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Profunctor Equipment in Haskell | Bartosz Milewski&#039;s Programming Cafe Home About Bartosz Milewski&#039;s Programming Cafe Category Theory, Haskell, Concurrency, C++ May 16, 2026 Profunctor Equipment in Haskell Posted by Bartosz Milewski under Category Theory , Haskell , Programming | Tags: Category Theory , Haskell , Profunctor Equipment | [2] Comments &nbsp; Previously: Profunctor Equipment . To make things more palatable for programmers, I decided to provide a toy implementation of some of the equipments in Haskell. The advantage of this encoding is that it can be verified by the compiler, and I still trust the compiler more than I trust the AI. A more adequate implementation would require a full-blown dependently typed language, but if we restrict ourselves to just a single category and work only with endo-functors and endo-profunctors, we can get at least some intuitions. If you want to see a more elaborate version, see the proarrows library by Sjoerd Visscher. The only 0-cell I&#8217;ll be using is the Haskell category of types and functions. For vertical 1-cells I&#8217;ll use the standard library implementation of Functor , and for horizontal ones I&#8217;ll use Profunctor . A 2-cell in : is implemented as a natural transformation: type Cell f g h j = forall a c . h a c -> j (f a) (g c) The forall serves as a universal quantifier. The horizontal composition of such cells is given by: hcomp :: (Functor f, Functor f', Functor g, Functor g' , Profunctor h, Profunctor",
+        "comment_highlights": null
+      },
+      {
+        "id": 48168159,
+        "title": "Trials on veterans suggest ibogaine could provide a new treatment for PTSD",
+        "url": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
+        "score": 104,
+        "comments": 118,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Ibogaine is a banned hallucinogenic drug. Scientists believe it can help veterans overcome PTSD Skip to content British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Home News US &amp; Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Culture Film &amp; TV Music Art &amp; Design Style Books Entertainment News Arts Arts in Motion Travel Destinations Africa Antarctica Asia Australia and Pacific Caribbean &amp; Bermuda Central America Europe Middle East North America South America World’s Table Culture &amp; Experiences Adventures The SpeciaList Earth Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video BBC Maestro Discover the World Live Live News Live Sport Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters Ibogaine is a banned hallucinogenic drug. Scientists believe it can help veterans overcome PTSD 3 days ago Share Save Add as preferred on Google Chris Marshall Getty Images (Credit: Getty Images) Trials on veterans suggest the potent hallucinogen could provide a new tr",
+        "comment_highlights": [
+          {
+            "by": "abbassix",
+            "text": "We are close to treating PTSD of people who we sent to massacre other people, and we justified their massacre as heroic act. Great achievement for humanity!"
+          },
+          {
+            "by": "Aurornis",
+            "text": "An important warning: Ibogaine has been associated with a considerable number of deaths. Some of the deaths even occurred within the context of clinical trials, under medical supervision. Ibogaine has some chemical properties that are highly undesirable for me"
+          },
+          {
+            "by": "LoganDark",
+            "text": "&gt; Some research suggests that chemistry is all that is needed – that the intense psychedelic experiences may not even be necessary for ibogaine&#x27;s healing effects. &gt; [...] Building on such research, some startups are working on drugs that mimic thera"
+          },
+          {
+            "by": "sriacha",
+            "text": "Another very interesting possible benefit of ibogaine not mentioned in the article is potential for treating TBI. from https:&#x2F;&#x2F;pubmed.ncbi.nlm.nih.gov&#x2F;41883580&#x2F; : &gt;Longitudinal analyses assessed cortical thickness, subcortical volume, an"
+          },
+          {
+            "by": "dacops",
+            "text": "Only veterans? I wonder about the editorial choice to use veterans rather than, say, women who have PTSD from assaults, which is a much larger group of people. (Approximately 4% of US men and 8% of US women experience PTSD every year across all reasons like ac"
+          },
+          {
+            "by": "H8crilA",
+            "text": "I always wonder why ECT doesn&#x27;t get more press. It very very often works on depression (and bipolar disorder, catatonia; anything affective-related really), although the effects may wane over time when the treatment is discontinued. Memory loss is one of "
+          },
+          {
+            "by": "the__alchemist",
+            "text": "This is, I am assuming from the context, not opporating under the assumption PTSD often is rooted in brain damage from exposure to shockwaves."
+          },
+          {
+            "by": "panflute",
+            "text": "It seems strange to me to choose ibogaine when Salvia divinorum seems like it has a similar psychological experience without the physical heart risk."
+          },
+          {
+            "by": "reenorap",
+            "text": "The article acts like ibogaine is a newly discovered drug. This is an old hallucinagenix drug that has helped thousands of people get over ptsd. The only thing holding this back is government bureaucracy and red tape. I’m happy that people will get there chanc"
+          },
+          {
+            "by": "KolibriFly",
+            "text": "It feels promising, but also exactly the kind of treatment that should move through careful clinical trials"
+          },
+          {
+            "by": "bushwart",
+            "text": "Original title: Ibogaine is a banned hallucinogenic drug. Scientists believe it can help veterans overcome PTSD"
+          },
+          {
+            "by": "mawadev",
+            "text": "Does it really help or are they just too dissociated after taking it"
+          },
+          {
+            "by": "neonnoodle",
+            "text": "While I’m broadly open to research on the therapeutic applications of these drugs, right now the landscape is perilous because of the combination of illegal status and a spike in “wellness” pseudoscience. Outside of the few supervised, IBR-approved studies the"
+          },
+          {
+            "by": "cbonanno",
+            "text": "I’m sorry, but people really need to understand how these drugs “treat addiction“. ibogaine acts on an opioid receptor. So all you’re doing is changing one opiate for another. It acts on the KOR receptors instead of the MOR receptor, which most openly act on. "
+          },
+          {
+            "by": "steele",
+            "text": "Roe Jogan, senior pharma correspondent at the BBC"
+          },
+          {
+            "by": "zephen",
+            "text": "Ibogaine may or may not work. Iocane powder usually effects a complete cure."
+          }
+        ]
+      },
+      {
+        "id": 48179569,
+        "title": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI",
+        "url": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
+        "score": 4,
+        "comments": 0,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Account Log in Subscribe Navigation Home About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Follow us Twitter Bluesky Mastodon Instagram TikTok Facebook RSS Sign in Subscribe About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Advertisement &bull; Go ad free Privacy Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Joseph Cox · May 18, 2026 at 9:17 AM “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher&#x27;s approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared with 404 Media reads. Photo by&nbsp; CDC &nbsp;on&nbsp; Unsplash . University of Washington researchers planned to have preschool teachers wear cameras that would record everything they saw from a first-person perspective, including the children they were teaching, then use that footage to develop AI models. Crucially, the program was presented as opt-out, rather than opt-in, meaning that parents had to take steps to prevent recordings of their children being processed by AI.&nbsp; “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher's approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared w",
+        "comment_highlights": null
+      },
+      {
+        "id": 48148351,
+        "title": "Graphing Scientific Calculator Based on the ESP32",
+        "url": "https://github.com/El-EnderJ/NeoCalculator",
+        "score": 28,
+        "comments": 9,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - El-EnderJ/NeoCalculator: This project is a Graphing Scientific Calculator based on the ESP32 microcontroller, designed to compete with commercial models (Casio fx-991EX, TI-84) by means of a color TFT screen, natural display (correctly rendered mathematical formulas) and a modular application architecture. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Commun",
+        "comment_highlights": null
+      },
+      {
+        "id": 48166459,
+        "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
+        "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
+        "score": 781,
+        "comments": 337,
+        "category_hint": "security",
+        "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
+        "article_summary": "Mozilla to UK regulators: VPNs are essential privacy and security tools and should not be undermined - Open Policy &amp; Advocacy Mozilla Menu About Mozilla Products Give Discover Firefox Open Policy &amp; Advocacy Mozilla&#039;s official blog on open Internet policy initiatives and developments Explore Categories Search this site Search Categories: Uncategorized Share: Twitter Mozilla to UK regulators: VPNs are essential privacy and security tools and should not be undermined Svea Windwehr May 15, 2026 In the context of concerns around young people’s interactions with digital technologies, the UK’s Department for Science, Innovation and Technology is consulting on additional measures to prepare young people for growing up in a digital world. Before the backdrop of users circumventing age assurance systems mandated under the UK’s Online Safety Act, the consultation considers age-gating virtual private networks (VPNs). Mozilla’s mission is grounded in the belief that the internet must remain open and accessible to all, and that privacy and security online are fundamental human rights. We recognize that the protection of young people online is one of the most pressing and challenging questions of our time, and we are committed to supporting policy proposals that address the root causes of online harms. We are concerned , however, that blunt interventions like mandatory age assurance and restricting access to tools like VPNs are not effective in improving the protection afforded",
+        "comment_highlights": [
+          {
+            "by": "ayashko",
+            "text": "Something I learned just recently—the Australian government (surprisingly!) actually recommends VPN usage, they even provide a bit of a guide and how to; https:&#x2F;&#x2F;beconnected.esafety.gov.au&#x2F;topic-library&#x2F;advanced-on..."
+          },
+          {
+            "by": "azalemeth",
+            "text": "It is perhaps worth highlighting that Mozilla has done this in response to a specific UK government consultation [1] all about &quot;growing up in the online world&quot;, which has, buried about 30 pages deep, a specific question about age-gating VPNs and simi"
+          },
+          {
+            "by": "wormius",
+            "text": "Has Google made a statement like this? I guess since I complain about Mozilla a lot for their past 5-10 years (minimum) of poor management decisions, I should give them their due when they do come out with a statement of support on our rights."
+          },
+          {
+            "by": "robotswantdata",
+            "text": "1984 was meant to be a warning, not the UK’s digital infrastructure roadmap"
+          },
+          {
+            "by": "jaspervanderee",
+            "text": "&quot;Regulators&quot;. Think about what that means. It&#x27;s essentially a mechanism to stop the free market of exchange which is detrimental to the debt based system we live in. To stop this, everything you do has to be tracked and no privacy is allowed."
+          },
+          {
+            "by": "palata",
+            "text": "&gt; Rather than age-gating technologies like VPNs, we believe that regulators should address the root causes of online harm by holding platforms to account Honest question: if you tell Pornhub &quot;now you will be fined heavily if you let 10-year old kids ac"
+          },
+          {
+            "by": "speedgoose",
+            "text": "While their arguments are sound, Perhaps Mozilla should disclose in this document that they are also a VPN reseller."
+          },
+          {
+            "by": "borzi",
+            "text": "That&#x27;s why the government wants to get rid of them."
+          },
+          {
+            "by": "braiamp",
+            "text": "I love how the comments miss that the problem these laws address deserve addressing, but from the producers side: making safe products for the public. This specific solution is fashioned after tobacco and alcohol regulation, which was never primarily about par"
+          },
+          {
+            "by": "cryo32",
+            "text": "I have seen some of the inside of this and it&#x27;s not quite as clear cut. One side of this is driven by a bunch of not too reputable think tanks behind the scenes who persuaded a couple of fringe academics to agree with them and push for it via the civil se"
+          },
+          {
+            "by": "usr1106",
+            "text": "User to Mozilla: Cannot read your statement with a variant of your own browser because you have it &quot;protected&quot; by an internet gatekeeper."
+          },
+          {
+            "by": "rvnx",
+            "text": "Interesting that they mention the UK but forget that the EU also wants to protect the kids by banning VPNs"
+          },
+          {
+            "by": "anonymous2024",
+            "text": "And also VPNs are tools to open doors in the minefield of legislations that they need to create to improve the incoming of some business, not of the people that voted for them."
+          },
+          {
+            "by": "rileymat2",
+            "text": "It is unclear to me what VPNs have to do with the conversation with respect to age gating. If a government has the ability to fine content providers for providing content to its citizens, why accept IP verification is good enough to determine the user’s jurisd"
+          },
+          {
+            "by": "jiaosdjf",
+            "text": "I just don&#x27;t accept any ban on VPNs, I will just be a criminal. I&#x27;m not fighting for a country I&#x27;m not allowed to wave the flag of and I&#x27;m not respecting any digital safety laws that simply do not apply to me because I am not a child. I wil"
+          },
+          {
+            "by": "SwtCyber",
+            "text": "I think better enforcement against harmful platform behavior and better digital literacy would do more without normalizing surveillance as the default"
+          },
+          {
+            "by": "tim333",
+            "text": "So far age gating VPNs is just a possibility they are considering, not actual policy. I just went on the feedback page to ask they don&#x27;t do it - it&#x27;d be a pain for me."
+          },
+          {
+            "by": "grougnax",
+            "text": "UK regulators will ban Mozilla Firefox, then"
+          },
+          {
+            "by": "Chance-Device",
+            "text": "I think this is a genuinely difficult problem that happens to look exactly like what you’d need for extended surveillance. When I think about it seriously, I end up coming up with the idea of a whitelist enforced on device for local accounts used by children. "
+          }
+        ]
+      },
+      {
+        "id": 48144584,
+        "title": "C++26 Shipped a SIMD Library Nobody Asked For",
+        "url": "https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody",
+        "score": 198,
+        "comments": 158,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "C++26 Shipped a SIMD Library Nobody Asked For Low Latency Trading Insights Subscribe Sign in C++26 Shipped a SIMD Library Nobody Asked For std::simd Can't Express 90% of Real SIMD Code Henrique Bucher Mar 22, 2026 26 2 5 Share C++26 ships with std::simd (P1928), a library-based portable SIMD abstraction. The pitch is seductive: write SIMD code once, compile it for AVX2, AVX-512, NEON, SVE. No more #ifdef __AVX512F__ spaghetti. No more intrinsics. Just std::simd&lt;float> and let the compiler figure out the rest. A satirical repository by NoNaeAbC recently made the rounds, presenting “6 reasons to use std::simd” — each one a verified demonstration of a real deficiency. I reproduced the benchmarks and dug deeper. It compiles 10x slower, runs slower than scalar loops, defaults to the wrong vector width, and can’t express the operations that actually matter in real SIMD code. The compiler’s auto-vectorizer, the thing std::simd was supposed to replace, beats it on every metric that counts. Low Latency Trading Insights is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. Subscribe From Physics Lab to ISO Standard: How We Got Here The story of std::simd starts with one person: Matthias Kretz , a researcher at GSI Helmholtzzentrum für Schwerionenforschung (the German heavy-ion research center in Darmstadt). Around 2009-2010, Kretz built the Vc library — “portable, zero-overhead C++ types for explicitly data-parallel",
+        "comment_highlights": [
+          {
+            "by": "jandrewrogers",
+            "text": "I have written a lot of SIMD for both x86 and ARM over many years and many microarchitectures. Every abstraction, including autovectorization, is universally pretty poor outside of narrow cases because they don’t (and mostly can’t) capture what is possible wit"
+          },
+          {
+            "by": "Sharlin",
+            "text": "The point about the optimizer only seeing &quot;opaque templates and function calls&quot; makes little sense. First off, templates are the opposite of opaque due to the fundamental requirement that the implementation be visible to every translation unit using "
+          },
+          {
+            "by": "mgaunard",
+            "text": "I made the first proposal to the C++ standard committee to introduce SIMD in 2011, before Matthias Kretz got involved with his own version (which is what became std::simd). This was based on what eventually became Eve (mentioned in the article). Back then, it "
+          },
+          {
+            "by": "magicalhippo",
+            "text": "The linked[1] &quot;six reasons to use std::simd&quot; was just what I needed after a long week. Hilarious! [1]: https:&#x2F;&#x2F;github.com&#x2F;NoNaeAbC&#x2F;std_simd"
+          },
+          {
+            "by": "daemin",
+            "text": "One thing I will point out is that the code in the article is compiled with `-march=native` and `-ffast-math`, meaning that they&#x27;re really only compiling for the exact same machine they are running on and no other. This seems like it is mainly applicable "
+          },
+          {
+            "by": "countWSS",
+            "text": "GCC already solved it: https:&#x2F;&#x2F;gcc.gnu.org&#x2F;onlinedocs&#x2F;gcc&#x2F;Vector-Extensions.html The operations behave like C++ valarrays. Addition is defined as the addition of the corresponding elements of the operands. For example, in the code belo"
+          },
+          {
+            "by": "StilesCrisis",
+            "text": "&quot;The Default Width Problem&quot; -- this section seems confused and definitely reeks of LLM authorship. It&#x27;s comparing -march=native against std::simd and complaining that std::simd&lt;T,8&gt; breaks portability with pre-Haswell. This is a real issue"
+          },
+          {
+            "by": "meling",
+            "text": "Curious if people here have looked at the upcoming SIMD support in Go: https:&#x2F;&#x2F;go.dev&#x2F;doc&#x2F;go1.26#simd Currently experimental, but looks like the first Intel arch will arrive in the next release in about 3 months. They are also going to supp"
+          },
+          {
+            "by": "ozgrakkurt",
+            "text": "Just write inline asm for x86 and aarch64 (if you care about that) and not care about the rest. Is it even useful to do simd on other processors? Compiler optimizing even the code around the simd code based on the semantics of arithmetic or other things sounds"
+          },
+          {
+            "by": "whizzter",
+            "text": "Agreed, fixed with vectors needs to be a language feature, better compile times and would solve issues for most people. Personally, I think that like Clang way to adding GLSL like vectors and semantics would&#x27;ve gone a long way. SVE might be an elegant des"
+          },
+          {
+            "by": "Validark",
+            "text": "If we want to improve cross-platform SIMD, in my opinion we should start by supporting more operations in LLVM IR. Like vector expansion (currently we only have expandload), runtime-known shuffle vectors, pdep&#x2F;pext operations. Also, let&#x27;s stop with t"
+          },
+          {
+            "by": "StilesCrisis",
+            "text": "&gt; When Google needed portable SIMD for production image and video codecs, they built Highway — not std::simd. Sure, they left the committee years ago. I am not trying to claim any sort of direct causality, but it sure seems like this is a case where Google&"
+          },
+          {
+            "by": "jcranmer",
+            "text": "If you thought std::simd was a library nobody asked for, just wait until you hear about &lt;linalg&gt;. I feel like half the people looking forward to that think they&#x27;re just going to get standard C++ bindings to LAPACK, when instead they&#x27;re probably"
+          },
+          {
+            "by": "himata4113",
+            "text": "Something everyone is missing is that this is just feature parity with other langauges, this is not c++ specific. They added it because other languages have these compiler hints which are then (usually) used in llvm as opaque types for &#x27;smarter&#x27; opti"
+          },
+          {
+            "by": "Aardwolf",
+            "text": "I&#x27;d actually rather just have the compiler give some guarantees on producing SIMD code when you write regular C++ code doing sums, multiplications, etc... in a particular way. And perhaps add a few more operators&#x2F;keywords to the language for modern C"
+          },
+          {
+            "by": "plasticeagle",
+            "text": "Nobody should read that AI slop article. Nobody. Maybe there&#x27;s an interesting story in there, it&#x27;s certainly possible. But the &quot;author&quot; could not be bothered to write it, and so why should we waster our time reading it?"
+          },
+          {
+            "by": "feelamee",
+            "text": "&gt; The pattern is clear: every major project that actually needs portable SIMD in production chose a third-party library or a different language of course they chose third-party library, because C++26 is just only published and don&#x27;t have wide support&#"
+          },
+          {
+            "by": "sscaryterry",
+            "text": "Unnecessarily negative article. Lets not forget how awful C++98 was for years. Standardisation doesn&#x27;t mean useful."
+          },
+          {
+            "by": "zombot",
+            "text": "The article&#x27;s point in a nutshell: &gt; The problem is that std::simd in 2026 is the 2012 solution arriving after the world moved on. The committee spent a decade polishing a library-based approach while compilers solved the easy cases automatically and I"
+          }
+        ]
+      },
+      {
+        "id": 48148766,
+        "title": "The SGI Buyer's Guide (2003)",
+        "url": "https://hardware.majix.org/computers/sgi/buyers-guide.shtml",
+        "score": 38,
+        "comments": 21,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
+        "id": 48177283,
+        "title": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths",
+        "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-confirmed-in-congo-and-uganda-246-suspected-cases-65-deaths/",
+        "score": 14,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Already large Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths WHO learned of potential cases May 5; US CDC said it just heard about it yesterday. Beth Mole – May 15, 2026 2:51 pm | 56 An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Minimize to nav The Africa Centres for Disease Control and Prevention on Friday confirmed an Ebola outbreak in the Northeastern Ituri province of the Democratic Republic of the Congo. Officials in Uganda subsequently reported that the deadly hemo",
+        "comment_highlights": null
+      },
+      {
+        "id": 48172505,
+        "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
+        "url": "https://spectrum.ieee.org/payphone-voip",
+        "score": 162,
+        "comments": 53,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Old Payphones Get Modern VoIP Upgrade - IEEE Spectrum IEEE.org IEEE Xplore Digital Library IEEE Standards More Sites Sign In Join IEEE VoIP Brings Back Old-Fashioned Pay Phones to Rural Vermont Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints &amp; Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences. Our articles, videos, and infographics inform our readers about developments in technology, engineering, and science. Subscribe About IEEE Contact &amp; Support Accessibility Nondiscrimina",
+        "comment_highlights": [
+          {
+            "by": "AussieWog93",
+            "text": "One of the few good things that Telstra did in Australia was open up their whole old payphone network for free, nationwide. Apparently they&#x27;re a genuine lifeline for people fleeing from abusive relationships; they need to leave their mobile behind to avoi"
+          },
+          {
+            "by": "singpolyma3",
+            "text": "I wonder how this will work with the FCC&#x27;s proposed regulation to require ID, address, and &quot;alternate phone number&quot; for anyone who make make a phone call."
+          },
+          {
+            "by": "Frank-Landry",
+            "text": "I went to school with Patrick and I live a couple towns over from him. He knows his stuff that&#x27;s for sure."
+          },
+          {
+            "by": "bahmboo",
+            "text": "How many phone numbers do you have memorized? These days I only know a few but I used to know dozens."
+          },
+          {
+            "by": "gyulai",
+            "text": "What&#x27;s the law these days in Vermont &#x2F; the U.S. around anonymous use of the phone system? Are anonymous burner SIMs still allowed?"
+          },
+          {
+            "by": "userbinator",
+            "text": "This is an example of the few places where something like this is feasible. free-to-use pay phones What an oxymoron. I suggest the term &quot;public phone&quot;."
+          },
+          {
+            "by": "linsomniac",
+            "text": "I should add a VoIP pay phone to my Little Free Library. A friend reported a pay phone in a dumpster near work and I was, at the time, feeling like I should rescue it, but I have too much stuff as it is."
+          },
+          {
+            "by": "ChrisArchitect",
+            "text": "(2025) OP Prior to that: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44188204 See also: Futel (Portland, Wash. State etc) https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42220598 Philtel (Philadelphia) https:&#x2F;&#x2F;news.ycombinator.com&#x2F;it"
+          },
+          {
+            "by": "FlyThruTheSun",
+            "text": "Wow this article really gave me flashbacks of payphone phreaking back in the day to call my mom for permission to go somewhere."
+          },
+          {
+            "by": "arbuge",
+            "text": "&gt; free-to-use pay phones Some redundant words there perhaps."
+          }
+        ]
+      },
+      {
+        "id": 48177452,
+        "title": "Dogme 25 – Vow of Chastity (2025)",
+        "url": "https://dogma25.dk/",
+        "score": 40,
+        "comments": 45,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "DOGMA 25 It will be possible to register a Dogme25 film, with a view to certification, from spring 2026. Therefore, keep an eye on this website if you wish to register. The first 5 certificates will be asigned to the 5 directors who have taken the initiative for Dogme25, with the first films starting this year. The certification of other Dogme25 films is ongoing and therefore starts with #6, regardless of whether all the initiators' films have been launched, and will only be issued after #1 has premiered. Manifesto DOGMA 25 is a collective of filmmakers founded in Copenhagen in the spring of 2025. Our stated purpose is to preserve the originality of cinema and the opportunity to create film on its own terms. The role of the director has increasingly been reduced to that of project manager, the film to a commodity, and the audience to consumers. Experimental practice is stifled by fear of risk-taking, which suffocates artistic exploration and silences unique voices. When films are merely executed and not allowed to evolve organically, it puts the art form in danger of becoming functional, obedient and thereby irrelevant. In a world where formulaic films based on algorithms and artificial visual expression are gaining traction, it’s our mission to stand up for the flawed, distinct, and human imprint. We champion the uncompromising and unpredictable and we fight the forces working to reduce cinematic art to an ultra-processed consumer good. By scaling down production, we ensure",
+        "comment_highlights": null
+      },
+      {
+        "id": 48168626,
+        "title": "AI is a technology not a product",
+        "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+        "score": 437,
+        "comments": 190,
+        "category_hint": "ai-ml",
+        "why_hot": "Strong HN engagement; likely important development in ai-ml.",
+        "article_summary": "Daring Fireball: AI Is Technology, Not a Product By John&nbsp;Gruber Archive The Talk Show Dithering Projects Contact Colophon Feeds / Social Twitter --> Sponsorship Manage GRC Faster with Drata’s Agentic Trust Management Platform AI Is Technology, Not a Product Saturday, 16 May 2026 Steven Levy, writing for Wired last month after Apple’s CEO transition was announced, under the provocative headline “ Apple’s Next CEO Needs to Launch a Killer AI Product ” ( News+ link to get around Wired’s miserly paywall): Much more recently, I quizzed Ternus and global marketing head Greg Joswiak about Apple’s future, specifically its plans to get ahead of the AI transformation. Ternus acknowledged that AI is “an immense kind of inflection point,” but couched it as one of many leaps that Apple has navigated. Each hit product — the Apple II, the Mac, iTunes, the iPod, the iPhone, iPad — piggybacked on a previous product. “We never think about shipping a technology,” he said. “We want to ship amazing products, features, and experiences, and we don’t want our customers to think about what [underlying] technology makes it possible. That’s the way we think about AI.” That’s fine, but I look back to the mid-2000s when everybody was waiting for Apple to come out with a phone. When Jobs finally delivered in January 2007, the product defined the mobile era. It’s a big ask for Ternus to do something similar for the AI age — but it’s an opportunity that must be seized. AI threatens to disrupt the entir",
+        "comment_highlights": [
+          {
+            "by": "coffeefirst",
+            "text": "Agreed. The ideal implementation of AI for Apple is probably to finally make Siri work. This isn’t necessary fancy, just let me set some calendar events without knowing the magic words or tell it to open Overcast and play the new Gastropod episode. Better yet,"
+          },
+          {
+            "by": "rglover",
+            "text": "Steve already gave away the secret [1] (must watch) a long time ago: &quot;You have to work backwards from the customer experience.&quot; AI was never going to be on Apple&#x27;s roadmap in a significant way because it&#x27;s in their DNA to differentiate tech"
+          },
+          {
+            "by": "hresvelgr",
+            "text": "This is a similar argument to &quot;Dropbox is a feature, not a product&quot; and it definitely rings true in this instance too. I remember the litany of applications that only supported sync through Dropbox. It had no ecosystem, it&#x27;s saving grace was tha"
+          },
+          {
+            "by": "luodaint",
+            "text": "If you don&#x27;t know what exactly the user needs, the AI feature is the pitch itself. &quot;Powered by AI&quot; is something to say when you do not know how to sell the outcome. It&#x27;s also something to develop when you have not set up the feedback loop t"
+          },
+          {
+            "by": "HarHarVeryFunny",
+            "text": "I totally agree - the phone as a form factor is not going away. People are always going to want to have a mobile communicator&#x2F;computer, and want one with a screen and all-day battery life. The phone is not going to be replaced by smart glasses or some oth"
+          },
+          {
+            "by": "tombert",
+            "text": "&gt; Apple doesn’t have a social network business. They don&#x27;t have a social network business because they tried that and failed. [1] [1] https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;ITunes_Ping"
+          },
+          {
+            "by": "hn_throwaway_99",
+            "text": "Agree with this article, and I almost threw up in my mouth when I read this quote from Stephen Levy: &gt; By the end of this decade, it’s unlikely that people will swipe on their phones to tap on Uber or Lyft. They will just tell their always-on AI agent to ge"
+          },
+          {
+            "by": "junto",
+            "text": "The answer as always in these situations is to zoom out. We are in the midst of a paradigm shift, and the perspective in the daring fireball post aligns exactly with this author’s perspective: https:&#x2F;&#x2F;rebecca-powell.com&#x2F;posts&#x2F;return-on-inte"
+          },
+          {
+            "by": "concinds",
+            "text": "So far, Google has been better than Apple at treating AI as a technology&#x2F;feature and not just a product. Staying on hold for you. Google Lens on that coat or bag. Warning you in the middle of a text convo with a stranger, if the conversation veers into ty"
+          },
+          {
+            "by": "pizlonator",
+            "text": "AI seems to be a product if you&#x27;re Anthropic (the seller) and any enterprise with a software team (the buyer). I agree with Gruber&#x27;s take, if the seller is Apple."
+          },
+          {
+            "by": "jaspervanderee",
+            "text": "AI is a commodity, like electricity. In a truly free market, it will go to free."
+          },
+          {
+            "by": "ozim",
+            "text": "By the end of this decade, it’s unlikely that people will swipe on their phones to tap on Uber or Lyft Oh that’s silly thinking. I already have Alexa and Hue lights. Only thing I use voice is „play music&#x2F;stop music”. Turning off all lights or on all light"
+          },
+          {
+            "by": "pie_flavor",
+            "text": "By 2021, we&#x27;ll have completely abandoned light switches. We&#x27;ll just use an app on our phones to turn off the light in the bedroom, or perhaps request out loud for Alexa to do so. The future is the Internet of Things. I think this article is too soft "
+          },
+          {
+            "by": "mailarchis",
+            "text": "Reminded me of this video: &quot;Steve Jobs handling a tough question at the 1997 Worldwide Developer Conference.&quot; https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=oeqPrUmVz-o&amp;t=161s"
+          },
+          {
+            "by": "flashman",
+            "text": "Apple is smart to avoid betting the farm on generative AI based on large language models, which is really what we mean by &#x27;AI&#x27; here. It costs a lot to create and to run, nobody is willing to pay enough to cover those costs, and when that financial re"
+          },
+          {
+            "by": "latentframe",
+            "text": "The market still prices the AI companies like software businesses with some huge margins while the economics are starting to look like cloud or infrastructure with big capex heavy competition and rapidly falling prices."
+          },
+          {
+            "by": "arshia0098",
+            "text": "Agreed. The more invisible AI inference becomes in systems, the more they start feeling more practical. I personally find it more engaging to have an agent visualize things for me using matplotlib. The problem is that too many startups are trying to do to Open"
+          },
+          {
+            "by": "wiseowise",
+            "text": "Anything is a product if you can sell it."
+          },
+          {
+            "by": "jmount",
+            "text": "This is important to think through, does one have a product, tech, tool, or even just a feature. I given thing is not necessarily at the bottom of this stack, but also not always at the top."
+          }
+        ]
+      }
+    ],
+    "show_hn": [
+      {
+        "id": 48179677,
+        "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+        "url": "https://github.com/zakirullin/files.md",
+        "score": 74,
+        "comments": 27,
+        "category_hint": "other",
+        "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
+        "article_summary": "GitHub - zakirullin/files.md: 🌱 Your life in plain .md files · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise EN",
+        "comment_highlights": null
+      },
+      {
+        "id": 48178184,
+        "title": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
+        "url": "https://github.com/stephenlthorn/auto-identity-remove",
+        "score": 280,
+        "comments": 109,
+        "category_hint": "other",
+        "why_hot": "High-engagement Show HN; strong community validation for a new tool/product.",
+        "article_summary": "GitHub - stephenlthorn/auto-identity-remove: Automated data broker opt-out runner — removes your personal info from 30+ people-search sites on a monthly schedule · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Commu",
+        "comment_highlights": [
+          {
+            "by": "hmokiguess",
+            "text": "I always get paranoid about these things ever since the Streisand Effect became a thing, I feel like the outcome is you enter a second list and this second list is maybe less friendly as it turns you into an outlier which brings other kinds of problems It feel"
+          },
+          {
+            "by": "pards",
+            "text": "I tried this (as a Canadian): 1. It asks you to optionally sign up for a bunch of other services like Spokeo 2. It asks for access to your email via Apple&#x27;s Mail app which I don&#x27;t use 3. I got a lot of 404s anyway 4. Many sites require manual interve"
+          },
+          {
+            "by": "bborud",
+            "text": "Nothing they do actually improves society so in a healthy society we would be able to outlaw what they do. But we don&#x27;t. So we can&#x27;t."
+          },
+          {
+            "by": "IgorPartola",
+            "text": "Back in 2011 or so the Yellow Pages still delivered physical phone books to ever address in the state where we were. My city literally sent out an extra off cycle recycling truck the next day to pick them all up. Everyone threw them out. Well my coworkers and "
+          },
+          {
+            "by": "_joel",
+            "text": "I feel like this is just a way to mark yourself as &quot;active&quot;. Do we honestly think evey one of those shady companies sticks to the rules?"
+          },
+          {
+            "by": "airstrike",
+            "text": "&gt; 4. Solves CAPTCHAs via CapSolver (AI-powered, ~$0.001&#x2F;solve) Right, so my suspicion was correct: I&#x27;m the only one being inconvenienced by the same old captchas."
+          },
+          {
+            "by": "rib3ye",
+            "text": "At least in California, the DROP form is scheduled to come online this fall."
+          },
+          {
+            "by": "ramon156",
+            "text": "The only thing that is tied to MacOS is launchd, seems like that&#x27;s useful info to add to the docs. I don&#x27;t know if you can just do a run from the CLI. Supporting Systemd should be easy. Not sure what windows uses."
+          },
+          {
+            "by": "amelius",
+            "text": "I&#x27;m wondering if this isn&#x27;t a nice automated way to send your information to 500 data brokers."
+          },
+          {
+            "by": "namanaggarwal",
+            "text": "Is this relevant for the UK? (Genuine question, trying to understand if I should run this)"
+          },
+          {
+            "by": "3RTB297",
+            "text": "Having done data broker opt-outs manually using the Big Ass Data Broker Opt Out List ( https:&#x2F;&#x2F;github.com&#x2F;yaelwrites&#x2F;Big-Ass-Data-Broker-Opt-Out-Li... ), very little of the process can be automated. Intentionally. A few of these services as"
+          },
+          {
+            "by": "hash872",
+            "text": "Has anyone had any luck deleting themselves from the data brokers who sell cell data to political texters and&#x2F;or survey companies? Those are the ones I really want to opt out of"
+          },
+          {
+            "by": "projektfu",
+            "text": "Interesting. Have you been using it a while and is it working to reduce spam?"
+          },
+          {
+            "by": "SamuelAdams",
+            "text": "I use Optery for about two months a year, seems to do a good enough job for most of the data brokers. There are also discounts or promo codes to lower the price as well. https:&#x2F;&#x2F;www.optery.com&#x2F; HN Launch: https:&#x2F;&#x2F;news.ycombinator.com&#"
+          },
+          {
+            "by": "stephenlthorn",
+            "text": "Thanks for the lively feedback and comments - this is very much a beta&#x2F;first attempt. I hate spam = the only reason I built it. No other intention behind it. I posted here to get support on making it better so others can use it. I&#x27;ll take some of the"
+          },
+          {
+            "by": "guidedlight",
+            "text": "&gt; Name, city, state, ZIP, email, phone Does this work for anyone outside the US as well? e.g. Will it work for an Australian?"
+          },
+          {
+            "by": "Waffle2180",
+            "text": "The state tracking and manual fallback are the most interesting parts to me. For a tool like this, I’d really want a dry-run&#x2F;audit mode that shows which fields would be submitted to which broker before anything is sent. The awkward threat model is that th"
+          },
+          {
+            "by": "himata4113",
+            "text": "I honestly find these kind of useless. I think a service that simply inserts thousands of bogus entries is way more valuable since a search is useless if it returns 100 addresses for where you live."
+          },
+          {
+            "by": "LoganDark",
+            "text": "I got tired of spammers having my information, so I built a tool that submits an up-to-date copy of my information to over 500 websites. Surely this will help. Jokes aside, I unironically suspect the purpose of many opt-out forms is merely to record the up-to-"
+          },
+          {
+            "by": "victorbjorklund",
+            "text": "Sweet, I&#x27;ve been wondering why it doesn&#x27;t doesn&#x27;t exist as an open source solution."
+          }
+        ]
+      },
+      {
+        "id": 48169874,
+        "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+        "url": "https://github.com/MinishLab/semble",
+        "score": 390,
+        "comments": 130,
+        "category_hint": "other",
+        "why_hot": "High-engagement Show HN; strong community validation for a new tool/product.",
+        "article_summary": "GitHub - MinishLab/semble: Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITOR",
+        "comment_highlights": [
+          {
+            "by": "freakynit",
+            "text": "What I have personally observed with such tools is that they make the AI&#x27;s dumb, similar to how it makes coders dumb when relying more on AI tools. These agentic AI&#x27;s are already smart enough to figure out a highly optimized path to code exploration "
+          },
+          {
+            "by": "boyter",
+            "text": "Interesting. I too have been working in this space, though I took a different approach. Rather than building an index, I worked on making a &quot;smarter grep&quot; by offering search over codebases (and any text content really) with ranking and some structura"
+          },
+          {
+            "by": "esperent",
+            "text": "I did some evals with pi and GPT 5.5. I tested RTK on &#x2F; headroom on &#x2F; both on &#x2F; both off (all with the standard pi system instructions and no AGENTS.md). I forget the exact tests I used (a couple of the standard agent evals that people use, one "
+          },
+          {
+            "by": "jerezzprime",
+            "text": "I&#x27;d be interested in seeing actual agent benchmarks (eg CC or Copilot CLI with grep removed and this tool instead). For example, I have explored RTK and various LSP implementations and find that the models are so heavily RL&#x27;d with grep that they do n"
+          },
+          {
+            "by": "adelks",
+            "text": "I know this tool was meant for AI, but I am more interested in using it myself when exploring new code bases or even my own, when I want to refactor something and want an overview of where to change stuff. LSPs do that, but this tool sounds like it can go one "
+          },
+          {
+            "by": "jelder",
+            "text": "LSPs are already miles better than grep-like tools. This was true for humans as much as it is for LLMs. It&#x27;s a shame that Claude still treats it as a second-class citizen (both in the app itself and in the training). A simple &quot;remember to use LSP ins"
+          },
+          {
+            "by": "aadishv",
+            "text": "Seems like a cool idea so I decided to play with it a bit. The test I ran was in the browsercode ( https:&#x2F;&#x2F;github.com&#x2F;browser-use&#x2F;browsercode ) repo with the following prompt: &quot;Answer this question by only using the `semble` CLI (docs "
+          },
+          {
+            "by": "luodaint",
+            "text": "Metric that measures the quality beyond simple tokens count: correction loop frequency. When grep does not find a file of interest, the agent does not fail; it will continue working on an incomplete context. For a monolingual code base, the miss rate is okay. "
+          },
+          {
+            "by": "pu_pe",
+            "text": "&gt; uses 98% fewer tokens than grep So are we supposed to believe that grep is so wasteful that models are reading 98% useless garbage every time they call it? Either this claim is not representative, or you&#x27;re missing something else when you throw away "
+          },
+          {
+            "by": "andai",
+            "text": "Nice, this sounds great. I want to mention a related issue here, which is that on small codebases, Claude spends a lot of time looking for stuff when it could have just dumped the whole codebase into the context in one go and used very little tokens. I found a"
+          },
+          {
+            "by": "sonink",
+            "text": "The bigger problem with solutions like these is that most AI already know how to use grep and search really well because of their training. Any such new tool that you handle to the AI, takes away from the cognitive capability of the AI. Humans would normally &"
+          },
+          {
+            "by": "cagz",
+            "text": "Would be nice to see the actual % token&#x2F;time saving across end-to-end coding sessions over these time periods https:&#x2F;&#x2F;github.com&#x2F;MinishLab&#x2F;semble#savings My observation is that greps and the processing of grep outputs account for only "
+          },
+          {
+            "by": "cityofdelusion",
+            "text": "Feedback: codex-cli hangs when calling this through the MCP. The semble process even sticks around as a zombie, forever stalled out. No idea why, logs have nothing. When called through a skill via CLI style calling, GPT 5.5 loves to give a ton of search terms "
+          },
+          {
+            "by": "AussieWog93",
+            "text": "Better than grep obviously, but how does this compare to existing LSPs?"
+          },
+          {
+            "by": "luodaint",
+            "text": "&quot;The problem is that there are several bottlenecks internally,&quot; which include the requirements, specs, and testing. Another one not mentioned in the article. Before you had faster implementation times, something would take six weeks to implement. Fee"
+          },
+          {
+            "by": "singpolyma3",
+            "text": "Semantic code search seems like a useful tool for a human too. Not just for agents."
+          },
+          {
+            "by": "wrxd",
+            "text": "I also like the index feature form https:&#x2F;&#x2F;maki.sh Source code has a lot of structure, using a real parser instead of grepping and reading files can potentially save a lot of tokens"
+          },
+          {
+            "by": "digitaltrees",
+            "text": "Cool project. I built a custome IDE and coding agent harness and will integrate this into it. If you’re interested in a collaboration, I’d be happy to share revenue to sponsor your open source repo. https:&#x2F;&#x2F;calendly.com&#x2F;ryanwmartin&#x2F;open-off"
+          },
+          {
+            "by": "nextaccountic",
+            "text": "How does this compare with colgrep? https:&#x2F;&#x2F;github.com&#x2F;lightonai&#x2F;next-plaid&#x2F;tree&#x2F;main&#x2F;colgrep"
+          }
+        ]
+      },
+      {
+        "id": 48149461,
+        "title": "Show HN: Mezz, a curl-able WiFi sandbox for IoT pentesting",
+        "url": "https://github.com/ABGEO/mezz",
+        "score": 28,
+        "comments": 9,
+        "category_hint": "other",
+        "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
+        "article_summary": "GitHub - ABGEO/mezz: A self-contained wifi sandbox for inspecting your own IoT devices · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending",
+        "comment_highlights": null
+      }
+    ]
+  }
+}
