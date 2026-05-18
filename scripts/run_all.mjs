@@ -18,6 +18,7 @@ const PHASE_1 = [
   { name: "research_ml",      file: "scripts/research_ml_signals.mjs" },
   { name: "product_launch",   file: "scripts/product_launch_signals.mjs" },
   { name: "job_signals",      file: "scripts/job_signals.mjs" },
+  { name: "bigtech_ai_jobs",  file: "scripts/bigtech_ai_jobs.py" },
 ];
 
 // Phase 2: Deep context (depends on all Phase 1 data)
@@ -45,7 +46,10 @@ function runScript(script) {
 
     console.log(`[run_all] ▶ ${script.name}`);
 
-    const child = spawn("node", [script.file], {
+    // Determine if it's a Python or Node script
+    const isPython = script.file.endsWith(".py");
+    const cmd = isPython ? "python3" : "node";
+    const child = spawn(cmd, [script.file], {
       cwd: PROJECT_ROOT,
       timeout: 180_000, // 3 min per script
     });

@@ -1,0 +1,984 @@
+{
+  "source": "bigtech_ai_jobs",
+  "date": "2026-05-19",
+  "companies_targeted": [
+    "Google",
+    "Meta",
+    "OpenAI",
+    "Anthropic",
+    "xAI",
+    "Microsoft",
+    "Amazon",
+    "Tesla",
+    "Apple",
+    "Nvidia",
+    "Mistral AI",
+    "Cohere",
+    "Scale AI",
+    "Databricks",
+    "Snowflake"
+  ],
+  "total_collected": 81,
+  "jobs": [
+    {
+      "title": "Careers | OpenAI",
+      "url": "https://openai.com/careers/",
+      "company": "OpenAI",
+      "description": "Developing safe and beneficial AI systems requires people from a wide range of disciplines and backgrounds. We're always looking for curious minds to join our team.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Openai Ai Engineer Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-openai-ai-engineer-jobs.html",
+      "company": "OpenAI",
+      "description": "OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems an",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "OpenAI Jobs & Careers - 502 Open Positions | Glassdoor",
+      "url": "https://www.glassdoor.com/Jobs/OpenAI-Jobs-E2210885.htm",
+      "company": "OpenAI",
+      "description": "Search job openings at OpenAI. 502 OpenAI jobs including salaries, ratings, and reviews, posted by OpenAI employees.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers | OpenAI",
+      "url": "https://openai.com/careers/search/",
+      "company": "OpenAI",
+      "description": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "7,000+ Openai jobs in United States - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/openai-jobs",
+      "company": "OpenAI",
+      "description": "Today's top 7,000+ Openai jobs in United States. Leverage your professional network, and get hired. New Openai jobs added daily.",
+      "skills": [
+        "RAG",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Machine Learning Engineer, Integrity | OpenAI",
+      "url": "https://openai.com/careers/machine-learning-engineer-integrity-san-francisco/",
+      "company": "OpenAI",
+      "description": "You'll work on state-of-the-art models and classifiers, experiment with new architecture and approaches, and push forward our abilities in content and user ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Research Engineer / Machine Learning Engineer - Applied Voice",
+      "url": "https://openai.com/careers/research-engineer-machine-learning-engineer-applied-voice-san-francisco/",
+      "company": "OpenAI",
+      "description": "As a Research Engineer in OpenAI's Applied Voice Team, you will have the opportunity to work with some of the brightest minds in AI. You'll design and build ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Machine Learning Engineer, API Multicloud | OpenAI",
+      "url": "https://openai.com/careers/machine-learning-engineer-api-multicloud-san-francisco/",
+      "company": "OpenAI",
+      "description": "We're hiring Machine Learning Engineers to build and improve the AI systems that help strategic partners adapt OpenAI models to important use cases in cloud- ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Machine Learning Engineer, API Multicloud - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-api-multicloud-at-openai-4402407438",
+      "company": "OpenAI",
+      "description": "We're hiring Machine Learning Engineers to build and improve the AI systems that help strategic partners adapt OpenAI models to important use cases in cloud- ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Openai Machine Learning Engineer Interview Questions - PracHub",
+      "url": "https://prachub.com/companies/openai/positions/machine-learning-engineer",
+      "company": "OpenAI",
+      "description": "OpenAI Machine Learning Engineer interview questions typically probe both deep ML knowledge and practical engineering skills. Distinctive about OpenAI ...",
+      "skills": [
+        "ML",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "AI at Google - Google Careers",
+      "url": "https://www.google.com/about/careers/applications/ai",
+      "company": "Google",
+      "description": "Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging ...",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers at Google DeepMind",
+      "url": "https://deepmind.google/careers/",
+      "company": "Google",
+      "description": "Product Managers set out roadmaps for our AI products, and drive them from concept to implementation - in Google and Google DeepMind applications. They support cross-functional teams of researchers an",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "4,000+Google Ai Engineer Jobs in United States (1,589 new)",
+      "url": "https://www.linkedin.com/jobs/google-ai-engineer-jobs",
+      "company": "Google",
+      "description": "Today&rsquo;s top 4,000+ Google Ai Engineer jobs in United States. Leverage your professional network, and get hired. New Google Ai Engineer jobs added daily.",
+      "skills": [
+        "RAG",
+        "Go",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Google Ai Engineer Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-Google-Ai-Engineer-jobs.html",
+      "company": "Google",
+      "description": "926 Google Ai Engineer jobs available on Indeed.com. Apply to Senior Software Engineer, Senior Ai/ml Engineer, Staff Software Engineer and more!",
+      "skills": [
+        "Go",
+        "ML",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Google Cloud is hiring an army of AI deployment engineers",
+      "url": "https://www.channeldive.com/news/google-cloud-forward-deployed-engineering-jobs/820176/",
+      "company": "Google",
+      "description": "Google Cloud is hiring an army of AI deployment engineers The hyperscaler has job postings for 59 roles related to moving customers beyond experimentation, as deployment muscle becomes a front in the ",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "$84k-$135k Google Ai Engineer Jobs (NOW HIRING) May 2026 - ZipRecruiter",
+      "url": "https://www.ziprecruiter.com/Jobs/Google-Ai-Engineer",
+      "company": "Google",
+      "description": "Browse 861 GOOGLE AI ENGINEER jobs ($84k-$135k) from companies hiring now. New openings posted daily. Apply early, get seen first & 1-click apply!",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Google Jobs & Careers - 880 Open Positions | Glassdoor",
+      "url": "https://www.glassdoor.com/Jobs/Google-AI-Engineer-Jobs-EI_IE9079.0,6_KO7,18.htm",
+      "company": "Google",
+      "description": "Search job openings at Google. 880 Google jobs including salaries, ratings, and reviews, posted by Google employees.",
+      "skills": [
+        "Go"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Google Machine Learning Engineer jobs in United States",
+      "url": "https://www.linkedin.com/jobs/google-machine-learning-engineer-jobs",
+      "company": "Google",
+      "description": "Today&rsquo;s top Google Machine Learning Engineer jobs in United States. Leverage your professional network, and get hired. New Google Machine Learning Engineer jobs added daily.",
+      "skills": [
+        "RAG",
+        "Go",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Google Research Careers - Join Our Team",
+      "url": "https://research.google/careers/",
+      "company": "Google",
+      "description": "Find the right career path for you with Google Research. Our team needs talented people with experience in AI, Machine Learning and Natural Language ...",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Senior Research Scientist, Google Cloud AI Research",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/104135394223628998-senior-research-scientist-google-cloud-ai-research",
+      "company": "Google",
+      "description": "The Google Cloud AI Research team addresses AI challenges motivated by Google Cloud's mission of bringing AI to tech, healthcare, finance, retail and many other industries.",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Staff AI Research Scientist, Applied AI, Google Cloud",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/80980037435564742-staff-ai-research-scientist/",
+      "company": "Google",
+      "description": "Minimum qualifications: · PhD degree in Computer Science, a related field, or equivalent practical experience. · 4 years of experience with research agendas ...",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Research Scientist, Applied AI, Google Cloud - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/ai-research-scientist-applied-ai-google-cloud-at-google-4414747216",
+      "company": "Google",
+      "description": "AI Research Scientist, Applied AI, Google Cloud Google Sunnyvale, CA 1 day ago Be among the first 25 applicants See who Google has hired for this role",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Research Scientist, Frontier AI, Google DeepMind",
+      "url": "https://careers.google.com/jobs/results/109190501474673350-research-scientist/",
+      "company": "Google",
+      "description": "Minimum qualifications: PhD in Machine Learning, Computer Science, Statistics or a related field, or equivalent practical experience.",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Software Engineer III, AI/ML, Platforms and Devices — Google Careers",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/99701823501148870-software-engineer-iii-aiml-platforms-and-devices",
+      "company": "Google",
+      "description": "Minimum qualifications: Bachelor's degree or equivalent practical experience. 2 years of experience programming in Python or C++.",
+      "skills": [
+        "Go",
+        "Python",
+        "ML",
+        "AI"
+      ],
+      "role_type": "Infra/Platform",
+      "source": "web_search"
+    },
+    {
+      "title": "Software Engineer, AI/ML, Platforms and Devices — Google Careers",
+      "url": "https://careers.google.com/jobs/results/113799263376286406-software-engineer/",
+      "company": "Google",
+      "description": "Minimum qualifications: Bachelor's degree or equivalent practical experience. 2 years of experience with software development in one or more programming ...",
+      "skills": [
+        "Go",
+        "ML",
+        "AI"
+      ],
+      "role_type": "Infra/Platform",
+      "source": "web_search"
+    },
+    {
+      "title": "Job Openings at Meta - Meta Careers",
+      "url": "https://www.metacareers.com/jobsearch",
+      "company": "Meta",
+      "description": "Get personalized job recommendations from AI. The Meta AI recruiting assistant can recommend jobs based on your resume, location, and role preferences.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Artificial Intelligence Jobs | Build the Future at Meta",
+      "url": "https://www.metacareers.com/teams/technology/ai",
+      "company": "Meta",
+      "description": "Discover AI jobs at Meta. Build cutting-edge AI, from superintelligence & Llama to wearables & infrastructure. Shape the future of human connection & innovation.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Job Openings at Meta - Meta Careers",
+      "url": "https://www.metacareers.com/jobsearch/",
+      "company": "Meta",
+      "description": "Search open positions at Meta across AI, engineering, research, product, design, and more.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "1,000+ Meta Ai Engineer jobs in United States - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/meta-ai-engineer-jobs",
+      "company": "Meta",
+      "description": "Today's top 1,000+ Meta Ai Engineer jobs in United States. Leverage your professional network, and get hired. New Meta Ai Engineer jobs added daily.",
+      "skills": [
+        "RAG",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Ai Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-meta-ai-jobs.html",
+      "company": "Meta",
+      "description": "720 Meta Ai jobs available on Indeed.com. Apply to Network Engineer, Administration Executive, Product Analyst and more!",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Ai Hiring Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-meta-ai-hiring-jobs.html",
+      "company": "Meta",
+      "description": "2,828 Meta Ai Hiring jobs available on Indeed.com. Apply to Ai Developer, Machine Learning Engineer, Digital Marketing Manager and more!",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta's Hiring Spree Raised Compensation for Top AI Engineers ...",
+      "url": "https://www.deeplearning.ai/the-batch/metas-hiring-spree-raised-compensation-for-top-ai-engineers-and-executives",
+      "company": "Meta",
+      "description": "Dec 26, 2025 · Meta hired Ruoming Pang, who oversaw AI models at Apple. The pay package came to hundreds of millions of dollars over several years, Bloomberg ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Software Engineer, Machine Learning - Meta Careers",
+      "url": "https://www.metacareers.com/profile/job_details/1436181490732782/",
+      "company": "Meta",
+      "description": "Minimum Qualifications · Bachelor's degree in Computer Science, Computer Engineering, relevant technical field, or equivalent practical experience · Track ...",
+      "skills": [],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Careers",
+      "url": "https://www.metacareers.com/ML-prep-initial",
+      "company": "Meta",
+      "description": "Our Machine Learning engineers created this guide to help you understand what to expect and put your best foot forward during your initial interview. The initial interview is a 45-minute conversation ",
+      "skills": [],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta: Rejected for Machine Learning Engineer Position : r/leetcode - Reddit",
+      "url": "https://www.reddit.com/r/leetcode/comments/1gzmunk/meta_rejected_for_machine_learning_engineer/",
+      "company": "Meta",
+      "description": "Nov 25, 2024 · I wanted to share my experience and seek advice on whether it's worth reaching out to ask Meta to reconsider or allow me to reapply sooner.",
+      "skills": [],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Research Career & Job Openings - Meta Careers",
+      "url": "https://www.metacareers.com/careerprograms/research",
+      "company": "Meta",
+      "description": "The AI Mentorship Program at Meta is an open science research collaboration program with select partner universities to support the next generation of AI researchers.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Research Scientist Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-meta-research-scientist-jobs.html",
+      "company": "Meta",
+      "description": "Meta research scientist jobs. AI Research Scientist — Agentic AI for Materials Discovery. Meta. Pasadena, CA. $184,000 - $257,000 a year. View similar ...",
+      "skills": [
+        "AI",
+        "Agent"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Research Scientist Intern, AI Alignment - Meta Careers",
+      "url": "https://www.metacareers.com/profile/job_details/1782902493113620",
+      "company": "Meta",
+      "description": "We are seeking individuals passionate in areas such as deep learning, computer vision, optimization, natural language processing, machine learning, ...",
+      "skills": [
+        "Deep Learning",
+        "AI",
+        "Computer Vision"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Ai Research Scientist Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-meta-ai-research-scientist-jobs.html",
+      "company": "Meta",
+      "description": "829 Meta Ai Research Scientist jobs available on Indeed.com. Apply to Research Scientist, Multimodality Technologist, Senior Applied Scientist and more!",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Meta Machine Learning Engineer Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-Meta-Machine-Learning-Engineer-jobs.html",
+      "company": "Meta",
+      "description": "249 Meta Machine Learning Engineer jobs available on Indeed.com. Apply to Data Engineer, Machine Learning Engineer, Product Analyst and more!",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "311 Ml Engineer At Meta jobs in United States (12 new)",
+      "url": "https://www.linkedin.com/jobs/ml-engineer-at-meta-jobs",
+      "company": "Meta",
+      "description": "Today&rsquo;s top 311 Ml Engineer At Meta jobs in United States. Leverage your professional network, and get hired. New Ml Engineer At Meta jobs added daily.",
+      "skills": [
+        "RAG",
+        "ML",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers | Microsoft AI",
+      "url": "https://microsoft.ai/careers/",
+      "company": "Microsoft",
+      "description": "Join the team Join the team · Discipline · Country/region · Team · Member of Technical Staff, AI Product, Android Engineer · Member of Technical Staff, AI Product, ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Microsoft Artificial Intelligence Ai Engineer Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-microsoft-artificial-intelligence-ai-engineer-jobs.html",
+      "company": "Microsoft",
+      "description": "115 Microsoft Artificial Intelligence Ai Engineer jobs available on Indeed.com. Apply to Senior Software Engineer, Platform Engineer, Software Engineer and ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Open Positions - Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/careers/open-positions/",
+      "company": "Microsoft",
+      "description": "AI Engineer​ (10); Research engineer (7); Post-doc researcher (2); Engineering manager (2); Technical staff (2); Research manager (1) ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "27,000+ Microsoft Artificial Intelligence jobs in United States - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/microsoft-artificial-intelligence-jobs",
+      "company": "Microsoft",
+      "description": "Today's top 27000+ Microsoft Artificial Intelligence jobs in United States. Leverage your professional network, and get hired. New Microsoft Artificial ...",
+      "skills": [
+        "RAG"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Microsoft Azure AI Engineer - Accenture",
+      "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00287010_en",
+      "company": "Microsoft",
+      "description": "7 days ago · Microsoft Azure AI Engineer. Packaged Application Development Senior Analyst | Full time | Experience: 2-5 years. Job No. R00287010 ...",
+      "skills": [
+        "Go",
+        "Azure",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Microsoft Careers: Home",
+      "url": "https://careers.microsoft.com/",
+      "company": "Microsoft",
+      "description": "When you join Microsoft, you're not just stepping into a job— you're stepping into a mission-driven company where purpose is at the heart of everything we do.",
+      "skills": [],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Microsoft Jobs & Careers - 246 Open Positions | Glassdoor",
+      "url": "https://www.glassdoor.com/Jobs/Microsoft-ai-engineer-Jobs-EI_IE1651.0,9_KO10,21.htm",
+      "company": "Microsoft",
+      "description": "Microsoft Ai Engineer Jobs · AI Engineer (contract) · Senior Applied AI Engineer · AI Research Engineer II · Research Engineer - Generative AI - AI Frontiers.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "4,000+ Amazon Machine Learning Engineer jobs in United States",
+      "url": "https://www.linkedin.com/jobs/amazon-machine-learning-engineer-jobs",
+      "company": "Amazon",
+      "description": "Today's top 4000+ Amazon Machine Learning Engineer jobs in United States. Leverage your professional network, and get hired. New Amazon Machine Learning ...",
+      "skills": [
+        "RAG"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer, Foundation Models, Tesla AI",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineer-foundation-models-tesla-ai-229689",
+      "company": "Tesla",
+      "description": "We are hiring exceptional Software Engineers that can work across the machine learning stack, from designing and training neural architectures to deciding what ...",
+      "skills": [
+        "Training",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer, Vision & Foundation Models, Optimus - Tesla",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineer-vision-foundation-models-optimus-233307",
+      "company": "Tesla",
+      "description": "Apply for the AI Engineer, Vision & Foundation Models, Optimus position in Palo Alto, California.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer, ML Inference Optimization, Tesla AI",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineer-ml-inference-optimization-tesla-ai-255357",
+      "company": "Tesla",
+      "description": "Apply for the AI Engineer, ML Inference Optimization, Tesla AI position in Palo Alto, California.",
+      "skills": [
+        "ML",
+        "AI",
+        "Inference"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Tesla Ai Engineer Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-tesla-ai-engineer-jobs.html",
+      "company": "Tesla",
+      "description": "8879 Tesla Ai Engineer jobs available on Indeed.com. Apply to Ai Developer, Ai/ml Engineer, Prompt Engineer and more!",
+      "skills": [
+        "ML",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer, Manipulation, Optimus - Tesla",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineer-manipulation-optimus-224501",
+      "company": "Tesla",
+      "description": "Apply for the AI Engineer, Manipulation, Optimus position in Palo Alto, California ... Sick and Vacation time (Flex time for salary positions, Accrued hours for ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer, Reinforcement Learning, Self-Driving - Tesla",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineer-reinforcement-learning-self-driving--259019",
+      "company": "Tesla",
+      "description": "Apply for the AI Engineer, Reinforcement Learning, Self-Driving position in Palo Alto, California.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "$53k-$180k Tesla Ai Jobs (NOW HIRING) May 2026 - ZipRecruiter",
+      "url": "https://www.ziprecruiter.com/Jobs/Tesla-Ai",
+      "company": "Tesla",
+      "description": "Browse 1000+ TESLA AI jobs ($53k-$180k) from companies hiring now. New openings posted daily. Apply early, be seen first & 1-click apply ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineering Intern, Summer 2026 - Tesla",
+      "url": "https://www.tesla.com/careers/search/job/ai-engineering-intern-summer-2026-259784",
+      "company": "Tesla",
+      "description": "Tesla is seeking exceptional Machine Learning Interns to help build large scale models to drive the future of autonomy across all current and future ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers: Build AI That Advances Humanity - xAI",
+      "url": "https://x.ai/careers",
+      "company": "xAI",
+      "description": "If you've demonstrated the exceptional skills and mindset we're looking for, we'll extend an offer to join xAI. This isn't just a job offer; it's an invitation ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Open Roles | xAI & X Platform",
+      "url": "https://x.ai/careers/open-roles",
+      "company": "xAI",
+      "description": "Open Roles ; Design. Exceptional Designer. Palo Alto, CA ; Engineering. Exceptional Software Engineer. Austin, TX; New York, NY; Palo Alto, CA; Seattle, WA.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Infra/Platform",
+      "source": "web_search"
+    },
+    {
+      "title": "xAI hiring AI Engineer & Researcher - Inference in Palo Alto, CA | LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/ai-engineer-researcher-inference-at-xai-4103786588",
+      "company": "xAI",
+      "description": "The role is based in the Bay Area [San Francisco and Palo Alto]. Candidates are expected to be located near the Bay Area or open to relocation. Focus.",
+      "skills": [
+        "AI",
+        "Inference"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Open Roles | xAI & X Platform | xAI",
+      "url": "https://x.ai/careers/open-roles?location=remote",
+      "company": "xAI",
+      "description": "We are driven by ambitious goals, fast execution, and a strong sense of urgency. Join us if you want to shape the next generation of AI models and products.",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Infra/Platform",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers at xAI - a16z Jobs - Andreessen Horowitz",
+      "url": "https://jobs.a16z.com/jobs/xai",
+      "company": "xAI",
+      "description": "Careers at xAI · Water Treatment Engineer · Gas Pipeline Engineer · Permitting Specialist (Power Generation) · Permitting Specialist (Data Centers) · Electrical ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Open Roles | xAI & X Platform | xAI",
+      "url": "https://x.ai/careers/open-roles?dept=4024733007",
+      "company": "xAI",
+      "description": "We are driven by ambitious goals, fast execution, and a strong sense of urgency. Join us if you want to shape the next generation of AI models and products.Missing: hiring | Show results with:hiring",
+      "skills": [
+        "Go",
+        "AI"
+      ],
+      "role_type": "Infra/Platform",
+      "source": "web_search"
+    },
+    {
+      "title": "Explainable AI (XAI) Careers You Must Know About in 2026 - Tredence",
+      "url": "https://www.tredence.com/blog/explainable-ai-careers-roles-skills-2026",
+      "company": "xAI",
+      "description": "Nov 14, 2025 · XAI Research Scientists push explainability forward through frameworks and tools. They enable interpretable deep learning, trustworthy ...",
+      "skills": [
+        "Rust",
+        "Deep Learning",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Careers - build the future - Mistral AI",
+      "url": "https://mistral.ai/en/careers",
+      "company": "Mistral AI",
+      "description": "Build the future here at Mistral AI. Now seeking: AI explorers with an entrepreneurial spirit. Apply now",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Principal Research Scientist - AI Scaling & Optimization - Databricks",
+      "url": "https://www.databricks.com/company/careers/executive-engineering---pipeline/principal-research-scientist---ai-scaling--optimization-8532728002",
+      "company": "Databricks",
+      "description": "You will define and execute a research roadmap that advances the Databricks AI platform and delivers tangible improvements to how customers train, serve, and ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Senior GenAI Research Scientist - AI Efficiency & Optimization - Databricks",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/senior-genai-research-scientist---ai-efficiency--optimization-8540516002",
+      "company": "Databricks",
+      "description": "As a Sr. Research Scientist on the AI Research Team at Databricks, You Will: Define and lead independent research agendas on foundation model efficiency in ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Current job openings at Databricks",
+      "url": "https://www.databricks.com/company/careers/open-positions",
+      "company": "Databricks",
+      "description": "PhD GenAI Research Scientist InternSan Francisco, California ; Principal Research Scientist - AI Scaling & OptimizationMountain View, California; San Francisco, ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Principal Research Scientist – Scaling - Databricks - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/principal-research-scientist-%E2%80%93-scaling-at-databricks-4403240823",
+      "company": "Databricks",
+      "description": "3 days ago · Lead and grow a multidisciplinary research team focused on foundational and applied AI problems, with a particular emphasis on LLM scaling, ...",
+      "skills": [
+        "Go",
+        "LLM",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "AI & ML Engineering - Snowflake Careers",
+      "url": "https://careers.snowflake.com/us/en/ai-ml-engineering",
+      "company": "Snowflake",
+      "description": "Exciting opportunity for a Technical Director for AI Functions and lead transformative AI initiatives at Snowflake. Drive innovation in SQL-based AI solutions, ...",
+      "skills": [
+        "ML",
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Engineer - Cortex Code Quality in Menlo Park, California, United States",
+      "url": "https://careers.snowflake.com/us/en/job/SNCOUS600C817C79E0479180C5AB1941D33291EXTERNALENUS217B1D27815A4AD1B8B78FE52E57CD26/AI-Engineer-Cortex-Code-Quality",
+      "company": "Snowflake",
+      "description": "Own features end-to-end for Snowflake Cortex Code products. · Bachelor's degree in Computer Science, Engineering, Statistics or a related field. · Deep experience ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Engineering Jobs - Snowflake Careers",
+      "url": "https://careers.snowflake.com/us/en/c/engineering-jobs",
+      "company": "Snowflake",
+      "description": "Apply for Engineering jobs at Snowflake Careers. Browse our opportunities and apply today to a Snowflake Careers Engineering position.",
+      "skills": [],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "ML/AI Engineer with Snowflake (AI&Data) - Accenture",
+      "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00325695_en",
+      "company": "Snowflake",
+      "description": "4 days ago · Exposure to Snowflake Cortex or similar platform-native GenAI capabilities. Experience with building RAG-based solutions or LLM integrations.",
+      "skills": [
+        "RAG",
+        "AI",
+        "ML",
+        "Go",
+        "LLM"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Snowflake Ai Ml Jobs, Employment | Indeed",
+      "url": "https://www.indeed.com/q-snowflake-ai-ml-jobs.html",
+      "company": "Snowflake",
+      "description": "2214 Snowflake Ai Ml jobs available on Indeed.com. Apply to Ai/ml Engineer, Data Engineer, Senior Ai/ml Engineer and more!",
+      "skills": [
+        "ML",
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Staff AI Engineer - Cortex Code Agentic System - Snowflake Careers",
+      "url": "https://careers.snowflake.com/us/en/job/SNCOUSD7FC05D47C38447EB4DA840617CDB038EXTERNALENUSAE43323E8B104C01B1AF987145191D01/Staff-AI-Engineer-Cortex-Code-Agentic-System",
+      "company": "Snowflake",
+      "description": "The estimated base salary range for this role is $236,000 - $339,200. Additionally, this role is eligible to participate in Snowflake's bonus and equity plan.",
+      "skills": [
+        "AI",
+        "Agent"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Snowflake Generative Ai Jobs (NOW HIRING) - ZipRecruiter",
+      "url": "https://www.ziprecruiter.com/Jobs/Snowflake-Generative-Ai",
+      "company": "Snowflake",
+      "description": "Browse 60+ SNOWFLAKE GENERATIVE AI jobs ($59-$81/hr) from companies hiring now. New openings. Be seen first by employers and 1-click apply for ...",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "Engineering",
+      "source": "web_search"
+    },
+    {
+      "title": "Snowflake hiring AI Engineer - Cortex Code Quality in Bellevue, WA",
+      "url": "https://www.linkedin.com/jobs/view/ai-engineer-cortex-code-quality-at-snowflake-4393949438",
+      "company": "Snowflake",
+      "description": "The estimated base salary range for this role is $128,000 - $184,000. Additionally, this role is eligible to participate in Snowflake's bonus and equity plan.",
+      "skills": [
+        "AI"
+      ],
+      "role_type": "ML/AI Engineer",
+      "source": "web_search"
+    },
+    {
+      "title": "Staff Research Scientist, AI Agents & LLMs - Snowflake Careers",
+      "url": "https://careers.snowflake.com/us/en/job/SNCOUS307EB823D34D4A99B277A616163A4107EXTERNALENUSDEAEBF034681417BA870648D0D6A2A94/Staff-Research-Scientist-AI-Agents-LLMs",
+      "company": "Snowflake",
+      "description": "Apply for Staff Research Scientist, AI Agents & LLMs job in Bellevue, Washington, United States. Browse and apply for Engineering jobs at Snowflake.",
+      "skills": [
+        "AI",
+        "LLM",
+        "Agent"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "AI Research - Snowflake Careers",
+      "url": "https://careers.snowflake.com/us/en/ai-research",
+      "company": "Snowflake",
+      "description": "\"At Snowflake AI Research, we aim to advance science and deliver the state-of-the-art AI innovations to our customers. We celebrate curiosity, encourage ...",
+      "skills": [
+        "RAG",
+        "AI"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Staff Research Scientist, AI Agents & LLMs - LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/staff-research-scientist-ai-agents-llms-at-snowflake-4395275227",
+      "company": "Snowflake",
+      "description": "3 days ago · Snowflake Intelligence: Brought research to production through agentic innovations in multi-step reasoning, Deep Research for structured and ...",
+      "skills": [
+        "AI",
+        "Go",
+        "LLM",
+        "Agent"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    },
+    {
+      "title": "Staff Research Scientist, AI Agents & LLMs @ Snowflake | Wing ...",
+      "url": "https://careers.wing.vc/companies/snowflake/jobs/73252423-staff-research-scientist-ai-agents-llms",
+      "company": "Snowflake",
+      "description": "We are seeking a Staff Research Scientist to serve as a technical pillar within our AI research organization. You will not just execute on roadmaps—you will ...",
+      "skills": [
+        "AI",
+        "LLM",
+        "Agent"
+      ],
+      "role_type": "Research",
+      "source": "web_search"
+    }
+  ],
+  "summary": {
+    "by_company": {
+      "OpenAI": 10,
+      "Google": 15,
+      "Meta": 16,
+      "Microsoft": 7,
+      "Amazon": 1,
+      "Tesla": 8,
+      "xAI": 7,
+      "Mistral AI": 1,
+      "Databricks": 4,
+      "Snowflake": 12
+    },
+    "by_role": {
+      "Engineering": 36,
+      "ML/AI Engineer": 21,
+      "Research": 19,
+      "Infra/Platform": 5
+    },
+    "by_source": {
+      "web_search": 81
+    }
+  }
+}

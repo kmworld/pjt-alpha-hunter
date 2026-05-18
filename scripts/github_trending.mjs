@@ -227,7 +227,7 @@ function analyzeRepo(repo, description, language, topics, stars, recent_stars, r
 }
 
 function buildRepoSummary(repo, description, readme, allText) {
-  if (!description && !readme) return "Trending repo; limited info available.";
+  if (!description && !readme) return "Trending 레포; 정보 부족.";
 
   // Use description as base if strong
   if (description && description.length > 20) {
@@ -249,58 +249,58 @@ function buildRepoSummary(repo, description, readme, allText) {
 }
 
 function buildWhyPeopleCare(repo, description, recent_stars, allText) {
-  const velocity = (recent_stars || 0) > 0 ? `+${recent_stars} stars today` : "on GitHub Trending";
+  const velocity = (recent_stars || 0) > 0 ? `+${recent_stars} stars today` : "GitHub Trending";
 
   // AI agents
   if (hasAny(allText, ["agent", "agentic", "multi-agent", "mcp", "tool-use", "tool calling"])) {
-    return `Agents are the hot wedge right now — this repo solves a concrete agent problem and is pulling ${velocity}.`;
+    return `Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 ${velocity} 중.`;
   }
   // LLM inference / serving
   if (hasAny(allText, ["llm", "vllm", "tensorrt", "llama.cpp", "speculat", "inference", "serving"])) {
-    return `Low-latency, cheap inference is the bottleneck — this project attacks that and is gaining ${velocity}.`;
+    return `저지연/저비용 추론이 핵심 병목 — 이 프로젝트가 그 문제를 공격하며 ${velocity} 중.`;
   }
   // RAG / retrieval
   if (hasAny(allText, ["rag", "retrieval augmented", "vector search", "semantic search"])) {
-    return `Production RAG needs reliable retrieval, not demos — this repo is filling that gap with ${velocity}.`;
+    return `Production RAG는 데모가 아닌 신뢰할 수 있는 retrieval 필요 — 이 레포가 그 공백을 채우며 ${velocity} 중.`;
   }
   // Vector DB
   if (hasAny(allText, ["vector"]) && hasAny(allText, ["database", "db", "store", "index"])) {
-    return `Semantic search and embeddings are exploding; this vector store is riding that wave with ${velocity}.`;
+    return `Semantic search와 embeddings가 폭발 중; 이 vector store가 그 파도를 타고 ${velocity} 중.`;
   }
   // Fine-tuning / training
   if (hasAny(allText, ["fine-tun", "finetune", "sft", "rlhf", "grpo"])) {
-    return `Domain-specific fine-tuning is a moat — this tool makes it easier and is attracting ${velocity}.`;
+    return `도메인별 fine-tuning이 moat — 이 도구가 그 작업을 쉽게 하며 ${velocity} 중.`;
   }
   // On-device / quantization
   if (hasAny(allText, ["quantize", "gguf", "on-device", "edge"])) {
-    return `On-device and low-cost inference are critical for agents and mobile — this project enables that with ${velocity}.`;
+    return `On-device/저비용 추론이 agent와 모바일에 핵심 — 이 프로젝트가 가능하게 하며 ${velocity} 중.`;
   }
   // Security
   if (hasAny(allText, ["security", "audit", "vulnerab", "exploit", "hardening"])) {
-    return `AI and infra stacks are prime targets — defensive tooling is under-supplied, hence ${velocity}.`;
+    return `AI/infra 스택이 주요 타겟 — 방어 도구가 과소공급되어 ${velocity} 중.`;
   }
   // Crypto / Web3
   if (hasAny(allText, ["crypto", "web3", "blockchain", "token", "defi", "zk"])) {
-    return `Crypto/Web3 is seeing renewed infra interest — this project is capturing that with ${velocity}.`;
+    return `Crypto/Web3의 인프라 관심이 재고 — 이 프로젝트가 그 파도를 잡고 ${velocity} 중.`;
   }
   // Infra / K8s / observability
   if (hasAny(allText, ["infra", "kubernetes", "k8s", "container", "docker", "observab"])) {
-    return `AI/ML workloads are pushing infra to the limit — this tool helps and is pulling ${velocity}.`;
+    return `AI/ML 워크로드가 인프라를 한계까지 밀어붙임 — 이 도구가 해결하며 ${velocity} 중.`;
   }
   // Devtools / CLIs / IDEs
   if (hasAny(allText, ["ide", "editor", "vscode", "neovim", "devtools", "cli"])) {
-    return `AI-native dev tools are reshaping how engineers work — this one is resonating with ${velocity}.`;
+    return `AI-native dev tools가 엔지니어 작업 방식 재정의 — 이 도구가 ${velocity}로 공명 중.`;
   }
   // Data / ETL
   if (hasAny(allText, ["data", "etl", "pipeline", "streaming"])) {
-    return `Training, analytics, and agent memory all depend on data pipelines — this is filling that need with ${velocity}.`;
+    return `Training/analytics/agent memory 모두 data pipeline에 의존 — 이 프로젝트가 그 필요를 채우며 ${velocity} 중.`;
   }
   // Testing / e2e
   if (hasAny(allText, ["testing", "e2e", "playwright", "cypress"])) {
-    return `AI/ML and infra systems need more rigorous testing — this framework is answering that with ${velocity}.`;
+    return `AI/ML/infra 시스템이 더 엄격한 테스트 필요 — 이 프레임워크가 ${velocity}로 응답 중.`;
   }
-  // Fallback: still specific, no fluff
-  return `Trending with ${velocity}; worth watching, though specifics are unclear from metadata alone.`;
+  // Fallback
+  return `${velocity}로 Trending; watch할 가치가 있지만 메타데이터만으로는 구체적 분석이 어려움.`;
 }
 
 function extractArchitectureTech(language, topics, allText) {

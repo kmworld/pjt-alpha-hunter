@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "generatedAt": "2026-05-18T15:02:53.870Z",
+  "generatedAt": "2026-05-18T15:48:32.990Z",
   "sources": {
     "github_trending": {
       "count": 15,
@@ -12,7 +12,7 @@
       "valid": true
     },
     "reddit": {
-      "totalPosts": 58,
+      "totalPosts": 56,
       "valid": true
     },
     "research_ml": {
@@ -36,7 +36,7 @@
           "repo": "tinyhumansai/openhuman",
           "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
           "language": "Rust",
-          "stars": 16062,
+          "stars": null,
           "recent_stars": 3945,
           "url": "https://github.com/tinyhumansai/openhuman",
           "topics": [
@@ -44,69 +44,116 @@
             "private",
             "extremely"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "On-device/저비용 추론이 agent와 모바일에 핵심 — 이 프로젝트가 가능하게 하며 +3945 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": false,
+          "repo_summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "architecture_tech": [
+            "Rust",
+            "intelligence",
+            "private",
+            "extremely"
+          ]
         },
         {
           "repo": "CloakHQ/CloakBrowser",
           "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
           "language": "Python",
-          "stars": 14732,
+          "stars": null,
           "recent_stars": 1391,
           "url": "https://github.com/CloakHQ/CloakBrowser",
           "topics": [
-            "ai-agents",
-            "anti-detect",
-            "antidetect-browser",
-            "bot-detection",
-            "browser-automation",
-            "captcha-bypass",
+            "stealth",
             "chromium",
-            "cloudflare"
+            "passes",
+            "every",
+            "detection"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "AI/ML 워크로드가 인프라를 한계까지 밀어붙임 — 이 도구가 해결하며 +1391 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "architecture_tech": [
+            "Python",
+            "python",
+            "javascript",
+            "go",
+            "docker",
+            "gpu",
+            "stealth",
+            "chromium",
+            "passes",
+            "every"
+          ]
         },
         {
           "repo": "Imbad0202/academic-research-skills",
           "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
           "language": "Python",
-          "stars": 10808,
+          "stars": null,
           "recent_stars": 1302,
           "url": "https://github.com/Imbad0202/academic-research-skills",
           "topics": [
-            "academic-pipeline",
-            "academic-writing",
-            "ai-research",
+            "research",
+            "academic",
+            "skills",
             "claude",
-            "claude-code",
-            "literature-review",
-            "peer-review",
-            "prompt-engineering"
+            "write"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Production RAG는 데모가 아닌 신뢰할 수 있는 retrieval 필요 — 이 레포가 그 공백을 채우며 +1302 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "architecture_tech": [
+            "Python",
+            "go",
+            "research",
+            "academic",
+            "skills",
+            "claude",
+            "write"
+          ]
         },
         {
           "repo": "tech-leads-club/agent-skills",
           "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
           "language": "TypeScript",
-          "stars": 3867,
+          "stars": null,
           "recent_stars": 1244,
           "url": "https://github.com/tech-leads-club/agent-skills",
           "topics": [
-            "agent",
-            "ai",
-            "antigravity",
-            "claude-code",
-            "copilot",
-            "cursor",
-            "skills"
+            "secure",
+            "validated",
+            "skill",
+            "registry",
+            "professional"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +1244 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confid",
+          "architecture_tech": [
+            "TypeScript",
+            "rust",
+            "typescript",
+            "go",
+            "mcp",
+            "secure",
+            "validated",
+            "skill",
+            "registry",
+            "professional"
+          ]
         },
         {
           "repo": "HKUDS/CLI-Anything",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
-          "stars": 36382,
+          "stars": null,
           "recent_stars": 1047,
           "url": "https://github.com/HKUDS/CLI-Anything",
           "topics": [
@@ -116,189 +163,310 @@
             "agent-native",
             "cli-hub"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +1047 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "architecture_tech": [
+            "Python",
+            "python",
+            "go",
+            "tpu",
+            "cli-anything",
+            "making",
+            "software",
+            "agent-native",
+            "cli-hub"
+          ]
         },
         {
           "repo": "microsoft/ai-agents-for-beginners",
           "description": "12 Lessons to Get Started Building AI Agents",
           "language": "Jupyter Notebook",
-          "stars": 63203,
+          "stars": null,
           "recent_stars": 1013,
           "url": "https://github.com/microsoft/ai-agents-for-beginners",
           "topics": [
-            "agentic-ai",
-            "agentic-framework",
-            "agentic-rag",
-            "ai-agents",
-            "ai-agents-framework",
-            "autogen",
-            "generative-ai",
-            "semantic-kernel"
+            "lessons",
+            "started",
+            "building",
+            "agents"
           ],
-          "why_notable": ""
-        },
-        {
-          "repo": "ruvnet/RuView",
-          "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-          "language": "Rust",
-          "stars": 59622,
-          "recent_stars": 963,
-          "url": "https://github.com/ruvnet/RuView",
-          "topics": [
-            "agentic-ai",
-            "densepose",
-            "esp32",
-            "firmware",
-            "mcu",
-            "mincut",
-            "monitoring",
-            "pose-estimation"
-          ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +1013 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "12 Lessons to Get Started Building AI Agents",
+          "architecture_tech": [
+            "Jupyter Notebook",
+            "lessons",
+            "started",
+            "building",
+            "agents"
+          ]
         },
         {
           "repo": "supertone-inc/supertonic",
           "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
           "language": "Swift",
-          "stars": 8099,
+          "stars": null,
           "recent_stars": 827,
           "url": "https://github.com/supertone-inc/supertonic",
           "topics": [
-            "cpp",
-            "csharp",
-            "flutter",
-            "go",
-            "ios",
-            "java",
-            "lightweight",
-            "multilingual"
+            "lightning-fast",
+            "on-device",
+            "multilingual",
+            "running",
+            "natively"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "저지연/저비용 추론이 핵심 병목 — 이 프로젝트가 그 문제를 공격하며 +827 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": false,
+          "repo_summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "architecture_tech": [
+            "Swift",
+            "python",
+            "go",
+            "tpu",
+            "gpu",
+            "lightning-fast",
+            "on-device",
+            "multilingual",
+            "running",
+            "natively"
+          ]
         },
         {
           "repo": "BigBodyCobain/Shadowbroker",
           "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one u",
           "language": "Python",
-          "stars": 7548,
+          "stars": null,
           "recent_stars": 768,
           "url": "https://github.com/BigBodyCobain/Shadowbroker",
           "topics": [
-            "air-force-one",
-            "airforce1",
-            "asdb",
-            "cctv",
-            "cctv-cameras",
-            "cctv-surveillance",
-            "earthquake-visualization",
-            "elonjet"
+            "open-source",
+            "intelligence",
+            "global",
+            "theater",
+            "track"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +768 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic event",
+          "architecture_tech": [
+            "Python",
+            "python",
+            "next.js",
+            "rest",
+            "open-source",
+            "intelligence",
+            "global",
+            "theater",
+            "track"
+          ]
+        },
+        {
+          "repo": "ruvnet/RuView",
+          "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "language": "Rust",
+          "stars": null,
+          "recent_stars": 704,
+          "url": "https://github.com/ruvnet/RuView",
+          "topics": [
+            "ruview",
+            "turns",
+            "commodity",
+            "signals",
+            "real-time"
+          ],
+          "why_notable": "",
+          "why_people_care": "On-device/저비용 추론이 agent와 모바일에 핵심 — 이 프로젝트가 가능하게 하며 +704 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": false,
+          "repo_summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel ",
+          "architecture_tech": [
+            "Rust",
+            "ruview",
+            "turns",
+            "commodity",
+            "signals",
+            "real-time"
+          ]
         },
         {
           "repo": "plausible/analytics",
           "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
           "language": "Elixir",
-          "stars": 25775,
+          "stars": null,
           "recent_stars": 637,
           "url": "https://github.com/plausible/analytics",
           "topics": [
             "analytics",
-            "analytics-dashboard",
-            "clickhouse",
-            "elixir",
-            "google-analytics",
-            "marketing",
-            "open-source-analytics",
-            "phoenix"
+            "source",
+            "privacy-first",
+            "lightweight",
+            "cookie-free"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Crypto/Web3의 인프라 관심이 재고 — 이 프로젝트가 그 파도를 잡고 +637 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": true,
+          "repo_summary": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+          "architecture_tech": [
+            "Elixir",
+            "rust",
+            "go",
+            "analytics",
+            "source",
+            "privacy-first",
+            "lightweight",
+            "cookie-free"
+          ]
         },
         {
           "repo": "K-Dense-AI/scientific-agent-skills",
           "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
           "language": "Python",
-          "stars": 24213,
+          "stars": null,
           "recent_stars": 610,
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
           "topics": [
-            "agent-skills",
-            "ai-scientist",
-            "bioinformatics",
-            "chemoinformatics",
-            "claude",
-            "claude-skills",
-            "claudecode",
-            "clinical-research"
+            "ready",
+            "agent",
+            "skills",
+            "research",
+            "science"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +610 stars today 중.",
+          "is_rising_star": true,
+          "new_this_day": false,
+          "repo_summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "architecture_tech": [
+            "Python",
+            "python",
+            "go",
+            "ready",
+            "agent",
+            "skills",
+            "research",
+            "science"
+          ]
         },
         {
           "repo": "NVlabs/Sana",
           "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
           "language": "Python",
-          "stars": 6357,
-          "recent_stars": 472,
+          "stars": null,
+          "recent_stars": 376,
           "url": "https://github.com/NVlabs/Sana",
           "topics": [
-            "diffusion",
-            "dit",
-            "linear-transformer",
-            "nvfp4",
-            "pytorch",
-            "reinforcement-learning",
-            "sana",
-            "system-algorithm-deisgn"
+            "efficient",
+            "high-resolution",
+            "image",
+            "synthesis",
+            "linear"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "저지연/저비용 추론이 핵심 병목 — 이 프로젝트가 그 문제를 공격하며 +376 stars today 중.",
+          "is_rising_star": false,
+          "new_this_day": true,
+          "repo_summary": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+          "architecture_tech": [
+            "Python",
+            "go",
+            "rest",
+            "efficient",
+            "high-resolution",
+            "image",
+            "synthesis",
+            "linear"
+          ]
         },
         {
           "repo": "humanlayer/12-factor-agents",
           "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
           "language": "TypeScript",
-          "stars": 20317,
+          "stars": null,
           "recent_stars": 359,
           "url": "https://github.com/humanlayer/12-factor-agents",
           "topics": [
-            "12-factor",
-            "12-factor-agents",
-            "agents",
-            "ai",
-            "context-window",
-            "framework",
-            "llms",
-            "memory"
+            "principles",
+            "build",
+            "llm-powered",
+            "software",
+            "actually"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +359 stars today 중.",
+          "is_rising_star": false,
+          "new_this_day": true,
+          "repo_summary": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+          "architecture_tech": [
+            "TypeScript",
+            "go",
+            "principles",
+            "build",
+            "llm-powered",
+            "software",
+            "actually"
+          ]
         },
         {
           "repo": "ZhuLinsen/daily_stock_analysis",
           "description": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
           "language": "Python",
-          "stars": 36863,
+          "stars": null,
           "recent_stars": 290,
           "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
           "topics": [
-            "a-stock",
-            "ai-agent",
-            "aigc",
-            "llm",
-            "quant",
-            "quantitative-finance",
-            "quantitative-trading"
+            "llm-powered",
+            "stock",
+            "analysis",
+            "system",
+            "markets"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "Agent가 현재 가장 뜨거운 분야 — 이 프로젝트는 구체적인 agent 문제를 해결하며 +290 stars today 중.",
+          "is_rising_star": false,
+          "new_this_day": true,
+          "repo_summary": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+          "architecture_tech": [
+            "Python",
+            "python",
+            "go",
+            "docker",
+            "llm-powered",
+            "stock",
+            "analysis",
+            "system",
+            "markets"
+          ]
         },
         {
           "repo": "ggml-org/llama.cpp",
           "description": "LLM inference in C/C++",
           "language": "C++",
-          "stars": 110818,
+          "stars": null,
           "recent_stars": 179,
           "url": "https://github.com/ggml-org/llama.cpp",
           "topics": [
-            "ggml"
+            "inference"
           ],
-          "why_notable": ""
+          "why_notable": "",
+          "why_people_care": "저지연/저비용 추론이 핵심 병목 — 이 프로젝트가 그 문제를 공격하며 +179 stars today 중.",
+          "is_rising_star": false,
+          "new_this_day": true,
+          "repo_summary": "LLM inference in C/C++",
+          "architecture_tech": [
+            "C++",
+            "llama.cpp",
+            "inference"
+          ]
         }
       ]
     },
@@ -455,7 +623,7 @@
         {
           "title": "An AI hate wave is here",
           "url": "https://www.reddit.com/r/technology/comments/1tfuroe/an_ai_hate_wave_is_here/",
-          "score": 15883,
+          "score": 15898,
           "comments": 2061,
           "subreddit": "r/technology",
           "post_summary": "An AI hate wave is here An AI hate wave is here. relevant to AI, infrastructure, or open-source ecosystem movements"
@@ -463,23 +631,23 @@
         {
           "title": "Former Microsoft VP says Microsoft missed the AI wave like the internet and mobile, as Copilot scales back in Windows 11",
           "url": "https://www.reddit.com/r/technology/comments/1tg8uvr/former_microsoft_vp_says_microsoft_missed_the_ai/",
-          "score": 8009,
-          "comments": 771,
+          "score": 8093,
+          "comments": 782,
           "subreddit": "r/technology",
           "post_summary": "Former Microsoft VP says Microsoft missed the AI wave like the internet and mobile, as Copilot scales back in Windows 11 Being more intentional about how Copilot integrates\" is corporate speak for \"so"
         },
         {
           "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’",
           "url": "https://www.reddit.com/r/technology/comments/1tgewe8/linus_torvalds_says_aipowered_bug_hunters_have/",
-          "score": 8015,
-          "comments": 526,
+          "score": 8135,
+          "comments": 542,
           "subreddit": "r/technology",
           "post_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Last time Linus got sufficiently annoyed about tools used for managing Linux development"
         },
         {
           "title": "The Death of Entry-Level Jobs: 43% of CEOs plan to slash junior roles over the next two years, shifting hiring to older, mid-level workers as AI takes over routine tasks, creating a catastrophic bottleneck for the future workforce.",
           "url": "https://www.reddit.com/r/Futurology/comments/1tg0rtt/the_death_of_entrylevel_jobs_43_of_ceos_plan_to/",
-          "score": 6539,
+          "score": 6568,
           "comments": 499,
           "subreddit": "r/futurology",
           "post_summary": "The Death of Entry-Level Jobs: 43% of CEOs plan to slash junior roles over the next two years, shifting hiring to older, mid-level workers as AI takes over routine tasks, creating a catastrophic bottl"
@@ -487,50 +655,50 @@
         {
           "title": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also also manipulated to address user as ‘My Lord’",
           "url": "https://www.reddit.com/r/technology/comments/1tfwsim/linkedin_user_hides_ai_prompt_injection_in_bio_to/",
-          "score": 6052,
-          "comments": 143,
+          "score": 6063,
+          "comments": 144,
           "subreddit": "r/technology",
           "post_summary": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also also manipulated to address user as ‘My Lord’ Is this the only way to even get you"
         },
         {
           "title": "Gavin Newsom proposes a California digital software tax",
           "url": "https://www.reddit.com/r/technology/comments/1tg9itb/gavin_newsom_proposes_a_california_digital/",
-          "score": 4296,
-          "comments": 635,
+          "score": 4324,
+          "comments": 637,
           "subreddit": "r/technology",
           "post_summary": "Gavin Newsom proposes a California digital software tax Almost zero chance he's buying ANY software in Best Buy.  C'mon dude.. &gt; \"As someone who lives near a Best Buy, I'm at Best Buy often,\" Newso"
         },
         {
           "title": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom",
           "url": "https://www.reddit.com/r/technology/comments/1tgaxod/a_45000person_labor_strike_at_samsungs_memory/",
-          "score": 3649,
-          "comments": 123,
+          "score": 3659,
+          "comments": 124,
           "subreddit": "r/technology",
           "post_summary": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom love how the headline frames workers fighting for fair pay as a \"wrench\" in corporate profits &gt;Sam"
         },
         {
           "title": "AI license plate cameras tore this town apart and led to a state of emergency",
           "url": "https://www.reddit.com/r/technology/comments/1tfzzg7/ai_license_plate_cameras_tore_this_town_apart_and/",
-          "score": 2586,
+          "score": 2596,
           "comments": 131,
           "subreddit": "r/technology",
           "post_summary": "AI license plate cameras tore this town apart and led to a state of emergency &gt;Mayor Carmella Mantello, flanked by officers in blue, accused the city council of “defunding” the police and declared "
         },
         {
-          "title": "The AI Hate Wave Is Here",
-          "url": "https://www.reddit.com/r/Futurology/comments/1tg3wm7/the_ai_hate_wave_is_here/",
-          "score": 1447,
-          "comments": 360,
-          "subreddit": "r/futurology",
-          "post_summary": "The AI Hate Wave Is Here The AI Hate Wave Is Here. relevant to AI, infrastructure, or open-source ecosystem movements"
-        },
-        {
           "title": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement",
           "url": "https://www.reddit.com/r/technology/comments/1tgn94p/exgoogle_ceo_eric_schmidt_booed_after_ai_remarks/",
-          "score": 1423,
-          "comments": 76,
+          "score": 1656,
+          "comments": 86,
           "subreddit": "r/technology",
           "post_summary": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement ​It is hilarious how these tech billionaires think they can stand in front of a crowd of graduates and lecture them about AI. "
+        },
+        {
+          "title": "The AI Hate Wave Is Here",
+          "url": "https://www.reddit.com/r/Futurology/comments/1tg3wm7/the_ai_hate_wave_is_here/",
+          "score": 1446,
+          "comments": 362,
+          "subreddit": "r/futurology",
+          "post_summary": "The AI Hate Wave Is Here The AI Hate Wave Is Here. relevant to AI, infrastructure, or open-source ecosystem movements"
         },
         {
           "title": "Yum Brands, Nvidia will deploy new AI at 500 restaurants",
@@ -543,23 +711,23 @@
         {
           "title": "American Jobs with AI Exposure Really Are Starting to Disappear, Data Show",
           "url": "https://www.reddit.com/r/technology/comments/1tghnoe/american_jobs_with_ai_exposure_really_are/",
-          "score": 1078,
-          "comments": 218,
+          "score": 1112,
+          "comments": 221,
           "subreddit": "r/technology",
-          "post_summary": "American Jobs with AI Exposure Really Are Starting to Disappear, Data Show &gt;involve interfacing between people and systems. There's going to be a reckoning with roles in this specific area, because"
+          "post_summary": "American Jobs with AI Exposure Really Are Starting to Disappear, Data Show"
         },
         {
           "title": "The U.S. Still Doesn't Have an Answer to China's EV Dominance",
           "url": "https://www.reddit.com/r/technology/comments/1tg0aju/the_us_still_doesnt_have_an_answer_to_chinas_ev/",
-          "score": 1038,
-          "comments": 365,
+          "score": 1040,
+          "comments": 367,
           "subreddit": "r/technology",
           "post_summary": "The U.S. Still Doesn't Have an Answer to China's EV Dominance The US companies spent their subsidies on profits for shareholders rather than value for consumers. What do you mean? They already answere"
         },
         {
           "title": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
           "url": "https://www.reddit.com/r/technology/comments/1tfywhc/pope_decries_rise_of_aidirected_warfare_saying_it/",
-          "score": 964,
+          "score": 968,
           "comments": 58,
           "subreddit": "r/technology",
           "post_summary": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation Holy s\\*hit. We're in a timeline now in 26 where the Pope is warning about Robot wars. We're so back This is the k"
@@ -567,39 +735,39 @@
         {
           "title": "OrcaSlicer developer Josef Prusa says Bambu Lab allegedly violates AGPL license with an un-auditable network \"black box\" — warns Chinese 3D printing software poses massive security risks",
           "url": "https://www.reddit.com/r/technology/comments/1tfy723/orcaslicer_developer_josef_prusa_says_bambu_lab/",
-          "score": 867,
+          "score": 864,
           "comments": 52,
           "subreddit": "r/technology",
           "post_summary": "OrcaSlicer developer Josef Prusa says Bambu Lab allegedly violates AGPL license with an un-auditable network \"black box\" — warns Chinese 3D printing software poses massive security risks This title is"
         },
         {
+          "title": "Windows 11 looks and runs better without transparency or animations—here's how to disable both",
+          "url": "https://www.reddit.com/r/technology/comments/1tge855/windows_11_looks_and_runs_better_without/",
+          "score": 757,
+          "comments": 75,
+          "subreddit": "r/technology",
+          "post_summary": "Windows 11 looks and runs better without transparency or animations—here's how to disable both All you have to do is go to Settings &gt; Personalization &gt; Color and then disable \"Transparency effec"
+        },
+        {
           "title": "Polymarket Spreads Sensationalist Garbage About Hantavirus Case in U.S.",
           "url": "https://www.reddit.com/r/technology/comments/1tfzvzt/polymarket_spreads_sensationalist_garbage_about/",
-          "score": 759,
-          "comments": 48,
+          "score": 760,
+          "comments": 49,
           "subreddit": "r/technology",
           "post_summary": "Polymarket Spreads Sensationalist Garbage About Hantavirus Case in U.S. We need polymarket to act as a Darwin Award test for idiots with extra cash. Gambling on life outcomes... This is peak late stag"
         },
         {
           "title": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet.",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfyut4/technically_my_website_could_make_me_80_billion/",
-          "score": 720,
+          "score": 724,
           "comments": 224,
           "subreddit": "r/cryptocurrency",
           "post_summary": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet. Yo bro give each of us some BTC once you get it. Don't forget your root"
         },
         {
-          "title": "Windows 11 looks and runs better without transparency or animations—here's how to disable both",
-          "url": "https://www.reddit.com/r/technology/comments/1tge855/windows_11_looks_and_runs_better_without/",
-          "score": 745,
-          "comments": 73,
-          "subreddit": "r/technology",
-          "post_summary": "Windows 11 looks and runs better without transparency or animations—here's how to disable both All you have to do is go to Settings &gt; Personalization &gt; Color and then disable \"Transparency effec"
-        },
-        {
           "title": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
           "url": "https://www.reddit.com/r/Futurology/comments/1tfva8u/pope_decries_rise_of_aidirected_warfare_saying_it/",
-          "score": 734,
+          "score": 738,
           "comments": 38,
           "subreddit": "r/futurology",
           "post_summary": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation"
@@ -607,15 +775,15 @@
         {
           "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tgibc2/linus_torvalds_says_aipowered_bug_hunters_have/",
-          "score": 633,
-          "comments": 47,
+          "score": 638,
+          "comments": 48,
           "subreddit": "r/cybersecurity",
           "post_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’"
         },
         {
           "title": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments.",
           "url": "https://www.reddit.com/r/Futurology/comments/1tgjx35/scientists_catch_antimatter_atom_acting_like_a/",
-          "score": 455,
+          "score": 486,
           "comments": 20,
           "subreddit": "r/futurology",
           "post_summary": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments."
@@ -623,7 +791,7 @@
         {
           "title": "A million baby monitors and security cameras were easily viewable by hackers",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tg2s2h/a_million_baby_monitors_and_security_cameras_were/",
-          "score": 436,
+          "score": 433,
           "comments": 27,
           "subreddit": "r/cybersecurity",
           "post_summary": "A million baby monitors and security cameras were easily viewable by hackers It ticks me off more than it should that a) this isn’t the first time nor the last time that this has happened with child d"
@@ -631,7 +799,7 @@
         {
           "title": "​A New Legal Precedent: Chinese court orders tech company to pay £28,000 ($35,000) in compensation to a worker who was fired and replaced by AI.",
           "url": "https://www.reddit.com/r/Futurology/comments/1tgde26/a_new_legal_precedent_chinese_court_orders_tech/",
-          "score": 416,
+          "score": 420,
           "comments": 19,
           "subreddit": "r/futurology",
           "post_summary": "​A New Legal Precedent: Chinese court orders tech company to pay £28,000 ($35,000) in compensation to a worker who was fired and replaced by AI."
@@ -639,7 +807,7 @@
         {
           "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tgda6s/new_windows_miniplasma_zeroday_exploit_gives/",
-          "score": 343,
+          "score": 342,
           "comments": 44,
           "subreddit": "r/cybersecurity",
           "post_summary": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released This is... Pretty bad. It sounds like a regression in Microsoft's source code, but if that's true it really makes me wonder "
@@ -647,8 +815,8 @@
         {
           "title": "Iran Introduces Bitcoin-Based Maritime Insurance Platform for Hormuz Shipping",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tgje7w/iran_introduces_bitcoinbased_maritime_insurance/",
-          "score": 276,
-          "comments": 43,
+          "score": 285,
+          "comments": 46,
           "subreddit": "r/cryptocurrency",
           "post_summary": "Iran Introduces Bitcoin-Based Maritime Insurance Platform for Hormuz Shipping Iran rolled out something called Hormuz Safe... a state-backed maritime insurance setup for vessels operating in the Persi"
         }
@@ -943,6 +1111,13 @@
           "why_notable": "Notable new launch"
         },
         {
+          "name": "Shadow",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/shadow-4",
+          "why_notable": "Notable new launch"
+        },
+        {
           "name": "Origio",
           "tagline": "",
           "votes": 0,
@@ -950,11 +1125,11 @@
           "why_notable": "Notable new launch"
         },
         {
-          "name": "Polarity",
+          "name": "Searchad.ai",
           "tagline": "",
           "votes": 0,
-          "url": "https://www.producthunt.com/products/polarity-2",
-          "why_notable": "Notable new launch"
+          "url": "https://www.producthunt.com/products/searchad-ai",
+          "why_notable": "AI-native"
         },
         {
           "name": "Agentspan",
@@ -964,17 +1139,10 @@
           "why_notable": "AI-native"
         },
         {
-          "name": "SizzleAir",
+          "name": "Polarity",
           "tagline": "",
           "votes": 0,
-          "url": "https://www.producthunt.com/products/sizzleair",
-          "why_notable": "AI-native"
-        },
-        {
-          "name": "M1 by Montage",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/montage-3",
+          "url": "https://www.producthunt.com/products/polarity-2",
           "why_notable": "Notable new launch"
         },
         {
@@ -985,10 +1153,10 @@
           "why_notable": "AI-native"
         },
         {
-          "name": "QuickRight",
+          "name": "SocLeads 3.0",
           "tagline": "",
           "votes": 0,
-          "url": "https://www.producthunt.com/products/capture-6",
+          "url": "https://www.producthunt.com/products/socleads",
           "why_notable": "Notable new launch"
         },
         {
@@ -1090,35 +1258,13 @@
   "keyword_clusters": [
     {
       "name": "Security",
-      "count": 19,
+      "count": 21,
       "sample_terms": [
         "security(9)",
         "linux security(4)",
         "security mailing(4)",
+        "privacy-first(2)",
         "exploit(2)"
-      ]
-    },
-    {
-      "name": "AI Agent Infra",
-      "count": 16,
-      "sample_terms": [
-        "agents(4)",
-        "ai-agents(2)",
-        "agent-skills(2)",
-        "agent(2)",
-        "agent-native(2)",
-        "agentic-ai(2)",
-        "12-factor-agents(2)"
-      ]
-    },
-    {
-      "name": "AI Coding / DevTools",
-      "count": 11,
-      "sample_terms": [
-        "code(5)",
-        "claude-code(2)",
-        "coding(2)",
-        "hides(2)"
       ]
     },
     {
@@ -1132,21 +1278,45 @@
       ]
     },
     {
-      "name": "LLM / Reasoning",
+      "name": "AI Coding / DevTools",
+      "count": 9,
+      "sample_terms": [
+        "code(5)",
+        "coding(2)",
+        "hides(2)"
+      ]
+    },
+    {
+      "name": "AI Agent Infra",
       "count": 8,
       "sample_terms": [
-        "llm(4)",
-        "llm-powered(2)",
-        "llms(2)"
+        "agents(4)",
+        "agent-native(2)",
+        "agent(2)"
+      ]
+    },
+    {
+      "name": "LLM / Reasoning",
+      "count": 7,
+      "sample_terms": [
+        "llm-powered(4)",
+        "llm(3)"
       ]
     },
     {
       "name": "MLOps / Infra",
-      "count": 6,
+      "count": 7,
       "sample_terms": [
-        "inference(2)",
+        "inference(3)",
         "infrastructure(2)",
         "text-generation-inference(2)"
+      ]
+    },
+    {
+      "name": "On-Device AI",
+      "count": 2,
+      "sample_terms": [
+        "on-device(2)"
       ]
     }
   ],
@@ -1158,7 +1328,7 @@
         "reddit"
       ],
       "definition_hint": "Emerging concept around \"says ai-powered\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
+      "why_interesting": "4회 언급된 부상 개념; 추적할 만한 초기 신호."
     },
     {
       "term": "ai-powered bug",
@@ -1167,7 +1337,7 @@
         "reddit"
       ],
       "definition_hint": "Emerging concept around \"ai-powered bug\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
+      "why_interesting": "4회 언급된 부상 개념; 추적할 만한 초기 신호."
     },
     {
       "term": "ai-directed warfare",
@@ -1176,14 +1346,14 @@
         "reddit"
       ],
       "definition_hint": "Emerging concept around \"ai-directed warfare\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
+      "why_interesting": "4회 언급된 부상 개념; 추적할 만한 초기 신호."
     },
     {
       "term": "rise ai-directed",
       "count": 4,
       "sources": [],
       "definition_hint": "Emerging concept around \"rise ai-directed\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
+      "why_interesting": "4회 언급된 부상 개념; 추적할 만한 초기 신호."
     }
   ],
   "cross_source_signals": [],
@@ -1196,7 +1366,7 @@
       ],
       "alpha_thesis": "DeepSeek-R1는 reasoning 모델로서 open-source 생태계에서 가장 영향력 있는 모델 중 하나. 기업과 연구팀이 실제 agent/agent infra 구축에 이 모델을 backbone으로 채택하고 있음. 6-12개월 내 파생 모델과 fine-tune이 폭발적으로 증가할 것으로 예상.",
       "risk": [
-        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
+        "Foundation model의 fine-tuning에 막대한 compute 필요; 파생 프로젝트의 인프라 비용 장벽."
       ],
       "sector_themes": [
         "AI Coding / DevTools",
@@ -1211,7 +1381,7 @@
       ],
       "alpha_thesis": "FLUX.1-dev는 이미지 생성 모델 중 현재 가장 높은 community likes를 기록 중. Stable Diffusion 이후 가장 의미 있는 open-weight image model. 12개월 내 AI-native 디자인/마케팅 워크플로우의 표준 backbone이 될 가능성이 높음.",
       "risk": [
-        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
+        "이미지 생성 모델의 quality/speed 경쟁 치열; open-weight 모델이 proprietary에 뒤처질 수 있음."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1225,7 +1395,7 @@
       ],
       "alpha_thesis": "SDXL은 이미 production-ready이며 수많은 파생 모델의 base. 단기 alpha는 아니지만, 새로운 fine-tune/adapter 프로젝트가 이 모델을 기반으로 나올 때마다 watch할 필요가 있음.",
       "risk": [
-        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
+        "이미지 생성 모델의 quality/speed 경쟁 치열; open-weight 모델이 proprietary에 뒤처질 수 있음."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1239,7 +1409,7 @@
       ],
       "alpha_thesis": "openhuman은 'personal AI super intelligence'를 목표로 하는 프로젝트. Rust 기반으로 privacy-first 접근. 개인 AI agent가 on-device에서 실행되는 시나리오에서 중요한 후보. 12-24개월 내 개인 agent 생태계에서 주목할 프로젝트.",
       "risk": [
-        "Single-source signal; needs cross-validation to confirm real momentum."
+        "단일 소스 신호; 실제 모멘텀 확인을 위해 교차 검증 필요."
       ],
       "sector_themes": []
     },
@@ -1251,7 +1421,7 @@
       ],
       "alpha_thesis": "Multimodal 모델로서, AI-native UX(voice, vision, video)의 backbone이 될 수 있음. Latency와 cost가 개선되면, 실제 production agent에 채택될 가능성이 높음.",
       "risk": [
-        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
+        "이미지 생성 모델의 quality/speed 경쟁 치열; open-weight 모델이 proprietary에 뒤처질 수 있음."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1265,7 +1435,7 @@
       ],
       "alpha_thesis": "Meta-Llama-3-8B는 open-source LLM 중 가장 널리 쓰이는 backbone 중 하나. Agent infra, RAG, fine-tuning ecosystem이 이 모델 주위에 집중되어 있음. 단기 alpha는 아니지만, 파생 프로젝트 watch의 기준점.",
       "risk": [
-        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
+        "Foundation model의 fine-tuning에 막대한 compute 필요; 파생 프로젝트의 인프라 비용 장벽."
       ],
       "sector_themes": [
         "MLOps / Infra"
@@ -1279,7 +1449,7 @@
       ],
       "alpha_thesis": "Kokoro는 lightweight TTS 모델로, on-device voice agent의 실현 가능성을 높이는 모델. 82M 파라미터로 실시간 추론이 가능하여, edge AI + voice agent 시나리오에서 중요한 변수.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Research-to-production 갭; 통제된 환경 외 확장 어려움."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1293,7 +1463,7 @@
       ],
       "alpha_thesis": "Whisper-large-v3는 speech-to-text의 de facto 표준. AI voice agent, real-time transcription, accessibility tooling 등 다양한 영역에서 backbone으로 사용 중. 12-24개월 내 voice-first AI UX의 핵심 인프라.",
       "risk": [
-        "Voice/speech models face high bar for latency and accuracy in production; edge deployment adds complexity."
+        "Voice/speech 모델의 production latency/accuracy 요구사항 높음; edge 배포 추가 복잡성."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1307,7 +1477,7 @@
       ],
       "alpha_thesis": "Llama-3.1-8B-Instruct는 instruction-tuned variant로, agent tool-calling과 RAG 파이프라인에서 널리 사용 중. 실제 production agent의 backbone으로서 영향력이 큼.",
       "risk": [
-        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
+        "Foundation model의 fine-tuning에 막대한 compute 필요; 파생 프로젝트의 인프라 비용 장벽."
       ],
       "sector_themes": []
     },
@@ -1319,7 +1489,7 @@
       ],
       "alpha_thesis": "Research-grade 모델. 실제 alpha는 이 모델을 기반으로 하는 파생 프로젝트에서 나옴. 12개월 내 ecosystem forks를 watch.",
       "risk": [
-        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
+        "Foundation model의 fine-tuning에 막대한 compute 필요; 파생 프로젝트의 인프라 비용 장벽."
       ],
       "sector_themes": [
         "AI Coding / DevTools"
@@ -1329,43 +1499,43 @@
   "sector_themes": [
     {
       "name": "Security",
-      "count": 19,
+      "count": 21,
       "sources": 2,
-      "outlook": "AI security is becoming a standalone category; prompt injection, data leaks, and model attacks are real business risks."
-    },
-    {
-      "name": "AI Agent Infra",
-      "count": 16,
-      "sources": 2,
-      "outlook": "Agent infra is transitioning from demos to production; expect consolidation around 3-5 key frameworks by 2027."
-    },
-    {
-      "name": "AI Coding / DevTools",
-      "count": 11,
-      "sources": 2,
-      "outlook": "AI-native devtools will reshape how 80% of code is written within 3 years. Early movers have a distribution moat."
+      "outlook": "AI security가 독립 카테고리화; prompt injection, data leak, model attack이 실제 비즈니스 리스크."
     },
     {
       "name": "Multimodal",
       "count": 10,
       "sources": 2,
-      "outlook": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product."
+      "outlook": "Multimodal 모델이 'nice to have'가 아님 — 진지한 AI 제품의 기본이 되고 있음."
+    },
+    {
+      "name": "AI Coding / DevTools",
+      "count": 9,
+      "sources": 2,
+      "outlook": "AI-native devtools가 3년 내 코드의 80% 작성 방식 재정의. Early mover가 분산 우위 보유."
+    },
+    {
+      "name": "AI Agent Infra",
+      "count": 8,
+      "sources": 2,
+      "outlook": "Agent infra가 demo에서 production으로 전환 중; 2027년까지 3-5개 핵심 프레임워크로 집중 예상."
     },
     {
       "name": "LLM / Reasoning",
-      "count": 8,
+      "count": 7,
       "sources": 2,
-      "outlook": "Reasoning models are becoming the new battleground; companies betting on superior reasoning will capture enterprise demand."
+      "outlook": "Reasoning 모델이 새로운 전장; 우수한 reasoning에 베팅한 기업이 기업 수요 포착."
     },
     {
       "name": "MLOps / Infra",
-      "count": 6,
+      "count": 7,
       "sources": 2,
-      "outlook": "AI infra is becoming the bottleneck — companies that solve training/inference efficiency will be acquired or go public."
+      "outlook": "AI infra가 병목이 되고 있음 — training/inference 효율을 해결한 기업이 M&A/IPO."
     }
   ],
   "contrarian_notes": [
-    "AI Agent hype vs reality: Most 'agentic' projects are glorified chatbots with tool calling. True autonomy (multi-step, self-correcting, distributed) is rare. Investors should stress-test every agent claim.",
-    "AI coding tools: Everyone claims '10x developer' but most are autocomplete on steroids. The real alpha is in team-level workflows, not individual speedups."
+    "AI Agent hype vs reality: 대부분의 'agentic' 프로젝트는 tool calling이 가능한 채팅봇에 불과. 진정한 자율성(다단계, 자기 수정, 분산)은 드묾. 투자자는 모든 agent 주장을 stress-test해야 함.",
+    "AI coding tools: 모두 '10배 개발자'를 주장하지만 대부분 강화된 자동완성에 불과. 진짜 alpha는 팀 단위 워크플로우에 있음, 개인 속도 향상이 아님."
   ]
 }

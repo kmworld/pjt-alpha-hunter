@@ -337,15 +337,15 @@ function inferDefinition(term) {
 function inferWhyInteresting(term, count, sources) {
   const t = term.toLowerCase();
   if (sources.length >= 3) {
-    return `Strong cross-source signal (${sources.join(", ")}); potential paradigm shift if sustained.`;
+    return `${sources.join(", ")}에서 강한 교차 신호. 지속된다면 패러다임 전환 가능성.`;
   }
   if (t.includes("vibe coding") || t.includes("agentic")) {
-    return "Directly impacts how developers and organizations will use AI in the next 12-24 months.";
+    return "향후 12-24개월 내 개발자/조직의 AI 사용 방식에 직접적인 영향.";
   }
   if (count >= 5) {
-    return `High frequency (${count}); emerging consensus around this concept.`;
+    return `높은 빈도 (${count}회); 이 개념에 대한 신흥 합의 형성 중.`;
   }
-  return `Rising concept with ${count} mentions; early signal worth tracking.`;
+  return `${count}회 언급된 부상 개념; 추적할 만한 초기 신호.`;
 }
 
 // ===================== CROSS-SOURCE SIGNALS =====================
@@ -455,9 +455,9 @@ function inferCrossSourceSummary(entity) {
   const srcCount = srcArr.length;
   const srcNames = srcArr.join(", ");
   if (srcCount >= 3) {
-    return `Confirmed across ${srcCount} sources (${srcNames}). Not mere noise — structural interest in this area.`;
+    return `${srcCount}개 소스(${srcNames})에서 확인됨. 단순 노이즈가 아님 — 구조적 관심.`;
   }
-  return `Appears in ${srcNames}; early cross-validation signal. Worth monitoring for momentum.`;
+  return `${srcNames}에서 등장; 초기 교차 검증 신호. 모멘텀 모니터링 필요.`;
 }
 
 // ===================== ALPHA CANDIDATES =====================
@@ -641,33 +641,33 @@ function buildRisk(c) {
   const name = (c.name || "").toLowerCase();
 
   if (themes.includes("AI Agent Infra") || themes.includes("LLM / Reasoning")) {
-    risks.push("AI agent hype cycle; many similar tools competing with unclear differentiation.");
+    risks.push("AI agent hype cycle; 유사 도구 간 차별화 불명확.");
   }
   if (themes.includes("Crypto / ZK")) {
-    risks.push("Regulatory uncertainty across major jurisdictions; market cycles can rapidly reduce interest.");
+    risks.push("주요 규제 지역의 불확실성; 시장 사이클로 관심 급감 가능.");
   }
   if (c.type === "project" && c.sources.length === 1) {
-    risks.push("Single-source signal; needs cross-validation to confirm real momentum.");
+    risks.push("단일 소스 신호; 실제 모멘텀 확인을 위해 교차 검증 필요.");
   }
   if (c.type === "model") {
     // Model-specific risks based on name and type
     if (name.includes("whisper") || name.includes("speech") || name.includes("tts")) {
-      risks.push("Voice/speech models face high bar for latency and accuracy in production; edge deployment adds complexity.");
+      risks.push("Voice/speech 모델의 production latency/accuracy 요구사항 높음; edge 배포 추가 복잡성.");
     } else if (name.includes("diffusion") || name.includes("flux") || name.includes("image")) {
-      risks.push("Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives.");
+      risks.push("이미지 생성 모델의 quality/speed 경쟁 치열; open-weight 모델이 proprietary에 뒤처질 수 있음.");
     } else if (name.includes("llama") || name.includes("bloom") || name.includes("gpt") || name.includes("deepseek")) {
-      risks.push("Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers.");
+      risks.push("Foundation model의 fine-tuning에 막대한 compute 필요; 파생 프로젝트의 인프라 비용 장벽.");
     } else if (name.includes("stable") || name.includes("open") || name.includes("meta")) {
-      risks.push("Open-weight models depend on community maintenance; corporate backing shifts can impact roadmap.");
+      risks.push("Open-weight 모델의 community 유지보수 의존; 기업 지원 변화가 로드맵에 영향.");
     } else {
-      risks.push("Research-to-production gap; may not scale outside controlled environments.");
+      risks.push("Research-to-production 갭; 통제된 환경 외 확장 어려움.");
     }
   }
   if (c.type === "trend") {
-    risks.push("Short-term hiring spike may not reflect long-term structural demand.");
+    risks.push("단기 채용 급증은 장기 구조적 수요를 반영하지 않을 수 있음.");
   }
   if (risks.length === 0) {
-    risks.push("Limited information; early-stage signal without strong validation.");
+    risks.push("제한된 정보; 강력한 검증이 없는 초기 신호.");
   }
   return risks.slice(0, 3);
 }
@@ -679,16 +679,16 @@ function buildSectorThemes(ctx) {
   const themes = [];
 
   const outlookMap = {
-    "AI Agent Infra": "Agent infra is transitioning from demos to production; expect consolidation around 3-5 key frameworks by 2027.",
-    "LLM / Reasoning": "Reasoning models are becoming the new battleground; companies betting on superior reasoning will capture enterprise demand.",
-    "AI Coding / DevTools": "AI-native devtools will reshape how 80% of code is written within 3 years. Early movers have a distribution moat.",
-    "Multimodal": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product.",
-    "On-Device AI": "On-device AI is the next infra wave; privacy, latency, and cost make it structurally attractive beyond early adopters.",
-    "Crypto / ZK": "ZK and crypto infra are regaining attention; long-term viability depends on regulatory clarity and real-world use cases.",
-    "MLOps / Infra": "AI infra is becoming the bottleneck — companies that solve training/inference efficiency will be acquired or go public.",
-    "Physical AI": "Physical AI is moving from research to pilot deployments; robotics + AI convergence is accelerating.",
-    "Security": "AI security is becoming a standalone category; prompt injection, data leaks, and model attacks are real business risks.",
-    "AI Policy": "Regulatory frameworks are maturing; companies without compliance-ready AI will face existential risk.",
+    "AI Agent Infra": "Agent infra가 demo에서 production으로 전환 중; 2027년까지 3-5개 핵심 프레임워크로 집중 예상.",
+    "LLM / Reasoning": "Reasoning 모델이 새로운 전장; 우수한 reasoning에 베팅한 기업이 기업 수요 포착.",
+    "AI Coding / DevTools": "AI-native devtools가 3년 내 코드의 80% 작성 방식 재정의. Early mover가 분산 우위 보유.",
+    "Multimodal": "Multimodal 모델이 'nice to have'가 아님 — 진지한 AI 제품의 기본이 되고 있음.",
+    "On-Device AI": "On-device AI가 다음 인프라 파도; privacy/latency/cost가 early adopter를 넘어 구조적 매력.",
+    "Crypto / ZK": "ZK와 crypto infra가 관심 재회; 장기 생존 가능성은 규제 명확성 + 실제 사용 사례에 달려 있음.",
+    "MLOps / Infra": "AI infra가 병목이 되고 있음 — training/inference 효율을 해결한 기업이 M&A/IPO.",
+    "Physical AI": "Physical AI가 연구에서 pilot 배포로 이동; robotics + AI 수렴 가속화.",
+    "Security": "AI security가 독립 카테고리화; prompt injection, data leak, model attack이 실제 비즈니스 리스크.",
+    "AI Policy": "규제 프레임워크 성숙; compliance-ready AI가 없는 기업은 존재적 리스크.",
   };
 
   for (const cluster of clusters) {
@@ -697,7 +697,7 @@ function buildSectorThemes(ctx) {
       name: cluster.name,
       count: cluster.count,
       sources: 2, // simplified; real impl would track per-source
-      outlook: outlookMap[cluster.name] || `Growing theme with ${cluster.count} signals; structural interest likely to continue.`,
+      outlook: outlookMap[cluster.name] || `${cluster.count}개 신호의 성장 테마; 구조적 관심 지속 예상.`,
     });
   }
 
@@ -715,13 +715,13 @@ function buildContrarianNotes(ctx) {
 
   if (agentHeat + llmHeat >= 10) {
     notes.push(
-      "AI Agent hype vs reality: Most 'agentic' projects are glorified chatbots with tool calling. True autonomy (multi-step, self-correcting, distributed) is rare. Investors should stress-test every agent claim."
+      "AI Agent hype vs reality: 대부분의 'agentic' 프로젝트는 tool calling이 가능한 채팅봇에 불과. 진정한 자율성(다단계, 자기 수정, 분산)은 드묾. 투자자는 모든 agent 주장을 stress-test해야 함."
     );
   }
 
   if (codingHeat >= 5) {
     notes.push(
-      "AI coding tools: Everyone claims '10x developer' but most are autocomplete on steroids. The real alpha is in team-level workflows, not individual speedups."
+      "AI coding tools: 모두 '10배 개발자'를 주장하지만 대부분 강화된 자동완성에 불과. 진짜 alpha는 팀 단위 워크플로우에 있음, 개인 속도 향상이 아님."
     );
   }
 
@@ -729,20 +729,20 @@ function buildContrarianNotes(ctx) {
   const aiRoles = jobs.filter(r => /ai|ml|agent/i.test(r.role || "")).length;
   if (aiRoles >= 5) {
     notes.push(
-      "AI hiring fever: Many companies are hiring 'AI engineers' without clear use cases. This is a bubble risk — roles without real product-market fit will be cut first."
+      "AI 채용 열: 명확한 use case 없이 'AI engineer'를 채용하는 기업이 많음. 버블 리스크 — 실제 product-market fit이 없는 역할은 가장 먼저 정리됨."
     );
   }
 
   const cryptoHeat = clusters.find(c => c.name === "Crypto / ZK")?.count || 0;
   if (cryptoHeat >= 3) {
     notes.push(
-      "Crypto/ZK narratives are regaining attention, but regulatory and UX friction remain unsolved. Most ZK projects are technically impressive but commercially unproven."
+      "Crypto/ZK 내러티브가 관심 재회 중이지만 규제와 UX 마찰은 여전히 미해결. 대부분의 ZK 프로젝트는 기술적으로 인상적이지만 상업적 검증은 안됨."
     );
   }
 
   if (notes.length === 0) {
     notes.push(
-      "Today's signals are broadly aligned; no strong contrarian angle yet. Watch for divergence over the next few days."
+      "오늘 신호는 대체로 일치; 아직 강력한 반대 관점 없음. 향후 며칠간 분기(divergence) 관찰."
     );
   }
 
@@ -775,6 +775,11 @@ function buildDeepContext(date) {
           url: r.url,
           topics: r.topics || [],
           why_notable: (r.why_notable || "").slice(0, 120),
+          why_people_care: (r.why_people_care || "").slice(0, 150),
+          is_rising_star: r.is_rising_star || false,
+          new_this_day: r.new_this_day || false,
+          repo_summary: (r.repo_summary || "").slice(0, 150),
+          architecture_tech: r.architecture_tech || [],
         })),
     },
     hackernews: {

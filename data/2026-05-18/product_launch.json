@@ -25,6 +25,17 @@
       "why_notable": "Notable new launch"
     },
     {
+      "name": "Shadow",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shadow-4",
+      "published": "2026-05-08T00:41:32-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
       "name": "Origio",
       "tagline": "",
       "votes": null,
@@ -36,15 +47,17 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Polarity",
+      "name": "Searchad.ai",
       "tagline": "",
       "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/polarity-2",
-      "published": "2026-05-17T20:56:06-07:00",
-      "maker": "Alex U",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/searchad-ai",
+      "published": "2026-05-16T23:59:00-07:00",
+      "maker": "Ahmet Sülek",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
     },
     {
       "name": "Agentspan",
@@ -60,26 +73,13 @@
       "why_notable": "AI-native"
     },
     {
-      "name": "SizzleAir",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/sizzleair",
-      "published": "2026-05-17T06:10:10-07:00",
-      "maker": "Mariusz Jankowski",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "M1 by Montage",
+      "name": "Polarity",
       "tagline": "",
       "votes": null,
       "tags": [],
-      "url": "https://www.producthunt.com/products/montage-3",
-      "published": "2026-05-17T21:05:57-07:00",
-      "maker": "Aarav Makadia",
+      "url": "https://www.producthunt.com/products/polarity-2",
+      "published": "2026-05-17T20:56:06-07:00",
+      "maker": "Alex U",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
@@ -97,17 +97,16 @@
       "why_notable": "AI-native"
     },
     {
-      "name": "QuickRight",
+      "name": "SocLeads 3.0",
       "tagline": "",
       "votes": null,
       "tags": [
-        "Design",
-        "UX/UI"
+        "Marketing"
       ],
-      "url": "https://www.producthunt.com/products/capture-6",
-      "published": "2026-05-14T23:31:18-07:00",
-      "maker": "Huating Liu",
-      "tech_domain": "other",
+      "url": "https://www.producthunt.com/products/socleads",
+      "published": "2026-04-15T06:27:47-07:00",
+      "maker": "Evgenii Anikin",
+      "tech_domain": "marketing",
       "why_notable": "Notable new launch"
     },
     {
@@ -135,40 +134,25 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Searchad.ai",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/searchad-ai",
-      "published": "2026-05-16T23:59:00-07:00",
-      "maker": "Ahmet Sülek",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Shadow",
+      "name": "Draft",
       "tagline": "",
       "votes": null,
       "tags": [],
-      "url": "https://www.producthunt.com/products/shadow-4",
-      "published": "2026-05-08T00:41:32-07:00",
-      "maker": "Ben Lang",
+      "url": "https://www.producthunt.com/products/draft-12",
+      "published": "2026-04-29T20:22:16-07:00",
+      "maker": "Jim Liu",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
     {
-      "name": "SocLeads 3.0",
+      "name": "M1 by Montage",
       "tagline": "",
       "votes": null,
-      "tags": [
-        "Marketing"
-      ],
-      "url": "https://www.producthunt.com/products/socleads",
-      "published": "2026-04-15T06:27:47-07:00",
-      "maker": "Evgenii Anikin",
-      "tech_domain": "marketing",
+      "tags": [],
+      "url": "https://www.producthunt.com/products/montage-3",
+      "published": "2026-05-17T21:05:57-07:00",
+      "maker": "Aarav Makadia",
+      "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
     {
@@ -185,17 +169,6 @@
       "why_notable": "AI-native"
     },
     {
-      "name": "ReactVision Studio",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/reactvision-studio",
-      "published": "2026-05-17T05:40:43-07:00",
-      "maker": "Paul Mit",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
       "name": "LobeHub",
       "tagline": "",
       "votes": null,
@@ -207,13 +180,40 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Draft",
+      "name": "QuickRight",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/capture-6",
+      "published": "2026-05-14T23:31:18-07:00",
+      "maker": "Huating Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "SizzleAir",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/sizzleair",
+      "published": "2026-05-17T06:10:10-07:00",
+      "maker": "Mariusz Jankowski",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "ReactVision Studio",
       "tagline": "",
       "votes": null,
       "tags": [],
-      "url": "https://www.producthunt.com/products/draft-12",
-      "published": "2026-04-29T20:22:16-07:00",
-      "maker": "Jim Liu",
+      "url": "https://www.producthunt.com/products/reactvision-studio",
+      "published": "2026-05-17T05:40:43-07:00",
+      "maker": "Paul Mit",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
@@ -225,6 +225,30 @@
       "url": "https://www.producthunt.com/products/anyframe-2",
       "published": "2026-05-17T23:49:44-07:00",
       "maker": "Nishchith Shetty",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Vivago Video Agent",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/viva",
+      "published": "2026-05-13T06:02:37-07:00",
+      "maker": "Chris Messina",
+      "tech_domain": "devtools",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "SUN-to-Spotify",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/sun-ai",
+      "published": "2025-03-16T22:09:16-07:00",
+      "maker": "Artin Bogdanov",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
@@ -250,30 +274,6 @@
       "published": "2026-04-30T10:44:29-07:00",
       "maker": "Aleksandar Blazhev",
       "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "SUN-to-Spotify",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/sun-ai",
-      "published": "2025-03-16T22:09:16-07:00",
-      "maker": "Artin Bogdanov",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "Vivago Video Agent",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/viva",
-      "published": "2026-05-13T06:02:37-07:00",
-      "maker": "Chris Messina",
-      "tech_domain": "devtools",
       "why_notable": "AI-native"
     },
     {
