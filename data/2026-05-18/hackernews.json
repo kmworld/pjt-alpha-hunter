@@ -4,11 +4,22 @@
   "sections": {
     "top": [
       {
+        "id": 48180204,
+        "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+        "url": "https://github.com/2b2tplace/1m_release",
+        "score": 10,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - 2b2tplace/1m_release: The Largest World Download Project in 2b2t, and in Minecraft altogether. Full info + Renders + Timelapses (+ Torrent soon) · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Acc",
+        "comment_highlights": null
+      },
+      {
         "id": 48151990,
         "title": "The Aperiodic Table",
         "url": "https://blog.jgc.org/2026/05/the-aperiodic-table.html",
-        "score": 27,
-        "comments": 4,
+        "score": 31,
+        "comments": 6,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "John Graham-Cumming's blog: The aperiodic table John Graham-Cumming's blog 2026-05-12 The aperiodic table XKCD 3242 is titled \"The aperiodic table\" and looks like this: Which is cool, but it's not aperiodic like a Penrose tiling . So, with a little (a lot) of help from Claude I create aperiodictable.com your one true resource for the periodic table on a Penrose P3 tiling. Click and drag the canvas to place the periodic table wherever you fancy. Hit Print to print your own Aperiodic Table. It's a single page that's hosted on Cloudflare Pages . at May 12, 2026 Email This BlogThis! Share to X Share to Facebook Share to Pinterest Labels: pseudo-randomness No comments: Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom) Search This Blog Labels anti-spam babbage behind the screens calculators codes and ciphers gnu make hardware machine learning mathematics minitel popfile privacy pseudo-randomness radio retro security the geek atlas well... actually Popular Posts The discreet charm of the infrastructureless Early in the morning in a European city, I awoke and wondered for a moment where I was. The room was totally black apart from a small glow f... If you care about security you might want to move the iPhone Camera app There&#39;s a quirk in the iPhone Camera app that can drive a security conscious iPhone owner crazy: if you touch your finger on the Camera ... There's a ridiculous amount of tech in a disposable vape So, I&#39;m walking through a park when I",
@@ -18,8 +29,8 @@
         "id": 48179183,
         "title": "'We mould trees to grow into the shape of chairs'",
         "url": "https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
-        "score": 61,
-        "comments": 23,
+        "score": 70,
+        "comments": 25,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "&#x27;We mould trees to grow into the shape of chairs&#x27; - BBC News BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC News Menu Home Climate World Asia UK Business Tech Science Entertainment &amp; Arts Health More In Pictures BBC Verify Newsbeat England Regions Derby &#x27;We mould trees to grow into the shape of chairs&#x27; Image caption, The chairs are grown upside down at an orchard in Derbyshire before they are harvested and dried for a year By Sian Filcher , Derby and George Torr , East Midlands Published 9 hours ago A couple have spent the past 20 years experimenting to perfect the practice of moulding trees so they grow into the shape of a chair. Alice and Gavin Munro grow their creations upside down, in a process that they say typically takes between six and nine years, before each item is dried for a year. The process involves training and pruning young tree branches as they grow over specially-made pieces of recycled plastic which help to shape the trees&#x27; growth. Branches are then grafted together at certain points, so that the object grows into one solid piece. Image caption, Each chair can take up to 10 years to be shaped from trees Gavin said the first seed for the project was sown when he was a young boy and saw an overgrown bonsai tree",
@@ -29,44 +40,33 @@
         "id": 48135096,
         "title": "Math Jokes in Alice in Wonderland",
         "url": "https://storica.club/blog/alice-is-math-jokes/",
-        "score": 63,
-        "comments": 23,
+        "score": 67,
+        "comments": 29,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "Alice in Wonderland is mostly math jokes — Storica Storica How it works The library Languages Publishing Blog Pricing Get Storica ← Back to blog Cultural Learning May 14, 2026 · 8 min read Alice in Wonderland is mostly math jokes Charles Lutwidge Dodgson taught mathematics at Christ Church, Oxford, for twenty-six years. He wrote textbooks defending Euclid and treatises on symbolic logic. The children&#39;s book he is now famous for is, when you read it as an adult, an extended joke about base-numbering systems, non-Euclidean geometry, and abstract identity, smuggled inside a story about a small girl falling down a hole. Adventure Alice&#39;s Adventures Lewis Carroll Modern Classics Die Verwandlung Franz Kafka Most people remember Alice in Wonderland as a dreamy children's book about a girl, a rabbit, a cat that disappears, and a hatter who hosts a tea party. They forget that the man who wrote it spent the rest of his working life teaching mathematics, and that nearly every famous scene is a joke aimed at his colleagues in the Oxford Senior Common Room. Charles Lutwidge Dodgson was thirty when he wrote Alice. He had been a lecturer in mathematics at Christ Church, Oxford, for six years. He would stay in that post, in the same college, for another twenty-six. He published serious mathematical work under his real name. The Alice books appeared under a pen name because he was embarrassed for his students to know he wrote fiction. The fiction was, in large part, the mathematics in",
         "comment_highlights": null
       },
       {
-        "id": 48177300,
-        "title": "The foundations of a provably secure operating system (PSOS) (1979) [pdf]",
-        "url": "http://www.csl.sri.com/users/neumann/psos.pdf",
-        "score": 77,
-        "comments": 43,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": null,
+        "id": 48179029,
+        "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
+        "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+        "score": 81,
+        "comments": 37,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Enough with the AI FOMO, go slow-mo, says Domo CDO Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD AI + ML Enough with the AI FOMO, go slow-mo, says Domo CDO You're not the only one annoyed by the hype Thomas Claburn Thomas Claburn Published sun 17 May 2026 // 15:00 UTC A brown snail inches along a wooden plank resting on neatly stacked coins, illustrating the concept of slow economic progress. Copyright (c) 2024 CalypsoArt/Shutterstock. No use without permission. Chris Willis, chief design officer and futurist for data platform biz Domo, wonders why people aren't more annoyed with AI companies. Willis said he was in San Francisco a few weeks ago",
         "comment_highlights": null
       },
       {
         "id": 48178692,
         "title": "Linux security mailing list 'almost unmanageable'",
         "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
-        "score": 88,
-        "comments": 39,
+        "score": 96,
+        "comments": 40,
         "category_hint": "security",
         "why_hot": "Security incident or tool with high HN interest; may affect infra or AI safety.",
         "article_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD Security Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Multiple researchers using the same tools to find the same bugs are creating ‘unnecessary pain and pointless work’ Simon Sharwood Simon Sharwood APAC Editor Published mon 18 May 2026 // 00:39 UTC Linux kernel boss Linus Torvalds has declared the project’s security mailing list has become “almost entirely unmanageable” due to multiple researchers using AI to find bugs and",
-        "comment_highlights": null
-      },
-      {
-        "id": 48179029,
-        "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
-        "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
-        "score": 72,
-        "comments": 29,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
-        "article_summary": "Enough with the AI FOMO, go slow-mo, says Domo CDO Jump to main content Search TOPICS Security All Security Cyber-crime Patches Research CSO Off-Prem All Off-Prem Edge + IoT Channel PaaS + IaaS SaaS On-Prem All On-Prem Systems Storage Networks HPC Personal Tech Cx0 Public Sector Software All Software AI + ML Applications Databases DevOps OSes Virtualization Offbeat All Offbeat Columnists Science BOFH Legal Bootnotes Site News About Us Special Features All Special Features HPE: AI Explainers RSA Conference Agentic AI The Future of the Datacenter AWS:Reinvent Nvidia GTC SC25 Supercomputing Month Vendor Voice All Vendor Voice Infinidat Everpure Rubrik Make it real with Capgemini and AWS Money Movement Hub ZTE Nutanix: Scale Kubernetes. Not Chaos. AWS New Horizon Resources Intelligence Webinars &amp; Events Newsletters Search Sign in Datacenter Security Microsoft AWS Developer Open Source IT Careers Columnists Who, Me? On Call REG AD AI + ML Enough with the AI FOMO, go slow-mo, says Domo CDO You're not the only one annoyed by the hype Thomas Claburn Thomas Claburn Published sun 17 May 2026 // 15:00 UTC A brown snail inches along a wooden plank resting on neatly stacked coins, illustrating the concept of slow economic progress. Copyright (c) 2024 CalypsoArt/Shutterstock. No use without permission. Chris Willis, chief design officer and futurist for data platform biz Domo, wonders why people aren't more annoyed with AI companies. Willis said he was in San Francisco a few weeks ago",
         "comment_highlights": null
       },
       {
@@ -81,21 +81,113 @@
         "comment_highlights": null
       },
       {
-        "id": 48179931,
-        "title": "Shame them, shun them, ban them, beat them",
-        "url": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
-        "score": 3,
-        "comments": 0,
+        "id": 48177300,
+        "title": "The foundations of a provably secure operating system (PSOS) (1979) [pdf]",
+        "url": "http://www.csl.sri.com/users/neumann/psos.pdf",
+        "score": 78,
+        "comments": 46,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "Shame them, shun them, ban them, beat them! Experimental History Subscribe Sign in Shame them, shun them, ban them, beat them! OR: crock pots and lightning bolts Adam Mastroianni May 12, 2026 542 73 78 Share Article voiceover 0:00 -16:45 Audio playback is not supported on your browser. Please upgrade. photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven hours, affirmed “the right to rest and leisure”, and offered free education and free health care to all, including a “wide network of health resorts for the working people.” You gotta admit this is a lot better than certain other constitutions that, say, count slaves as three-fifths of a person . In the two years after the constitution was adopted, however, Stalin purged something like a million people . Eighteen million Soviet citizens would be forced into gulag camps and colonies over the next three decades . This was all clearly in violation of Articles 103, 111, and 127, and many others besides. How could one of the greatest tragedies in human history happen when it was very explicitly not allowed ? The uncomfortable answer is that a critical mass of people found prisons and purges palatable. We say that “Stalin” did all these things as if held the gun himself 1 , but obviously yo",
+        "article_summary": null,
         "comment_highlights": null
+      },
+      {
+        "id": 48175140,
+        "title": "It is time to give up the dualism introduced by the debate on consciousness",
+        "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
+        "score": 191,
+        "comments": 490,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "There Is No ‘Hard Problem Of Consciousness’ - NOEMA Skip to the content &nbsp; Subscribe Published by the Berggruen Institute Topics Technology &amp; the Human Future of Capitalism Philosophy &amp; Culture Climate Crisis Geopolitics &#038; Deglobalization Future of Democracy Digital Society Read Noema In Print Search Go There Is No ‘Hard Problem Of Consciousness’ Consciousness is not separate from the physical world — our “soul” is of the same nature as our body and any other phenomenon of the world. Florian Meissner for Noema Magazine Essay Philosophy &amp; Culture By Carlo Rovelli May 7, 2026 Credits Carlo Rovelli is a theoretical physicist known for his work on quantum gravity, the foundation of quantum mechanics and the nature of space and time. A fierce debate is raging around the slippery notion of consciousness. It retraces a trotted pattern of cultural resistance: We humans are often scared by anything that may disturb our image of ourselves.&nbsp; Famously, Darwin’s realization that we have common ancestors with all living organisms on our planet met ferocious resistance. Many felt confounded or degraded by the idea of sharing a family tree with donkeys.&nbsp;The cultural history of modernity is dotted by similar ideological rearguard battles, wherein old worldviews fight in retreat against novel knowledge to save some concept held dear. Amid the current cultural backlash against progressive ideas, today’s debate on consciousness reflects our human fears of belonging",
+        "comment_highlights": [
+          {
+            "by": "storus",
+            "text": "This article had absolutely no proof of its statements and all it did was use past allegories. We are definitely missing something in our understanding of the world, like before we knew about electromagnetism or radioactivity. There are some mechanisms we know"
+          },
+          {
+            "by": "jwilliams",
+            "text": "Rovelli is arguing (I think) that we need to fundamentally view consciousness as a natural phenomenon - albeit one that is extremely complex and poorly understood. So we ditch the philosophical puzzle and focus on the reality we can perceive and reason on. The"
+          },
+          {
+            "by": "a13o",
+            "text": "It’s going to be a long road, but I think as LLMs and their offspring create more and more convincing arguments for silicon consciousness we will conclude that consciousness is about as real as humours, and we’ve all been p-zombies this whole time. Maybe the l"
+          },
+          {
+            "by": "selcuka",
+            "text": "&gt; This contradicts everything we have learned about nature. It doesn&#x27;t contradict anything. It simply means that there is a gap in our current understanding, which may (or may not [1]) be scientifically explained in the future. The default reflex of th"
+          },
+          {
+            "by": "svnt",
+            "text": "This argument sounds nice at a surface level, but seems deeply incoherent and wrong in a way I haven’t yet put my finger on precisely. How can you say this: &gt; We have souls. We have an inner self. We can treat ourselves as transcendental subjects in the Kan"
+          },
+          {
+            "by": "losvedir",
+            "text": "I once read a comment on here that I found interesting but haven&#x27;t been able to find it again. Basically it flipped the problem on its head. We&#x27;re arguing how you start at the physical substrate and get to consciousness. They argued that you could st"
+          },
+          {
+            "by": "zetalyrae",
+            "text": "The first point (analogizing the hard problem to the reaction to Darwinism) is a very common rhetorical move: an analogy and history of ideas, which is convincing to many people, but what does it prove? &gt; A philosophical zombie would claim to know what subj"
+          },
+          {
+            "by": "hackinthebochs",
+            "text": "I&#x27;m not sure where all this discussion about the hard problem is coming from suddenly, or why people continue to struggle to understand it. It&#x27;s really very simple. The hard problem identifies the in principle difficulty in explaining phenomenal cons"
+          },
+          {
+            "by": "MrOrelliOReilly",
+            "text": "This article is pretty slim on details, but I agree with the general argument that dualism is unnecessary to explain phenomenal consciousness. The word &quot;consciousness&quot; has a lot of baggage, which causes us to mislabel cognition as consciousness. [1] "
+          },
+          {
+            "by": "pygy_",
+            "text": "FTA: &gt; Then he declared that there is another distinct problem — why the brain’s behavior is accompanied by experience at all — which he christened the “hard” problem of consciousness. The hard problem isn&#x27;t about &quot;why&quot;, it&#x27;s about &quot"
+          },
+          {
+            "by": "jillesvangurp",
+            "text": "Neal Stephenson touches on this topic in several of his novels. Probably the most concrete of this is &quot;Fall; or Dodge in Hell&quot; which involves a simulation of people&#x27;s scanned brains rediscovering qualia and constructing their own simulated world"
+          },
+          {
+            "by": "throw7",
+            "text": "Just stating that consciousness is natural phenomenon is begging the question. We get it... you&#x27;re a materialist."
+          },
+          {
+            "by": "dainank",
+            "text": "I believe nature is all there is. If we could replicate a human brain several times, and make each &#x27;human brain&#x27; receive the exact same input data (sounds, sights, smells e.t.c.) from the moment they &#x27;exist&#x27; until the end of their lifetime,"
+          },
+          {
+            "by": "Mikhail_K",
+            "text": "&gt; &quot;But scientific understanding is not extraneous to experience; it is entirely &gt; about experience.&quot; Let us hear about your experience of a wavefunction, Carlo."
+          },
+          {
+            "by": "hackandthink",
+            "text": "Chalmers: “It is natural to hope that there will be a materialist solution to the hard problem and a reductive explanation of consciousness, just as there have been reductive explanations of many other phenomena in many other domains. But consciousness seems t"
+          },
+          {
+            "by": "maclombardi",
+            "text": "Something worth reading alongside this. https:&#x2F;&#x2F;www.immaculateconstellation.info&#x2F;already-burning&#x2F;"
+          },
+          {
+            "by": "sethev",
+            "text": "The Hard Problem strikes me as a &quot;why&quot; question and humans have a poor track record of ever answering a &quot;why&quot; for a foundational question (at least in a way that we can demonstrate to others). Our most successful explanations build up from "
+          },
+          {
+            "by": "pasta67",
+            "text": "But there is dualism in our minds - we have two spheres of brains and one of those is in master position over other and synchronize both parts. As a result the enslaved part of our brains is silent watcher. But sometimes brains get damaged and these mechanisms"
+          },
+          {
+            "by": "jincongho",
+            "text": "The author is mixing two discussions: soul&#x2F;body dualism and qualia (hard problem). It could be true that there&#x27;s only physical body, but still have the qualia explanatory gap."
+          },
+          {
+            "by": "solenoid0937",
+            "text": "Any argument that a &quot;soul&quot; exists or that consciousness does not arise from the physical world (eg our neurons) is literally unfalsifiable . It cannot be disproven in the same way you can&#x27;t disprove the existence of God, and so arguing with peop"
+          }
+        ]
       },
       {
         "id": 48173429,
         "title": "GenCAD",
         "url": "https://gencad.github.io/",
-        "score": 388,
+        "score": 389,
         "comments": 102,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other.",
@@ -184,124 +276,43 @@
         ]
       },
       {
-        "id": 48175140,
-        "title": "It is time to give up the dualism introduced by the debate on consciousness",
-        "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
-        "score": 187,
-        "comments": 478,
+        "id": 48178510,
+        "title": "When Kierkegaard Got Cancelled",
+        "url": "https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled",
+        "score": 9,
+        "comments": 5,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "There Is No ‘Hard Problem Of Consciousness’ - NOEMA Skip to the content &nbsp; Subscribe Published by the Berggruen Institute Topics Technology &amp; the Human Future of Capitalism Philosophy &amp; Culture Climate Crisis Geopolitics &#038; Deglobalization Future of Democracy Digital Society Read Noema In Print Search Go There Is No ‘Hard Problem Of Consciousness’ Consciousness is not separate from the physical world — our “soul” is of the same nature as our body and any other phenomenon of the world. Florian Meissner for Noema Magazine Essay Philosophy &amp; Culture By Carlo Rovelli May 7, 2026 Credits Carlo Rovelli is a theoretical physicist known for his work on quantum gravity, the foundation of quantum mechanics and the nature of space and time. A fierce debate is raging around the slippery notion of consciousness. It retraces a trotted pattern of cultural resistance: We humans are often scared by anything that may disturb our image of ourselves.&nbsp; Famously, Darwin’s realization that we have common ancestors with all living organisms on our planet met ferocious resistance. Many felt confounded or degraded by the idea of sharing a family tree with donkeys.&nbsp;The cultural history of modernity is dotted by similar ideological rearguard battles, wherein old worldviews fight in retreat against novel knowledge to save some concept held dear. Amid the current cultural backlash against progressive ideas, today’s debate on consciousness reflects our human fears of belonging",
-        "comment_highlights": [
-          {
-            "by": "storus",
-            "text": "This article had absolutely no proof of its statements and all it did was use past allegories. We are definitely missing something in our understanding of the world, like before we knew about electromagnetism or radioactivity. There are some mechanisms we know"
-          },
-          {
-            "by": "jwilliams",
-            "text": "Rovelli is arguing (I think) that we need to fundamentally view consciousness as a natural phenomenon - albeit one that is extremely complex and poorly understood. So we ditch the philosophical puzzle and focus on the reality we can perceive and reason on. The"
-          },
-          {
-            "by": "a13o",
-            "text": "It’s going to be a long road, but I think as LLMs and their offspring create more and more convincing arguments for silicon consciousness we will conclude that consciousness is about as real as humours, and we’ve all been p-zombies this whole time. Maybe the l"
-          },
-          {
-            "by": "selcuka",
-            "text": "&gt; This contradicts everything we have learned about nature. It doesn&#x27;t contradict anything. It simply means that there is a gap in our current understanding, which may (or may not [1]) be scientifically explained in the future. The default reflex of th"
-          },
-          {
-            "by": "svnt",
-            "text": "This argument sounds nice at a surface level, but seems deeply incoherent and wrong in a way I haven’t yet put my finger on precisely. How can you say this: &gt; We have souls. We have an inner self. We can treat ourselves as transcendental subjects in the Kan"
-          },
-          {
-            "by": "losvedir",
-            "text": "I once read a comment on here that I found interesting but haven&#x27;t been able to find it again. Basically it flipped the problem on its head. We&#x27;re arguing how you start at the physical substrate and get to consciousness. They argued that you could st"
-          },
-          {
-            "by": "zetalyrae",
-            "text": "The first point (analogizing the hard problem to the reaction to Darwinism) is a very common rhetorical move: an analogy and history of ideas, which is convincing to many people, but what does it prove? &gt; A philosophical zombie would claim to know what subj"
-          },
-          {
-            "by": "hackinthebochs",
-            "text": "I&#x27;m not sure where all this discussion about the hard problem is coming from suddenly, or why people continue to struggle to understand it. It&#x27;s really very simple. The hard problem identifies the in principle difficulty in explaining phenomenal cons"
-          },
-          {
-            "by": "MrOrelliOReilly",
-            "text": "This article is pretty slim on details, but I agree with the general argument that dualism is unnecessary to explain phenomenal consciousness. The word &quot;consciousness&quot; has a lot of baggage, which causes us to mislabel cognition as consciousness. [1] "
-          },
-          {
-            "by": "throw7",
-            "text": "Just stating that consciousness is natural phenomenon is begging the question. We get it... you&#x27;re a materialist."
-          },
-          {
-            "by": "pygy_",
-            "text": "FTA: &gt; Then he declared that there is another distinct problem — why the brain’s behavior is accompanied by experience at all — which he christened the “hard” problem of consciousness. The hard problem isn&#x27;t about &quot;why&quot;, it&#x27;s about &quot"
-          },
-          {
-            "by": "jillesvangurp",
-            "text": "Neal Stephenson touches on this topic in several of his novels. Probably the most concrete of this is &quot;Fall; or Dodge in Hell&quot; which involves a simulation of people&#x27;s scanned brains rediscovering qualia and constructing their own simulated world"
-          },
-          {
-            "by": "Mikhail_K",
-            "text": "&gt; &quot;But scientific understanding is not extraneous to experience; it is entirely &gt; about experience.&quot; Let us hear about your experience of a wavefunction, Carlo."
-          },
-          {
-            "by": "maclombardi",
-            "text": "Something worth reading alongside this. https:&#x2F;&#x2F;www.immaculateconstellation.info&#x2F;already-burning&#x2F;"
-          },
-          {
-            "by": "dainank",
-            "text": "I believe nature is all there is. If we could replicate a human brain several times, and make each &#x27;human brain&#x27; receive the exact same input data (sounds, sights, smells e.t.c.) from the moment they &#x27;exist&#x27; until the end of their lifetime,"
-          },
-          {
-            "by": "pasta67",
-            "text": "But there is dualism in our minds - we have two spheres of brains and one of those is in master position over other and synchronize both parts. As a result the enslaved part of our brains is silent watcher. But sometimes brains get damaged and these mechanisms"
-          },
-          {
-            "by": "hackandthink",
-            "text": "Chalmers: “It is natural to hope that there will be a materialist solution to the hard problem and a reductive explanation of consciousness, just as there have been reductive explanations of many other phenomena in many other domains. But consciousness seems t"
-          },
-          {
-            "by": "sethev",
-            "text": "The Hard Problem strikes me as a &quot;why&quot; question and humans have a poor track record of ever answering a &quot;why&quot; for a foundational question (at least in a way that we can demonstrate to others). Our most successful explanations build up from "
-          },
-          {
-            "by": "jincongho",
-            "text": "The author is mixing two discussions: soul&#x2F;body dualism and qualia (hard problem). It could be true that there&#x27;s only physical body, but still have the qualia explanatory gap."
-          },
-          {
-            "by": "solenoid0937",
-            "text": "Any argument that a &quot;soul&quot; exists or that consciousness does not arise from the physical world (eg our neurons) is literally unfalsifiable . It cannot be disproven in the same way you can&#x27;t disprove the existence of God, and so arguing with peop"
-          }
-        ]
+        "article_summary": "When Kierkegaard Got Cancelled by Daniel Goodman My Account Sign Out My Account Home My Account Subscriptions Newsletters View Cart Subtotal&#58; &dollar; Checkout Sign In Renew Subscribe Magazine Books Podcast Events Latest Books &amp; Culture Education The Good Life Faith &amp; Spirituality Technology Nature &amp; Environment Food and Farming Politics Life in Community Family &amp; Parenting All Topics Email Signup Events Contributors About Us Current Issue Back Issues Customer Service Subscription Options Give a Gift Articles Faith and Spirituality Discipleship When Kierkegaard Got Cancelled Mocked by Copenhagen’s most notorious scandal sheet, Kierkegaard endured months of deeply personal attacks and the silence of friends and allies. By Daniel Goodman April 27, 2026 3 Comments In This Article Article Share 3 Comments Next Article&#58; The Iraqi Christians I Never Saw Read 3 Comments 3 Comments Post a Comment Close Comment ))[\\s\\S]*$\" data-val-required=\"Please enter your comment\" id=\"CommentText\" name=\"CommentText\" rows=\"2\"> Name Email Submit Gary Furnell 14 days ago A terrific article, beautifully written. Kierkegaard, like Pascal, was rich with special insight, the delivery often augmented with wonderful, sardonic humour. matt sinclair 21 days ago Insightful. Thank you Mitch Martina 21 days ago Thanks, Daniel, for this extensive treatment of my favorite author—I learned a good deal I didn't know about Kierkegaard's life. A much-needed reminder of the necessity of passion",
+        "comment_highlights": null
+      },
+      {
+        "id": 48180091,
+        "title": "Actually, Democracy Dies in H.R.",
+        "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+        "score": 34,
+        "comments": 13,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
       },
       {
         "id": 48155450,
         "title": "Crystals found inside wreckage from the first nuclear bomb test",
         "url": "https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/",
-        "score": 131,
-        "comments": 54,
+        "score": 132,
+        "comments": 57,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "Strange crystals found inside wreckage from the first nuclear bomb test | Scientific American Skip to main content Scientific American May 11, 2026 3 min read Add Us On Google Add SciAm Strange crystals found inside wreckage from the first nuclear bomb test The Trinity bomb test left behind a unique form of matter, and now, scientists have discovered a new chemical structure inside it By Clara Moskowitz edited by Claire Cameron The fireball from the Trinity nuclear test in New Mexico on July 16, 1945. Underwood Archives/Contributor/Getty Images Join Our Community of Science Lovers! Sign Up for Our Free Daily Newsletter Enter your email I agree my information will be processed in accordance with the Scientific American and Springer Nature Limited Privacy Policy . We leverage third party services to both verify and deliver email. By providing your email address, you also consent to having the email address shared with third parties for those purposes. Sign Up Nearly 81 years ago, the first nuclear bomb exploded. The Trinity test, conducted as part of the Manhattan Project in the New Mexico desert, detonated a plutonium bomb that released the energy of 25 kilotons of TNT. When the mushroom cloud faded, a weird, glasslike form of matter was left behind from the melted sand combined with vaporized sensor wires. Scientists called it trinitite. Now researchers have identified a new material within trinitite called a clathrate&mdash;a cagelike chemical lattice that traps other atoms",
         "comment_highlights": null
       },
       {
-        "id": 48179021,
-        "title": "AI eats the world (Spring 26) [pdf]",
-        "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-        "score": 95,
-        "comments": 53,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
-        "article_summary": null,
-        "comment_highlights": null
-      },
-      {
         "id": 48168668,
         "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
         "url": "https://github.com/tech4bot/rk3562deb",
-        "score": 406,
+        "score": 407,
         "comments": 207,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other.",
@@ -316,12 +327,12 @@
             "text": "Booting into Debian with most devices fully functional is great. What I&#x27;d like to know is what software runs adequately under it in 4 GB RAM. Web browsing should definitely be possible, but I suppose it&#x27;s limited to very few tabs. Some very lightweig"
           },
           {
-            "by": "erwan577",
-            "text": "Does anyone know how hard it would be to do the same with other tablets like Allwinner A733 ones ? Allwinner is supposed to also have some Linux support."
-          },
-          {
             "by": "Evidlo",
             "text": "People should check out Termux-X11 for desktop Linux in android. Its come a long way since the days of running a VNC server and it runs at nearly native speed"
+          },
+          {
+            "by": "erwan577",
+            "text": "Does anyone know how hard it would be to do the same with other tablets like Allwinner A733 ones ? Allwinner is supposed to also have some Linux support."
           },
           {
             "by": "NoboruWataya",
@@ -336,10 +347,6 @@
             "text": "Such a system with 4GB is eminently useful for many applications; I have an old Acer Chromebook I installed Linux on and have it sitting in the corner quietly and coolly emulating a VAX system with performance equivalent to a Vaxstation 4000&#x2F;60 or so."
           },
           {
-            "by": "lostmsu",
-            "text": "8nm SoC. Sounds like it is extremely slow."
-          },
-          {
             "by": "cf100clunk",
             "text": "The situation right now with the Doogee U10 tablet: not commonly available. Once the news gets out about epic breakthroughs on commodity hardware and devices, there&#x27;s unfortunately a likely spike in the purchase cost, even if such devices can be found at "
           },
@@ -350,6 +357,10 @@
           {
             "by": "jhbadger",
             "text": "I&#x27;ve actually done something similar with a cheap $50 Amazon Fire tablet -- I installed F-Droid and Termux plus Unexpected Keyboard (software keyboard that has ctrl, alt, tab, and other important techy keys) -- It is actually pretty fun to use for light c"
+          },
+          {
+            "by": "lostmsu",
+            "text": "8nm SoC. Sounds like it is extremely slow."
           },
           {
             "by": "Oxodao",
@@ -390,32 +401,32 @@
         ]
       },
       {
-        "id": 48180091,
-        "title": "Actually, Democracy Dies in H.R.",
-        "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
-        "score": 21,
-        "comments": 6,
+        "id": 48163389,
+        "title": "The Quiet Renovation at Bitwarden",
+        "url": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
+        "score": 8,
+        "comments": 1,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": null,
+        "article_summary": "The Quiet Renovation at Bitwarden - ByteHaven - Where I ramble about bytes PPB1701 Boyd Productions ByteHaven - Where I ramble about bytes The Quiet Renovation at Bitwarden Back in March, I wrote about Bitwarden doubling their Premium price — and specifically how they did it. Buried in a feature announcement. Priced in fake monthly increments for a product that has never once offered monthly billing. Communicated to existing customers fifteen days before their renewal, not before. Bitwarden responded on Mastodon. They confirmed everything in my post while apparently thinking they were defending themselves. I noted at the time that the response was its own data point. Well. There’s more data now. The Changing of the Guard In February, as Fast Company reported , longtime CEO Michael Crandell quietly transitioned to an advisory role. No announcement from the company. You’d only know it happened if you went looking on LinkedIn. Crandell had been with Bitwarden since 2019 — back when they were still the scrappy underdog that everyone flocked to when LastPass started pulling the rug. His replacement is Michael Sullivan, former CEO of Acquia and Insightsoftware. Sullivan’s LinkedIn page leads with his experience in “all facets of mergers and acquisitions, including direct experience with leading PE firms.” In plain English: M&amp;A is the business of buying and selling companies. Private equity firms buy businesses, cut costs, grow revenue, and sell them at a profit. They’re not the",
         "comment_highlights": null
       },
       {
-        "id": 48178510,
-        "title": "When Kierkegaard Got Cancelled",
-        "url": "https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled",
-        "score": 7,
-        "comments": 4,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "When Kierkegaard Got Cancelled by Daniel Goodman My Account Sign Out My Account Home My Account Subscriptions Newsletters View Cart Subtotal&#58; &dollar; Checkout Sign In Renew Subscribe Magazine Books Podcast Events Latest Books &amp; Culture Education The Good Life Faith &amp; Spirituality Technology Nature &amp; Environment Food and Farming Politics Life in Community Family &amp; Parenting All Topics Email Signup Events Contributors About Us Current Issue Back Issues Customer Service Subscription Options Give a Gift Articles Faith and Spirituality Discipleship When Kierkegaard Got Cancelled Mocked by Copenhagen’s most notorious scandal sheet, Kierkegaard endured months of deeply personal attacks and the silence of friends and allies. By Daniel Goodman April 27, 2026 3 Comments In This Article Article Share 3 Comments Next Article&#58; The Iraqi Christians I Never Saw Read 3 Comments 3 Comments Post a Comment Close Comment ))[\\s\\S]*$\" data-val-required=\"Please enter your comment\" id=\"CommentText\" name=\"CommentText\" rows=\"2\"> Name Email Submit Gary Furnell 14 days ago A terrific article, beautifully written. Kierkegaard, like Pascal, was rich with special insight, the delivery often augmented with wonderful, sardonic humour. matt sinclair 21 days ago Insightful. Thank you Mitch Martina 21 days ago Thanks, Daniel, for this extensive treatment of my favorite author—I learned a good deal I didn't know about Kierkegaard's life. A much-needed reminder of the necessity of passion",
+        "id": 48179021,
+        "title": "AI eats the world (Spring 26) [pdf]",
+        "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+        "score": 102,
+        "comments": 55,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": null,
         "comment_highlights": null
       },
       {
         "id": 48152754,
         "title": "Ask an Astronaut: 333 hours of Q&A footage with astronauts",
         "url": "https://askanastronaut.issinrealtime.org/",
-        "score": 175,
+        "score": 176,
         "comments": 22,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
@@ -471,7 +482,7 @@
         "id": 48151251,
         "title": "Jank now has its own custom IR",
         "url": "https://jank-lang.org/blog/2026-05-08-optimization/",
-        "score": 183,
+        "score": 186,
         "comments": 36,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
@@ -522,8 +533,8 @@
         "id": 48177163,
         "title": "Don't Answer the First Question",
         "url": "https://lalitm.com/post/dont-answer-the-first-question/",
-        "score": 29,
-        "comments": 16,
+        "score": 30,
+        "comments": 17,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "Don't answer the first question - Lalit Maganti Lalit Maganti &#215; About RSS Newsletter Don't answer the first question May 16, 2026 · Essay In my work on Perfetto, a performance debugging tool, one question I get often is: “how do I split a Perfetto trace into multiple files?” Instead of answering directly, I say: “there isn’t an easy way to do that, but what’s leading you to collect traces large enough to want to split?” This is one of my golden rules at work. When a user asks me something &ldquo;weird&rdquo;: don&rsquo;t answer the first version of the question . On the surface this might appear like I&rsquo;m talking about the XY problem , but that stops one step short. It treats the user&rsquo;s stated question as a puzzle to decode: figure out what they really meant, answer that, move on. I think we can go much further. Instead, the confusion that produced the wrong question is itself an opening, and the conversation it sparks is valuable to both sides. The user walks away with a better mental model of the tool. I walk away with a clearer picture of where the product confuses people. And sometimes, between us, we figure out that the product itself needs to change. I&rsquo;ve written before about how I can still be a successful engineer while avoiding the spotlight . While that covered the general strategy, this is one of the concrete tactics that makes it work. I should also say this post is aimed at people who build things for other engineers. If you&rsquo;re buildin",
@@ -533,8 +544,8 @@
         "id": 48177716,
         "title": "NASA still maintains some of the Voyager spacecraft code from the 70s era",
         "url": "https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their/",
-        "score": 45,
-        "comments": 48,
+        "score": 46,
+        "comments": 49,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "NASA still maintains some of the Voyager spacecraft code in a 1970s-era programming language that almost nobody on Earth fully understands anymore, and the handful of engineers who do are now in their 80s Space, science, and the human mind. Since 1995. Subscribe Est. 1995 Space Science Mind &amp; Meaning Long Reads Archive About Space Science Mind &amp; Meaning Long Reads Archive About Search Constellations NASA still maintains some of the Voyager spacecraft code in a 1970s-era programming language that almost nobody on Earth fully understands anymore, and the handful of engineers who do are now in their 80s The popular version of this story has hardened into a fixed shape. NASA still runs the Voyagers on software written in a programming language nobody alive can read, kept going by a handful of engineers all in their eighties, with no one queued up to replace them. By Space Daily Editorial Team · Editorial process Published May 16, 2026 The popular version of this story has hardened into a fixed shape. NASA still runs the Voyagers on software written in a programming language nobody alive can read, kept going by a handful of engineers all in their eighties, with no one queued up to replace them. In our reading of the record, parts of this are accurate. Parts are not. The underlying problem is real, and more specific than the headline suggests. What the spacecraft actually run The Voyager onboard computers run assembly language written for purpose-built General Electric inte",
@@ -544,7 +555,7 @@
         "id": 48173962,
         "title": "WriteUp: 16 Bytes of x86 that turn Matrix rain into sound",
         "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
-        "score": 172,
+        "score": 173,
         "comments": 31,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
@@ -604,8 +615,8 @@
         "id": 48176762,
         "title": "Why is Google Maps back to showing old satellite images of Altadena?",
         "url": "https://www.reddit.com/r/pasadena/s/94BHlkE84r",
-        "score": 78,
-        "comments": 35,
+        "score": 80,
+        "comments": 37,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": null,
@@ -663,8 +674,8 @@
         "id": 48155936,
         "title": "Magical Realism: “Northern Exposure” 25 Years Later (2015)",
         "url": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
-        "score": 130,
-        "comments": 75,
+        "score": 131,
+        "comments": 76,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": null,
@@ -672,10 +683,6 @@
           {
             "by": "martijn_himself",
             "text": "I had the privilege to watch this show last year for the first time and I was completely blown away by it. I still think about it from time to time and it is easily my favourite show ever. Every actor is great and every single character in it is likeable (desp"
-          },
-          {
-            "by": "erghjunk",
-            "text": "the episode about the ice breaking up - where everyone is acting out of character - is one of my favorite episodes of television. great show."
           },
           {
             "by": "Kon5ole",
@@ -688,6 +695,10 @@
           {
             "by": "4lx87",
             "text": "Find the German or UK international DVD release for original music. Region 1 DVDs have replacement music for licensing reasons, and it changes the show for the worse. One of my favorite shows."
+          },
+          {
+            "by": "erghjunk",
+            "text": "the episode about the ice breaking up - where everyone is acting out of character - is one of my favorite episodes of television. great show."
           },
           {
             "by": "stuxnet79",
@@ -718,12 +729,12 @@
             "text": "I had forgotten Northern Exposure existed for 30 years until remembering it recently, and discovering that i had very fond memories of watching it on Irish tv as a teenager. There was something different about it, definitely going to watch it again"
           },
           {
-            "by": "newer_vienna",
-            "text": "Obligatory Borges mention for magical realism. Read his Garden of Forking Paths and Lottery in Babylon. Short stories which leave you with much to think about"
-          },
-          {
             "by": "caycecan",
             "text": "Jessie the Bear episode, it ends with Enya&#x27;s &quot;Carribran Blue&quot;, is &quot;The Constant&quot; of the 90s. - I looked it up season 3 episode 18 &quot;The Final Frontier&quot;."
+          },
+          {
+            "by": "newer_vienna",
+            "text": "Obligatory Borges mention for magical realism. Read his Garden of Forking Paths and Lottery in Babylon. Short stories which leave you with much to think about"
           },
           {
             "by": "jurip",
@@ -738,113 +749,36 @@
             "text": "I read it was partly inspired by &quot;Local Hero&quot; (Bill Forsyth movie). The visiting Russian singer felt like a direct lift of the visiting Russian fisherman in &quot;Local Hero&quot;."
           },
           {
-            "by": "noefingway",
-            "text": "&quot;There are four words you need to know to adequately prepare yourself for childbirth. Take notes here, ladies: I...want...my...epidural.&quot;"
-          },
-          {
             "by": "pndy",
             "text": "As many shows or films from that period the title was &quot;customized&quot; in Poland and &quot;Northern Exposure&quot; was known as &quot; Przystanek Alaska &quot; - &quot;Station Alaska&quot;. My dad enjoy it especially credits with moose."
           },
           {
             "by": "erhuve",
             "text": "My 9th grade history teacher showed us S3E6 &quot;The Body in Question&quot; and it really stuck with me all the way through being an important part of my college thesis basically. I never actually watched any other episodes but I still think about Pierre and "
+          },
+          {
+            "by": "noefingway",
+            "text": "&quot;There are four words you need to know to adequately prepare yourself for childbirth. Take notes here, ladies: I...want...my...epidural.&quot;"
           }
         ]
       },
       {
-        "id": 48177228,
-        "title": "Where Are the Vibecoded Photoshops?",
-        "url": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
-        "score": 218,
-        "comments": 271,
+        "id": 48157229,
+        "title": "A Good Lemma Is Worth a Thousand Theorems (2007)",
+        "url": "https://sites.math.rutgers.edu/~zeilberg/Opinion82.html",
+        "score": 78,
+        "comments": 14,
         "category_hint": "other",
-        "why_hot": "Strong HN engagement; likely important development in other.",
-        "article_summary": null,
-        "comment_highlights": [
-          {
-            "by": "stevex",
-            "text": "I don&#x27;t think that&#x27;s the direction this is going to take. Replacing a mature app with an incredibly wide audience and a million use cases may or may not be possible, but what&#x27;s actually happening is that people are making an app that does exactl"
-          },
-          {
-            "by": "xnx",
-            "text": "This is a bit like asking, &quot;If engines are so good, where are all the mechanical oxen?&quot; A lot of things that were previously accomplished with Photoshop + training + practices are now done directly in one prompt (e.g. https:&#x2F;&#x2F;gemini.google&"
-          },
-          {
-            "by": "darkwater",
-            "text": "I don&#x27;t think most of the commenter so far are getting the real meaning of this post. The post author is calling out the &quot;Where are the vibecoded Photoshops?&quot; folks for empty accusations. The &quot;accusers&quot; in their post are THE people ask"
-          },
-          {
-            "by": "erelong",
-            "text": "I think it&#x27;s an interesting conversation; there&#x27;s an assumption that &quot;vibe coding is complete and incapable of creating Photoshop alternatives&quot;. But it&#x27;s more like, still open to debate but sounds likely: how long until vibe coding is "
-          },
-          {
-            "by": "TeMPOraL",
-            "text": "IDK, but I have three or four vibe-coded 0.1%-Photoshops already - small utility apps, all self-contained, client-side, static, zero build-step browser tools, each of them solving a very particular problem for me. Things like, drop an image, get a printable la"
-          },
-          {
-            "by": "butz",
-            "text": "Just hold your horses, I started vibe coding not only Photoshop, but whole Creative Suite with all the utilities. Sorry to say, but I ran out of tokens this month, so it might take a while until I will be able to take on Adobe. Just sit tight and send positive"
-          },
-          {
-            "by": "jofzar",
-            "text": "Im suprised no one has said its because photopea exists? Like of all the products OP could have chosen, photoshop shouldn&#x27;t have been the one that is chosen because it actually has a good clean competitor to it in the &quot;free&quot; category that theore"
-          },
-          {
-            "by": "swiftcoder",
-            "text": "Not quite the direction I expected that to take, but I do agree with the broad strokes. LLMs lowering the cost of code isn&#x27;t exactly solving software development, and is definitely not solving product development."
-          },
-          {
-            "by": "deepsummer",
-            "text": "I think it is too early to answer that question. If I really wanted to, I could &#x27;vibe code&#x27; Photoshop. But my estimate is that it would take me 2 years, as a solo dev. And by &#x27;vibe code&#x27; I mean not write a single line by hand - I would stil"
-          },
-          {
-            "by": "Hard_Space",
-            "text": "I need Photoshop for an almost vanishingly small subset of all the things it is capable of, and this holds true for nearly all &#x27;full-fledged&#x27; software that I use. So what may not be surfacing, in the absence of vibe-coded Photoshops, is the growing l"
-          },
-          {
-            "by": "InsideOutSanta",
-            "text": "&quot;If vibecoding is what people say it is, the world should be drowning in vibecoded artifacts right now&quot; It is. Look at GitHub repos. Look at the r&#x2F;selfhosting subreddit. Look at the r&#x2F;macapps subreddit. That doesn&#x27;t mean people are &qu"
-          },
-          {
-            "by": "TrackerFF",
-            "text": "I&#x27;d say that the main challenge for vibe-cloning big and known programs comes down to cost. Plenty of extremely competent devs and companies out there are porting FOSS programs from one language to another, while offloading all the heavy lifting to the AI"
-          },
-          {
-            "by": "fugaziboutit",
-            "text": "I think it was in these forums where I first read that you can gauge AI progress by the velocity at which people move the goalposts."
-          },
-          {
-            "by": "dnautics",
-            "text": "Photoshop is a kitchen sink. If you are a person using Photoshop and you&#x27;re vibecoding you&#x27;re better off just vibecoding what you need to streamline workflows, reduce human mistakes, have better integration with other business concerns, better ai int"
-          },
-          {
-            "by": "plaidfuji",
-            "text": "If I’m understanding this correctly, it starts by raising this question, then argues that it’s kind of a cheap and meaningless punch-down. I’m not sure I completely agree.. I think these types of questions are more a response to the level of hype around LLMs a"
-          },
-          {
-            "by": "pu_pe",
-            "text": "&gt; There are levels in this work. Level 1 is the typing. Syntax, semicolons, the years memorizing pointer arithmetic and which header file the function lives in. Level 2 is the verifying. The harness. The test suite. The reflex of rejecting the ninety attemp"
-          },
-          {
-            "by": "anticorporate",
-            "text": "That&#x27;s a bit like asking &quot;Where are the vibecoded AWSs?&quot; or &quot;Where are the vibe coded Office 365s?&quot; Can I vibe code an image editor? Sure! I have, actually, just more as a curiosity. I got as far as a simple Canva replacement, and if t"
-          },
-          {
-            "by": "egypturnash",
-            "text": "Judging by my glimpses inside Adobe, the vibecoded Photoshop is Photoshop."
-          },
-          {
-            "by": "wiether",
-            "text": "&gt; Level 3 is the deciding. What to build at all [...] AI lowered the cost of Level 1. It did not touch Levels 2 or 3. Actually where I get the most impressed working with AI is kind of at Level 3, where I ask for a feature and AI will suggest going further "
-          }
-        ]
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Doron Zeilberger's 82nd Opinion Opinion 82: A Good Lemma is Worth a Thousand Theorems By Doron Zeilberger Written: Aug. 14, 2007. Theorems are nice, but they are usually deadends. A lemma may be \"trivial\", or easy, to prove, once stated, but if it is good, its value far surpasses even the deepest theorems. Wiki has a fairly long list of lemmas , including the powerful Schur's Lemma, Lovasz's Local Lemma, and many others. But my absolute favorite, that lead to at least two Fields medals (so far), is Szemeredi's Regularity Lemma . (see also the beautiful Komlos-Simonovits exposition ). Its significance was lauded in two consecutive MAA Hedrick lectures, last year by Tim Gowers, and this year by Jennifer Chayes. For example, the recent Green-Tao breakthrough, about primes in arithmetic progressions, used a hypergraph extension of Szemeredi's great lemma. Endre Szemeredi is most famous for his theorem , but his lemma is yet more significant. So blessed be the lemmas, for they shall inherit mathematics. Even more important than lemmas are observations , but that is another story. Added Aug. 22, 2007: Vince Vatter kindly pointed my attention to this funny economist's critique of lemmas , but of course for them \"lemmas\" means \"complicated\". Added Aug. 23, 2007: Todd Trimble kindly pointed out the following quote from Paul Taylor (\"Practical Foundations of Mathematics\" ,p. 192): \"Lemmas do the work in mathematics: Theorems, like management, just take the credit. A good lemma also sur",
+        "comment_highlights": null
       },
       {
         "id": 48173468,
         "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
         "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
-        "score": 229,
-        "comments": 233,
+        "score": 230,
+        "comments": 235,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other.",
         "article_summary": "Two F-18 fighter jets have crashed during an airshow at Mountain Home Air Force Base Please ensure Javascript is enabled for purposes of website accessibility Skip to main content Close Download the App Get your news faster with our mobile experience Install News News Deputies in Idaho arrest suspected drug dealer after juvenile overdoses The Madison County Sheriff&#x27;s Office says a juvenile’s drug overdose earlier this year prompted an investigation in Sugar City that led to the arrest of a suspec Delta flight bound for Shanghai forced to divert to Seattle due to disruptive passenger SEATTLE (KOMO) &amp;mdash; A Delta Air Lines flight from Los Angeles to Shanghai was forced to divert to Seattle after a passenger became disruptive, the airline confirme Air St. Luke&#x27;s provides support following mid-air collision Mountain Home, Idaho - Air St. Luke&#x27;s says it provided support to the mid-air collision during the Gunfighter Skies Airshow on Sunday.On social media, Air St. L Idaho leaders react to mid-air collision at Mountain Home Air Force Base All four crew members ejected safely after two Navy jets collided and crashed on Sunday during an air show at the Mountain Home Air Force Base, officials said.T Local Nation &amp; World Entertainment Offbeat Election Election Results Videos Most Wanted Traffic Amazing America Livestream Newslinks Question of the Day Armstrong Army Strong Comings and Goings Inside Your World Crisis in the Classroom Beyond The Podium Idaho Photo",
@@ -988,17 +922,6 @@
         ]
       },
       {
-        "id": 48157229,
-        "title": "A Good Lemma Is Worth a Thousand Theorems (2007)",
-        "url": "https://sites.math.rutgers.edu/~zeilberg/Opinion82.html",
-        "score": 77,
-        "comments": 14,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "Doron Zeilberger's 82nd Opinion Opinion 82: A Good Lemma is Worth a Thousand Theorems By Doron Zeilberger Written: Aug. 14, 2007. Theorems are nice, but they are usually deadends. A lemma may be \"trivial\", or easy, to prove, once stated, but if it is good, its value far surpasses even the deepest theorems. Wiki has a fairly long list of lemmas , including the powerful Schur's Lemma, Lovasz's Local Lemma, and many others. But my absolute favorite, that lead to at least two Fields medals (so far), is Szemeredi's Regularity Lemma . (see also the beautiful Komlos-Simonovits exposition ). Its significance was lauded in two consecutive MAA Hedrick lectures, last year by Tim Gowers, and this year by Jennifer Chayes. For example, the recent Green-Tao breakthrough, about primes in arithmetic progressions, used a hypergraph extension of Szemeredi's great lemma. Endre Szemeredi is most famous for his theorem , but his lemma is yet more significant. So blessed be the lemmas, for they shall inherit mathematics. Even more important than lemmas are observations , but that is another story. Added Aug. 22, 2007: Vince Vatter kindly pointed my attention to this funny economist's critique of lemmas , but of course for them \"lemmas\" means \"complicated\". Added Aug. 23, 2007: Todd Trimble kindly pointed out the following quote from Paul Taylor (\"Practical Foundations of Mathematics\" ,p. 192): \"Lemmas do the work in mathematics: Theorems, like management, just take the credit. A good lemma also sur",
-        "comment_highlights": null
-      },
-      {
         "id": 48166856,
         "title": "Ksharp – k version 3 Language Interpreter in C#",
         "url": "https://github.com/ERufian/ksharp",
@@ -1010,11 +933,22 @@
         "comment_highlights": null
       },
       {
+        "id": 48179219,
+        "title": "The era of free money may have ended",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/g7-long-bond-stress-intensifies-2026-05-13/",
+        "score": 9,
+        "comments": 0,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": null,
+        "comment_highlights": null
+      },
+      {
         "id": 48147091,
         "title": "Prolog Basics Explained with Pokémon",
         "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
-        "score": 265,
-        "comments": 46,
+        "score": 267,
+        "comments": 48,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "Prolog Basics Explained with Pokémon Unplanned Obsolescence Home Blog Talks About RSS Prolog Basics Explained with Pokémon January 05, 2026 The project that inspired this post is a little silly—I am about to describe the mechanics of a children’s video game in great detail—but this particular problem is what finally made Prolog click for me, an epiphany I’ve been hunting for ever since reading Bruce Tate’s “Seven Languages in Seven Weeks.” This exercise has taught me a lot about the kinds of interfaces I’m trying to build in somewhat more practical domains . For certain kinds of relationships, logic programming is by far the most concise and expressive programming system I’ve ever used. To understand why, let’s talk about Pokémon. Pokémon basics Pokémon is a video game series/multimedia franchise/lifestyle brand set in a world where humans live alongside a menagerie of colorful animal characters. “Pokémon” is both the name of the franchise and the generic term for the animal characters themselves, which all have their own individual species names. There are over a thousand distinct species of Pokémon, from Bulbasaur ( #1 ) to Pecharunt ( #1025 ). Popular Pokémon include (from left to right): Pikachu (#25) , Archeops (#567) , and Dipplin (#1101) . I rarely include images on this blog and I am very excited that this post warrants them. There are all sorts of Pokémon games now, but the main series has always been about catching and battling them. During a battle, your team of si",
@@ -1064,12 +998,12 @@
             "text": "&gt; Then query it like so: SELECT DISTINCT pokemon, special_attack FROM pokemon as p WHERE p.special_attack &gt; 120 AND EXISTS ( SELECT 1 FROM pokemon_moves as pm WHERE p.pokemon_name = pm.pokemon_name AND move = &#x27;freezedry&#x27; ) AND EXISTS ( SELECT 1"
           },
           {
-            "by": "cluckindan",
-            "text": "”I am about to describe the mechanics of a children’s video game in great detail” Prolog must be an adult programming language :)"
-          },
-          {
             "by": "admeliora01",
             "text": "Love this use case, makes me want to implement something similar for Magic the Gathering. I love using scryfall, but I think a more cli first approach with descriptive rules would suffice much better for brewing in eternal formats like Commander with ever grow"
+          },
+          {
+            "by": "cluckindan",
+            "text": "”I am about to describe the mechanics of a children’s video game in great detail” Prolog must be an adult programming language :)"
           },
           {
             "by": "zombot",
@@ -1089,8 +1023,8 @@
         "id": 48140556,
         "title": "Hindenburg’s Smoking Room",
         "url": "https://www.airships.net/hindenburg-smoking-room/",
-        "score": 220,
-        "comments": 179,
+        "score": 221,
+        "comments": 180,
         "category_hint": "other",
         "why_hot": "Strong HN engagement; likely important development in other.",
         "article_summary": "Hindenburg&#039;s Smoking Room | Airships.net Airships.net The Graf Zeppelin, Hindenburg, U.S. Navy Airships, and other Dirigibles Blog Hindenburg Graf Zeppelin U.S. Navy Airships The First Zeppelins About/Contact Search for: Hindenburg&#8217;s Smoking Room Yes, there really was a smoking room on the Hindenburg &#8230; even though the zeppelin was inflated with 7 million cubic feet of highly flammable hydrogen gas. Pressurized Smoking Room aboard the Hindenburg, showing the airlock doors. The smoking room was kept at a higher pressure than the rest of the ship so that no leaking hydrogen could enter the room, and the smoking room was separated from the rest of the passenger section by a double-door airlock. The smoking room was closely monitored at all times by a member of the zeppelin&#8217;s staff, and only one electric lighter was provided; no matches, lighters, or other open flames were allowed anywhere on the airship. In reality, the pressurization of the smoking room may have been as much for public relations as for safety. The smoking room was located on B Deck, at the bottom of the ship, and since hydrogen is lighter than air any leaking gas would have escaped upward. (It would have been very unlikely that free hydrogen could have settled downward to the level of the smoking room, and only a leak at the very bottom of the cell adjoining the smoking room in Bay 12 would have posed any significant risk.) The real danger of allowing smoking on a hydrogen airship &#8212;",
@@ -1120,12 +1054,12 @@
             "text": "I don’t know if it would help anyone else, but personally, watching the movie The Insider kind of permanently put me off from smoking. Jeffrey Wigand is&#x2F;was an incredibly inspiring figure and I think of him every time I see cigarettes. https:&#x2F;&#x2F;y"
           },
           {
-            "by": "lynguist",
-            "text": "https:&#x2F;&#x2F;www.icao.int&#x2F;sites&#x2F;default&#x2F;files&#x2F;postalhistory&#x2F;aviat... Catapult mail service In the years immediately preceding Hindenburg (1928-1935), state of the art mail delivery service catapulted airplanes with mail while the "
-          },
-          {
             "by": "Barbing",
             "text": "Last paragraph: &gt;The smoking room was perhaps the most popular room on the ship, which is not surprising at a time when so many people smoked, but its popularity was no doubt enhanced because it was also the location of the [Hindenburg’s bar](link). That’s "
+          },
+          {
+            "by": "lynguist",
+            "text": "https:&#x2F;&#x2F;www.icao.int&#x2F;sites&#x2F;default&#x2F;files&#x2F;postalhistory&#x2F;aviat... Catapult mail service In the years immediately preceding Hindenburg (1928-1935), state of the art mail delivery service catapulted airplanes with mail while the "
           },
           {
             "by": "stmw",
@@ -1144,12 +1078,12 @@
             "text": "I remember years ago movie theaters in Hong Kong allowed smoking. If I remember right, it wasn&#x27;t in the back, like on planes, but the seats to the one side of the center aisle."
           },
           {
-            "by": "pbronez",
-            "text": "This is a really lovely website. I had no idea that stamp collectors were a critical market for airships! &gt; The polar journey, like other zeppelin flights, was largely financed by stamp collectors; Graf Zeppelin carried approximately 50,000 letters sent by "
-          },
-          {
             "by": "u1hcw9nx",
             "text": "Hindenburg was originally designed to use helium, but The US banned the export of helium. Helium was rare and expensive to manufacture and only the US made it in sufficient quantities."
+          },
+          {
+            "by": "pbronez",
+            "text": "This is a really lovely website. I had no idea that stamp collectors were a critical market for airships! &gt; The polar journey, like other zeppelin flights, was largely financed by stamp collectors; Graf Zeppelin carried approximately 50,000 letters sent by "
           },
           {
             "by": "quijoteuniv",
@@ -1166,6 +1100,98 @@
           {
             "by": "brcmthrowaway",
             "text": "Is there any truth of Nicotine being a nootropic?"
+          }
+        ]
+      },
+      {
+        "id": 48177228,
+        "title": "Where Are the Vibecoded Photoshops?",
+        "url": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
+        "score": 218,
+        "comments": 281,
+        "category_hint": "other",
+        "why_hot": "Strong HN engagement; likely important development in other.",
+        "article_summary": null,
+        "comment_highlights": [
+          {
+            "by": "stevex",
+            "text": "I don&#x27;t think that&#x27;s the direction this is going to take. Replacing a mature app with an incredibly wide audience and a million use cases may or may not be possible, but what&#x27;s actually happening is that people are making an app that does exactl"
+          },
+          {
+            "by": "darkwater",
+            "text": "I don&#x27;t think most of the commenter so far are getting the real meaning of this post. The post author is calling out the &quot;Where are the vibecoded Photoshops?&quot; folks for empty accusations. The &quot;accusers&quot; in their post are THE people ask"
+          },
+          {
+            "by": "orochi235",
+            "text": "I&#x27;m two weeks into a vibecoded Illustrator, actually ( https:&#x2F;&#x2F;orochi235.github.io&#x2F;weasel&#x2F;swillustrator ). It&#x27;s built on top of a more generic WebGL presentation layer for canvas-based apps in general and Illustrator seemed like a"
+          },
+          {
+            "by": "TeMPOraL",
+            "text": "IDK, but I have three or four vibe-coded 0.1%-Photoshops already - small utility apps, all self-contained, client-side, static, zero build-step browser tools, each of them solving a very particular problem for me. Things like, drop an image, get a printable la"
+          },
+          {
+            "by": "erelong",
+            "text": "I think it&#x27;s an interesting conversation; there&#x27;s an assumption that &quot;vibe coding is complete and incapable of creating Photoshop alternatives&quot;. But it&#x27;s more like, still open to debate but sounds likely: how long until vibe coding is "
+          },
+          {
+            "by": "xnx",
+            "text": "This is a bit like asking, &quot;If engines are so good, where are all the mechanical oxen?&quot; A lot of things that were previously accomplished with Photoshop + training + practices are now done directly in one prompt (e.g. https:&#x2F;&#x2F;gemini.google&"
+          },
+          {
+            "by": "tedggh",
+            "text": "Photopea was a solo attempt to offer a free alternative to Photoshop, and it was highly successful. If the original creator had access to Claude Code back in the day, it is very likely he would have vibecoded the entire thing. So it’s not like the tools are in"
+          },
+          {
+            "by": "jofzar",
+            "text": "Im suprised no one has said its because photopea exists? Like of all the products OP could have chosen, photoshop shouldn&#x27;t have been the one that is chosen because it actually has a good clean competitor to it in the &quot;free&quot; category that theore"
+          },
+          {
+            "by": "swiftcoder",
+            "text": "Not quite the direction I expected that to take, but I do agree with the broad strokes. LLMs lowering the cost of code isn&#x27;t exactly solving software development, and is definitely not solving product development."
+          },
+          {
+            "by": "deepsummer",
+            "text": "I think it is too early to answer that question. If I really wanted to, I could &#x27;vibe code&#x27; Photoshop. But my estimate is that it would take me 2 years, as a solo dev. And by &#x27;vibe code&#x27; I mean not write a single line by hand - I would stil"
+          },
+          {
+            "by": "Hard_Space",
+            "text": "I need Photoshop for an almost vanishingly small subset of all the things it is capable of, and this holds true for nearly all &#x27;full-fledged&#x27; software that I use. So what may not be surfacing, in the absence of vibe-coded Photoshops, is the growing l"
+          },
+          {
+            "by": "InsideOutSanta",
+            "text": "&quot;If vibecoding is what people say it is, the world should be drowning in vibecoded artifacts right now&quot; It is. Look at GitHub repos. Look at the r&#x2F;selfhosting subreddit. Look at the r&#x2F;macapps subreddit. That doesn&#x27;t mean people are &qu"
+          },
+          {
+            "by": "fugaziboutit",
+            "text": "I think it was in these forums where I first read that you can gauge AI progress by the velocity at which people move the goalposts."
+          },
+          {
+            "by": "TrackerFF",
+            "text": "I&#x27;d say that the main challenge for vibe-cloning big and known programs comes down to cost. Plenty of extremely competent devs and companies out there are porting FOSS programs from one language to another, while offloading all the heavy lifting to the AI"
+          },
+          {
+            "by": "joshmarinacci",
+            "text": "I’ve been vibe coding a Figma like clone and it’s fun but slow going. Creating real Photoshop clones is still a ton of work with no monetary payoff."
+          },
+          {
+            "by": "plaidfuji",
+            "text": "If I’m understanding this correctly, it starts by raising this question, then argues that it’s kind of a cheap and meaningless punch-down. I’m not sure I completely agree.. I think these types of questions are more a response to the level of hype around LLMs a"
+          },
+          {
+            "by": "pu_pe",
+            "text": "&gt; There are levels in this work. Level 1 is the typing. Syntax, semicolons, the years memorizing pointer arithmetic and which header file the function lives in. Level 2 is the verifying. The harness. The test suite. The reflex of rejecting the ninety attemp"
+          },
+          {
+            "by": "dnautics",
+            "text": "Photoshop is a kitchen sink. If you are a person using Photoshop and you&#x27;re vibecoding you&#x27;re better off just vibecoding what you need to streamline workflows, reduce human mistakes, have better integration with other business concerns, better ai int"
+          },
+          {
+            "by": "butz",
+            "text": "Just hold your horses, I started vibe coding not only Photoshop, but whole Creative Suite with all the utilities. Sorry to say, but I ran out of tokens this month, so it might take a while until I will be able to take on Adobe. Just sit tight and send positive"
+          },
+          {
+            "by": "anticorporate",
+            "text": "That&#x27;s a bit like asking &quot;Where are the vibecoded AWSs?&quot; or &quot;Where are the vibe coded Office 365s?&quot; Can I vibe code an image editor? Sure! I have, actually, just more as a curiosity. I got as far as a simple Canva replacement, and if t"
           }
         ]
       },
@@ -1262,17 +1288,6 @@
         ]
       },
       {
-        "id": 48179219,
-        "title": "The era of free money may have ended",
-        "url": "https://www.reuters.com/commentary/reuters-open-interest/g7-long-bond-stress-intensifies-2026-05-13/",
-        "score": 7,
-        "comments": 0,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": null,
-        "comment_highlights": null
-      },
-      {
         "id": 48133293,
         "title": "High-Entropy Alloy",
         "url": "https://en.wikipedia.org/wiki/High-entropy_alloy",
@@ -1288,7 +1303,7 @@
         "title": "Cannibalistic attacks between gray seals leave telltale “corkscrew” injuries",
         "url": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
         "score": 75,
-        "comments": 32,
+        "comments": 33,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": null,
@@ -1310,7 +1325,7 @@
         "title": "Trials on veterans suggest ibogaine could provide a new treatment for PTSD",
         "url": "https://www.bbc.com/future/article/20260514-how-hallucinogenic-ibogaine-helps-veterans-overcome-ptsd",
         "score": 104,
-        "comments": 118,
+        "comments": 119,
         "category_hint": "other",
         "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
         "article_summary": "Ibogaine is a banned hallucinogenic drug. Scientists believe it can help veterans overcome PTSD Skip to content British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Home News US &amp; Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Culture Film &amp; TV Music Art &amp; Design Style Books Entertainment News Arts Arts in Motion Travel Destinations Africa Antarctica Asia Australia and Pacific Caribbean &amp; Bermuda Central America Europe Middle East North America South America World’s Table Culture &amp; Experiences Adventures The SpeciaList Earth Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video BBC Maestro Discover the World Live Live News Live Sport Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Weather Newsletters Ibogaine is a banned hallucinogenic drug. Scientists believe it can help veterans overcome PTSD 3 days ago Share Save Add as preferred on Google Chris Marshall Getty Images (Credit: Getty Images) Trials on veterans suggest the potent hallucinogen could provide a new tr",
@@ -1382,77 +1397,11 @@
         ]
       },
       {
-        "id": 48178255,
-        "title": "Utah lawmakers form united front in push to ban prediction markets",
-        "url": "https://www.theguardian.com/us-news/2026/may/18/you-can-bet-on-it-utah-lawmakers-form-united-front-in-push-to-ban-prediction-markets",
-        "score": 87,
-        "comments": 66,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "‘You can bet on it’: Utah lawmakers form united front in push to ban prediction markets | Prediction markets | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Skip to navigation Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV &amp; radio Art &amp; design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love &amp; sex Health &amp; fitness Home &amp; garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today&#x27;s paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Europe US news Americas Asia Australia Middle East Africa Inequali",
-        "comment_highlights": [
-          {
-            "by": "jackp96",
-            "text": "Neither conservative nor Mormon, but online gambling is an addictive scourge that ruins lives, and I&#x27;d love to see it banned broadly. And go ahead and ban paid loot boxes as well. I don&#x27;t love casinos or lotteries, but at least there&#x27;s the frict"
-          },
-          {
-            "by": "lizknope",
-            "text": "I&#x27;d like to first see all advertisements for gambling banned. Then lets take a look at the data after 1-2 years. Or if you allow it put a warning like the surgeon generals warning on tobacco. Clearly state that most people lose money. Smoking is legal but"
-          },
-          {
-            "by": "throwaw12",
-            "text": "Coming soon: * researchers found that prediction markets are actually good for your wellbeing * lobby group is lobbying to fight against Utah lawmakers who are working against the wellbeing of people in Utah"
-          },
-          {
-            "by": "jcfrei",
-            "text": "I&#x27;m surprised prediction markets don&#x27;t get more support here on HN. There&#x27;s a lot of benefit in having a probability estimate for various kinds of events. One example of many: https:&#x2F;&#x2F;polymarket.com&#x2F;event&#x2F;may-2026-temperature"
-          },
-          {
-            "by": "Sol-",
-            "text": "Shame that prediction markets seem to have failed a bit, since they seem in principle like a good idea. You force participants to have skin in the game and remove the usual mood affiliation and ideological bias that afflicts the professional commentariat in th"
-          },
-          {
-            "by": "WarmWash",
-            "text": "I think they should be legal, but the amount of marketing and pushing around them is so bad. It&#x27;s like you make something legal, and some group of people try as hard as possible to push the limit as far as they can, and in turn ruin for everyone."
-          },
-          {
-            "by": "carabiner",
-            "text": "As I get older I&#x27;m starting to realize, the Christians were right about everything."
-          },
-          {
-            "by": "exabrial",
-            "text": "can we stop calling them &quot;prediction markets&quot; and please call them what they actually are: gambling"
-          }
-        ]
-      },
-      {
-        "id": 48179569,
-        "title": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI",
-        "url": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
-        "score": 4,
-        "comments": 0,
-        "category_hint": "ai-ml",
-        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
-        "article_summary": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Account Log in Subscribe Navigation Home About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Follow us Twitter Bluesky Mastodon Instagram TikTok Facebook RSS Sign in Subscribe About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Advertisement &bull; Go ad free Privacy Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Joseph Cox · May 18, 2026 at 9:17 AM “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher&#x27;s approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared with 404 Media reads. Photo by&nbsp; CDC &nbsp;on&nbsp; Unsplash . University of Washington researchers planned to have preschool teachers wear cameras that would record everything they saw from a first-person perspective, including the children they were teaching, then use that footage to develop AI models. Crucially, the program was presented as opt-out, rather than opt-in, meaning that parents had to take steps to prevent recordings of their children being processed by AI.&nbsp; “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher's approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared w",
-        "comment_highlights": null
-      },
-      {
-        "id": 48148351,
-        "title": "Graphing Scientific Calculator Based on the ESP32",
-        "url": "https://github.com/El-EnderJ/NeoCalculator",
-        "score": 28,
-        "comments": 9,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "GitHub - El-EnderJ/NeoCalculator: This project is a Graphing Scientific Calculator based on the ESP32 microcontroller, designed to compete with commercial models (Casio fx-991EX, TI-84) by means of a color TFT screen, natural display (correctly rendered mathematical formulas) and a modular application architecture. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Commun",
-        "comment_highlights": null
-      },
-      {
         "id": 48166459,
         "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
         "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
         "score": 781,
-        "comments": 337,
+        "comments": 338,
         "category_hint": "security",
         "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience.",
         "article_summary": "Mozilla to UK regulators: VPNs are essential privacy and security tools and should not be undermined - Open Policy &amp; Advocacy Mozilla Menu About Mozilla Products Give Discover Firefox Open Policy &amp; Advocacy Mozilla&#039;s official blog on open Internet policy initiatives and developments Explore Categories Search this site Search Categories: Uncategorized Share: Twitter Mozilla to UK regulators: VPNs are essential privacy and security tools and should not be undermined Svea Windwehr May 15, 2026 In the context of concerns around young people’s interactions with digital technologies, the UK’s Department for Science, Innovation and Technology is consulting on additional measures to prepare young people for growing up in a digital world. Before the backdrop of users circumventing age assurance systems mandated under the UK’s Online Safety Act, the consultation considers age-gating virtual private networks (VPNs). Mozilla’s mission is grounded in the belief that the internet must remain open and accessible to all, and that privacy and security online are fundamental human rights. We recognize that the protection of young people online is one of the most pressing and challenging questions of our time, and we are committed to supporting policy proposals that address the root causes of online harms. We are concerned , however, that blunt interventions like mandatory age assurance and restricting access to tools like VPNs are not effective in improving the protection afforded",
@@ -1478,12 +1427,12 @@
             "text": "&gt; Rather than age-gating technologies like VPNs, we believe that regulators should address the root causes of online harm by holding platforms to account Honest question: if you tell Pornhub &quot;now you will be fined heavily if you let 10-year old kids ac"
           },
           {
-            "by": "jaspervanderee",
-            "text": "&quot;Regulators&quot;. Think about what that means. It&#x27;s essentially a mechanism to stop the free market of exchange which is detrimental to the debt based system we live in. To stop this, everything you do has to be tracked and no privacy is allowed."
-          },
-          {
             "by": "speedgoose",
             "text": "While their arguments are sound, Perhaps Mozilla should disclose in this document that they are also a VPN reseller."
+          },
+          {
+            "by": "jaspervanderee",
+            "text": "&quot;Regulators&quot;. Think about what that means. It&#x27;s essentially a mechanism to stop the free market of exchange which is detrimental to the debt based system we live in. To stop this, everything you do has to be tracked and no privacy is allowed."
           },
           {
             "by": "borzi",
@@ -1530,10 +1479,32 @@
             "text": "I think this is a genuinely difficult problem that happens to look exactly like what you’d need for extended surveillance. When I think about it seriously, I end up coming up with the idea of a whitelist enforced on device for local accounts used by children. "
           },
           {
-            "by": "grougnax",
-            "text": "UK regulators will ban Mozilla Firefox, then"
+            "by": "JumpCrisscross",
+            "text": "Is the charitable reading of whatever’s going on in Europe right now that European states don’t believe they can hold American tech giants accountable to their laws? I genuinely don’t see why a law banning under-14 year olds from social media wouldn’t be the f"
           }
         ]
+      },
+      {
+        "id": 48148351,
+        "title": "Graphing Scientific Calculator Based on the ESP32",
+        "url": "https://github.com/El-EnderJ/NeoCalculator",
+        "score": 28,
+        "comments": 9,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "GitHub - El-EnderJ/NeoCalculator: This project is a Graphing Scientific Calculator based on the ESP32 microcontroller, designed to compete with commercial models (Casio fx-991EX, TI-84) by means of a color TFT screen, natural display (correctly rendered mathematical formulas) and a modular application architecture. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Commun",
+        "comment_highlights": null
+      },
+      {
+        "id": 48179569,
+        "title": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI",
+        "url": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
+        "score": 4,
+        "comments": 0,
+        "category_hint": "ai-ml",
+        "why_hot": "AI/ML topic with notable HN attention; relevant to agent, model, or infra trends.",
+        "article_summary": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Account Log in Subscribe Navigation Home About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Follow us Twitter Bluesky Mastodon Instagram TikTok Facebook RSS Sign in Subscribe About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Thanks Privacy Advertisement &bull; Go ad free Privacy Researchers Wanted Preschool Teachers to Wear Cameras to Train AI Joseph Cox · May 18, 2026 at 9:17 AM “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher&#x27;s approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared with 404 Media reads. Photo by&nbsp; CDC &nbsp;on&nbsp; Unsplash . University of Washington researchers planned to have preschool teachers wear cameras that would record everything they saw from a first-person perspective, including the children they were teaching, then use that footage to develop AI models. Crucially, the program was presented as opt-out, rather than opt-in, meaning that parents had to take steps to prevent recordings of their children being processed by AI.&nbsp; “With your permission, your child’s lead teacher may wear a small teacher-worn camera that captures the teacher's approximate first-person perspective, and/or we may place a fixed video camera in the classroom,” a document given to parents and later shared w",
+        "comment_highlights": null
       },
       {
         "id": 48144584,
@@ -1635,17 +1606,6 @@
         "comment_highlights": null
       },
       {
-        "id": 48177283,
-        "title": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths",
-        "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-confirmed-in-congo-and-uganda-246-suspected-cases-65-deaths/",
-        "score": 15,
-        "comments": 3,
-        "category_hint": "other",
-        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
-        "article_summary": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Already large Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths WHO learned of potential cases May 5; US CDC said it just heard about it yesterday. Beth Mole – May 15, 2026 2:51 pm | 56 An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Minimize to nav The Africa Centres for Disease Control and Prevention on Friday confirmed an Ebola outbreak in the Northeastern Ituri province of the Democratic Republic of the Congo. Officials in Uganda subsequently reported that the deadly hemo",
-        "comment_highlights": null
-      },
-      {
         "id": 48172505,
         "title": "VoIP brings back old-fashioned pay phones to rural Vermont (2025)",
         "url": "https://spectrum.ieee.org/payphone-voip",
@@ -1696,6 +1656,17 @@
             "text": "&gt; free-to-use pay phones Some redundant words there perhaps."
           }
         ]
+      },
+      {
+        "id": 48177283,
+        "title": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths",
+        "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-confirmed-in-congo-and-uganda-246-suspected-cases-65-deaths/",
+        "score": 15,
+        "comments": 3,
+        "category_hint": "other",
+        "why_hot": "HN story with meaningful engagement; relevant tech discussion.",
+        "article_summary": "Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths - Ars Technica Skip to content Ars Technica home Sections Forum Subscribe Search AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Feature Reviews AI Biz &amp; IT Cars Culture Gaming Health Policy Science Security Space Tech Forum Subscribe Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Pin to story Theme HyperLight Day & Night Dark System Search Sign In Sign in dialog... Sign in Already large Ebola outbreak with uncommon strain erupts in Congo and Uganda; 65 deaths WHO learned of potential cases May 5; US CDC said it just heard about it yesterday. Beth Mole – May 15, 2026 2:51 pm | 56 An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS An Ebola patient is being checked by two medical workers after being admitted into a biosecure emergency care unit on August 15, 2018 in Beni. Credit: Getty | JOHN WESSELS Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only &nbsp;&nbsp; Learn more Minimize to nav The Africa Centres for Disease Control and Prevention on Friday confirmed an Ebola outbreak in the Northeastern Ituri province of the Democratic Republic of the Congo. Officials in Uganda subsequently reported that the deadly hemo",
+        "comment_highlights": null
       },
       {
         "id": 48168626,
@@ -1791,8 +1762,8 @@
         "id": 48179677,
         "title": "Show HN: Files.md – Open-source alternative to Obsidian",
         "url": "https://github.com/zakirullin/files.md",
-        "score": 87,
-        "comments": 37,
+        "score": 115,
+        "comments": 59,
         "category_hint": "other",
         "why_hot": "Show HN submission with meaningful interest; early traction worth watching.",
         "article_summary": "GitHub - zakirullin/files.md: 🌱 Your life in plain .md files · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise EN",
@@ -1803,42 +1774,34 @@
         "title": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
         "url": "https://github.com/stephenlthorn/auto-identity-remove",
         "score": 282,
-        "comments": 110,
+        "comments": 113,
         "category_hint": "other",
         "why_hot": "High-engagement Show HN; strong community validation for a new tool/product.",
         "article_summary": "GitHub - stephenlthorn/auto-identity-remove: Automated data broker opt-out runner — removes your personal info from 30+ people-search sites on a monthly schedule · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Commu",
         "comment_highlights": [
           {
-            "by": "butz",
-            "text": "Isn&#x27;t this just a way to confirm that your email is still active, and few miliseconds later you will be getting a lot of new spam from websites you never knew about?"
-          },
-          {
             "by": "pards",
             "text": "I tried this (as a Canadian): 1. It asks you to optionally sign up for a bunch of other services like Spokeo 2. It asks for access to your email via Apple&#x27;s Mail app which I don&#x27;t use 3. I got a lot of 404s anyway 4. Many sites require manual interve"
-          },
-          {
-            "by": "IgorPartola",
-            "text": "Back in 2011 or so the Yellow Pages still delivered physical phone books to ever address in the state where we were. My city literally sent out an extra off cycle recycling truck the next day to pick them all up. Everyone threw them out. Well my coworkers and "
           },
           {
             "by": "bborud",
             "text": "Nothing they do actually improves society so in a healthy society we would be able to outlaw what they do. But we don&#x27;t. So we can&#x27;t."
           },
           {
-            "by": "hmokiguess",
-            "text": "I always get paranoid about these things ever since the Streisand Effect became a thing, I feel like the outcome is you enter a second list and this second list is maybe less friendly as it turns you into an outlier which brings other kinds of problems It feel"
+            "by": "IgorPartola",
+            "text": "Back in 2011 or so the Yellow Pages still delivered physical phone books to ever address in the state where we were. My city literally sent out an extra off cycle recycling truck the next day to pick them all up. Everyone threw them out. Well my coworkers and "
           },
           {
-            "by": "_joel",
-            "text": "I feel like this is just a way to mark yourself as &quot;active&quot;. Do we honestly think evey one of those shady companies sticks to the rules?"
+            "by": "hmokiguess",
+            "text": "I always get paranoid about these things ever since the Streisand Effect became a thing, I feel like the outcome is you enter a second list and this second list is maybe less friendly as it turns you into an outlier which brings other kinds of problems It feel"
           },
           {
             "by": "airstrike",
             "text": "&gt; 4. Solves CAPTCHAs via CapSolver (AI-powered, ~$0.001&#x2F;solve) Right, so my suspicion was correct: I&#x27;m the only one being inconvenienced by the same old captchas."
           },
           {
-            "by": "rib3ye",
-            "text": "At least in California, the DROP form is scheduled to come online this fall."
+            "by": "_joel",
+            "text": "I feel like this is just a way to mark yourself as &quot;active&quot;. Do we honestly think evey one of those shady companies sticks to the rules?"
           },
           {
             "by": "ramon156",
@@ -1849,8 +1812,12 @@
             "text": "I&#x27;m wondering if this isn&#x27;t a nice automated way to send your information to 500 data brokers."
           },
           {
-            "by": "namanaggarwal",
-            "text": "Is this relevant for the UK? (Genuine question, trying to understand if I should run this)"
+            "by": "rib3ye",
+            "text": "At least in California, the DROP form is scheduled to come online this fall."
+          },
+          {
+            "by": "butz",
+            "text": "Isn&#x27;t this just a way to confirm that your email is still active, and few miliseconds later you will be getting a lot of new spam from websites you never knew about?"
           },
           {
             "by": "3RTB297",
@@ -1861,32 +1828,36 @@
             "text": "Has anyone had any luck deleting themselves from the data brokers who sell cell data to political texters and&#x2F;or survey companies? Those are the ones I really want to opt out of"
           },
           {
+            "by": "projektfu",
+            "text": "Interesting. Have you been using it a while and is it working to reduce spam?"
+          },
+          {
             "by": "stephenlthorn",
             "text": "Thanks for the lively feedback and comments - this is very much a beta&#x2F;first attempt. I hate spam = the only reason I built it. No other intention behind it. I posted here to get support on making it better so others can use it. I&#x27;ll take some of the"
           },
           {
-            "by": "projektfu",
-            "text": "Interesting. Have you been using it a while and is it working to reduce spam?"
+            "by": "namanaggarwal",
+            "text": "Is this relevant for the UK? (Genuine question, trying to understand if I should run this)"
           },
           {
             "by": "guidedlight",
             "text": "&gt; Name, city, state, ZIP, email, phone Does this work for anyone outside the US as well? e.g. Will it work for an Australian?"
           },
           {
-            "by": "SamuelAdams",
-            "text": "I use Optery for about two months a year, seems to do a good enough job for most of the data brokers. There are also discounts or promo codes to lower the price as well. https:&#x2F;&#x2F;www.optery.com&#x2F; HN Launch: https:&#x2F;&#x2F;news.ycombinator.com&#"
-          },
-          {
             "by": "Waffle2180",
             "text": "The state tracking and manual fallback are the most interesting parts to me. For a tool like this, I’d really want a dry-run&#x2F;audit mode that shows which fields would be submitted to which broker before anything is sent. The awkward threat model is that th"
           },
           {
-            "by": "himata4113",
-            "text": "I honestly find these kind of useless. I think a service that simply inserts thousands of bogus entries is way more valuable since a search is useless if it returns 100 addresses for where you live."
+            "by": "SamuelAdams",
+            "text": "I use Optery for about two months a year, seems to do a good enough job for most of the data brokers. There are also discounts or promo codes to lower the price as well. https:&#x2F;&#x2F;www.optery.com&#x2F; HN Launch: https:&#x2F;&#x2F;news.ycombinator.com&#"
           },
           {
             "by": "LoganDark",
             "text": "I got tired of spammers having my information, so I built a tool that submits an up-to-date copy of my information to over 500 websites. Surely this will help. Jokes aside, I unironically suspect the purpose of many opt-out forms is merely to record the up-to-"
+          },
+          {
+            "by": "victorbjorklund",
+            "text": "Sweet, I&#x27;ve been wondering why it doesn&#x27;t doesn&#x27;t exist as an open source solution."
           }
         ]
       },
@@ -1894,7 +1865,7 @@
         "id": 48169874,
         "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
         "url": "https://github.com/MinishLab/semble",
-        "score": 391,
+        "score": 394,
         "comments": 130,
         "category_hint": "other",
         "why_hot": "High-engagement Show HN; strong community validation for a new tool/product.",
@@ -1933,12 +1904,12 @@
             "text": "Metric that measures the quality beyond simple tokens count: correction loop frequency. When grep does not find a file of interest, the agent does not fail; it will continue working on an incomplete context. For a monolingual code base, the miss rate is okay. "
           },
           {
-            "by": "pu_pe",
-            "text": "&gt; uses 98% fewer tokens than grep So are we supposed to believe that grep is so wasteful that models are reading 98% useless garbage every time they call it? Either this claim is not representative, or you&#x27;re missing something else when you throw away "
-          },
-          {
             "by": "andai",
             "text": "Nice, this sounds great. I want to mention a related issue here, which is that on small codebases, Claude spends a lot of time looking for stuff when it could have just dumped the whole codebase into the context in one go and used very little tokens. I found a"
+          },
+          {
+            "by": "pu_pe",
+            "text": "&gt; uses 98% fewer tokens than grep So are we supposed to believe that grep is so wasteful that models are reading 98% useless garbage every time they call it? Either this claim is not representative, or you&#x27;re missing something else when you throw away "
           },
           {
             "by": "sonink",

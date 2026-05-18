@@ -154,7 +154,7 @@
     {
       "id": "hexgrad/Kokoro-82M",
       "name": "Kokoro-82M",
-      "likes": 6161,
+      "likes": 6162,
       "downloads": 9699227,
       "pipeline_tag": "text-to-speech",
       "tags": [
@@ -380,7 +380,7 @@
     {
       "id": "openai/gpt-oss-120b",
       "name": "gpt-oss-120b",
-      "likes": 4782,
+      "likes": 4783,
       "downloads": 4710558,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -667,7 +667,7 @@
     {
       "id": "deepseek-ai/DeepSeek-V4-Pro",
       "name": "DeepSeek-V4-Pro",
-      "likes": 4029,
+      "likes": 4030,
       "downloads": 3435748,
       "pipeline_tag": "text-generation",
       "tags": [

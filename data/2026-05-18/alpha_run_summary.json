@@ -1,51 +1,51 @@
 {
   "date": "2026-05-18",
-  "runAt": "2026-05-18T14:46:58.260Z",
-  "total_duration_ms": 118371,
+  "runAt": "2026-05-18T14:48:22.016Z",
+  "total_duration_ms": 115654,
   "scripts": {
     "github_trending": {
       "status": "ok",
-      "duration_ms": 11270,
+      "duration_ms": 7791,
       "error": null
     },
     "hn_signals": {
       "status": "ok",
-      "duration_ms": 65945,
+      "duration_ms": 70775,
       "error": null
     },
     "reddit_signals": {
       "status": "ok",
-      "duration_ms": 35483,
+      "duration_ms": 32087,
       "error": null
     },
     "research_ml": {
       "status": "ok",
-      "duration_ms": 522,
+      "duration_ms": 426,
       "error": null
     },
     "product_launch": {
       "status": "ok",
-      "duration_ms": 1299,
+      "duration_ms": 1159,
       "error": null
     },
     "job_signals": {
       "status": "ok",
-      "duration_ms": 1673,
+      "duration_ms": 1600,
       "error": null
     },
     "alpha_deep_context": {
       "status": "ok",
-      "duration_ms": 81,
+      "duration_ms": 102,
       "error": null
     },
     "alpha_daily_report": {
       "status": "ok",
-      "duration_ms": 52,
+      "duration_ms": 47,
       "error": null
     },
     "alpha_git_commit": {
       "status": "ok",
-      "duration_ms": 2046,
+      "duration_ms": 1667,
       "error": null
     }
   }

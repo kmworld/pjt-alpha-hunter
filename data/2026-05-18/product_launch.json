@@ -3,28 +3,6 @@
   "date": "2026-05-18",
   "product_hunt": [
     {
-      "name": "Shadow",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/shadow-4",
-      "published": "2026-05-08T00:41:32-07:00",
-      "maker": "Ben Lang",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "LobeHub",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/lobehub",
-      "published": "2026-05-15T02:48:13-07:00",
-      "maker": "Justin Jincaid",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
       "name": "Krea 2",
       "tagline": "",
       "votes": null,
@@ -32,140 +10,6 @@
       "url": "https://www.producthunt.com/products/krea",
       "published": "2026-05-17T21:49:16-07:00",
       "maker": "Zac Zuo",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "LandingHero AI",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/landinghero-ai-2",
-      "published": "2026-04-12T08:46:55-07:00",
-      "maker": "Ben Lang",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Agentspan",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/agentspan",
-      "published": "2026-05-14T19:09:00-07:00",
-      "maker": "Nick",
-      "tech_domain": "other",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Searchad.ai",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/searchad-ai",
-      "published": "2026-05-16T23:59:00-07:00",
-      "maker": "Ahmet Sülek",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "Draft",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/draft-12",
-      "published": "2026-04-29T20:22:16-07:00",
-      "maker": "Jim Liu",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "M1 by Montage",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/montage-3",
-      "published": "2026-05-17T21:05:57-07:00",
-      "maker": "Aarav Makadia",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "Origio",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/origio",
-      "published": "2026-05-03T10:25:18-07:00",
-      "maker": "Rohan Chaubey",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "Voiser AI",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "AI"
-      ],
-      "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
-      "published": "2026-05-17T23:28:32-07:00",
-      "maker": "Fatih Sönmez",
-      "tech_domain": "ai-agent",
-      "why_notable": "AI-native"
-    },
-    {
-      "name": "SocLeads 3.0",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "Marketing"
-      ],
-      "url": "https://www.producthunt.com/products/socleads",
-      "published": "2026-04-15T06:27:47-07:00",
-      "maker": "Evgenii Anikin",
-      "tech_domain": "marketing",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "QuickRight",
-      "tagline": "",
-      "votes": null,
-      "tags": [
-        "Design",
-        "UX/UI"
-      ],
-      "url": "https://www.producthunt.com/products/capture-6",
-      "published": "2026-05-14T23:31:18-07:00",
-      "maker": "Huating Liu",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "AnyFrame",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/anyframe-2",
-      "published": "2026-05-17T23:49:44-07:00",
-      "maker": "Nishchith Shetty",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "pixserp",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/pixserp",
-      "published": "2026-05-16T05:11:38-07:00",
-      "maker": "Kevin William David",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
@@ -181,15 +25,37 @@
       "why_notable": "Notable new launch"
     },
     {
-      "name": "Triggered Agents by Adaptive",
+      "name": "Origio",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/origio",
+      "published": "2026-05-03T10:25:18-07:00",
+      "maker": "Rohan Chaubey",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Polarity",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/polarity-2",
+      "published": "2026-05-17T20:56:06-07:00",
+      "maker": "Alex U",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Agentspan",
       "tagline": "",
       "votes": null,
       "tags": [
         "AI"
       ],
-      "url": "https://www.producthunt.com/products/triggered-agents-by-adaptive",
-      "published": "2026-04-04T02:50:38-07:00",
-      "maker": "Rohan Chaubey",
+      "url": "https://www.producthunt.com/products/agentspan",
+      "published": "2026-05-14T19:09:00-07:00",
+      "maker": "Nick",
       "tech_domain": "other",
       "why_notable": "AI-native"
     },
@@ -207,15 +73,116 @@
       "why_notable": "AI-native"
     },
     {
-      "name": "Polarity",
+      "name": "M1 by Montage",
       "tagline": "",
       "votes": null,
       "tags": [],
-      "url": "https://www.producthunt.com/products/polarity-2",
-      "published": "2026-05-17T20:56:06-07:00",
-      "maker": "Alex U",
+      "url": "https://www.producthunt.com/products/montage-3",
+      "published": "2026-05-17T21:05:57-07:00",
+      "maker": "Aarav Makadia",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Voiser AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+      "published": "2026-05-17T23:28:32-07:00",
+      "maker": "Fatih Sönmez",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "QuickRight",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "Design",
+        "UX/UI"
+      ],
+      "url": "https://www.producthunt.com/products/capture-6",
+      "published": "2026-05-14T23:31:18-07:00",
+      "maker": "Huating Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Triggered Agents by Adaptive",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/triggered-agents-by-adaptive",
+      "published": "2026-04-04T02:50:38-07:00",
+      "maker": "Rohan Chaubey",
+      "tech_domain": "other",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "pixserp",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/pixserp",
+      "published": "2026-05-16T05:11:38-07:00",
+      "maker": "Kevin William David",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Searchad.ai",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/searchad-ai",
+      "published": "2026-05-16T23:59:00-07:00",
+      "maker": "Ahmet Sülek",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
+    },
+    {
+      "name": "Shadow",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/shadow-4",
+      "published": "2026-05-08T00:41:32-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "SocLeads 3.0",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "Marketing"
+      ],
+      "url": "https://www.producthunt.com/products/socleads",
+      "published": "2026-04-15T06:27:47-07:00",
+      "maker": "Evgenii Anikin",
+      "tech_domain": "marketing",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LandingHero AI",
+      "tagline": "",
+      "votes": null,
+      "tags": [
+        "AI"
+      ],
+      "url": "https://www.producthunt.com/products/landinghero-ai-2",
+      "published": "2026-04-12T08:46:55-07:00",
+      "maker": "Ben Lang",
+      "tech_domain": "ai-agent",
+      "why_notable": "AI-native"
     },
     {
       "name": "ReactVision Studio",
@@ -225,6 +192,50 @@
       "url": "https://www.producthunt.com/products/reactvision-studio",
       "published": "2026-05-17T05:40:43-07:00",
       "maker": "Paul Mit",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "LobeHub",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/lobehub",
+      "published": "2026-05-15T02:48:13-07:00",
+      "maker": "Justin Jincaid",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Draft",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/draft-12",
+      "published": "2026-04-29T20:22:16-07:00",
+      "maker": "Jim Liu",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "AnyFrame",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/anyframe-2",
+      "published": "2026-05-17T23:49:44-07:00",
+      "maker": "Nishchith Shetty",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
+      "name": "Kirki",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/kirki",
+      "published": "2026-05-16T04:15:00-07:00",
+      "maker": "Kawshar Ahmed",
       "tech_domain": "other",
       "why_notable": "Notable new launch"
     },
@@ -242,6 +253,17 @@
       "why_notable": "AI-native"
     },
     {
+      "name": "SUN-to-Spotify",
+      "tagline": "",
+      "votes": null,
+      "tags": [],
+      "url": "https://www.producthunt.com/products/sun-ai",
+      "published": "2025-03-16T22:09:16-07:00",
+      "maker": "Artin Bogdanov",
+      "tech_domain": "other",
+      "why_notable": "Notable new launch"
+    },
+    {
       "name": "Vivago Video Agent",
       "tagline": "",
       "votes": null,
@@ -253,28 +275,6 @@
       "maker": "Chris Messina",
       "tech_domain": "devtools",
       "why_notable": "AI-native"
-    },
-    {
-      "name": "Kirki",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/kirki",
-      "published": "2026-05-16T04:15:00-07:00",
-      "maker": "Kawshar Ahmed",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
-    },
-    {
-      "name": "SUN-to-Spotify",
-      "tagline": "",
-      "votes": null,
-      "tags": [],
-      "url": "https://www.producthunt.com/products/sun-ai",
-      "published": "2025-03-16T22:09:16-07:00",
-      "maker": "Artin Bogdanov",
-      "tech_domain": "other",
-      "why_notable": "Notable new launch"
     },
     {
       "name": "Files SDK",

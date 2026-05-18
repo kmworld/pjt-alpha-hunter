@@ -229,15 +229,6 @@ function detectNewTerms(ctx) {
     "high traction","engineer emerging","conversational text-generation",
     "multiple postings","strong demand","emerging role with niche demand",
     "notable product launch with votes/interest",
-    // Noise bigrams — not meaningful signals
-    "says ai","ai powered","ai powered bug","security mailing",
-    "mailing list","ai directed","rise ai","ai directed warfare",
-    "the rise","rise of","new ai","ai tool","ai tools",
-    "ai model","ai models","ai system","ai systems",
-    "ai based","ai driven","ai powered","ai enabled",
-    "ai assistant","ai chatbot","ai platform","ai service",
-    "this is","this week","this month","what is","how to",
-    "the future","future of","state of","state of the",
   ]);
 
   // Candidate new terms: bigrams with decent frequency, non-generic
@@ -638,7 +629,6 @@ function buildAlphaThesis(c) {
 function buildRisk(c) {
   const risks = [];
   const themes = c.themes || [];
-  const name = (c.name || "").toLowerCase();
 
   if (themes.includes("AI Agent Infra") || themes.includes("LLM / Reasoning")) {
     risks.push("AI agent hype cycle; many similar tools competing with unclear differentiation.");
@@ -650,18 +640,7 @@ function buildRisk(c) {
     risks.push("Single-source signal; needs cross-validation to confirm real momentum.");
   }
   if (c.type === "model") {
-    // Model-specific risks based on name and type
-    if (name.includes("whisper") || name.includes("speech") || name.includes("tts")) {
-      risks.push("Voice/speech models face high bar for latency and accuracy in production; edge deployment adds complexity.");
-    } else if (name.includes("diffusion") || name.includes("flux") || name.includes("image")) {
-      risks.push("Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives.");
-    } else if (name.includes("llama") || name.includes("bloom") || name.includes("gpt") || name.includes("deepseek")) {
-      risks.push("Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers.");
-    } else if (name.includes("stable") || name.includes("open") || name.includes("meta")) {
-      risks.push("Open-weight models depend on community maintenance; corporate backing shifts can impact roadmap.");
-    } else {
-      risks.push("Research-to-production gap; may not scale outside controlled environments.");
-    }
+    risks.push("Research-to-production gap; may not scale outside controlled environments.");
   }
   if (c.type === "trend") {
     risks.push("Short-term hiring spike may not reflect long-term structural demand.");

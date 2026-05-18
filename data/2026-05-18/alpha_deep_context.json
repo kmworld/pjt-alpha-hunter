@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "generatedAt": "2026-05-18T14:49:32.892Z",
+  "generatedAt": "2026-05-18T15:02:53.870Z",
   "sources": {
     "github_trending": {
       "count": 15,
@@ -12,7 +12,7 @@
       "valid": true
     },
     "reddit": {
-      "totalPosts": 56,
+      "totalPosts": 58,
       "valid": true
     },
     "research_ml": {
@@ -36,7 +36,7 @@
           "repo": "tinyhumansai/openhuman",
           "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
           "language": "Rust",
-          "stars": 16021,
+          "stars": 16062,
           "recent_stars": 3945,
           "url": "https://github.com/tinyhumansai/openhuman",
           "topics": [
@@ -50,7 +50,7 @@
           "repo": "CloakHQ/CloakBrowser",
           "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
           "language": "Python",
-          "stars": 14719,
+          "stars": 14732,
           "recent_stars": 1391,
           "url": "https://github.com/CloakHQ/CloakBrowser",
           "topics": [
@@ -69,7 +69,7 @@
           "repo": "Imbad0202/academic-research-skills",
           "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
           "language": "Python",
-          "stars": 10777,
+          "stars": 10808,
           "recent_stars": 1302,
           "url": "https://github.com/Imbad0202/academic-research-skills",
           "topics": [
@@ -88,7 +88,7 @@
           "repo": "tech-leads-club/agent-skills",
           "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
           "language": "TypeScript",
-          "stars": 3862,
+          "stars": 3867,
           "recent_stars": 1244,
           "url": "https://github.com/tech-leads-club/agent-skills",
           "topics": [
@@ -106,7 +106,7 @@
           "repo": "HKUDS/CLI-Anything",
           "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
           "language": "Python",
-          "stars": 36374,
+          "stars": 36382,
           "recent_stars": 1047,
           "url": "https://github.com/HKUDS/CLI-Anything",
           "topics": [
@@ -122,7 +122,7 @@
           "repo": "microsoft/ai-agents-for-beginners",
           "description": "12 Lessons to Get Started Building AI Agents",
           "language": "Jupyter Notebook",
-          "stars": 63194,
+          "stars": 63203,
           "recent_stars": 1013,
           "url": "https://github.com/microsoft/ai-agents-for-beginners",
           "topics": [
@@ -141,7 +141,7 @@
           "repo": "ruvnet/RuView",
           "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
           "language": "Rust",
-          "stars": 59618,
+          "stars": 59622,
           "recent_stars": 963,
           "url": "https://github.com/ruvnet/RuView",
           "topics": [
@@ -160,7 +160,7 @@
           "repo": "supertone-inc/supertonic",
           "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
           "language": "Swift",
-          "stars": 8090,
+          "stars": 8099,
           "recent_stars": 827,
           "url": "https://github.com/supertone-inc/supertonic",
           "topics": [
@@ -179,7 +179,7 @@
           "repo": "BigBodyCobain/Shadowbroker",
           "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one u",
           "language": "Python",
-          "stars": 7543,
+          "stars": 7548,
           "recent_stars": 768,
           "url": "https://github.com/BigBodyCobain/Shadowbroker",
           "topics": [
@@ -198,7 +198,7 @@
           "repo": "plausible/analytics",
           "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
           "language": "Elixir",
-          "stars": 25772,
+          "stars": 25775,
           "recent_stars": 637,
           "url": "https://github.com/plausible/analytics",
           "topics": [
@@ -217,7 +217,7 @@
           "repo": "K-Dense-AI/scientific-agent-skills",
           "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
           "language": "Python",
-          "stars": 24210,
+          "stars": 24213,
           "recent_stars": 610,
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
           "topics": [
@@ -236,7 +236,7 @@
           "repo": "NVlabs/Sana",
           "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
           "language": "Python",
-          "stars": 6352,
+          "stars": 6357,
           "recent_stars": 472,
           "url": "https://github.com/NVlabs/Sana",
           "topics": [
@@ -255,7 +255,7 @@
           "repo": "humanlayer/12-factor-agents",
           "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
           "language": "TypeScript",
-          "stars": 20311,
+          "stars": 20317,
           "recent_stars": 359,
           "url": "https://github.com/humanlayer/12-factor-agents",
           "topics": [
@@ -274,7 +274,7 @@
           "repo": "ZhuLinsen/daily_stock_analysis",
           "description": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
           "language": "Python",
-          "stars": 36854,
+          "stars": 36863,
           "recent_stars": 290,
           "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
           "topics": [
@@ -292,7 +292,7 @@
           "repo": "ggml-org/llama.cpp",
           "description": "LLM inference in C/C++",
           "language": "C++",
-          "stars": 110813,
+          "stars": 110818,
           "recent_stars": 179,
           "url": "https://github.com/ggml-org/llama.cpp",
           "topics": [
@@ -308,7 +308,7 @@
           "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
           "url": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined/",
           "score": 781,
-          "comments": 337,
+          "comments": 338,
           "why_hot": "Major discussion across HN; indicates broad impact beyond niche audience."
         },
         {
@@ -328,50 +328,50 @@
         {
           "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
           "url": "https://github.com/tech4bot/rk3562deb",
-          "score": 406,
+          "score": 407,
           "comments": 207,
           "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "GenCAD",
           "url": "https://gencad.github.io/",
-          "score": 388,
+          "score": 389,
           "comments": 102,
           "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "It is time to give up the dualism introduced by the debate on consciousness",
           "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
-          "score": 187,
-          "comments": 478,
+          "score": 191,
+          "comments": 490,
           "why_hot": "HN story with meaningful engagement; relevant tech discussion."
         },
         {
           "title": "Where Are the Vibecoded Photoshops?",
           "url": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
           "score": 218,
-          "comments": 271,
+          "comments": 281,
           "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "Two EA-18 fighter jets collide at Mountain Home airshow, pilots ejected safely",
           "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
-          "score": 229,
-          "comments": 233,
+          "score": 230,
+          "comments": 235,
           "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
           "title": "Prolog Basics Explained with Pokémon",
           "url": "https://unplannedobsolescence.com/blog/prolog-basics-pokemon/",
-          "score": 265,
-          "comments": 46,
+          "score": 267,
+          "comments": 48,
           "why_hot": "HN story with meaningful engagement; relevant tech discussion."
         },
         {
           "title": "Hindenburg’s Smoking Room",
           "url": "https://www.airships.net/hindenburg-smoking-room/",
-          "score": 220,
-          "comments": 179,
+          "score": 221,
+          "comments": 180,
           "why_hot": "Strong HN engagement; likely important development in other."
         },
         {
@@ -391,7 +391,7 @@
         {
           "title": "Jank now has its own custom IR",
           "url": "https://jank-lang.org/blog/2026-05-08-optimization/",
-          "score": 183,
+          "score": 186,
           "comments": 36,
           "why_hot": "HN story with meaningful engagement; relevant tech discussion."
         },
@@ -405,7 +405,7 @@
         {
           "title": "Ask an Astronaut: 333 hours of Q&A footage with astronauts",
           "url": "https://askanastronaut.issinrealtime.org/",
-          "score": 175,
+          "score": 176,
           "comments": 22,
           "why_hot": "HN story with meaningful engagement; relevant tech discussion."
         }
@@ -414,20 +414,20 @@
         {
           "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
           "url": "https://github.com/MinishLab/semble",
-          "score": 391,
+          "score": 394,
           "comments": 130
         },
         {
           "title": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
           "url": "https://github.com/stephenlthorn/auto-identity-remove",
           "score": 282,
-          "comments": 110
+          "comments": 113
         },
         {
           "title": "Show HN: Files.md – Open-source alternative to Obsidian",
           "url": "https://github.com/zakirullin/files.md",
-          "score": 87,
-          "comments": 37
+          "score": 115,
+          "comments": 59
         },
         {
           "title": "Show HN: Mezz, a curl-able WiFi sandbox for IoT pentesting",
@@ -438,68 +438,80 @@
       ]
     },
     "reddit": {
-      "hot_topics": [],
+      "hot_topics": [
+        {
+          "topic": "r/PublicFreakout",
+          "subreddits": [
+            "r/PublicFreakout"
+          ],
+          "sample_titles": [
+            "Eric Schmidt booed into oblivion by students for promoting AI during his commencement speech at the University of Arizona",
+            "Eric Schmidt booed into oblivion by students for promoting AI during his commencement speech at the University of Arizona"
+          ],
+          "why_important": "2 posts; active discussion."
+        }
+      ],
       "topPosts": [
         {
           "title": "An AI hate wave is here",
           "url": "https://www.reddit.com/r/technology/comments/1tfuroe/an_ai_hate_wave_is_here/",
-          "score": 15823,
-          "comments": 2060,
+          "score": 15883,
+          "comments": 2061,
           "subreddit": "r/technology",
           "post_summary": "An AI hate wave is here An AI hate wave is here. relevant to AI, infrastructure, or open-source ecosystem movements"
         },
         {
           "title": "Former Microsoft VP says Microsoft missed the AI wave like the internet and mobile, as Copilot scales back in Windows 11",
           "url": "https://www.reddit.com/r/technology/comments/1tg8uvr/former_microsoft_vp_says_microsoft_missed_the_ai/",
-          "score": 7873,
-          "comments": 758,
+          "score": 8009,
+          "comments": 771,
           "subreddit": "r/technology",
           "post_summary": "Former Microsoft VP says Microsoft missed the AI wave like the internet and mobile, as Copilot scales back in Windows 11 Being more intentional about how Copilot integrates\" is corporate speak for \"so"
         },
         {
           "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’",
           "url": "https://www.reddit.com/r/technology/comments/1tgewe8/linus_torvalds_says_aipowered_bug_hunters_have/",
-          "score": 7753,
-          "comments": 501,
+          "score": 8015,
+          "comments": 526,
           "subreddit": "r/technology",
           "post_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’ Last time Linus got sufficiently annoyed about tools used for managing Linux development"
         },
         {
           "title": "The Death of Entry-Level Jobs: 43% of CEOs plan to slash junior roles over the next two years, shifting hiring to older, mid-level workers as AI takes over routine tasks, creating a catastrophic bottleneck for the future workforce.",
           "url": "https://www.reddit.com/r/Futurology/comments/1tg0rtt/the_death_of_entrylevel_jobs_43_of_ceos_plan_to/",
-          "score": 6505,
-          "comments": 494,
+          "score": 6539,
+          "comments": 499,
           "subreddit": "r/futurology",
           "post_summary": "The Death of Entry-Level Jobs: 43% of CEOs plan to slash junior roles over the next two years, shifting hiring to older, mid-level workers as AI takes over routine tasks, creating a catastrophic bottl"
         },
         {
           "title": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also also manipulated to address user as ‘My Lord’",
           "url": "https://www.reddit.com/r/technology/comments/1tfwsim/linkedin_user_hides_ai_prompt_injection_in_bio_to/",
-          "score": 6041,
-          "comments": 142,
+          "score": 6052,
+          "comments": 143,
           "subreddit": "r/technology",
           "post_summary": "LinkedIn user hides AI prompt injection in bio to force recruitment spam to be sent in Olde English prose — bots also also manipulated to address user as ‘My Lord’ Is this the only way to even get you"
         },
         {
           "title": "Gavin Newsom proposes a California digital software tax",
           "url": "https://www.reddit.com/r/technology/comments/1tg9itb/gavin_newsom_proposes_a_california_digital/",
-          "score": 4253,
-          "comments": 626,
+          "score": 4296,
+          "comments": 635,
           "subreddit": "r/technology",
           "post_summary": "Gavin Newsom proposes a California digital software tax Almost zero chance he's buying ANY software in Best Buy.  C'mon dude.. &gt; \"As someone who lives near a Best Buy, I'm at Best Buy often,\" Newso"
         },
         {
           "title": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom",
           "url": "https://www.reddit.com/r/technology/comments/1tgaxod/a_45000person_labor_strike_at_samsungs_memory/",
-          "score": 3601,
-          "comments": 121,
+          "score": 3649,
+          "comments": 123,
           "subreddit": "r/technology",
           "post_summary": "A 45,000-person labor strike at Samsung's memory chip plants could throw a wrench into the AI boom love how the headline frames workers fighting for fair pay as a \"wrench\" in corporate profits &gt;Sam"
         },
         {
           "title": "AI license plate cameras tore this town apart and led to a state of emergency",
           "url": "https://www.reddit.com/r/technology/comments/1tfzzg7/ai_license_plate_cameras_tore_this_town_apart_and/",
-          "score": 2576,
+          "score": 2586,
           "comments": 131,
           "subreddit": "r/technology",
           "post_summary": "AI license plate cameras tore this town apart and led to a state of emergency &gt;Mayor Carmella Mantello, flanked by officers in blue, accused the city council of “defunding” the police and declared "
@@ -507,47 +519,47 @@
         {
           "title": "The AI Hate Wave Is Here",
           "url": "https://www.reddit.com/r/Futurology/comments/1tg3wm7/the_ai_hate_wave_is_here/",
-          "score": 1433,
-          "comments": 357,
+          "score": 1447,
+          "comments": 360,
           "subreddit": "r/futurology",
           "post_summary": "The AI Hate Wave Is Here The AI Hate Wave Is Here. relevant to AI, infrastructure, or open-source ecosystem movements"
         },
         {
+          "title": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement",
+          "url": "https://www.reddit.com/r/technology/comments/1tgn94p/exgoogle_ceo_eric_schmidt_booed_after_ai_remarks/",
+          "score": 1423,
+          "comments": 76,
+          "subreddit": "r/technology",
+          "post_summary": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement ​It is hilarious how these tech billionaires think they can stand in front of a crowd of graduates and lecture them about AI. "
+        },
+        {
           "title": "Yum Brands, Nvidia will deploy new AI at 500 restaurants",
           "url": "https://www.reddit.com/r/technology/comments/1tfuf0d/yum_brands_nvidia_will_deploy_new_ai_at_500/",
-          "score": 1263,
+          "score": 1265,
           "comments": 336,
           "subreddit": "r/technology",
           "post_summary": "Yum Brands, Nvidia will deploy new AI at 500 restaurants Could I have some ketchup? Ketchup was first used by Mongolian horsemen during the campaigns of Kublai Khan. Would you like to know more?"
         },
         {
-          "title": "The U.S. Still Doesn't Have an Answer to China's EV Dominance",
-          "url": "https://www.reddit.com/r/technology/comments/1tg0aju/the_us_still_doesnt_have_an_answer_to_chinas_ev/",
-          "score": 1030,
-          "comments": 364,
-          "subreddit": "r/technology",
-          "post_summary": "The U.S. Still Doesn't Have an Answer to China's EV Dominance The US companies spent their subsidies on profits for shareholders rather than value for consumers. What do you mean? They already answere"
-        },
-        {
-          "title": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement",
-          "url": "https://www.reddit.com/r/technology/comments/1tgn94p/exgoogle_ceo_eric_schmidt_booed_after_ai_remarks/",
-          "score": 1071,
-          "comments": 61,
-          "subreddit": "r/technology",
-          "post_summary": "Ex-Google CEO Eric Schmidt booed after AI remarks at Arizona commencement ​It is hilarious how these tech billionaires think they can stand in front of a crowd of graduates and lecture them about AI. "
-        },
-        {
           "title": "American Jobs with AI Exposure Really Are Starting to Disappear, Data Show",
           "url": "https://www.reddit.com/r/technology/comments/1tghnoe/american_jobs_with_ai_exposure_really_are/",
-          "score": 1009,
-          "comments": 207,
+          "score": 1078,
+          "comments": 218,
           "subreddit": "r/technology",
           "post_summary": "American Jobs with AI Exposure Really Are Starting to Disappear, Data Show &gt;involve interfacing between people and systems. There's going to be a reckoning with roles in this specific area, because"
         },
         {
+          "title": "The U.S. Still Doesn't Have an Answer to China's EV Dominance",
+          "url": "https://www.reddit.com/r/technology/comments/1tg0aju/the_us_still_doesnt_have_an_answer_to_chinas_ev/",
+          "score": 1038,
+          "comments": 365,
+          "subreddit": "r/technology",
+          "post_summary": "The U.S. Still Doesn't Have an Answer to China's EV Dominance The US companies spent their subsidies on profits for shareholders rather than value for consumers. What do you mean? They already answere"
+        },
+        {
           "title": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
           "url": "https://www.reddit.com/r/technology/comments/1tfywhc/pope_decries_rise_of_aidirected_warfare_saying_it/",
-          "score": 965,
+          "score": 964,
           "comments": 58,
           "subreddit": "r/technology",
           "post_summary": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation Holy s\\*hit. We're in a timeline now in 26 where the Pope is warning about Robot wars. We're so back This is the k"
@@ -555,39 +567,39 @@
         {
           "title": "OrcaSlicer developer Josef Prusa says Bambu Lab allegedly violates AGPL license with an un-auditable network \"black box\" — warns Chinese 3D printing software poses massive security risks",
           "url": "https://www.reddit.com/r/technology/comments/1tfy723/orcaslicer_developer_josef_prusa_says_bambu_lab/",
-          "score": 863,
+          "score": 867,
           "comments": 52,
           "subreddit": "r/technology",
           "post_summary": "OrcaSlicer developer Josef Prusa says Bambu Lab allegedly violates AGPL license with an un-auditable network \"black box\" — warns Chinese 3D printing software poses massive security risks This title is"
         },
         {
-          "title": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet.",
-          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfyut4/technically_my_website_could_make_me_80_billion/",
-          "score": 722,
-          "comments": 223,
-          "subreddit": "r/cryptocurrency",
-          "post_summary": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet."
-        },
-        {
           "title": "Polymarket Spreads Sensationalist Garbage About Hantavirus Case in U.S.",
           "url": "https://www.reddit.com/r/technology/comments/1tfzvzt/polymarket_spreads_sensationalist_garbage_about/",
-          "score": 754,
+          "score": 759,
           "comments": 48,
           "subreddit": "r/technology",
           "post_summary": "Polymarket Spreads Sensationalist Garbage About Hantavirus Case in U.S. We need polymarket to act as a Darwin Award test for idiots with extra cash. Gambling on life outcomes... This is peak late stag"
         },
         {
+          "title": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet.",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tfyut4/technically_my_website_could_make_me_80_billion/",
+          "score": 720,
+          "comments": 224,
+          "subreddit": "r/cryptocurrency",
+          "post_summary": "Technically my website could make me $80 billion. It won't. But it could. It tries to brute force guess Satoshi Nakamoto Wallet. Yo bro give each of us some BTC once you get it. Don't forget your root"
+        },
+        {
           "title": "Windows 11 looks and runs better without transparency or animations—here's how to disable both",
           "url": "https://www.reddit.com/r/technology/comments/1tge855/windows_11_looks_and_runs_better_without/",
-          "score": 726,
-          "comments": 71,
+          "score": 745,
+          "comments": 73,
           "subreddit": "r/technology",
           "post_summary": "Windows 11 looks and runs better without transparency or animations—here's how to disable both All you have to do is go to Settings &gt; Personalization &gt; Color and then disable \"Transparency effec"
         },
         {
           "title": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation",
           "url": "https://www.reddit.com/r/Futurology/comments/1tfva8u/pope_decries_rise_of_aidirected_warfare_saying_it/",
-          "score": 731,
+          "score": 734,
           "comments": 38,
           "subreddit": "r/futurology",
           "post_summary": "Pope decries rise of AI-directed warfare, saying it leads to a spiral of annihilation"
@@ -595,15 +607,23 @@
         {
           "title": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tgibc2/linus_torvalds_says_aipowered_bug_hunters_have/",
-          "score": 603,
+          "score": 633,
           "comments": 47,
           "subreddit": "r/cybersecurity",
           "post_summary": "Linus Torvalds says AI-powered bug hunters have made Linux security mailing list ‘almost entirely unmanageable’"
         },
         {
+          "title": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments.",
+          "url": "https://www.reddit.com/r/Futurology/comments/1tgjx35/scientists_catch_antimatter_atom_acting_like_a/",
+          "score": 455,
+          "comments": 20,
+          "subreddit": "r/futurology",
+          "post_summary": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments."
+        },
+        {
           "title": "A million baby monitors and security cameras were easily viewable by hackers",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tg2s2h/a_million_baby_monitors_and_security_cameras_were/",
-          "score": 435,
+          "score": 436,
           "comments": 27,
           "subreddit": "r/cybersecurity",
           "post_summary": "A million baby monitors and security cameras were easily viewable by hackers It ticks me off more than it should that a) this isn’t the first time nor the last time that this has happened with child d"
@@ -611,32 +631,24 @@
         {
           "title": "​A New Legal Precedent: Chinese court orders tech company to pay £28,000 ($35,000) in compensation to a worker who was fired and replaced by AI.",
           "url": "https://www.reddit.com/r/Futurology/comments/1tgde26/a_new_legal_precedent_chinese_court_orders_tech/",
-          "score": 419,
-          "comments": 18,
+          "score": 416,
+          "comments": 19,
           "subreddit": "r/futurology",
           "post_summary": "​A New Legal Precedent: Chinese court orders tech company to pay £28,000 ($35,000) in compensation to a worker who was fired and replaced by AI."
         },
         {
-          "title": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments.",
-          "url": "https://www.reddit.com/r/Futurology/comments/1tgjx35/scientists_catch_antimatter_atom_acting_like_a/",
-          "score": 419,
-          "comments": 17,
-          "subreddit": "r/futurology",
-          "post_summary": "Scientists catch antimatter “atom” acting like a wave for the first time - A bizarre antimatter “atom” just proved it can act like a wave—opening the door to new quantum and gravity experiments."
-        },
-        {
           "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
           "url": "https://www.reddit.com/r/cybersecurity/comments/1tgda6s/new_windows_miniplasma_zeroday_exploit_gives/",
-          "score": 333,
-          "comments": 43,
+          "score": 343,
+          "comments": 44,
           "subreddit": "r/cybersecurity",
           "post_summary": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released This is... Pretty bad. It sounds like a regression in Microsoft's source code, but if that's true it really makes me wonder "
         },
         {
           "title": "Iran Introduces Bitcoin-Based Maritime Insurance Platform for Hormuz Shipping",
           "url": "https://www.reddit.com/r/CryptoCurrency/comments/1tgje7w/iran_introduces_bitcoinbased_maritime_insurance/",
-          "score": 256,
-          "comments": 40,
+          "score": 276,
+          "comments": 43,
           "subreddit": "r/cryptocurrency",
           "post_summary": "Iran Introduces Bitcoin-Based Maritime Insurance Platform for Hormuz Shipping Iran rolled out something called Hormuz Safe... a state-backed maritime insurance setup for vessels operating in the Persi"
         }
@@ -745,7 +757,7 @@
         },
         {
           "id": "hexgrad/Kokoro-82M",
-          "likes": 6161,
+          "likes": 6162,
           "tags": [
             "text-to-speech",
             "en",
@@ -917,20 +929,6 @@
     "product_launch": {
       "top_products": [
         {
-          "name": "Shadow",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/shadow-4",
-          "why_notable": "Notable new launch"
-        },
-        {
-          "name": "LobeHub",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/lobehub",
-          "why_notable": "Notable new launch"
-        },
-        {
           "name": "Krea 2",
           "tagline": "",
           "votes": 0,
@@ -938,38 +936,10 @@
           "why_notable": "Notable new launch"
         },
         {
-          "name": "LandingHero AI",
+          "name": "Moody",
           "tagline": "",
           "votes": 0,
-          "url": "https://www.producthunt.com/products/landinghero-ai-2",
-          "why_notable": "AI-native"
-        },
-        {
-          "name": "Agentspan",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/agentspan",
-          "why_notable": "AI-native"
-        },
-        {
-          "name": "Searchad.ai",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/searchad-ai",
-          "why_notable": "AI-native"
-        },
-        {
-          "name": "Draft",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/draft-12",
-          "why_notable": "Notable new launch"
-        },
-        {
-          "name": "M1 by Montage",
-          "tagline": "",
-          "votes": 0,
-          "url": "https://www.producthunt.com/products/montage-3",
+          "url": "https://www.producthunt.com/products/moody-music-synced-album-wallpaper",
           "why_notable": "Notable new launch"
         },
         {
@@ -980,10 +950,52 @@
           "why_notable": "Notable new launch"
         },
         {
+          "name": "Polarity",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/polarity-2",
+          "why_notable": "Notable new launch"
+        },
+        {
+          "name": "Agentspan",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/agentspan",
+          "why_notable": "AI-native"
+        },
+        {
+          "name": "SizzleAir",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/sizzleair",
+          "why_notable": "AI-native"
+        },
+        {
+          "name": "M1 by Montage",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/montage-3",
+          "why_notable": "Notable new launch"
+        },
+        {
           "name": "Voiser AI",
           "tagline": "",
           "votes": 0,
           "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+          "why_notable": "AI-native"
+        },
+        {
+          "name": "QuickRight",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/capture-6",
+          "why_notable": "Notable new launch"
+        },
+        {
+          "name": "Triggered Agents by Adaptive",
+          "tagline": "",
+          "votes": 0,
+          "url": "https://www.producthunt.com/products/triggered-agents-by-adaptive",
           "why_notable": "AI-native"
         }
       ]
@@ -992,68 +1004,35 @@
       "emerging_roles": [
         {
           "role": "Senior Software Engineer",
-          "count": 4,
+          "count": 3,
           "example_companies": [
-            "Camber",
+            "Banner",
             "Nova Credit",
-            "Banner"
+            "Pine Park Health"
           ],
           "why_signal": "Multiple postings; strong demand"
         },
         {
-          "role": "Full Stack Engineer",
-          "count": 2,
+          "role": "Backend Engineer",
+          "count": 1,
           "example_companies": [
-            "Runway",
-            "Hotplate"
+            "GoGoGrandparent"
           ],
           "why_signal": "Emerging role"
         },
         {
-          "role": "Mobile Engineer (Android)",
+          "role": "Technical Operations & AI Automation Engineer - (Bangkok/Hybrid)",
           "count": 1,
           "example_companies": [
-            "Circle Medical"
+            "Peakflo"
           ],
           "why_signal": "Emerging role"
         },
         {
-          "role": "Full Stack Product Engineer",
+          "role": "Software Engineer - Backend & Data (Eastern Europe)",
           "count": 1,
           "example_companies": [
-            "Wefunder"
-          ],
-          "why_signal": "Emerging role"
-        },
-        {
-          "role": "Cloud Engineer (SRE)",
-          "count": 1,
-          "example_companies": [
-            "Heroic Labs"
-          ],
-          "why_signal": "Emerging role"
-        },
-        {
-          "role": "Software Engineer, Data Platform",
-          "count": 1,
-          "example_companies": [
-            "OneChronos"
-          ],
-          "why_signal": "Emerging role"
-        },
-        {
-          "role": "Security & Compliance Engineer",
-          "count": 1,
-          "example_companies": [
-            "Arist"
-          ],
-          "why_signal": "Emerging role"
-        },
-        {
-          "role": "AI Engineer, Quality",
-          "count": 1,
-          "example_companies": [
-            "Fieldguide"
+            "SPATE"
           ],
           "why_signal": "Emerging role"
         },
@@ -1066,10 +1045,42 @@
           "why_signal": "Emerging role"
         },
         {
-          "role": "The Blaze \"No AI Summer\" Internship",
+          "role": "Systems Engineer",
           "count": 1,
           "example_companies": [
-            "Text Blaze"
+            "Substack"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Full Stack Developer - Bountiful",
+          "count": 1,
+          "example_companies": [
+            "Bountiful"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Senior AI Engineer I",
+          "count": 1,
+          "example_companies": [
+            "BillionToOne"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "Design-Focused React Native Engineer",
+          "count": 1,
+          "example_companies": [
+            "Truss"
+          ],
+          "why_signal": "Emerging role"
+        },
+        {
+          "role": "New Grad Software Engineer",
+          "count": 1,
+          "example_companies": [
+            "Confido"
           ],
           "why_signal": "Emerging role"
         }
@@ -1079,9 +1090,9 @@
   "keyword_clusters": [
     {
       "name": "Security",
-      "count": 20,
+      "count": 19,
       "sample_terms": [
-        "security(10)",
+        "security(9)",
         "linux security(4)",
         "security mailing(4)",
         "exploit(2)"
@@ -1089,9 +1100,9 @@
     },
     {
       "name": "AI Agent Infra",
-      "count": 15,
+      "count": 16,
       "sample_terms": [
-        "agents(3)",
+        "agents(4)",
         "ai-agents(2)",
         "agent-skills(2)",
         "agent(2)",
@@ -1111,21 +1122,22 @@
       ]
     },
     {
+      "name": "Multimodal",
+      "count": 10,
+      "sample_terms": [
+        "text-to-image(4)",
+        "speech(2)",
+        "styletts2-ljspeech(2)",
+        "vision-language-action(2)"
+      ]
+    },
+    {
       "name": "LLM / Reasoning",
       "count": 8,
       "sample_terms": [
         "llm(4)",
         "llm-powered(2)",
         "llms(2)"
-      ]
-    },
-    {
-      "name": "Multimodal",
-      "count": 8,
-      "sample_terms": [
-        "text-to-image(4)",
-        "styletts2-ljspeech(2)",
-        "vision-language-action(2)"
       ]
     },
     {
@@ -1158,24 +1170,6 @@
       "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
     },
     {
-      "term": "security mailing",
-      "count": 4,
-      "sources": [
-        "reddit"
-      ],
-      "definition_hint": "Emerging concept around \"security mailing\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
-    },
-    {
-      "term": "mailing list",
-      "count": 4,
-      "sources": [
-        "reddit"
-      ],
-      "definition_hint": "Emerging concept around \"mailing list\" detected across multiple sources.",
-      "why_interesting": "Rising concept with 4 mentions; early signal worth tracking."
-    },
-    {
       "term": "ai-directed warfare",
       "count": 4,
       "sources": [
@@ -1202,7 +1196,7 @@
       ],
       "alpha_thesis": "DeepSeek-R1는 reasoning 모델로서 open-source 생태계에서 가장 영향력 있는 모델 중 하나. 기업과 연구팀이 실제 agent/agent infra 구축에 이 모델을 backbone으로 채택하고 있음. 6-12개월 내 파생 모델과 fine-tune이 폭발적으로 증가할 것으로 예상.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
       ],
       "sector_themes": [
         "AI Coding / DevTools",
@@ -1217,7 +1211,7 @@
       ],
       "alpha_thesis": "FLUX.1-dev는 이미지 생성 모델 중 현재 가장 높은 community likes를 기록 중. Stable Diffusion 이후 가장 의미 있는 open-weight image model. 12개월 내 AI-native 디자인/마케팅 워크플로우의 표준 backbone이 될 가능성이 높음.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1231,7 +1225,7 @@
       ],
       "alpha_thesis": "SDXL은 이미 production-ready이며 수많은 파생 모델의 base. 단기 alpha는 아니지만, 새로운 fine-tune/adapter 프로젝트가 이 모델을 기반으로 나올 때마다 watch할 필요가 있음.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1257,7 +1251,7 @@
       ],
       "alpha_thesis": "Multimodal 모델로서, AI-native UX(voice, vision, video)의 backbone이 될 수 있음. Latency와 cost가 개선되면, 실제 production agent에 채택될 가능성이 높음.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Image generation models compete on quality/speed; open-weight models may be outpaced by proprietary alternatives."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1271,7 +1265,7 @@
       ],
       "alpha_thesis": "Meta-Llama-3-8B는 open-source LLM 중 가장 널리 쓰이는 backbone 중 하나. Agent infra, RAG, fine-tuning ecosystem이 이 모델 주위에 집중되어 있음. 단기 alpha는 아니지만, 파생 프로젝트 watch의 기준점.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
       ],
       "sector_themes": [
         "MLOps / Infra"
@@ -1299,7 +1293,7 @@
       ],
       "alpha_thesis": "Whisper-large-v3는 speech-to-text의 de facto 표준. AI voice agent, real-time transcription, accessibility tooling 등 다양한 영역에서 backbone으로 사용 중. 12-24개월 내 voice-first AI UX의 핵심 인프라.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Voice/speech models face high bar for latency and accuracy in production; edge deployment adds complexity."
       ],
       "sector_themes": [
         "Multimodal"
@@ -1313,7 +1307,7 @@
       ],
       "alpha_thesis": "Llama-3.1-8B-Instruct는 instruction-tuned variant로, agent tool-calling과 RAG 파이프라인에서 널리 사용 중. 실제 production agent의 backbone으로서 영향력이 큼.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
       ],
       "sector_themes": []
     },
@@ -1325,7 +1319,7 @@
       ],
       "alpha_thesis": "Research-grade 모델. 실제 alpha는 이 모델을 기반으로 하는 파생 프로젝트에서 나옴. 12개월 내 ecosystem forks를 watch.",
       "risk": [
-        "Research-to-production gap; may not scale outside controlled environments."
+        "Foundation models require massive compute for fine-tuning; derivative projects face infrastructure cost barriers."
       ],
       "sector_themes": [
         "AI Coding / DevTools"
@@ -1335,13 +1329,13 @@
   "sector_themes": [
     {
       "name": "Security",
-      "count": 20,
+      "count": 19,
       "sources": 2,
       "outlook": "AI security is becoming a standalone category; prompt injection, data leaks, and model attacks are real business risks."
     },
     {
       "name": "AI Agent Infra",
-      "count": 15,
+      "count": 16,
       "sources": 2,
       "outlook": "Agent infra is transitioning from demos to production; expect consolidation around 3-5 key frameworks by 2027."
     },
@@ -1352,16 +1346,16 @@
       "outlook": "AI-native devtools will reshape how 80% of code is written within 3 years. Early movers have a distribution moat."
     },
     {
+      "name": "Multimodal",
+      "count": 10,
+      "sources": 2,
+      "outlook": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product."
+    },
+    {
       "name": "LLM / Reasoning",
       "count": 8,
       "sources": 2,
       "outlook": "Reasoning models are becoming the new battleground; companies betting on superior reasoning will capture enterprise demand."
-    },
-    {
-      "name": "Multimodal",
-      "count": 8,
-      "sources": 2,
-      "outlook": "Multimodal models are no longer 'nice to have' — they're becoming the default for any serious AI product."
     },
     {
       "name": "MLOps / Infra",
